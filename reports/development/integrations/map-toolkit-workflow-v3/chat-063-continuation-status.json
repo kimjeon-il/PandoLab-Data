@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "surface": "general-chat",
+  "pluginVersion": "0.6.3",
+  "codeRevision": "749c15490c778b28403d18ef1d2ad883955ffa4f",
+  "overall": "incomplete-final-review-persistence-failed",
+  "gates": {
+    "installedResourcesNodePythonWasm": "passed",
+    "actualDefault4MpOcrOnnxAnalysis": "passed",
+    "initialRevise": "blocked-at-lock",
+    "assistedCalibrationAndExclude": "passed with returned diagnostic and locally verified first export",
+    "boundaryAddReviewExport": "first revision5 export passed with manual temporary cleanup",
+    "nextTurnReviseReexportDownload": "affine/projective revisions6-7 passed; review8 persistence failed; second export not executed",
+    "phoneGeneralChat": "not-verified",
+    "nativeWindowsAndroid": "pending-existing-availability-limitations"
+  },
+  "continuation": {
+    "singleConversation": true,
+    "freshAnalysisCount": 1,
+    "staleLockCleanup": {
+      "confirmedUnlinkCount": 3,
+      "confirmedLogicalBytes": 146,
+      "cleanupBatches": 4,
+      "duplicatePartsUnlinked": 2,
+      "emptyDirectoriesRemoved": 2,
+      "ownerProcessAbsent": true,
+      "protectedBytesUnchangedDuringVerifiedCleanup": true,
+      "toolPolicyDenialObserved": false,
+      "method": "Verified normal fs unlink/rmdir; no alternate path after denial"
+    },
+    "observedProgress": {
+      "manualGeoreferenceCvP95Pixels": 30.6933,
+      "sameSourceWithheldP95Pixels": 14.5414,
+      "automaticRecommended": false,
+      "excludedChainId": 4615,
+      "reportedOtherChainsExactEqual": 9643,
+      "proofLimit": "Returned final diagnostic and first export bytes verified locally. Final review8 invariants remain unavailable because actual persisted job is empty."
+    },
+    "pending": null,
+    "rootCause": "unconfirmed",
+    "finalOutcome": {
+      "overall": "stopped-on-unrecovered-current-job-after-second-review",
+      "unattendedFullWorkflowPassed": false,
+      "manualMaintenanceAssistedFirstExportPassed": true,
+      "affineProjectiveRoundtripValidatedThroughRevision7": true,
+      "secondReviewCliExitCode": 0,
+      "secondReviewCliReportedRevision": 8,
+      "secondReviewPersistedJobValid": false,
+      "secondExportExecuted": false,
+      "deliveredExportRevision": 5,
+      "deliveredExportMeaning": "Preserved first successful authentic export; not a completed second export or current revision 8 result.",
+      "rootCause": "unconfirmed"
+    }
+  },
+  "delivery": {
+    "downloadedDiagnosticBytes": 71498,
+    "downloadedDiagnosticSha256": "4edc2184ae47364bda2b42172cf097bb0d857acfac7bd535600af7d363d61182",
+    "requestedFiveExportFilesReceived": true,
+    "previousArchiveIntegrity": "not accepted; cloud follow-up reported truncated archive and hash mismatch",
+    "exportRevision": 5,
+    "allSixFilesDownloadedAndHashesVerified": true,
+    "receipt": "chat-063-export-receipt.json"
+  },
+  "scope": {
+    "productCodeChanged": false,
+    "pluginReleaseChanged": false,
+    "retraining": false,
+    "mainIntegration": false,
+    "appBuild": false,
+    "fullProjectChecks": false
+  },
+  "model": {
+    "evaluationStatus": "pending",
+    "trainingOnly": true,
+    "releaseApproved": false
+  },
+  "storage": {
+    "localRemovedLogicalBytes": 197830,
+    "cloudConfirmedRemovedLogicalBytes": 67338318,
+    "additionalCloudCleanup": "4 cleanup batches verified in returned diagnostic; final invalid job, part and lock preserved",
+    "cloudRetainedKnown": {
+      "currentJobBytes": 0,
+      "partBytes": 0,
+      "lockBytes": 49,
+      "firstSuccessfulExportAndDiagnosticsLocalBytes": 44521250
+    },
+    "retentionReason": "Only locally verified first successful signed export and final diagnostic remain as current root-cause investigation and result-verification evidence; transient UI/text snapshots were removed.",
+    "beforeFreeBytes": {
+      "C": 49917091840,
+      "D": 56665804800
+    },
+    "afterFreeBytes": {
+      "C": 49912160256,
+      "D": 56666005504
+    },
+    "measuredChangeBytes": {
+      "C": -4931584,
+      "D": 200704
+    },
+    "driveDeltaAttribution": "This local deletion window only; concurrent activity and filesystem allocation differences are not attributed as cleanup gain.",
+    "localRemovedTargets": [
+      {
+        "name": "chat-063-environment-response.txt",
+        "bytes": 15425,
+        "sha256": "4fc5912e328abf614fb08d5e91a09c06e70d91e73e680b8c387bec5d360b19ec",
+        "reason": "Superseded transient UI/text observation; actual downloaded final diagnostic, first valid signed export and published receipts now provide the required evidence."
+      },
+      {
+        "name": "chat-063-continuation-response.txt",
+        "bytes": 44436,
+        "sha256": "6dd784d22ae92ec19af27f8c0fc0fca0ac0679329140c738567a4ba441cf7759",
+        "reason": "Superseded transient UI/text observation; actual downloaded final diagnostic, first valid signed export and published receipts now provide the required evidence."
+      },
+      {
+        "name": "chat-063-continuation-pending.png",
+        "bytes": 137969,
+        "sha256": "5169b663009e9c9cee86175feb8a42f3853d6967daa0e6fd64b25d190553263f",
+        "reason": "Superseded transient UI/text observation; actual downloaded final diagnostic, first valid signed export and published receipts now provide the required evidence."
+      }
+    ],
+    "firstExportAndDiagnosticRetainedBytes": 44521250
+  }
+}
