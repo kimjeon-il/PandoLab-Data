@@ -209,13 +209,6 @@
       "lesseeCountryId": "USA"
     },
     {
-      "sourceCountryId": "KAB",
-      "parentId": "KAZ",
-      "basis": "legal-belonging",
-      "note": "카자흐스탄 귀속. 러시아의 임차 관계는 법적 소속과 별도로 기록합니다.\n경계 출처: 카자흐스탄·러시아 바이코누르 임대협정의 공식 좌표와 시르다리야강 우안에 사용된 OpenStreetMap 파생 자료.\n© OpenStreetMap contributors · ODbL 1.0 · https://www.openstreetmap.org/copyright\n원본·파생 데이터: https://github.com/kimjeon-il/PandoLab-library-data/blob/0b080946cda3c9150ac07693b6c5b03951313027/reports/geography/ne-selected-20261023/odbl-source-and-derivative.zip\n임대협정: https://old.adilet.zan.kz/rus/docs/U950002195_\n표시 경계는 약 1km 수준으로 일반화한 파생본이며, 법적 측량선으로 확정하지 않았습니다.",
-      "lesseeCountryId": "RUS"
-    },
-    {
       "sourceCountryId": "PGA",
       "parentId": "USA"
     }
@@ -267,12 +260,5 @@
       "disputed": true
     }
   ],
-  "sourceAttributions": {
-    "KAZ": {
-      "scope": "바이코누르와 접하는 카자흐스탄 경계 일부: 공식 임대협정 좌표와 시르다리야강 우안 OpenStreetMap 파생 자료.",
-      "archive": "https://github.com/kimjeon-il/PandoLab-library-data/blob/0b080946cda3c9150ac07693b6c5b03951313027/reports/geography/ne-selected-20261023/odbl-source-and-derivative.zip",
-      "agreement": "https://old.adilet.zan.kz/rus/docs/U950002195_",
-      "precision": "약 1km 수준으로 일반화한 표시용 경계이며, 법적 측량선으로 확정하지 않았습니다."
-    }
-  }
+  "sourceAttributions": {}
 }

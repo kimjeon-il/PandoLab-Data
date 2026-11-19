@@ -1360,17 +1360,6 @@
     },
     {
       "schemaVersion": 2,
-      "lineageId": "kab",
-      "names": {
-        "ko": "바이코누르"
-      },
-      "entityRefs": [
-        "state:KAB"
-      ],
-      "relations": []
-    },
-    {
-      "schemaVersion": 2,
       "lineageId": "kas",
       "names": {
         "ko": "시아첸빙하"
@@ -13160,74 +13149,6 @@
     },
     {
       "schemaVersion": 2,
-      "entityId": "state:KAB",
-      "entityKind": "general",
-      "lineageId": "kab",
-      "names": {
-        "ko": "바이코누르"
-      },
-      "alternateNames": [],
-      "lifetime": {
-        "validFrom": "1995-09-25",
-        "validTo": null
-      },
-      "parentEntityId": "state:KAZ",
-      "geometryVersions": [
-        {
-          "versionId": "state:KAB:natural-earth-5.1.1",
-          "validFrom": "1995-09-25",
-          "validTo": null,
-          "certainty": "low",
-          "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-          "modernBoundarySupplement": {
-            "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-            "status": "approved-display-candidate",
-            "historicalAccuracyVerified": false,
-            "effectiveDateEstablished": false,
-            "sourceFile": "evidence/baikonur/KAB.geojson",
-            "simplificationToleranceMeters": 1000,
-            "simplificationProjection": "EPSG:32641",
-            "boundaryCertainty": "low",
-            "unresolved": [
-              "Treaty coordinate datum not established; WGS84 assumption",
-              "Present-day OSM bank does not establish treaty-era bank",
-              "Narrow road and railway exclusions not resolved"
-            ],
-            "displayGeneralization": "Whole outline constrained at 1 km; 26 major official points and all southern points 21–30 fixed; minor north detours and river chains simplified",
-            "displayExclusions": "Four large exclusions conservatively simplified to cover all original excluded area without topology change; display exclusion area increases 7.371787 km2 (not a legal boundary change); Toretam/Akai display holes omitted (2.859003731 km2)",
-            "pairing": "KAZ is original NE KAZ+KAB union minus remade KAB; therefore also an OSM-derived paired geometry"
-          }
-        }
-      ],
-      "instantiation": {
-        "mode": "independent",
-        "countryUpdates": {}
-      },
-      "metadata": {
-        "sourceFeatureId": "KAB",
-        "representativeGeometryVersionId": "state:KAB:natural-earth-5.1.1"
-      },
-      "sourceInfo": {
-        "title": "Natural Earth 5.1.1 paired with new Baikonur treaty/OSM 1 km display reconstruction",
-        "license": "Natural Earth public domain; OSM-derived geometry © OpenStreetMap contributors, ODbL 1.0; official treaty coordinate source",
-        "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023"
-      },
-      "file": "state-KAB.json.gz",
-      "validFrom": "1995-09-25",
-      "validTo": null,
-      "compressedBytes": 2507,
-      "decodedBytes": 10479,
-      "sha256": "42d4a760fe270bd6b3f049f1d5719bbf11fe5721c9712f17dd3d60de46a82d26",
-      "bbox": [
-        62.74444444444445,
-        45.44305555555555,
-        64.31666666666666,
-        46.30277777777778
-      ],
-      "geometryVersionCount": 1
-    },
-    {
-      "schemaVersion": 2,
       "entityId": "state:KAS",
       "entityKind": "general",
       "lineageId": "kas",
@@ -13296,14 +13217,12 @@
           "validFrom": "1991-12-16",
           "validTo": "1995-09-24",
           "certainty": "medium",
-          "sourceId": "natural-earth-5.1.1-late-soviet-adjustment",
-          "notes": "Existing late-Soviet coordinates reused for the post-transition macro outline; no coordinate reconstruction performed.",
+          "sourceId": "natural-earth-5.1.1-independent-kazakhstan-full",
+          "notes": "Natural Earth 5.1.1 complete Kazakhstan mainland and islands; the formerly separate Baikonur lease area is Kazakhstan land in every selected period. Approximate historical outer outline.",
           "historicalProvenance": {
             "sourceEntityId": "state:soviet-union-kazakh-ssr",
             "sourceGeometryVersionId": "state:soviet-union-kazakh-ssr:1991-r1",
-            "periodSources": [
-              "https://old.adilet.zan.kz/rus/docs/U950002195_"
-            ]
+            "note": "Independent public-domain Kazakhstan whole-country outline; no Baikonur lease boundary."
           }
         },
         {
@@ -13311,31 +13230,11 @@
           "validFrom": "1995-09-25",
           "validTo": null,
           "certainty": "medium",
-          "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-          "modernBoundarySupplement": {
-            "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023",
-            "status": "approved-display-candidate",
-            "historicalAccuracyVerified": false,
-            "effectiveDateEstablished": false,
-            "sourceFile": "evidence/baikonur/KAZ.geojson",
-            "simplificationToleranceMeters": 1000,
-            "simplificationProjection": "EPSG:32641",
-            "boundaryCertainty": "low",
-            "unresolved": [
-              "Treaty coordinate datum not established; WGS84 assumption",
-              "Present-day OSM bank does not establish treaty-era bank",
-              "Narrow road and railway exclusions not resolved"
-            ],
-            "displayGeneralization": "Whole outline constrained at 1 km; 26 major official points and all southern points 21–30 fixed; minor north detours and river chains simplified",
-            "displayExclusions": "Four large exclusions conservatively simplified to cover all original excluded area without topology change; display exclusion area increases 7.371787 km2 (not a legal boundary change); Toretam/Akai display holes omitted (2.859003731 km2)",
-            "pairing": "KAZ is original NE KAZ+KAB union minus remade KAB; therefore also an OSM-derived paired geometry"
-          },
-          "notes": "Existing coordinates reused from this macro display transition; later survey-level boundary detail is not independently established here.",
+          "sourceId": "natural-earth-5.1.1-independent-kazakhstan-full",
+          "notes": "Natural Earth 5.1.1 complete Kazakhstan mainland and islands; the formerly separate Baikonur lease area is Kazakhstan land in every selected period. Approximate historical outer outline.",
           "historicalProvenance": {
-            "periodSources": [
-              "https://old.adilet.zan.kz/rus/docs/U950002195_"
-            ],
-            "scope": "Lease display subdivision; Kazakhstan sovereignty is unchanged. Existing modern lease outline remains approximate for the treaty era."
+            "scope": "Lease display subdivision; Kazakhstan sovereignty is unchanged. Existing modern lease outline remains approximate for the treaty era.",
+            "note": "Independent public-domain Kazakhstan whole-country outline; no Baikonur lease boundary."
           }
         }
       ],
@@ -13349,16 +13248,14 @@
         "representativeGeometryVersionId": "state:KAZ:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 paired with new Baikonur treaty/OSM 1 km display reconstruction",
-        "license": "Natural Earth public domain; OSM-derived geometry © OpenStreetMap contributors, ODbL 1.0; official treaty coordinate source",
-        "sourceId": "natural-earth-5.1.1+baikonur-treaty-osm-remade-1km-20261023"
+        "title": "Natural Earth 5.1.1 Admin 0 Kazakhstan country exterior, with no lease hole",
+        "license": "Public domain (Natural Earth)",
+        "sourceId": "natural-earth-5.1.1-independent-kazakhstan-full"
       },
       "file": "state-KAZ.json.gz",
-      "validFrom": "1991-12-16",
-      "validTo": null,
-      "compressedBytes": 78856,
-      "decodedBytes": 722602,
-      "sha256": "f278d40b3228544bb4a2cfb7cdaad37293f084953b0432394d280118fa081a71",
+      "compressedBytes": 77431,
+      "decodedBytes": 715304,
+      "sha256": "be3571b21df1acb03a970943e1463eb7db5132e21a71bd647e5c45110ffaa2a9",
       "bbox": [
         46.478279,
         40.584656,
@@ -13414,11 +13311,9 @@
         "sourceId": ""
       },
       "file": "state-soviet-union-kazakh-ssr.json.gz",
-      "validFrom": "1936-12-05",
-      "validTo": "1991-12-15",
-      "compressedBytes": 42235,
-      "decodedBytes": 362309,
-      "sha256": "239bcbbb9f9f5837e8024ed269b1a1c6ff8d956df24a246f207310b777e3f163",
+      "compressedBytes": 42297,
+      "decodedBytes": 362321,
+      "sha256": "e9ff846a4272c60fca560801f979c78c4a901d4bb94358866710a0201574aebc",
       "bbox": [
         46.478279,
         40.584656,
@@ -34745,10 +34640,6 @@
         {
           "entityId": "state:KAS",
           "geometryVersionId": "state:KAS:natural-earth-5.1.1"
-        },
-        {
-          "entityId": "state:KAB",
-          "geometryVersionId": "state:KAB:natural-earth-5.1.1"
         },
         {
           "entityId": "state:WSB",
