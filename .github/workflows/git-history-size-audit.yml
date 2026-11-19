@@ -1,0 +1,46 @@
+name: Read-only Git history size audit
+on:
+  workflow_dispatch: null
+permissions:
+  contents: read
+jobs:
+  history-dryrun:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |-
+            .github
+            tools
+            tests
+            scripts
+            config
+          filter: blob:none
+      - uses: actions/checkout@v4
+        with:
+          repository: kimjeon-il/Pando
+          ref: 19fd518ca115786d0179347f677cb94596110ed4
+          path: .dependencies/pando
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Audit full Git mirror and isolated rewritten copy
+        shell: bash
+        run: bash tools/storage/history/git-history-dryrun.sh
+        env:
+          PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
+          NODE_OPTIONS: --import=./tools/register-consumer.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pando-git-history-readonly-evidence
+          path: ${{ runner.temp }}/pando-git-history-dryrun/evidence/
+          retention-days: 30
+          if-no-files-found: warn
