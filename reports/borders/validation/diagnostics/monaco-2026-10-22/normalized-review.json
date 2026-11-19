@@ -1,0 +1,41 @@
+{
+  "status": "focused-normalized-review",
+  "historicalGroundTruthVerified": false,
+  "identities": [
+    {
+      "entityId": "state:FRA",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "versionId": "state:FRA:natural-earth-5.1.1",
+      "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
+      "sha256": "deb0684a46af43692253f7fadc4408c890818530f8c10afb6e9b53c11dd7bbb8"
+    },
+    {
+      "entityId": "state:MCO",
+      "lifetime": {
+        "validFrom": null,
+        "validTo": null
+      },
+      "versionId": "state:MCO:natural-earth-5.1.1",
+      "sourceId": "natural-earth-5.1.1+dos-lsib-11.4+ign-bdtopo-v3-monaco-coast",
+      "sha256": "34c9582ceb451ed8613a8c307b5fa17e810d5c9f2778ac4570957cb871d8fe87"
+    }
+  ],
+  "overlapSquareDegrees": 0,
+  "monacoAreaKm2Before": 18.83981022530353,
+  "monacoAreaKm2After": 2.0765042825898634,
+  "landAddedKm2": 0.5875408653123707,
+  "landRemovedKm2": 0.7280464215237787,
+  "outerAnchors": [
+    [
+      7.407500968129213,
+      43.720986946748155
+    ],
+    [
+      7.457628188085217,
+      43.75908999380241
+    ]
+  ]
+}
