@@ -1,3 +1,0 @@
-Command: ["node", "--check", "tests/unit/country-shared-boundary-generator.test.mjs"]
-Exit code: 0
-

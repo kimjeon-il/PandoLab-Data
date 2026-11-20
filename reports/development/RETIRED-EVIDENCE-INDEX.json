@@ -1,0 +1,2050 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-20",
+  "kind": "retired-development-evidence-index",
+  "sourceCommit": "5c3d5c4f7d04285d405dc0477068852e05f92fbc",
+  "principle": "retired implementation traces / repeated acceptance media / obsolete build logs; structured findings and source references remain; exact originals obtainable through Git object ID",
+  "removedCount": 340,
+  "files": [
+    {
+      "path": "integrations/main-20261025/canvas-date-reuse.png",
+      "blobSha": "bc26c45a477a3c5b085188565567dc64ff656159",
+      "bytes": 944490,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-addendum.log",
+      "blobSha": "e84c3c4502350597a232e8a4307197ab176c1e1f",
+      "bytes": 1333,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-browser.log",
+      "blobSha": "51a5542401b9b54b4e8eae8f0584d5900ff386c5",
+      "bytes": 1696,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-gis-node.log",
+      "blobSha": "bca807c41baf33012549fc363aed90721ce3da84",
+      "bytes": 5457,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-lifetimes.log",
+      "blobSha": "584801dd200dc876de51d5a8f5205086721c1778",
+      "bytes": 122,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-pages.log",
+      "blobSha": "6acfc5969224389eae9ca7a8e0c3e3d1b824a203",
+      "bytes": 89,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-resource.log",
+      "blobSha": "7c8f8ae0c03fb2aeb7ee36586fe23bdc90382898",
+      "bytes": 17886,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-storage-native.log",
+      "blobSha": "fcee191ca6be2a19e7cfe1f1313fab09b430ac19",
+      "bytes": 5184,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-temporal-fixtures.log",
+      "blobSha": "ad97f17be3101bbc54ddffe5f2cc2f0be191aa67",
+      "bytes": 2565,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/main-integration-ussr.log",
+      "blobSha": "a2fb55807d9a2ad195728a67135117af2bf20acf",
+      "bytes": 425,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/native-main.png",
+      "blobSha": "76d9065d4be8bbd50de339735390b0b9a97958f6",
+      "bytes": 129736,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/main-20261025/scoped-lifetime-check.mjs",
+      "blobSha": "8c351876a8cbd1d99a3486d60c303f0e8ae4f6a4",
+      "bytes": 2243,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/main-20261025/webgl-date-reuse.png",
+      "blobSha": "fd31e6d5901eef8069b89961504ab5b151afd861",
+      "bytes": 943581,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/map-toolkit-georeference-quality/symbol-comparison.mjs",
+      "blobSha": "3a27aba06aba078584e03af4d5ccdd90198742b1",
+      "bytes": 1834,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/actual-071-export.log",
+      "blobSha": "9614544c9a0809407055209f9ab301c82b5bcf3a",
+      "bytes": 465,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/actual-071-map.log",
+      "blobSha": "70060110c2e2485e03723f057af69f4a5b3ee3a2",
+      "bytes": 2361,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/actual-071-revise.log",
+      "blobSha": "e140b4685861c2e4598ce5a415d180b5b668019a",
+      "bytes": 357,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/cache-sharing-tests.log",
+      "blobSha": "12280cd92944ec1321d43f5abc2c395e307ea9ce",
+      "bytes": 1315,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/codex-cache-071-export.log",
+      "blobSha": "e151c9362aba26ab31c8ee9e88b9a87e1ef4826a",
+      "bytes": 477,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/final-contracts.log",
+      "blobSha": "fc4ac32061d4b86713a48bc5baed910ae6488df3",
+      "bytes": 14928,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/pando-59-tests.log",
+      "blobSha": "c9232f4b08e7d7639627ce1232598e23f9e9caee",
+      "bytes": 5980,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/report-scope-green.log",
+      "blobSha": "248fccb584516d900d6705e52415bdda45c2669b",
+      "bytes": 224,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/checks/viewer-scope-7-tests.log",
+      "blobSha": "a13b2b90ca0ebbb740e49e8248d81c5317ee0199",
+      "bytes": 811,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-evaluation/proximity-dev-check.mjs",
+      "blobSha": "0910c51166199c7126d7d661b81fa8ca7bc324ba",
+      "bytes": 1190,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/macro-color-dev.cpp",
+      "blobSha": "21eec13efea22c5ef29c5d874a5a36d54b8aa60c",
+      "bytes": 706,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/macro-finish-dev.cpp",
+      "blobSha": "7fdc8550ad9837acfa99e532d4a6e16a4d328286",
+      "bytes": 878,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/macro-mask-dev-check.mjs",
+      "blobSha": "c04e52f8435203e947f853ef374005f9a6267851",
+      "bytes": 1602,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/macro-mask-dev.cpp",
+      "blobSha": "e47bcc6bf8098d5fd6b1fed0e2d5938b73980c83",
+      "bytes": 623,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/training-large-rotated-tile.rgba",
+      "blobSha": "4111d965157459c4256c186f99fef14059891438",
+      "bytes": 1048576,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-image/training-large-tile.rgba",
+      "blobSha": "395d65436bed3984ffd6d1376d46efc1d73175c8",
+      "bytes": 1048576,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/prior-execution/native-prototypes/map-review/wide-line-dev.cpp",
+      "blobSha": "ca13f6a02c1dcfdcf5d743fcb292b5e4d7c98e51",
+      "bytes": 580,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/map-toolkit-separation/shared-runtime/shared-toolkit.gz",
+      "blobSha": "6bd8e6a48c02fb05388f56fbad09a8993a86d03b",
+      "bytes": 44579173,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-canvas-batch-proof.mjs",
+      "blobSha": "0136bf28a578dd4c689c63eaaadc8b2d9b5e03fe",
+      "bytes": 2406,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-cli-proof.mjs",
+      "blobSha": "0ac5a8f7eb64754d190ae21941571fbc5c433957",
+      "bytes": 4309,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-clip-proof.mjs",
+      "blobSha": "95a82357e485e513175bc041fc60946becd6b81a",
+      "bytes": 2653,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-edit-mcp-proof.mjs",
+      "blobSha": "c0b95aba93d0ef266850317379884267b43743ed",
+      "bytes": 5591,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-edit-proof.mjs",
+      "blobSha": "1725220853b4b4f58ac9696684b83979658ec1a7",
+      "bytes": 6816,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-integer-proof.mjs",
+      "blobSha": "64f1da3337f341c888280433bdcafd01f0a25501",
+      "bytes": 1836,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-mcp-proof.mjs",
+      "blobSha": "94c77cdd4d2ffbd17d30e7a0effc32f47b64ac2b",
+      "bytes": 3427,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-project-screen-proof.mjs",
+      "blobSha": "43a002cbe738339140e087cc196bbe7616a2d410",
+      "bytes": 2054,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-projection-proof.mjs",
+      "blobSha": "0d0ebcc054913599b00e0d4fb93e2fcf45fcabaa",
+      "bytes": 3088,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/qgis-mcp-20261024/native-proof-sources/native-proof-run.mjs",
+      "blobSha": "b2e11170303d84d5e441e31d7bb1227575a7f5e9",
+      "bytes": 3378,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/deployment/ci-browser/public-viewer-boot-publish-83b32-and-completes-a-year-change/public-viewer-initial.jpg",
+      "blobSha": "446fe8af441398e3d5db1108086978bb676d3b32",
+      "bytes": 124968,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/deployment/ci-browser/public-viewer-boot-publish-83b32-and-completes-a-year-change/public-viewer.jpg",
+      "blobSha": "a16247eb4ca4b6a0c193932b081c732646d535fd",
+      "bytes": 124667,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/instrumented-488c845a/apps__viewer__js__modules__viewer-composition.js",
+      "blobSha": "50ce01ef0a530bc0ce4a969c39a2ae04dd0df369",
+      "bytes": 28463,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/instrumented-f53efa37/apps__viewer__js__modules__viewer-composition.js",
+      "blobSha": "50ce01ef0a530bc0ce4a969c39a2ae04dd0df369",
+      "bytes": 28463,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-A-memory-0.png",
+      "blobSha": "28101af9d9e0ed1656d17527a73b480c1c13dc2c",
+      "bytes": 943306,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-A-memory-19.png",
+      "blobSha": "5f3ccba345cf4db1469a56849a3f8fe96151c8da",
+      "bytes": 944574,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-B-webgl-initial-after.png",
+      "blobSha": "dcecc5a3a706b30d90707988b1b978086a552a86",
+      "bytes": 930327,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-B-webgl-initial-before.png",
+      "blobSha": "21c4f5052b51dd24af60b0aef1a3f2de44b377cb",
+      "bytes": 941498,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-B-webgl-notice-settled-after.png",
+      "blobSha": "21c4f5052b51dd24af60b0aef1a3f2de44b377cb",
+      "bytes": 941498,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-B-webgl-notice-settled-before.png",
+      "blobSha": "21c4f5052b51dd24af60b0aef1a3f2de44b377cb",
+      "bytes": 941498,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-B-webgl-notice-settled.png",
+      "blobSha": "03442dfca2a8fbe13ae2f7f4873debd2adb19b93",
+      "bytes": 944319,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-history-A-0-0.png",
+      "blobSha": "f1501825fde5b25c88cf76ca97fac6dbb4315f08",
+      "bytes": 941930,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-history-A-0-1.png",
+      "blobSha": "d9b365443abd5a98140f4515a589ec786797ea53",
+      "bytes": 941377,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-history-A-0-trace.json.gz",
+      "blobSha": "a545567ec96fc53a851a27c535e4cd4aecbfbfd3",
+      "bytes": 3407101,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-history-A2-0-trace.json.gz",
+      "blobSha": "b201b90dfc62e416b84efd2bc2dd88e057773981",
+      "bytes": 3468515,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/performance/w65-history-B-0-trace.json.gz",
+      "blobSha": "ba535b5f62e8d0a71599cd15d2c1b6c9f44cc167",
+      "bytes": 3426972,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/p5-7-core-equivalence-2026-11-01/native-fixture-output.jsonl",
+      "blobSha": "12fb0f0e198ab242746f24083d7c6979bede2d1e",
+      "bytes": 41578,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/browser-preflight.png",
+      "blobSha": "c472b7a1bc281bde14c3394ff62c445c3c68f3bc",
+      "bytes": 150086,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/profile-rename-fixture-browser.log",
+      "blobSha": "b8068db87059c941c3850ddf672dc05e85646572",
+      "bytes": 3900,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/profile-rename-fixture-stage.log",
+      "blobSha": "c3b203850e75a456e400f9cd961c3147e6a616d8",
+      "bytes": 106,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/profile-rename-map-browser.log",
+      "blobSha": "5202062ebc898e976983a4204d21bbbf37816f32",
+      "bytes": 8153,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/profile-rename-map-stage.log",
+      "blobSha": "4c7e4de2a18af9937e050146d660b2ad3eda0520",
+      "bytes": 104,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/profile-rename-tests.log",
+      "blobSha": "594cd1ca7ebcee2d22e2712d1bca385568a9c8d1",
+      "bytes": 7291,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-browser.log",
+      "blobSha": "a71e3f9aee897f70d8185eec6cfede0087bb82e0",
+      "bytes": 3206,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-check-plan.log",
+      "blobSha": "3d6ab0b3b8ba7e510493f012b7d34396eb2b0380",
+      "bytes": 307,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-metadata-check.log",
+      "blobSha": "31fdf163aa65f9263c12606aeef71926b6dc0655",
+      "bytes": 1446,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-metadata.log",
+      "blobSha": "4fff53c3eb05f26be51ea1ab2dca13361f285c62",
+      "bytes": 106,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-pages-failure.log",
+      "blobSha": "fe20e6dd70a09d563dc3d2f450406aa9fadf089f",
+      "bytes": 54585,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-pinned-check.log",
+      "blobSha": "31fdcf73b490e285c21cb0bb2bab58577fb4abb2",
+      "bytes": 105,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-pinned-generated.log",
+      "blobSha": "c2ff14582f241a3993c6972fe67e0b6d4e59a493",
+      "bytes": 106,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-pinned-red.log",
+      "blobSha": "01a91643fc28fd5d9adadb6962a3bf5c70598587",
+      "bytes": 23830,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-pinned-unit.log",
+      "blobSha": "0613e224e64896bb1714744cc102943a44fb9afd",
+      "bytes": 898,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/release-unit.log",
+      "blobSha": "0d253b4c721c6789c63dcf8239fc7a1d42d1c433",
+      "bytes": 11868,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/verification-browser-preflight.png",
+      "blobSha": "c1c6e30b1400529db25a252efdb80e70ca38b6e8",
+      "bytes": 54059,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-browser.log",
+      "blobSha": "c78a1c48defa5d0cc02c3b4acd16625a1d83324d",
+      "bytes": 1961,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/view-menu-keyboard.log",
+      "blobSha": "3bc6b0d1f29cd9ed6213b6abe7d8e1ab6f082d91",
+      "bytes": 707,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/view-menu-mobile-red.log",
+      "blobSha": "f8c7198740d8133ca4dd3f6ec9cee5dd5473ecd3",
+      "bytes": 2643,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/view-menu-plan.log",
+      "blobSha": "bbd910d49be61f8074d846b999aee8dd3fcca252",
+      "bytes": 255,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/distribution-distribution--27462-bmenu-on-desktop-and-mobile/test-failed-1.png",
+      "blobSha": "68270543ee1a85edfc12dba0bc6f8846962ef26d",
+      "bytes": 278086,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+      "blobSha": "089548daca531254abd48509336df77a165c087b",
+      "bytes": 35840,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/keyboard/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+      "blobSha": "444c468ae5cc5b322aa104b16c742618edf53d90",
+      "bytes": 18054,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-desktop.png",
+      "blobSha": "afd2321cce432fae2cb6c8553889df2d12816698",
+      "bytes": 35687,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/general-view-menu-one-obje-f10bf-avigation-and-mobile-layout/object-menu-mobile.png",
+      "blobSha": "a80b287dcb18196968b98abd635acdad411cd5ad",
+      "bytes": 18038,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png",
+      "blobSha": "eeda3ff4a479879b1e6401603c544ffb1837741b",
+      "bytes": 527551,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png",
+      "blobSha": "8c45ae038064e8fda15d3bfb39b26c6bc91b6ea4",
+      "bytes": 841670,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png",
+      "blobSha": "0825b9a3e3b16973e933e6d34166466679a2f2e3",
+      "bytes": 173061,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png",
+      "blobSha": "e526f4d827c1ace75bf1edbb78295e0850a35b14",
+      "bytes": 198993,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png",
+      "blobSha": "7f8ff57c9e5fa71ad4fd47722338f54c357bb717",
+      "bytes": 362901,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+      "blobSha": "68db5a1929804086652506549f6dbb8eab63cf0f",
+      "bytes": 51887,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/release/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+      "blobSha": "b135036cad3543043a861fce1a4ae0529aaf86f0",
+      "bytes": 34012,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-1-1440.png",
+      "blobSha": "198cf02fd35ee84d287c84e32cac5b42bb797e25",
+      "bytes": 51785,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-results/viewer-project-open-viewer-7d6e3-ltin-sources-stay-available/viewer-menu-2-390.png",
+      "blobSha": "39d4f3bc70341a7f187dd2ed0a184141201ced69",
+      "bytes": 33993,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "native/web-shell/view-menu-unit.log",
+      "blobSha": "018e6cf8329950c79769efaf793855c56a2fd57d",
+      "bytes": 4874,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/baseline-audit.mjs",
+      "blobSha": "c7968a40563f211e86d1bf01b50a619da6747ef7",
+      "bytes": 1996,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/baseline-timeline.log",
+      "blobSha": "9ee0e565f220440df0014907560528d1bb0e681d",
+      "bytes": 771,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/baseline-worker-audit.log",
+      "blobSha": "10b80f8303ad1986fca97780f83c9c7ebb269736",
+      "bytes": 507,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/ddr-baseline-core.mjs",
+      "blobSha": "0ad65f70122d6057947986e75ea593cf21eba7e6",
+      "bytes": 51379,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/ddr-latest-data.mjs",
+      "blobSha": "b86502abd464f79bf4cf616ad101dae9f216462e",
+      "bytes": 2858,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/exact-calculation-performance.mjs",
+      "blobSha": "86f2f15533bf3f1dd0893840c1ed662c05162153",
+      "bytes": 12443,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/inventory.mjs",
+      "blobSha": "595d3e5e8fc80999979e026c68f0ae0e6dfdd0a6",
+      "bytes": 5127,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/live-proof.mjs",
+      "blobSha": "8ec801f2062eb27888628acbb3bc876c542b09db",
+      "bytes": 4354,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/performance-canonical.log",
+      "blobSha": "b4c2b423609361bc79a4173a27a9c921ab4b04b4",
+      "bytes": 1726,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/performance-final.log",
+      "blobSha": "20329a5d9ee23930c88112e09fab5b239def65ca",
+      "bytes": 20776,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/performance-parser-config.log",
+      "blobSha": "59f5065ccd9f869a0a7c20fe9cc7870ed7cb1a97",
+      "bytes": 19825,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "performance/exact-calculation-2026-10-23/sync-runtime-mounts.mjs",
+      "blobSha": "b2e0fe560a61060986c173fae5c7a30fbb3a4f34",
+      "bytes": 1548,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "releases/all-branches-main-integration-2026-10-23/app-web-shell-import.png",
+      "blobSha": "55d04a3cd464c4651a11120ebf8f8e0fd354a152",
+      "bytes": 179635,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/all-branches-main-integration-2026-10-23/web-viewer-file.png",
+      "blobSha": "6ceb4f2d119048381416a37917ea5ad23cddf341",
+      "bytes": 443763,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/branch-integration-2026-11-02/e5-windows/windows-review-stderr.txt",
+      "blobSha": "50e3ff828d0f783b751c0ddecfa1f2bffab6f6c6",
+      "bytes": 105,
+      "reason": "temporary runner file"
+    },
+    {
+      "path": "releases/branch-integration-2026-11-02/pages-browser/public-viewer-initial.jpg",
+      "blobSha": "19960f93f09871e24b32aed33dc8eb049f930467",
+      "bytes": 118169,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/branch-integration-2026-11-02/pages-browser/public-viewer.jpg",
+      "blobSha": "a16247eb4ca4b6a0c193932b081c732646d535fd",
+      "bytes": 124667,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1024.png",
+      "blobSha": "39a2de5c55fdf6b192ea494724da084ae833c0c4",
+      "bytes": 11903,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-1440.png",
+      "blobSha": "b5790852082f10a699a8953ba7b3c88c3124e469",
+      "bytes": 11143,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-annexEntityBtn-390.png",
+      "blobSha": "9d797ae2b4308574fd7290be2af249b7cd65a010",
+      "bytes": 10587,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1024.png",
+      "blobSha": "b266084cff92af5c9e82cbb40898e2b42cc9c0fd",
+      "bytes": 14750,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-1440.png",
+      "blobSha": "832ba5d44c55ee3cdb34daac5fce2895cfa453d2",
+      "bytes": 14644,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/remote-branch-integration-2026-10-24/browser/workflow-v17-task-windows--2e458-or-retains-its-focus-action/no-target-focus-editEntityBorderBtn-390.png",
+      "blobSha": "2b464cc963732f4228a9374264f223b0418e5758",
+      "bytes": 13351,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/temporal-map-transition-20261028/live-before-map.png",
+      "blobSha": "5000439d4c2d88c02eb4998442065cfe21d75b24",
+      "bytes": 533650,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/temporal-map-transition-20261028/live-completed.png",
+      "blobSha": "ad9f4ed47b3e49447ce948f255bd4f4cd68ff0ae",
+      "bytes": 561812,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/temporal-map-transition-20261028/live-failed-current.png",
+      "blobSha": "bb78e5bb43044eeb576781b2c7c4db23191141e0",
+      "bytes": 539350,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/temporal-map-transition-20261028/live-failed.png",
+      "blobSha": "a8990bfdca4f5a0f2115fb9ab761808030d76d31",
+      "bytes": 583816,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/temporal-map-transition-20261028/live-held.png",
+      "blobSha": "bb78e5bb43044eeb576781b2c7c4db23191141e0",
+      "bytes": 539350,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser.log",
+      "blobSha": "5e545163aec3855510031a087334045709035b2b",
+      "bytes": 1050,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/.last-run.json",
+      "blobSha": "cbcc1fbac11a74b608b2b3edc3a2ffd6ab639cb2",
+      "bytes": 45,
+      "reason": "temporary runner file"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1024.png",
+      "blobSha": "c0795a7b5e0375c324deac81a1c9929cb0f3a4b3",
+      "bytes": 673877,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-1440.png",
+      "blobSha": "e7d74c752b5bc03192a31ef2072e5dc8b53c90cd",
+      "bytes": 1037187,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-320.png",
+      "blobSha": "d89004fb0c6109d3346c4f61b84fc7b23676d269",
+      "bytes": 276807,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-390.png",
+      "blobSha": "0b1c7fb4f6efe8857d7cbde0ca48f177105fdd32",
+      "bytes": 305593,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/browser/timeline-controls-floating-34a2b-s-desktop-and-narrow-mobile/date-popover-800.png",
+      "blobSha": "e01d35966aeee2f4872cc182a712ba91c88e8954",
+      "bytes": 490211,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/live-date-tool.png",
+      "blobSha": "033f21c41d1b8f3024c15a01e8fcb3c3896425cb",
+      "bytes": 87511,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "releases/web-date-tool-release-2026-10-22-evidence/report-original.md.gz",
+      "blobSha": "77e46caaa47d1b10cbc08b43653c60f789795c67",
+      "bytes": 2709,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/map-startup-20261025/focused-units.log",
+      "blobSha": "2cb4c46f821974ea64fb31b0f8dcbe2de2d2e63a",
+      "bytes": 10902,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/map-startup-20261025/web-regression.log",
+      "blobSha": "f742f5dfd1eda14f3f7a67d293f693bd2ab03e53",
+      "bytes": 3681,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/north-korea-border-stroke-2026-10-22-evidence/north-korea-border-render.test.mjs",
+      "blobSha": "fe0104ab434219c06a3ced8a8d0e853c436fccfe",
+      "bytes": 6426,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/adjacent-initial.log",
+      "blobSha": "2b231ccaa429d5b27b26b591e7966eaaff2091e3",
+      "bytes": 52680,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/baseline.log",
+      "blobSha": "16439211fc7d4511d923a04ac60b35d18d3461df",
+      "bytes": 48596,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser.log",
+      "blobSha": "5c77de2a3e7e0be87127179cc3b8b940e43c6f78",
+      "bytes": 825,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser/.last-run.json",
+      "blobSha": "cbcc1fbac11a74b608b2b3edc3a2ffd6ab639cb2",
+      "bytes": 45,
+      "reason": "temporary runner file"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser/map-surface-quality-canvas-8589e-and-and-promotes-atomically/high-pending.png",
+      "blobSha": "20fdaa02cdae0eb50004cce0539d2a2e1ccf984d",
+      "bytes": 39840,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser/map-surface-quality-canvas-8589e-and-and-promotes-atomically/high-ready.png",
+      "blobSha": "c0f1b3550e3fefe6230202947c5189e2799afef3",
+      "bytes": 98726,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser/map-surface-quality-webgl2-86913-and-and-promotes-atomically/high-pending.png",
+      "blobSha": "5fae8f3072f927823e9b4efede45c553bc1775c5",
+      "bytes": 39911,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/browser/map-surface-quality-webgl2-86913-and-and-promotes-atomically/high-ready.png",
+      "blobSha": "2dba85d5d89ab0e7b9cde81b5833cf55e8fb91c1",
+      "bytes": 66459,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/canvas-worker-unit.log",
+      "blobSha": "7db8060bda389f6181aa17cd3aa9851aa6b61915",
+      "bytes": 2687,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/polygon-scale-20261025/focused-unit.log",
+      "blobSha": "00dbc3cad93e3d0a54f6da140434fb357df1b811",
+      "bytes": 3906,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/after-browser.log",
+      "blobSha": "9b1bb019b5b69b0999b2b19321696c7f3cb63428",
+      "bytes": 2557,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/baseline.log",
+      "blobSha": "29672daf07728a3a21b78eaf07f8c3af253b9a17",
+      "bytes": 49076,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/camera-red.log",
+      "blobSha": "9b869807e62616fa7f51895b965a5361adcc9541",
+      "bytes": 1477,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/canvas-committed-final.log",
+      "blobSha": "c7b02b05f0b4f7be00f36e6b78e425fc29acfccf",
+      "bytes": 525,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/canvas-core-closure-tests.log",
+      "blobSha": "053f513864a9792825e0d196fdfe175b6fa7ad23",
+      "bytes": 2043,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/canvas-world-final-run.log",
+      "blobSha": "fa94dc70144bdec28bc9e439f80e19716c6f17a9",
+      "bytes": 2951,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/canvas2d-world-final-run.log",
+      "blobSha": "9da1113881728b38d0cfd9af259b35461ff76574",
+      "bytes": 561,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/date-frame-diagnostic.log",
+      "blobSha": "1eb6b77ba253ad0e7fdfa4222f60bcbb2719b674",
+      "bytes": 2604,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-admission-gpu.log",
+      "blobSha": "3b002ec72ad303caa909662f9d993eea23baa653",
+      "bytes": 5504,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-affected-unit.log",
+      "blobSha": "74bd89eeb0933a3fc3edf979e5e93d7bdf4af14a",
+      "bytes": 6874,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-canvas-pixels.log",
+      "blobSha": "8ac3492d8280523e9c38c87bad853a269712dbf0",
+      "bytes": 493,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-canvas-unit.log",
+      "blobSha": "7170601da87dc9255cade831fb9f063ce4d122f4",
+      "bytes": 1194,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-fractional-pixels.log",
+      "blobSha": "9594d07ac3aaaa73fdd8732419e00b575b44feb0",
+      "bytes": 2677,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-gpu-red.log",
+      "blobSha": "d625a9a2adb19c044f30cb6a2803e6dfaaf532e9",
+      "bytes": 1102,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-red.log",
+      "blobSha": "c3a61a9fa00dc58278b068a2514e9dbb6c77b892",
+      "bytes": 3299,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/dem-shader-pixels.log",
+      "blobSha": "15bd0552cafa48e34093eafedea2259386eaf4be",
+      "bytes": 2384,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/final-lod-camera.log",
+      "blobSha": "b3ba08005536b3a4acffe58210903e63d178b2b4",
+      "bytes": 13670,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/final-publication.log",
+      "blobSha": "ebae95a27fa93be720bd1cfd7ca3a1e2b8151206",
+      "bytes": 3578,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/final-shared-source-identity.log",
+      "blobSha": "ca61f4fd2096744911b25b4f378d5be4bf6fa429",
+      "bytes": 3983,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/final-world-webgl2.log",
+      "blobSha": "02b3c516d823f890e6153b036772af2883e1ae34",
+      "bytes": 2471,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/frozen-oracle-retry.log",
+      "blobSha": "a20ecb03d87fd1d8bba08ea8b65af6c4cb33535d",
+      "bytes": 6252,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/frozen-oracle-spatial-retry.log",
+      "blobSha": "40ac7732bb4444c65acdb8eeab264ea73b595e41",
+      "bytes": 300,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/geometry-wasm-ci.log",
+      "blobSha": "c984b1c5f5345f73013ce31b8490d5688713d08b",
+      "bytes": 119170,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/http-browser.log",
+      "blobSha": "c611d7873e5c2b7ba6d4ef36f1c0a7f425400bc2",
+      "bytes": 2649,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/lod-camera-final-tests.log",
+      "blobSha": "66777e34b9be604f5427b3d34037f4561fef006a",
+      "bytes": 9831,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/lod-camera-regressions.log",
+      "blobSha": "5a5c9e90118bf4135e3229e7b619c7a466e6bc86",
+      "bytes": 5554,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/lod-focused.log",
+      "blobSha": "bb7a7b3ac677b11b393aa79c6274208feda40d8f",
+      "bytes": 2465,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/lod-red.log",
+      "blobSha": "3e9aee53aec60c0249dd7555751ad73535e85f74",
+      "bytes": 4154,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/physical-packet-red.log",
+      "blobSha": "4bc47a23af70e8614c69f7a51ea4cdc83e751d52",
+      "bytes": 922,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/physical-worker-red.log",
+      "blobSha": "f7fdfed55f96399c0b255e9a46fabcc75adc01dd",
+      "bytes": 1214,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/preview-contract-retry.log",
+      "blobSha": "d653c1124a944f6cf498554c82c664f802cf16dd",
+      "bytes": 7962,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/preview-dem-integration.log",
+      "blobSha": "b434f0b26f0ca50e6c46a81abc86f4c2b9bbc110",
+      "bytes": 3445,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/preview-red.log",
+      "blobSha": "8d261d0cb9fa0925e94b8381c6418646e0820619",
+      "bytes": 2658,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/regional-fixture-display-identity-failure.log",
+      "blobSha": "79f075a8135b949fdf1373d0a1796703ca55216e",
+      "bytes": 5680,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/render-lod-before-protected.mjs",
+      "blobSha": "4284bc0352570db277b5e82ae8d9db91dbce961f",
+      "bytes": 32680,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/renderer-resume-tests.log",
+      "blobSha": "e75e70079edc5c1b0fd252ca4053906c19a9d9ba",
+      "bytes": 2460,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/renderer-tests.log",
+      "blobSha": "40ed3c3c0a18294f194bd9ea445781d709d10173",
+      "bytes": 7308,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/retirement-contracts-final.log",
+      "blobSha": "86757695c981d12d060dde4ea4d233c0e7237bea",
+      "bytes": 16218,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/retirement-renderer-final.log",
+      "blobSha": "09ceae5db3a02664263fba20ccb1f7af57cd4f7f",
+      "bytes": 57087,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/server.log",
+      "blobSha": "e6bedaf10507d881b3aeac50bb21f17d622c9f31",
+      "bytes": 2292,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/surface-red.log",
+      "blobSha": "7cfa346e897047691d3e4419b884dc70221a6a6e",
+      "bytes": 2628,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/topology-red.log",
+      "blobSha": "e15fe77c57591772ce10e0096167e39b10bb5a12",
+      "bytes": 4408,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/worker-frame-red.log",
+      "blobSha": "0bd9da0c69e2789f8860186a5227c154ad1af45f",
+      "bytes": 3258,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/worker-red.log",
+      "blobSha": "acebc2fec9f3e2f72a04e8934882f0eb244c0256",
+      "bytes": 1749,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/evidence/zoom-red.log",
+      "blobSha": "55fcc027517af2b792d1e412284bd5d348a09008",
+      "bytes": 1922,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/resource-dependencies-20261025/resource-update-browser-final.log",
+      "blobSha": "e72bb532857deea90ad5e11631c1f8b96dfd9789",
+      "bytes": 838,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/resource-dependencies-20261025/resource-update-focused-final.log",
+      "blobSha": "f0f82e6e0b83e38554d1e95edb193e5bc9d904db",
+      "bytes": 18876,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/resource-dependencies-20261025/resource-update-startup-final.log",
+      "blobSha": "3060fc1ed9ced043b7add959cd2e4f844b261b1b",
+      "bytes": 1078,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/before-canvas-worker.png",
+      "blobSha": "59808b7198b0cd5eb8740330bd37ab2f829c1a45",
+      "bytes": 518858,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/before-canvas.png",
+      "blobSha": "15ba40bbba333101c531ad959ad8be5bea027501",
+      "bytes": 553893,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/before-webgl.png",
+      "blobSha": "a230917c6c89125344422fa9226d41b821bf0bb8",
+      "bytes": 543707,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/temporal-canvas-worker.png",
+      "blobSha": "3d3a420076f6431301e3192ab5a1fcba1d1e8edf",
+      "bytes": 576562,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/temporal-canvas.png",
+      "blobSha": "2399f6b58e4265baf1455fd4d83c2a672fcdcb8a",
+      "bytes": 576560,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "rendering/temporal-map-transition-20261028/temporal-webgl.png",
+      "blobSha": "c8ab41f7e45178ef38f347a018949672c9f19b36",
+      "bytes": 561865,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/final-upload-regressions.log",
+      "blobSha": "6ebe1d9f7a648c34f2424e28e04fbb0fd29cd12d",
+      "bytes": 640,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/lazy-viewer-flow.mjs",
+      "blobSha": "a5b449abea19516219c448a7d511f979c509e288",
+      "bytes": 2962,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/measure-assets.mjs",
+      "blobSha": "e6cf8d0c14d89ae4fe9e2c026ae52c4f12cb478b",
+      "bytes": 1746,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/measure-loading.mjs",
+      "blobSha": "d6d81a2801b73288c1bc34c6110eaefe9c46755b",
+      "bytes": 2242,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/temporal-source-coalescing-browser.log",
+      "blobSha": "40ad9da46dcc28a4a2a5688f375fbe7f0ee15df9",
+      "bytes": 1960,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/2026-11-09-domain-data-flow/evidence/viewer-input-flow.mjs",
+      "blobSha": "63190a77307f22639411c3501a688eaf3b43b2f0",
+      "bytes": 2849,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/application-cleanup-result.json.gz",
+      "blobSha": "c3051d02149de8d04a3dfb34add3935ba234356b",
+      "bytes": 914,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/apply-sdk.mjs.gz",
+      "blobSha": "50d4ddb7df476b486868c7a3008f2d2e7e4251ed",
+      "bytes": 977,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/before.json.gz",
+      "blobSha": "8a7cb241886ad87c5048d1bf3386fbe4c5967b24",
+      "bytes": 1772,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/blob-removed.json.gz",
+      "blobSha": "5faf0449256fa88275c92d79cc7baf77b050262a",
+      "bytes": 866,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.allocation.json.gz",
+      "blobSha": "e11a1fd91cb42038f88019057629a7da63ae93b2",
+      "bytes": 251,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.before.json.gz",
+      "blobSha": "f9243b0bcdc0b3aa441037ca68b1ad4adfe71bd4",
+      "bytes": 55,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.manifest.json.gz",
+      "blobSha": "510c17f58842140868d2ce3a473e18b0c6acb47e",
+      "bytes": 160451,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.policy.json.gz",
+      "blobSha": "82fdff256a022135fbba9eecbe4cdf12a6b85dc7",
+      "bytes": 6612,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.proof.json.gz",
+      "blobSha": "e8224f71ffec84a09f3def7ca7c4dd2ddbc6184b",
+      "bytes": 205,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/cache-online.result.json.gz",
+      "blobSha": "179ec2362a8afffda88a341a991e6a6f0c9e9a4e",
+      "bytes": 2669,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/ci-result.json.gz",
+      "blobSha": "092f86c42ac36656b02062ba891cb8352d2e9a58",
+      "bytes": 365,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/failed-native-transfer-proof.json.gz",
+      "blobSha": "8d48abc9cac7ecf0f5ce7a56df4682ffde5dd250",
+      "bytes": 514,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/final-unit.log.gz",
+      "blobSha": "f1bac6647aa966acca3e8b805e59a3e7d24265e5",
+      "bytes": 2064,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/final-workflow.log.gz",
+      "blobSha": "d3f6f2e52f8f48424a6fac9c4ec56c5fc8df16f5",
+      "bytes": 381,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/frontend-blobs-removed.json.gz",
+      "blobSha": "be23e068f3050915d669411aba371125194a316d",
+      "bytes": 649,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/frontend-removed.json.gz",
+      "blobSha": "3a2c08e8af926705fcdd796dfdefd47b26e4ebd8",
+      "bytes": 407,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/native-allocation-manifest.json.gz",
+      "blobSha": "3a02db94dbc9f20ccbb9b8f4c8f8e81b7429b7cd",
+      "bytes": 1524,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/native-allocation.json.gz",
+      "blobSha": "0b4cfe71ba51583491a609f4b58c895603626fc0",
+      "bytes": 211,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/native-preview.json.gz",
+      "blobSha": "64b5c654b9ba3065b6db36ffc18ccc86e64a2f10",
+      "bytes": 1045,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/native-removed.json.gz",
+      "blobSha": "61df76d265e0ceedda0357ae1eac6de60bc5cd0f",
+      "bytes": 1051,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/prepare-sdk.mjs.gz",
+      "blobSha": "aac0118834e62078f2b9713b195383d6b4cacda0",
+      "bytes": 1236,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/progress.md.gz",
+      "blobSha": "fdbb7abe4dd1a68d415862dbffcbcfa2beb3de0e",
+      "bytes": 338,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/protected-runtime-files.json.gz",
+      "blobSha": "84248cbcd3482141a3be0a60f450ef0710ccc273",
+      "bytes": 2281,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/recycle-allocation-manifest.json.gz",
+      "blobSha": "96d60b4d239dd267eb88283de1401054108c963b",
+      "bytes": 335186,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/recycle-allocation.json.gz",
+      "blobSha": "262cbc423b4d582198ddf9a32edd6d337282a5d7",
+      "bytes": 200,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/recycle-orphans-result.json.gz",
+      "blobSha": "5e4d2ac08072717c0bf35bf17d4a82e91d316824",
+      "bytes": 131,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/recycle-remaining.json.gz",
+      "blobSha": "d92c92e6a88ef35aadc369c27f50e5e9025ea711",
+      "bytes": 359,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/recycle-result.json.gz",
+      "blobSha": "b6fdc40356bc6023d3e0fe8d1ed49e9067645332",
+      "bytes": 190,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.allocation.json.gz",
+      "blobSha": "cd84da0ac7436bafabe5989257a1a7b305e836e2",
+      "bytes": 250,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.before.json.gz",
+      "blobSha": "1cacbe49d289215d8485ce54425afce313edc957",
+      "bytes": 54,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.manifest.json.gz",
+      "blobSha": "9589f989e5e7c4673e5e9a621a1de3406253d63e",
+      "bytes": 37612,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.policy.json.gz",
+      "blobSha": "a6967e7ae19cae1c1110728dde3d6d696259fd7a",
+      "bytes": 3888,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.proof.json.gz",
+      "blobSha": "c9a3f8e638c1b7f1fb62a30d27afe828e82c4b35",
+      "bytes": 206,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/retry-20261104-online.result.json.gz",
+      "blobSha": "2c066c7bcc1df9302bddf34c2d7eb20fa952f8cb",
+      "bytes": 2681,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-allocation.json.gz",
+      "blobSha": "0dc9e742e2560a80bfe3676e0e7440f8eac3d72b",
+      "bytes": 216,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-archive-members.json.gz",
+      "blobSha": "d17863543f0d83c6a54fe60e171ca9c5d040c53a",
+      "bytes": 498003,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-journal.json.gz",
+      "blobSha": "e1435dac6d2e09d73bb9b779eb38dd54b0c2d2d5",
+      "bytes": 212,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-manifest.json.gz",
+      "blobSha": "dc0a34f333d70a61f74551c896265ba1e66ef6dc",
+      "bytes": 2859905,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-options.json.gz",
+      "blobSha": "147b5088e55aa1a6e29b320405708ce0a924bfa3",
+      "bytes": 476,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-preview-proof.json.gz",
+      "blobSha": "a6a01f21d2bf1241b604921000163800ca1ba240",
+      "bytes": 162,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/sdk-result.json.gz",
+      "blobSha": "56f7fa4d2a784981b30feb1f845d82aa2fec1800",
+      "bytes": 257,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/transfer-allocation.json.gz",
+      "blobSha": "89f41d78adf1001a693cbd1962737120bf6ee9bf",
+      "bytes": 199,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/transfer-manifest.json.gz",
+      "blobSha": "a118416ef299d69f8d731c4810e1d30872f8aaee",
+      "bytes": 27888,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/transfer-result.json.gz",
+      "blobSha": "6f789dc1af0721b1422ab58f7df715bc1535fdc5",
+      "bytes": 246,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/cache-lifecycle-cleanup-20261104/windows-build-info.json.gz",
+      "blobSha": "744256058e09da21106e9dedfb28b0e4978713a3",
+      "bytes": 361,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/gis-output-cleanup-20261102/classification-method.mjs",
+      "blobSha": "7af0c7f199b90943f5b0e45ecffc842409b81f57",
+      "bytes": 4950,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/library-git-dedup-20261026/marker-tests.log",
+      "blobSha": "1a9ddf12bedf10a06fecfe7cb052c5a72fcd945e",
+      "bytes": 538,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/library-git-dedup-20261026/tests.log",
+      "blobSha": "274a22e2ec0268cfbbb305a42515004fea5ae5ef",
+      "bytes": 5106,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/library-organization-2026-10-25/source-change.patch",
+      "blobSha": "1dc0da669fc7ad7d81d1222fd75b6d5edc0947da",
+      "bytes": 188591,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/report-completion-2026-10-25/library-report-publication.test.mjs",
+      "blobSha": "0d5d7c70b196985eaa35aeb4580404f8cc13eca3",
+      "bytes": 9419,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/report-completion-2026-10-25/source-change.patch",
+      "blobSha": "53bdd2f3c37cfeee78c5aa5ee17637c0a5e4e55d",
+      "bytes": 12359,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/01-initial.png",
+      "blobSha": "0fafdb6cb3d28fcccc12b78383e4c15a0f8fd74e",
+      "bytes": 238815,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/02-year-2000.png",
+      "blobSha": "f844ff9a213c2502582df63929724a923032b874",
+      "bytes": 238803,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/03-selected.png",
+      "blobSha": "a22a0614644e05d54c38705996dc11d8fccb8736",
+      "bytes": 209138,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/07-year-2001.png",
+      "blobSha": "d422e94e8fb16da441afa6d9c92ab8c73ca8bc26",
+      "bytes": 209041,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/08-resized.png",
+      "blobSha": "787b479bce254da52ea3206116d9544d5c954dce",
+      "bytes": 172625,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/editor-canvas-worker/final-screen.png",
+      "blobSha": "69a0857d7cca7e4e833db989d8abbde058a12172",
+      "bytes": 175122,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/retired-stage-originals/assets/js/modules/geometry-screen-hit.js",
+      "blobSha": "bf8cad942f5ba2b8220a296a58aa257d069ea860",
+      "bytes": 2710,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "storage/retired-app-cleanup-20261108/retired-stage-originals/assets/js/modules/map-display-catalog.js",
+      "blobSha": "591af15bbbafe9583aaf5830f3aadcb9a3b1ebaa",
+      "bytes": 724,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/01-web-desktop.jpg",
+      "blobSha": "31f6738b4dae064368fdd9b826155f9d30a490e0",
+      "bytes": 158674,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/02-editor-desktop.jpg",
+      "blobSha": "bec74c062d04cef42ffd111335248bbc9ed78dc5",
+      "bytes": 120979,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/03-web-preferences.jpg",
+      "blobSha": "34a76ef23963ce9b1e1fc7ce6ad916747a9c1ad5",
+      "bytes": 115313,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/04-web-file-menu.jpg",
+      "blobSha": "6926bb6dbdec2bb438a066c06f1eebd039ec4aca",
+      "bytes": 161266,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/05-web-display-menu.jpg",
+      "blobSha": "ef95901950bb340577894c5ed2430e2fa72e42c4",
+      "bytes": 161865,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/06-web-display-objects.jpg",
+      "blobSha": "6bb7d3cd2e573037454d4d94c4691dd4d2b97344",
+      "bytes": 157963,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/07-web-date-month.jpg",
+      "blobSha": "33610d7991906db30f9bfb3dbe6861bfde54af5b",
+      "bytes": 165725,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/08-editor-search.jpg",
+      "blobSha": "c6c14d1fbc9b0a1d096d81657fc8ed287d8515ea",
+      "bytes": 124009,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/09-editor-inspector.jpg",
+      "blobSha": "cd1de791c5b400aebbe4528bccc2d95d4a76e5c6",
+      "bytes": 123012,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/10-editor-color-palette.jpg",
+      "blobSha": "5223f267f0e4016001cbd826d7a8aa5914a87723",
+      "bytes": 135333,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/11-editor-custom-color.jpg",
+      "blobSha": "917f058ecf5582b1176878f0989083bb5e81560e",
+      "bytes": 135115,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/12-editor-mobile-custom-color.jpg",
+      "blobSha": "4e9f230a62f36197fc3a4f1c847ff1aa04e4a62b",
+      "bytes": 23232,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/13-editor-phone-landscape.jpg",
+      "blobSha": "31db3cde4dc86ea9be2a3f9b137b7e968ed6fdd2",
+      "bytes": 55534,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/14-editor-mobile-baseline.jpg",
+      "blobSha": "1f0e7040d5e98afb8ba22d3038b3dec062e54aea",
+      "bytes": 27173,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/15-editor-mobile-preferences.jpg",
+      "blobSha": "ba8ae8759ac33bcc83b4754abf931804119734e2",
+      "bytes": 21847,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/16-editor-narrow320-menu.jpg",
+      "blobSha": "c34ebc729dbda8c9e7cd178f2dbcd4dba2357efa",
+      "bytes": 20525,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/17-web-narrow320-date.jpg",
+      "blobSha": "6ef06fce046ad4c42e03e1093cce881a424bbe2e",
+      "bytes": 30371,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/ui-audit-finalize.mjs",
+      "blobSha": "a507d767d39e1fd0305f94e8fd24d54d43fee554",
+      "bytes": 4297,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/common-rule-audit-20261026/ui-consistency-census.mjs",
+      "blobSha": "6905751622a8d8bdb89f9aeb9c9e2ed23dcc7935",
+      "bytes": 12408,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/common-rule-unification-20261026/app-color-desktop.jpg",
+      "blobSha": "ddbe5c2f1bade970bc608ceeba7aa7663224aa06",
+      "bytes": 114554,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-unification-20261026/app-color-mobile.jpg",
+      "blobSha": "d81960f973139c0cc1d28914533abe1656a4fd71",
+      "bytes": 22913,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-unification-20261026/web-date-desktop.jpg",
+      "blobSha": "775b1e8552d9df368661dc31ae0efe20683c6aa6",
+      "bytes": 122508,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/common-rule-unification-20261026/web-date-mobile.jpg",
+      "blobSha": "e73f6481edc33169d96e43c14c54cd7f8768c4f5",
+      "bytes": 30268,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/audit.css",
+      "blobSha": "1a72b6eb68a045860e7030ad970abdf9a84b4292",
+      "bytes": 298700,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/control-container-audit.mjs",
+      "blobSha": "b543df0b781eb743e5d31b1850cfde5c46836d24",
+      "bytes": 5278,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/editor-mobile.html",
+      "blobSha": "f0584464ce5f2f181c8a6f5216d3e0ebf77b6e55",
+      "bytes": 12291,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/editor-phone-landscape.html",
+      "blobSha": "d7d9f6835f00c07071948e69b454b462ac46e498",
+      "bytes": 12300,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/editor-wide.html",
+      "blobSha": "57467e76ed693e50c723405e82b903304373a9ad",
+      "bytes": 12289,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/viewer-mobile.html",
+      "blobSha": "eb72fe4fff71bbab7b9987ab330a0530335e501d",
+      "bytes": 12302,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/viewer-phone-landscape.html",
+      "blobSha": "5d22fc508432aaefc7ec27eda32f25089b4e1d91",
+      "bytes": 12311,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/control-container-alignment-20261027/viewer-wide.html",
+      "blobSha": "4083064dc7c4a07383f1ecdaa36642a4e20d5642",
+      "bytes": 12300,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/evidence/country-lifetime-20261021/app-build.log",
+      "blobSha": "ce0b3e5a0b90a7baa69ad44470e8fe3d5b3edddf",
+      "bytes": 8291,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/evidence/country-lifetime-20261021/native-tests.log",
+      "blobSha": "9e3e5adbe536dee11b0fc062a43cb4d06f99e8de",
+      "bytes": 343,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/evidence/country-lifetime-20261021/unit.log",
+      "blobSha": "97c62fb163eaa1b784f4ea167761e20a8fe5f56b",
+      "bytes": 8909,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/main-application-architecture-snapshot.log",
+      "blobSha": "ac0a7ce2185692718de6289e0e0404520bf63478",
+      "bytes": 1063,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/main-shared-core-contracts.log",
+      "blobSha": "117c33e9d4d42a595be3723b14b19c5562b1ba74",
+      "bytes": 43601,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/main-shared-core-native-failures.log",
+      "blobSha": "110335f57834fc56d27b756048a91f3018bca63f",
+      "bytes": 3445,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/map-input-lint-fix-unit.log",
+      "blobSha": "5690aa5d1522105588e163d264bca51967241cea",
+      "bytes": 3978,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/map-input-pinch-before.log",
+      "blobSha": "56eaad09e7e650fe796283745b32458c5b5dcf06",
+      "bytes": 600,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/map-input-pinch-green.log",
+      "blobSha": "22a7e4d8071c3ba80ed8a2c7fc5e571adb4650a9",
+      "bytes": 4179,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/map-input-pinch-red.log",
+      "blobSha": "8d04aae17da2dc1a737d4d54b9c1c32587bd0ffc",
+      "bytes": 3318,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/map-input-pinch-tests.patch",
+      "blobSha": "d4039c5f7741b1b9c0fe6d1a2759553cce63e529",
+      "bytes": 7346,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/narrow-before.log",
+      "blobSha": "7b62472bba2dd7e6fb6aef05550da9c29fd8b917",
+      "bytes": 68136,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-cancelled.log",
+      "blobSha": "9ef1da811e89d8e2146a73af0582bccca8f759de",
+      "bytes": 88181,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-ci-checks.log",
+      "blobSha": "427ecd64231c580af4726876a7186e77ca9e3948",
+      "bytes": 7747,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-selection-green.log",
+      "blobSha": "63b9c6e54ed9a95759b2801deea134f0e0d9d28f",
+      "bytes": 1249,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-selection-patch.diff",
+      "blobSha": "16205497d9b51be3db96b1e72ab202fe13b55cd6",
+      "bytes": 9878,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-selection-red.log",
+      "blobSha": "d3a2cbbcc8a391a0d8e26804fe8fd5eff15f06a2",
+      "bytes": 999,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p2-selection-stage-limitations.log",
+      "blobSha": "ebf3a0e86b46df643ce058d95d5bc0d484949e8f",
+      "bytes": 1522,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-boundary-fixture-before.log",
+      "blobSha": "bd43ec3886ff2f19358779262d71a1d0ef4e35a3",
+      "bytes": 51329,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-boundary-fixture-syntax.log",
+      "blobSha": "129f5a4baae36fdbd30a6044bcf1645130a2fa10",
+      "bytes": 100,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-boundary-fixture.patch",
+      "blobSha": "64abccb54198d40ce2718a551520429e66217dad",
+      "bytes": 818,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-boundary-owner-probe.log",
+      "blobSha": "f259fcaa18d32b610046f7bbef1f66bc9f465810",
+      "bytes": 493,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-contracts-before.log",
+      "blobSha": "58703524675944b57f62a6d3d2f6b219efdb003d",
+      "bytes": 541135,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/p3-release-contracts.log",
+      "blobSha": "1908a1ce75b8e4d0159e0ddb00fadfc7be9eb559",
+      "bytes": 55485,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/pages-build.log",
+      "blobSha": "1e6f2b15efe0156d5e48bcb1da84a602745d5df1",
+      "bytes": 258248,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/pages-deploy.log",
+      "blobSha": "6b3d393e9fbc0e42af2f17dfcbd054b7bd73e772",
+      "bytes": 20090,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-after-with-plan-setup-failure.log",
+      "blobSha": "a18cb63ecfdbbe34487102ffd55b243341a30563",
+      "bytes": 28059,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-before.log",
+      "blobSha": "5c42050489496739bd465b91e5c7d7a04ea2dbaf",
+      "bytes": 61493,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-final.log",
+      "blobSha": "bdebe75ba2182d307a7cf3b564a2a84b45da0ca3",
+      "bytes": 24020,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-fixture-syntax.log",
+      "blobSha": "6ba2886705874abb8049c3752c3e02563ec1005d",
+      "bytes": 155,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-fixture.patch",
+      "blobSha": "5d871904a0d4f7f12d3aa7722b84d90057dcf339",
+      "bytes": 6655,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/read-model-release.log",
+      "blobSha": "8a45175876b256df6c17a34df89671e2b2047f2d",
+      "bytes": 24014,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots-release/narrow-dark.jpg",
+      "blobSha": "33ddfd247e2ef60ee4b0565e93219f96d4252d77",
+      "bytes": 56133,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots-release/preferences.jpg",
+      "blobSha": "097d2404b76f0c485bcca1d4118fa1a5e08d3760",
+      "bytes": 24701,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots-release/year-input.jpg",
+      "blobSha": "47211fbbecc5e1a0bb6c894137d56d19d4401749",
+      "bytes": 52558,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots/narrow-dark.jpg",
+      "blobSha": "33ddfd247e2ef60ee4b0565e93219f96d4252d77",
+      "bytes": 56133,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots/preferences.jpg",
+      "blobSha": "0bab26cb6c05636b08130f0b2379a5f7a5c4ac41",
+      "bytes": 24683,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/screenshots/year-input.jpg",
+      "blobSha": "b82dd9e1bf0f085766889061c160636898704329",
+      "bytes": 52564,
+      "reason": "superseded acceptance screenshot"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/shared-boundary-final.log",
+      "blobSha": "8835259b822ada5910c28f15a5d32dc06a42a2ce",
+      "bytes": 22741,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/right-sidebar-landscape-20261027/changes.patch",
+      "blobSha": "60d55f31a39b1a8ecba0e90adda95a5fa84e6bf2",
+      "bytes": 24518,
+      "reason": "completed validation helper, compressed trace, log or prototype"
+    },
+    {
+      "path": "ui/p6-2-release-2026-11-01/integration-plan.json",
+      "blobSha": "01908dbd523809ad7d91f71cfd3d95dcf4279310",
+      "bytes": 1024,
+      "reason": "same-blob duplicate of canonical retained evidence"
+    },
+    {
+      "path": "integrations/remote-branches-main-2026-11-03/deployment/local-live-transfer.json",
+      "blobSha": "7dfd8fff401feb70e2a5d44c04473fd2a3c6fa04",
+      "bytes": 147,
+      "reason": "same-blob duplicate of canonical retained evidence"
+    },
+    {
+      "path": "releases/all-branch-integration-20261028/independent-live.json",
+      "blobSha": "afbab2b72e3ef6b326bc15b7d2a68ffe25174f16",
+      "bytes": 147,
+      "reason": "same-blob duplicate of canonical retained evidence"
+    },
+    {
+      "path": "rendering/project-common-lod-2026-11-10/screenshots/webgl1-world-1.png",
+      "blobSha": "d538efc9a597720d53c6a3197dcad4445973085b",
+      "bytes": 972409,
+      "reason": "same-blob duplicate of canonical retained evidence"
+    },
+    {
+      "path": "performance/viewer-webgl2-acceptance-20261114/2001-before.png",
+      "blobSha": "f97fa0422ad2b278bb3403b9b3ecccff84979ca7",
+      "bytes": 1166588,
+      "reason": "same-blob duplicate of canonical retained evidence"
+    }
+  ]
+}
