@@ -47,7 +47,7 @@ const defaultFetch=async url=>{
 };
 export async function fetchArchiveDocument(revision,path,{getBytes=defaultFetch}={}){
   failure(/^[0-9a-f]{40}$/.test(revision),'An immutable library commit is required');
-  const base='https://raw.githubusercontent.com/kimjeon-il/PandoLab-library-data/'+revision+'/';
+  const base='https://raw.githubusercontent.com/kimjeon-il/PandoLab-library/'+revision+'/';
   const index=JSON.parse((await getBytes(base+'archive/index.json')).toString('utf8'));
   const entry=index.files?.[path];
   failure(entry,'Missing historical file from archive index');

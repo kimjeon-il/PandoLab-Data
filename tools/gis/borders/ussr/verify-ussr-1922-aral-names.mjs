@@ -14,7 +14,7 @@ export const ARAL_NAMES=Object.freeze({
   'lakes_base:1159126555':{previousNameKo:'사우스아랄씨호',nameKo:'남아랄해'},
   'lakes_base:1729982865':{previousNameKo:'노스아랄씨호',nameKo:'북아랄해'},
 });
-export const ARCHIVE_PROOF='reports/geography/ussr-1922-caspian-application-2026-10-24/application-proof.json';
+export const ARCHIVE_PROOF='reports/borders/reconstruction/ussr-1922-caspian-application-2026-10-24/application-proof.json';
 export const PROOF_SHA256='6948649a0ba4be6201552b75f2cbec1f88b7f696bf5c7f88eff34d10d744b8b4';
 const digest=x=>createHash('sha256').update(x).digest('hex');
 const fail=(pass,msg)=>{if(!pass)throw Error(msg);};
@@ -101,7 +101,7 @@ export async function main(argv=process.argv.slice(2),{readRemote=get}={}){
  }
  fail(root&&output&&!existsSync(output),'New private proof file required');
  const config=JSON.parse(readFileSync(join(ROOT,'config/library-data.json'),'utf8'));
- fail(config.repository==='kimjeon-il/PandoLab-library-data'&&/^[a-f0-9]{40}$/.test(config.revision),
+ fail(config.repository==='kimjeon-il/PandoLab-library'&&/^[a-f0-9]{40}$/.test(config.revision),
    'Aral historical archive revision must be immutable');
  const base='https://raw.githubusercontent.com/'+config.repository+'/'+config.revision+'/';
  const index=JSON.parse((await readRemote(base+'archive/index.json')).toString('utf8'));
