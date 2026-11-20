@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "kind": "quality-v2-derived-image-index",
+  "sourceCommit": "d1cb091668e9964709b680a683612b4021334542",
+  "note": "The images referenced by the training manifests remain at their original paths.",
+  "images": {
+    "ga-australia-states": {
+      "schemaVersion": 1,
+      "purpose": "app-runtime-and-label-coordinate-input",
+      "source": "sources/ga-australia-states.pdf",
+      "sourceSha256": "fefea664270c9c5c1e0bac3c077d386fa6fdb47327804efdad9f63aa430ca8b5",
+      "image": "derived/ga-australia-states.png",
+      "sha256": "cd43ede4a59a7cac4c86a03eb449fdf3f1678a0c1fd51bca03da918298b4151e",
+      "page": 1,
+      "dpi": 144,
+      "width": 1684,
+      "height": 1188,
+      "originalMetadataFile": "ga-australia-states.json",
+      "originalMetadataBlobSha": "633652dcb51168e056531aeba128bece0e30072e"
+    },
+    "hesperia-greece-1920": {
+      "schemaVersion": 1,
+      "purpose": "explicit-bounded-analysis-derivative",
+      "source": "sources/hesperia-greece-1920.jpg",
+      "sourceSha256": "de1537b5bbd1f8fda31e8f7beb127857a01f08634ab2dddf429670ef90acb0b7",
+      "image": "derived/hesperia-greece-1920.png",
+      "sha256": "ea4db6b5eea5e13b7300559151e1440e6cafac4136be48c394fb1777ae7dbb95",
+      "originalSize": [
+        3752,
+        5251
+      ],
+      "width": 2400,
+      "height": 3359,
+      "mapping": "uniform-resize-only",
+      "originalMetadataFile": "hesperia-greece-1920.json",
+      "originalMetadataBlobSha": "1cd097797ef80d23a2346772b1598135a141a71a"
+    },
+    "nrcan-asia-outline": {
+      "schemaVersion": 1,
+      "purpose": "app-runtime-and-label-coordinate-input",
+      "source": "sources/nrcan-asia-outline.pdf",
+      "sourceSha256": "98046ca0448de079cf0a04a25736fac52487b2b9957527b4ca63b5b5cb29c11d",
+      "image": "derived/nrcan-asia-outline.png",
+      "sha256": "7afc94fbad70f2479fc83b41dc0c5470f26242021ac276e203b9de84aa12627b",
+      "page": 1,
+      "dpi": 144,
+      "width": 1584,
+      "height": 1224,
+      "originalMetadataFile": "nrcan-asia-outline.json",
+      "originalMetadataBlobSha": "01337c9ce5326eba8e8f84c09b3e36191af99a31"
+    },
+    "nrcan-europe-outline": {
+      "schemaVersion": 1,
+      "purpose": "app-runtime-and-label-coordinate-input",
+      "source": "sources/nrcan-europe-outline.pdf",
+      "sourceSha256": "29f9f4820905f633a0c8ee99bc360dc06e0a88048be4ef6f1a453d74d3921081",
+      "image": "derived/nrcan-europe-outline.png",
+      "sha256": "eb24fdec58854699b4ed7ae9be420fb2597bd8482c27ef5a8c050b3c80fbb6d4",
+      "page": 1,
+      "dpi": 144,
+      "width": 1584,
+      "height": 1224,
+      "originalMetadataFile": "nrcan-europe-outline.json",
+      "originalMetadataBlobSha": "4d9582eeffa1d075ff912c808a59d19fea2d02ec"
+    },
+    "nrcan-south-america-outline": {
+      "schemaVersion": 1,
+      "sourcePath": "../sources/nrcan-south-america-outline.pdf",
+      "sourceSha256": "af5f86e013bf3b96bba7e383fce538b7ce46c0b70313567e6901f2a0103b3cce",
+      "sourceBytes": 862747,
+      "page": 1,
+      "dpi": 144,
+      "width": 1224,
+      "height": 1584,
+      "sha256": "77ec8d61b35e6778e1aab8dc6a1898c77b4daf207caa4fe3be73b2591dc07869",
+      "materialKind": "explicit-pdf-page-raster",
+      "originalPreserved": true,
+      "originalMetadataFile": "nrcan-south-america-outline.json",
+      "originalMetadataBlobSha": "ef16fb0ef40dd9f42929c0428abd3e1c04b4e088"
+    }
+  }
+}
