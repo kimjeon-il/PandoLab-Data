@@ -657,6 +657,114 @@
       "fromReport": "timeline-2025-asia-2026-11-20",
       "section": "유라시아연구소 2025 국경 합의 경과·토지교환 분석",
       "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-090",
+      "url": "https://history.state.gov/historicaldocuments/frus1919Parisv13/ch12subch11",
+      "fromReport": "GEO-LIFE-040",
+      "section": "베르사유조약 단치히 조항 및 1920/1939 후속 효력",
+      "kind": "diplomatic-primary",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-091",
+      "url": "https://www.archontology.org/nations/poland/danzig/01_polity2.php",
+      "fromReport": "GEO-LIFE-040",
+      "section": "단치히 1920 창설결정·1939 법령 서지",
+      "kind": "specialist-chronology",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-092",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/danzig",
+      "fromReport": "GEO-LIFE-040",
+      "section": "단치히 국제연맹 체제와 독일 편입",
+      "kind": "museum-history",
+      "reviewStatus": "search-result-reviewed",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-093",
+      "url": "https://enciklopedija.hr/clanak/rapallski-ugovor",
+      "fromReport": "GEO-LIFE-040",
+      "section": "라팔로 조약 1920-11-12; 피우메 자유국 인정",
+      "kind": "historical-encyclopedia",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-094",
+      "url": "https://enciklopedija.hr/clanak/rimski-sporazum",
+      "fromReport": "GEO-LIFE-040",
+      "section": "로마 조약 1924-01-27; 피우메·수샤크 양도",
+      "kind": "historical-encyclopedia",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-095",
+      "url": "https://www.treccani.it/enciclopedia/trattati-internazionali_%28Enciclopedia-delle-scienze-sociali%29/",
+      "fromReport": "GEO-LIFE-040",
+      "section": "이탈리아 트레카니 독립 역사 검토",
+      "kind": "historical-encyclopedia",
+      "reviewStatus": "search-result-reviewed",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-096",
+      "url": "https://rivisteopen.unimc.it/index.php/gsc/article/view/4342",
+      "fromReport": "GEO-LIFE-040",
+      "section": "피우메의 국제법적 지위 독립 학술논문 초록",
+      "kind": "academic-article",
+      "reviewStatus": "web-page-opened-abstract-only",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-097",
+      "url": "https://www.fiumemondo.it/wp-content/uploads/2021/05/Fiume-1918_1924_Massagrande.pdf",
+      "fromReport": "GEO-LIFE-040",
+      "section": "피우메 1924년 2월22일 이탈리아 법령과 구별되는 국제 지위",
+      "kind": "specialist-academic-pdf",
+      "reviewStatus": "pdf-text-read; screenshot-unavailable",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-098",
+      "url": "https://history.state.gov/historicaldocuments/frus1947v04/d90",
+      "fromReport": "GEO-LIFE-040",
+      "section": "1947년 트리에스테 강화조약 9월15일 성립; 실제 군정",
+      "kind": "primary-diplomatic-record",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-099",
+      "url": "https://www.un.org/unispal/document/auto-insert-211880/",
+      "fromReport": "GEO-LIFE-040",
+      "section": "트리에스테 자유령 창설 조약 제21조 원문 재수록",
+      "kind": "primary-treaty-text",
+      "reviewStatus": "search-result-reviewed; direct-open-403",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-100",
+      "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=080000028014704f",
+      "fromReport": "GEO-LIFE-040",
+      "section": "1954년10월5일 트리에스테 런던 양해각서 효력",
+      "kind": "primary-treaty-registry",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-101",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v08/d293",
+      "fromReport": "GEO-LIFE-040",
+      "section": "1954년 트리에스테 임시 행정권과 자유령 조약 상태",
+      "kind": "primary-diplomatic-record",
+      "reviewStatus": "search-result-reviewed",
+      "reviewedOn": "2026-11-21"
     }
   ]
 }

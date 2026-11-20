@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FREE-STATE-FIUME",
+  "type": "entity",
+  "title": "피우메 자유국(리예카)",
+  "subject": {
+    "key": "research:state:free-state-fiume",
+    "kind": "state",
+    "displayName": "피우메 자유국(리예카)",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-21",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1920 라팔로 조약이 자유국 지위 인정, 1924 로마 조약이 영토 분할. 각각 서명일을 국제 효력일과 혼동하지 않아 validFrom/To 유보."
+  },
+  "eventIds": [
+    "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+    "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+  ],
+  "sourceIds": [
+    "SRC-093",
+    "SRC-094",
+    "SRC-095",
+    "SRC-096",
+    "SRC-097"
+  ],
+  "unresolved": [
+    "1918 피우메 임시독립·카르나로 섭정국과 1920 자유국 법적 동일성",
+    "1920 조약 발효일·1924 국제 비준서 교환, 02-22 이탈리아 국내 효력·03-16 병합 선언 분리",
+    "망명정부 지위·실제 점유 구별",
+    "런타임 객체 ID·국기·공식명칭·조약 부속 국경 형상 미확인"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

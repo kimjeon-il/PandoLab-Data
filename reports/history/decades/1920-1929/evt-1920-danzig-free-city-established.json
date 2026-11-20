@@ -1,0 +1,65 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+  "type": "event",
+  "title": "단치히 자유시 성립",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1920,
+    "value": "1920-11-15",
+    "precision": "day",
+    "note": "협상국 결정 1920-10-27·단치히 수락 11-09·결정 발효 11-15; 베르사유 강화조약 1920-01-10 발효와 구별."
+  },
+  "entityKeys": [
+    "research:state:free-city-danzig"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:free-city-danzig",
+      "field": "lifetime.validFrom",
+      "summary": "국제연맹 보장 아래 자유시로 성립",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "research:state:free-city-danzig",
+      "field": "relationship.childType",
+      "summary": "국제연맹 보호 자유시, 폴란드의 외교권·관세권은 별도",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1919-06-28",
+      "role": "versailles-signed"
+    },
+    {
+      "date": "1920-01-10",
+      "role": "versailles-effective"
+    },
+    {
+      "date": "1920-10-27",
+      "role": "free-city-decision"
+    },
+    {
+      "date": "1920-11-09",
+      "role": "accepted"
+    }
+  ],
+  "sourceIds": [
+    "SRC-090",
+    "SRC-091",
+    "SRC-092"
+  ],
+  "unresolved": [
+    "자유시의 종속/보장 범주 Pando 데이터 모델 매핑 미확정",
+    "국경 형상 원자료 미확보"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

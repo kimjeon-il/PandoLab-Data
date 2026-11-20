@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FREE-TERRITORY-TRIESTE",
+  "type": "entity",
+  "title": "트리에스테 자유령",
+  "subject": {
+    "key": "research:dependency:free-territory-trieste",
+    "kind": "dependency",
+    "displayName": "트리에스테 자유령",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-21",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1947-09-15 대이탈리아 강화조약 발효로 자유령 구성. UN 총독이 실제 부임하지 않았으며 A/B 군정이 지속된 특수한 국제법상 정치체, 주권국 확정 불가. 1954 양해각서는 행정권 이관으로서 법적 존속 종료와 분리."
+  },
+  "eventIds": [
+    "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
+  ],
+  "sourceIds": [
+    "SRC-098",
+    "SRC-099",
+    "SRC-100",
+    "SRC-101"
+  ],
+  "unresolved": [
+    "국제보장 자유령의 국가/속령 종류 및 상위객체 관계",
+    "1954-10-05 서명·효력과 실제 행정 인계, 1975 오시모 조약 국제 효력·영토 법적 종결 분리",
+    "정식 명칭·국기·런타임 객체 ID·1947 부속 국경 도면 확인 필요"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

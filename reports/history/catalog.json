@@ -101,6 +101,53 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-FREE-CITY-DANZIG",
+      "type": "entity",
+      "path": "reports/history/countries/free-city-danzig.json",
+      "title": "단치히 자유시",
+      "entityKeys": [
+        "research:state:free-city-danzig"
+      ],
+      "eventIds": [
+        "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+        "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FREE-STATE-FIUME",
+      "type": "entity",
+      "path": "reports/history/countries/free-state-fiume.json",
+      "title": "피우메 자유국(리예카)",
+      "entityKeys": [
+        "research:state:free-state-fiume"
+      ],
+      "eventIds": [
+        "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+        "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FREE-TERRITORY-TRIESTE",
+      "type": "entity",
+      "path": "reports/history/countries/free-territory-trieste.json",
+      "title": "트리에스테 자유령",
+      "entityKeys": [
+        "research:dependency:free-territory-trieste"
+      ],
+      "eventIds": [
+        "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-JULIANA",
       "type": "entity",
       "path": "reports/history/countries/juliana.json",
@@ -593,6 +640,58 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1920-danzig-free-city-established.json",
+      "title": "단치히 자유시 성립",
+      "entityKeys": [
+        "research:state:free-city-danzig"
+      ],
+      "eventIds": [],
+      "year": 1920,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1920-fiume-rapallo-state-status.json",
+      "title": "라팔로 조약상 피우메 자유국 지위",
+      "entityKeys": [
+        "research:state:free-state-fiume"
+      ],
+      "eventIds": [],
+      "year": 1920,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1924-fiume-rome-treaty-territorial-division.json",
+      "title": "로마 협정상 피우메 자유국 분할·귀속 변경",
+      "entityKeys": [
+        "research:state:free-state-fiume"
+      ],
+      "eventIds": [],
+      "year": 1924,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1939-danzig-german-annexation-asserted.json",
+      "title": "독일의 단치히 병합 선언·실효 편입",
+      "entityKeys": [
+        "research:state:free-city-danzig"
+      ],
+      "eventIds": [],
+      "year": 1939,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1946-LAOS-UNIFIED-KINGDOM",
       "type": "event",
       "path": "reports/history/decades/1940-1949/evt-1946-laos-unified-kingdom.json",
@@ -602,6 +701,19 @@
       ],
       "eventIds": [],
       "year": 1946,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1947-trieste-free-territory-creation.json",
+      "title": "트리에스테 자유령 조약상 구성",
+      "entityKeys": [
+        "research:dependency:free-territory-trieste"
+      ],
+      "eventIds": [],
+      "year": 1947,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -854,6 +966,9 @@
       "ENT-BARBADOS",
       "ENT-COOK-ISLANDS",
       "ENT-ESWATINI",
+      "ENT-FREE-CITY-DANZIG",
+      "ENT-FREE-STATE-FIUME",
+      "ENT-FREE-TERRITORY-TRIESTE",
       "ENT-JULIANA",
       "ENT-KGZ",
       "ENT-KOREAN-EMPIRE",
@@ -890,7 +1005,12 @@
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
       "EVT-1910-KOREAN-EMPIRE-ANNEXATION",
+      "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+      "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION",
+      "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED",
       "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
       "EVT-1949-LAOS-FRENCH-UNION",
       "EVT-1953-LAOS-SOVEREIGNTY",
       "EVT-1962-TRINIDAD-INDEPENDENCE",
@@ -941,6 +1061,20 @@
       "ENT-ESWATINI",
       "EVT-1968-ESWATINI-INDEPENDENCE",
       "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "research:state:free-city-danzig": [
+      "ENT-FREE-CITY-DANZIG",
+      "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+      "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+    ],
+    "research:state:free-state-fiume": [
+      "ENT-FREE-STATE-FIUME",
+      "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+    ],
+    "research:dependency:free-territory-trieste": [
+      "ENT-FREE-TERRITORY-TRIESTE",
+      "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
     ],
     "research:state:juliana-republic": [
       "ENT-JULIANA",
@@ -1082,8 +1216,21 @@
     "1910": [
       "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
     ],
+    "1920": [
+      "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+      "EVT-1920-FIUME-RAPALLO-STATE-STATUS"
+    ],
+    "1924": [
+      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+    ],
+    "1939": [
+      "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+    ],
     "1946": [
       "EVT-1946-LAOS-UNIFIED-KINGDOM"
+    ],
+    "1947": [
+      "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
     ],
     "1949": [
       "EVT-1949-LAOS-FRENCH-UNION"
@@ -1166,8 +1313,17 @@
     "1910-1919": [
       "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
     ],
+    "1920-1929": [
+      "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+      "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+    ],
+    "1930-1939": [
+      "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+    ],
     "1940-1949": [
       "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
       "EVT-1949-LAOS-FRENCH-UNION"
     ],
     "1950-1959": [
@@ -1199,6 +1355,17 @@
     ]
   },
   "byCountry": {
+    "research:dependency:free-territory-trieste": {
+      "recordIds": [
+        "ENT-FREE-TERRITORY-TRIESTE",
+        "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
+        ]
+      }
+    },
     "research:state:acre-independent-state": {
       "recordIds": [
         "ENT-ACRE-REPUBLIC",
@@ -1228,6 +1395,34 @@
         ],
         "1870-1879": [
           "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+        ]
+      }
+    },
+    "research:state:free-city-danzig": {
+      "recordIds": [
+        "ENT-FREE-CITY-DANZIG",
+        "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+        "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED"
+        ],
+        "1930-1939": [
+          "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+        ]
+      }
+    },
+    "research:state:free-state-fiume": {
+      "recordIds": [
+        "ENT-FREE-STATE-FIUME",
+        "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+        "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
+          "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
         ]
       }
     },

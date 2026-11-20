@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FREE-CITY-DANZIG",
+  "type": "entity",
+  "title": "단치히 자유시",
+  "subject": {
+    "key": "research:state:free-city-danzig",
+    "kind": "state",
+    "displayName": "단치히 자유시",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-21",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1920-11-15 자유시 성립. 1939-09-01 독일의 일방적 병합 및 실효 통치 종료가 곧 국제법상 합법적 국가소멸임을 뜻하지 않으므로 validTo 유보."
+  },
+  "eventIds": [
+    "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
+    "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+  ],
+  "sourceIds": [
+    "SRC-090",
+    "SRC-091",
+    "SRC-092"
+  ],
+  "unresolved": [
+    "국제연맹 보장과 폴란드 외교·관세 권한을 일반적인 상위 주권국 관계로 단순화 금지",
+    "1939 독일 법령의 국제법상 효력·전후 폴란드 귀속·종료일 분리",
+    "런타임 객체 ID, 국기와 국경 부속도면 확인 필요"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

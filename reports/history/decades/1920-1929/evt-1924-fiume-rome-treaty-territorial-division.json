@@ -1,0 +1,63 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION",
+  "type": "event",
+  "title": "로마 협정상 피우메 자유국 분할·귀속 변경",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1924,
+    "value": null,
+    "precision": "unknown",
+    "note": "1924-01-27 로마 협정 서명, 02-22 이탈리아 왕령 제211호 국내 효력, 03-16 병합 선포. 국제 효력일 미확정."
+  },
+  "entityKeys": [
+    "research:state:free-state-fiume"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:free-state-fiume",
+      "field": "lifetime.validTo",
+      "summary": "로마 협정으로 자유국 해체를 합의",
+      "assessment": "provisional",
+      "uncertainty": "서명일·국제 발효일·국내 병합 효력 구별"
+    },
+    {
+      "entityKey": "research:state:free-state-fiume",
+      "field": "territory.assignment",
+      "summary": "피우메 중심부 이탈리아 귀속, 수샤크·바로시 및 델타는 SHS 왕국 귀속",
+      "assessment": "source-reviewed",
+      "uncertainty": "부속경계·실제 인도일 유보"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1924-01-27",
+      "role": "rome-agreement-signed"
+    },
+    {
+      "date": "1924-02-22",
+      "role": "italian-royal-decree-211-effective-reported"
+    },
+    {
+      "date": "1924-03-16",
+      "role": "royal-annexation-proclamation"
+    }
+  ],
+  "sourceIds": [
+    "SRC-094",
+    "SRC-095",
+    "SRC-097"
+  ],
+  "unresolved": [
+    "비준서 교환·국제효력, 1925 네투노 조약 부속 경계",
+    "피우메 망명정부 계속성·주권 종료일 보류"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

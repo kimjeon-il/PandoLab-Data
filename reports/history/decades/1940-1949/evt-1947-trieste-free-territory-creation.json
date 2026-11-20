@@ -1,0 +1,65 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
+  "type": "event",
+  "title": "트리에스테 자유령 조약상 구성",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1947,
+    "value": "1947-09-15",
+    "precision": "day",
+    "note": "1947-02-10 대이탈리아 강화조약 서명, 09-15 발효로 국제보장 자유령 구성. 실제 통치는 동맹국/유고슬라비아 군정 계속."
+  },
+  "entityKeys": [
+    "research:dependency:free-territory-trieste"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:dependency:free-territory-trieste",
+      "field": "lifetime.validFrom",
+      "summary": "국제보장 자유령 구성",
+      "assessment": "source-reviewed",
+      "uncertainty": "국제법상 독립 주권국에 해당하는지는 유보"
+    },
+    {
+      "entityKey": "research:dependency:free-territory-trieste",
+      "field": "relationship.childType",
+      "summary": "국제연합 안전보장이사회 보장 아래 특수 자유령",
+      "assessment": "provisional",
+      "uncertainty": "직접적인 상위국 관계로 단정 금지"
+    },
+    {
+      "entityKey": "research:dependency:free-territory-trieste",
+      "field": "territory.assignment",
+      "summary": "이탈리아의 종전 주권 종료, 조약 제21·22조상 자유령 구역 형성",
+      "assessment": "source-reviewed",
+      "uncertainty": "조약 부속 도면 미검증"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1947-02-10",
+      "role": "peace-treaty-signed"
+    },
+    {
+      "date": "1947-09-15",
+      "role": "peace-treaty-effective"
+    }
+  ],
+  "sourceIds": [
+    "SRC-098",
+    "SRC-099"
+  ],
+  "unresolved": [
+    "1954 양해각서 행정권 변경과 법적 영토귀속 변경의 구분",
+    "조약 경계 피처 검증 미실행"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}

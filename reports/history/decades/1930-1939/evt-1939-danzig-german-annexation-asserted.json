@@ -1,0 +1,55 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED",
+  "type": "event",
+  "title": "독일의 단치히 병합 선언·실효 편입",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1939,
+    "value": "1939-09-01",
+    "precision": "day",
+    "note": "단치히·독일 일방적 법령 시행 날짜. 국제적으로 유효한 영토 주권 양도로 확정하지 않음."
+  },
+  "entityKeys": [
+    "research:state:free-city-danzig"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:free-city-danzig",
+      "field": "lifetime.validTo",
+      "summary": "자유시 독립행정·실효 통치 종료 후보",
+      "assessment": "provisional",
+      "uncertainty": "국제법상 국가성 종료일 아님"
+    },
+    {
+      "entityKey": "research:state:free-city-danzig",
+      "field": "territory.assignment",
+      "summary": "독일 측 병합 법령 발표·실효 편입",
+      "assessment": "source-reviewed",
+      "uncertainty": "합법적 주권 이전과 구별"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1939-09-01",
+      "role": "annexation-law-promulgation"
+    }
+  ],
+  "sourceIds": [
+    "SRC-090",
+    "SRC-091",
+    "SRC-092"
+  ],
+  "unresolved": [
+    "1939 법령 국제법 효력 및 1945 이후 귀속",
+    "1939 실제 통제·법적 동일성 구별"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-040",
+    "snapshotUrl": ""
+  }
+}
