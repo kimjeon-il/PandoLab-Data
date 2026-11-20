@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "kind": "border-raw-validation-evidence-rollup",
+  "sourceCommit": "e8d0066e2a9d8b620960312a685a19209ce030b0",
+  "category": "british-isles-review-9",
+  "status": "historical verification; not runtime input",
+  "records": [
+    {
+      "sourcePath": "GBR-existing-source-candidate.json",
+      "gitBlobSha": "f43723c4c66032b35dea6a24c860454ee35dc550",
+      "content": {
+        "schemaVersion": 2,
+        "entityId": "state:GBR",
+        "entityKind": "general",
+        "lineageId": "gbr",
+        "names": {
+          "ko": "영국"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1707-05-12",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:GBR:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "dos-world-polygons-11.4-beta-raw",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:GBR:state:GBR:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197.json",
+              "sha256": "1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197",
+              "bytes": 28635721
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "dos-world-polygons-11.4-beta-raw",
+              "status": "raw-original-source-adopted-not-runtime-approved",
+              "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+              "rawLayer": "DoS_WP_11_4",
+              "sourceWP_IDs": [
+                "4f9b1dfc-e287-4b05-abc0-27793984fa5c"
+              ],
+              "rawBlobSha256": "7fd6bfa9795d57f6922ae6e5f25b3faa592a0f596475dc20708459548faa91d6",
+              "geometrySha256": "d27b5d9d74e15321363c49326aef872de93fb8c18aa2317d44dcf15507583793",
+              "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+              "sourceProperties": {
+                "fid": 306,
+                "WP_Name": "United Kingdom",
+                "WP_Name_ND": "United Kingdom",
+                "DOS_Short": "United Kingdom",
+                "DOS_Long": "United Kingdom of Great Britain and Northern Ireland",
+                "Map_Label": "UNITED KINGDOM",
+                "US_Recog": "Independent",
+                "Show_Disp": null,
+                "Map_Disp": null,
+                "NOTES": null,
+                "NOTES_Cont": null,
+                "MapTint_2": "GB",
+                "MapTint_3": "GBR",
+                "GENC_Short": "United Kingdom",
+                "GENC_Full": "United Kingdom of Great Britain and Northern Ireland",
+                "GENC_2": "GB",
+                "GENC_3": "GBR",
+                "ISO_3166_1": null,
+                "ISO_3166_2": null,
+                "WP_ID": "4f9b1dfc-e287-4b05-abc0-27793984fa5c",
+                "WP_PREV_ID": "4f9b1dfc-e287-4b05-abc0-27793984fa5c",
+                "WP_PAR_ID": "4f9b1dfc-e287-4b05-abc0-27793984fa5c"
+              },
+              "priorPreparedAttribution": {
+                "sourceId": "approved-current-world-display-20261107",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "featureId": "GBR",
+                "geometrySha256": "54fb1ef7f1239b661b3390d66577c06082cd09d4e7d1f33947f159f6e444de1c",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [],
+                  "sourceWP_IDsEvidence": null
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                }
+              },
+              "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+              "historicalAccuracyVerified": false
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "GBR",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gb.svg",
+          "representativeGeometryVersionId": "state:GBR:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "dos-world-polygons-11.4-beta-raw",
+          "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "GBR",
+          "featureProperties": {
+            "name": "영국"
+          },
+          "geometrySha256": "d27b5d9d74e15321363c49326aef872de93fb8c18aa2317d44dcf15507583793",
+          "lifetimeEvidence": {
+            "reportId": "GEO-LIFE-EXTANT-20261025",
+            "reportPath": "reports/borders/history/lifetimes/extant-2026-10-25",
+            "researchedAt": "2026-10-25",
+            "calendar": "proleptic-gregorian",
+            "criterion": "User selected Great Britain union and explicitly confirmed Gregorian conversion of Julian1707-05-01.",
+            "sourceUrls": [
+              "https://publications.parliament.uk/pa/ld199899/ldselect/ldprivi/108i/10806.htm",
+              "https://api.parliament.uk/regnal-years/kingdoms",
+              "https://assets.publishing.service.gov.uk/media/5a79e4fbed915d042206bcf5/Annex_A.pdf"
+            ],
+            "userSelected": true,
+            "sourceDate": "1707-05-01",
+            "sourceCalendar": "julian",
+            "conversion": "Julian date +11 days; user explicitly confirmed1707-05-12."
+          },
+          "geometryVersionId": "state:GBR:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:GBR",
+            "versionId": "state:GBR:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "87379ab4271fd1030a8393d6d2072fe58aad8c37010ad42ef85b2e419be46a15",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "GBR",
+              "geometryVersionId": "state:GBR:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "sourcePath": "GBR-source-validation.json",
+      "gitBlobSha": "6bd6213b11eb7340835aeb333238978997844d61",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:GBR",
+        "rawProof": {
+          "entityId": "state:GBR",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "4f9b1dfc-e287-4b05-abc0-27793984fa5c",
+          "rawBlobSha256": "7fd6bfa9795d57f6922ae6e5f25b3faa592a0f596475dc20708459548faa91d6",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 2398,
+          "coordinateCount": 725208,
+          "holes": 0,
+          "candidateSha256": "fdf372ad3ffbabab2c15b894c700914f4df629232867958d87dd6fafc788b0d1",
+          "bytes": 28636408,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-GBR.json",
+          "originalDescriptorSha256": "4927b81322dfe737e2df79b8b5cf5fdbabfe64b32b358f6558eef6c29310c19e",
+          "candidateDescriptorSha256": "f2c44eeb88def0947ddb6767b463920fbdd0292a5327937f2c869dfc29d07d2e",
+          "beforeCoordinates": 19067,
+          "afterCoordinates": 725208,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:GBR:state:GBR:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197.json",
+            "sha256": "1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197",
+            "bytes": 28635721
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/british-isles-review-9/GBR-raw-proof.json",
+            "gitBlobSha": "183085649ec1d66c60b3032e90e862fa1d7c84bc"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/british-isles-review-9/GBR-source-candidate-check.json",
+            "gitBlobSha": "2171782641c61b2b5a4c2577af2a27eac42d1fb1"
+          }
+        }
+      }
+    },
+    {
+      "sourcePath": "IRL-existing-source-candidate.json",
+      "gitBlobSha": "2a75fb65f1113d1505a10d9f8a1ea7fb7db6d5b0",
+      "content": {
+        "schemaVersion": 2,
+        "entityId": "state:IRL",
+        "entityKind": "general",
+        "lineageId": "irl",
+        "names": {
+          "ko": "아일랜드"
+        },
+        "alternateNames": [],
+        "lifetime": {
+          "validFrom": "1922-12-06",
+          "validTo": null
+        },
+        "parentEntityId": "",
+        "geometryVersions": [
+          {
+            "versionId": "state:IRL:natural-earth-5.1.1",
+            "validFrom": null,
+            "validTo": null,
+            "certainty": "high",
+            "sourceId": "dos-world-polygons-11.4-beta-raw",
+            "geometryResource": {
+              "logicalRef": {
+                "id": "state:IRL:state:IRL:natural-earth-5.1.1",
+                "version": 1
+              },
+              "role": "source",
+              "type": "MultiPolygon",
+              "file": "geometries/sha256-198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa.json",
+              "sha256": "198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa",
+              "bytes": 13044292
+            },
+            "modernBoundarySupplement": {
+              "sourceId": "dos-world-polygons-11.4-beta-raw",
+              "status": "raw-original-source-adopted-not-runtime-approved",
+              "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+              "rawLayer": "DoS_WP_11_4",
+              "sourceWP_IDs": [
+                "0afe8935-0238-463e-b2c2-250472a3c45b"
+              ],
+              "rawBlobSha256": "de265c1c31eea11af51b9b9b01923cf43d5ebe8277ec48fc4446ab05998ff693",
+              "geometrySha256": "fb919c9c22c7321658a1675ec195adb5832449365460924459d8b908c9bcbfac",
+              "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+              "sourceProperties": {
+                "fid": 141,
+                "WP_Name": "Ireland",
+                "WP_Name_ND": "Ireland",
+                "DOS_Short": "Ireland",
+                "DOS_Long": "Ireland",
+                "Map_Label": "IRELAND",
+                "US_Recog": "Independent",
+                "Show_Disp": null,
+                "Map_Disp": null,
+                "NOTES": null,
+                "NOTES_Cont": null,
+                "MapTint_2": "IE",
+                "MapTint_3": "IRL",
+                "GENC_Short": "Ireland",
+                "GENC_Full": "Ireland",
+                "GENC_2": "IE",
+                "GENC_3": "IRL",
+                "ISO_3166_1": null,
+                "ISO_3166_2": null,
+                "WP_ID": "0afe8935-0238-463e-b2c2-250472a3c45b",
+                "WP_PREV_ID": "0afe8935-0238-463e-b2c2-250472a3c45b",
+                "WP_PAR_ID": "0afe8935-0238-463e-b2c2-250472a3c45b"
+              },
+              "priorPreparedAttribution": {
+                "sourceId": "approved-current-world-display-20261107",
+                "status": "approved-prepared-current-source-adoption",
+                "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+                "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+                "featureId": "IRL",
+                "geometrySha256": "215f03186f4f140a605abd6b03203de8f2da22f6dd79173d5799f4d7e4c0199b",
+                "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+                "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+                "historicalAccuracyVerified": false,
+                "effectiveDateEstablished": false,
+                "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+                "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+                "upstream": {
+                  "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                  "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                  "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                  "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                  "sourceFileBytesLocallyVerified": false,
+                  "sourceWP_IDs": [],
+                  "sourceWP_IDsEvidence": null
+                },
+                "sourceReview": {
+                  "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                  "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+                }
+              },
+              "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+              "historicalAccuracyVerified": false
+            }
+          }
+        ],
+        "instantiation": {
+          "mode": "independent",
+          "countryUpdates": {}
+        },
+        "metadata": {
+          "sourceFeatureId": "IRL",
+          "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ie.svg",
+          "representativeGeometryVersionId": "state:IRL:natural-earth-5.1.1"
+        },
+        "sourceInfo": {
+          "sourceId": "dos-world-polygons-11.4-beta-raw",
+          "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+          "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+          "featureId": "IRL",
+          "featureProperties": {
+            "name": "아일랜드"
+          },
+          "geometrySha256": "fb919c9c22c7321658a1675ec195adb5832449365460924459d8b908c9bcbfac",
+          "geometryVersionId": "state:IRL:natural-earth-5.1.1",
+          "geometrySourceScope": "The sourceId, title and geometrySha256 here describe geometryVersionId only, not every historical version. Entity origin and retired geometry attribution remain in priorSourceAttribution.",
+          "priorSourceAttribution": {
+            "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/prior-source-attribution.json",
+            "entityId": "state:IRL",
+            "versionId": "state:IRL:natural-earth-5.1.1",
+            "originalSourceId": "natural-earth-5.1.1",
+            "originalSourceGeometrySha256": "9c0108554a7823ca3e6a6e4f86994e2200872f90e4748b73a9271abdd58ac487",
+            "sha256": "d9d050aaf044b778f2450f06619dcf2f898f2933dafcc28f884eac0e2cc3a73f"
+          },
+          "sourceAttributions": [
+            {
+              "sourceId": "approved-current-world-display-20261107",
+              "title": "User-approved composite prepared current display donor",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "IRL",
+              "geometryVersionId": "state:IRL:natural-earth-5.1.1",
+              "role": "Current selected version only; inherited source licenses and political exceptions are retained",
+              "upstreamProvider": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "licenseNotice": "Recorded U.S. Government work upstream; incorporated third-party material and preserved local exceptions retain their respective rights. Original source attribution is preserved."
+            }
+          ]
+        },
+        "storageLayout": "geometry-resources-v1"
+      }
+    },
+    {
+      "sourcePath": "IRL-source-validation.json",
+      "gitBlobSha": "90f19b4478e900dfd1f4f71dcdd0811db82d9fd0",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:IRL",
+        "rawProof": {
+          "entityId": "state:IRL",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "0afe8935-0238-463e-b2c2-250472a3c45b",
+          "rawBlobSha256": "de265c1c31eea11af51b9b9b01923cf43d5ebe8277ec48fc4446ab05998ff693",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 1310,
+          "coordinateCount": 331972,
+          "holes": 0,
+          "candidateSha256": "63010e1df5f2508353fb2e548a8cb8e608e3724136cfb39c22f481343dd74724",
+          "bytes": 13044857,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-IRL.json",
+          "originalDescriptorSha256": "c76e4f584dded7ad0edfad36267209fb4b4f139b43fb998ce1c4c0d04b1f7ca7",
+          "candidateDescriptorSha256": "2b897947435ef11ffca95665016a3ab6a086796f758bcd79ef76423daf7933be",
+          "beforeCoordinates": 8206,
+          "afterCoordinates": 331972,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:IRL:state:IRL:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa.json",
+            "sha256": "198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa",
+            "bytes": 13044292
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/british-isles-review-9/IRL-raw-proof.json",
+            "gitBlobSha": "567c129f1f4b1d4401482feae525f662602f36d1"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/british-isles-review-9/IRL-source-candidate-check.json",
+            "gitBlobSha": "951273313bb3bbb4e62e43269b90c2b71d6b304d"
+          }
+        }
+      }
+    },
+    {
+      "sourcePath": "applied-result.json",
+      "gitBlobSha": "fb29c4dcddc864614bdda4597d96b190d1cd624f",
+      "content": {
+        "base": "a292406e6ce77e1d1cf29ced9e98dbfcfe0874e9",
+        "revision": "0afdf404436868c0f4170dddcc6b787109ee3375",
+        "codes": [
+          "GBR",
+          "IRL"
+        ],
+        "changed": [
+          "assets/data/territorial-entities/source/countries/state-GBR.json",
+          "assets/data/territorial-entities/source/countries/state-IRL.json",
+          "assets/data/territorial-entities/source/geometries/sha256-198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa.json",
+          "assets/data/territorial-entities/source/geometries/sha256-1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197.json"
+        ],
+        "readback": true,
+        "rawLossless": true,
+        "remote": false,
+        "runtime": false
+      }
+    },
+    {
+      "sourcePath": "cleanup.json",
+      "gitBlobSha": "afa80379227346a0c8720b70ce563b7b2aa1c4bf",
+      "content": {
+        "removed": [
+          {
+            "file": "GBR-raw-candidate.geojson",
+            "bytes": 28636408
+          },
+          {
+            "file": "GBR-before.geojson",
+            "bytes": 755042
+          },
+          {
+            "file": "geometries/sha256-1c2a3eca82b0b0b0c5236d998c37381339c84c7752d553d3b51cd2d2cd91f197.json",
+            "bytes": 28635721
+          },
+          {
+            "file": "IRL-raw-candidate.geojson",
+            "bytes": 13044857
+          },
+          {
+            "file": "IRL-before.geojson",
+            "bytes": 323539
+          },
+          {
+            "file": "geometries/sha256-198780a1cf24091e773003c13a19e5f61da481f8ecb333263f84ea6c41c7e4aa.json",
+            "bytes": 13044292
+          }
+        ],
+        "reason": "verified committed raw original coordinates; redundant temporary exports",
+        "logicalBytes": 84439859
+      }
+    },
+    {
+      "sourcePath": "island-batch-geographic-review.json",
+      "gitBlobSha": "4e0419bb9515aea30eaa3f3be171c9bcabc6c3f2",
+      "content": [
+        {
+          "code": "GBR",
+          "rawBounds": [
+            -13.687589947999982,
+            1.762971900000025,
+            49.86458310000006,
+            60.86081100000007
+          ],
+          "previousBounds": [
+            -8.650069299999927,
+            1.762971900000025,
+            49.88239440000007,
+            60.856193500000074
+          ],
+          "rawPolygonCount": 2398,
+          "previousPolygonCount": 542,
+          "rawAreaSquareDegrees": 33.74184230405821,
+          "previousAreaSquareDegrees": 33.72885348849183,
+          "rawNeighbours": [
+            {
+              "id": "17dca2e6-e76e-4bd8-a47f-4adffc2dc2a9",
+              "name": "France",
+              "code": "FRA",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "0afe8935-0238-463e-b2c2-250472a3c45b",
+              "name": "Ireland",
+              "code": "IRL",
+              "intersects": true,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 6.270539945704531
+            },
+            {
+              "id": "60822368-e048-4427-a87b-57f022653f6d",
+              "name": "Isle of Man",
+              "code": "IMN",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+              "name": "Russia",
+              "code": "RUS",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "0c59cd13-5b96-4b03-9ccc-33d667fa0e80",
+              "name": "Greenland",
+              "code": "GRL",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "c67465de-2c9f-4ea8-8e98-3c99e1942b44",
+              "name": "United States",
+              "code": "USA",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            }
+          ],
+          "scope": "Raw neighbour intersections measured; shared boundary contact allowed only with zero overlap area. No geopolitical repartition; unchanged parent and all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        },
+        {
+          "code": "IRL",
+          "rawBounds": [
+            -10.689109999999971,
+            -5.994428099999936,
+            51.42063580000007,
+            55.449870600000054
+          ],
+          "previousBounds": [
+            -10.661353299999973,
+            -5.994428099999936,
+            51.420645500000035,
+            55.43419050000006
+          ],
+          "rawPolygonCount": 1310,
+          "previousPolygonCount": 358,
+          "rawAreaSquareDegrees": 9.435274216618168,
+          "previousAreaSquareDegrees": 9.429121322237934,
+          "rawNeighbours": [
+            {
+              "id": "47aaa6b3-b456-4723-9317-e661720b4332",
+              "name": "Russia",
+              "code": "RUS",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "4f9b1dfc-e287-4b05-abc0-27793984fa5c",
+              "name": "United Kingdom",
+              "code": "GBR",
+              "intersects": true,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 6.270539945704592
+            },
+            {
+              "id": "c67465de-2c9f-4ea8-8e98-3c99e1942b44",
+              "name": "United States",
+              "code": "USA",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            }
+          ],
+          "scope": "Raw neighbour intersections measured; shared boundary contact allowed only with zero overlap area. No geopolitical repartition; unchanged parent and all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        }
+      ]
+    },
+    {
+      "sourcePath": "paired-topology-check.json",
+      "gitBlobSha": "70337ac80f6f7b2ceeb5dda25b9bd6ed9d99f7b5",
+      "content": {
+        "entities": [
+          "state:GBR",
+          "state:IRL"
+        ],
+        "sourceCoordinatesUnmodified": true,
+        "pairedMigration": true,
+        "intersectionArea": 0,
+        "sharedBoundaryLengthDegrees": 6.270539945704531,
+        "unionValid": true,
+        "unionPolygonCount": 3706,
+        "unionUsedAsSource": false,
+        "note": "Raw original feature pair adopted together; union only checks topology; no generated coordinates written."
+      }
+    }
+  ],
+  "retiredOneOffScripts": [
+    {
+      "sourcePath": "apply-batch.mjs",
+      "gitBlobSha": "dbae93bfb979c8ade2082cf03b4c844524326f7e"
+    },
+    {
+      "sourcePath": "prepare-island-source.mjs",
+      "gitBlobSha": "1c48fc9a57fbc094a4b6f3412a3ea6d3d004fb2e"
+    }
+  ]
+}
