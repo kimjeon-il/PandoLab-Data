@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-ESWATINI",
+  "type": "entity",
+  "title": "에스와티니",
+  "subject": {
+    "key": "state:SWZ",
+    "kind": "state",
+    "displayName": "에스와티니",
+    "runtimeEntityId": "state:SWZ"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1968-ESWATINI-INDEPENDENCE",
+    "EVT-2018-ESWATINI-RENAMING"
+  ],
+  "sourceIds": [
+    "SRC-032",
+    "SRC-033",
+    "SRC-034",
+    "SRC-035",
+    "SRC-036",
+    "SRC-027",
+    "SRC-037",
+    "SRC-038",
+    "SRC-039"
+  ],
+  "unresolved": [
+    "유보: 1967년 보호체제의 관계·종료 효력일과 조약 원문, 2018년 국명 고시 관보 원본·정확한 효력일(11일/17일 출판일 불일치). 2018년 국명 변경을 국가 `validTo=2018`·새 `validFrom=2018`로 잘못 처리하지 않는다."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-036",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotBlobSha": "724999e7ea7b4d67d505a22bbb5f1a3ec4ab0b55"
+  }
+}

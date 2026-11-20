@@ -1,0 +1,662 @@
+{
+  "schema": "pando-history-source-registry-v1",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "url": "https://www.geschichte.sachsen.de/koenigreich-sachsen-6782.html",
+      "fromReport": "GEO-LIFE-034",
+      "section": "작센 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-002",
+      "url": "https://www.hgisg-ekompendium.ieg-mainz.de/Dokumentation_Datensaetze/Multimedia/Staaten/Sachsen.php",
+      "fromReport": "GEO-LIFE-034",
+      "section": "작센 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-003",
+      "url": "https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ereig-0244",
+      "fromReport": "GEO-LIFE-034",
+      "section": "바덴 대공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-004",
+      "url": "https://www.leo-bw.de/de/web/guest/themenmodul/von-der-monarchie-zur-republik/zeitstrahl/thronverzicht-von-gro-herzog-friedrich-ii-von-baden",
+      "fromReport": "GEO-LIFE-034",
+      "section": "바덴 대공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-005",
+      "url": "https://www.hgisg-ekompendium.ieg-mainz.de/Dokumentation_Datensaetze/Multimedia/Staaten/Baden.php",
+      "fromReport": "GEO-LIFE-034",
+      "section": "바덴 대공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-006",
+      "url": "https://starweb.hessen.de/cache/hessen/landtag/%282%29nassauischeverfassungaus.pdf",
+      "fromReport": "GEO-LIFE-034",
+      "section": "나사우 공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-007",
+      "url": "https://lagis.hessen.de/de/quellen-und-materialien/hessen-im-19-und-20-jahrhundert/alle-eintraege/6519_eingliederung-von-kurhessen-nassau-und-frankfurt-in-das-koenigreich-preussen",
+      "fromReport": "GEO-LIFE-034",
+      "section": "나사우 공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-008",
+      "url": "https://gr-atlas.uni.lu/index.php/fr/articles/te63/gr211/ii249/289",
+      "fromReport": "GEO-LIFE-034",
+      "section": "나사우 공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-009",
+      "url": "https://lagis.hessen.de/de/quellen-und-materialien/hessen-im-19-und-20-jahrhundert/alle-eintraege/6517_herzog-adolf-von-nassau-verabschiedet-sich-von-den-nassauischen-truppen",
+      "fromReport": "GEO-LIFE-034",
+      "section": "나사우 공국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-010",
+      "url": "https://www.archives.pref.okinawa.jp/news/that_day/4631",
+      "fromReport": "GEO-LIFE-035",
+      "section": "류큐 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-011",
+      "url": "https://www.archives.go.jp/ayumi/kobetsu/m12_1879_01.html",
+      "fromReport": "GEO-LIFE-035",
+      "section": "류큐 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-012",
+      "url": "https://www.jacar.archives.go.jp/das/meta-en/A01100178700",
+      "fromReport": "GEO-LIFE-035",
+      "section": "류큐 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-013",
+      "url": "https://ryuoki-archive.jp/chronology/",
+      "fromReport": "GEO-LIFE-035",
+      "section": "류큐 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-014",
+      "url": "https://encykorea.aks.ac.kr/Article/E0015187",
+      "fromReport": "GEO-LIFE-035",
+      "section": "대한제국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-015",
+      "url": "https://db.history.go.kr/id/tcmd_1897_10_12_0020",
+      "fromReport": "GEO-LIFE-035",
+      "section": "대한제국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-016",
+      "url": "https://db.history.go.kr/id/gbdh_1910_08_29_c00001_00030",
+      "fromReport": "GEO-LIFE-035",
+      "section": "대한제국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-017",
+      "url": "https://db.history.go.kr/id/nh_043_0040_0030_0040_0010",
+      "fromReport": "GEO-LIFE-035",
+      "section": "대한제국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-018",
+      "url": "https://mjp.univ-perp.fr/constit/la1946.htm",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-019",
+      "url": "https://history.state.gov/countries/laos",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-020",
+      "url": "https://mjp.univ-perp.fr/constit/la1953.htm",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-021",
+      "url": "https://history.state.gov/historicaldocuments/frus1952-54v13p1/d433",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-022",
+      "url": "https://www.un.org/en/about-us/member-states/lao-peoples-democratic-republic",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-023",
+      "url": "https://kpl.gov.la/En/Page/Footer/laopartyX.aspx",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-024",
+      "url": "https://documents.un.org/api/symbol/access?l=en&s=A%2FCN.4%2F730&t=pdf",
+      "fromReport": "GEO-LIFE-035",
+      "section": "라오스 왕국",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-025",
+      "url": "https://www.legislation.gov.uk/ukpga/1966/24/body/enacted",
+      "fromReport": "GEO-LIFE-036",
+      "section": "레소토",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-026",
+      "url": "https://history.state.gov/countries/lesotho",
+      "fromReport": "GEO-LIFE-036",
+      "section": "레소토",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-027",
+      "url": "https://www.un.org/en/about-us/member-states",
+      "fromReport": "GEO-LIFE-036",
+      "section": "레소토",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-028",
+      "url": "https://www.gov.ls/",
+      "fromReport": "GEO-LIFE-036",
+      "section": "레소토",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-029",
+      "url": "https://www.legislation.gov.uk/ukpga/1964/46/ni/data.html",
+      "fromReport": "GEO-LIFE-036",
+      "section": "말라위",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-030",
+      "url": "https://history.state.gov/countries/malawi",
+      "fromReport": "GEO-LIFE-036",
+      "section": "말라위",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-031",
+      "url": "https://www.legislation.gov.uk/ukpga/1966/22/enacted",
+      "fromReport": "GEO-LIFE-036",
+      "section": "말라위",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-032",
+      "url": "https://www.legislation.gov.uk/ukpga/1968/56/contents",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-033",
+      "url": "https://statutes.uk/swaziland-independence-act-1968",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-034",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1968/jul/05/swaziland-independence-bill",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-035",
+      "url": "https://history.state.gov/countries/swaziland",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-036",
+      "url": "https://digitallibrary.un.org/record/515089",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-037",
+      "url": "https://www.un.org/en/about-us/member-states/eswatini",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-038",
+      "url": "https://www.legal500.com/intelligence/swaziland/government-public-sector/name-change-to-kingdom-of-eswatini-made-official-through-publication-of-notice-in-gazette",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-039",
+      "url": "https://www.archontology.org/nations/eswatini/01_polity.php",
+      "fromReport": "GEO-LIFE-036",
+      "section": "에스와티니",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-040",
+      "url": "https://www.legislation.gov.uk/ukpga/1973/27",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-041",
+      "url": "https://www.legislation.gov.uk/uksi/1973/1080/introduction/made",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-042",
+      "url": "https://history.state.gov/countries/bahamas/1000",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-043",
+      "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p1/d434",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-044",
+      "url": "https://www.un.org/dppa/decolonization/history/former-trust-and-nsgts",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-045",
+      "url": "https://www.un.org/dppa/decolonization/sites/www.un.org.dppa.decolonization/files/decon_num_39-2.pdf",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바하마",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-046",
+      "url": "https://www.legislation.gov.uk/ukpga/1966/37/england/enacted",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-047",
+      "url": "https://www.legislation.gov.uk/uksi/1966/1455/contents/made",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-048",
+      "url": "https://history.state.gov/countries/barbados",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-049",
+      "url": "https://www.barbadosparliament.com/bills/details/581",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-050",
+      "url": "https://gisbarbados.gov.bb/blog/statement-on-november-30th-celebrations/",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-051",
+      "url": "https://gisbarbados.gov.bb/blog/pm-outlines-republic-journey-for-barbados/",
+      "fromReport": "GEO-LIFE-037",
+      "section": "바베이도스",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-052",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/10-11/54/enacted",
+      "fromReport": "GEO-LIFE-037",
+      "section": "트리니다드 토바고",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-053",
+      "url": "https://history.state.gov/countries/trinidad-and-tobago",
+      "fromReport": "GEO-LIFE-037",
+      "section": "트리니다드 토바고",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-054",
+      "url": "https://www.natt.gov.tt/sites/default/files/images/FINAL%20Independence%20Brochure%20REV%2021%20Aug%202018OptimizedMin%20%281%29.pdf",
+      "fromReport": "GEO-LIFE-037",
+      "section": "트리니다드 토바고",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-055",
+      "url": "https://www.natt.gov.tt/node/151",
+      "fromReport": "GEO-LIFE-037",
+      "section": "트리니다드 토바고",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-056",
+      "url": "https://www.nalis.gov.tt/resources/tt-content-guide/independence-day/",
+      "fromReport": "GEO-LIFE-037",
+      "section": "트리니다드 토바고",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-057",
+      "url": "https://cancilleria.gob.bo/mre/2025/10/23/23285/",
+      "fromReport": "GEO-TIME-033",
+      "section": "Isla Suárez sovereignty and boundary GEO-TIME-033",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-058",
+      "url": "https://cancilleria.gob.bo/mre/2026/03/16/24664/",
+      "fromReport": "GEO-TIME-033",
+      "section": "Isla Suárez sovereignty and boundary GEO-TIME-033",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-059",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2024/Brasil/BR_Pais_2024.zip",
+      "fromReport": "GEO-TIME-033",
+      "section": "Isla Suárez sovereignty and boundary GEO-TIME-033",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-060",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Pais_2025.zip",
+      "fromReport": "GEO-TIME-033",
+      "section": "Isla Suárez sovereignty and boundary GEO-TIME-033",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-061",
+      "url": "https://geobolivia.planificacion.gob.bo/ide-epb/",
+      "fromReport": "GEO-TIME-033",
+      "section": "Isla Suárez sovereignty and boundary GEO-TIME-033",
+      "reviewStatus": "cited-in-legacy-source"
+    },
+    {
+      "id": "SRC-062",
+      "url": "https://apers.rs.gov.br/entre-imperiais-e-farroupilhas-uma-convergencia-pouco-ou-nenhum-desafio-a-ordem-escravista",
+      "fromReport": "GEO-LIFE-038",
+      "section": "리우그란덴시 공화국 1836년 선포",
+      "reviewStatus": "web-page-opened",
+      "kind": "state-archive-historians",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-063",
+      "url": "https://www.pmpf.rs.gov.br/cultura/eventos/13a-missa-da-paz-180-anos-da-assinatura-do-tratado-de-paz-de-ponche-verde/",
+      "fromReport": "GEO-LIFE-038",
+      "section": "1845년 평화문서 서명과 공표일(2차 인용)",
+      "reviewStatus": "web-page-opened-secondary-citation",
+      "kind": "municipality",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-064",
+      "url": "https://memoriapolitica.alesc.sc.gov.br/legislativo/deputado-provincial/legislaturas/69-2a_Legislatura",
+      "fromReport": "GEO-LIFE-038",
+      "section": "1839년 줄리아나 공화국 29일 선포·11월 15일 종료",
+      "reviewStatus": "web-page-opened",
+      "kind": "state-legislature-history",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-065",
+      "url": "https://www.lages.sc.gov.br/noticia-descricao/4239/cronicas-de-sabado:-os-bois-de-botas",
+      "fromReport": "GEO-LIFE-038",
+      "section": "줄리아나 공화국 7월 24일-11월 15일 별도 연대기",
+      "reviewStatus": "web-page-opened",
+      "kind": "municipality-independent-chronicle",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-066",
+      "url": "https://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/pronunciamento/415799",
+      "fromReport": "GEO-LIFE-038",
+      "section": "1899년 아크리 독립 선포 및 브라질의 볼리비아 주권 인정",
+      "reviewStatus": "web-page-opened-senator-speech",
+      "kind": "parliamentary-speech-not-original-law",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-067",
+      "url": "https://cpdoc.fgv.br/sites/default/files/verbetes/primeira-republica/TRATADO%20DE%20PETR%C3%93POLIS.pdf",
+      "fromReport": "GEO-LIFE-038",
+      "section": "아크리 1899-07-14·1900-03-15 및 페트로폴리스 조약 1904-03-10",
+      "reviewStatus": "pdf-page-image-reviewed-and-text-opened",
+      "kind": "independent-academic-reference",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-068",
+      "url": "https://concordia.itamaraty.gov.br/acordo/243",
+      "fromReport": "GEO-LIFE-038",
+      "section": "1903-11-17 서명, 1904-03-10 국제발효, 1904-03-15 브라질 국내발효",
+      "reviewStatus": "web-page-opened-original-treaty-metadata",
+      "kind": "foreign-ministry-treaty-register",
+      "reviewedOn": "2026-11-19"
+    },
+    {
+      "id": "SRC-069",
+      "url": "https://www.legislation.govt.nz/act/public/1961/0068/latest/whole.html",
+      "fromReport": "GEO-LIFE-039",
+      "section": "Western Samoa Act 1961; 독립 효력",
+      "kind": "original-statute",
+      "reviewStatus": "search-excerpt-reviewed-direct-open-403",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-070",
+      "url": "https://www3.parliament.nz/en/get-involved/features/celebrating-60-years-of-independence-for-western-samoa/",
+      "fromReport": "GEO-LIFE-039",
+      "section": "NZ 의회 1962년 서사모아 독립 연혁",
+      "kind": "parliamentary-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-071",
+      "url": "https://www.legislation.govt.nz/act/public/1964/0069/latest/DLM354260.html",
+      "fromReport": "GEO-LIFE-039",
+      "section": "Cook Islands Constitution Act 1964; 1965 시행",
+      "kind": "original-statute",
+      "reviewStatus": "search-excerpt-reviewed-direct-open-403",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-072",
+      "url": "https://www.pmoffice.gov.ck/2025/08/04/prime-ministers-constitution-address-celebrating-60-years-of-self-governance/",
+      "fromReport": "GEO-LIFE-039",
+      "section": "쿡 제도 총리실 1965 자유연합 기록",
+      "kind": "cook-islands-government",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-073",
+      "url": "https://www.legislation.govt.nz/act/public/1974/0042/latest/DLM413443.html",
+      "fromReport": "GEO-LIFE-039",
+      "section": "Niue Constitution Act 1974; 1974 시행",
+      "kind": "original-statute",
+      "reviewStatus": "search-excerpt-reviewed-direct-open-403",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-074",
+      "url": "https://gov.nu/government",
+      "fromReport": "GEO-LIFE-039",
+      "section": "니우에 정부 1974 자유연합·헌법 효력",
+      "kind": "niue-government",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-075",
+      "url": "https://nzhistory.govt.nz/niue-achieves-self-government",
+      "fromReport": "GEO-LIFE-039",
+      "section": "뉴질랜드 문화유산부 니우에 1974 자치 역사",
+      "kind": "state-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-076",
+      "url": "https://www.archontology.org/nations/samoa/01_polity.php",
+      "fromReport": "GEO-LIFE-039",
+      "section": "사모아 1962 독립·1997 국호 변경 연대기",
+      "kind": "specialist-research",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-077",
+      "url": "https://www.wipo.int/wipolex/en/text/198467",
+      "fromReport": "GEO-LIFE-039",
+      "section": "사모아 개정헌법; 1997년 Amendment Act No.15",
+      "kind": "consolidated-national-law",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-078",
+      "url": "https://teara.govt.nz/en/1966/samoa-western",
+      "fromReport": "GEO-LIFE-039",
+      "section": "1966 뉴질랜드 백과사전 서사모아 독립 연혁",
+      "kind": "historical-encyclopedia",
+      "reviewStatus": "search-result-text-reviewed",
+      "reviewedOn": "2026-11-20"
+    },
+    {
+      "id": "SRC-079",
+      "url": "https://president.kg/ru/news/all/38919",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-13 키르기스스탄 대통령실 양국 국경조약 서명 공식 발표",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-080",
+      "url": "https://mfa.tj/en/main/view/16742/signing-of-new-cooperation-documents-between-the-republic-of-tajikistan-and-the-kyrgyz-republic",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-13 타지키스탄 외무부 독립 공식 서명 발표",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-081",
+      "url": "https://president.kg/kg/news/21/38975",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-25 키르기스스탄 대통령 비준법 서명 (의회 03-19 통과)",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-082",
+      "url": "https://president.kg/ru/news/36/39001",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-31 키르기스스탄 대통령실 비준서 교환 의정서 서명 보도",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-083",
+      "url": "https://www.hrw.org/news/2025/03/28/kyrgyzstan-tajikistan-put-rights-center-border-deal",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-28 Human Rights Watch 양국 토지 교환과 도스투크 귀속 독립 보도",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-084",
+      "url": "https://prg.kz/Document/?doc_id=39628795",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-13 양국 국경조약 원문 부분 전사 (시연 제한, 부속서 미열람)",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-085",
+      "url": "https://www.lex.uz/ru/docs/7860582",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-03-31 삼국 접점 조약 우즈베키스탄 공식 법령 데이터베이스 (부속서 1·2 미게시)",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-086",
+      "url": "https://www.mfa.tj/ru/main/view/17800/obmen-gramotami-o-ratifikatsii-protokola-k-dogovoru-o-tochke-styka-gosudarstvennykh-granits",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "2025-11-16 삼국 국경접점 조약 관련 의정서 비준 문서 교환 타지키스탄 외무부 발표",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-087",
+      "url": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "미국 국무부 LSIB 11.4 2025-02-24 발행 GIS 메타데이터",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-088",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "ETH CShapes 2.0 역사국경 GIS 1886–2019 설명·배포",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    },
+    {
+      "id": "SRC-089",
+      "url": "https://eurasian-research.org/publications/historic-agreement-on-kyrgyz-tajik-borders",
+      "fromReport": "timeline-2025-asia-2026-11-20",
+      "section": "유라시아연구소 2025 국경 합의 경과·토지교환 분석",
+      "reviewStatus": "web-page-reviewed; file/annex not downloaded"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1964-MALAWI-INDEPENDENCE",
+  "type": "event",
+  "title": "말라위 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1964,
+    "value": "1964-07-06",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:MWI"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:MWI",
+      "field": "lifetime.validFrom",
+      "summary": "냐살랜드에서 말라위 독립. 선행 조사 GEO-023과 같은 날짜.",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "state:MWI",
+      "field": "relationship.parent",
+      "summary": "영국 통치·종속관계 종료.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1964-06-10",
+      "role": "independence-act-enacted"
+    }
+  ],
+  "sourceIds": [
+    "SRC-029",
+    "SRC-030",
+    "SRC-027",
+    "SRC-031"
+  ],
+  "unresolved": [
+    "중앙아프리카연방 해소 및 보호령 관계의 정확한 객체 이력"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-036",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotBlobSha": "724999e7ea7b4d67d505a22bbb5f1a3ec4ab0b55"
+  }
+}

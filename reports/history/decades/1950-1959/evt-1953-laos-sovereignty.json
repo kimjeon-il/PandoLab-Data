@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1953-LAOS-SOVEREIGNTY",
+  "type": "event",
+  "title": "라오스 완전한 주권 인정 조약",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1953,
+    "value": "1953-10-22",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:LAO"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:LAO",
+      "field": "relationship.parent",
+      "summary": "프랑스의 완전 주권 인정, 기존 대외관계 권한 변화.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1953-10-22",
+      "role": "treaty-signed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-018",
+    "SRC-019",
+    "SRC-020",
+    "SRC-021",
+    "SRC-022",
+    "SRC-023",
+    "SRC-024"
+  ],
+  "unresolved": [
+    "비준서 교환과 조약 제8조 효력 발생일 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

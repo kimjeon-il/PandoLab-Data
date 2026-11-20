@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1897-KOREAN-EMPIRE-NAME",
+  "type": "event",
+  "title": "조선에서 대한제국 국호 변경",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1897,
+    "value": null,
+    "precision": "unknown",
+    "note": "사건 연도는 알려졌지만 실제 변경의 정확한 효력일은 미확정이다."
+  },
+  "entityKeys": [
+    "research:state:korean-empire"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:korean-empire",
+      "field": "name.formal",
+      "summary": "대한제국 국호 선포. 조선이라는 국가가 새로 탄생한 사건으로 처리하지 않는다.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1897-10-12",
+      "role": "coronation"
+    },
+    {
+      "date": "1897-10-13",
+      "role": "formal-proclamation"
+    }
+  ],
+  "sourceIds": [
+    "SRC-014",
+    "SRC-015",
+    "SRC-016",
+    "SRC-017"
+  ],
+  "unresolved": [
+    "원관보에 근거한 공식 국호 효력일 보류"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

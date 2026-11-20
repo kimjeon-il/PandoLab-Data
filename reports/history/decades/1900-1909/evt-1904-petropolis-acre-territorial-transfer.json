@@ -1,0 +1,69 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+  "type": "event",
+  "title": "페트로폴리스 조약 발효와 볼리비아–브라질 아크리 영토 귀속 변경",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1904,
+    "value": "1904-03-10",
+    "precision": "day",
+    "note": "브라질 외교부의 국제법상 발효일. 서명 1903-11-17, 브라질 국내발효 1904-03-15과 구별."
+  },
+  "entityKeys": [
+    "state:BOL",
+    "state:BRA",
+    "research:state:acre-independent-state"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:BOL",
+      "field": "territory.assignment",
+      "summary": "볼리비아가 조약에서 규정한 아크리 관련 영토와 교환구역을 브라질에 양도; 대상 구획·형상 미확정",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "state:BRA",
+      "field": "territory.assignment",
+      "summary": "브라질의 조약상 아크리 귀속 및 일부 교환 영토 양도. 1904-03-10 국제 발효.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-067",
+    "SRC-068"
+  ],
+  "unresolved": [
+    "원조약·부속도면에 따른 육상 영토·상호 교환 구획, 페루와의 후속 국경 분리",
+    "법적 효과 발생일과 행정적으로 실효 지배가 달라진 시기 구별"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1903-11-17",
+      "role": "signature"
+    },
+    {
+      "date": "1904-02-18",
+      "role": "legislative-approval"
+    },
+    {
+      "date": "1904-03-10",
+      "role": "international-entry-into-force"
+    },
+    {
+      "date": "1904-03-15",
+      "role": "domestic-entry-into-force-Brazil"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

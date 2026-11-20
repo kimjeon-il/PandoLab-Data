@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1845-RIOGRANDENSE-PEACE",
+  "type": "event",
+  "title": "리우그란덴시 공화국과 브라질 제국의 평화·통치 종료",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1845,
+    "value": null,
+    "precision": "range",
+    "note": "1845-02-28 평화합의 서명·1845-03-01 종결 공표를 구별. 실제 주권/실효정부 종료일 유보."
+  },
+  "entityKeys": [
+    "research:state:riograndense-republic"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:riograndense-republic",
+      "field": "lifetime.validTo",
+      "summary": "1845년 분리정부 종료·브라질 제국 귀속 복귀; 정확한 객체 종료일 미확정",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-063",
+    "SRC-064"
+  ],
+  "unresolved": [
+    "포녜베르지 평화 문서 원문·1845년 정확한 법적 효력일",
+    "투항 지역별 잔여 실효 통치 종료"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1845-02-28",
+      "role": "reported-peace-signature"
+    },
+    {
+      "date": "1845-03-01",
+      "role": "reported-peace-announcement"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

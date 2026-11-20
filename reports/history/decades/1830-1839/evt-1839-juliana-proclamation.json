@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1839-JULIANA-PROCLAMATION",
+  "type": "event",
+  "title": "줄리아나 공화국 선포와 라구나 분리정부 수립",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1839,
+    "value": null,
+    "precision": "range",
+    "note": "1839-07-24 점령·연대기상의 시작과 1839-07-29 독립 선언 기록이 상충하므로 validFrom 불확정."
+  },
+  "entityKeys": [
+    "research:state:juliana-republic"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:juliana-republic",
+      "field": "lifetime.validFrom",
+      "summary": "1839년 라구나 분리정부; 선포일 7월 24일/29일 자료 차이 유보",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-064",
+    "SRC-065"
+  ],
+  "unresolved": [
+    "원문 선포일과 점령일의 명확한 구분",
+    "주권국 분류 및 연방관계"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1839-07-24",
+      "role": "laguna-occupation-or-chronicle-start"
+    },
+    {
+      "date": "1839-07-29",
+      "role": "independence-proclamation-in-legislature-history"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

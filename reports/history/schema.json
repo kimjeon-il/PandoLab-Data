@@ -1,0 +1,294 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/kimjeon-il/PandoLab-library/blob/main/reports/history/schema.json",
+  "title": "Pando history research records v1",
+  "description": "Structured research records; never a GIS/app publication approval",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "type",
+    "title",
+    "status",
+    "sourceIds",
+    "unresolved",
+    "provenance"
+  ],
+  "properties": {
+    "schema": {
+      "const": "pando-history-report-v1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 4
+    },
+    "type": {
+      "enum": [
+        "entity",
+        "event",
+        "geography"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "type": "object",
+      "required": [
+        "research",
+        "application"
+      ],
+      "properties": {
+        "research": {
+          "enum": [
+            "investigating",
+            "provisional",
+            "source-reviewed",
+            "verified",
+            "rejected"
+          ]
+        },
+        "application": {
+          "enum": [
+            "not-applied",
+            "applied"
+          ]
+        },
+        "phase": {
+          "type": "string"
+        }
+      }
+    },
+    "subject": {
+      "type": "object",
+      "required": [
+        "key",
+        "kind",
+        "displayName"
+      ],
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "state",
+            "dependency",
+            "place",
+            "river",
+            "other"
+          ]
+        },
+        "displayName": {
+          "type": "string"
+        },
+        "runtimeEntityId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "entityKeys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "eventIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "date": {
+      "type": "object",
+      "required": [
+        "year",
+        "precision"
+      ],
+      "properties": {
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1801
+        },
+        "value": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "day",
+            "month",
+            "year",
+            "range",
+            "unknown"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "entityKey",
+          "field",
+          "summary",
+          "assessment"
+        ],
+        "properties": {
+          "entityKey": {
+            "type": "string"
+          },
+          "field": {
+            "enum": [
+              "lifetime.validFrom",
+              "lifetime.validTo",
+              "name.formal",
+              "name.short",
+              "flag",
+              "relationship.parent",
+              "relationship.childType",
+              "territory.assignment",
+              "territory.geometry",
+              "place.name",
+              "place.position",
+              "river.name",
+              "river.geometry"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          },
+          "assessment": {
+            "enum": [
+              "provisional",
+              "source-reviewed",
+              "verified",
+              "rejected"
+            ]
+          },
+          "proposedValue": {},
+          "uncertainty": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "legacyReportId",
+        "snapshotUrl"
+      ],
+      "properties": {
+        "legacyReportId": {
+          "type": "string"
+        },
+        "snapshotUrl": {
+          "type": "string"
+        },
+        "legacyPath": {
+          "type": "string"
+        },
+        "snapshotBlobSha": {
+          "type": "string"
+        }
+      }
+    },
+    "lifetimeAssessment": {
+      "type": "object"
+    },
+    "feature": {
+      "type": "object"
+    },
+    "sourceCandidates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "finding": {
+      "type": "string"
+    },
+    "evidenceDates": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "entity"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "subject",
+          "eventIds",
+          "lifetimeAssessment"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "event"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "entityKeys",
+          "date",
+          "changes"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "geography"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "feature",
+          "entityKeys",
+          "changes"
+        ]
+      }
+    }
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1966-BARBADOS-INDEPENDENCE",
+  "type": "event",
+  "title": "바베이도스 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1966,
+    "value": "1966-11-30",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:BRB"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:BRB",
+      "field": "lifetime.validFrom",
+      "summary": "영국 통치 종료와 바베이도스 독립. 2021년 공화정 변경은 국가 소멸 아님.",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "state:BRB",
+      "field": "relationship.parent",
+      "summary": "영국 통치 관계 종료.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1966-11-17",
+      "role": "independence-act-enacted"
+    },
+    {
+      "date": "1966-11-22",
+      "role": "independence-order-made"
+    }
+  ],
+  "sourceIds": [
+    "SRC-046",
+    "SRC-047",
+    "SRC-048",
+    "SRC-049",
+    "SRC-050",
+    "SRC-045",
+    "SRC-051"
+  ],
+  "unresolved": [
+    "2021 공화국 전환시 공식 국명·국기 변경 여부만 후속 조사"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-037",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-north-america-bahamas-barbados-trinidad-tobago-2026-11-18.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-north-america-bahamas-barbados-trinidad-tobago-2026-11-18.md",
+    "snapshotBlobSha": "dd0a1f9e5bc53b505fccbbdf7563592b490a10ad"
+  }
+}

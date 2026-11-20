@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+  "type": "event",
+  "title": "제1차 아크리 공화국 해체",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1900,
+    "value": "1900-03-15",
+    "precision": "day",
+    "note": "브라질의 볼리비아 주권 인정에 따른 군함 파견·갈베스 정권 해체; 1903년 후속 정권과 구별."
+  },
+  "entityKeys": [
+    "research:state:acre-independent-state"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:acre-independent-state",
+      "field": "lifetime.validTo",
+      "summary": "1900-03-15 제1차 아크리 공화국의 실효 정부 종료; 전체 아크리 정치체의 단일 종료일로 사용 금지",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-066",
+    "SRC-067"
+  ],
+  "unresolved": [
+    "후속 아크리 선언을 별도 정치체/재성립으로 모델링할지 확인",
+    "1900-03-15 원 군사·정치 기록의 효력 범위"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1900-03-15",
+      "role": "first-republic-dissolution"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

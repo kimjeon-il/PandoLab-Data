@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-LESOTHO",
+  "type": "entity",
+  "title": "레소토",
+  "subject": {
+    "key": "state:LSO",
+    "kind": "state",
+    "displayName": "레소토",
+    "runtimeEntityId": "state:LSO"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1966-LESOTHO-INDEPENDENCE"
+  ],
+  "sourceIds": [
+    "SRC-025",
+    "SRC-026",
+    "SRC-027",
+    "SRC-028"
+  ],
+  "unresolved": [
+    "유보: 19세기 바소토 왕국·영국 보호체제와 독립 레소토 사이의 국가 객체 존속 및 종속관계 유효일, `Lesotho Independence Order 1966`(SI 1966/1172) 중 그 전환을 확인하는 조항. 1801년 이전 기원은 제외한다."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-036",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotBlobSha": "724999e7ea7b4d67d505a22bbb5f1a3ec4ab0b55"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-ACRE-REPUBLIC",
+  "type": "entity",
+  "title": "아크리 독립국·공화국",
+  "subject": {
+    "key": "research:state:acre-independent-state",
+    "kind": "state",
+    "displayName": "아크리 독립국·공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-19",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1899-07-14 첫 아크리 공화국 선포와 1900-03-15 종료. 1902~1903 후속 봉기·정부와 첫 공화국의 계속성 미확정. 1904년 브라질–볼리비아 조약상 주권 귀속은 별도 국가 간 사건."
+  },
+  "eventIds": [
+    "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+    "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+    "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+  ],
+  "sourceIds": [
+    "SRC-066",
+    "SRC-067",
+    "SRC-068"
+  ],
+  "unresolved": [
+    "1899~1900 첫 정권과 1900/1903 다른 독립 선포의 동일성·별도 lifetime",
+    "1899년 선언문·실효 지배 범위 및 외부승인/국가성",
+    "1904년 발효된 국경 변경은 1899년 아크리 국가소멸일과 같지 않음"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  },
+  "region": "남아메리카",
+  "statehoodAssessment": "short-lived-unrecognized-secessionist-polity"
+}

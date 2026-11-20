@@ -1,0 +1,269 @@
+{
+  "schema": "pando-history-research-progress-v1",
+  "updatedOn": "2026-11-20",
+  "lifetime": {
+    "rotationOrder": [
+      "유럽",
+      "아시아",
+      "아프리카",
+      "북아메리카",
+      "남아메리카",
+      "오세아니아"
+    ],
+    "lastRegion": "오세아니아",
+    "lastCompletedRun": "2026-11-20",
+    "lastReportId": "GEO-LIFE-039",
+    "nextRegion": "유럽",
+    "nextPhase": "유럽 지역 미조사 주권국·속령·역사 정치체 2~4건의 국가별 1차 조사; 지역 1차 전수 후 법적 동일성·관계·효력일 2차 검증",
+    "regionCoverage": "유럽·아시아·아프리카·북아메리카·남아메리카·오세아니아 모두 1차·2차 전수 미완료",
+    "pendingByRegion": {
+      "유럽": "작센 왕국 승격 1806년 정확한 원법령·효력일, 1815 조약상 귀속 및 1867/1871 법적 지위, 1918-11-13 퇴위와 실효 통치 변화를 분리. 바덴 1806-07-12 라인동맹 조약 비준·효력, 1918-11-13 임시/11-22 최종 퇴위와 후계 자유국 동일성. 나사우 1806-08-30 공동 선포·1866년 9월 조치/10-03 특허장과 주권 소멸 날짜 분리. 이전 유럽 GEO-LIFE-010/016/022/028의 체코슬로바키아·동독·유고·양시칠리아·하노버·크라쿠프·바이에른·뷔르템베르크·바르샤바 미확정 법적 지위·종료일도 유지.",
+      "아시아": "류큐 1872/1879 종속·실효 주권, 대한제국 1897 의례/선포·1905 보호국/조약 유효성·1910 병합과 법적 계속성, 라오스 1946/1947/1949/1953 독립 단계·1975 공화정 전환 및 기존 `state:LAO.validFrom=1946-08-27` 의미. 코칸트 구력/신력 병합일, 히바·부하라 보호국·정권교체의 법적 동일성, 시킴 1950/1975 보호·병합, 북예멘 1962 공화정·1990 통합, 남예멘 1967/1970/1990 지위·국명·통합 검증 유보. 그 밖의 기조사국 법적 국가성 인계.",
+      "아프리카": "에티오피아 점령기 계속성, 수단·남수단 국가승계, 남아공 1910/1934/1961 체제·대외 주권, 잔지바르/마다가스카르/다호메이 왕정 및 가나·나미비아·우간다 원법령 검증. GEO-LIFE-036: 레소토 바소토 왕정/보호통치/현대독립왕국 동일성, 말라위 중앙아프리카연방 분리와 1966 공화국 원헌법, 에스와티니 1967 보호국 지위·2018 Legal Notice 80 고시일(5월 11일 대 17일 사료 차이)·국명 소급효력 검증.",
+      "북아메리카": "중미 연방·텍사스·유카탄, 서플로리다·남부연합·1921 중미 연방, 벨리즈·자메이카·파나마의 정확한 국제법상 국가성·지위·종료일. GEO-LIFE-037: 바하마(1973-07-10), 바베이도스(1966-11-30), 트리니다드 토바고(1962-08-31) 독립법 시행과 국가성, 2021 바베이도스·1976 트리니다드 토바고 공화국 헌정 전환의 법적 계속성·원 공포문 및 독립 헌법 전환 경위. GEO-023 기초 일자와 중복 발견 계수 금지.",
+      "남아메리카": "그란콜롬비아·페루–볼리비아 연합, 리우그란덴시·부에노스아이레스·아크레·줄리아나, 과야킬·쿤디나마르카·엔트레리오스의 역사 정치체 주권·동일성. GEO-LIFE-038: 리우그란덴시 1836 선언·1845년 평화 효력일/도시 통제 차이, 줄리아나 1839-07-24 점령 대 07-29 선언 및 11-15 종료·이후 잔존군과의 구분, 아크리 1899/1900/1903 복수 정치체 동일성, 1904-03-10 페트로폴리스 조약 국제 발효·03-15 브라질 국내발효와 영토 교환 범위. 세 건 모두 주권국 최종 승인 보류.",
+      "오세아니아": "GEO-LIFE-039 1차: 서사모아 1962-01-01 신탁통치 종료·독립(기존 알려진 독립일), 1997 국호 Western Samoa→Samoa(1997-07-04 법 재가 기록, 정확한 법적 발효일 미확정). 쿡 제도 1965-08-04·니우에 1974-10-19 뉴질랜드와 자유연합 자치 효력. 세 객체의 Pando 실존 runtime 매핑/국가·속령 분류, 선행 1900/1901 보호국·뉴질랜드 귀속, 자유연합과 Realm 법적 관계·국가 동일성·국기·정식명칭 이력 2차 보류. 과거 조사 우베아·알로·시가브, 잔여 하와이 왕국/공화국·피지·타히티·쿡연방·사모아 식민단계·보라보라·라이아테아 등 전수 미완료."
+    },
+    "recentRuns": [
+      {
+        "date": "2026-11-20",
+        "region": "오세아니아",
+        "summary": "GEO-LIFE-039 — 사모아·쿡 제도·니우에 3개 객체 1차. 서사모아 1962 독립 효력과 1997 공식 국호 개정, 쿡 제도 1965-08-04·니우에 1974-10-19 자유연합 자치 전환 확인. 객체 3개, 사건 4개, 출처 10개를 JSON으로 기록. 알려진 독립일 신규 발견 재계수 0. 자치국 분류·1901 관할·1997 정확한 효력일 미확정, 정본 반영 0건.",
+        "next": "유럽"
+      },
+      {
+        "date": "2026-11-19",
+        "region": "남아메리카",
+        "summary": "GEO-LIFE-038 — 리우그란덴시·줄리아나·아크리 역사 정치체 3건 1차 조사. 1836/1839/1899 선언, 1845/1839/1900 종료, 1904-03-10 브라질–볼리비아 조약상 국제 발효 구분. 3건 모두 국가성·최종 lifetime 보류. 신규 구조화 연구 사건 7개, 정본 반영 0건.",
+        "next": "오세아니아"
+      },
+      {
+        "date": "2026-11-18",
+        "region": "북아메리카",
+        "summary": "**GEO-LIFE-037** — 바하마·바베이도스·트리니다드 토바고 3국 상세 1차. 영국 독립법 원문·미국 국무부·각국 기록원 교차; 1973/1966/1962 독립 효력과 2021/1976 공화정 변경 구별. 새 독립일 0건, 전체 lifetime 최종 확정 0건. 이전 보고서 전체/현행 색인 전수대조는 보류.",
+        "next": "남아메리카"
+      },
+      {
+        "date": "2026-11-17",
+        "region": "아프리카",
+        "summary": "**GEO-LIFE-036** — 레소토·말라위·에스와티니 국가별 상세 1차 3건. 1966/1964/1968 독립 효력, 1966 말라위 공화정·2018 에스와티니 국명 변경 분리. 기초 시작일은 GEO-023 재확인, 신규 날짜 0건; 2018 고시 게재일 충돌 및 보호국/동일성 2차 유보.",
+        "next": "북아메리카"
+      },
+      {
+        "date": "2026-11-16",
+        "region": "아시아",
+        "summary": "**GEO-LIFE-035** — 류큐 왕국·대한제국·라오스 왕국 3건 1차. 1872/1879 류큐 지위, 1897/1905/1910 대한제국, 1946/1949/1953/1975 라오스 단계 구별. 확정 lifetime 0건.",
+        "next": "아프리카"
+      },
+      {
+        "date": "2026-11-15",
+        "region": "유럽",
+        "summary": "**GEO-LIFE-034** — 작센 왕국·바덴 대공국·나사우 공국 3건 1차. 1806 지위·통합, 1866 병합, 1918 군주 통치 종료와 국가 계속성 분리. 확정 lifetime 0건.",
+        "next": "아시아"
+      },
+      {
+        "date": "2026-11-14",
+        "region": "오세아니아",
+        "summary": "GEO-LIFE-033 — 우베아·알로·시가브 3건 1차, 보호국 및 관습왕권 계속성 보류",
+        "next": "유럽"
+      },
+      {
+        "date": "2026-11-13",
+        "region": "남아메리카",
+        "summary": "GEO-LIFE-032 — 과야킬·쿤디나마르카·엔트레리오스 3건 1차, 주권국성 보류",
+        "next": "오세아니아"
+      },
+      {
+        "date": "2026-11-12",
+        "region": "북아메리카",
+        "summary": "GEO-LIFE-031 — 벨리즈·자메이카·파나마 3건 1차, 기존 독립일 재발견 계수 금지",
+        "next": "남아메리카"
+      },
+      {
+        "date": "2026-11-11",
+        "region": "아프리카",
+        "summary": "GEO-LIFE-030 — 가나·나미비아·우간다 3건 1차",
+        "next": "북아메리카"
+      },
+      {
+        "date": "2026-11-10",
+        "region": "아시아",
+        "summary": "GEO-LIFE-029 — 시킴·북예멘·남예멘 3건 1차",
+        "next": "아프리카"
+      },
+      {
+        "date": "2026-11-09",
+        "region": "유럽",
+        "summary": "GEO-LIFE-028 — 바이에른·뷔르템베르크·바르샤바 공국 3건 1차",
+        "next": "아시아"
+      }
+    ],
+    "publication": {
+      "appliedChanges": 0
+    },
+    "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-rotation-progress.md",
+    "regionPhases": {
+      "유럽": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      },
+      "아시아": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      },
+      "아프리카": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      },
+      "북아메리카": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      },
+      "남아메리카": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      },
+      "오세아니아": {
+        "phase1": "in-progress",
+        "phase2": "not-started",
+        "fullyCompleted": false
+      }
+    }
+  },
+  "timeline": {
+    "currentYear": 2025,
+    "lastRegion": "아시아",
+    "nextRegion": "아프리카",
+    "yearStatus": "partial-not-complete",
+    "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
+    "pendingCandidates": [
+      {
+        "scope": "실제 Pando 데이터 입력 가능성 우선",
+        "detail": "1801-01-01 이후 국가·속령 등의 성립·소멸·존속기간, 종속·상위/하위객체 관계, 국명·국기, 육상 영토·국경·도서의 귀속·형상 변화만 독립 조사 사건으로 선정한다. 아직 정본에 반영되지 않았더라도 입력 가능한 변경은 보존·계속 검증한다."
+      },
+      {
+        "scope": "마지막 처리 지역",
+        "detail": "2025년 아시아 (2026-11-20): 키르기스스탄–타지키스탄 양자 국경조약과 우즈베키스탄 포함 삼국 접점 조약의 입력 가능 공간 변동 후보 2건 확인. 원부속도면·최종 국제효력일 미확정; 지역 전수 미완료."
+      },
+      {
+        "scope": "다음 지역",
+        "detail": "2025년 아프리카. 가봉–적도기니 섬/육상 귀속 및 2025년 법적 변경의 실제 발효를 우선 조사. 2025년 6개 지역 전수 완료 전 2024년 이동 금지."
+      },
+      {
+        "scope": "연도 잠금",
+        "detail": "2025년 여섯 지역 모두 전수 미완료. 6지역 모두에서 실제 입력 가능한 변화/없음을 조사·기록하기 전 2024년으로 이동하지 않는다. 1801년 이전 사건과 해안·간척·침식은 이 자동 조사 대상에서 제외한다."
+      },
+      {
+        "scope": "중앙아시아 2025",
+        "detail": "양자 조약 EVT-2025-KGZ-TJK-BORDER-SETTLEMENT 및 삼자 EVT-2025-KGZ-TJK-UZB-TRIPOINT 구조화. 원부속서 1:10,000/SK-42 좌표·실제 효력일·토지 이전·중립도로·월경지 및 전후 형상/위상 2차 검증 남음; 단순 비준 행사 재집계 금지."
+      },
+      {
+        "scope": "남아메리카 2025",
+        "detail": "[GEO-TIME-033](historical-timeline-2025-south-america-bolivia-brazil-border-commission-isla-suarez-vector-2026-11-17.md)의 볼리비아–브라질 **수아레스섬 귀속·공유국경 형상**과 법적 효력일. 측량·표지 보수·위원회 활동은 신규 데이터 사건으로 집계하지 않는다."
+      },
+      {
+        "scope": "다른 지역",
+        "detail": "가봉–적도기니 도서의 실제 귀속 판정, 부건빌·뉴칼레도니아 등에서 법적으로 확정된 국가/속령의 상하관계 변경, 바누아투 관련 주요 **육상 도서**의 귀속, 페루–콜롬비아 산타로사섬의 유효 귀속·경계 등 **입력 가능성이 있는 구체적 후보**만 후속 검증한다. 법적 변화가 없는 협상·선거·재판 절차는 독립 신규 사건으로 다루지 않는다."
+      },
+      {
+        "scope": "미확인 사료",
+        "detail": "근거가 부족한 후보는 `provisional / not-applied`로 두고 날짜·좌표를 추정하지 않는다. 이전 보고서의 보존된 Git 이력은 현행 보고서·조사 지시 또는 정본 반영 승인으로 취급하지 않는다."
+      }
+    ],
+    "exclude": [
+      "1801년 이전",
+      "해안·간척·침식",
+      "국내 행정구역·정권·승인·국경시설·군사작전·위원회 회의·해저 권리 자체"
+    ],
+    "publication": {
+      "appliedChanges": 0
+    },
+    "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
+    "lastReviewedOn": "2026-11-20",
+    "lastReview": {
+      "year": 2025,
+      "region": "아시아",
+      "scope": "2025-01-01~2025-12-31 중앙아시아 키르기스스탄–타지키스탄 조약과 삼국 접점(우즈베키스탄 포함). 아시아 전체 국가·속령 전수는 미완료.",
+      "finding": "지도에서 입력 가능한 2025년 국경/영토 귀속 변동 후보 2건(양국 경계조약과 삼국 접점 조약)을 신규 구조화 기록. 법적 조약 서명과 비준서 교환 검증, 조약 부속도면 미확보로 최종 효력일·좌표·형상은 보류. 신규 승인 정본 변경 0건.",
+      "checkedCandidates": [
+        {
+          "topic": "2025-03-13 키르기스스탄–타지키스탄 국경조약",
+          "eventId": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+          "signingDate": "2025-03-13",
+          "ratificationExchangeDate": "2025-03-31",
+          "legalEffectiveDate": "unknown",
+          "reason": "원조약 효력 조항 및 부속서 미열람; 영토교환 범위 위상 미검증",
+          "sourceIds": [
+            "SRC-079",
+            "SRC-080",
+            "SRC-082",
+            "SRC-083",
+            "SRC-084"
+          ]
+        },
+        {
+          "topic": "2025-03-31 키르기스스탄–타지키스탄–우즈베키스탄 접점 조약",
+          "eventId": "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+          "signingDate": "2025-03-31",
+          "uzbekDomesticEntryDate": "2025-11-15",
+          "relatedProtocolExchange": "2025-11-16",
+          "legalEffectiveDate": "unknown",
+          "reason": "11-15 우즈베키스탄 법령 표기와 11-16 외무부 의정서 문서교환의 관계 미확정; 1:10,000 부속도면 미공개",
+          "sourceIds": [
+            "SRC-085",
+            "SRC-086"
+          ]
+        }
+      ],
+      "historicalVectorPriority": {
+        "geographyId": "GEO-2025-KGZ-TJK-BORDER",
+        "status": "미확보: 2025 조약 효력판 공식 벡터",
+        "providers": [
+          "키르기스스탄·타지키스탄 국경조약 부속서(미공개 비벡터)",
+          "우즈베키스탄 LexUZ 1:10,000 도면(미게시 비벡터)",
+          "미국 국무부 LSIB v11.4 GPKG/ZIP(2025-02-24 조약 전 판본)",
+          "ETH CShapes 2.0 SHP/GeoJSON(2019년까지)"
+        ],
+        "originalFileDownloaded": false,
+        "originalCrsInspected": false,
+        "featureIdsChecked": false,
+        "hashComputed": false,
+        "conversionRun": false,
+        "topologyRun": false,
+        "visualComparisonRun": false,
+        "pixel0_5CssPxRun": false,
+        "redistributionCleared": false
+      },
+      "sourcesReviewed": [
+        "키르기스스탄 대통령실",
+        "타지키스탄 외무부",
+        "우즈베키스탄 공식 법령 DB",
+        "Human Rights Watch",
+        "미 국무부 GIS 메타데이터",
+        "ETH CShapes 자료 설명"
+      ],
+      "savedRecords": {
+        "event": 2,
+        "entity": 3,
+        "geography": 1,
+        "sourceRegistry": 11,
+        "progress": 1,
+        "catalog": 1
+      },
+      "canonicalDataApplied": 0,
+      "regionFullyReviewed": false,
+      "nextRegion": "아프리카"
+    }
+  },
+  "researchRules": {
+    "scopeFrom": "1801-01-01",
+    "inputFieldsOnly": true,
+    "doNotCountNonInputCases": true,
+    "keepBothResearchRotationsIndependent": true
+  }
+}

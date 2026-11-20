@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+  "type": "event",
+  "title": "대한제국 외교권 박탈·보호국화",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1905,
+    "value": "1905-11-17",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "research:state:korean-empire"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:korean-empire",
+      "field": "relationship.parent",
+      "summary": "일본의 외교권 침탈과 보호체제. 조약의 법적 유효성 논란 및 실효 지배 구분.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1905-11-17",
+      "role": "treaty-signed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-014",
+    "SRC-015",
+    "SRC-016",
+    "SRC-017"
+  ],
+  "unresolved": [
+    "보호관계의 법적 유효성 및 조약 효력일 검증"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

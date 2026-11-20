@@ -1,0 +1,77 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "GEO-ISLA-SUAREZ",
+  "type": "geography",
+  "title": "볼리비아–브라질 수아레스섬 귀속·공유국경 근거",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "feature": {
+    "kind": "island-international-boundary",
+    "name": "Isla Suárez / Ilha de Guajará-Mirim",
+    "coordinates": null,
+    "geometryVerified": false
+  },
+  "entityKeys": [
+    "state:BOL",
+    "state:BRA"
+  ],
+  "date": {
+    "year": 2025,
+    "value": null,
+    "precision": "unknown",
+    "note": "2025년 새 영토 이양·국경 변경은 확인되지 않았다. 협의일과 법적 변동일을 혼동하지 않는다."
+  },
+  "changes": [],
+  "finding": "2025년 새 영토·주권·국경 변경 확인 0건. 1958년 원교환공문과 양국 승인문, 현행 공식 벡터의 비교를 거쳐 실제 지리 입력 후보 여부를 판단한다.",
+  "sourceCandidates": [
+    {
+      "provider": "IBGE",
+      "edition": "2024",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2024/Brasil/BR_Pais_2024.zip",
+      "format": "SHP ZIP",
+      "crs": "SIRGAS 2000 (기관 설명; 파일 미검증)",
+      "featureChecked": false,
+      "licenseChecked": false
+    },
+    {
+      "provider": "IBGE",
+      "edition": "2025",
+      "url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Pais_2025.zip",
+      "format": "SHP ZIP",
+      "crs": null,
+      "featureChecked": false,
+      "licenseChecked": false,
+      "editionCaveat": "2025판 서버 표기 수정일 2026-02-26; 역사 효력일 아님"
+    },
+    {
+      "provider": "GeoBolivia",
+      "edition": null,
+      "url": "https://geobolivia.planificacion.gob.bo/ide-epb/",
+      "format": "catalog",
+      "crs": null,
+      "featureChecked": false,
+      "licenseChecked": false
+    }
+  ],
+  "sourceIds": [
+    "SRC-057",
+    "SRC-058",
+    "SRC-059",
+    "SRC-060",
+    "SRC-061"
+  ],
+  "unresolved": [
+    "1958년 양국 교환공문·후속 승인문에서 실제 법적 귀속·효력일 확인",
+    "수아레스섬 대상 국가경계 벡터 피처·좌표·정확도·위상·재배포 권리 검증",
+    "2025 협의 및 측량이 실제 국경 변경이 아닌지 최종 판정"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-TIME-033",
+    "legacyPath": "reports/borders/history/timeline/historical-timeline-2025-south-america-bolivia-brazil-border-commission-isla-suarez-vector-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-2025-south-america-bolivia-brazil-border-commission-isla-suarez-vector-2026-11-17.md",
+    "snapshotBlobSha": "780fd1eb8d804b893d9b625391ac4370f239b875"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1879-RYUKYU-ANNEXATION",
+  "type": "event",
+  "title": "류큐번 폐지와 오키나와현 설치",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1879,
+    "value": null,
+    "precision": "unknown",
+    "note": "사건 연도는 알려졌지만 실제 변경의 정확한 효력일은 미확정이다."
+  },
+  "entityKeys": [
+    "research:state:ryukyu-kingdom"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:ryukyu-kingdom",
+      "field": "lifetime.validTo",
+      "summary": "류큐 왕정의 주권 종료와 일본의 행정 편입. 국가 객체 종료일은 미확정.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:ryukyu-kingdom",
+      "field": "territory.assignment",
+      "summary": "류큐열도 일본 편입 범위는 역사적 형상 검증 필요.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1879-03-27",
+      "role": "local-notification"
+    },
+    {
+      "date": "1879-04-04",
+      "role": "central-proclamation"
+    }
+  ],
+  "sourceIds": [
+    "SRC-010",
+    "SRC-011",
+    "SRC-012",
+    "SRC-013"
+  ],
+  "unresolved": [
+    "현장 통고·재가·전국 공포와 실제 국가 존속 종료일 구분"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

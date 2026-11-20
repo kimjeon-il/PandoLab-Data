@@ -1,0 +1,50 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SAMOA",
+  "type": "entity",
+  "title": "사모아(서사모아)",
+  "subject": {
+    "key": "state:WSM",
+    "kind": "state",
+    "displayName": "사모아(서사모아)",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "오세아니아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-20",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1962-01-01 독립주권국 성립은 확인. 선행 사모아 정치체와 국가 동일성·Pando 실제 객체 연결은 미확정."
+  },
+  "eventIds": [
+    "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+    "EVT-1997-SAMOA-NAME-CHANGE"
+  ],
+  "sourceIds": [
+    "SRC-069",
+    "SRC-070",
+    "SRC-076",
+    "SRC-077",
+    "SRC-078"
+  ],
+  "unresolved": [
+    "1997-07-04 법률 재가 연대기는 확인하였으나 정확한 국명 효력일은 원개정법의 효력규정 미열람으로 연도 정밀도 유지.",
+    "1900~1962 독일 보호·뉴질랜드 군정/위임통치/신탁통치, 1997 이전 이름·깃발, 선행 정치체 동일성 및 Pando 객체 매핑 유보."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

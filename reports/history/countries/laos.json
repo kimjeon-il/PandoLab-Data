@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-LAOS",
+  "type": "entity",
+  "title": "라오스 왕국",
+  "subject": {
+    "key": "state:LAO",
+    "kind": "state",
+    "displayName": "라오스 왕국",
+    "runtimeEntityId": "state:LAO"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1946-LAOS-UNIFIED-KINGDOM",
+    "EVT-1949-LAOS-FRENCH-UNION",
+    "EVT-1953-LAOS-SOVEREIGNTY",
+    "EVT-1975-LAOS-OFFICIAL-NAME"
+  ],
+  "sourceIds": [
+    "SRC-018",
+    "SRC-019",
+    "SRC-020",
+    "SRC-021",
+    "SRC-022",
+    "SRC-023",
+    "SRC-024"
+  ],
+  "unresolved": [
+    "1946년 통일 왕국의 재편·1947 헌정 체제·1949 제한된 독립·1953 완전한 독립은 서로 다른 사건. 1975년 공화국 선포를 곧바로 기존 라오스 국가의 소멸·신국가 탄생으로 입력하지 않는다. 1946 협정의 프랑스어 원본 이미지/비준, 1947 헌법 원본과 효력, 1949 협정 권한 범위, 1953년 비준서 교환, 1975 왕정 폐지와 국제법상 국가 계속성 2차 검증 유보."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

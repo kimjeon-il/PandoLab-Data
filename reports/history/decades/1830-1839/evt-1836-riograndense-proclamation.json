@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+  "type": "event",
+  "title": "리우그란덴시 공화국 독립 선포",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1836,
+    "value": "1836-09-11",
+    "precision": "day",
+    "note": "선포일 확인. 국제법상 독립국 성립일로 최종 확정하지 않음."
+  },
+  "entityKeys": [
+    "research:state:riograndense-republic"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:riograndense-republic",
+      "field": "lifetime.validFrom",
+      "summary": "1836-09-11 독립 선포; 실제 국가 객체 성립 판단은 유보",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-062"
+  ],
+  "unresolved": [
+    "원선언·독립 국가성 및 지배 지역 확인"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1836-09-11",
+      "role": "proclamation"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

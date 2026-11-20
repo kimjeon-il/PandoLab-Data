@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-RYUKYU",
+  "type": "entity",
+  "title": "류큐 왕국",
+  "subject": {
+    "key": "research:state:ryukyu-kingdom",
+    "kind": "state",
+    "displayName": "류큐 왕국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1872-RYUKYU-DOMAIN",
+    "EVT-1879-RYUKYU-ANNEXATION"
+  ],
+  "sourceIds": [
+    "SRC-010",
+    "SRC-011",
+    "SRC-012",
+    "SRC-013"
+  ],
+  "unresolved": [
+    "‘류큐왕국’ 왕정의 완전 종료·독립적 대외 주권 상실·일본 법률상 류큐번 종료는 같은 시점이라고 단정하지 않음. 1872년 번 개편이 국제법상 왕국 존속에 미친 영향, 1879년 중앙 포고의 적용 시점·현지 행정 접수·중국의 반대와 법적 효력을 2차 교차검증. 현대 일본의 모든 섬 경계·주권 범위를 류큐의 역사 영토로 자동 소급 금지. 역사 `validFrom/validTo` 확정 0건."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

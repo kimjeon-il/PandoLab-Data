@@ -1,0 +1,61 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1973-BAHAMAS-INDEPENDENCE",
+  "type": "event",
+  "title": "바하마 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1973,
+    "value": "1973-07-10",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:BHS"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:BHS",
+      "field": "lifetime.validFrom",
+      "summary": "영국의 통치 종료와 바하마 독립. 독립 후 영연방 공통 군주는 종속관계 아님.",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "state:BHS",
+      "field": "relationship.parent",
+      "summary": "영국 통치 관계 종료.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1973-06-14",
+      "role": "independence-act-enacted"
+    },
+    {
+      "date": "1973-06-20",
+      "role": "independence-order-made"
+    }
+  ],
+  "sourceIds": [
+    "SRC-040",
+    "SRC-041",
+    "SRC-042",
+    "SRC-043",
+    "SRC-044",
+    "SRC-045"
+  ],
+  "unresolved": [
+    "식민지/내정자치 이전의 객체 범위와 연결 관계 보류"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-037",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-north-america-bahamas-barbados-trinidad-tobago-2026-11-18.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-north-america-bahamas-barbados-trinidad-tobago-2026-11-18.md",
+    "snapshotBlobSha": "dd0a1f9e5bc53b505fccbbdf7563592b490a10ad"
+  }
+}

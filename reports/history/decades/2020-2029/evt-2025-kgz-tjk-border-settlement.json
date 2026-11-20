@@ -1,0 +1,96 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+  "type": "event",
+  "title": "2025 키르기스스탄–타지키스탄 국경조약과 영토 교환",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-asia"
+  },
+  "date": {
+    "year": 2025,
+    "value": null,
+    "precision": "year",
+    "note": "2025-03-13 서명, 03-25 키르기스스탄 비준법 서명, 03-31 비준서 교환 확인. 원조약 전체 효력 조항 미열람으로 법적 국경 효력일 확정 보류."
+  },
+  "entityKeys": [
+    "state:KGZ",
+    "state:TJK"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:KGZ",
+      "field": "territory.assignment",
+      "summary": "양국 조약에 따른 국경 지대 토지 교환과 귀속 조정. 키르기스스탄의 도스투크(Dostuk) 지역이 타지키스탄에 이전되는 조항/합의가 독립적으로 보도됨.",
+      "assessment": "provisional",
+      "uncertainty": "교환 구획의 조약 부속서·사유지 인도일·법적 효력일 미확인; 발표상 면적 수치를 폴리곤으로 환산하지 않음."
+    },
+    {
+      "entityKey": "state:TJK",
+      "field": "territory.assignment",
+      "summary": "2025년 양국 국경 합의에 따라 타지키스탄의 일부 국경 지역과 키르기스스탄의 일부 지역을 교환하는 지위·귀속 변경 후보.",
+      "assessment": "provisional",
+      "uncertainty": "Vorukh 월경지 변경과 공동 접근·중립도로의 구획 및 실효일 원지도 미확인."
+    },
+    {
+      "entityKey": "state:KGZ",
+      "field": "territory.geometry",
+      "summary": "국경 협약 부속서에 의한 새로운 키르기스–타지크 공유 경계 복원 필요.",
+      "assessment": "provisional",
+      "uncertainty": "조약 부속서 1 경계 서술·좌표와 벡터 미확보"
+    },
+    {
+      "entityKey": "state:TJK",
+      "field": "territory.geometry",
+      "summary": "타지키스탄측 공유국경·월경지 형상 조정 후보. 중립도로는 국제경계선 자체와 다르다는 조약 본문을 유의.",
+      "assessment": "provisional",
+      "uncertainty": "조약 일부 시연 텍스트만 열람; 1:1 대칭 공유경계 및 위상 미검증"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "2025-03-13",
+      "kind": "treaty-signing",
+      "sourceId": "SRC-079"
+    },
+    {
+      "date": "2025-03-19",
+      "kind": "kyrgyz-parliament-passed-ratification",
+      "sourceId": "SRC-081"
+    },
+    {
+      "date": "2025-03-25",
+      "kind": "kyrgyz-president-signed-ratification-law",
+      "sourceId": "SRC-081"
+    },
+    {
+      "date": "2025-03-31",
+      "kind": "instruments-of-ratification-exchange-protocol",
+      "sourceId": "SRC-082"
+    }
+  ],
+  "finding": "실제 입력 가능한 영토 귀속·국제경계 재정의의 법적 근거가 되는 2025년 양국 조약 1건. 서명·비준·비준서 교환은 단일 사건의 단계로 기록하며 신규 사건으로 중복 집계하지 않는다. 원국경 효력 조항, 부속경계 형상과 정확도는 미확정.",
+  "sourceIds": [
+    "SRC-079",
+    "SRC-080",
+    "SRC-081",
+    "SRC-082",
+    "SRC-083",
+    "SRC-084",
+    "SRC-089"
+  ],
+  "unresolved": [
+    "조약 전문 및 국경선 설명 부속서 1·최종 기술좌표 원본 확보 필요. PRG 페이지는 본문 일부만 공개.",
+    "2025-03-31 비준서 교환일과 조약상 정확한 효력일 동일성은 조약 최종 조항 확인 전 확정 금지.",
+    "국경 교환 면적과 월경지 Vorukh/Dostuk/중립도로 구역의 실제 귀속, 인접 국가와 공유 경계, 각 구획의 이전 시행일 확인 필요.",
+    "Pando 런타임 실제 객체 ID 및 토지 교환 전후 국가별 폴리곤/국경 공유선 매핑 미검증.",
+    "이 회차는 연구 기록만 작성하며 정본 국경 데이터·국가 lifetime은 변경하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-asia-2026-11-20",
+    "createdOn": "2026-11-20"
+  }
+}

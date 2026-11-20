@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1997-SAMOA-NAME-CHANGE",
+  "type": "event",
+  "title": "서사모아에서 사모아로 국호 변경",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1997,
+    "value": "1997",
+    "precision": "year",
+    "note": "1997년 국호 개정 확정; 정확한 변경 효력일은 추가 검증."
+  },
+  "entityKeys": [
+    "state:WSM"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:WSM",
+      "field": "name.formal",
+      "summary": "Constitution Amendment Act (No. 2) 1997 (No. 15)에 따라 Independent State of Western Samoa를 Independent State of Samoa로 변경.",
+      "assessment": "source-reviewed",
+      "proposedValue": "Independent State of Samoa",
+      "uncertainty": "1997-07-04 법률 재가가 곧 정확한 효력 발생일인지는 원문 확인 전 보류"
+    },
+    {
+      "entityKey": "state:WSM",
+      "field": "name.short",
+      "summary": "Western Samoa에서 Samoa로 국호 변경.",
+      "assessment": "source-reviewed",
+      "proposedValue": "Samoa",
+      "uncertainty": "정확한 법적 효력일 미확정"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1997-07-04",
+      "role": "act-assent-secondary-chronology"
+    }
+  ],
+  "sourceIds": [
+    "SRC-076",
+    "SRC-077"
+  ],
+  "unresolved": [
+    "1997-07-04 법 재가 기록은 전문 연대기에 있음. 국호 개정 원법령의 시행 규정 미열람으로 date를 연도 정밀도로 보존.",
+    "국호 변경과 국가 소멸·재건국 구별."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

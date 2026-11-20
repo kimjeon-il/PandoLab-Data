@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SAXONY",
+  "type": "entity",
+  "title": "작센 왕국",
+  "subject": {
+    "key": "research:state:saxony-kingdom",
+    "kind": "state",
+    "displayName": "작센 왕국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1806-SAXONY-ROYAL-STATUS",
+    "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+    "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+    "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+  ],
+  "sourceIds": [
+    "SRC-001",
+    "SRC-002"
+  ],
+  "unresolved": [
+    "1806년 정확한 왕국 승격 법률·효력일(특정한 12월 일자를 추정 기입하지 않음), 1815 영토 양도 원조약 효력일, 1867/1871 국가 국제법적 동일성, 1918년 11월 혁명정부 출범·퇴위·국가 계속성의 기간 구분. 1801년 이전 작센 기원 조사 없음."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "GEO-2025-KGZ-TJK-BORDER",
+  "type": "geography",
+  "title": "2025 키르기스스탄–타지키스탄 국경/삼국 접점 벡터 우선 탐색",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-asia"
+  },
+  "feature": {
+    "kind": "international-border-and-trijunction",
+    "name": "Kyrgyzstan–Tajikistan border; Kyrgyzstan–Tajikistan–Uzbekistan tripoint",
+    "coordinates": null,
+    "geometryVerified": false,
+    "polygonType": "international-state-border; enclaves and treaty-defined neutral road areas remain unresolved",
+    "adjacentStates": [
+      "state:KGZ",
+      "state:TJK",
+      "state:UZB"
+    ],
+    "sharedBoundaryChecked": false,
+    "islandsOrEnclavesChecked": false,
+    "topologyChecked": false,
+    "precisionByScaleChecked": false,
+    "pixelTolerance0_5CssPx": "not-run"
+  },
+  "entityKeys": [
+    "state:KGZ",
+    "state:TJK",
+    "state:UZB"
+  ],
+  "date": {
+    "year": 2025,
+    "value": null,
+    "precision": "year",
+    "note": "역사적 법률 효력일은 event 기록 참조; 국경 SHP/GPKG 원본과 비교하지 못함."
+  },
+  "changes": [
+    {
+      "entityKey": "state:KGZ",
+      "field": "territory.geometry",
+      "summary": "새 양국 국경선 및 삼국 접점의 실제 조약상 형상 후보",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "state:TJK",
+      "field": "territory.geometry",
+      "summary": "Vorukh/Dostuk 등 월경지·교환지 포함 국경선 정확한 분할 후보",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "state:UZB",
+      "field": "territory.geometry",
+      "summary": "삼국 접점 및 기존 국경 포인트 459/200과 연결되는 경계선 후보",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceCandidates": [
+    {
+      "provider": "키르기스스탄·타지키스탄 양자 조약",
+      "product": "2025-03-13 국경조약 부속서 1 (경계선 설명)",
+      "url": "https://prg.kz/Document/?doc_id=39628795",
+      "edition": "2025-03-13",
+      "issuedOn": "2025-03-13 (조약 서명; 부속서 발행일 미확인)",
+      "boundaryEffectiveFrom": null,
+      "format": "treaty text/annex, NOT verified vector",
+      "crs": null,
+      "featureIds": null,
+      "polygonType": "state boundary and treaty-neutral road land",
+      "license": "원조약 부속서 재배포 조건 미확인",
+      "downloaded": false,
+      "opened": "일부 원문만 열람, 부속서 미열람",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "adoption": "hold"
+    },
+    {
+      "provider": "우즈베키스탄 공식 LexUZ 법령 데이터베이스",
+      "product": "2025-03-31 삼국 국경접점 조약 1:10,000 원도면 및 기술서 부속서 1·2",
+      "url": "https://www.lex.uz/ru/docs/7860582",
+      "edition": "2025-03-31",
+      "issuedOn": "2025-03-31 서명; 공식 등록 2025-05-14",
+      "boundaryEffectiveFrom": null,
+      "format": "treaty text + unpublished 1:10,000 topographic annex (not SHP/GPKG/GeoJSON)",
+      "crs": "Система координат 1942 года (조약 명시), 원본 GIS 파일 CRS 미확인",
+      "featureIds": "국경 기준점 KGZ-TJK №161; UZB-KGZ №459; UZB-TJK №200 (조약 본문만)",
+      "polygonType": "tripoint plus adjacent boundary segments",
+      "license": "원부속도면 및 재배포 조건 미확인",
+      "downloaded": false,
+      "opened": "조약 본문 열람; 부속서 1·2 명시적 미수록",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "adoption": "hold"
+    },
+    {
+      "provider": "미국 국무부 Office of the Geographer (LSIB)",
+      "product": "Large Scale International Boundaries 11.4",
+      "url": "https://data.geodata.state.gov/LSIB.gpkg",
+      "alternateUrl": "https://data.geodata.state.gov/LSIB.zip",
+      "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+      "edition": "11.4",
+      "issuedOn": "2025-02-24",
+      "boundaryEffectiveFrom": null,
+      "format": "GeoPackage .gpkg; ZIP (포함 SHP 여부 파일 확인 전 미확정)",
+      "crs": null,
+      "featureIds": null,
+      "polygonType": "international boundary lines, exact 2025 treaty alignment unverified",
+      "license": "미국 연방정부 제작 데이터이지만 포함된 제3자 자료의 재배포 권한 별도 확인 필요",
+      "downloaded": false,
+      "opened": "공식 메타데이터 확인, 원본 바이너리 미열람",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "adoption": "not 2025-03/11 treaty geometry; baseline only"
+    },
+    {
+      "provider": "ETH Zurich International Conflict Research",
+      "product": "CShapes 2.0",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "edition": "2.0",
+      "issuedOn": "2021 논문; 원파일 개별 변경시각 미확인",
+      "boundaryEffectiveFrom": "1886–2019 coverage only",
+      "format": "SHP, GeoJSON (동일 데이터의 서로 다른 포맷)",
+      "crs": null,
+      "featureIds": null,
+      "polygonType": "historic state boundary polys; 2025 not covered",
+      "license": "학술·비상업 사용 가능; 상업적·제품 재배포 별도 확인",
+      "downloaded": false,
+      "opened": "학술 제공기관 페이지/논문 설명만 확인, 원본 미열람",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "adoption": "historical reference only; not applicable to 2025"
+    }
+  ],
+  "finding": "2025년 양국 조약·삼국 접점의 유효 시점과 조약에 상응하는 공식 역사 벡터(SHP/GPKG/GeoJSON/WFS)를 탐색했으나 해당 조약판의 독립적으로 검증된 벡터 0건. 조약 부속도면·원좌표 미공개, LSIB 11.4는 조약 이전 발행, CShapes는 2019년 종료. 역사도면 지오리퍼런싱/수작업 복원은 적합한 2025 공식 벡터 미확보 구획에서만 후순위 검토.",
+  "sourceIds": [
+    "SRC-084",
+    "SRC-085",
+    "SRC-087",
+    "SRC-088"
+  ],
+  "unresolved": [
+    "원본 조약 부속지도·국경 기술서 확보 및 법적 효력일·기관별 원본 판본 확인",
+    "개별 SHP/GPKG/GeoJSON의 좌표계·국경 구획 ID·도서·월경지·공유 위상 및 재배포권 검증",
+    "원본 파일 다운로드·해시·변환·GDAL·위상검사·화면비교·0.5 CSS px 모두 미실행",
+    "승인 전 GIS·정본 반영 금지"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-asia-2026-11-20",
+    "createdOn": "2026-11-20"
+  }
+}

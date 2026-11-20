@@ -1,0 +1,51 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+  "type": "event",
+  "title": "쿡 제도 자유연합 자치 시행",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1965,
+    "value": "1965-08-04",
+    "precision": "day",
+    "note": "1964 법 제정과 1965-08-04 효력 시행 구별."
+  },
+  "entityKeys": [
+    "state:COK"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:COK",
+      "field": "relationship.childType",
+      "summary": "뉴질랜드 관리 영토에서 뉴질랜드와 자유연합하는 자치 정치체로 지위 변경.",
+      "assessment": "source-reviewed",
+      "proposedValue": "self-governing in free association with New Zealand",
+      "uncertainty": "현재 Pando childType 지정 가능 값 미확인"
+    },
+    {
+      "entityKey": "state:COK",
+      "field": "relationship.parent",
+      "summary": "식민지 직접 통치는 종료되었지만 뉴질랜드와의 자유연합 헌정관계는 잔존하므로 parent=null로 단정 불가.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-071",
+    "SRC-072"
+  ],
+  "unresolved": [
+    "NZ 헌법법 직접 페이지는 403이므로 효력 조문을 검색 발췌로만 확인.",
+    "자유연합 지위를 독립국 건국 또는 속령관계 완전 소멸로 단정하지 않는다."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

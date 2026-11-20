@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1839-JULIANA-END",
+  "type": "event",
+  "title": "줄리아나 공화국 라구나 거점 상실",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1839,
+    "value": "1839-11-15",
+    "precision": "day",
+    "note": "라구나 재점령·공화국 정부 해체 기록; 모든 분리군의 전투 종료일은 아님."
+  },
+  "entityKeys": [
+    "research:state:juliana-republic"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:juliana-republic",
+      "field": "lifetime.validTo",
+      "summary": "1839-11-15 라구나 정부 종결과 제국 재통제; 정치체 국가성·법적 종료의 최종 판단 보류",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-064",
+    "SRC-065"
+  ],
+  "unresolved": [
+    "라구나 외부 잔존 세력과 정부 존속 구별",
+    "문서상 공식 해산일 확인"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1839-11-15",
+      "role": "imperial-recapture-of-laguna"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

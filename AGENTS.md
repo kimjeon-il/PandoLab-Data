@@ -53,6 +53,10 @@ never a substitute for replacing the underlying licensed data.
 
 ## Data, reports and cleanup
 
+Use `reports/POLICY.md` as the authoritative report tree, extension and
+retention policy. Structured historical research belongs in `reports/history/`;
+source-bound evidence retains its documented subject folder.
+
 Keep archive/index.json and its Git objects, branch-specific data/WASM pairings,
 reports/.owners.json, independent .edits/ work, .variants/ and report protection
 refs. An unhydrated file is not a deletion. Never traverse a junction or symlink
@@ -73,13 +77,30 @@ Keep development performance metrics, baseline/candidate comparisons, immutable 
 
 Keep source-bound GIS evidence (geometry, CRS, QGIS/native operations, screenshots and diagnostics) under `reports/borders/validation/`, `reports/development/native/`, or the corresponding GIS subject. Remove expired browser/CI trace archives only when the companion structured diagnostics and distinctive failure evidence remain.
 
-Keep original watercourse files and source-to-derivative identities under `assets/data/hydro/`, including protected source oracles referenced by `reports/hydro/`. `reports/hydro/` holds validation, hydronyms, calibration, and release evidence. Do not mix technical evidence with input research in `reports/research/catalog.json`.
+Keep original watercourse files and source-to-derivative identities under `assets/data/hydro/`, including protected source oracles referenced by `reports/hydro/`. `reports/hydro/` holds validation, hydronyms, calibration, and release evidence. Do not mix technical evidence with input research in `reports/history/catalog.json`.
 
 Retire `archive/index.json` identity-stored entries atomically with report-file removal. Do not rewrite Git history, delete pinned data or remove required rights notices.
 
-## Historical research records (from 2026-11-18)
+## Historical research records (1801+)
 
-Use `reports/research/policy.json` and `reports/research/schema.json` for new 1801+ historical Pando input research. Canonical records have only three types: one `reports/entities/` record per subject, one `reports/events/` record per eligible real change, and `reports/geography/` per map geometry/position evidence. Two regional/yearly rotations share these records; write their cursors under `reports/research/progress.json` and rebuild the derived `reports/research/catalog.json` with the dependency-free Node tool after changes. Do not create GEO-LIFE/GEO-TIME Markdown batch reports or restore removed non-input-only cases. Do not move or rewrite source-pinned `reports/places/tier1-major-cities-batch*.json`. The old Markdown and cursor contents are retrievable from the pinned Git URLs in each JSON provenance, not from copied archives. Research record edits never approve or modify Pando runtime data.
+Read `reports/POLICY.md` for directory layout, file extensions and retention.
+The canonical research types use `reports/history/countries/` (one JSON per
+country or polity), `reports/history/decades/{YYYY-YYYY}/` (one JSON per real
+effective event), and `reports/history/geography/` (spatial evidence, not
+automatically an effective event). Read `reports/history/policy.json` and
+`reports/history/schema.json` before writing. Do not invent dates, treat
+pre-existing states as created in 1801, or copy an event into country reports.
+
+The regional and yearly rotations share these records and retain cursors in
+`reports/history/progress.json` and sources in
+`reports/history/sources/references.json`. Rebuild the derived
+`reports/history/catalog.json` using the dependency-free existing
+`node tools/reports/build-history-index.mjs` when Node is available. Do not
+make new GEO-LIFE/GEO-TIME Markdown batch reports, continental/50-year report
+trees, or re-add retired reports. Keep source-pinned
+`reports/places/tier1-major-cities-batch*.json` in place. Git provenance
+snapshot URLs are immutable historical versions, not live report paths.
+Research record edits do not approve or modify Pando runtime data.
 
 ## Canonical documentation
 

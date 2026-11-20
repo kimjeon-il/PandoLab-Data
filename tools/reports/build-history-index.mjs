@@ -5,7 +5,7 @@ import {join, relative, resolve} from "node:path";
 import {fileURLToPath} from "node:url";
 const root=resolve(fileURLToPath(new URL("../..",import.meta.url)));
 const reports=join(root,"reports");
-const dirs=["entities","events","geography"];
+const dirs=["history/countries","history/decades","history/geography"];
 async function collect(dir){
   let result=[];
   for(const item of await readdir(dir,{withFileTypes:true})){
@@ -17,11 +17,20 @@ async function collect(dir){
 }
 const records=[];
 for(const dir of dirs){
+ const expectedType=dir==="history/countries"?"entity":dir==="history/decades"?"event":"geography";
  let entries=[];
  try{entries=await collect(join(reports,dir))}catch(e){if(e.code!=="ENOENT")throw e}
  for(const filename of entries){
    const value=JSON.parse(await readFile(filename,"utf8"));
    if(value.schema!=="pando-history-report-v1")continue;
+   if(value.type!==expectedType)throw new Error(`Invalid type in ${filename}: expected ${expectedType}`);
+   if(value.type==="event"){
+     const year=value.date?.year;
+     if(year!==null&&(!Number.isInteger(year)||year<1801))throw new Error(`Invalid year: ${filename}`);
+     const decade=year===null?"undated":`${Math.floor(year/10)*10}-${Math.floor(year/10)*10+9}`;
+     const folder=relative(join(reports,dir),filename).replaceAll("\\","/").split("/")[0];
+     if(folder!==decade)throw new Error(`Event in wrong decade: ${filename}`);
+   }
    const path=relative(root,filename).replaceAll("\\","/");
    records.push({
      id:value.id,type:value.type,path,title:value.title,
@@ -71,4 +80,4 @@ for(const [key,recordIds] of Object.entries(byEntity).sort(([a],[b])=>a.localeCo
   byCountry[key]={recordIds,byDecade:orderDecades(decades)};
 }
 const output={schema:"pando-history-catalog-v1",generatedFrom:dirs,entries:records,byType,byEntity,byYear,byDecade:orderDecades(byDecade),byCountry};
-await writeFile(join(reports,"research","catalog.json"),JSON.stringify(output,null,2)+"\n");
+await writeFile(join(reports,"history","catalog.json"),JSON.stringify(output,null,2)+"\n");

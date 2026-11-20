@@ -1,0 +1,50 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-RIOGRANDENSE",
+  "type": "entity",
+  "title": "리우그란덴시 공화국",
+  "subject": {
+    "key": "research:state:riograndense-republic",
+    "kind": "state",
+    "displayName": "리우그란덴시 공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-19",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1836-09-11 선포와 1845년 평화·실효 통치 종료는 확인되지만 제국의 인정과 영토 실효 지배가 달라 최종 주권국 lifetime은 확정하지 않는다."
+  },
+  "eventIds": [
+    "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+    "EVT-1845-RIOGRANDENSE-PEACE"
+  ],
+  "sourceIds": [
+    "SRC-062",
+    "SRC-063"
+  ],
+  "unresolved": [
+    "1836-09-11 선언 원문 및 법적 효력일, 선포 당시 포르투알레그리·펠로타스·히우그란지의 제국 통제",
+    "1845-02-28 합의 서명과 1845-03-01 종결 통고 중 validTo 기준",
+    "국제법상 주권국인지 반란정부인지의 분류 및 실제 지배 경계"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  },
+  "region": "남아메리카",
+  "statehoodAssessment": "contested-unrecognized-polity"
+}

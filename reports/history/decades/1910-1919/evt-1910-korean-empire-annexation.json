@@ -1,0 +1,59 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1910-KOREAN-EMPIRE-ANNEXATION",
+  "type": "event",
+  "title": "대한제국 병합",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1910,
+    "value": "1910-08-29",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "research:state:korean-empire"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:korean-empire",
+      "field": "lifetime.validTo",
+      "summary": "일본 병합에 따른 대한제국 국가 객체 종료 후보. 국가승계·법적 효력 검증 필요.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:korean-empire",
+      "field": "territory.assignment",
+      "summary": "일본의 한반도 병합 영토 귀속 후보.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1910-08-22",
+      "role": "treaty-signed"
+    },
+    {
+      "date": "1910-08-29",
+      "role": "promulgation-and-enforcement"
+    }
+  ],
+  "sourceIds": [
+    "SRC-014",
+    "SRC-015",
+    "SRC-016",
+    "SRC-017"
+  ],
+  "unresolved": [
+    "1910 조약의 국제법적 유효성 및 정확한 객체 종료 의미 보류"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

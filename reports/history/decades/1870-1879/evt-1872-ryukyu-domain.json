@@ -1,0 +1,44 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1872-RYUKYU-DOMAIN",
+  "type": "event",
+  "title": "류큐 왕국의 류큐번 편제",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1872,
+    "value": "1872",
+    "precision": "year",
+    "note": "연도까지 확인; 정확한 효력일을 추정하지 않는다."
+  },
+  "entityKeys": [
+    "research:state:ryukyu-kingdom"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:ryukyu-kingdom",
+      "field": "relationship.parent",
+      "summary": "일본의 류큐번왕 책봉·상위관계 주장과 실제 국제법상 종속관계 구별.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-010",
+    "SRC-011",
+    "SRC-012",
+    "SRC-013"
+  ],
+  "unresolved": [
+    "1872 조치일 및 청·일 이중 종속의 법적 지위 유보"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

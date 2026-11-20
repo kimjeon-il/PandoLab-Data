@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-UZB",
+  "type": "entity",
+  "title": "우즈베키스탄",
+  "subject": {
+    "key": "state:UZB",
+    "kind": "state",
+    "displayName": "우즈베키스탄",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-asia"
+  },
+  "region": "아시아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-20",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-in-scope-this-run",
+    "validFrom": null,
+    "validTo": null,
+    "note": "이번 회차의 조사 대상은 2025년 영토·국경 변화. 기존 국가 존속일이나 정본 데이터 변경 없음. 별도 GEO-LIFE 순환 기록 유지."
+  },
+  "eventIds": [
+    "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+  ],
+  "sourceIds": [
+    "SRC-085",
+    "SRC-086"
+  ],
+  "unresolved": [
+    "Pando 실제 런타임 객체 ID 매핑 미검증",
+    "조약 효력일, 교환 구획과 부속 국경 형상 미확정",
+    "기존/신규 정본 데이터 비교 검증 미실행"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-asia-2026-11-20",
+    "createdOn": "2026-11-20"
+  }
+}

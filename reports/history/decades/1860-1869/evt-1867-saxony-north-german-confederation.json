@@ -1,0 +1,42 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+  "type": "event",
+  "title": "작센의 북독일연방 편입",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1867,
+    "value": "1867",
+    "precision": "year",
+    "note": "연도까지 확인; 정확한 효력일을 추정하지 않는다."
+  },
+  "entityKeys": [
+    "research:state:saxony-kingdom"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:saxony-kingdom",
+      "field": "relationship.parent",
+      "summary": "북독일연방 구성국 지위 및 상위관계의 법적 범위를 검증해야 한다.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-001",
+    "SRC-002"
+  ],
+  "unresolved": [
+    "독립 주권과 구성국 지위의 전환 효력일 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}

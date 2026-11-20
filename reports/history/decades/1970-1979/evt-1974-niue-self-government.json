@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1974-NIUE-SELF-GOVERNMENT",
+  "type": "event",
+  "title": "니우에 자유연합 자치 시행",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1974,
+    "value": "1974-10-19",
+    "precision": "day",
+    "note": "1974-10-19 자치 헌법 효력일."
+  },
+  "entityKeys": [
+    "state:NIU"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:NIU",
+      "field": "relationship.childType",
+      "summary": "뉴질랜드 관할 영토에서 자유연합 자치 정치체로 지위 변경.",
+      "assessment": "source-reviewed",
+      "proposedValue": "self-governing in free association with New Zealand",
+      "uncertainty": "Pando의 실제 자치객체 종류 모델 미확정"
+    },
+    {
+      "entityKey": "state:NIU",
+      "field": "relationship.parent",
+      "summary": "직접 영토 통치 종료와 자유연합 헌정관계 잔존 구분; 뉴질랜드와의 관계 완전 소멸은 아님.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-073",
+    "SRC-074",
+    "SRC-075"
+  ],
+  "unresolved": [
+    "1974년 법 원문은 직접 열람 403, 검색 발췌만 확인; 니우에 정부·NZ 문화유산부 교차검증.",
+    "1900 보호국·1901 뉴질랜드 귀속 효력과 1974 전후 국가 동일성 2차 검증 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

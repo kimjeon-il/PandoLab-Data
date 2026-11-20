@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-2018-ESWATINI-RENAMING",
+  "type": "event",
+  "title": "스와질란드에서 에스와티니 국호 변경",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 2018,
+    "value": "2018-04-19",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:SWZ"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:SWZ",
+      "field": "name.formal",
+      "summary": "Kingdom of Swaziland에서 Kingdom of Eswatini로 국명 변경. 국가 객체 신규 건국 아님.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "2018-04-19",
+      "role": "name-announced-un-notified-effective"
+    },
+    {
+      "date": "2018-05",
+      "role": "legal-notice-publication-month"
+    }
+  ],
+  "sourceIds": [
+    "SRC-032",
+    "SRC-033",
+    "SRC-034",
+    "SRC-035",
+    "SRC-036",
+    "SRC-027",
+    "SRC-037",
+    "SRC-038",
+    "SRC-039"
+  ],
+  "unresolved": [
+    "Legal Notice 80/2018 게재 5월 11일/17일 상충, 원문 유효일 확인"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-036",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotBlobSha": "724999e7ea7b4d67d505a22bbb5f1a3ec4ab0b55"
+  }
+}

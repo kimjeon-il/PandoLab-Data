@@ -1,0 +1,64 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+  "type": "event",
+  "title": "서사모아 신탁통치 종료와 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1962,
+    "value": "1962-01-01",
+    "precision": "day",
+    "note": "1961년 법 제정과 구별되는 1962-01-01 독립 효력."
+  },
+  "entityKeys": [
+    "state:WSM"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:WSM",
+      "field": "lifetime.validFrom",
+      "summary": "서사모아가 뉴질랜드 신탁통치 종료와 함께 독립주권국 성립. 알려진 독립일 재확인이지 신규 발견 아님.",
+      "assessment": "source-reviewed",
+      "proposedValue": "1962-01-01",
+      "uncertainty": "기존 Pando 객체 매핑·선행 국가 동일성 미확인"
+    },
+    {
+      "entityKey": "state:WSM",
+      "field": "relationship.parent",
+      "summary": "뉴질랜드의 서사모아 신탁통치·행정 지위 종료.",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "state:WSM",
+      "field": "name.formal",
+      "summary": "독립 당시 국호 Independent State of Western Samoa.",
+      "assessment": "source-reviewed",
+      "proposedValue": "Independent State of Western Samoa"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1961-11-24",
+      "role": "new-zealand-royal-assent"
+    }
+  ],
+  "sourceIds": [
+    "SRC-069",
+    "SRC-070",
+    "SRC-078"
+  ],
+  "unresolved": [
+    "NZ 공식 법률 직접 페이지 403으로 원본 전문은 검색 발췌만 읽음.",
+    "1962년 이전 사모아의 행정·정치체와 동일성 및 객체 입력 필요성은 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

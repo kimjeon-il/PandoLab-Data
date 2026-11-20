@@ -1,0 +1,86 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+  "type": "event",
+  "title": "2025 키르기스스탄·타지키스탄·우즈베키스탄 국경 삼중 접점 조약",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-asia"
+  },
+  "date": {
+    "year": 2025,
+    "value": null,
+    "precision": "year",
+    "note": "2025-03-31 삼자 조약 서명; 우즈베키스탄 LexUZ는 2025-11-15를 우즈베키스탄 시행일로 표기. 11-16 별도 의정서 비준문서 교환 발표. 삼자 국제효력일은 법적 문서 교환관계 대조 전 보류."
+  },
+  "entityKeys": [
+    "state:KGZ",
+    "state:TJK",
+    "state:UZB"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:KGZ",
+      "field": "territory.geometry",
+      "summary": "2025년 삼국 국경 접점 및 인접 세 국경선의 조약상 위치 지정. 실제 변경 여부와 2025년의 지도 효력은 부속 1:10,000 지도·좌표의 대조 필요.",
+      "assessment": "provisional",
+      "uncertainty": "삼국 조약 부속서 1·2 비공개, SK-42 좌표와 단일 지점 피처/공유 경계 미확보"
+    },
+    {
+      "entityKey": "state:TJK",
+      "field": "territory.geometry",
+      "summary": "2025년 삼국 국경 접점 및 인접 세 국경선의 조약상 위치 지정. 실제 변경 여부와 2025년의 지도 효력은 부속 1:10,000 지도·좌표의 대조 필요.",
+      "assessment": "provisional",
+      "uncertainty": "삼국 조약 부속서 1·2 비공개, SK-42 좌표와 단일 지점 피처/공유 경계 미확보"
+    },
+    {
+      "entityKey": "state:UZB",
+      "field": "territory.geometry",
+      "summary": "2025년 삼국 국경 접점 및 인접 세 국경선의 조약상 위치 지정. 실제 변경 여부와 2025년의 지도 효력은 부속 1:10,000 지도·좌표의 대조 필요.",
+      "assessment": "provisional",
+      "uncertainty": "삼국 조약 부속서 1·2 비공개, SK-42 좌표와 단일 지점 피처/공유 경계 미확보"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "2025-03-31",
+      "kind": "tripoint-treaty-signature",
+      "sourceId": "SRC-085"
+    },
+    {
+      "date": "2025-11-14",
+      "kind": "uzbek-ratification-law-date",
+      "sourceId": "SRC-085"
+    },
+    {
+      "date": "2025-11-15",
+      "kind": "uzbek-publication-listed-entry-into-force-for-uzbekistan",
+      "sourceId": "SRC-085"
+    },
+    {
+      "date": "2025-11-16",
+      "kind": "separate-protocol-ratification-document-exchange",
+      "sourceId": "SRC-086"
+    }
+  ],
+  "finding": "국경 접점 및 주변 3국 국제경계 위치를 조약으로 명시한 입력 가능한 공간 변경 후보. 기존 양국 국경조약과 별도인 삼자 조약 1건만 기록. 도상 접점 좌표나 법적 영토 양도는 부속서 열람 전 추정하지 않음.",
+  "sourceIds": [
+    "SRC-082",
+    "SRC-085",
+    "SRC-086"
+  ],
+  "unresolved": [
+    "LexUZ 본문이 참조하는 1:10,000 원도면(부속서 1)과 국경선 기술서(부속서 2)는 온라인 본문에 게시되지 않음.",
+    "법령 데이터베이스의 2025-11-15 효력 표기(우즈베키스탄)와 외무부의 2025-11-16 의정서 문서 교환이 같은 법적 행위를 뜻하는지 미확정; 국제효력일 보류.",
+    "1942년 좌표계와 발트 고도계가 명시되어 있지만 피처 좌표·CRS 파일 확인 불가; EPSG 지정 금지.",
+    "Pando 런타임 실제 객체 ID 및 토지 교환 전후 국가별 폴리곤/국경 공유선 매핑 미검증.",
+    "이 회차는 연구 기록만 작성하며 정본 국경 데이터·국가 lifetime은 변경하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-asia-2026-11-20",
+    "createdOn": "2026-11-20"
+  }
+}

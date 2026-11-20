@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-MALAWI",
+  "type": "entity",
+  "title": "말라위",
+  "subject": {
+    "key": "state:MWI",
+    "kind": "state",
+    "displayName": "말라위",
+    "runtimeEntityId": "state:MWI"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1964-MALAWI-INDEPENDENCE"
+  ],
+  "sourceIds": [
+    "SRC-029",
+    "SRC-030",
+    "SRC-027",
+    "SRC-031"
+  ],
+  "unresolved": [
+    "유보: 냐살랜드·중앙아프리카연방·말라위 간 실제 종속관계 해소일과 법적 국가 동일성, 1966년 변경의 공식 국명 유효일. 국내 정권 변동은 별도 국가 탄생/소멸로 조사하지 않는다. GEO-023의 `state:MWI=1964-07-06`은 신규 발견 아님."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-036",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-africa-lesotho-malawi-eswatini-2026-11-17.md",
+    "snapshotBlobSha": "724999e7ea7b4d67d505a22bbb5f1a3ec4ab0b55"
+  }
+}

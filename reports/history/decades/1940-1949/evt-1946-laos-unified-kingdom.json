@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1946-LAOS-UNIFIED-KINGDOM",
+  "type": "event",
+  "title": "프랑스 영향 아래 라오스 통일 왕국",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1946,
+    "value": "1946-08-27",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "state:LAO"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:LAO",
+      "field": "lifetime.validFrom",
+      "summary": "1946 modus vivendi로 통일 왕국의 지위 형성. 완전 독립일 아님.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "state:LAO",
+      "field": "relationship.parent",
+      "summary": "프랑스 하의 정치 관계 변화.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1946-08-27",
+      "role": "modus-vivendi"
+    }
+  ],
+  "sourceIds": [
+    "SRC-018",
+    "SRC-019",
+    "SRC-020",
+    "SRC-021",
+    "SRC-022",
+    "SRC-023",
+    "SRC-024"
+  ],
+  "unresolved": [
+    "기존 state:LAO.validFrom 값과 왕국 객체 동일성 및 프랑스 종속 관계 검증"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

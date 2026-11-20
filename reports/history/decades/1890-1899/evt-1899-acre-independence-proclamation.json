@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+  "type": "event",
+  "title": "제1차 아크리 독립국 선포",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1899,
+    "value": "1899-07-14",
+    "precision": "day",
+    "note": "루이스 갈베스 주도 선언일. 볼리비아에 대한 법적 독립 성립 판정 유보."
+  },
+  "entityKeys": [
+    "research:state:acre-independent-state"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:acre-independent-state",
+      "field": "lifetime.validFrom",
+      "summary": "제1차 아크리 독립국 1899-07-14 선포; 승인·국가성 및 후속 정부와 동일성 보류",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-066",
+    "SRC-067"
+  ],
+  "unresolved": [
+    "선언문 원문·첫 공화국의 실제 통치 범위",
+    "1900·1903 후속 선포와의 법적 동일성"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1899-07-14",
+      "role": "republic-proclamation"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  }
+}

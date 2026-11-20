@@ -1,0 +1,48 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-KOREAN-EMPIRE",
+  "type": "entity",
+  "title": "대한제국",
+  "subject": {
+    "key": "research:state:korean-empire",
+    "kind": "state",
+    "displayName": "대한제국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-18",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "문헌으로 확인된 독립·명칭·종속관계의 개별 날짜를 전체 법적 국가 존속기간 확정으로 대체하지 않는다. 기존 Pando 값은 이 연구에서 수정하지 않았다."
+  },
+  "eventIds": [
+    "EVT-1897-KOREAN-EMPIRE-NAME",
+    "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+    "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+  ],
+  "sourceIds": [
+    "SRC-014",
+    "SRC-015",
+    "SRC-016",
+    "SRC-017"
+  ],
+  "unresolved": [
+    "1897년 체제 선포는 조선이라는 정치 주체의 근본적 신규 성립 여부와 동일하지 않고, 1905년 외교권 박탈은 1910년의 병합과 다른 법적 단계. 불평등조약의 무효 논의와 국제적 승인·실효 지배의 층위를 혼합하지 않는다. 조선→대한제국의 국가 동일성, 1897년 원법령/관보 효력일, 1905년 법적 주권 계속성, 1910년 병합의 법적 효력을 추가 원사료로 검증하기 전 `lifetime` 확정 유보. 1948년 남·북한 국가의 성립과 대한제국을 단일 객체로 병합하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-035",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-asia-historic-ryukyu-korean-empire-laos-2026-11-16.md",
+    "snapshotBlobSha": "fdd0cefcc917e6ff9f4393d97cacb9d41904d0b6"
+  }
+}

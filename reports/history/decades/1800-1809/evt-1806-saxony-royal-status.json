@@ -1,0 +1,42 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1806-SAXONY-ROYAL-STATUS",
+  "type": "event",
+  "title": "작센 왕국 승격",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1806,
+    "value": "1806",
+    "precision": "year",
+    "note": "연도까지 확인; 정확한 효력일을 추정하지 않는다."
+  },
+  "entityKeys": [
+    "research:state:saxony-kingdom"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:saxony-kingdom",
+      "field": "name.formal",
+      "summary": "작센 선제후국에서 왕국으로 격상. 기존 정치체의 최초 성립일로 간주하지 않는다.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-001",
+    "SRC-002"
+  ],
+  "unresolved": [
+    "왕국 지위의 실제 효력일 및 기존 국가와의 동일성 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-JULIANA",
+  "type": "entity",
+  "title": "줄리아나 공화국",
+  "subject": {
+    "key": "research:state:juliana-republic",
+    "kind": "state",
+    "displayName": "줄리아나 공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-19",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1839년 라구나 중심의 분리정부. 7월 24일 군사 점령/일부 연대기 시작과 7월 29일 의회 기록의 독립 선포를 구별해야 하며 11월 15일 라구나 탈환을 기록."
+  },
+  "eventIds": [
+    "EVT-1839-JULIANA-PROCLAMATION",
+    "EVT-1839-JULIANA-END"
+  ],
+  "sourceIds": [
+    "SRC-064",
+    "SRC-065"
+  ],
+  "unresolved": [
+    "1839-07-24와 07-29의 실제 선언 효력 차이 및 원문",
+    "산타카타리나주 전체 영토의 실효 통치로 해석하지 않음; 라게스 내륙 저항 계속성과 별도",
+    "리우그란덴시와의 연합을 독립 국가 간 관계로 볼지 구별"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-038",
+    "createdOn": "2026-11-19",
+    "note": "신규 JSON 조사 기록; 변환 이전 Markdown 스냅샷이 존재하지 않음"
+  },
+  "region": "남아메리카",
+  "statehoodAssessment": "secessionist-government-unconfirmed-sovereignty"
+}

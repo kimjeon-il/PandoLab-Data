@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-COOK-ISLANDS",
+  "type": "entity",
+  "title": "쿡 제도",
+  "subject": {
+    "key": "state:COK",
+    "kind": "state",
+    "displayName": "쿡 제도",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "오세아니아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-20",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1965-08-04 자유연합 자치 전환은 확인했으나 1801년 이후 국가 자체의 최초 성립일로 자동 간주하지 않음."
+  },
+  "eventIds": [
+    "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+  ],
+  "sourceIds": [
+    "SRC-071",
+    "SRC-072"
+  ],
+  "unresolved": [
+    "국가·속령 분류, 실제 Pando runtime 객체, 상위객체 표현방식 최종 미확정.",
+    "1901 뉴질랜드 편입 원법령·효력일, 자유연합에서의 국방·외교 권한 이력·국명·국기 보류."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

@@ -1,0 +1,1525 @@
+{
+  "schema": "pando-history-catalog-v1",
+  "generatedFrom": [
+    "history/countries",
+    "history/decades",
+    "history/geography"
+  ],
+  "entries": [
+    {
+      "id": "ENT-ACRE-REPUBLIC",
+      "type": "entity",
+      "path": "reports/history/countries/acre-republic.json",
+      "title": "아크리 독립국·공화국",
+      "entityKeys": [
+        "research:state:acre-independent-state"
+      ],
+      "eventIds": [
+        "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+        "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+        "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-BADEN",
+      "type": "entity",
+      "path": "reports/history/countries/baden.json",
+      "title": "바덴 대공국",
+      "entityKeys": [
+        "research:state:baden-grand-duchy"
+      ],
+      "eventIds": [
+        "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
+        "EVT-1806-RHINE-CONFEDERATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-BAHAMAS",
+      "type": "entity",
+      "path": "reports/history/countries/bahamas.json",
+      "title": "바하마",
+      "entityKeys": [
+        "state:BHS"
+      ],
+      "eventIds": [
+        "EVT-1973-BAHAMAS-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-BARBADOS",
+      "type": "entity",
+      "path": "reports/history/countries/barbados.json",
+      "title": "바베이도스",
+      "entityKeys": [
+        "state:BRB"
+      ],
+      "eventIds": [
+        "EVT-1966-BARBADOS-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-COOK-ISLANDS",
+      "type": "entity",
+      "path": "reports/history/countries/cook-islands.json",
+      "title": "쿡 제도",
+      "entityKeys": [
+        "state:COK"
+      ],
+      "eventIds": [
+        "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-ESWATINI",
+      "type": "entity",
+      "path": "reports/history/countries/eswatini.json",
+      "title": "에스와티니",
+      "entityKeys": [
+        "state:SWZ"
+      ],
+      "eventIds": [
+        "EVT-1968-ESWATINI-INDEPENDENCE",
+        "EVT-2018-ESWATINI-RENAMING"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-JULIANA",
+      "type": "entity",
+      "path": "reports/history/countries/juliana.json",
+      "title": "줄리아나 공화국",
+      "entityKeys": [
+        "research:state:juliana-republic"
+      ],
+      "eventIds": [
+        "EVT-1839-JULIANA-PROCLAMATION",
+        "EVT-1839-JULIANA-END"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-KGZ",
+      "type": "entity",
+      "path": "reports/history/countries/kyrgyzstan.json",
+      "title": "키르기스스탄",
+      "entityKeys": [
+        "state:KGZ"
+      ],
+      "eventIds": [
+        "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-KOREAN-EMPIRE",
+      "type": "entity",
+      "path": "reports/history/countries/korean-empire.json",
+      "title": "대한제국",
+      "entityKeys": [
+        "research:state:korean-empire"
+      ],
+      "eventIds": [
+        "EVT-1897-KOREAN-EMPIRE-NAME",
+        "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+        "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-LAOS",
+      "type": "entity",
+      "path": "reports/history/countries/laos.json",
+      "title": "라오스 왕국",
+      "entityKeys": [
+        "state:LAO"
+      ],
+      "eventIds": [
+        "EVT-1946-LAOS-UNIFIED-KINGDOM",
+        "EVT-1949-LAOS-FRENCH-UNION",
+        "EVT-1953-LAOS-SOVEREIGNTY",
+        "EVT-1975-LAOS-OFFICIAL-NAME"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-LESOTHO",
+      "type": "entity",
+      "path": "reports/history/countries/lesotho.json",
+      "title": "레소토",
+      "entityKeys": [
+        "state:LSO"
+      ],
+      "eventIds": [
+        "EVT-1966-LESOTHO-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-MALAWI",
+      "type": "entity",
+      "path": "reports/history/countries/malawi.json",
+      "title": "말라위",
+      "entityKeys": [
+        "state:MWI"
+      ],
+      "eventIds": [
+        "EVT-1964-MALAWI-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-NASSAU",
+      "type": "entity",
+      "path": "reports/history/countries/nassau.json",
+      "title": "나사우 공국",
+      "entityKeys": [
+        "research:state:nassau-duchy"
+      ],
+      "eventIds": [
+        "EVT-1806-RHINE-CONFEDERATION",
+        "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+        "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-NIUE",
+      "type": "entity",
+      "path": "reports/history/countries/niue.json",
+      "title": "니우에",
+      "entityKeys": [
+        "state:NIU"
+      ],
+      "eventIds": [
+        "EVT-1974-NIUE-SELF-GOVERNMENT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-RIOGRANDENSE",
+      "type": "entity",
+      "path": "reports/history/countries/riograndense.json",
+      "title": "리우그란덴시 공화국",
+      "entityKeys": [
+        "research:state:riograndense-republic"
+      ],
+      "eventIds": [
+        "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+        "EVT-1845-RIOGRANDENSE-PEACE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-RYUKYU",
+      "type": "entity",
+      "path": "reports/history/countries/ryukyu.json",
+      "title": "류큐 왕국",
+      "entityKeys": [
+        "research:state:ryukyu-kingdom"
+      ],
+      "eventIds": [
+        "EVT-1872-RYUKYU-DOMAIN",
+        "EVT-1879-RYUKYU-ANNEXATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SAMOA",
+      "type": "entity",
+      "path": "reports/history/countries/samoa.json",
+      "title": "사모아(서사모아)",
+      "entityKeys": [
+        "state:WSM"
+      ],
+      "eventIds": [
+        "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+        "EVT-1997-SAMOA-NAME-CHANGE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SAXONY",
+      "type": "entity",
+      "path": "reports/history/countries/saxony.json",
+      "title": "작센 왕국",
+      "entityKeys": [
+        "research:state:saxony-kingdom"
+      ],
+      "eventIds": [
+        "EVT-1806-SAXONY-ROYAL-STATUS",
+        "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+        "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+        "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-TJK",
+      "type": "entity",
+      "path": "reports/history/countries/tajikistan.json",
+      "title": "타지키스탄",
+      "entityKeys": [
+        "state:TJK"
+      ],
+      "eventIds": [
+        "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-TRINIDAD",
+      "type": "entity",
+      "path": "reports/history/countries/trinidad.json",
+      "title": "트리니다드 토바고",
+      "entityKeys": [
+        "state:TTO"
+      ],
+      "eventIds": [
+        "EVT-1962-TRINIDAD-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-UZB",
+      "type": "entity",
+      "path": "reports/history/countries/uzbekistan.json",
+      "title": "우즈베키스탄",
+      "entityKeys": [
+        "state:UZB"
+      ],
+      "eventIds": [
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1806-nassau-duchy-proclamation.json",
+      "title": "나사우 공국 합동 선포",
+      "entityKeys": [
+        "research:state:nassau-duchy"
+      ],
+      "eventIds": [],
+      "year": 1806,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1806-RHINE-CONFEDERATION",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1806-rhine-confederation.json",
+      "title": "라인동맹 체결과 바덴·나사우 지위",
+      "entityKeys": [
+        "research:state:baden-grand-duchy",
+        "research:state:nassau-duchy"
+      ],
+      "eventIds": [],
+      "year": 1806,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1806-SAXONY-ROYAL-STATUS",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1806-saxony-royal-status.json",
+      "title": "작센 왕국 승격",
+      "entityKeys": [
+        "research:state:saxony-kingdom"
+      ],
+      "eventIds": [],
+      "year": 1806,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "type": "event",
+      "path": "reports/history/decades/1810-1819/evt-1815-saxony-prussian-cession.json",
+      "title": "작센의 프로이센 영토 양도",
+      "entityKeys": [
+        "research:state:saxony-kingdom"
+      ],
+      "eventIds": [],
+      "year": 1815,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1836-riograndense-proclamation.json",
+      "title": "리우그란덴시 공화국 독립 선포",
+      "entityKeys": [
+        "research:state:riograndense-republic"
+      ],
+      "eventIds": [],
+      "year": 1836,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1839-JULIANA-END",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1839-juliana-end.json",
+      "title": "줄리아나 공화국 라구나 거점 상실",
+      "entityKeys": [
+        "research:state:juliana-republic"
+      ],
+      "eventIds": [],
+      "year": 1839,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1839-JULIANA-PROCLAMATION",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1839-juliana-proclamation.json",
+      "title": "줄리아나 공화국 선포와 라구나 분리정부 수립",
+      "entityKeys": [
+        "research:state:juliana-republic"
+      ],
+      "eventIds": [],
+      "year": 1839,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1845-RIOGRANDENSE-PEACE",
+      "type": "event",
+      "path": "reports/history/decades/1840-1849/evt-1845-riograndense-peace.json",
+      "title": "리우그란덴시 공화국과 브라질 제국의 평화·통치 종료",
+      "entityKeys": [
+        "research:state:riograndense-republic"
+      ],
+      "eventIds": [],
+      "year": 1845,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
+      "type": "event",
+      "path": "reports/history/decades/1860-1869/evt-1866-nassau-prussian-annexation.json",
+      "title": "프로이센의 나사우 병합",
+      "entityKeys": [
+        "research:state:nassau-duchy"
+      ],
+      "eventIds": [],
+      "year": 1866,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+      "type": "event",
+      "path": "reports/history/decades/1860-1869/evt-1867-saxony-north-german-confederation.json",
+      "title": "작센의 북독일연방 편입",
+      "entityKeys": [
+        "research:state:saxony-kingdom"
+      ],
+      "eventIds": [],
+      "year": 1867,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
+      "type": "event",
+      "path": "reports/history/decades/1870-1879/evt-1871-german-empire-membership.json",
+      "title": "독일제국 구성국 지위 변동",
+      "entityKeys": [
+        "research:state:saxony-kingdom",
+        "research:state:baden-grand-duchy"
+      ],
+      "eventIds": [],
+      "year": 1871,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1872-RYUKYU-DOMAIN",
+      "type": "event",
+      "path": "reports/history/decades/1870-1879/evt-1872-ryukyu-domain.json",
+      "title": "류큐 왕국의 류큐번 편제",
+      "entityKeys": [
+        "research:state:ryukyu-kingdom"
+      ],
+      "eventIds": [],
+      "year": 1872,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1879-RYUKYU-ANNEXATION",
+      "type": "event",
+      "path": "reports/history/decades/1870-1879/evt-1879-ryukyu-annexation.json",
+      "title": "류큐번 폐지와 오키나와현 설치",
+      "entityKeys": [
+        "research:state:ryukyu-kingdom"
+      ],
+      "eventIds": [],
+      "year": 1879,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1897-KOREAN-EMPIRE-NAME",
+      "type": "event",
+      "path": "reports/history/decades/1890-1899/evt-1897-korean-empire-name.json",
+      "title": "조선에서 대한제국 국호 변경",
+      "entityKeys": [
+        "research:state:korean-empire"
+      ],
+      "eventIds": [],
+      "year": 1897,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+      "type": "event",
+      "path": "reports/history/decades/1890-1899/evt-1899-acre-independence-proclamation.json",
+      "title": "제1차 아크리 독립국 선포",
+      "entityKeys": [
+        "research:state:acre-independent-state"
+      ],
+      "eventIds": [],
+      "year": 1899,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "type": "event",
+      "path": "reports/history/decades/1900-1909/evt-1900-acre-first-republic-end.json",
+      "title": "제1차 아크리 공화국 해체",
+      "entityKeys": [
+        "research:state:acre-independent-state"
+      ],
+      "eventIds": [],
+      "year": 1900,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+      "type": "event",
+      "path": "reports/history/decades/1900-1909/evt-1904-petropolis-acre-territorial-transfer.json",
+      "title": "페트로폴리스 조약 발효와 볼리비아–브라질 아크리 영토 귀속 변경",
+      "entityKeys": [
+        "state:BOL",
+        "state:BRA",
+        "research:state:acre-independent-state"
+      ],
+      "eventIds": [],
+      "year": 1904,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+      "type": "event",
+      "path": "reports/history/decades/1900-1909/evt-1905-korean-empire-protectorate.json",
+      "title": "대한제국 외교권 박탈·보호국화",
+      "entityKeys": [
+        "research:state:korean-empire"
+      ],
+      "eventIds": [],
+      "year": 1905,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1910-KOREAN-EMPIRE-ANNEXATION",
+      "type": "event",
+      "path": "reports/history/decades/1910-1919/evt-1910-korean-empire-annexation.json",
+      "title": "대한제국 병합",
+      "entityKeys": [
+        "research:state:korean-empire"
+      ],
+      "eventIds": [],
+      "year": 1910,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1946-laos-unified-kingdom.json",
+      "title": "프랑스 영향 아래 라오스 통일 왕국",
+      "entityKeys": [
+        "state:LAO"
+      ],
+      "eventIds": [],
+      "year": 1946,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1949-LAOS-FRENCH-UNION",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1949-laos-french-union.json",
+      "title": "프랑스 연합 내 라오스 지위 변경",
+      "entityKeys": [
+        "state:LAO"
+      ],
+      "eventIds": [],
+      "year": 1949,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-LAOS-SOVEREIGNTY",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-laos-sovereignty.json",
+      "title": "라오스 완전한 주권 인정 조약",
+      "entityKeys": [
+        "state:LAO"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1962-TRINIDAD-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1962-trinidad-independence.json",
+      "title": "트리니다드 토바고 독립",
+      "entityKeys": [
+        "state:TTO"
+      ],
+      "eventIds": [],
+      "year": 1962,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1962-western-samoa-independence.json",
+      "title": "서사모아 신탁통치 종료와 독립",
+      "entityKeys": [
+        "state:WSM"
+      ],
+      "eventIds": [],
+      "year": 1962,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1964-MALAWI-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1964-malawi-independence.json",
+      "title": "말라위 독립",
+      "entityKeys": [
+        "state:MWI"
+      ],
+      "eventIds": [],
+      "year": 1964,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1965-cook-islands-self-government.json",
+      "title": "쿡 제도 자유연합 자치 시행",
+      "entityKeys": [
+        "state:COK"
+      ],
+      "eventIds": [],
+      "year": 1965,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1966-BARBADOS-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1966-barbados-independence.json",
+      "title": "바베이도스 독립",
+      "entityKeys": [
+        "state:BRB"
+      ],
+      "eventIds": [],
+      "year": 1966,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1966-LESOTHO-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1966-lesotho-independence.json",
+      "title": "레소토 독립",
+      "entityKeys": [
+        "state:LSO"
+      ],
+      "eventIds": [],
+      "year": 1966,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1968-ESWATINI-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1968-eswatini-independence.json",
+      "title": "스와질란드 독립",
+      "entityKeys": [
+        "state:SWZ"
+      ],
+      "eventIds": [],
+      "year": 1968,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1973-BAHAMAS-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1973-bahamas-independence.json",
+      "title": "바하마 독립",
+      "entityKeys": [
+        "state:BHS"
+      ],
+      "eventIds": [],
+      "year": 1973,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1974-NIUE-SELF-GOVERNMENT",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1974-niue-self-government.json",
+      "title": "니우에 자유연합 자치 시행",
+      "entityKeys": [
+        "state:NIU"
+      ],
+      "eventIds": [],
+      "year": 1974,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1975-LAOS-OFFICIAL-NAME",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1975-laos-official-name.json",
+      "title": "라오인민민주공화국 국호 선포",
+      "entityKeys": [
+        "state:LAO"
+      ],
+      "eventIds": [],
+      "year": 1975,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1997-SAMOA-NAME-CHANGE",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1997-samoa-name-change.json",
+      "title": "서사모아에서 사모아로 국호 변경",
+      "entityKeys": [
+        "state:WSM"
+      ],
+      "eventIds": [],
+      "year": 1997,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-2018-ESWATINI-RENAMING",
+      "type": "event",
+      "path": "reports/history/decades/2010-2019/evt-2018-eswatini-renaming.json",
+      "title": "스와질란드에서 에스와티니 국호 변경",
+      "entityKeys": [
+        "state:SWZ"
+      ],
+      "eventIds": [],
+      "year": 2018,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "type": "event",
+      "path": "reports/history/decades/2020-2029/evt-2025-kgz-tjk-border-settlement.json",
+      "title": "2025 키르기스스탄–타지키스탄 국경조약과 영토 교환",
+      "entityKeys": [
+        "state:KGZ",
+        "state:TJK"
+      ],
+      "eventIds": [],
+      "year": 2025,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+      "type": "event",
+      "path": "reports/history/decades/2020-2029/evt-2025-kgz-tjk-uzb-tripoint.json",
+      "title": "2025 키르기스스탄·타지키스탄·우즈베키스탄 국경 삼중 접점 조약",
+      "entityKeys": [
+        "state:KGZ",
+        "state:TJK",
+        "state:UZB"
+      ],
+      "eventIds": [],
+      "year": 2025,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "GEO-2025-KGZ-TJK-BORDER",
+      "type": "geography",
+      "path": "reports/history/geography/borders/kyrgyzstan-tajikistan-2025.json",
+      "title": "2025 키르기스스탄–타지키스탄 국경/삼국 접점 벡터 우선 탐색",
+      "entityKeys": [
+        "state:KGZ",
+        "state:TJK",
+        "state:UZB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "GEO-ISLA-SUAREZ",
+      "type": "geography",
+      "path": "reports/history/geography/borders/isla-suarez.json",
+      "title": "볼리비아–브라질 수아레스섬 귀속·공유국경 근거",
+      "entityKeys": [
+        "state:BOL",
+        "state:BRA"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    }
+  ],
+  "byType": {
+    "entity": [
+      "ENT-ACRE-REPUBLIC",
+      "ENT-BADEN",
+      "ENT-BAHAMAS",
+      "ENT-BARBADOS",
+      "ENT-COOK-ISLANDS",
+      "ENT-ESWATINI",
+      "ENT-JULIANA",
+      "ENT-KGZ",
+      "ENT-KOREAN-EMPIRE",
+      "ENT-LAOS",
+      "ENT-LESOTHO",
+      "ENT-MALAWI",
+      "ENT-NASSAU",
+      "ENT-NIUE",
+      "ENT-RIOGRANDENSE",
+      "ENT-RYUKYU",
+      "ENT-SAMOA",
+      "ENT-SAXONY",
+      "ENT-TJK",
+      "ENT-TRINIDAD",
+      "ENT-UZB"
+    ],
+    "event": [
+      "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+      "EVT-1806-RHINE-CONFEDERATION",
+      "EVT-1806-SAXONY-ROYAL-STATUS",
+      "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1839-JULIANA-END",
+      "EVT-1839-JULIANA-PROCLAMATION",
+      "EVT-1845-RIOGRANDENSE-PEACE",
+      "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
+      "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+      "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
+      "EVT-1872-RYUKYU-DOMAIN",
+      "EVT-1879-RYUKYU-ANNEXATION",
+      "EVT-1897-KOREAN-EMPIRE-NAME",
+      "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+      "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+      "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+      "EVT-1910-KOREAN-EMPIRE-ANNEXATION",
+      "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "EVT-1949-LAOS-FRENCH-UNION",
+      "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1962-TRINIDAD-INDEPENDENCE",
+      "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1964-MALAWI-INDEPENDENCE",
+      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1966-BARBADOS-INDEPENDENCE",
+      "EVT-1966-LESOTHO-INDEPENDENCE",
+      "EVT-1968-ESWATINI-INDEPENDENCE",
+      "EVT-1973-BAHAMAS-INDEPENDENCE",
+      "EVT-1974-NIUE-SELF-GOVERNMENT",
+      "EVT-1975-LAOS-OFFICIAL-NAME",
+      "EVT-1997-SAMOA-NAME-CHANGE",
+      "EVT-2018-ESWATINI-RENAMING",
+      "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+    ],
+    "geography": [
+      "GEO-2025-KGZ-TJK-BORDER",
+      "GEO-ISLA-SUAREZ"
+    ]
+  },
+  "byEntity": {
+    "research:state:acre-independent-state": [
+      "ENT-ACRE-REPUBLIC",
+      "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+      "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+    ],
+    "research:state:baden-grand-duchy": [
+      "ENT-BADEN",
+      "EVT-1806-RHINE-CONFEDERATION",
+      "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+    ],
+    "state:BHS": [
+      "ENT-BAHAMAS",
+      "EVT-1973-BAHAMAS-INDEPENDENCE"
+    ],
+    "state:BRB": [
+      "ENT-BARBADOS",
+      "EVT-1966-BARBADOS-INDEPENDENCE"
+    ],
+    "state:COK": [
+      "ENT-COOK-ISLANDS",
+      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+    ],
+    "state:SWZ": [
+      "ENT-ESWATINI",
+      "EVT-1968-ESWATINI-INDEPENDENCE",
+      "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "research:state:juliana-republic": [
+      "ENT-JULIANA",
+      "EVT-1839-JULIANA-END",
+      "EVT-1839-JULIANA-PROCLAMATION"
+    ],
+    "state:KGZ": [
+      "ENT-KGZ",
+      "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+      "GEO-2025-KGZ-TJK-BORDER"
+    ],
+    "research:state:korean-empire": [
+      "ENT-KOREAN-EMPIRE",
+      "EVT-1897-KOREAN-EMPIRE-NAME",
+      "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+      "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+    ],
+    "state:LAO": [
+      "ENT-LAOS",
+      "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "EVT-1949-LAOS-FRENCH-UNION",
+      "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1975-LAOS-OFFICIAL-NAME"
+    ],
+    "state:LSO": [
+      "ENT-LESOTHO",
+      "EVT-1966-LESOTHO-INDEPENDENCE"
+    ],
+    "state:MWI": [
+      "ENT-MALAWI",
+      "EVT-1964-MALAWI-INDEPENDENCE"
+    ],
+    "research:state:nassau-duchy": [
+      "ENT-NASSAU",
+      "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+      "EVT-1806-RHINE-CONFEDERATION",
+      "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+    ],
+    "state:NIU": [
+      "ENT-NIUE",
+      "EVT-1974-NIUE-SELF-GOVERNMENT"
+    ],
+    "research:state:riograndense-republic": [
+      "ENT-RIOGRANDENSE",
+      "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1845-RIOGRANDENSE-PEACE"
+    ],
+    "research:state:ryukyu-kingdom": [
+      "ENT-RYUKYU",
+      "EVT-1872-RYUKYU-DOMAIN",
+      "EVT-1879-RYUKYU-ANNEXATION"
+    ],
+    "state:WSM": [
+      "ENT-SAMOA",
+      "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1997-SAMOA-NAME-CHANGE"
+    ],
+    "research:state:saxony-kingdom": [
+      "ENT-SAXONY",
+      "EVT-1806-SAXONY-ROYAL-STATUS",
+      "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+      "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+    ],
+    "state:TJK": [
+      "ENT-TJK",
+      "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+      "GEO-2025-KGZ-TJK-BORDER"
+    ],
+    "state:TTO": [
+      "ENT-TRINIDAD",
+      "EVT-1962-TRINIDAD-INDEPENDENCE"
+    ],
+    "state:UZB": [
+      "ENT-UZB",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+      "GEO-2025-KGZ-TJK-BORDER"
+    ],
+    "state:BOL": [
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+      "GEO-ISLA-SUAREZ"
+    ],
+    "state:BRA": [
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+      "GEO-ISLA-SUAREZ"
+    ]
+  },
+  "byYear": {
+    "1806": [
+      "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+      "EVT-1806-RHINE-CONFEDERATION",
+      "EVT-1806-SAXONY-ROYAL-STATUS"
+    ],
+    "1815": [
+      "EVT-1815-SAXONY-PRUSSIAN-CESSION"
+    ],
+    "1836": [
+      "EVT-1836-RIOGRANDENSE-PROCLAMATION"
+    ],
+    "1839": [
+      "EVT-1839-JULIANA-END",
+      "EVT-1839-JULIANA-PROCLAMATION"
+    ],
+    "1845": [
+      "EVT-1845-RIOGRANDENSE-PEACE"
+    ],
+    "1866": [
+      "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+    ],
+    "1867": [
+      "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION"
+    ],
+    "1871": [
+      "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+    ],
+    "1872": [
+      "EVT-1872-RYUKYU-DOMAIN"
+    ],
+    "1879": [
+      "EVT-1879-RYUKYU-ANNEXATION"
+    ],
+    "1897": [
+      "EVT-1897-KOREAN-EMPIRE-NAME"
+    ],
+    "1899": [
+      "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
+    ],
+    "1900": [
+      "EVT-1900-ACRE-FIRST-REPUBLIC-END"
+    ],
+    "1904": [
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+    ],
+    "1905": [
+      "EVT-1905-KOREAN-EMPIRE-PROTECTORATE"
+    ],
+    "1910": [
+      "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+    ],
+    "1946": [
+      "EVT-1946-LAOS-UNIFIED-KINGDOM"
+    ],
+    "1949": [
+      "EVT-1949-LAOS-FRENCH-UNION"
+    ],
+    "1953": [
+      "EVT-1953-LAOS-SOVEREIGNTY"
+    ],
+    "1962": [
+      "EVT-1962-TRINIDAD-INDEPENDENCE",
+      "EVT-1962-WESTERN-SAMOA-INDEPENDENCE"
+    ],
+    "1964": [
+      "EVT-1964-MALAWI-INDEPENDENCE"
+    ],
+    "1965": [
+      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+    ],
+    "1966": [
+      "EVT-1966-BARBADOS-INDEPENDENCE",
+      "EVT-1966-LESOTHO-INDEPENDENCE"
+    ],
+    "1968": [
+      "EVT-1968-ESWATINI-INDEPENDENCE"
+    ],
+    "1973": [
+      "EVT-1973-BAHAMAS-INDEPENDENCE"
+    ],
+    "1974": [
+      "EVT-1974-NIUE-SELF-GOVERNMENT"
+    ],
+    "1975": [
+      "EVT-1975-LAOS-OFFICIAL-NAME"
+    ],
+    "1997": [
+      "EVT-1997-SAMOA-NAME-CHANGE"
+    ],
+    "2018": [
+      "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "2025": [
+      "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+    ]
+  },
+  "byDecade": {
+    "1800-1809": [
+      "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+      "EVT-1806-RHINE-CONFEDERATION",
+      "EVT-1806-SAXONY-ROYAL-STATUS"
+    ],
+    "1810-1819": [
+      "EVT-1815-SAXONY-PRUSSIAN-CESSION"
+    ],
+    "1830-1839": [
+      "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1839-JULIANA-END",
+      "EVT-1839-JULIANA-PROCLAMATION"
+    ],
+    "1840-1849": [
+      "EVT-1845-RIOGRANDENSE-PEACE"
+    ],
+    "1860-1869": [
+      "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
+      "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION"
+    ],
+    "1870-1879": [
+      "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
+      "EVT-1872-RYUKYU-DOMAIN",
+      "EVT-1879-RYUKYU-ANNEXATION"
+    ],
+    "1890-1899": [
+      "EVT-1897-KOREAN-EMPIRE-NAME",
+      "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
+    ],
+    "1900-1909": [
+      "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+      "EVT-1905-KOREAN-EMPIRE-PROTECTORATE"
+    ],
+    "1910-1919": [
+      "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+    ],
+    "1940-1949": [
+      "EVT-1946-LAOS-UNIFIED-KINGDOM",
+      "EVT-1949-LAOS-FRENCH-UNION"
+    ],
+    "1950-1959": [
+      "EVT-1953-LAOS-SOVEREIGNTY"
+    ],
+    "1960-1969": [
+      "EVT-1962-TRINIDAD-INDEPENDENCE",
+      "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1964-MALAWI-INDEPENDENCE",
+      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1966-BARBADOS-INDEPENDENCE",
+      "EVT-1966-LESOTHO-INDEPENDENCE",
+      "EVT-1968-ESWATINI-INDEPENDENCE"
+    ],
+    "1970-1979": [
+      "EVT-1973-BAHAMAS-INDEPENDENCE",
+      "EVT-1974-NIUE-SELF-GOVERNMENT",
+      "EVT-1975-LAOS-OFFICIAL-NAME"
+    ],
+    "1990-1999": [
+      "EVT-1997-SAMOA-NAME-CHANGE"
+    ],
+    "2010-2019": [
+      "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "2020-2029": [
+      "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+      "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+    ]
+  },
+  "byCountry": {
+    "research:state:acre-independent-state": {
+      "recordIds": [
+        "ENT-ACRE-REPUBLIC",
+        "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
+        "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+        "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+      ],
+      "byDecade": {
+        "1890-1899": [
+          "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
+        ],
+        "1900-1909": [
+          "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+          "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+        ]
+      }
+    },
+    "research:state:baden-grand-duchy": {
+      "recordIds": [
+        "ENT-BADEN",
+        "EVT-1806-RHINE-CONFEDERATION",
+        "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+      ],
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1806-RHINE-CONFEDERATION"
+        ],
+        "1870-1879": [
+          "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+        ]
+      }
+    },
+    "research:state:juliana-republic": {
+      "recordIds": [
+        "ENT-JULIANA",
+        "EVT-1839-JULIANA-END",
+        "EVT-1839-JULIANA-PROCLAMATION"
+      ],
+      "byDecade": {
+        "1830-1839": [
+          "EVT-1839-JULIANA-END",
+          "EVT-1839-JULIANA-PROCLAMATION"
+        ]
+      }
+    },
+    "research:state:korean-empire": {
+      "recordIds": [
+        "ENT-KOREAN-EMPIRE",
+        "EVT-1897-KOREAN-EMPIRE-NAME",
+        "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
+        "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+      ],
+      "byDecade": {
+        "1890-1899": [
+          "EVT-1897-KOREAN-EMPIRE-NAME"
+        ],
+        "1900-1909": [
+          "EVT-1905-KOREAN-EMPIRE-PROTECTORATE"
+        ],
+        "1910-1919": [
+          "EVT-1910-KOREAN-EMPIRE-ANNEXATION"
+        ]
+      }
+    },
+    "research:state:nassau-duchy": {
+      "recordIds": [
+        "ENT-NASSAU",
+        "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+        "EVT-1806-RHINE-CONFEDERATION",
+        "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+      ],
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
+          "EVT-1806-RHINE-CONFEDERATION"
+        ],
+        "1860-1869": [
+          "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+        ]
+      }
+    },
+    "research:state:riograndense-republic": {
+      "recordIds": [
+        "ENT-RIOGRANDENSE",
+        "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+        "EVT-1845-RIOGRANDENSE-PEACE"
+      ],
+      "byDecade": {
+        "1830-1839": [
+          "EVT-1836-RIOGRANDENSE-PROCLAMATION"
+        ],
+        "1840-1849": [
+          "EVT-1845-RIOGRANDENSE-PEACE"
+        ]
+      }
+    },
+    "research:state:ryukyu-kingdom": {
+      "recordIds": [
+        "ENT-RYUKYU",
+        "EVT-1872-RYUKYU-DOMAIN",
+        "EVT-1879-RYUKYU-ANNEXATION"
+      ],
+      "byDecade": {
+        "1870-1879": [
+          "EVT-1872-RYUKYU-DOMAIN",
+          "EVT-1879-RYUKYU-ANNEXATION"
+        ]
+      }
+    },
+    "research:state:saxony-kingdom": {
+      "recordIds": [
+        "ENT-SAXONY",
+        "EVT-1806-SAXONY-ROYAL-STATUS",
+        "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+        "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
+        "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+      ],
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1806-SAXONY-ROYAL-STATUS"
+        ],
+        "1810-1819": [
+          "EVT-1815-SAXONY-PRUSSIAN-CESSION"
+        ],
+        "1860-1869": [
+          "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION"
+        ],
+        "1870-1879": [
+          "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+        ]
+      }
+    },
+    "state:BHS": {
+      "recordIds": [
+        "ENT-BAHAMAS",
+        "EVT-1973-BAHAMAS-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1970-1979": [
+          "EVT-1973-BAHAMAS-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:BOL": {
+      "recordIds": [
+        "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+        "GEO-ISLA-SUAREZ"
+      ],
+      "byDecade": {
+        "1900-1909": [
+          "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+        ]
+      }
+    },
+    "state:BRA": {
+      "recordIds": [
+        "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
+        "GEO-ISLA-SUAREZ"
+      ],
+      "byDecade": {
+        "1900-1909": [
+          "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+        ]
+      }
+    },
+    "state:BRB": {
+      "recordIds": [
+        "ENT-BARBADOS",
+        "EVT-1966-BARBADOS-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1966-BARBADOS-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:COK": {
+      "recordIds": [
+        "ENT-COOK-ISLANDS",
+        "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+        ]
+      }
+    },
+    "state:KGZ": {
+      "recordIds": [
+        "ENT-KGZ",
+        "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+        "GEO-2025-KGZ-TJK-BORDER"
+      ],
+      "byDecade": {
+        "2020-2029": [
+          "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+          "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+        ]
+      }
+    },
+    "state:LAO": {
+      "recordIds": [
+        "ENT-LAOS",
+        "EVT-1946-LAOS-UNIFIED-KINGDOM",
+        "EVT-1949-LAOS-FRENCH-UNION",
+        "EVT-1953-LAOS-SOVEREIGNTY",
+        "EVT-1975-LAOS-OFFICIAL-NAME"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1946-LAOS-UNIFIED-KINGDOM",
+          "EVT-1949-LAOS-FRENCH-UNION"
+        ],
+        "1950-1959": [
+          "EVT-1953-LAOS-SOVEREIGNTY"
+        ],
+        "1970-1979": [
+          "EVT-1975-LAOS-OFFICIAL-NAME"
+        ]
+      }
+    },
+    "state:LSO": {
+      "recordIds": [
+        "ENT-LESOTHO",
+        "EVT-1966-LESOTHO-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1966-LESOTHO-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:MWI": {
+      "recordIds": [
+        "ENT-MALAWI",
+        "EVT-1964-MALAWI-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1964-MALAWI-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:NIU": {
+      "recordIds": [
+        "ENT-NIUE",
+        "EVT-1974-NIUE-SELF-GOVERNMENT"
+      ],
+      "byDecade": {
+        "1970-1979": [
+          "EVT-1974-NIUE-SELF-GOVERNMENT"
+        ]
+      }
+    },
+    "state:SWZ": {
+      "recordIds": [
+        "ENT-ESWATINI",
+        "EVT-1968-ESWATINI-INDEPENDENCE",
+        "EVT-2018-ESWATINI-RENAMING"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1968-ESWATINI-INDEPENDENCE"
+        ],
+        "2010-2019": [
+          "EVT-2018-ESWATINI-RENAMING"
+        ]
+      }
+    },
+    "state:TJK": {
+      "recordIds": [
+        "ENT-TJK",
+        "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+        "GEO-2025-KGZ-TJK-BORDER"
+      ],
+      "byDecade": {
+        "2020-2029": [
+          "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+          "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+        ]
+      }
+    },
+    "state:TTO": {
+      "recordIds": [
+        "ENT-TRINIDAD",
+        "EVT-1962-TRINIDAD-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1962-TRINIDAD-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:UZB": {
+      "recordIds": [
+        "ENT-UZB",
+        "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+        "GEO-2025-KGZ-TJK-BORDER"
+      ],
+      "byDecade": {
+        "2020-2029": [
+          "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+        ]
+      }
+    },
+    "state:WSM": {
+      "recordIds": [
+        "ENT-SAMOA",
+        "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+        "EVT-1997-SAMOA-NAME-CHANGE"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1962-WESTERN-SAMOA-INDEPENDENCE"
+        ],
+        "1990-1999": [
+          "EVT-1997-SAMOA-NAME-CHANGE"
+        ]
+      }
+    }
+  }
+}

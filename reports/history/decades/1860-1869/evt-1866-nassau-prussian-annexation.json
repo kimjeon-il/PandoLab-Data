@@ -1,0 +1,55 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
+  "type": "event",
+  "title": "프로이센의 나사우 병합",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1866,
+    "value": null,
+    "precision": "unknown",
+    "note": "사건 연도는 알려졌지만 실제 변경의 정확한 효력일은 미확정이다."
+  },
+  "entityKeys": [
+    "research:state:nassau-duchy"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:nassau-duchy",
+      "field": "lifetime.validTo",
+      "summary": "나사우 공국이 프로이센에 병합. 9월 조치·10월 3일 특허장과 법적 주권 종료일 구별.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:nassau-duchy",
+      "field": "territory.assignment",
+      "summary": "나사우 영토의 프로이센 귀속.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1866-10-03",
+      "role": "annexation-patent-publication"
+    }
+  ],
+  "sourceIds": [
+    "SRC-006",
+    "SRC-007",
+    "SRC-008",
+    "SRC-009"
+  ],
+  "unresolved": [
+    "1866-09-20과 10-03 중 법적 효력일 및 정확한 공간 범위 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}

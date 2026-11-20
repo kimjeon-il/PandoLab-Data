@@ -1,0 +1,59 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1806-RHINE-CONFEDERATION",
+  "type": "event",
+  "title": "라인동맹 체결과 바덴·나사우 지위",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1806,
+    "value": "1806-07-12",
+    "precision": "day",
+    "note": "유효일·절차일 구분은 evidenceDates와 미해결 항목을 참조한다."
+  },
+  "entityKeys": [
+    "research:state:baden-grand-duchy",
+    "research:state:nassau-duchy"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:baden-grand-duchy",
+      "field": "relationship.parent",
+      "summary": "1806-07-12 라인동맹 조약 체결 및 바덴의 주권·대공국 지위 변경 후보.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:nassau-duchy",
+      "field": "relationship.parent",
+      "summary": "나사우 통치자의 라인동맹 조약 참여. 새 공국 합동 형성일과 구별.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1806-07-12",
+      "role": "treaty-signed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-003",
+    "SRC-004",
+    "SRC-005",
+    "SRC-006",
+    "SRC-007",
+    "SRC-008",
+    "SRC-009"
+  ],
+  "unresolved": [
+    "조약의 비준·시행일을 체결일과 동일시하지 않는다"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}

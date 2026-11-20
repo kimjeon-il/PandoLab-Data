@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-NIUE",
+  "type": "entity",
+  "title": "니우에",
+  "subject": {
+    "key": "state:NIU",
+    "kind": "state",
+    "displayName": "니우에",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "오세아니아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-20",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1974-10-19 자치헌법 시행은 확인했으나 최초 건국·완전 분리 독립일로 간주하지 않음."
+  },
+  "eventIds": [
+    "EVT-1974-NIUE-SELF-GOVERNMENT"
+  ],
+  "sourceIds": [
+    "SRC-073",
+    "SRC-074",
+    "SRC-075"
+  ],
+  "unresolved": [
+    "Pando 런타임 객체 및 국가·속령 분류·법적 동일성 보류.",
+    "1900 영국 보호국, 1901 뉴질랜드 귀속의 원법령·효력일 및 선행 객체 동일성 보류."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-039",
+    "createdOn": "2026-11-20"
+  }
+}

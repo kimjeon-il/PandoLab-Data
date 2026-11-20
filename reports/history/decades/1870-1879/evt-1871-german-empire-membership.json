@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
+  "type": "event",
+  "title": "독일제국 구성국 지위 변동",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1871,
+    "value": "1871",
+    "precision": "year",
+    "note": "연도까지 확인; 정확한 효력일을 추정하지 않는다."
+  },
+  "entityKeys": [
+    "research:state:saxony-kingdom",
+    "research:state:baden-grand-duchy"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:saxony-kingdom",
+      "field": "relationship.parent",
+      "summary": "작센 왕국의 독일제국 구성국 관계.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:baden-grand-duchy",
+      "field": "relationship.parent",
+      "summary": "바덴 대공국의 독일제국 구성국 관계.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-001",
+    "SRC-002",
+    "SRC-003",
+    "SRC-004",
+    "SRC-005"
+  ],
+  "unresolved": [
+    "두 객체의 법적 동일성·독립성 및 상위객체 이력의 효력일 추가 검증"
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-034",
+    "legacyPath": "reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/lifetimes/country-lifetime-europe-historic-saxony-baden-nassau-2026-11-15.md",
+    "snapshotBlobSha": "f6f8a96e55cb3dcc592f59e5874a8da70b6aaeaa"
+  }
+}
