@@ -44,7 +44,7 @@ jobs:
         env:
           PANDO_CONSUMER_ROOT: ${{ github.workspace }}/.dependencies/pando
           NODE_OPTIONS: --import=./tools/register-consumer.mjs
-        run: node --test tests/tools/pando-consumer.test.mjs
+        run: node --test tools/pando-consumer.test.mjs
           tests/unit/geometry/qgis-native-client.test.mjs
           tests/unit/geometry/qgis-native-export.test.mjs
           tests/unit/geometry/qgis-normalize.test.mjs
