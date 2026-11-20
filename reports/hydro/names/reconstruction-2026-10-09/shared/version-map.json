@@ -234,5 +234,7 @@
     "test_remaining_queue.py",
     "geometry_support.py"
   ],
-  "note": "Versioned inputs and original source SHA identities are preserved; prior per-batch script copies were removed. The shared tools are the current implementation, while original scripts remain retrievable from originalRevision."
+  "note": "Archived source and recorded Git blob SHAs remain unchanged. Executable canonical scripts now live at canonicalCodeRoot; report-local Python files use .txt extension. Original batch scripts remain retrievable from originalRevision.",
+  "canonicalCodeRoot": "tools/gis/hydro/reconstruction/",
+  "reportTextEvidenceRoot": "reports/hydro/names/reconstruction-2026-10-09/shared/"
 }
