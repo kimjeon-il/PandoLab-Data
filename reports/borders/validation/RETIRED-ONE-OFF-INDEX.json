@@ -1,0 +1,1341 @@
+{
+  "schemaVersion": 1,
+  "kind": "retired-border-validation-executables-and-console-output",
+  "sourceCommit": "804638f606d6bc27851589b0f32c9a8aa9049889",
+  "reason": "one-off, completed verification helpers and duplicate raw logs; source GIS, published geometry, structured outcomes and evidence remain in their original categories",
+  "retiredCount": 332,
+  "scripts": [
+    {
+      "path": "validation/1914-country-activation-2026-11-05/bind-reviews.mjs",
+      "blobSha": "391d1671f64d3a7653a95a533020aaa2a3dcc4e0"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/candidate.mjs",
+      "blobSha": "310d690887eb08144a3a8a6f4f37b18f8d23d7b2"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/close-overlay.mjs",
+      "blobSha": "2f213cdd939d1ca256fcf8b0f0230c2b7eca64ff"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/compare-ussr-coordinate-order.mjs",
+      "blobSha": "ba579f854d634580aaa5870aac0760c8a579c9d6"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/register.mjs",
+      "blobSha": "65a839be3150b135668c6a5aeffb5bdee7d71007"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/render-compiled.mjs",
+      "blobSha": "a8415f711a771297b1fa54917b798c635ba19d66"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/reproduce-1914-p2.mjs",
+      "blobSha": "a15583b97620620daa16f2ff57adfb46afb2f34d"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/reproduce-publication-baseline.mjs",
+      "blobSha": "fa2cb44e8ef7ee10fc7618409cee962821ef953f"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/reproduce-ussr-interval.mjs",
+      "blobSha": "1f569f776617b1c16fa29516b2a62425a6b84ff4"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/splice-compiled.mjs",
+      "blobSha": "ed7eda77c28ac1b3e187114d447bc9c794daa33b"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/topology.mjs",
+      "blobSha": "8499e0adb44ce659ecaa0cf481cac93a8cebc922"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-data-publication.mjs",
+      "blobSha": "af1d561373996606a27ce066d7a4cba447b878f3"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-p2-parent.mjs",
+      "blobSha": "8082d90ea7b517ba1f17986c377793af0acdad4a"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-p2-publication.mjs",
+      "blobSha": "61ae1ece65030bc026f53a60d3ddfeaa854cdd0c"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-preservation.mjs",
+      "blobSha": "2c9e564ebba9be1fa8fe22a351f60018b76ed097"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-registration.mjs",
+      "blobSha": "a9bdf53c740c61fcccaeb16e679739b1eb30ea39"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/verify-renderer.mjs",
+      "blobSha": "e24ecff2652cfca66944b769301889693932be89"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/plot-method.mjs",
+      "blobSha": "4b2f4a6e0d347703aa1867c7a3469302cb3da886"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/png-render-method.mjs",
+      "blobSha": "6c72efff4d2c9061f032c3d8ca2a988ff1ac12f7"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/public-compiled-selection-method.mjs",
+      "blobSha": "4f2b4fada3ca9083d990c9d5b40febc2bf312347"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/source-audit-method.mjs",
+      "blobSha": "17a097981ab7b1ff0ca4bdfa1dc7d1896b9eb2fd"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/source-selection-method.mjs",
+      "blobSha": "43db3fed3a5cadca640be5d602fad1ddb42164fd"
+    },
+    {
+      "path": "validation/current-border-detail-lsib-2026-11-04/work-compiled-selection-method.mjs",
+      "blobSha": "f004b912464f27297dd691f197e98281377e5661"
+    },
+    {
+      "path": "validation/current-lsib-coordinate-audit-2026-11-04/current-lsib-coordinate-run.mjs",
+      "blobSha": "0c695511acc99431bf0c34499bebca4da625f039"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/evaluation/historical-detail-darja-bundle/verify-local.mjs",
+      "blobSha": "3b5052bb12f8d2977a0b784114bb55edee8f0842"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-concurrent-pin-diff.mjs",
+      "blobSha": "8278fdefba450c69d4f55e8a2525ec4224500f5a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-baseline.mjs",
+      "blobSha": "617fd0ccbb749780a3e957edbb9720d16c476535"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-darja-joint-candidate.mjs",
+      "blobSha": "cb07f9c14253d404c1a7b5d7194d66f45b2e1356"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-final-plot.mjs",
+      "blobSha": "5522efe818563c3cbd526b0ee0c91162b36d215d"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-integrate-west.mjs",
+      "blobSha": "25e4c7c53c4bc4c64b59c4315ed3085a77f8543e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-integrated-exact-outside.mjs",
+      "blobSha": "7feb2a577013b7f82ff31f126a6895286d3875a3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-prepare-candidate.mjs",
+      "blobSha": "4a10a923e2fa48f0afac33ba471e46aec57f0ea6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-reviewed-storage-preflight.mjs",
+      "blobSha": "906cc5eafc83d71177911319342a33d667ad6095"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-stage-reviewed-runtime.mjs",
+      "blobSha": "c13b7ced2620c8feb3dcb26f1e4623755268b52a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-west-additional-spec.mjs",
+      "blobSha": "9b0cd535cbf0fa0fef548fb791b1d21625f48fe9"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-west-whole-view.mjs",
+      "blobSha": "04e312779b98e4547e4df30d853519fe5f24f771"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/audit-approved-592.mjs",
+      "blobSha": "415f8c7c1f72b2b9982cf01f8db5decd3ae4e2a0"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/east-followup-classified-2026-11-05/prepare-followup.mjs",
+      "blobSha": "473cfac5ae8e1516bd5f477e15b1b42e95653b40"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/german-coast-selected-compare.mjs",
+      "blobSha": "560b60205bd8f71eb64f2d6eabfad506c58be050"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-764-readiness-binding-scope.mjs",
+      "blobSha": "02f7c6f376dbc6845f02d51c21b971d52865f40c"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-764-readiness.mjs",
+      "blobSha": "22128ec5ce95f821758dc3ae3891af3d12ddcf22"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-active-composites.mjs",
+      "blobSha": "89daa654825141742e910633000e9c36914e904d"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-atrek-compiled-candidate.mjs",
+      "blobSha": "ba797fafbdf4e490150a7db7675c748381b5c5a9"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-atrek-reproduction-package.mjs",
+      "blobSha": "44f38dd460d3942a5a148ce526b9d357ba41c9cc"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-audit-darja-bundle.mjs",
+      "blobSha": "4c099b30a59b5980071d406f2161242580b7947a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-binding-inspect.mjs",
+      "blobSha": "b856a13d00cc9115353a65deb63fdc683c298fcc"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-binding-sample.mjs",
+      "blobSha": "b456db5d92a3da709a260a436ac424ebef9e42a3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-central-inputs.mjs",
+      "blobSha": "a5b365b9f14d16b6f71b5a9867ed8dbff657c1fe"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-ci-native-start.mjs",
+      "blobSha": "059c1ecdddd28348b799d79f42558a6d24957174"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-close-ledger.mjs",
+      "blobSha": "b6129f2b8411c70d0fc3feae1105891a363aa963"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-close-source-bypass.mjs",
+      "blobSha": "286a08144fd94030bc8895e0be1a6a2d58a7acb6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-collect.mjs",
+      "blobSha": "15673fac2d2e6b0fb74368e292d9797375e60783"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-combined-compiled-candidate.mjs",
+      "blobSha": "8f1e0c10d5e86ed80ea549e9d724a31a5be193ae"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-combined-use-kernel.mjs",
+      "blobSha": "caa23f4ba409e1329be2ef4ba8de9da52053d8a4"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-compiled-checkpoint.mjs",
+      "blobSha": "dd956936308358df6dfa7f336ba45214852ae695"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-content-identity.mjs",
+      "blobSha": "7695dc3edfbeb47e59e93ed17e2b31a7cf823d0b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-country-only-compiled-arcs.mjs",
+      "blobSha": "778d97f7740c4dd61eff028fb725f300a497b33d"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-country-only-compiled-candidate.mjs",
+      "blobSha": "14b53d913459ed11719d38574fbb924af5df7904"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-country-only-compiled-prepare.mjs",
+      "blobSha": "af92014ea0a915c241ab89347714179468f41c1b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-cyclic-proof-fix.mjs",
+      "blobSha": "1759956d87ea31f625b2f4aa7088bc6888d8e8be"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-audit-order-fix.mjs",
+      "blobSha": "21f12a7075e9a9957ba2fb4555124f3e385ec3ec"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-baseline-physical.mjs",
+      "blobSha": "d575be92f439345792f9f5b172625a6886ae66ae"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-bundle-input-shape.mjs",
+      "blobSha": "8863afec111874fe0c7d6f1e3f7d9c9ac9a286a3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-bundle-visual-receipt.mjs",
+      "blobSha": "ca97427f8252353f0ccf088568b3f3c68d018b24"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-ci-spec.mjs",
+      "blobSha": "ed15cf551e7e80ca422833a20d889dea43f1aac8"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-direct-contact-proof.mjs",
+      "blobSha": "3b266b800f1b2cb379d40688d9b02b4eabf7200a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-integrated-checks.mjs",
+      "blobSha": "42ce19d41844d6ac9279a042b05c57c980632ed3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-integrated-exact-outside.mjs",
+      "blobSha": "94dc7171246dc263aa1b9de469db533a75a50868"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-overlap-preservation.mjs",
+      "blobSha": "f86c870eebca03acfd4f9cbcc865194bb877fd7a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-pe-imports.mjs",
+      "blobSha": "5d6b0e169dbdf7d81b7518e25c280f7177c62f84"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-physical-chain-inspect.mjs",
+      "blobSha": "aefd77e2152a1dbb53dde3c6b852653cbaa8e9dd"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-physical-exact-splice.mjs",
+      "blobSha": "4ac07b6c64eada321da106558b8cd945afb601e0"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-physical-period.mjs",
+      "blobSha": "96ce59e1d62d17d13660b08a92a95746e2e1e42e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-shape.mjs",
+      "blobSha": "592d66c0f96a35696ff07e4d45139103b15d1665"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-darja-water-order-check.mjs",
+      "blobSha": "81e09cdfd618ac4a28056a3d53f347b30bcbe01b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-derivative-owner.mjs",
+      "blobSha": "a2a01baa4bb8b3b53a5e1a5d060c5d94722a37fa"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-dniester-asset.mjs",
+      "blobSha": "56dac79fa2115e74eac0079ab47ac817f8a4bccb"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-candidate.mjs",
+      "blobSha": "32a8c3f7001d10f22425e6314c6d75994ed6615b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-comparison14.mjs",
+      "blobSha": "a7fb7f204a2676d03bc7aa29076d9d8d55eb3458"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-fixed-window-turns.mjs",
+      "blobSha": "311f301280c50369bc142337c870ad07a6f4bbfc"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-audit-fixed.mjs",
+      "blobSha": "75cc25a3c1de8b72e725a53417b0068b1fdb57ab"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-audit-scoped-inputs.mjs",
+      "blobSha": "4f4f21fbfd771487738e895cac2d68c29fd5a8e6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-audit.mjs",
+      "blobSha": "25553bdfdb5420a339369ea37cb9ff624d004a84"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-compose.mjs",
+      "blobSha": "5000148616b1885a9610f66aa3d01759183866ce"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-diagnostic-viewer.mjs",
+      "blobSha": "0ab869a139ffc3d0f88342738a59d066503ec6e6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-final-compose.mjs",
+      "blobSha": "8474c909c97d1a020d6e75e494903fd527e9d6d2"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-final-plot.mjs",
+      "blobSha": "fd7d08faa1dd7ab4b5008d0e3eddc0cbdd3ad640"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-identity-viewer.mjs",
+      "blobSha": "2dbb4379891de1ddbad50fef82442d944511c337"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-plot.mjs",
+      "blobSha": "11f92d4da1d998e4a0d6d06fc83887191980d2c2"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-report.mjs",
+      "blobSha": "6233804503907849f5c2352947bb8d89dee96228"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-scoped-viewer.mjs",
+      "blobSha": "cb1f204c6789f010a88d9760bb17328bc8302574"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-followup-viewer.mjs",
+      "blobSha": "2c2ce1e87252b66f6f427a5ee921f054fd5e1375"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-mask-collect.mjs",
+      "blobSha": "792dc3da5d0b7bdf6871c3c01a6c56238163e843"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-measure.mjs",
+      "blobSha": "a62b619033ec20e002122287f4ad32b94445a69d"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-mixed-new-scratch.mjs",
+      "blobSha": "981e79594a687beb13d191282cede421156d4b30"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-peers.mjs",
+      "blobSha": "e561c29baf64696062fba85880d41d108c8792de"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-plot.mjs",
+      "blobSha": "d4d306a2735138744e31c5675053306fc1685e3e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-production-candidate.mjs",
+      "blobSha": "f5bdd7be7b34d27a0d8a5dfc49f93168aa4f7c41"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east-viewer-check.mjs",
+      "blobSha": "749f2b8968b42f45b0d4ec667835f909036e70c3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-east14-plot.mjs",
+      "blobSha": "a89fa591cf705e6430c1143d36302f24c834ad68"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-eastern-comparator-verify.mjs",
+      "blobSha": "8b686ffd24c38b15e7f77306e1dc5bd4071cda99"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-endpoint-and-parent-fix.mjs",
+      "blobSha": "aaf07042ba0e5e020e49f506e3544f53d2c4fe1c"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-exact-outside-edited-duplicate.mjs",
+      "blobSha": "0fa8b846eef523fb0111e68f1fef1d465e56c136"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-extra-followup-find.mjs",
+      "blobSha": "1c43945c352293e79c18f429f5cb4749af0f5d76"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-extra-followup-lookup.mjs",
+      "blobSha": "8a28271f6b8ee5d124037b06ac3be8d9b531b350"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-fetch-lines.mjs",
+      "blobSha": "e40204bd83fbba18d125a94e724338c67d7e6d4f"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-final-exact-outside.mjs",
+      "blobSha": "963fa854939152ff6452068306639209ba271cce"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-final-local-deviations.mjs",
+      "blobSha": "dbcfbc73ca7f6079405d629b0f1e7d5666d064a7"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-final-peer-inputs.mjs",
+      "blobSha": "cbe039ea1762e9a3c0ed44bb42cad05d5e94da0c"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-followup-protection.mjs",
+      "blobSha": "f3310dca6ccf726329e9ae6291544154ddb7e311"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-followup-review-check.mjs",
+      "blobSha": "83e080d9a61d51a964c54cdd6d5de0b4bb6b96f4"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-followup.mjs",
+      "blobSha": "dea22f1067e7beac4f80f8ddd1913b52d7cf8d09"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-gate-report.mjs",
+      "blobSha": "6721b1351c362bcb96588c7f04085044c2b99d80"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-identity-guard.mjs",
+      "blobSha": "b6a3fe8152bed326e203a8a48b496ce6b5a9839b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-inspect.mjs",
+      "blobSha": "5ff71b90cd3ff4feaf60f6a1a6a0fb6f639c48f7"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-integrate-darja.mjs",
+      "blobSha": "6e8bec65242eb807032ef310087280ef909401c4"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-integrity-fix.mjs",
+      "blobSha": "406fb7fbe14bee1dfce854981041b3ac15c9be9a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-inventory.mjs",
+      "blobSha": "75b5fc9a560fb83e3d64db114f70772482dd18a0"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-ledger-shape.mjs",
+      "blobSha": "2f1b97636e50460a572da019121775aed1699c7f"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-mark-stale.mjs",
+      "blobSha": "684628358d259017ca408d84608c115fdc8a7658"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-measure-applied-only.mjs",
+      "blobSha": "bb99bbf22b98a1a1be697110f58b4a2c0750adda"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-measure-fix.mjs",
+      "blobSha": "ad4ff00e60cd4c2f33d9d075bde974bef11df04f"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-metadata-only.mjs",
+      "blobSha": "55ef66207354cdb5ded9ae118fd7415afd2d4ee6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-metric-contract-fix.mjs",
+      "blobSha": "1a2f968f3dc7cbcbf97b7245a4363abbe87fc62b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-native-reference.mjs",
+      "blobSha": "a903cba86bec6b8fb9c92f9984e56607e199a6e8"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-ne-reference-find.mjs",
+      "blobSha": "f5518b9a1a6f5b730e9c87a2242ce1c8ec2306d5"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-ne-regional-proof.mjs",
+      "blobSha": "c6416d53f61865dc0753767dfef323b46682e5a8"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-observation-fix.mjs",
+      "blobSha": "c06063a5831b3dc92775f532da22a5a9221c4bbb"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-old-atrek-inspect.mjs",
+      "blobSha": "5929d3ea475122bfd61a2f457c0fe88f37a96085"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-parent-child-regression.mjs",
+      "blobSha": "f898b648d080954cb135cbad8003cddb8dbb1521"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-physical-input.mjs",
+      "blobSha": "3a01b64f1427631337118f0a52de3c54f628d91e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-plot.mjs",
+      "blobSha": "5cb27391347743ff764e127cb03ae8070fe69442"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-prepare-darja-bundle.mjs",
+      "blobSha": "b10d951a695fab041418578ea90306643507dd7b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-prepared-review-diff.mjs",
+      "blobSha": "aef1c5f197d7da1aab8acadc0bd1bf5778716ae7"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-prepared-scope.mjs",
+      "blobSha": "b015fd20c532f7196b236760e061e1a12b963984"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-preserve-darja-bundle.mjs",
+      "blobSha": "ac762729e327f530daba5fd84c3e5e620f9394f2"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-provenance.mjs",
+      "blobSha": "defc92126fa5d0a2331980b6815cdaf9c26f1cf4"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-prussia-all-runtime.mjs",
+      "blobSha": "3601f1e63a62913e0bf71a8fd046643fa93807d9"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-prussia-runtime.mjs",
+      "blobSha": "6b20cd34732af6620d40f7bd751c6f87e32d0750"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-publication-test-update.mjs",
+      "blobSha": "e566ca02cc8c704c1a733466d7a9f407e2d49743"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-read-reports.mjs",
+      "blobSha": "fe896d8ec3383cdc50849cf720683169bcbe39ca"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-recipe-fix.mjs",
+      "blobSha": "07c3563701baa8f2318582ece09f33af9a8c6ccc"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-recipe-receipt.mjs",
+      "blobSha": "6975963f7bf85a14d6449ce446e38fb0459ce144"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-record-darja-failure.mjs",
+      "blobSha": "c3a76cf879188a04a500171186bfe8e7724d7d0e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-report-final-status.mjs",
+      "blobSha": "a94b01e2692e804a1486681c295aeca43b8aec91"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-report-latest.mjs",
+      "blobSha": "5e673cdae34d1809edbd01c90bd53feb1bac3d8a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-report-pending-actions.mjs",
+      "blobSha": "9079d5fb91cdc04757641966fa7107d2d27e6cdd"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-report-readme.mjs",
+      "blobSha": "423272a67cc62b3089354ee45211f50e98e4893a"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-retain-input-shape.mjs",
+      "blobSha": "fcafa10a27a5694a316a6af6fce49dc79f03522b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-retained-compiled-inputs.mjs",
+      "blobSha": "4a1d9bf105c20896484ef01b9e1107dc91aaa3ae"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-review-cli.mjs",
+      "blobSha": "d3225cbfe695769a4d62645667d7d7b1a0bb0eb7"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-review-ledger.mjs",
+      "blobSha": "dc097c257317fdb69076bda61c9b065d0dd88eb6"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-scope-regressions.mjs",
+      "blobSha": "1a67ea57feb34da2bed5c389d018e8672f2e90cf"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-seam-contacts-recheck.mjs",
+      "blobSha": "20a4b8fd8debe083e8faaaaf829bf6f330b83e0e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-seam-contacts.mjs",
+      "blobSha": "44da4680854bcbcec9d8b51518f2845b6fd1ab68"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-seam-fix.mjs",
+      "blobSha": "5064090d13c8e67af79d948855c4b9017016be38"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-anchor-audit.mjs",
+      "blobSha": "2628853c4a9c54c290015fa123305e0353f6e8c3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-hydro-read.mjs",
+      "blobSha": "ed23fee34077de19664d3f2217d4303d35ac218c"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-hydro-select.mjs",
+      "blobSha": "6e1a2e2a3fb1276c212cd3efd1d3faa0c699730f"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-junctions.mjs",
+      "blobSha": "b1ed329dde303b363e2df90f4dc57d2e90c95908"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-named500-compose.mjs",
+      "blobSha": "bc840618b012a521b383c109f4c74adcf1e8e272"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-selected-compose.mjs",
+      "blobSha": "8f1d3384ec6bcbd9d4f2064a067f15ded7bc8d8e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-selected-plot.mjs",
+      "blobSha": "1c9137b712ac631f4e096364dc49ddb46367ad81"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-selected-viewer.mjs",
+      "blobSha": "ed9e84acb0dff8c0719451a10deddb3cebfd8e9f"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-source-collect.mjs",
+      "blobSha": "9e8e150d7f125ab8099c4b4adc220df68a47f8db"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-semantic-trial-compose.mjs",
+      "blobSha": "0d9b116f1bdd78cdf5930f7987eb53bf0dbd1c64"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-shape-inspect.mjs",
+      "blobSha": "f4e330358c2a52373b8d7276a2228b6b1e917c8e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-short-assert.mjs",
+      "blobSha": "0592077b0845dd0d4061b141c90cf5b191fa747b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-source-compiled.mjs",
+      "blobSha": "e2691dadfdc474d6e6e986fe1e5abe5c4b79797e"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-source-locations.mjs",
+      "blobSha": "b311c753699469cf9e6233e8925b28cfbb67c34b"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-splice-fix.mjs",
+      "blobSha": "e7f2104fce183c1e3a2c5eea42e388ce55d381a3"
+    },
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/reproduction/historical-detail-wire-gate.mjs",
+      "blobSha": "cd00b893e27d39630ea6c28258b01047eb306c3e"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/caribbean-raw-review-8/apply-batch.mjs",
+      "blobSha": "d2f558b2c8ef2b971a26efa0dfc27273bb362182"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/caribbean-raw-review-8/apply-cuba-pair.mjs",
+      "blobSha": "27de4987cfa0603dcf0efbf2670cc7bff7d18728"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/caribbean-raw-review-8/paired-cuba-prepare-island-source.mjs",
+      "blobSha": "6ff77c4f651cd0447a9fa87cef09ef3585dd863a"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/caribbean-raw-review-8/prepare-island-source.mjs",
+      "blobSha": "62930ec0ac9d81b2f6e8836030008d5cd2563c79"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/cleanup-applied-batch.mjs",
+      "blobSha": "a15e21ad8e6be1e425b98b3b411f35ee7087a36c"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/east-asian-islands-review-10/apply-batch.mjs",
+      "blobSha": "308d3ce5e9c38a0066aae9b12c7833d2f1434bb5"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/east-asian-islands-review-10/apply-phl-original-composition.mjs",
+      "blobSha": "467c7813b203897f5a660933574c20408c6e68a1"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/east-asian-islands-review-10/prepare-island-source.mjs",
+      "blobSha": "e86e39c187584c414637b96333f100f2d9595c67"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/flagged-island-review-16/apply-flagged.mjs",
+      "blobSha": "3dcd466b1a61187e6ed201ff4610ba4c3e73e385"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/flagged-island-review-16/cleanup-applied-candidates.mjs",
+      "blobSha": "31e2bb92c6066968c81cdeb2b8468c50b73399d1"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/flagged-island-review-16/finalize-candidate-proofs.mjs",
+      "blobSha": "a13e80a02f0bf2458f16006a7fe971a63b78dc98"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/flagged-island-review-16/inspect-source.mjs",
+      "blobSha": "a63815fd7e40f1d56c1f6e00d26413297dba3a6e"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/greenland-scope-review-15/apply-grl.mjs",
+      "blobSha": "0c63663e5d454fd91735e992a04b8db3a95e8d53"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/greenland-scope-review-15/cleanup-applied-candidates.mjs",
+      "blobSha": "b525f72a5b23766b09649493cdf618c637ec33a2"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/independent-modern-batch-6/apply-batch.mjs",
+      "blobSha": "361dedc7e48663497eb8b80183754133f9005703"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/independent-modern-batch-6/prepare-island-source.mjs",
+      "blobSha": "79930d24daaff2f0399ca6643c105a1dee68386e"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/independent-modern-batch-7/apply-batch.mjs",
+      "blobSha": "0a8f0e3112766e9556a1f8256115e183fa74923b"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/independent-modern-batch-7/prepare-island-source.mjs",
+      "blobSha": "c535d4f2579a2082f1b5b581582a910b30d0a396"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/inventory-source-progress.mjs",
+      "blobSha": "46b3aafa8764803a74bed7f9766d0cd0c8646418"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-2/apply-batch.mjs",
+      "blobSha": "0c4eaac27bfb8c4fbb920cccd715ef4247f97701"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-2/prepare-island-source.mjs",
+      "blobSha": "ec1745f4a64a307f4a45c63d6c9dcf357713dbfd"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-3/apply-batch.mjs",
+      "blobSha": "98d7c398b61d5cf572effe3385d327dbabad9fa8"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-3/prepare-island-source.mjs",
+      "blobSha": "f0b34549a95cd80cdb55e9633be06df5028c55ec"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-4/apply-batch.mjs",
+      "blobSha": "001760c209e70788c1ccd3a7d4ab6e1c684a8641"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-4/prepare-island-source.mjs",
+      "blobSha": "ae6721aca8ceeb11ff1189572c106c367dbfbbf0"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-5/apply-batch.mjs",
+      "blobSha": "7ec6e3eb30e89c7e95db71ade9712e107abc33bc"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/island-batch-5/prepare-island-source.mjs",
+      "blobSha": "d6be699c4b91b9b67c84d8d0b5d98178493c061e"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/isolated-alias-review-13/apply-aliases.mjs",
+      "blobSha": "af2fa8fd2c0c3509c72789b3ba2a931fe116de68"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/isolated-alias-review-13/cleanup-applied-candidates.mjs",
+      "blobSha": "bf05e62cab80e211a4216ee14cc380f74edeef59"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/isolated-composition-review-11/apply-dependencies.mjs",
+      "blobSha": "e550a8231ba477207ed90a20059bbe1f805b9e9b"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/isolated-composition-review-11/apply-ioa.mjs",
+      "blobSha": "1f01618b7425f0e0ad71597960572198907da9d5"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/isolated-composition-review-11/cleanup-applied-candidates.mjs",
+      "blobSha": "44573bebb053a62e260276c11ddf2a6439f70c7e"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/new-caledonia-review-17/apply-ncl.mjs",
+      "blobSha": "692dc65d2e9acb46531c4f9cc7038ce377def1b2"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/new-caledonia-review-17/cleanup-applied-candidates.mjs",
+      "blobSha": "f68a3a456a1c303bd1236d7517826e23e14bf9d1"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/next-connected-review-18/check-adoption.mjs",
+      "blobSha": "57596b0537384e509f42a24fa2701143ae80165d"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/next-connected-review-18/inspect-source.mjs",
+      "blobSha": "71d588e32528383fcbdf1784bc4d02962a4aaac2"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/next-connected-review-19/emit-latest-peer.mjs",
+      "blobSha": "3b806da229b7698abe25b393cbfe35031e81fe9a"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/next-connected-review-19/inspect-source.mjs",
+      "blobSha": "ae8cd29e37149e51cd7352f9400654b28d913b0c"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/next-frontier-review-20/inspect-source.mjs",
+      "blobSha": "66e6de0315547fd0e640a802e488f7a90a21fc7c"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/nordic-neighbor-readonly/compare-russia-periods.mjs",
+      "blobSha": "636a1718577e381325297a2c2744a98b3378da72"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/nordic-neighbor-readonly/emit-current-geometry.mjs",
+      "blobSha": "8a8f180a2c901daa8980ec82f9aea885078ed80d"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/nordic-neighbor-readonly/inspect-source.mjs",
+      "blobSha": "441b44954d14eef9221c553f6282953e8616c39d"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/observe-concurrent-pin.mjs",
+      "blobSha": "410a5fd0f687532ffdda60f5ce1271d4f09ea258"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/paired-island-review-14/apply-pair.mjs",
+      "blobSha": "62a4c07d4b3d3de98debc86b99d823b889dd0561"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/paired-island-review-14/cleanup-applied-candidates.mjs",
+      "blobSha": "55fc9e93f218796dd09c53f272695a0abfce3846"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/shared-border-batch-1/prepare-island-source.mjs",
+      "blobSha": "4e6a06ef09ef21a7eeffd8f96563e7ebf851aef8"
+    },
+    {
+      "path": "validation/modern-raw-source-20261110/southeast-current-source-review-12/inventory-existing.mjs",
+      "blobSha": "43dd3a6de348c2b17722069b8b556bf08a81262c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/check-f413-binding-roundtrip.mjs",
+      "blobSha": "fb1ee3697e0ad4091dd09e59717330b34f88258e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/check-f413-output-contract.mjs",
+      "blobSha": "dab218dacda6c7bcfa30c3b737ad0dca37c7df2a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/check-latest-output-impact.mjs",
+      "blobSha": "1a4d879e119deb302c6fcf555a62ff609dbf88fd"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/check-master-source-admission-correct-call.mjs",
+      "blobSha": "74ebf6121921161a111ca2ebec42554ab9f03277"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/classify-normalization-order.mjs",
+      "blobSha": "d73eca3a43c658c65149b82c4d8a60443f58888b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/compare-all-d1-normalization.mjs",
+      "blobSha": "e3ec894a5c675a6f9b386cd942a73f3456dc1b5b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/compare-current-authoring.mjs",
+      "blobSha": "3c9ca9bc9298edde545482e7e2e2ee97b7b5477a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/complete-ssr-source-candidates/fixed-snapshot-period-20261109/run-fixed-period.mjs",
+      "blobSha": "afad76b08a35808262809cac03f4697e4dc99ab5"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/emergency-runtime-publication/completed/mesh6-verify-outputs.mjs",
+      "blobSha": "2aaf15e04ea1ccb6a754b8281196ddad85454a68"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/emergency-runtime-publication/completed/reproduction-inputs/tools/build/mesh6-collect-diagnostic.mjs",
+      "blobSha": "a9f05dc760db51b013f48efae3bb74f2db453782"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/connected-publication/rebase-a53-contract/emergency-runtime-publication/completed/reproduction-inputs/tools/build/mesh6-collect-provenance-diagnostic.mjs",
+      "blobSha": "d028f6c31c3ca41d34aa3960bbc736c182c6e32a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/adjacency-review/bind-canonical.mjs",
+      "blobSha": "58bf995a7a5993d7f5cb8599b6bf021e790fef0c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/adjacency-review/finalize-rebind.mjs",
+      "blobSha": "40b12f7597aad4c283468b7245015f8dd61a710e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/zero-edge-admission/completed/actual-replay.mjs",
+      "blobSha": "981f3481588df47e48c7810c6168fcbbabe5394c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/zero-edge-admission/completed/baseline-replay.mjs",
+      "blobSha": "c1d2dabc2500336136c4ae103684bccd5a300128"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/apply-source.mjs",
+      "blobSha": "32b9dd80e2d659542e736f580d554fc3a958feb1"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/build-source-patch.mjs",
+      "blobSha": "7fbcce972190f9de0cfe6fc6448b22995a064607"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/capture-and-verify.mjs",
+      "blobSha": "26f8db76bf781ea7916cd511403a856332b69bf1"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/store-source.mjs",
+      "blobSha": "d4362643d460b3387f9c4982b3ea5d2bf7f759c8"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/additional-safe-candidates-20261110/verify-archive.mjs",
+      "blobSha": "b9c23d174246d28d1a9955b4be06ab6205d643d4"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/apply-reviewed-local.mjs",
+      "blobSha": "fc7c857aa1b86a6784ee378abfc82a9f3028596e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/prepare-combined.mjs",
+      "blobSha": "087e985695d603adac41d194556ac65204c7a515"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/verify-prepared.mjs",
+      "blobSha": "3022bce9c36cd7a55ae2b1c96b2b04f747cd4cec"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/build-reviewed-patch.mjs",
+      "blobSha": "1a161479e1e35e6219e8e3a76b3d4e35efadc29b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/freeze-evidence.mjs",
+      "blobSha": "64f3c23f54785c13025000cdca7e9b4cad9fa13d"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/review-inputs.mjs",
+      "blobSha": "3c992e0495f0dcc095e2f8779dc13c329fbf9e80"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/deu-c1-c2-c3-combined/source-review/verify-final-patch-replay.mjs",
+      "blobSha": "47b6f63267a4d35f52397fa2c9509734b70208c8"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/apply-source.mjs",
+      "blobSha": "7c9ab7f43411a967244531d79de35f20f7136e62"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/build-audit-and-candidates.mjs",
+      "blobSha": "ec8c4a1f4ae6c76461a3bdf67069c1c7f17dfdfd"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/build-source-patch.mjs",
+      "blobSha": "3c0c7e36f822e9c6d8fc53ff6433571afea8e13b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/prepare-restoration-review.mjs",
+      "blobSha": "dc5824f5484371c26dc09da8591eb40fa4c88fb8"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/europe-explicit-omission-audit-20261110/verify-archive.mjs",
+      "blobSha": "c90f4f87a73ef7dae60f012186df4430257cda66"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/apply-source.mjs",
+      "blobSha": "deb976d73f8deb1c203b40692733f4ff7d27f2b2"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/build-source-patch.mjs",
+      "blobSha": "519186a7dc996d794a7d9c0bdc3a14d73139f1d8"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/capture-inputs.mjs",
+      "blobSha": "9cdc29574a29551a26b68b361befef6ebd7a4522"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/verify-adjacent-counterparts.mjs",
+      "blobSha": "f7626ca8888ef70b82f81180090ab3f5ef632413"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/verify-archive.mjs",
+      "blobSha": "19d3d0d86a976c3fa2a9490dfd2b03918b8a4b39"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-complete-modern-union-correction-20261110/verify-source-edges.mjs",
+      "blobSha": "dc437195fb8d16d1074a07323bddc53742780ff8"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-modern-equivalence-audit-20261110/capture-inputs.mjs",
+      "blobSha": "02074b61e29f155d920b6c8a6ee94794799012be"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-modern-equivalence-audit-20261110/capture-post-correction.mjs",
+      "blobSha": "d986a325c7b32c2936da8045b7d71f162bafd12d"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/apply-source.mjs",
+      "blobSha": "c7cc1a2076b3cbd8b0136d9f43d42ea746e0151c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/build-restoration.mjs",
+      "blobSha": "104a68dae7dc7526c7a5ef43754db62dc4ac552a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/build-source-patch.mjs",
+      "blobSha": "032b873298a7a053936327c417a79402e47477aa"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/capture-inputs.mjs",
+      "blobSha": "a1c557d980578ef6c01df9c8ee053ed171b2e2e5"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-explicit-omission-restoration-20261110/verify-archive.mjs",
+      "blobSha": "86686b90f300d3670cae1d1ae1ed38ed3a31b150"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/apply-source.mjs",
+      "blobSha": "851891eb60e1dda6f79f89899c5b8d7a4a09953a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/build-source-patch.mjs",
+      "blobSha": "853383dee0d57d823a84616184b62eaebedeed6e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/apply-six-island-source.mjs",
+      "blobSha": "d50b07b2dd3a15400177f00b7d02c6532967837e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/build-six-island-source-patch.mjs",
+      "blobSha": "4c103aaaf7cba777cba7a6fe686261a649ef8010"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/prepare-inputs.mjs",
+      "blobSha": "b8cba8d80af6021810810ab3c57a4e7154110ea2"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/apply-source.mjs",
+      "blobSha": "cd2c2921ec6d7765b390a917b64734a85ce068c6"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/build-source-patch.mjs",
+      "blobSha": "34c0bc1af24f0e0e5d9cbcd7e21d469574aa7144"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/finalize-local-report.mjs",
+      "blobSha": "f5ce6738b15d63ea176544792ccd864f35254a91"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/inspect-compiled-continuation.mjs",
+      "blobSha": "fcdec41cd970e65fa5c996663b1ca3f49477d0d2"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/prepare-inputs.mjs",
+      "blobSha": "0bfea992a8b854d5de49dc9ade92b86aa610dfe3"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/store-source.mjs",
+      "blobSha": "64d5d7407fb766e36706e2ae9f8a1b1d2c30998b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/verify-source-patch.mjs",
+      "blobSha": "0be177c23682d2728a5c3b99a75aeaf09f124813"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/irn-gulf-coast-preparation-20261110/safe-coast-source-review/verify-stored-source.mjs",
+      "blobSha": "b9a54118eeddd639e4d97b5c402fc7ed8f1c1815"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/kolguyev-provenance-clarification-20261110/prepare-clarification.mjs",
+      "blobSha": "50be3862cdc54bcb77e41c6d4b6f44ccde711da1"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/north-schleswig-east-prussia/source-review/verify-final-patch-replay.mjs",
+      "blobSha": "62c12b8d7fa9304d9e297a63e0a6ea147be4bcdb"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/build-source-patch.mjs",
+      "blobSha": "10344a131408741b250100b5d9be30997b556d92"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/finalize-handoff.mjs",
+      "blobSha": "09a3b8394a24a2fdd4ce56d43c0c81746d621e21"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/make-review-evidence.mjs",
+      "blobSha": "ff1f7d92b8c60c793f324f638b4ad9b6ee12a896"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/replay-novaya-zemlya.mjs",
+      "blobSha": "99746417ee2fbb3723657f2fefa68a657831b9c5"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/novaya-zemlya-candidate-20261110/research-candidate.mjs",
+      "blobSha": "d49f2f59ca7e640b577aac160ff3c71263d7fda2"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/apply-safe-source.mjs",
+      "blobSha": "b99cd26dab7a3cd8dc892bea72cd4f442fb54a94"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/build-source-patches.mjs",
+      "blobSha": "984dd5ca7557de6fa1436d66581ae700e259abfa"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/finalize-local-application.mjs",
+      "blobSha": "b6a7acddb36986249dcbeae9300116218c2a1c4a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/store-safe-source.mjs",
+      "blobSha": "8b8a2451517e82dd2601bcc43347b97725ddb95b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/sdn-red-sea-coast-20261110/verify-stored-safe-source.mjs",
+      "blobSha": "06aa927354cb92fdab5c003d8283de273528ba3e"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/source-review/verify-final-patch-replay.mjs",
+      "blobSha": "c394b6adaccc2ae3d940580fd0a52ded553dd04f"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/vaygach-mainland-contact-review-20261110/inspect-contact.mjs",
+      "blobSha": "3f032a02f67e7f52e91a67092acd18555028805f"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/vaygach-mainland-contact-review-20261110/prepare-paired.mjs",
+      "blobSha": "e93938e6708dcc7b0de0bb9bea4a957659adbb59"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/vaygach-mainland-contact-review-20261110/verify-original-lineage.mjs",
+      "blobSha": "720be097381959ae5c9ac5a7de1268f5eaac27a0"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/modern-raw-source-transition-20261110/apply-isl-source.mjs",
+      "blobSha": "55f267723cdb4a2bd313544c434bec2337dc7562"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/modern-raw-source-transition-20261110/inspect-current-mapping.mjs",
+      "blobSha": "d2735dcf25868f31fad35bd6415249a7ba363320"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/modern-raw-source-transition-20261110/island-batch/prepare-island-source.mjs",
+      "blobSha": "79aa775580babfd6cd193e9771785816ff5e2e6c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/modern-raw-source-transition-20261110/prepare-isl-source.mjs",
+      "blobSha": "33cf7a767f6726d6c39863e5f4994c27e8286206"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/boundary-semantic-review-2026-11-05/prepare-selected.mjs",
+      "blobSha": "4e5e93be3f3c04198a23236dadf63df505933ffb"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/boundary-semantic-review-2026-11-05/selected-audit.mjs",
+      "blobSha": "8149925c75a66809b4438676a8cd852e7591cf63"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/prepare-consistent-research.mjs",
+      "blobSha": "2244f87ef8000cd51cc5ed8ccef21d7012fe6d52"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/prepare-followup.mjs",
+      "blobSha": "553a20d4a9c34d7e978bea133cb8383cf9b364c1"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-mask-review-2026-11-05/compose.mjs",
+      "blobSha": "240e4f98eab0c52e9c2ba194438f59e5f6b70c56"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-mask-review-2026-11-05/downstream-audit.mjs",
+      "blobSha": "fece19f922ec004207bb6b62ef7649e3268b3449"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-mask-review-2026-11-05/prepare.mjs",
+      "blobSha": "80f83d09a8b3e5ab210754c41e4da10be40b6bf2"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-analysis-helpers.mjs",
+      "blobSha": "0cbd9b88514ea814fc3f47d30653b17f55f591c8"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-compose.mjs",
+      "blobSha": "7c5b362dd92a138dcac294f665299839dfe6c640"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-downstream-audit.mjs",
+      "blobSha": "4d38c73789ad89d25f728669ae1d0b9dc3f0e77f"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-existing-protection-inspect.mjs",
+      "blobSha": "5bdd961e3bc377e15a9a6c028e76e00f15eab06b"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-finalize.mjs",
+      "blobSha": "47496eab39308abb4dcfe037840c7865436a3524"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-plot.mjs",
+      "blobSha": "94e271267d2bfb267faab9cb1ae553aac8e4ddef"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/strong-independent-2026-11-05/reproduction/historical-detail-strong-prepare.mjs",
+      "blobSha": "518437ef9e3cfb8a0a0b67b0a6b5f4ff49372fe2"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/reproduction/apply-approved-592-local.mjs",
+      "blobSha": "e2d1ea37f71c1ac4086dd5c099043b997823923b"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/reproduction/audit-approved-592-canonical.mjs",
+      "blobSha": "0172342a3b36b28c22f105ba8fd8dc22ea70fa0e"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/reproduction/prepare-approved-592.mjs",
+      "blobSha": "8e588c55bf5c231cfdadb306c1582aea87b3b4bc"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/reproduction/stage-approved-592.mjs",
+      "blobSha": "b36699332aeb59dc7b1ba69ecf732b4efa293b41"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/reproduction/viewer-approved-592.mjs",
+      "blobSha": "51623c53b4b2e26e63453fa0e5e06af80b977160"
+    }
+  ],
+  "logs": [
+    {
+      "path": "validation/1914-country-activation-2026-11-05/p2-fixed-commit-failure.log",
+      "blobSha": "0e4593be496f2d90d204f02699b07aec4dcb3087"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/publication-baseline-d3a.log",
+      "blobSha": "89531cc1ad86abff04ea4edc1441409810f300a2"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/publication-contracts-fixed-failure.log",
+      "blobSha": "b7c2aa5dec1543b767e959cfba0cc034a22870b2"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/publication-fixed-ebc.log",
+      "blobSha": "230cf6b3141790e2bce448267c7690f3f5bf3246"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/residual-baseline-3be.log",
+      "blobSha": "c59271b48a72939e9b040367dff6b9190f173d1e"
+    },
+    {
+      "path": "validation/1914-country-activation-2026-11-05/residual-current-d3a.log",
+      "blobSha": "e11f9a37193d9b80ff2fcd5fc94e57aace50c909"
+    },
+    {
+      "path": "validation/historical-display-review-gate-2026-11-04/final-tests.log",
+      "blobSha": "234cc8586275e0b899358373092b514c7ff65237"
+    },
+    {
+      "path": "validation/historical-display-review-gate-2026-11-04/seam-inserted-reproduction.log",
+      "blobSha": "44da80a90150258018e5b0521340dc65a897811f"
+    },
+    {
+      "path": "validation/historical-display-review-gate-2026-11-04/storage-review-reproduction.log",
+      "blobSha": "f9c5bc980fd44291b41fb837737f5814f96dcf4a"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/german-1878-precision-repair/publisher-scope-repair/ci-regression-repair/thin-render-admission/completed/mesh6-thin-final76-tests.stdout.log",
+      "blobSha": "c6484d586b015cf23122c13a31c1f57f36c3e5d7"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/arctic-paired-coast-combined-20261110/reviewed-storage-git-trace.log",
+      "blobSha": "6353d6956efb2a9593d329061a97ce9dda73712b"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/additional-connected-islands-review/storage-git-trace.log",
+      "blobSha": "ed4805c0e885389bd9e73c1165e45aa4381aa64c"
+    },
+    {
+      "path": "validation/ne-world-map-rebase-2026-11-08/historical-modern-reuse-local-20261109/idn-pre1963-papua-membership-research-20261110/six-island-storage-git-trace.log",
+      "blobSha": "393070bc6137691b86d7d67b3bd790bce7fd8988"
+    }
+  ],
+  "duplicates": [
+    {
+      "path": "validation/historical-border-detail-review-2026-11-04/historical-detail-atrek-role-metrics.json",
+      "blobSha": "8b92de6155a86fd4d37c3d046e58fb9f313788f7"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/viewer-diagnostic-prepared-manifest.json",
+      "blobSha": "223fb2042aee2b5e85133594ada099102cc6b757"
+    },
+    {
+      "path": "validation/soviet-display-592-application-2026-11-05/evaluation/east-followup-final-2026-11-05/viewer-identity-prepared-manifest.json",
+      "blobSha": "223fb2042aee2b5e85133594ada099102cc6b757"
+    }
+  ]
+}
