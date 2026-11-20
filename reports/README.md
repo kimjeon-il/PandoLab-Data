@@ -10,3 +10,12 @@
 연도별·국가별 조회는 catalog.json의 `byYear`·`byEntity`를 사용합니다. `node tools/reports/build-history-index.mjs` 명령으로 색인을 재생성할 수 있으나 새 정보 검증·GIS 적용은 별도 승인 단계입니다.
 
 기존 GEO-LIFE-034~037, GEO-TIME-033 Markdown과 두 진행기록의 원문은 새 JSON 기록의 `provenance.snapshotUrl`이 가리키는 불변 Git 판본에서 열람할 수 있습니다. 기존 도시 입력 검토 자료([reports/places](places/))와 원본 GIS·개발·수계 검증 증거는 경로를 변경하지 않았습니다.
+
+### 기술 증거 및 원본 자료
+
+- 개발 성능·기술 검증: `reports/development/` — 성능 측정값·비교·재현 근거
+- GIS 실행·국경 검증: `reports/borders/validation/`, `reports/development/native/` — 원본 좌표·CRS·검증 증거
+- 수계 검증: `reports/hydro/` — 연결성·지명·보정·배포 증거
+- 수계 원본: `assets/data/hydro/` — 원본·매니페스트·출처·파생 관계
+
+기술 자료는 역사 입력 조사 색인 `reports/research/catalog.json`에 포함하지 않습니다. 중복 로그·동일 캡처·불필요한 CI 추적 자료만 참조 관계를 확인하여 정리합니다.
