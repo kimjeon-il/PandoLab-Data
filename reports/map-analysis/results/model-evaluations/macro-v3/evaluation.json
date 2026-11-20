@@ -1,0 +1,1029 @@
+{
+  "schemaVersion": 1,
+  "kind": "historic-model-evaluation",
+  "modelVersion": "macro-v3",
+  "releaseApproved": false,
+  "sourceCommit": "df647ce76dbc869a6785ff49d7e1d719fa397b6a",
+  "records": {
+    "archive-verification.json": {
+      "blobSha": "3a44bb3bd4c8cbe84e3ce0d6b52f29e22a3d0a28",
+      "content": {
+        "schemaVersion": 1,
+        "verifiedRevision": "4182bee7a24e0f828bf0f218d49a3b03ec0f9aa0",
+        "runtimePinUnchanged": true,
+        "originalReportOwnerUnchanged": true,
+        "unrelatedEntriesUnchanged": 6035,
+        "unrelatedEntriesSha256": "f4b29334a766ec9bded3ca0d92ea71e6e062d065340bdbaa09df7ead1dc45688",
+        "verifiedFiles": [
+          {
+            "path": "reports/reference-analysis/README.md",
+            "sha256": "fd3532ab5c954ce9397bbc6e957a7fc7db6c2d87babc69b927151aa7702021f6",
+            "bytes": 2775
+          },
+          {
+            "path": "reports/reference-analysis/corpus/macro-political/corpus.seams.training.json",
+            "sha256": "b88a47a44a24f5be7ea859cb445baf78a802ed878a3d1b666b04847ae9694944",
+            "bytes": 4823
+          },
+          {
+            "path": "reports/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.mask.png",
+            "sha256": "9a93be7c750a6dc5b5b9f5460354d65e83a13b0e0a72c5f97935a63656579b58",
+            "bytes": 22464
+          },
+          {
+            "path": "reports/reference-analysis/corpus/macro-political/derived/cia-asia-political-seams-r4.valid.png",
+            "sha256": "1ce28d77f9720fcc6a0fec601115a38ec67f8d9fe5477de86a70f0e4200f5d65",
+            "bytes": 54352
+          },
+          {
+            "path": "reports/reference-analysis/corpus/macro-political/labels/cia-asia-political-seams-r4.json",
+            "sha256": "e9c2c975f29c5391850e4271b734feb7c0fb68082797c858e1eb4b52c7120ef0",
+            "bytes": 1246
+          },
+          {
+            "path": "reports/reference-analysis/corpus/macro-political/recipes/seams-r4/cia-asia-political.source.json",
+            "sha256": "a6e4e94f539178ed05647ea6f2619b5b2bbda58a87803adf56be9e33d03094a0",
+            "bytes": 2896
+          },
+          {
+            "path": "reports/reference-analysis/macro-seam-training-2026-10-24.md",
+            "sha256": "67a2bf485d83ef780e89d2f2c6ae5e0d5f4938c26e4c71059be83c76813eb477",
+            "bytes": 5909
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/boundary.manifest.json",
+            "sha256": "dd73b462cfd960eee1a182fe08095133e0f1c45b4f79e18a214be3893990085f",
+            "bytes": 808
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/boundary.onnx",
+            "sha256": "c6554f199f428e1abaa4deede702ceaadcad870ffde735f37bfaee9d37f19706",
+            "bytes": 16697571
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/boundary.pt",
+            "sha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a",
+            "bytes": 16909057
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/cia-asia-political-seams-r4.jpg",
+            "sha256": "9569230c31e414d53b9594676211ff29f12115aa7565eab48355c8fc3e3273d9",
+            "bytes": 401385
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/cia-world-political-2021.jpg",
+            "sha256": "3a8276a978a9dd80af6efba7f2aea8e013525fc47a5cd97ad7d01c7962068d15",
+            "bytes": 381691
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/diagnostics.json",
+            "sha256": "60c096b5e8cb700b0933f86697ba115625f6edc7255fd5690803f709098cbb98",
+            "bytes": 16763
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/expected-logits.f32",
+            "sha256": "69195e018281267fd74ebcaf61995d0767fb076b17a6adc8d329723589ce44a2",
+            "bytes": 7340032
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/nrcan-canada-monochrome.jpg",
+            "sha256": "7d07fc215528922e6dac5714e64115d1b436e8227f6faf9deaeefd4c6958dae6",
+            "bytes": 241837
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/nrcan-canada-national.jpg",
+            "sha256": "e1e96deb52441657797a72052f88da29cccf886b1b9ee72fd21a30e65457d991",
+            "bytes": 241942
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/overview.f32",
+            "sha256": "b6a1b547db4fdd9b583fc4d626033be53930f26372b569ffefdab48f2552fb39",
+            "bytes": 786432
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/position.f32",
+            "sha256": "247c4482d8dd4aff4b50f8942950d45a0a1b4c0fb52dd0a93a76af0badd1f100",
+            "bytes": 16
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/diagnostics/tile.f32",
+            "sha256": "d999e7686c87596a2dfade2b1b0231e344da575c21ee8f3c9a3bee8f524c9e35",
+            "bytes": 3145728
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/initializer-preservation.json",
+            "sha256": "49f932b1e75c8723576af1e6c033675cc76a0cc73a0d7730e079f1b53bb02e99",
+            "bytes": 276
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/onnx-wasm-parity.json",
+            "sha256": "c92730024e81ed36dd3a2df91396273214acf6264eae0ed38b376cc0c230611e",
+            "bytes": 1562
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/operation-verification.json",
+            "sha256": "882c5a9641a2457cd05ffee858309321226436b45447524179873145190457f0",
+            "bytes": 421
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/preservation-baseline.json",
+            "sha256": "f30a8db02b155c214a2eaa343ab9c4a6514690e3b19b91bd4b3d8b5f8fc9beab",
+            "bytes": 4094
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/source-seam-crop.jpg",
+            "sha256": "8dd1fc62d1eef1cdf10c2fbf584b94e9fb1a3381f4f22af329d09582e1d38b0b",
+            "bytes": 254652
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/source-seam-overview.jpg",
+            "sha256": "36f69c03aa01a3846641ecca9444d948ed512bf291500ddfc39b8d8ab880d730",
+            "bytes": 405445
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/training-comparison.json",
+            "sha256": "b71789e68d76e4680cf0778a74d639786e190f0e392a59de56bd57e0fc77eb27",
+            "bytes": 2795
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/training-summary.json",
+            "sha256": "6cf386d9874a6b99d47281064963413d0f1a6982a41661298f9ea97764fb75a8",
+            "bytes": 2248
+          },
+          {
+            "path": "reports/reference-analysis/models/macro-v3/training.log",
+            "sha256": "60f5175c7da95919222d6bf11cda19fe2d7775e1f36465e18bdfeeca8a3e053c",
+            "bytes": 869
+          }
+        ]
+      }
+    },
+    "boundary.manifest.json": {
+      "blobSha": "5caf761ae0fe16fc009340188f0e2c4f2ae1e91a",
+      "content": {
+        "schemaVersion": 1,
+        "architecture": "mobilenetv3-unet-context-v1",
+        "classes": [
+          "international",
+          "administrative",
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "tileSize": 512,
+        "overlap": 64,
+        "overviewSize": 256,
+        "model": {
+          "url": "boundary.onnx",
+          "sha256": "c6554f199f428e1abaa4deede702ceaadcad870ffde735f37bfaee9d37f19706",
+          "bytes": 16697571
+        },
+        "corpusSha256": "0574499702f0ea0426b0fed84a95a54e9614e62c57eedac36c155eaf8c7265a8",
+        "evaluationStatus": "pending",
+        "releaseApproved": false,
+        "trainingOnly": true,
+        "trainingBatches": 384,
+        "optimizerUpdates": 380,
+        "stepCountKind": "attempted-batches",
+        "unobservedChannels": [
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ]
+      }
+    },
+    "diagnostics/diagnostics.json": {
+      "blobSha": "9bbd39c68b4042dabd84d9b470816be4d89bb123",
+      "content": {
+        "schemaVersion": 1,
+        "purpose": "training-set-diagnostic-only",
+        "viewCorpus": "primary",
+        "independentEvaluation": false,
+        "releaseApproved": false,
+        "checkpointSha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a",
+        "baselineCheckpointSha256": "b5c60836159048d59825bee921870a7b3cc226393d40f96d385b8d596423edf4",
+        "onnxSha256": "c6554f199f428e1abaa4deede702ceaadcad870ffde735f37bfaee9d37f19706",
+        "corpusSha256": "0574499702f0ea0426b0fed84a95a54e9614e62c57eedac36c155eaf8c7265a8",
+        "trainingBatches": 384,
+        "optimizerUpdates": 380,
+        "trainingLoss": 0.4054391971140679,
+        "validationLoss": null,
+        "unobservedChannels": [
+          "coast",
+          "hydro",
+          "transport",
+          "text",
+          "frame"
+        ],
+        "sheets": [
+          {
+            "sheetId": "cia-asia-political-seams-r4",
+            "tileIndex": 9,
+            "pixelOrigin": [
+              448,
+              896
+            ],
+            "channels": {
+              "international": {
+                "supervisedPixels": 113178,
+                "targetPixels": 9024,
+                "predictedPixels": 8978,
+                "overlapPixels": 8978,
+                "probabilityMin": 0.0008512787171639502,
+                "probabilityMax": 0.9957261085510254
+              },
+              "administrative": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 0.0005980489077046514,
+                "probabilityMax": 0.9843542575836182
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            },
+            "previewFile": "cia-asia-political-seams-r4.jpg",
+            "baselineChannels": {
+              "international": {
+                "supervisedPixels": 113178,
+                "targetPixels": 9024,
+                "predictedPixels": 8741,
+                "overlapPixels": 8741,
+                "probabilityMin": 0.0005361043731682003,
+                "probabilityMax": 0.9878019690513611
+              },
+              "administrative": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 0.0004265222232788801,
+                "probabilityMax": 0.9700331687927246
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            }
+          },
+          {
+            "sheetId": "cia-world-political-2021",
+            "tileIndex": 8,
+            "pixelOrigin": [
+              1344,
+              448
+            ],
+            "channels": {
+              "international": {
+                "supervisedPixels": 41871,
+                "targetPixels": 1878,
+                "predictedPixels": 1822,
+                "overlapPixels": 1785,
+                "probabilityMin": 0.000009939718438545242,
+                "probabilityMax": 0.9990676045417786
+              },
+              "administrative": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 0.000005165853053767933,
+                "probabilityMax": 0.9905035495758057
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            },
+            "previewFile": "cia-world-political-2021.jpg",
+            "baselineChannels": {
+              "international": {
+                "supervisedPixels": 41871,
+                "targetPixels": 1878,
+                "predictedPixels": 1511,
+                "overlapPixels": 1485,
+                "probabilityMin": 0.000006033081263012718,
+                "probabilityMax": 0.998627781867981
+              },
+              "administrative": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 0.000004396419171825983,
+                "probabilityMax": 0.9876012802124023
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-monochrome",
+            "tileIndex": 6,
+            "pixelOrigin": [
+              0,
+              448
+            ],
+            "channels": {
+              "international": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1592,
+                "predictedPixels": 6378,
+                "overlapPixels": 1435,
+                "probabilityMin": 0.00001344404518022202,
+                "probabilityMax": 0.9999250173568726
+              },
+              "administrative": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1588,
+                "predictedPixels": 4259,
+                "overlapPixels": 1377,
+                "probabilityMin": 0.000023169375708675943,
+                "probabilityMax": 0.9889955520629883
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            },
+            "previewFile": "nrcan-canada-monochrome.jpg",
+            "baselineChannels": {
+              "international": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1592,
+                "predictedPixels": 5152,
+                "overlapPixels": 1163,
+                "probabilityMin": 0.000010284285053785425,
+                "probabilityMax": 0.9996987581253052
+              },
+              "administrative": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1588,
+                "predictedPixels": 3101,
+                "overlapPixels": 1243,
+                "probabilityMin": 0.00002117909025400877,
+                "probabilityMax": 0.9814811944961548
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-national",
+            "tileIndex": 6,
+            "pixelOrigin": [
+              0,
+              448
+            ],
+            "channels": {
+              "international": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1856,
+                "predictedPixels": 9705,
+                "overlapPixels": 1683,
+                "probabilityMin": 0.0000039205560824484564,
+                "probabilityMax": 0.9987574815750122
+              },
+              "administrative": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1674,
+                "predictedPixels": 6808,
+                "overlapPixels": 1604,
+                "probabilityMin": 0.000004608346898749005,
+                "probabilityMax": 0.9803329110145569
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            },
+            "previewFile": "nrcan-canada-national.jpg",
+            "baselineChannels": {
+              "international": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1856,
+                "predictedPixels": 7082,
+                "overlapPixels": 1417,
+                "probabilityMin": 0.000010124176696990617,
+                "probabilityMax": 0.9948764443397522
+              },
+              "administrative": {
+                "supervisedPixels": 236370,
+                "targetPixels": 1674,
+                "predictedPixels": 4628,
+                "overlapPixels": 1486,
+                "probabilityMin": 0.000011504193025757559,
+                "probabilityMax": 0.9595942497253418
+              },
+              "coast": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "hydro": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "transport": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "text": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              },
+              "frame": {
+                "supervisedPixels": 0,
+                "targetPixels": 0,
+                "predictedPixels": 0,
+                "overlapPixels": 0,
+                "probabilityMin": 2.06115369216775e-9,
+                "probabilityMax": 2.06115369216775e-9
+              }
+            }
+          }
+        ]
+      }
+    },
+    "initializer-preservation.json": {
+      "blobSha": "9494ec140dc0e71efc7973c71f085b915be988ed",
+      "content": {
+        "boundary.pt": "b5c60836159048d59825bee921870a7b3cc226393d40f96d385b8d596423edf4",
+        "boundary.onnx": "fa006251ebedd5892ea7e9485c83f83b8b4f1d8dc29f38148a0d846d257829e5",
+        "boundary.manifest.json": "a94fd8f441cbef8a83c7abb6021a90b95d7178a445506cd33d5cea1ba9a3cd64"
+      }
+    },
+    "onnx-wasm-parity.json": {
+      "blobSha": "bbdb759e0eda120d27d6fb8c3de65b97b11e3035",
+      "content": {
+        "schemaVersion": 1,
+        "purpose": "trained-model-execution-parity-only",
+        "releaseApproved": false,
+        "independentEvaluation": false,
+        "provider": "onnxruntime-web-wasm-cpu",
+        "threads": 1,
+        "modelSha256": "c6554f199f428e1abaa4deede702ceaadcad870ffde735f37bfaee9d37f19706",
+        "trainingBatches": 384,
+        "optimizerUpdates": 380,
+        "outputShape": [
+          1,
+          7,
+          512,
+          512
+        ],
+        "finite": true,
+        "maximumAbsoluteError": 0.0006952285766601562,
+        "meanAbsoluteError": 0.00008850076648655605,
+        "loadMilliseconds": 429.3999999985099,
+        "inferenceMilliseconds": 667.7000000029802,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+        "requests": [
+          "/assets/vendor/reference-analysis/manifest.json",
+          "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.mjs",
+          "/assets/vendor/reference-analysis/ort-wasm-simd-threaded.wasm",
+          "/assets/vendor/reference-analysis/ort.wasm.min.mjs",
+          "/reports/reference-analysis/models/macro-v3/boundary.manifest.json",
+          "/reports/reference-analysis/models/macro-v3/boundary.onnx",
+          "/reports/reference-analysis/models/macro-v3/diagnostics/expected-logits.f32",
+          "/reports/reference-analysis/models/macro-v3/diagnostics/overview.f32",
+          "/reports/reference-analysis/models/macro-v3/diagnostics/position.f32",
+          "/reports/reference-analysis/models/macro-v3/diagnostics/tile.f32"
+        ],
+        "externalRequests": 0,
+        "verifierSha256": "38a85d0a2470950962b8aaaf31c374159beec64f7f063b97d18b839d4d8813e9"
+      }
+    },
+    "operation-verification.json": {
+      "blobSha": "d597e70d3fba5e4fcb4a656479cf3942d1e379b7",
+      "content": {
+        "schemaVersion": 1,
+        "tests": {
+          "macroCorpusSourcePython": 23,
+          "modelPython": 9,
+          "nodePackagingAndTiles": 4,
+          "total": 36,
+          "passed": true
+        },
+        "originalCorpusFilesUnchanged": 37,
+        "initializerFilesUnchanged": 3,
+        "runtimePin": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+        "fullDeviceWorkflowVerified": false,
+        "activeModelPromoted": false,
+        "independentEvaluation": false
+      }
+    },
+    "preservation-baseline.json": {
+      "blobSha": "00bd5e28bc77f8fcfb47583b7290aaf54d6c6337",
+      "content": {
+        "cia-world-political-2021-supervision.png": "16abc18e4836163476b846ac97d85ff0dc39c4c38cae96811720b85f55da3d2c",
+        "corpus.conditions.training.json": "16fb1b96b7d0824d0af9e07d360e51c1eb4925e8f5881c0e4e719f2900657362",
+        "corpus.training.json": "b26a659cff101a13469f5d51214ce4f373b8f8bbf27a14566ee56a3999ef9402",
+        "inventory.json": "57bac0d4d3186265e8ab62b8795c02a1921639b018da15505eb8cca103eea961",
+        "nrcan-canada-national-supervision.png": "503915fd4ecf9dce1e06952c585c85b6c7ce769e0f4c87cf817bfc1c04c588a2",
+        "derived\\cia-asia-political.jpg": "5445992eac4264e51738e84c37ab28b0d478bf93e268949a2eb7d8b04f704139",
+        "derived\\cia-asia-political.mask.png": "77d528d587d3ade532a05fa833fc06e08b42a5d56aa6ee389ab9cb4a92e06685",
+        "derived\\cia-asia-political.valid.png": "7d11079815ae3aba67c1cff3cf3ee58cc408708f8ef4d16ede0edcf0a14fbab7",
+        "derived\\cia-world-political-2021.jpg": "a882b7bffc5da41bac9df4090f66d524b2ade5fb818c5104d91ca3b1c3297a75",
+        "derived\\cia-world-political-2021.mask.png": "972cf019991a99d4762365af351ebfffeb4af7bbd96d195e6d07c458933942ab",
+        "derived\\cia-world-political-2021.valid.png": "cc9b046c02c548d66369fb41ef8eade8b1e787d7db07d19258853124ca286be8",
+        "derived\\nrcan-canada-monochrome.jpg": "67825bcd24499cd6e08e2dab561e1d455ee12d6869ae290f4e4e7a4e74320e3b",
+        "derived\\nrcan-canada-monochrome.mask.png": "4e2c648a60384b84748402e83424d7427d243c6c371e66ada268e6cb1ab04383",
+        "derived\\nrcan-canada-monochrome.valid.png": "4d3dea709e63918227f0a76ea39dad59cd00ccab094d92e0da9d444b1eaf4502",
+        "derived\\nrcan-canada-national.jpg": "c7901cb1c8e37f5d4dd5bb8ef50d3f78952a0eb737f3a4f95201ef7d2baa6ec6",
+        "derived\\nrcan-canada-national.mask.png": "bfa31ab784350bffefc75d957b02f8a27ce0390365c2d299c37947bdd09fb1b4",
+        "derived\\nrcan-canada-national.valid.png": "e9563af4e5e806d3e0a6a8f8a21f0a03c3036cf60155bcfa8fcc3770848f3adc",
+        "labels\\cia-asia-political.json": "b1e846a3ba51590838c018624a63393272c565343b4d9e5e7cb559d6228882f8",
+        "labels\\cia-world-political-2021.json": "c76c779d1d6bc237ef2ca2bbd40cae755b4af77e1226739f56e6a6b470a949de",
+        "labels\\nrcan-canada-monochrome.json": "09409a96e532c2c6b9c4c422285c056c5debcc7b49e824817b56c3cda57b434e",
+        "labels\\nrcan-canada-national.json": "798828027e76fd5712ebbbca42aef7860e0b28c028eff599fed2404d63558266",
+        "notices\\cia-asia-political.txt": "7c789fa7add30f30fb2a161131ad85ab2a87071a9476fe3a4dc9532b62ac9d1c",
+        "notices\\cia-world-political-2021.txt": "00c7fa5e2b20c45054219589301404f0b96fd7cb86398fb570267e4b86e9a972",
+        "notices\\nrcan-canada-monochrome.txt": "69c2c02e31204ff4be22661abd970f6dca10ef517394d4d62e34fec6eb02ca12",
+        "notices\\nrcan-canada-national.txt": "8134d18a32b39dd26967baf19062d95884aaa0809628f77bc740434301a87e95",
+        "sources\\cia-asia-political.pdf": "237637e50984e545118628910c65200d0fd723ed9f0fcadd12eb0a26d5af2ea6",
+        "sources\\cia-asia-political.source.json": "b1a5321031dab0d37e6bc4f82f5d0918cb15a67f80105c667fe59e536f80ba91",
+        "sources\\cia-oceania-political.pdf": "8e81956a89fdb978f2ceb044ff65bb72f5078e64af2ec1128f73b851206c5f5a",
+        "sources\\cia-retirement-response.html": "4a70c64591c420e6500b7b8dce54b9b5fe7e59e509c33a57463cff230c24abe0",
+        "sources\\cia-world-political-2021.pdf": "78881fcb06202245a3c195cf480bb4c9bd1ff1fbb913685cf0ff16f0ca264204",
+        "sources\\cia-world-political-2021.source.json": "c9470b713025a8324d345017e20a51db89a59bfb394c2548abeacd6c73a8a35a",
+        "sources\\nrcan-Africa.pdf": "0359870e117f266ab76fd6fa362a66540fbdd9e41c3717a7643118ace2979408",
+        "sources\\nrcan-canada-monochrome.pdf": "358cfad7e8329f019c820bc0b9e83b482e721eb09ebf6106d2e1580623f0b1b4",
+        "sources\\nrcan-canada-monochrome.source.json": "f76117f3a76c3f3590703c8bba826b15694fb6eae970fae2adae50631c7a0bf6",
+        "sources\\nrcan-canada-national.pdf": "954101b51bce0f3313394e960e4bb1b4570d03c4b03b2f2b08166073afea731a",
+        "sources\\nrcan-canada-national.source.json": "8c1d9aee0a6207ea9248bb39189b475139faf0fc9fcce39db5f5c526bb1c8d68",
+        "sources\\nrcan-reference-maps.html": "19ad79db9fdb6b9f1070ab363581928322e010cc8fe1885f99dbebab6b1f6ccb"
+      }
+    },
+    "training-comparison.json": {
+      "blobSha": "fdf765cd2b171d9653378db0813d2713d4992493",
+      "content": {
+        "purpose": "same-revised-target-training-tile-fitting-only",
+        "independentEvaluation": false,
+        "rows": [
+          {
+            "sheetId": "cia-asia-political-seams-r4",
+            "channel": "international",
+            "targetPixels": 9024,
+            "supervisedPixels": 113178,
+            "before": {
+              "precision": 1,
+              "recall": 0.9686391843971631,
+              "dice": 0.9840698001688714
+            },
+            "after": {
+              "precision": 1,
+              "recall": 0.9949024822695035,
+              "dice": 0.9974447283635152
+            }
+          },
+          {
+            "sheetId": "cia-world-political-2021",
+            "channel": "international",
+            "targetPixels": 1878,
+            "supervisedPixels": 41871,
+            "before": {
+              "precision": 0.9827928524156188,
+              "recall": 0.7907348242811502,
+              "dice": 0.8763647093537916
+            },
+            "after": {
+              "precision": 0.9796926454445664,
+              "recall": 0.950479233226837,
+              "dice": 0.9648648648648649
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-monochrome",
+            "channel": "international",
+            "targetPixels": 1592,
+            "supervisedPixels": 236370,
+            "before": {
+              "precision": 0.22573757763975155,
+              "recall": 0.7305276381909548,
+              "dice": 0.34489916963226575
+            },
+            "after": {
+              "precision": 0.22499216055189714,
+              "recall": 0.9013819095477387,
+              "dice": 0.3601003764115433
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-monochrome",
+            "channel": "administrative",
+            "targetPixels": 1588,
+            "supervisedPixels": 236370,
+            "before": {
+              "precision": 0.40083843921315704,
+              "recall": 0.7827455919395466,
+              "dice": 0.5301770100234592
+            },
+            "after": {
+              "precision": 0.32331533223761444,
+              "recall": 0.8671284634760705,
+              "dice": 0.4710107747562853
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-national",
+            "channel": "international",
+            "targetPixels": 1856,
+            "supervisedPixels": 236370,
+            "before": {
+              "precision": 0.20008472182999154,
+              "recall": 0.7634698275862069,
+              "dice": 0.3170731707317073
+            },
+            "after": {
+              "precision": 0.17341576506955178,
+              "recall": 0.9067887931034483,
+              "dice": 0.291151284490961
+            }
+          },
+          {
+            "sheetId": "nrcan-canada-national",
+            "channel": "administrative",
+            "targetPixels": 1674,
+            "supervisedPixels": 236370,
+            "before": {
+              "precision": 0.32108902333621436,
+              "recall": 0.8876941457586619,
+              "dice": 0.47159631862900664
+            },
+            "after": {
+              "precision": 0.2356051703877791,
+              "recall": 0.9581839904420549,
+              "dice": 0.3782126856873379
+            }
+          }
+        ]
+      }
+    },
+    "training-summary.json": {
+      "blobSha": "a7d036dbc36ae37a95eefaf7d1a4973e404998c2",
+      "content": {
+        "schemaVersion": 1,
+        "trainingOnly": true,
+        "evaluationStatus": "pending",
+        "releaseApproved": false,
+        "epochs": 6,
+        "completed": {
+          "epoch": 5,
+          "attemptedBatches": 576,
+          "optimizerUpdates": 572,
+          "skippedUpdates": 4,
+          "trainingLoss": 0.46439595103159564,
+          "validationLoss": null
+        },
+        "selected": {
+          "epoch": 3,
+          "steps": 384,
+          "optimizerUpdates": 380,
+          "skippedUpdates": 4,
+          "trainingLoss": 0.4054391971140679,
+          "validationLoss": null,
+          "corpusSha256": "0574499702f0ea0426b0fed84a95a54e9614e62c57eedac36c155eaf8c7265a8",
+          "initialization": {
+            "sha256": "b5c60836159048d59825bee921870a7b3cc226393d40f96d385b8d596423edf4",
+            "attemptedBatches": 768,
+            "optimizerUpdates": 764,
+            "corpusSha256": "5c384a0321d2ae9af8a48e2aa49daf90ec6ca538fc48e541aa78d3ca3d2c837d"
+          }
+        },
+        "originalGroups": 3,
+        "publisherVariants": 4,
+        "tiles": 96,
+        "epochsLog": [
+          {
+            "epoch": 0,
+            "attemptedBatches": 96,
+            "optimizerUpdates": 92,
+            "skippedUpdates": 4,
+            "trainingLoss": 1.1542563542801265,
+            "validationLoss": null
+          },
+          {
+            "epoch": 1,
+            "attemptedBatches": 192,
+            "optimizerUpdates": 188,
+            "skippedUpdates": 4,
+            "trainingLoss": 0.7291367602883838,
+            "validationLoss": null
+          },
+          {
+            "epoch": 2,
+            "attemptedBatches": 288,
+            "optimizerUpdates": 284,
+            "skippedUpdates": 4,
+            "trainingLoss": 0.5955512599942571,
+            "validationLoss": null
+          },
+          {
+            "epoch": 3,
+            "attemptedBatches": 384,
+            "optimizerUpdates": 380,
+            "skippedUpdates": 4,
+            "trainingLoss": 0.4054391971140679,
+            "validationLoss": null
+          },
+          {
+            "epoch": 4,
+            "attemptedBatches": 480,
+            "optimizerUpdates": 476,
+            "skippedUpdates": 4,
+            "trainingLoss": 0.5785118938038067,
+            "validationLoss": null
+          },
+          {
+            "epoch": 5,
+            "attemptedBatches": 576,
+            "optimizerUpdates": 572,
+            "skippedUpdates": 4,
+            "trainingLoss": 0.46439595103159564,
+            "validationLoss": null
+          }
+        ],
+        "checkpointSha256": "f1649f67778a706b5d741405f68f16245bce62a6f76f64597e4121dcc16a868a"
+      }
+    }
+  },
+  "evidenceAssetsBase": "reports/map-analysis/results/model-evaluations/macro-v3"
+}
