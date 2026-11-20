@@ -67,6 +67,16 @@ consumer. Do not create deletion inventories, cleanup reports, backups or
 archive copies of approved obsolete files. Report logical bytes separately
 from measured drive free-space changes in the final response.
 
+## Technical evidence and source retention (from 2026-11-20)
+
+Keep development performance metrics, baseline/candidate comparisons, immutable code/data identities, and representative diagnostic traces under `reports/development/`. Remove completed console logs, empty logs, repeated identical screenshots and redundant per-run traces when structured results and needed exemplars remain.
+
+Keep source-bound GIS evidence (geometry, CRS, QGIS/native operations, screenshots and diagnostics) under `reports/borders/validation/`, `reports/development/native/`, or the corresponding GIS subject. Remove expired browser/CI trace archives only when the companion structured diagnostics and distinctive failure evidence remain.
+
+Keep original watercourse files and source-to-derivative identities under `assets/data/hydro/`, including protected source oracles referenced by `reports/hydro/`. `reports/hydro/` holds validation, hydronyms, calibration, and release evidence. Do not mix technical evidence with input research in `reports/research/catalog.json`.
+
+Retire `archive/index.json` identity-stored entries atomically with report-file removal. Do not rewrite Git history, delete pinned data or remove required rights notices.
+
 ## Historical research records (from 2026-11-18)
 
 Use `reports/research/policy.json` and `reports/research/schema.json` for new 1801+ historical Pando input research. Canonical records have only three types: one `reports/entities/` record per subject, one `reports/events/` record per eligible real change, and `reports/geography/` per map geometry/position evidence. Two regional/yearly rotations share these records; write their cursors under `reports/research/progress.json` and rebuild the derived `reports/research/catalog.json` with the dependency-free Node tool after changes. Do not create GEO-LIFE/GEO-TIME Markdown batch reports or restore removed non-input-only cases. Do not move or rewrite source-pinned `reports/places/tier1-major-cities-batch*.json`. The old Markdown and cursor contents are retrievable from the pinned Git URLs in each JSON provenance, not from copied archives. Research record edits never approve or modify Pando runtime data.
