@@ -1,1 +1,0 @@
-UI information architecture audit passed: 4 current surface variants and create/editor hierarchy are canonical.

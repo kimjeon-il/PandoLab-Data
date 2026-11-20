@@ -53,7 +53,7 @@ reports/
 ├── map-analysis/                 # 원본 지도 코퍼스·분석 모델·검증
 │   ├── corpus/
 │   ├── models/
-│   └── reports/
+│   └── results/                    # 완료된 분석·실행·출력 결과
 └── places/                       # 도시·지명 원장 및 고정된 입력 자료
 ```
 
@@ -93,3 +93,12 @@ reports/
 3. 고정된 `reports/places/tier1-major-cities-batch*.json`, GIS 원본, 매니페스트, `archive/index.json`과 Git 객체, 저작권 고지, 출처/CRS/해시, 실행 중 체크포인트 및 소스 고정 핀은 보존합니다.
 4. 내용을 잃지 않고 폐기된 자료는 Git 커밋의 불변 이력으로 추적합니다. `backup/`·`archive/`·Markdown 복사본을 만들어 중복 복구하지 않으며 Git 이력을 재작성하지 않습니다.
 5. 보고서 편집은 국가·지도 정본의 적용 승인이나 배포를 의미하지 않습니다. 보고서만 변경했다면 전체 빌드·GIS 재생성을 실행하지 않습니다.
+
+## 6. 지도 분석의 원본·학습·결과물 분리
+
+- **원본**: `reports/map-analysis/corpus/{dataset}/sources/` 및 `reports/map-analysis/corpus/sources/`에 원도면·원본 이미지·제공처 메타데이터·권리 고지를 보관합니다. 원본 위치와 상대경로가 현행 코퍼스에서 참조되므로 재배치하지 않습니다.
+- **학습 입력**: `reports/map-analysis/corpus/{dataset}/labels/`, `derived/`, `corpus*.training.json`과 `reports/map-analysis/models/`의 학습 체크포인트·평가 결과를 구분합니다. 학습에서 사용한 `derived/` 이미지는 단순 임시 출력이 아니라 명세서가 직접 참조하는 입력이므로 자동 삭제하지 않습니다.
+- **작업 결과**: 지도 분석·네이티브 실행·플러그인 검증의 완성된 보고/내보내기 결과는 `reports/map-analysis/results/`에 둡니다. 종전 `map-analysis/reports/`의 완료 결과는 `results/`로 이동했으며, 결과 내부 매니페스트의 경로도 갱신합니다.
+- **전환 보류**: `corpus/gazetteer-v1/runtime/`의 지명 검색용 분할 인덱스, `models/`의 모델 바이너리와 여러 코퍼스의 상호참조 파일은 외부 소비 경로·해시·학습 명세가 확인되기 전까지 원래 위치에 둡니다. 보류는 새 결과물과 원본을 혼합 저장해도 된다는 허가가 아닙니다.
+
+`reports/map-analysis/README.md`에 현재 탐색 경로와 신규 파일의 분류 예시를 제공합니다. 정리 대상의 원문을 `backup`·추가 산출물로 복사하지 않으며, 구형 경로가 필요하면 이동 이전 Git 판본을 참조합니다.

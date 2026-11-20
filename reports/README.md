@@ -18,7 +18,7 @@
 - [국경·영토 자료](borders/) — `data/`, `history/`, `reconstruction/`, `validation/`
 - [수계](hydro/) — `names/`, `calibration/`, `connectivity/`, `releases/` (원본 수계 파일은 `assets/data/hydro/`)
 - [개발 검증](development/) — `performance/`, `rendering/`, `ui/`, `storage/`, `native/`, `integrations/`, `releases/`, `ci/`
-- [지도 분석](map-analysis/) — `corpus/`, `models/`, `reports/`
+- [지도 분석](map-analysis/) — `corpus/`(원본·학습 입력), `models/`(학습 모델), `results/`(완료 결과)
 - [도시·지명 자료](places/) — 승인/검토 정보, 고정된 입력 배치와 원본 매니페스트
 
 기술자료는 역사 조사 정본과 구분하며, 소비 경로·해시·출처·권리 고지·재현 관계를 검증하지 않고 일괄 이동하거나 확장자를 바꾸지 않습니다.
