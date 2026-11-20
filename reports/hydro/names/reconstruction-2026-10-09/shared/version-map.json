@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "mergedOn": "2026-11-20",
+  "originalRevision": "0ffdddd6f18dd52b011b0d0c42bb9fc560347fb8",
+  "originalScripts": 95,
+  "uniqueOriginalBlobs": 12,
+  "groupedVersions": {
+    "geometry-support.py": {
+      "e629cd166f403d993f2e33642381ce14dcc5f71b": {
+        "sha": "e629cd166f403d993f2e33642381ce14dcc5f71b",
+        "size": 2581,
+        "batches": [
+          "batch-r04"
+        ]
+      },
+      "ed511a68a9810f188e9e2db920c47d10be919535": {
+        "sha": "ed511a68a9810f188e9e2db920c47d10be919535",
+        "size": 2400,
+        "batches": [
+          "batch-r05",
+          "batch-r06",
+          "batch-r11",
+          "batch-r12",
+          "batch-r13",
+          "batch-r14",
+          "batch-r15",
+          "batch-r16",
+          "batch-r17",
+          "batch-r18"
+        ]
+      },
+      "5bad02eda270cea3b098091b983a495438bfb0a4": {
+        "sha": "5bad02eda270cea3b098091b983a495438bfb0a4",
+        "size": 2259,
+        "batches": [
+          "batch-r07",
+          "batch-r08",
+          "batch-r09",
+          "batch-r10"
+        ]
+      }
+    },
+    "recover-remaining-queue.py": {
+      "d05995078228277947dc6cfa4ff56b5c487b38eb": {
+        "sha": "d05995078228277947dc6cfa4ff56b5c487b38eb",
+        "size": 3121,
+        "batches": [
+          "batch-r07",
+          "batch-r08",
+          "batch-r09",
+          "batch-r10"
+        ]
+      },
+      "dfd1bb123a5abc0c7024d8cde921be7cb4016753": {
+        "sha": "dfd1bb123a5abc0c7024d8cde921be7cb4016753",
+        "size": 4212,
+        "batches": [
+          "batch-r11"
+        ]
+      },
+      "c44a1b45bf77a229fb4a1a85d2d3abbd6e4c9aa6": {
+        "sha": "c44a1b45bf77a229fb4a1a85d2d3abbd6e4c9aa6",
+        "size": 4247,
+        "batches": [
+          "batch-r12",
+          "batch-r13",
+          "batch-r14",
+          "batch-r15",
+          "batch-r16",
+          "batch-r17",
+          "batch-r18",
+          "batch-r19",
+          "batch-r20",
+          "batch-r21"
+        ]
+      },
+      "62ec8d810fdffae5ace442251977aede4c30e809": {
+        "sha": "62ec8d810fdffae5ace442251977aede4c30e809",
+        "size": 4277,
+        "batches": [
+          "batch-r22",
+          "batch-r23",
+          "batch-r24",
+          "batch-r25",
+          "batch-r26",
+          "batch-r27",
+          "batch-r28",
+          "batch-r29",
+          "batch-r30",
+          "batch-r31",
+          "batch-r32",
+          "batch-r33",
+          "batch-r34",
+          "batch-r35",
+          "batch-r36",
+          "batch-r37",
+          "batch-r38"
+        ]
+      },
+      "a9ba53882e15eb4513f86a4b43fdd74c4f464ab5": {
+        "sha": "a9ba53882e15eb4513f86a4b43fdd74c4f464ab5",
+        "size": 5179,
+        "batches": [
+          "batch-r39",
+          "batch-r40",
+          "batch-r41",
+          "batch-r42",
+          "batch-r43",
+          "batch-r44"
+        ]
+      },
+      "6cc4f0cd56062eb8b5220a75325c5b818088c621": {
+        "sha": "6cc4f0cd56062eb8b5220a75325c5b818088c621",
+        "size": 5218,
+        "batches": [
+          "batch-r45",
+          "batch-r46"
+        ]
+      }
+    },
+    "test-remaining-queue.py": {
+      "2a29b85ea63c4eb2652dfd57f3182558ceeea859": {
+        "sha": "2a29b85ea63c4eb2652dfd57f3182558ceeea859",
+        "size": 2820,
+        "batches": [
+          "batch-r07",
+          "batch-r08",
+          "batch-r09",
+          "batch-r10"
+        ]
+      },
+      "d753ceab560fff5ba7360d3e1c4c43d3f2a56a3d": {
+        "sha": "d753ceab560fff5ba7360d3e1c4c43d3f2a56a3d",
+        "size": 3472,
+        "batches": [
+          "batch-r11",
+          "batch-r12",
+          "batch-r13",
+          "batch-r14",
+          "batch-r15",
+          "batch-r16",
+          "batch-r17",
+          "batch-r18",
+          "batch-r19",
+          "batch-r20",
+          "batch-r21",
+          "batch-r22",
+          "batch-r23",
+          "batch-r24",
+          "batch-r25",
+          "batch-r26",
+          "batch-r27",
+          "batch-r28",
+          "batch-r29",
+          "batch-r30",
+          "batch-r31",
+          "batch-r32",
+          "batch-r33",
+          "batch-r34",
+          "batch-r35",
+          "batch-r36",
+          "batch-r37",
+          "batch-r38"
+        ]
+      },
+      "144ae81bb56166721bf1d267c9c7d27f9e2884b1": {
+        "sha": "144ae81bb56166721bf1d267c9c7d27f9e2884b1",
+        "size": 4160,
+        "batches": [
+          "batch-r39",
+          "batch-r40",
+          "batch-r41",
+          "batch-r42",
+          "batch-r43",
+          "batch-r44",
+          "batch-r45",
+          "batch-r46"
+        ]
+      }
+    }
+  },
+  "policyDifferences": [
+    {
+      "batches": "r07-r10",
+      "recovery": "base"
+    },
+    {
+      "batches": "r11",
+      "recovery": "pending-access + 3 scope-hold classes"
+    },
+    {
+      "batches": "r12-r21",
+      "recovery": "add compound-feature scope hold"
+    },
+    {
+      "batches": "r22-r38",
+      "recovery": "add river-group name scope hold"
+    },
+    {
+      "batches": "r39-r44",
+      "recovery": "pending-material + strict source-coverage-incomplete"
+    },
+    {
+      "batches": "r45-r46",
+      "recovery": "pending-material + source-material-insufficient permitted"
+    },
+    {
+      "batches": "r04",
+      "geometry": "basic lake + river geometry"
+    },
+    {
+      "batches": "r05-r06, r11-r18",
+      "geometry": "ordered lake-part receipts"
+    },
+    {
+      "batches": "r07-r10",
+      "geometry": "ordered river-part receipts, terminal/name facts and optional Git blob pin"
+    },
+    {
+      "batches": "r07-r10",
+      "tests": "9 corruption cases"
+    },
+    {
+      "batches": "r11-r38",
+      "tests": "15 corruption cases"
+    },
+    {
+      "batches": "r39-r46",
+      "tests": "22 corruption cases"
+    }
+  ],
+  "canonicalImplementations": [
+    "recover_remaining_queue.py",
+    "test_remaining_queue.py",
+    "geometry_support.py"
+  ],
+  "note": "Versioned inputs and original source SHA identities are preserved; prior per-batch script copies were removed. The shared tools are the current implementation, while original scripts remain retrievable from originalRevision."
+}
