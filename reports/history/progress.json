@@ -143,8 +143,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "아시아",
-    "nextRegion": "아프리카",
+    "lastRegion": "아프리카",
+    "nextRegion": "북아메리카",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -154,11 +154,11 @@
       },
       {
         "scope": "마지막 처리 지역",
-        "detail": "2025년 아시아 (2026-11-20): 키르기스스탄–타지키스탄 양자 국경조약과 우즈베키스탄 포함 삼국 접점 조약의 입력 가능 공간 변동 후보 2건 확인. 원부속도면·최종 국제효력일 미확정; 지역 전수 미완료."
+        "detail": "2025년 아프리카(2026-11-21): 가봉–적도기니 ICJ 법적 권원(2025년 주권 이전 아님), 차고스 미발효 조약, AES 조직기/ECOWAS 탈퇴 제외. 검토 범위 내 신규 입력 사건 0건; 지역 전수 미완료."
       },
       {
         "scope": "다음 지역",
-        "detail": "2025년 아프리카. 가봉–적도기니 섬/육상 귀속 및 2025년 법적 변경의 실제 발효를 우선 조사. 2025년 6개 지역 전수 완료 전 2024년 이동 금지."
+        "detail": "2025년 북아메리카: 실제 입력 가능한 국가·속령·국경·도서·정식 국명·국기 효력 변동 조사. 아이티 세관 통제 등 비입력 사건 배제. 2025 여섯 지역 전수 완료 전 2024 이동 금지."
       },
       {
         "scope": "연도 잠금",
@@ -179,6 +179,10 @@
       {
         "scope": "미확인 사료",
         "detail": "근거가 부족한 후보는 `provisional / not-applied`로 두고 날짜·좌표를 추정하지 않는다. 이전 보고서의 보존된 Git 이력은 현행 보고서·조사 지시 또는 정본 반영 승인으로 취급하지 않는다."
+      },
+      {
+        "scope": "아프리카 2025",
+        "detail": "가봉–적도기니 1900/1968의 법적 권원과 2025 ICJ 판결을 2025 주권 이전으로 취급하지 말 것. 차고스 2025 조약 미발효 상태와 향후 효력일 재확인. 현 회차 외 지역 전수 미완료."
       }
     ],
     "exclude": [
@@ -190,52 +194,86 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-20",
+    "lastReviewedOn": "2026-11-21",
     "lastReview": {
       "year": 2025,
-      "region": "아시아",
-      "scope": "2025-01-01~2025-12-31 중앙아시아 키르기스스탄–타지키스탄 조약과 삼국 접점(우즈베키스탄 포함). 아시아 전체 국가·속령 전수는 미완료.",
-      "finding": "지도에서 입력 가능한 2025년 국경/영토 귀속 변동 후보 2건(양국 경계조약과 삼국 접점 조약)을 신규 구조화 기록. 법적 조약 서명과 비준서 교환 검증, 조약 부속도면 미확보로 최종 효력일·좌표·형상은 보류. 신규 승인 정본 변경 0건.",
+      "region": "아프리카",
+      "scope": "2025-01-01~2025-12-31: 가봉–적도기니 3개 도서/국경 권원, 차고스(BIOT)–모리셔스의 속령·도서 귀속, 사헬 3국 연합기·ECOWAS 탈퇴의 입력 적격성. 조사 범위 한정; 아프리카 전체 전수 미완료.",
+      "finding": "검토한 3개 쟁점에서 2025년 효력이 발생한 Pando 입력 가능 국가·속령 생성/소멸, 주권·부모관계, 국경·도서 귀속, 정식 국명·국기 변경 미발견. 사건 JSON 0건; 아프리카 전체 변화 없음 확정 아님.",
       "checkedCandidates": [
         {
-          "topic": "2025-03-13 키르기스스탄–타지키스탄 국경조약",
-          "eventId": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
-          "signingDate": "2025-03-13",
-          "ratificationExchangeDate": "2025-03-31",
-          "legalEffectiveDate": "unknown",
-          "reason": "원조약 효력 조항 및 부속서 미열람; 영토교환 범위 위상 미검증",
-          "sourceIds": [
-            "SRC-079",
-            "SRC-080",
-            "SRC-082",
-            "SRC-083",
-            "SRC-084"
-          ]
+          "topic": "가봉–적도기니 Mbanié/Mbañe·Cocotiers/Cocoteros·Conga 도서",
+          "judgmentDate": "2025-05-19",
+          "finding": "ICJ가 1900년 조약의 법적 권원 및 1968년 스페인→적도기니 승계 확인. 1974 Bata 문서는 법적 권원 아님. 재판소는 섬 주권의 직접 결정/경계 획정 의뢰를 받지 않았다고 명시. 2025년 주권 이전/국경 이동 사건으로 기록 불가.",
+          "sourceUrls": [
+            "https://api.icj-cij.org/sites/default/files/case-related/179/179-20250519-pre-01-00-en.pdf",
+            "https://academic.oup.com/jids/article/17/2/idag016/8719172"
+          ],
+          "sourceReview": "ICJ 공보의 추출 텍스트 열람, 독립 학술 분석 대조. PDF 화면 스크린샷은 403, 원 판결 전문 미검토.",
+          "inputAssessment": "no-new-2025-change"
         },
         {
-          "topic": "2025-03-31 키르기스스탄–타지키스탄–우즈베키스탄 접점 조약",
-          "eventId": "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
-          "signingDate": "2025-03-31",
-          "uzbekDomesticEntryDate": "2025-11-15",
-          "relatedProtocolExchange": "2025-11-16",
-          "legalEffectiveDate": "unknown",
-          "reason": "11-15 우즈베키스탄 법령 표기와 11-16 외무부 의정서 문서교환의 관계 미확정; 1:10,000 부속도면 미공개",
-          "sourceIds": [
-            "SRC-085",
-            "SRC-086"
-          ]
+          "topic": "영국–모리셔스 차고스 제도·영국령 인도양 지역",
+          "treatySigned": "2025-05-22",
+          "entryIntoForce": "not-in-force-as-of-2026-10-08",
+          "finding": "2025년 조약 서명은 실제 주권 이전/BIOT 폐지의 효력일이 아님. 영국 하원 2026-10-08 조사에서 미발효 및 영국 비준절차 중단 확인. 2025 사건 생성하지 않음.",
+          "sourceUrls": [
+            "https://www.gov.uk/government/publications/ukmauritius-agreement-concerning-the-chagos-archipelago-including-diego-garcia-cs-mauritius-no12025",
+            "https://commonslibrary.parliament.uk/research-briefings/cbp-10512/"
+          ],
+          "sourceReview": "FCDO 조약 게시 페이지 및 영국 하원 도서관 HTML 열람; 조약 PDF 원문 미검토.",
+          "inputAssessment": "not-in-force"
+        },
+        {
+          "topic": "사헬 3국 AES 조직기·ECOWAS 탈퇴",
+          "dates": [
+            "2025-01-29",
+            "2025-02-22"
+          ],
+          "finding": "국제기구 회원 탈퇴 및 2024년 이미 성립한 AES의 조직기 도입. 말리·니제르·부르키나파소 주권국의 국기/국호/영토/국가 동일성/상위관계 변경이 아님. 국가·속령 이벤트 제외.",
+          "sourceUrls": [
+            "https://westafricaweekly.com/css-unveils-official-flag-after-exit-from-ecowas/",
+            "https://www.reuters.com/world/africa/west-africa-bloc-announces-formal-exit-three-junta-led-states-2025-01-29/"
+          ],
+          "inputAssessment": "out-of-scope"
         }
       ],
       "historicalVectorPriority": {
-        "geographyId": "GEO-2025-KGZ-TJK-BORDER",
-        "status": "미확보: 2025 조약 효력판 공식 벡터",
-        "providers": [
-          "키르기스스탄·타지키스탄 국경조약 부속서(미공개 비벡터)",
-          "우즈베키스탄 LexUZ 1:10,000 도면(미게시 비벡터)",
-          "미국 국무부 LSIB v11.4 GPKG/ZIP(2025-02-24 조약 전 판본)",
-          "ETH CShapes 2.0 SHP/GeoJSON(2019년까지)"
+        "candidates": [
+          {
+            "provider": "미 국무부 LSIB",
+            "edition": "11.4",
+            "published": "2025-02-24",
+            "formats": [
+              "SHP ZIP",
+              "GPKG"
+            ],
+            "url": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+            "suitability": "판결 전 발행, 2025-05 이후 권원/영토 변화 입증 불가"
+          },
+          {
+            "provider": "ETH Zürich CShapes",
+            "edition": "2.0 (2022 발표)",
+            "validPeriod": "1886–2019",
+            "formats": [
+              "SHP",
+              "GeoJSON"
+            ],
+            "url": "https://icr.ethz.ch/data/cshapes/",
+            "suitability": "2025년 범위 밖"
+          },
+          {
+            "provider": "ICJ 179",
+            "edition": "1900년 조약·2025 판결",
+            "formats": [
+              "PDF",
+              "문서·도면"
+            ],
+            "url": "https://www.icj-cij.org/case/179",
+            "suitability": "법적 권원 사료; 공식 GIS 벡터 형상·도서별 2025 유효 피처 미발견"
+          }
         ],
-        "originalFileDownloaded": false,
+        "dataOriginalDownloaded": false,
         "originalCrsInspected": false,
         "featureIdsChecked": false,
         "hashComputed": false,
@@ -243,28 +281,105 @@
         "topologyRun": false,
         "visualComparisonRun": false,
         "pixel0_5CssPxRun": false,
-        "redistributionCleared": false
+        "redistributionCleared": false,
+        "rights": "원본 데이터별 라이선스 및 재배포 허가 검증 미완료. 제품 도입 불가.",
+        "missing": "효력시기 일치하는 도서 단위 역사 벡터, 원문 좌표 및 CRS 미확보. 현재 국가/행정 폴리곤 역사 소급 불가.",
+        "fallback": "실제 경계·도서 귀속 변경 확정 시 적합한 벡터 부재 구간만 고지도 중첩 후보로 인계"
       },
-      "sourcesReviewed": [
-        "키르기스스탄 대통령실",
-        "타지키스탄 외무부",
-        "우즈베키스탄 공식 법령 DB",
-        "Human Rights Watch",
-        "미 국무부 GIS 메타데이터",
-        "ETH CShapes 자료 설명"
+      "unresolved": [
+        "2026년 후속 가봉–적도기니 합의의 영토 효력과 역사적 귀속/실효 지배 구분",
+        "차고스 조약 실제 국제 발효·BIOT 법적 종료일 추적",
+        "남은 아프리카 국가·속령의 2025년 전수 검사",
+        "Pando 원래 work/gis 브랜치 조회 불가; 현행 PandoLab main AGENTS는 읽기 전용 확인, 런타임 객체 ID 미검증"
       ],
       "savedRecords": {
-        "event": 2,
-        "entity": 3,
-        "geography": 1,
-        "sourceRegistry": 11,
+        "event": 0,
+        "entity": 0,
+        "geography": 0,
+        "sourceRegistry": 0,
         "progress": 1,
-        "catalog": 1
+        "catalog": 0
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "아프리카"
-    }
+      "nextRegion": "북아메리카"
+    },
+    "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "아시아",
+        "scope": "2025-01-01~2025-12-31 중앙아시아 키르기스스탄–타지키스탄 조약과 삼국 접점(우즈베키스탄 포함). 아시아 전체 국가·속령 전수는 미완료.",
+        "finding": "지도에서 입력 가능한 2025년 국경/영토 귀속 변동 후보 2건(양국 경계조약과 삼국 접점 조약)을 신규 구조화 기록. 법적 조약 서명과 비준서 교환 검증, 조약 부속도면 미확보로 최종 효력일·좌표·형상은 보류. 신규 승인 정본 변경 0건.",
+        "checkedCandidates": [
+          {
+            "topic": "2025-03-13 키르기스스탄–타지키스탄 국경조약",
+            "eventId": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+            "signingDate": "2025-03-13",
+            "ratificationExchangeDate": "2025-03-31",
+            "legalEffectiveDate": "unknown",
+            "reason": "원조약 효력 조항 및 부속서 미열람; 영토교환 범위 위상 미검증",
+            "sourceIds": [
+              "SRC-079",
+              "SRC-080",
+              "SRC-082",
+              "SRC-083",
+              "SRC-084"
+            ]
+          },
+          {
+            "topic": "2025-03-31 키르기스스탄–타지키스탄–우즈베키스탄 접점 조약",
+            "eventId": "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
+            "signingDate": "2025-03-31",
+            "uzbekDomesticEntryDate": "2025-11-15",
+            "relatedProtocolExchange": "2025-11-16",
+            "legalEffectiveDate": "unknown",
+            "reason": "11-15 우즈베키스탄 법령 표기와 11-16 외무부 의정서 문서교환의 관계 미확정; 1:10,000 부속도면 미공개",
+            "sourceIds": [
+              "SRC-085",
+              "SRC-086"
+            ]
+          }
+        ],
+        "historicalVectorPriority": {
+          "geographyId": "GEO-2025-KGZ-TJK-BORDER",
+          "status": "미확보: 2025 조약 효력판 공식 벡터",
+          "providers": [
+            "키르기스스탄·타지키스탄 국경조약 부속서(미공개 비벡터)",
+            "우즈베키스탄 LexUZ 1:10,000 도면(미게시 비벡터)",
+            "미국 국무부 LSIB v11.4 GPKG/ZIP(2025-02-24 조약 전 판본)",
+            "ETH CShapes 2.0 SHP/GeoJSON(2019년까지)"
+          ],
+          "originalFileDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "pixel0_5CssPxRun": false,
+          "redistributionCleared": false
+        },
+        "sourcesReviewed": [
+          "키르기스스탄 대통령실",
+          "타지키스탄 외무부",
+          "우즈베키스탄 공식 법령 DB",
+          "Human Rights Watch",
+          "미 국무부 GIS 메타데이터",
+          "ETH CShapes 자료 설명"
+        ],
+        "savedRecords": {
+          "event": 2,
+          "entity": 3,
+          "geography": 1,
+          "sourceRegistry": 11,
+          "progress": 1,
+          "catalog": 1
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "아프리카"
+      }
+    ]
   },
   "researchRules": {
     "scopeFrom": "1801-01-01",
