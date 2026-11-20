@@ -1,0 +1,952 @@
+{
+  "schemaVersion": 1,
+  "kind": "historical-native-windows-validation-rollup",
+  "date": "2026-10-23",
+  "status": "historical-evidence-only; not current viewer acceptance",
+  "sourceCommit": "65450c3a7894420f80ee46f66964749b51aee1a1",
+  "records": [
+    {
+      "sourceFile": "windows-native-runtime-2026-10-23.json",
+      "sourceBlobSha": "516cee910d0f4d6dcbea1b9ee911bd0ff67dc837",
+      "report": {
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "f3e4af40493133cbc23bd8b9779c7620a7291c1edc75f923657d6d3d8353836a"
+        },
+        "error": {
+          "code": "PL-WORKER-RPC-OPERATION",
+          "message": "Worker 작업에 실패했습니다.",
+          "stack": "Error: Worker 작업에 실패했습니다.\n    at createWorkerRpcError (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:34:17)\n    at rpcErrorFromMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:125:12)\n    at handleMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:188:20)\n    at currentWorker.onmessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:227:7)"
+        },
+        "ok": false,
+        "releaseReady": false,
+        "schema": "pandolab-reference-runtime-probe"
+      }
+    },
+    {
+      "sourceFile": "windows-native-runtime-final-2026-10-23.json",
+      "sourceBlobSha": "edebe0350fafa6a8e4b0bee3c3b75a33df20efc4",
+      "report": {
+        "androidDeviceEvaluation": "not-run",
+        "blockedRequests": 0,
+        "elapsedMs": 4993.100000008941,
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "ccf01786d1d5dc71992efe5c719fd1cd6a17970cf6ef9aa8a906caa00d467275"
+        },
+        "imageRecords": 2,
+        "modelStatus": "PL-REF-MODEL-MISSING",
+        "ocrDetections": 61,
+        "offlinePlaceMatches": 1,
+        "ok": true,
+        "qualityEvaluation": "not-run",
+        "releaseReady": false,
+        "schema": "pandolab-reference-runtime-probe",
+        "sharedSourceCount": 1,
+        "sourceSha256": "23ab23c7a8d16782038ca237dbff9f5e7b7a2123286af9c03a37dd0e7bcbf844",
+        "sourceSize": [
+          852,
+          675
+        ],
+        "version": 1,
+        "world": {
+          "checks": {
+            "blockedRequests": "PASS",
+            "builtinWorld": "PASS",
+            "canonicalGeometry": "PASS",
+            "canonicalMesh": "PASS",
+            "dataLoaderWorker": "PASS",
+            "modelEntityCount": "PASS",
+            "packageProfile": "PASS",
+            "preview": "PASS",
+            "renderer": "PASS",
+            "sharedCore": "PASS",
+            "sourceCountryCount": "PASS",
+            "sovereignRootCount": "PASS"
+          },
+          "observed": {
+            "activeWebGlContextCount": 1,
+            "blockedRequests": 0,
+            "canonicalGeometryReceivedMs": 3343.20000000298,
+            "canonicalMeshReceivedMs": 16811.09999999404,
+            "countryBaseIndexCount": 6461577,
+            "countryCount": 254,
+            "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+            "expectedModelCount": 254,
+            "expectedRootCount": 207,
+            "expectedSourceCount": 258,
+            "previewReceivedMs": 302.8999999910593,
+            "readyMs": null,
+            "renderer": "webgl2",
+            "sourceCountryCount": 258,
+            "sovereignRootCount": 207,
+            "triangleCount": 2153859,
+            "workers": [
+              {
+                "name": "pandolab-data-loader",
+                "type": "module"
+              },
+              {
+                "name": "",
+                "type": "module"
+              },
+              {
+                "name": "pandolab-country-shared-boundary",
+                "type": "classic"
+              },
+              {
+                "name": "pandolab-overlay-mesh",
+                "type": "classic"
+              },
+              {
+                "name": "pandolab-overlay-mesh",
+                "type": "classic"
+              },
+              {
+                "name": "pandolab-label-anchors",
+                "type": "classic"
+              }
+            ]
+          },
+          "ok": true,
+          "phase": "canonical-ready",
+          "schema": "pandolab-web-shell-world-probe",
+          "version": 1
+        }
+      }
+    },
+    {
+      "sourceFile": "windows-native-runtime-fixed-2026-10-23.json",
+      "sourceBlobSha": "6a3b7931e29e363642187f5a77b7105a6c13d810",
+      "report": {
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "85e7ead886f0ae09ed84452a60ee5d2db05b10dec9e963bcf4e3b9cb3517e191"
+        },
+        "error": {
+          "code": "PL-WORKER-RPC-OPERATION",
+          "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+          "operation": "reference.segment",
+          "stack": "Error: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON\n    at createWorkerRpcError (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:34:17)\n    at rpcErrorFromMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:125:12)\n    at handleMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:188:20)\n    at currentWorker.onmessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:227:7)"
+        },
+        "network": {
+          "blocked": [],
+          "requests": [
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/shell/stage-profile.json"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/data/world/current.json"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/world/current.json?v=data-94eafdbb58c052b7ec04668586e18007"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/countries-preview-shared-v0.36.1.json.gz"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/shell/reference-probe.json"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/shell/reference-probe.jpg"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/7fec6767933319fb640c772cdbf6b2b0/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "blob:http://tauri.localhost/ecd58def-7932-4a5a-8d17-492c83a5549e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/countries-canonical-shared-v0.36.1.json.gz"
+            },
+            {
+              "context": "worker",
+              "url": "blob:http://tauri.localhost/db564f4e-ae1d-45fa-888b-93c9e0b3c931"
+            },
+            {
+              "context": "worker",
+              "url": "blob:http://tauri.localhost/8948e836-ffb8-4703-91c1-185bf0b042a4"
+            },
+            {
+              "context": "window",
+              "url": "http://tauri.localhost/assets/worker-runtime/c8cd0e04cec773f4b5259d6401b455fa/assets/js/workers/place-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/places/manifest.json?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/places/places-v1.bin?v=approved-places-d35bd85615fbaf49"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "context": "worker",
+              "url": "http://tauri.localhost/assets/data/reference-analysis/v1/boundary.manifest.json"
+            }
+          ],
+          "workers": [
+            {
+              "name": "pandolab-data-loader",
+              "type": "module",
+              "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false"
+            },
+            {
+              "name": "",
+              "type": "module",
+              "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "pandolab-country-shared-boundary",
+              "type": "classic",
+              "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic",
+              "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic",
+              "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "pandolab-label-anchors",
+              "type": "classic",
+              "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "reference-image-analysis",
+              "type": "classic",
+              "url": "http://tauri.localhost/assets/worker-runtime/7fec6767933319fb640c772cdbf6b2b0/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e"
+            },
+            {
+              "name": "reference-probe-places",
+              "type": "module",
+              "url": "http://tauri.localhost/assets/worker-runtime/c8cd0e04cec773f4b5259d6401b455fa/assets/js/workers/place-worker.js?v=0.36.0-build-08314289e08e"
+            }
+          ]
+        },
+        "ok": false,
+        "releaseReady": false,
+        "schema": "pandolab-reference-runtime-probe"
+      }
+    },
+    {
+      "sourceFile": "windows-nested-blob-worker-2026-10-23.json",
+      "sourceBlobSha": "0890c9392b25bd34277f5423475d184db7de839c",
+      "report": {
+        "result": {
+          "count": 70,
+          "orientation": {
+            "script": "Cyrillic",
+            "clockwiseDegrees": 0,
+            "orientationSource": "ocr-comparison",
+            "confidence": 0.06238555908203125,
+            "scriptConfidence": 2.6666669845581055,
+            "languages": [
+              "eng"
+            ]
+          }
+        },
+        "logs": [
+          "Estimating resolution as 210",
+          "Estimating resolution as 173",
+          "Estimating resolution as 210"
+        ]
+      }
+    },
+    {
+      "sourceFile": "windows-ocr-debug-2026-10-23.json",
+      "sourceBlobSha": "81750f291451967e08afa8c6acbf5b6db6f02d86",
+      "report": {
+        "result": {
+          "worker": {
+            "message": "Worker 작업에 실패했습니다.",
+            "code": "PL-WORKER-RPC-OPERATION",
+            "operation": "reference.ocr",
+            "stack": "Error: Worker 작업에 실패했습니다.\n    at createWorkerRpcError (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:34:17)\n    at rpcErrorFromMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:125:12)\n    at handleMessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:188:20)\n    at currentWorker.onmessage (http://tauri.localhost/assets/js/modules/worker-rpc.js?v=0.36.0-build-08314289e08e:227:7)"
+          },
+          "main": {
+            "count": 70
+          },
+          "orientation": {
+            "script": "Cyrillic",
+            "clockwiseDegrees": 0,
+            "orientationSource": "ocr-comparison",
+            "confidence": 0.06238555908203125,
+            "scriptConfidence": 2.6666669845581055,
+            "languages": [
+              "eng"
+            ]
+          },
+          "network": {
+            "requests": [
+              {
+                "url": "http://tauri.localhost/shell/stage-profile.json",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/data/world/current.json",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/data/world/current.json?v=data-94eafdbb58c052b7ec04668586e18007",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/data/countries-preview-shared-v0.36.1.json.gz",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.manifest.json",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.js?sha256=2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/wasm/pandoeditor-core.wasm?sha256=64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/shell/reference-probe.jpg",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/bbac13705c0293ea6b82b370132044fa/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/data/countries-canonical-shared-v0.36.1.json.gz",
+                "context": "worker"
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "context": "window"
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "context": "window"
+              }
+            ],
+            "blocked": [],
+            "workers": [
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/d33cf539d453d3c7c9f39b64e4cce0fc/assets/js/workers/data-loader-worker.js?v=0.36.0-build-08314289e08e&layout=wide&deviceMemory=16&hardwareConcurrency=6&effectiveType=4g&saveData=false",
+                "type": "module",
+                "name": "pandolab-data-loader"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/38725a3c8a2572a71c2971298617fd87/assets/js/workers/core-session-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "module",
+                "name": ""
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/4d09408d8989b02ab9f27a3bcc4778c7/assets/js/workers/country-shared-boundary-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "classic",
+                "name": "pandolab-country-shared-boundary"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "classic",
+                "name": "pandolab-overlay-mesh"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/231f2526dafefff8e56d54881d945019/assets/js/workers/gpu-mesh-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "classic",
+                "name": "pandolab-overlay-mesh"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/8fe9f5bd55cdb1d899e5a26de4904320/assets/js/workers/label-anchor-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "classic",
+                "name": "pandolab-label-anchors"
+              },
+              {
+                "url": "http://tauri.localhost/assets/worker-runtime/bbac13705c0293ea6b82b370132044fa/assets/js/workers/reference-image-analysis-worker.js?v=0.36.0-build-08314289e08e",
+                "type": "classic",
+                "name": "reference-image-analysis"
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "type": "classic",
+                "name": ""
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "type": "classic",
+                "name": ""
+              },
+              {
+                "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+                "type": "classic",
+                "name": ""
+              }
+            ]
+          }
+        },
+        "logs": [
+          {
+            "url": "http://tauri.localhost/assets/vendor/reference-analysis/worker.min.js",
+            "failure": {
+              "errorText": "net::ERR_ABORTED"
+            }
+          },
+          "Estimating resolution as 210",
+          "Estimating resolution as 173",
+          "Estimating resolution as 210"
+        ]
+      }
+    },
+    {
+      "sourceFile": "windows-world-debug-2026-10-23.json",
+      "sourceBlobSha": "56a6125621ef0e194df8254ef5d8242b400ea943",
+      "report": {
+        "checks": {
+          "blockedRequests": "PASS",
+          "builtinWorld": "PASS",
+          "canonicalGeometry": "PASS",
+          "canonicalMesh": "PASS",
+          "dataLoaderWorker": "PASS",
+          "modelEntityCount": "PASS",
+          "packageProfile": "PASS",
+          "preview": "PASS",
+          "renderer": "PASS",
+          "sharedCore": "PASS",
+          "sourceCountryCount": "PASS",
+          "sovereignRootCount": "PASS"
+        },
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "f3e4af40493133cbc23bd8b9779c7620a7291c1edc75f923657d6d3d8353836a"
+        },
+        "observed": {
+          "activeWebGlContextCount": 1,
+          "blockedRequests": 0,
+          "canonicalGeometryReceivedMs": 3884.20000000298,
+          "canonicalMeshReceivedMs": 18377.90000000596,
+          "countryBaseIndexCount": 6461577,
+          "countryCount": 254,
+          "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+          "expectedModelCount": 254,
+          "expectedRootCount": 207,
+          "expectedSourceCount": 258,
+          "previewReceivedMs": 358.1000000089407,
+          "readyMs": 20764.40000000596,
+          "renderer": "webgl2",
+          "sourceCountryCount": 258,
+          "sovereignRootCount": 207,
+          "triangleCount": 2153859,
+          "workers": [
+            {
+              "name": "pandolab-data-loader",
+              "type": "module"
+            },
+            {
+              "name": "",
+              "type": "module"
+            },
+            {
+              "name": "pandolab-country-shared-boundary",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-label-anchors",
+              "type": "classic"
+            }
+          ]
+        },
+        "ok": true,
+        "phase": "canonical-ready",
+        "schema": "pandolab-web-shell-world-probe",
+        "version": 1
+      }
+    },
+    {
+      "sourceFile": "windows-world-debug2-2026-10-23.json",
+      "sourceBlobSha": "03e03e0a08bd875d054d025f18abe246ad986dd6",
+      "report": {
+        "checks": {
+          "blockedRequests": "PASS",
+          "builtinWorld": "PASS",
+          "canonicalGeometry": "PASS",
+          "canonicalMesh": "PASS",
+          "dataLoaderWorker": "PASS",
+          "modelEntityCount": "PASS",
+          "packageProfile": "PASS",
+          "preview": "PASS",
+          "renderer": "PASS",
+          "sharedCore": "PASS",
+          "sourceCountryCount": "PASS",
+          "sovereignRootCount": "PASS"
+        },
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "f3e4af40493133cbc23bd8b9779c7620a7291c1edc75f923657d6d3d8353836a"
+        },
+        "observed": {
+          "activeWebGlContextCount": 1,
+          "blockedRequests": 0,
+          "canonicalGeometryReceivedMs": 3499.70000000298,
+          "canonicalMeshReceivedMs": 16742.20000000298,
+          "countryBaseIndexCount": 6461577,
+          "countryCount": 254,
+          "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+          "expectedModelCount": 254,
+          "expectedRootCount": 207,
+          "expectedSourceCount": 258,
+          "previewReceivedMs": 289,
+          "readyMs": 19066,
+          "renderer": "webgl2",
+          "sourceCountryCount": 258,
+          "sovereignRootCount": 207,
+          "triangleCount": 2153859,
+          "workers": [
+            {
+              "name": "pandolab-data-loader",
+              "type": "module"
+            },
+            {
+              "name": "",
+              "type": "module"
+            },
+            {
+              "name": "pandolab-country-shared-boundary",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-label-anchors",
+              "type": "classic"
+            },
+            {
+              "name": "reference-image-analysis",
+              "type": "classic"
+            },
+            {
+              "name": "",
+              "type": "classic"
+            },
+            {
+              "name": "",
+              "type": "classic"
+            },
+            {
+              "name": "",
+              "type": "classic"
+            }
+          ]
+        },
+        "ok": true,
+        "phase": "canonical-ready",
+        "schema": "pandolab-web-shell-world-probe",
+        "version": 1
+      }
+    },
+    {
+      "sourceFile": "windows-world-debug3-2026-10-23.json",
+      "sourceBlobSha": "ff2e416d611ed209c173a7e1d3e7a9685645a7be",
+      "report": {
+        "checks": {
+          "blockedRequests": "PASS",
+          "builtinWorld": "PASS",
+          "canonicalGeometry": "PASS",
+          "canonicalMesh": "PASS",
+          "dataLoaderWorker": "PASS",
+          "modelEntityCount": "PASS",
+          "packageProfile": "PASS",
+          "preview": "PASS",
+          "renderer": "PASS",
+          "sharedCore": "PASS",
+          "sourceCountryCount": "PASS",
+          "sovereignRootCount": "PASS"
+        },
+        "embeddedBuild": {
+          "commit": "08314289e08e814a1b13e805a8473003d5203ca6",
+          "coreSourceSha256": "412c93b0582ac0a4d11fef3472f01714ad19a3932ef96aa2d093b08002bea447",
+          "files": [
+            {
+              "bytes": 51379,
+              "path": "assets/wasm/pandoeditor-core.js",
+              "sha256": "2bfd9f4865b051d67d090fe36c284ed9e5f6ecade088416a11a2263563cd019b"
+            },
+            {
+              "bytes": 3064629,
+              "path": "assets/wasm/pandoeditor-core.wasm",
+              "sha256": "64c7d6ea552ecec8270787aa018e93dc27f3ed90b020de2f2d246038a480968e"
+            },
+            {
+              "bytes": 23553,
+              "path": "assets/wasm/pandoeditor-core.manifest.json",
+              "sha256": "9a356f39e47ba31caf6302901ab040d202770a380089173109cd80ec57a2bcf5"
+            }
+          ],
+          "fixture": null,
+          "schema": "pandolab-web-shell-stage",
+          "trackedDiffSha256": "f3e4af40493133cbc23bd8b9779c7620a7291c1edc75f923657d6d3d8353836a"
+        },
+        "observed": {
+          "activeWebGlContextCount": 1,
+          "blockedRequests": 0,
+          "canonicalGeometryReceivedMs": 3057.6000000089407,
+          "canonicalMeshReceivedMs": 16301.5,
+          "countryBaseIndexCount": 6461577,
+          "countryCount": 254,
+          "dataRevision": "data-94eafdbb58c052b7ec04668586e18007",
+          "expectedModelCount": 254,
+          "expectedRootCount": 207,
+          "expectedSourceCount": 258,
+          "previewReceivedMs": 280.5,
+          "readyMs": 18642.70000000298,
+          "renderer": "webgl2",
+          "sourceCountryCount": 258,
+          "sovereignRootCount": 207,
+          "triangleCount": 2153859,
+          "workers": [
+            {
+              "name": "pandolab-data-loader",
+              "type": "module"
+            },
+            {
+              "name": "",
+              "type": "module"
+            },
+            {
+              "name": "pandolab-country-shared-boundary",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-overlay-mesh",
+              "type": "classic"
+            },
+            {
+              "name": "pandolab-label-anchors",
+              "type": "classic"
+            },
+            {
+              "name": "",
+              "type": "classic"
+            }
+          ]
+        },
+        "ok": true,
+        "phase": "canonical-ready",
+        "schema": "pandolab-web-shell-world-probe",
+        "version": 1
+      }
+    }
+  ]
+}
