@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "kind": "island-border-source-verification-part",
+  "category": "island-batch-4",
+  "part": 1,
+  "sourceCommit": "f0f2fca3cf7a46e5af8e23bacdaf53d66522d29c",
+  "records": [
+    {
+      "sourceFile": "BHS-source-validation.json",
+      "blobSha": "ca9ce94c9b547b0cd53adeea3bc7c76aa92c49e5",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:BHS",
+        "rawProof": {
+          "entityId": "state:BHS",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "a6d07ada-5492-4f5a-806e-debb195f2ab9",
+          "rawBlobSha256": "268baeb52807bf09a60cd03f372f8e53d86305cc671af853ef302cf1380219b6",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 3974,
+          "coordinateCount": 481041,
+          "holes": 0,
+          "candidateSha256": "8ad43c3ebd80a6e1ead7fd454eac1b0b05bc4246965baf08d68b52012d411cb4",
+          "bytes": 19101230,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-BHS.json",
+          "originalDescriptorSha256": "24be8d169cb495aeb2fca5a064be3ee5d2c2016be7efbd025f48be271593f9e1",
+          "candidateDescriptorSha256": "2a3443c2c448ea03c51c242e5cbe7e134647b0b173e3013a7f398486b65c61c3",
+          "beforeCoordinates": 11949,
+          "afterCoordinates": 481041,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BHS:state:BHS:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-34e28f90158f0f0c9621e266cb0d6a160f1066fc16213d20cdb9503acc5f6748.json",
+            "sha256": "34e28f90158f0f0c9621e266cb0d6a160f1066fc16213d20cdb9503acc5f6748",
+            "bytes": 19100603
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/BHS-raw-proof.json",
+            "gitBlobSha": "9b73d59fcc161e73cd0983c0f2894a265de92d9c"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/BHS-source-candidate-check.json",
+            "gitBlobSha": "d21cc4f16aabc700e683e092900cd7fb8aa4329d"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "COM-source-validation.json",
+      "blobSha": "3dcf0bc3f47574dce9d08a7aab8c0bba13885511",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:COM",
+        "rawProof": {
+          "entityId": "state:COM",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "33865d52-f9ba-4919-8044-88aaa7bef23b",
+          "rawBlobSha256": "349675a82f168da066784113ca654213f4e14a6f44d1f8b2a57039543470770b",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 18,
+          "coordinateCount": 24039,
+          "holes": 0,
+          "candidateSha256": "1414dc6b0a510fc8e8894cf4ab4397dcaec9518049f84c4ac25b8f0de7cfa606",
+          "bytes": 964606,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-COM.json",
+          "originalDescriptorSha256": "72dad91c3c5b439c2b3ab977c65be4900f45061d5dc17c0a63eb7a5976d902ca",
+          "candidateDescriptorSha256": "e133f90fc0d2b12bc9bb0b1e4a05c27f614acab58b57a4e8264089b975d7da08",
+          "beforeCoordinates": 358,
+          "afterCoordinates": 24039,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:COM:state:COM:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-94e2fb4c178defad1056e15f5ea3e31139c8ad8c2a028e37b4d5319750827635.json",
+            "sha256": "94e2fb4c178defad1056e15f5ea3e31139c8ad8c2a028e37b4d5319750827635",
+            "bytes": 964016
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/COM-raw-proof.json",
+            "gitBlobSha": "7931920464ad529b4571e484bb5d8fad231f3e59"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/COM-source-candidate-check.json",
+            "gitBlobSha": "37fa83e6bce79894eea31e788c49f75f8abaf76d"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "FJI-source-validation.json",
+      "blobSha": "da14657c0772f06db190e84c07828245c0e617ca",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:FJI",
+        "rawProof": {
+          "entityId": "state:FJI",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "23477918-2e5a-4117-99fc-c907bc5e387b",
+          "rawBlobSha256": "27799b0cf5a49986bb5cf55a671c2b8208566b8be1b5a79124ea9bfa6a9ba961",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 530,
+          "coordinateCount": 114924,
+          "holes": 0,
+          "candidateSha256": "d1d466069528bb2153e4eed84cc74f7005195ef3ac59951d399a34ee28eb884f",
+          "bytes": 4633523,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-FJI.json",
+          "originalDescriptorSha256": "77ddfcb9fab74c4a38fa0e0a9e622717ccb53603352e20e5ce71eb7f841ac1ac",
+          "candidateDescriptorSha256": "635d3a2c11a9e8da5697e04e326c767ae7592f9625ba275348cb0513ae60670c",
+          "beforeCoordinates": 4321,
+          "afterCoordinates": 114924,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:FJI:state:FJI:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-e726f2714838d7c48253b62719b82560311a1b86493ec77af6b58db2188751c4.json",
+            "sha256": "e726f2714838d7c48253b62719b82560311a1b86493ec77af6b58db2188751c4",
+            "bytes": 4632956
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/FJI-raw-proof.json",
+            "gitBlobSha": "8a2ac829bbbc62345c6e102bd08a8517f3dc247f"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/FJI-source-candidate-check.json",
+            "gitBlobSha": "7ff85b0cbe99fe5ad046889d77a3de58c132f734"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "FSM-source-validation.json",
+      "blobSha": "3f3c6be86bcffea3e297db65f6129de368259860",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:FSM",
+        "rawProof": {
+          "entityId": "state:FSM",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "6ca3eab0-a635-4778-9311-166ef46e3a63",
+          "rawBlobSha256": "368f4d7803478cae65214a4cbca11711c87a483c774f3a8109daab83749f0d56",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 837,
+          "coordinateCount": 23398,
+          "holes": 0,
+          "candidateSha256": "b74634254ede836a31eb4ddd7de93954786042bf9c4238f7b3aff23f827407ae",
+          "bytes": 903003,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-FSM.json",
+          "originalDescriptorSha256": "8227af6dfbeefa69ad3f891ac0f0cefe0f59c5aa31d96350f8110faeae255f87",
+          "candidateDescriptorSha256": "cedb3133fcb4775b2cba156726e24dde9ce0faaefcb17fbec50b72d14277c840",
+          "beforeCoordinates": 1074,
+          "afterCoordinates": 23398,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:FSM:state:FSM:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-9d6006014d8232ddcd1a22cc625accf221e203f8b9495a19485ad518b5d8bcc4.json",
+            "sha256": "9d6006014d8232ddcd1a22cc625accf221e203f8b9495a19485ad518b5d8bcc4",
+            "bytes": 902273
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/FSM-raw-proof.json",
+            "gitBlobSha": "0638751bf27d46286ce0e360402c643e18437a12"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/FSM-source-candidate-check.json",
+            "gitBlobSha": "8e48a32d7b5cdf8a5c1f2a76e94920550756eef9"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "KIR-source-validation.json",
+      "blobSha": "0f43b973409600f61bf7f622960f7281ce5490db",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:KIR",
+        "rawProof": {
+          "entityId": "state:KIR",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "6a542429-4cb1-41cc-a91d-0956f79b8be4",
+          "rawBlobSha256": "67f03858f935ee3a05f24cabe655542d1e39a18ea0c5ec5b286da1107cf80ee4",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 463,
+          "coordinateCount": 34380,
+          "holes": 0,
+          "candidateSha256": "d20ee10c52ea16f27d3854e3ea87e4946b4271c4a3ea2ca566ce7f5caa67ed62",
+          "bytes": 1388236,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-KIR.json",
+          "originalDescriptorSha256": "74b33d3ba9a29f2d61f15b2a1e73c449053ec61c682d60071aa8fafcb468bda6",
+          "candidateDescriptorSha256": "15d0e27611cf0b3742e47d69f05b5f193bcf43cdb230bd216f06018e2a3b1949",
+          "beforeCoordinates": 1462,
+          "afterCoordinates": 34380,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:KIR:state:KIR:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-03d831881c3e1649d31d6223dc932b601b81ded1a5377b3405f955c7023bec36.json",
+            "sha256": "03d831881c3e1649d31d6223dc932b601b81ded1a5377b3405f955c7023bec36",
+            "bytes": 1387640
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/KIR-raw-proof.json",
+            "gitBlobSha": "c0f4f25e2739bb10daf2c7acd88cd7b1f278dd14"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/KIR-source-candidate-check.json",
+            "gitBlobSha": "28062d40b35f43e4035a588214623950a2d4dd7b"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "MHL-source-validation.json",
+      "blobSha": "7f74043eaa35b7bade56b2365488a7e038c8be4f",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:MHL",
+        "rawProof": {
+          "entityId": "state:MHL",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "4cfaa635-5642-4e23-a12e-c24f424411e4",
+          "rawBlobSha256": "e2452e7587e890ff8711bad41b0a4d1924838c262c54af7fd0584097120a57ce",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 1634,
+          "coordinateCount": 47704,
+          "holes": 0,
+          "candidateSha256": "1c2b33b3b21c009a3af506044199471abc1e903eb461865297ea9ed9dcd33534",
+          "bytes": 1851372,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-MHL.json",
+          "originalDescriptorSha256": "48d8110f02f99e411a00f89708190365f5c377bb4616f8e60d31acab8399049a",
+          "candidateDescriptorSha256": "025dd0db4bdbba6ed938d759eec65f44ae43a1f842efb2aad72eb3fcc8242503",
+          "beforeCoordinates": 1663,
+          "afterCoordinates": 47704,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:MHL:state:MHL:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-5f193d59f893940f17386edff951b65db7b66cdabc9d9ab7a62ca444aeefa0d2.json",
+            "sha256": "5f193d59f893940f17386edff951b65db7b66cdabc9d9ab7a62ca444aeefa0d2",
+            "bytes": 1850712
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/MHL-raw-proof.json",
+            "gitBlobSha": "34d1cf106cf981e05b8c87a26bc06cbb492e8d21"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/MHL-source-candidate-check.json",
+            "gitBlobSha": "a90ceecb9bead3b022854bc182419cb33317a2ba"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "MUS-source-validation.json",
+      "blobSha": "3153da863f529047a74996935a4280d3cf443d42",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:MUS",
+        "rawProof": {
+          "entityId": "state:MUS",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "2a233e35-bb67-445a-a026-911cd0af9f2f",
+          "rawBlobSha256": "7decc5cda7fb34fe40e60595499fc74e4bd2935ce3edd4730e9de108ea34e54f",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 92,
+          "coordinateCount": 25042,
+          "holes": 0,
+          "candidateSha256": "8b811debf2b7e928acacd46e8e67016cd6c9f3ca8ae868df7ea5a1588e2283d6",
+          "bytes": 1000259,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-MUS.json",
+          "originalDescriptorSha256": "c4fa053b7b0d6a6bd64bc1f1647e186e93498de6e99da572f565424648c44500",
+          "candidateDescriptorSha256": "c3365c4a1f8bd0a1d28817b693d2f48a5e70e7acc05959e88fd6c79a92cfbb8b",
+          "beforeCoordinates": 594,
+          "afterCoordinates": 25042,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:MUS:state:MUS:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-0ff7e474201ce0c2956cd76a966de71dc13baccdd34b28f75b3a45bafced556c.json",
+            "sha256": "0ff7e474201ce0c2956cd76a966de71dc13baccdd34b28f75b3a45bafced556c",
+            "bytes": 999656
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/MUS-raw-proof.json",
+            "gitBlobSha": "b427a5d49dabeb6c4a447158ce30072fc81aa2f0"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/MUS-source-candidate-check.json",
+            "gitBlobSha": "11ac2bff92552d1ffc37878a24a730ed752617dd"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "NRU-source-validation.json",
+      "blobSha": "849f6517622848a05ca2fe4cf957b52925cd11bc",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:NRU",
+        "rawProof": {
+          "entityId": "state:NRU",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "209f8761-4b15-402a-9826-1a21a50425c7",
+          "rawBlobSha256": "86d1cc023aa3413a061c6eb069f639df2d032ba2a3f2ce38d03286e74d7190de",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 1,
+          "coordinateCount": 83,
+          "holes": 0,
+          "candidateSha256": "2534f7756153d73c5be9e33bd4331a2b7f293c8f49a05c9d9af4840bf3196c57",
+          "bytes": 3981,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-NRU.json",
+          "originalDescriptorSha256": "a2b2ce40cd050220e34f731a4fb007e0473ed1a044d06042095c8c790d1fbaa6",
+          "candidateDescriptorSha256": "9ca7510734108b8da12c7fad3ebfc1d4c0a57dd13f9244bee2a99179e5f878d0",
+          "beforeCoordinates": 12,
+          "afterCoordinates": 83,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:NRU:state:NRU:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-70bca916d8798a4a59cef91315e226b409bf0754bef482670cef568ad83be6c2.json",
+            "sha256": "70bca916d8798a4a59cef91315e226b409bf0754bef482670cef568ad83be6c2",
+            "bytes": 3406
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/NRU-raw-proof.json",
+            "gitBlobSha": "73393ef88b133bec20775a671b7e492397a85f66"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-4/NRU-source-candidate-check.json",
+            "gitBlobSha": "d88ce35993a47314a532c3bae5c01f7679952eac"
+          }
+        }
+      }
+    }
+  ],
+  "retiredUnappliedDescriptors": [
+    {
+      "sourceFile": "BHS-existing-source-candidate.json",
+      "blobSha": "a3d9d4ed13c30708a5e3ce38467f7f98f91e6abc"
+    },
+    {
+      "sourceFile": "COM-existing-source-candidate.json",
+      "blobSha": "b83f070a951fd04578346762cf56cbfdbc1bee15"
+    },
+    {
+      "sourceFile": "FJI-existing-source-candidate.json",
+      "blobSha": "b0248763be10f914cd5709cf6f8dbbf8d75e3331"
+    },
+    {
+      "sourceFile": "FSM-existing-source-candidate.json",
+      "blobSha": "ddd661ae0155c7c48da653bf61a5d146bbc8856e"
+    },
+    {
+      "sourceFile": "KIR-existing-source-candidate.json",
+      "blobSha": "94d03e5807439df4ad4c664c1867521634f15840"
+    },
+    {
+      "sourceFile": "MHL-existing-source-candidate.json",
+      "blobSha": "7694c725f430d475dee9236750f00362d9f4a8b2"
+    },
+    {
+      "sourceFile": "MUS-existing-source-candidate.json",
+      "blobSha": "36830bf94b27e05181eeaa327cd2426dce580f7a"
+    },
+    {
+      "sourceFile": "NRU-existing-source-candidate.json",
+      "blobSha": "9db289b195e02c91d25201df20a019dfd2797cbe"
+    }
+  ]
+}
