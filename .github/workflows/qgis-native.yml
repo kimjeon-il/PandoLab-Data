@@ -25,7 +25,7 @@ jobs:
             config
       - uses: actions/checkout@v4
         with:
-          repository: kimjeon-il/Pando
+          repository: kimjeon-il/PandoLab
           ref: 19fd518ca115786d0179347f677cb94596110ed4
           path: .dependencies/pando
           persist-credentials: false

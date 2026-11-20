@@ -10,5 +10,5 @@ if(run(['git','status','--porcelain','--untracked-files=no']))throw Error('Commi
 const head=run(['git','rev-parse','HEAD']),branch=run(['git','symbolic-ref','--short','HEAD']);
 if(run(['git','ls-remote','--heads','origin','refs/heads/'+branch]).split(/\s+/)[0]!==head)throw Error('Push the exact tool revision before dispatch.');
 const requestId=randomUUID();
-run(['gh','workflow','run',selection[1],'--repo','kimjeon-il/PandoLab-library','--ref',branch,'-f','request_id='+requestId]);
+run(['gh','workflow','run',selection[1],'--repo','kimjeon-il/PandoLab-Data','--ref',branch,'-f','request_id='+requestId]);
 console.log(JSON.stringify({check:selection[0],revision:head,branch,requestId}));

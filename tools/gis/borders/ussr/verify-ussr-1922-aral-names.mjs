@@ -101,7 +101,7 @@ export async function main(argv=process.argv.slice(2),{readRemote=get}={}){
  }
  fail(root&&output&&!existsSync(output),'New private proof file required');
  const config=JSON.parse(readFileSync(join(ROOT,'config/library-data.json'),'utf8'));
- fail(config.repository==='kimjeon-il/PandoLab-library'&&/^[a-f0-9]{40}$/.test(config.revision),
+ fail(config.repository==='kimjeon-il/PandoLab-Data'&&/^[a-f0-9]{40}$/.test(config.revision),
    'Aral historical archive revision must be immutable');
  const base='https://raw.githubusercontent.com/'+config.repository+'/'+config.revision+'/';
  const index=JSON.parse((await readRemote(base+'archive/index.json')).toString('utf8'));

@@ -81,7 +81,7 @@ const get=async url=>{
 export async function readApprovedCorrectionReports(index,pin,{readRemote=get}={}){
   fail(pin===APPROVED_DATA_PIN,'An unreviewed data revision cannot inherit the historical correction approval');
   fail(index?.files &&typeof index.files==='object','Pinned correction archive index missing');
-  const base='https://raw.githubusercontent.com/kimjeon-il/PandoLab-library/'+pin+'/';
+  const base='https://raw.githubusercontent.com/kimjeon-il/PandoLab-Data/'+pin+'/';
   const reports={},receipts=[];
   for(const [key,expected] of Object.entries(PROOFS)){
     fail(MATCH_SHA.test(expected.sha256||'')&&Number.isSafeInteger(expected.bytes)&&expected.bytes>0,
@@ -311,7 +311,7 @@ export async function main(args=process.argv.slice(2),{readRemote=get}={}){
  const output=resolve(flags.get('--output'));
  fail(!existsSync(output),'Refusing to overwrite prior USSR descendant audit');
  const config=JSON.parse(readFileSync(join(ROOT,'config/library-data.json'),'utf8'));
- fail(config.repository==='kimjeon-il/PandoLab-library'
+ fail(config.repository==='kimjeon-il/PandoLab-Data'
    &&config.revision===APPROVED_DATA_PIN,'Unreviewed historical runtime data revision');
  const base='https://raw.githubusercontent.com/'+config.repository+'/'+config.revision+'/';
  const index=JSON.parse((await readRemote(base+'archive/index.json')).toString('utf8'));

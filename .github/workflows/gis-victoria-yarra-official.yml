@@ -26,7 +26,7 @@ jobs:
           sparse-checkout-cone-mode: false
       - uses: actions/checkout@v4
         with:
-          repository: kimjeon-il/Pando
+          repository: kimjeon-il/PandoLab
           ref: 19fd518ca115786d0179347f677cb94596110ed4
           path: .dependencies/pando
           persist-credentials: false
@@ -56,7 +56,7 @@ jobs:
       - name: Fetch only the pinned Hydro bundle
         uses: actions/checkout@v4
         with:
-          repository: kimjeon-il/PandoLab-library
+          repository: kimjeon-il/PandoLab-Data
           ref: ${{ steps.hydro-data-pin.outputs.revision }}
           path: .dependencies/pando/.pando-hydro-input
           persist-credentials: false

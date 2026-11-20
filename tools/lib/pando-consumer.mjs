@@ -9,7 +9,7 @@ export function consumerResolver({root,pin,libraryRoot}) {
   if(!root)throw Error('Set PANDO_CONSUMER_ROOT to the paired Pando checkout.');
   root=realpathSync(root);
   if(libraryRoot)libraryRoot=realpathSync(libraryRoot);
-  if(pin?.repository!=='kimjeon-il/Pando'||!/^[a-f0-9]{40}$/.test(pin.revision)||!pin.files)throw Error('A pinned Pando code dependency is required.');
+  if(pin?.repository!=='kimjeon-il/PandoLab'||!/^[a-f0-9]{40}$/.test(pin.revision)||!pin.files)throw Error('A pinned Pando code dependency is required.');
   const verified=new Set();
   const verify=path=>{
     const name=relative(root,path).split(sep).join('/');
