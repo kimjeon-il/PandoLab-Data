@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-modern-border-source-verification",
+  "category": "independent-modern-batch-7",
+  "sourceCommit": "d9de3d85d25a66ba9236e152fe971e51e967f108",
+  "records": [
+    {
+      "sourceFile": "BHR-source-validation.json",
+      "blobSha": "58bbdcac6b993acd26c035b87402e7aaf58b62ae",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:BHR",
+        "rawProof": {
+          "entityId": "state:BHR",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "2e3f407f-20b0-4028-8db3-9d958fe0d86b",
+          "rawBlobSha256": "ea5eadeb994c3b0c84485d9af5a43c40042f322ed6ef2a4dfaba13e7944efddc",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 74,
+          "coordinateCount": 19731,
+          "holes": 0,
+          "candidateSha256": "7132481e34fc0c866de464945804b6b888d659af3a7187cc5f92d249a262c41a",
+          "bytes": 769295,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-BHR.json",
+          "originalDescriptorSha256": "0a282c817c2b60df74409cb6833cbde5798a0bbe993b7be079247715ca06231b",
+          "candidateDescriptorSha256": "f2dde52d2d5513f2a17949b007c7bc944acc8f5312fa0444f873544ccc87648e",
+          "beforeCoordinates": 615,
+          "afterCoordinates": 19731,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:BHR:state:BHR:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-6fd13c969b828c155697625556f1c55d938a7d0bf259ba110066ecc62db1aa70.json",
+            "sha256": "6fd13c969b828c155697625556f1c55d938a7d0bf259ba110066ecc62db1aa70",
+            "bytes": 768709
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/independent-modern-batch-7/BHR-raw-proof.json",
+            "gitBlobSha": "708eb09e64b44091a211d1a5ecba4f5e9e6c4ccf"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/independent-modern-batch-7/BHR-source-candidate-check.json",
+            "gitBlobSha": "428039883dd4be3d31ef77e84da1b2192127768c"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "SGP-source-validation.json",
+      "blobSha": "71cfb6d56e4d1559df6b53db5c3240436d95a7d8",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:SGP",
+        "rawProof": {
+          "entityId": "state:SGP",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "7761d89c-01a0-4ad5-b32b-afc48b3da91b",
+          "rawBlobSha256": "ab09ecf588a3b3356dad09d2a695a2105ec42af397ef5dc8069d2fb3bdd61901",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 51,
+          "coordinateCount": 16668,
+          "holes": 0,
+          "candidateSha256": "960529237161e5083535f25a78e7a872477eb834996a37f7304fe96ceae4af0b",
+          "bytes": 663364,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-SGP.json",
+          "originalDescriptorSha256": "b06ffd6db29c0de65d4dfde49fae1b5f2022ac63646265d2f6b08ab05361b6f2",
+          "candidateDescriptorSha256": "4429f211dfccc4f2a89866efcc525f02253fc3e17bf0459d52b4d29de8b757e2",
+          "beforeCoordinates": 506,
+          "afterCoordinates": 16668,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:SGP:state:SGP:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-a21ba3f9a7bfc75611a480228038b1d341b51704958200f743956cff2f274923.json",
+            "sha256": "a21ba3f9a7bfc75611a480228038b1d341b51704958200f743956cff2f274923",
+            "bytes": 662761
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/independent-modern-batch-7/SGP-raw-proof.json",
+            "gitBlobSha": "5b65bf1ad1fbd86a3629dc55a40ff7d8de4d5957"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/independent-modern-batch-7/SGP-source-candidate-check.json",
+            "gitBlobSha": "6978e3a0e512a8ae918aab88b6b5ad4b1ffb210d"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "applied-result.json",
+      "blobSha": "cccbe299d69d1db9b8eb13f66d1ee4483a74fad2",
+      "content": {
+        "base": "3a4eafbbb985b4ccf94dcde8f5377ea1209c21ac",
+        "revision": "eacb5ff7658c79218810caf39b720c30e00103cf",
+        "codes": [
+          "SGP",
+          "BHR"
+        ],
+        "changed": [
+          "assets/data/territorial-entities/source/countries/state-BHR.json",
+          "assets/data/territorial-entities/source/countries/state-SGP.json",
+          "assets/data/territorial-entities/source/geometries/sha256-6fd13c969b828c155697625556f1c55d938a7d0bf259ba110066ecc62db1aa70.json",
+          "assets/data/territorial-entities/source/geometries/sha256-a21ba3f9a7bfc75611a480228038b1d341b51704958200f743956cff2f274923.json"
+        ],
+        "readback": true,
+        "rawLossless": true,
+        "remote": false,
+        "runtime": false
+      }
+    },
+    {
+      "sourceFile": "cleanup.json",
+      "blobSha": "6c0166665307d90ff40b1393e2adedbe7ddd29c3",
+      "content": {
+        "removed": [
+          {
+            "file": "SGP-raw-candidate.geojson",
+            "bytes": 663364
+          },
+          {
+            "file": "SGP-before.geojson",
+            "bytes": 20259
+          },
+          {
+            "file": "geometries/sha256-a21ba3f9a7bfc75611a480228038b1d341b51704958200f743956cff2f274923.json",
+            "bytes": 662761
+          },
+          {
+            "file": "BHR-raw-candidate.geojson",
+            "bytes": 769295
+          },
+          {
+            "file": "BHR-before.geojson",
+            "bytes": 24126
+          },
+          {
+            "file": "geometries/sha256-6fd13c969b828c155697625556f1c55d938a7d0bf259ba110066ecc62db1aa70.json",
+            "bytes": 768709
+          }
+        ],
+        "reason": "verified committed raw original coordinates; redundant temporary exports",
+        "logicalBytes": 2908514
+      }
+    },
+    {
+      "sourceFile": "island-batch-geographic-review.json",
+      "blobSha": "e614762e44fde88b1124d08ddae028ada155c275",
+      "content": [
+        {
+          "code": "SGP",
+          "rawBounds": [
+            103.60556440000005,
+            104.08555260000009,
+            1.15882670000002,
+            1.471145300000046
+          ],
+          "previousBounds": [
+            103.60564700000003,
+            104.08550440000005,
+            1.1663726000000452,
+            1.4705595000000358
+          ],
+          "rawPolygonCount": 51,
+          "previousPolygonCount": 28,
+          "rawAreaSquareDegrees": 0.05845019282618602,
+          "previousAreaSquareDegrees": 0.05796527791049674,
+          "rawNeighbours": [
+            {
+              "id": "6a542429-4cb1-41cc-a91d-0956f79b8be4",
+              "name": "Kiribati",
+              "code": "KIR",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+              "name": "Indonesia",
+              "code": "IDN",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "0a5cca76-0164-4fb9-bd31-2439df440882",
+              "name": "Malaysia",
+              "code": "MYS",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            }
+          ],
+          "scope": "Raw neighbour intersections measured; shared boundary contact allowed only with zero overlap area. No geopolitical repartition; unchanged parent and all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        },
+        {
+          "code": "BHR",
+          "rawBounds": [
+            50.31039320000008,
+            50.825309900000036,
+            25.572880200000043,
+            26.487288800000044
+          ],
+          "previousBounds": [
+            50.31039320000008,
+            50.821431000000075,
+            25.572880200000043,
+            26.423357400000043
+          ],
+          "rawPolygonCount": 74,
+          "previousPolygonCount": 36,
+          "rawAreaSquareDegrees": 0.0707171260872429,
+          "previousAreaSquareDegrees": 0.07030673223239677,
+          "rawNeighbours": [
+            {
+              "id": "9c11e0fc-6619-4236-bff0-8c0390b760f4",
+              "name": "Iran",
+              "code": "IRN",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "3b0aaca4-8e48-404d-bcc4-7f234caa694b",
+              "name": "Qatar",
+              "code": "QAT",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "cb9804a0-7a4b-4739-bd9a-42745282233b",
+              "name": "Saudi Arabia",
+              "code": "SAU",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            },
+            {
+              "id": "c67465de-2c9f-4ea8-8e98-3c99e1942b44",
+              "name": "United States",
+              "code": "USA",
+              "intersects": false,
+              "intersectionArea": 0,
+              "sharedBoundaryLengthDegrees": 0
+            }
+          ],
+          "scope": "Raw neighbour intersections measured; shared boundary contact allowed only with zero overlap area. No geopolitical repartition; unchanged parent and all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        }
+      ]
+    }
+  ],
+  "retiredUnappliedDescriptors": [
+    {
+      "sourceFile": "BHR-existing-source-candidate.json",
+      "blobSha": "1c76abafb48dbf509e9d7502a8b20b80b8934102"
+    },
+    {
+      "sourceFile": "SGP-existing-source-candidate.json",
+      "blobSha": "67906e5bbfdcfdc70e46e4ef0f46e2c11073aaf0"
+    }
+  ]
+}
