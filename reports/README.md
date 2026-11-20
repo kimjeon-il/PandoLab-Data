@@ -19,3 +19,9 @@
 - 수계 원본: `assets/data/hydro/` — 원본·매니페스트·출처·파생 관계
 
 기술 자료는 역사 입력 조사 색인 `reports/research/catalog.json`에 포함하지 않습니다. 중복 로그·동일 캡처·불필요한 CI 추적 자료만 참조 관계를 확인하여 정리합니다.
+
+### P1 기술자료 통합 (2026-11-20)
+
+- [현대 국경 원본·후보 통합 검증서 색인](borders/validation/modern-raw-source-20261110/merged-source-validation-index.json): 짝을 이루는 94개 증거를 47개 객체별 검증서로 통합. 단독 원본 증거 39개 유지.
+- [수계 재구성 공통 도구](hydro/names/reconstruction-2026-10-09/shared/README.md): 중복 스크립트 95개(원본 12종)를 공통 복구·검사·지오메트리 구현과 배치별 정책표로 정리. 원본 Git SHA는 [버전 매핑](hydro/names/reconstruction-2026-10-09/shared/version-map.json)에 보관.
+- [WebGL2 측정 실행 메타데이터](development/rendering/project-common-lod-2026-11-10/evidence/world-webgl2.metadata.json): 동일한 두 측정본을 `world-webgl2.json` 정본 하나로 통합.
