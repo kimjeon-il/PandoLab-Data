@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "99aa252d1bf360a207308cb61c668f912288dd9c",
+  "removedTrainingLogs": [
+    {
+      "path": "models/diverse-v1/export.log",
+      "blobSha": "6d3dc3245a4616a2cc460fe79dcca5ad89ed781f"
+    },
+    {
+      "path": "models/diverse-v1/training.log",
+      "blobSha": "9dfbfe03bd2dd59448f03815c1d3500d60f0e162"
+    },
+    {
+      "path": "models/diverse-v2/evidence/semap-expanded-acquire-attempt2.log",
+      "blobSha": "6ea8928a119bbb11c8f0eb0d5b95a56023aec37d"
+    },
+    {
+      "path": "models/diverse-v2/evidence/semap-expanded-acquire-attempt3.log",
+      "blobSha": "b4eb91a69ac03c1e173678cbc4c47b0290203f37"
+    },
+    {
+      "path": "models/diverse-v2/evidence/semap-expanded-acquire-final.log",
+      "blobSha": "365d90b4a8d2b85febe03a8e698cf51b0fa27e0c"
+    },
+    {
+      "path": "models/diverse-v2/evidence/semap-expanded-acquire.log",
+      "blobSha": "3af958c7c5e54a7a68a17ca7dda8a20cd2be4cdc"
+    },
+    {
+      "path": "models/diverse-v2/training.log",
+      "blobSha": "947eff3ddee07cea08b53609f33a0c1bd16e5219"
+    },
+    {
+      "path": "models/macro-v1/training.log",
+      "blobSha": "f8332e7b684dde8615255a149df22c0016327a08"
+    },
+    {
+      "path": "models/macro-v2/training.log",
+      "blobSha": "0df0b80e8a593b72c0eec8a9611ec93fc85f1b6d"
+    },
+    {
+      "path": "models/macro-v3/training.log",
+      "blobSha": "04a24758efca92e23a18f3c0641252a27d52d9d0"
+    },
+    {
+      "path": "models/macro-v4/training.log",
+      "blobSha": "f36099509c745e06820b701df856ff2454a75daf"
+    },
+    {
+      "path": "models/macro-v5/training.log",
+      "blobSha": "23a99d3ca0bfea9a4e7583c8984d61c35fd34633"
+    },
+    {
+      "path": "models/usgs-publisher-v1/training.log",
+      "blobSha": "177e7bbd791f9d107d2e8ed184375824b62798d6"
+    }
+  ]
+}
