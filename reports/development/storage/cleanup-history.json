@@ -1,0 +1,565 @@
+{
+  "schema": "pando-cleanup-history-consolidated-v1",
+  "records": [
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-064136-823.json",
+      "sourceSha256": "364048f53719c0e7e2b9a116aa81bf5fa11fd3b82b135794c9dd885b316b2443",
+      "sourceBytes": 614,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-22T21:43:20.3111391Z",
+        "apply": false,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 827938869,
+        "deletedBytes": 0,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\81f6c2a54224427c1f9081bdb9310520774903f5",
+            "revision": "81f6c2a54224427c1f9081bdb9310520774903f5",
+            "status": "verified-unused",
+            "bytes": 827938869,
+            "files": 2425,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-070717-303.json",
+      "sourceSha256": "d44e5637f9bad957a4a1a3dcfeecb31a426fa6bb0e39242e00fa4cc11ce68aa5",
+      "sourceBytes": 852,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-22T22:08:22.3062117Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 608465812,
+        "deletedBytes": 608465812,
+        "entries": [
+          {
+            "kind": "retired-app-binary",
+            "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-8f21b66dd513f179.exe",
+            "status": "removed",
+            "bytes": 370047780,
+            "reason": ""
+          },
+          {
+            "kind": "retired-app-binary",
+            "path": "D:\\dev\\worktrees\\ui\\apps\\web-shell\\src-tauri\\target\\x86_64-pc-windows-gnu\\debug\\deps\\pandolab_web_shell-957be31c0842e320.exe",
+            "status": "removed",
+            "bytes": 238418032,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-071110-588.json",
+      "sourceSha256": "c7b9f904c3eef4263ce60d14699cda8a27d25395b5f233165ad7eb394ecdf801",
+      "sourceBytes": 498,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-22T22:11:12.8986895Z",
+        "apply": false,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 2699482830,
+        "deletedBytes": 0,
+        "entries": [
+          {
+            "kind": "emulator-quickboot",
+            "path": "D:\\Android\\avd\\medium_phone.avd\\snapshots\\default_boot",
+            "status": "verified-unused",
+            "bytes": 2699482830,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-071809-513.json",
+      "sourceSha256": "6a812caf4784a617f39f4a64d1010a0531d43b84f56178dbef978fbba78cf13b",
+      "sourceBytes": 3393,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-22T22:18:29.5823157Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 253792256,
+        "deletedBytes": 253792256,
+        "entries": [
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-70789caf-failed\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 22678528,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 22678528,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-4418b791\\qt-runtime\\candidate-ui_tests.exe",
+            "status": "removed",
+            "bytes": 22564864,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 22670848,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-9bd078c7\\qt-runtime\\candidate-ui_tests.exe",
+            "status": "removed",
+            "bytes": 22546432,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-baseline\\p9-windows-qt-baseline-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23473152,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23473152,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-ad3ba73b-candidate\\p9-windows-qt-candidate-ad3ba73b74fe92467f094b8ac558487835de432a\\qt-runtime\\candidate-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23380480,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-baseline\\p9-windows-qt-baseline-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23473152,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\baseline-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23473152,
+            "reason": ""
+          },
+          {
+            "kind": "retired-qt-test",
+            "path": "D:\\dev\\worktrees\\objects\\build-native\\p9\\qt-pair-b81c6173-candidate\\p9-windows-qt-candidate-b81c61737ce45a716519b91464927134f58e474a\\qt-runtime\\candidate-ui_tests.exe",
+            "status": "removed",
+            "bytes": 23379968,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-205120-469.json",
+      "sourceSha256": "eb787b80bed4bf256d3043ea560c7bf74108690f25412f1e88a9452afe4b1b79",
+      "sourceBytes": 614,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-23T11:52:36.3990653Z",
+        "apply": false,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 845840586,
+        "deletedBytes": 0,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d3cb6c0097d4d466c878623e2944a1d28a084389",
+            "revision": "d3cb6c0097d4d466c878623e2944a1d28a084389",
+            "status": "verified-unused",
+            "bytes": 845840586,
+            "files": 2438,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-205834-873.json",
+      "sourceSha256": "06587f97543816be13eb8b9a2dffacac43c6ad3bf2566a893eb172f121805252",
+      "sourceBytes": 613,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-23T11:58:59.2682860Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 845840586,
+        "deletedBytes": 845840586,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d3cb6c0097d4d466c878623e2944a1d28a084389",
+            "revision": "d3cb6c0097d4d466c878623e2944a1d28a084389",
+            "status": "removed",
+            "bytes": 845840586,
+            "files": 2438,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261023-211420-925.json",
+      "sourceSha256": "73155e0a3f949f8db1929b7a45774e6187901d6aefb52874a580fb4cc1aa7b54",
+      "sourceBytes": 3681,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-23T12:21:41.1239020Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "eligibleBytes": 4547665154,
+        "deletedBytes": 4547665154,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+            "revision": "00aa69a52b4b2d56fcfbd7e5b8ceba173776527b",
+            "status": "protected-or-failed",
+            "bytes": 0,
+            "files": 0,
+            "reason": "Extra or missing files; preserve cache."
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\1373ef67d0a5ca8baf34edf493daa18fef37b9c7",
+            "revision": "1373ef67d0a5ca8baf34edf493daa18fef37b9c7",
+            "status": "removed",
+            "bytes": 997738928,
+            "files": 2651,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36818f327b5d7a423dbf51db79106197786b69f6",
+            "revision": "36818f327b5d7a423dbf51db79106197786b69f6",
+            "status": "protected-or-failed",
+            "bytes": 0,
+            "files": 0,
+            "reason": "Extra or missing files; preserve cache."
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+            "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\80fefc44bb70cb9eed7032e4d6e4fd3662e8deaa",
+            "revision": "80fefc44bb70cb9eed7032e4d6e4fd3662e8deaa",
+            "status": "removed",
+            "bytes": 845840586,
+            "files": 2438,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+            "revision": "b4c115dc2b9b0ddea4261475807b86f9af2d836a",
+            "status": "removed",
+            "bytes": 845840586,
+            "files": 2438,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\bae09cf0380569a176d3e19dda40f94c55668227",
+            "revision": "bae09cf0380569a176d3e19dda40f94c55668227",
+            "status": "removed",
+            "bytes": 845840586,
+            "files": 2438,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\bfc9adccd7b6efc4e07e898e15a45814b0f730d6",
+            "revision": "bfc9adccd7b6efc4e07e898e15a45814b0f730d6",
+            "status": "protected-or-failed",
+            "bytes": 0,
+            "files": 0,
+            "reason": "Extra or missing files; preserve cache."
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+            "revision": "f8114d67ff786f3b6d252c034b8654b2dde4d75b",
+            "status": "protected-or-failed",
+            "bytes": 0,
+            "files": 0,
+            "reason": "Extra or missing files; preserve cache."
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\fa2de64ac125e768e9ce54137a07591be8d5f506",
+            "revision": "fa2de64ac125e768e9ce54137a07591be8d5f506",
+            "status": "removed",
+            "bytes": 1012404468,
+            "files": 2495,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261024-204606-421.json",
+      "sourceSha256": "1628d444247a742b525c6d2ba53d9c0ab096dc0ddb8deaed46c6e596330884fb",
+      "sourceBytes": 2177,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-24T11:46:09.1627420Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "freeBytesBefore": 25814831104,
+        "freeBytesAfter": 28499251200,
+        "freeBytesDelta": 2684420096,
+        "eligibleBytes": 2684420096,
+        "deletedBytes": 2684420096,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+            "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_9xSZPv",
+            "status": "protected-or-failed",
+            "bytes": 421265408,
+            "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_OfPqh8",
+            "status": "protected-or-failed",
+            "bytes": 978190336,
+            "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+          },
+          {
+            "kind": "emulator-quickboot",
+            "path": "D:\\Android\\avd\\medium_phone.avd\\snapshots\\default_boot",
+            "status": "removed",
+            "bytes": 2684420096,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261024-204645-976.json",
+      "sourceSha256": "f1566bc74d1ea66aebab76326587d8f4afd5780e921e8cff91b7c35201d94f69",
+      "sourceBytes": 1944,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-24T11:46:48.4386036Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "freeBytesBefore": 28499247104,
+        "freeBytesAfter": 28499247104,
+        "freeBytesDelta": 0,
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+            "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_9xSZPv",
+            "status": "protected-or-failed",
+            "bytes": 421265408,
+            "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_OfPqh8",
+            "status": "protected-or-failed",
+            "bytes": 978190336,
+            "reason": "Git failed: fatal: missing blob object '179bd5a9c7bb57c4f8690c8b0adb36ff13a2780e'"
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261024-205409-039.json",
+      "sourceSha256": "6a1e26f01677d6099b575c0b178241320de4f3109164dc0121c5b55a4446376a",
+      "sourceBytes": 1785,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-24T11:54:12.1454588Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "freeBytesBefore": 28499243008,
+        "freeBytesAfter": 29898698752,
+        "freeBytesDelta": 1399455744,
+        "eligibleBytes": 1399455744,
+        "deletedBytes": 1399455744,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+            "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_9xSZPv",
+            "status": "removed",
+            "bytes": 421265408,
+            "reason": ""
+          },
+          {
+            "kind": "abandoned-git-pack",
+            "path": "D:\\dev\\PandoLab-library-data\\.git\\objects\\pack\\tmp_pack_OfPqh8",
+            "status": "removed",
+            "bytes": 978190336,
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "sourcePath": "reports/development/storage/cleanup-result-20261024-205422-792.json",
+      "sourceSha256": "5b26038b5845aa40af81cca562017299668ee34dbc3db614917d87971aabdcde",
+      "sourceBytes": 1330,
+      "data": {
+        "schemaVersion": 1,
+        "at": "2026-10-24T11:54:25.0016969Z",
+        "apply": true,
+        "repository": "D:\\dev\\worktrees\\ui",
+        "cacheRoot": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized",
+        "freeBytesBefore": 29898694656,
+        "freeBytesAfter": 29898694656,
+        "freeBytesDelta": 0,
+        "eligibleBytes": 0,
+        "deletedBytes": 0,
+        "entries": [
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "revision": "36210d5fde7d4d2301d0ff1335cf728e23b24195",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\71a67904db2beb933735727ad6c19adde082d2bd",
+            "revision": "71a67904db2beb933735727ad6c19adde082d2bd",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          },
+          {
+            "kind": "data-cache",
+            "path": "D:\\dev\\PandoLab-library-data\\.pando-cache\\materialized\\d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "revision": "d401965fdbbcb53b54602b1d8736554b8ebc7dda",
+            "status": "protected-active",
+            "bytes": 0,
+            "files": 0,
+            "reason": ""
+          }
+        ]
+      }
+    }
+  ]
+}
