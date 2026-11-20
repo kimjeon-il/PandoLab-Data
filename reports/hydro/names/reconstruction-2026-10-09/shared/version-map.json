@@ -226,7 +226,7 @@
     },
     {
       "batches": "r39-r46",
-      "tests": "22 corruption cases"
+      "tests": "21 corruption cases"
     }
   ],
   "canonicalImplementations": [
