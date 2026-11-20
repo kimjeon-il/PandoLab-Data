@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "kind": "retired-ui-release-validation-consolidated",
+  "sourceCommit": "cd82382199783fd24ca9de13b019bde61cd766cc",
+  "status": "historical release-only, not current viewer acceptance",
+  "finalEvidence": [
+    {
+      "sourceFile": "main-integration.json",
+      "blobSha": "12202908b6389384eece8917fa259b1afd2136e8",
+      "content": {
+        "previousMain": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+        "main": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "workUi": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "method": "fast-forward",
+        "force": false,
+        "integratedAt": "2026-11-01 02:48:28 UTC",
+        "advance": 201,
+        "changedFiles": 229
+      }
+    },
+    {
+      "sourceFile": "narrow-release.json",
+      "blobSha": "73cf2fb84a393e75a9fc2319b2a5fa9106011ccf",
+      "content": {
+        "scope": "P6-2",
+        "checksCompleted": true,
+        "revision": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "browser": "151.0.7922.34",
+        "node": "v24.22.1",
+        "environment": {
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "hasTouch": true,
+          "isMobile": true,
+          "locale": "ko-KR",
+          "timezone": "Asia/Seoul",
+          "fixedTime": "2026-10-31T00:00:00+09:00"
+        },
+        "observations": [
+          {
+            "step": "initial",
+            "month": "2026-10",
+            "year": 2026,
+            "basis": "현재 월 기준",
+            "presented": true,
+            "visible": 254,
+            "history": {
+              "dirty": false,
+              "documentDirty": false,
+              "presentationDirty": false,
+              "canUndo": false,
+              "canRedo": false
+            },
+            "canvas": {
+              "width": 390,
+              "height": 844
+            },
+            "theme": "light",
+            "pageScale": 1,
+            "camera": {
+              "projection": "globe",
+              "globeRotation": [
+                -28.780322171285178,
+                -57.15777575485557,
+                0
+              ],
+              "globeZoom": 1.25,
+              "flatCenter": [
+                0,
+                20
+              ],
+              "flatZoom": 1
+            }
+          },
+          {
+            "step": "touch-pan-pinch",
+            "month": "2026-10",
+            "year": 2026,
+            "basis": "현재 월 기준",
+            "presented": true,
+            "visible": 254,
+            "history": {
+              "dirty": false,
+              "documentDirty": false,
+              "presentationDirty": false,
+              "canUndo": false,
+              "canRedo": false
+            },
+            "canvas": {
+              "width": 390,
+              "height": 844
+            },
+            "theme": "light",
+            "pageScale": 1,
+            "camera": {
+              "projection": "globe",
+              "globeRotation": [
+                -17.052265334318037,
+                -60.72503799431585,
+                0
+              ],
+              "globeZoom": 2.0169619192174895,
+              "flatCenter": [
+                0,
+                20
+              ],
+              "flatZoom": 1
+            }
+          },
+          {
+            "step": "direct-year",
+            "month": "2024-12",
+            "year": 2024,
+            "basis": "연말 기준",
+            "presented": true,
+            "visible": 254,
+            "history": {
+              "dirty": false,
+              "documentDirty": false,
+              "presentationDirty": false,
+              "canUndo": false,
+              "canRedo": false
+            },
+            "canvas": {
+              "width": 390,
+              "height": 844
+            },
+            "theme": "light",
+            "pageScale": 1,
+            "camera": {
+              "projection": "globe",
+              "globeRotation": [
+                -17.052265334318037,
+                -60.72503799431585,
+                0
+              ],
+              "globeZoom": 2.0169619192174895,
+              "flatCenter": [
+                0,
+                20
+              ],
+              "flatZoom": 1
+            }
+          },
+          {
+            "step": "mobile-preferences",
+            "month": "2024-12",
+            "year": 2024,
+            "basis": "연말 기준",
+            "presented": true,
+            "visible": 254,
+            "history": {
+              "dirty": false,
+              "documentDirty": false,
+              "presentationDirty": false,
+              "canUndo": false,
+              "canRedo": false
+            },
+            "canvas": {
+              "width": 390,
+              "height": 844
+            },
+            "theme": "dark",
+            "pageScale": 1,
+            "camera": {
+              "projection": "globe",
+              "globeRotation": [
+                -17.052265334318037,
+                -60.72503799431585,
+                0
+              ],
+              "globeZoom": 2.0169619192174895,
+              "flatCenter": [
+                0,
+                20
+              ],
+              "flatZoom": 1
+            }
+          }
+        ],
+        "layouts": [
+          {
+            "selector": "html",
+            "left": 0,
+            "right": 390,
+            "top": 0,
+            "bottom": 844,
+            "width": 390,
+            "height": 844,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          {
+            "selector": "#map",
+            "left": 0,
+            "right": 390,
+            "top": 0,
+            "bottom": 844,
+            "width": 390,
+            "height": 844,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 390,
+            "clientWidth": 390
+          },
+          {
+            "selector": ".viewer-map-tools",
+            "left": 6,
+            "right": 384,
+            "top": 714,
+            "bottom": 834,
+            "width": 378,
+            "height": 120,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": false,
+            "scrollWidth": 378,
+            "clientWidth": 378
+          },
+          {
+            "selector": "#mobileMenuBtn",
+            "left": 13,
+            "right": 53,
+            "top": 13,
+            "bottom": 53,
+            "width": 40,
+            "height": 40,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 38,
+            "clientWidth": 38
+          },
+          {
+            "selector": ".map-command-toolbar",
+            "left": 146,
+            "right": 244,
+            "top": 714,
+            "bottom": 768,
+            "width": 98,
+            "height": 54,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 96,
+            "clientWidth": 96
+          },
+          {
+            "selector": "#timelineControls",
+            "left": 11,
+            "right": 379,
+            "top": 776,
+            "bottom": 834,
+            "width": 368,
+            "height": 58,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 366,
+            "clientWidth": 366
+          },
+          {
+            "selector": "#timelinePreviousDecade",
+            "left": 16,
+            "right": 56,
+            "top": 785,
+            "bottom": 825,
+            "width": 40,
+            "height": 40,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 38,
+            "clientWidth": 38
+          },
+          {
+            "selector": "#timelinePreviousYear",
+            "left": 56,
+            "right": 96,
+            "top": 785,
+            "bottom": 825,
+            "width": 40,
+            "height": 40,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 38,
+            "clientWidth": 38
+          },
+          {
+            "selector": "#timelineDateButton",
+            "left": 96,
+            "right": 294,
+            "top": 781,
+            "bottom": 829,
+            "width": 198,
+            "height": 48,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 198,
+            "clientWidth": 198
+          },
+          {
+            "selector": "#timelineNextYear",
+            "left": 294,
+            "right": 334,
+            "top": 785,
+            "bottom": 825,
+            "width": 40,
+            "height": 40,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 38,
+            "clientWidth": 38
+          },
+          {
+            "selector": "#timelineNextDecade",
+            "left": 334,
+            "right": 374,
+            "top": 785,
+            "bottom": 825,
+            "width": 40,
+            "height": 40,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 38,
+            "clientWidth": 38
+          },
+          {
+            "selector": "#timelinePopover",
+            "left": 35,
+            "right": 355,
+            "top": 505.828125,
+            "bottom": 771,
+            "width": 320,
+            "height": 265.171875,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 318,
+            "clientWidth": 318
+          },
+          {
+            "selector": "#timelineYearInput",
+            "left": 106,
+            "right": 344,
+            "top": 599.625,
+            "bottom": 647.625,
+            "width": 238,
+            "height": 48,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 236,
+            "clientWidth": 236
+          },
+          {
+            "selector": "#timelineGoBtn",
+            "left": 46,
+            "right": 344,
+            "top": 712,
+            "bottom": 760,
+            "width": 298,
+            "height": 48,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 298,
+            "clientWidth": 298
+          },
+          {
+            "selector": "#mobileGlobalMenu",
+            "left": 6,
+            "right": 286,
+            "top": 66,
+            "bottom": 232,
+            "width": 280,
+            "height": 166,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 278,
+            "clientWidth": 278
+          },
+          {
+            "selector": "#mobilePreferencesBtn",
+            "left": 13,
+            "right": 279,
+            "top": 177,
+            "bottom": 225,
+            "width": 266,
+            "height": 48,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 264,
+            "clientWidth": 264
+          },
+          {
+            "selector": ".preferences-card",
+            "left": 10,
+            "right": 380,
+            "top": 251.703125,
+            "bottom": 592.28125,
+            "width": 370,
+            "height": 340.578125,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 368,
+            "clientWidth": 368
+          },
+          {
+            "selector": ".preferences-fields",
+            "left": 27,
+            "right": 363,
+            "top": 299.5,
+            "bottom": 511.28125,
+            "width": 336,
+            "height": 211.78125,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 336,
+            "clientWidth": 336
+          },
+          {
+            "selector": "#preferencesModal [data-preference-theme=\"dark\"]",
+            "left": 59,
+            "right": 87,
+            "top": 352.6875,
+            "bottom": 380.6875,
+            "width": 28,
+            "height": 28,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 26,
+            "clientWidth": 26
+          },
+          {
+            "selector": "#preferencesApplyBtn",
+            "left": 323,
+            "right": 363,
+            "top": 527.28125,
+            "bottom": 575.28125,
+            "width": 40,
+            "height": 48,
+            "viewportWidth": 390,
+            "viewportHeight": 844,
+            "hit": true,
+            "scrollWidth": 40,
+            "clientWidth": 40
+          }
+        ],
+        "screenshots": [
+          "year-input.jpg",
+          "preferences.jpg",
+          "narrow-dark.jpg"
+        ],
+        "errors": [],
+        "consoleErrors": [],
+        "failure": null,
+        "boundaries": [
+          "Chromium touch emulation; not physical-device, Safari, WebView, software-keyboard or IME certification.",
+          "No deferred timeout rerun, performance benchmark, or repeated desktop scenario."
+        ]
+      }
+    },
+    {
+      "sourceFile": "p2-selection-result.json",
+      "blobSha": "583dcd702bfbe84522ef83c46412ac200a1832f6",
+      "content": {
+        "schema": "pando-p2-selection-evidence-v1",
+        "evidenceOperation": "Preserve previously observed outputs only; no tests or remote actions were rerun while saving.",
+        "cwd": "/workspace/scratch/b8bc66be8985/Pando",
+        "sourceBaselineCommit": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+        "finalRemoteCommitPrefixReportedByRoot": "84bf8312",
+        "remoteCommitNotRequeriedDuringEvidenceSave": true,
+        "modifiedPaths": [
+          "scripts/p2-artifact-plan.mjs",
+          "tests/unit/p2-artifact-plan.test.mjs"
+        ],
+        "nodeVersion": "v24.22.1",
+        "red": {
+          "command": "\"$CODEX_PRIMARY_RUNTIME_NODE\" --test --test-isolation=none --test-name-pattern=\"auto validation/presentation-only push\" tests/unit/p2-artifact-plan.test.mjs",
+          "exitCode": 1,
+          "test": "auto validation/presentation-only push leaves nine stale data families unselected",
+          "errorCode": "ERR_ASSERTION",
+          "actualSelectedFamilies": [
+            "territorial",
+            "current-world",
+            "builtin-world",
+            "world-mesh",
+            "world-preview",
+            "world-bundle",
+            "shared-boundaries",
+            "prepared-mesh",
+            "places"
+          ],
+          "expectedSelectedFamilies": [],
+          "evidenceFile": "p2-selection-red.log",
+          "capture": "retained execution-summary excerpt, not full raw tool output",
+          "executionBeforeImplementation": true,
+          "workerSetupFailure": false
+        },
+        "green": {
+          "command": "\"$CODEX_PRIMARY_RUNTIME_NODE\" --test --test-isolation=none --test-name-pattern=\"^(current coherent|a changed C\\+\\+|missing or corrupted|shared reference|scope overrides|publishing is limited|current output verification|auto )\" tests/unit/p2-artifact-plan.test.mjs",
+          "toolChunkId": "4001cd",
+          "exitCode": 0,
+          "tests": 12,
+          "pass": 12,
+          "fail": 0,
+          "cancelled": 0,
+          "skipped": 0,
+          "todo": 0,
+          "durationMs": 820.913873,
+          "evidenceFile": "p2-selection-green.log",
+          "capture": "complete output field transcribed from the retained tool result"
+        },
+        "newRegressionSelection": {
+          "tests": 5,
+          "pass": 5,
+          "fail": 0,
+          "exitCode": 0,
+          "toolChunkId": "165a2f"
+        },
+        "adjacentStageProbe": {
+          "toolChunkId": "7e7fdb",
+          "exitCode": 1,
+          "tests": 14,
+          "pass": 12,
+          "fail": 2,
+          "failure": "Existing graph helper spawnSync git EPERM at git rev-parse HEAD",
+          "countedAsPassing": false,
+          "evidenceFile": "p2-selection-stage-limitations.log",
+          "capture": "explicit excerpt and run summary"
+        },
+        "review": {
+          "reviewer": "/root/p62_merge_review",
+          "mode": "independent read-only",
+          "blockingFindings": 0,
+          "testExecutionOrWritesByReviewer": false
+        },
+        "policy": {
+          "deferOnlyWhen": [
+            "event is push",
+            "manual scope is auto",
+            "changes is nonempty",
+            "no explicit families",
+            "existing WASM selection is false",
+            "every change is allowlisted and outside generation ownership"
+          ],
+          "preservedDiagnostics": [
+            "needed",
+            "reasons",
+            "inputFingerprint",
+            "outputFingerprint",
+            "blocked"
+          ],
+          "deferredFamilySelected": false,
+          "topLevelSelectedFamilies": [],
+          "topLevelBlockedFamilies": [],
+          "cliFields": [
+            "dataGenerationDeferred",
+            "dataGenerationDeferredReason"
+          ],
+          "assertArtifactsCurrentPreserved": true,
+          "publisherUnchanged": true,
+          "workflowTriggersUnchanged": true,
+          "receiptUnchanged": true
+        },
+        "originalRunLastObserved": {
+          "runId": 41264286651,
+          "generationJobId": 124723960136,
+          "observedAt": "2026-11-01T02:30:31Z",
+          "status": "in_progress",
+          "activeStep": "Commit verified phases locally, then publish one guarded result",
+          "appWorkUi": "e0baee5c2533129d0fb2d0d60cfe746a83de68cc",
+          "dataWorkUi": "67e54b893d754b58e58544d24ad3b2c0eed58e02",
+          "dataMain": "41a09133c2d78b1e960d7fcf969717883ba0c1b3"
+        },
+        "subsequentRootReport": {
+          "originalRunCancelledAt": "2026-11-01T02:31:08Z",
+          "dataWorkUiUnchanged": true,
+          "newP2RunId": 41265483853,
+          "provenance": "Parent agent message; no new remote query performed while saving evidence"
+        }
+      }
+    },
+    {
+      "sourceFile": "p3-boundary-fixture-result.json",
+      "blobSha": "08dc407f6a18e008abda3b16a2a507c3ad26db3d",
+      "content": {
+        "status": "ready_for_targeted_ci",
+        "observedAt": "2026-11-01T02:36:54.118947+00:00",
+        "sourceCommit": "84bf8312a09b53215a551eeb74d48f6df4750428",
+        "testPath": "tests/unit/country-shared-boundary-generator.test.mjs",
+        "baseTestBlobSha": "6901162747905c8966f62375eb94e99c22c46aff",
+        "baseTestSha256": "30b969f2b201424f696682ccf0b2500beb15c190adf2321200812ea20e30755f",
+        "testSha256": "470d7ebd3a3214591f8d8a1dbf3d54e3fd8e6f00f948c67704e4fa61db71393c",
+        "testGitBlobSha": "0b055525b50690c024f8bfc09c7553dfc32aeecb",
+        "testBytes": 4201,
+        "diff": {
+          "path": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture.patch",
+          "sha256": "ebc37f8007bde3cf7cd8eeedb947113856c4e0c599e05c1848f800bfe8fd5e5c",
+          "additions": 1,
+          "deletions": 2
+        },
+        "rootCause": "A runtime data archive was incorrectly resolved through the frontend source ownership index, which excludes the assets/data mount. The pinned archive exists.",
+        "sourceEvidence": {
+          "frontendLayoutBlobSha": "5a988a66b489ccef7a0a8dfae60daf62dba2cee2",
+          "pinBlobSha": "33835a6a694a8a0b628b6fbf407cc6c0cdaf0293",
+          "pin": {
+            "schemaVersion": 1,
+            "repository": "kimjeon-il/PandoLab-library-data",
+            "revision": "139941d8056418547c796068304ba8db3696fe69",
+            "mounts": [
+              "assets/data",
+              "reports",
+              "tools/historical-library/sources",
+              "tools/historical-library/working",
+              "tools/historical-library/review-output",
+              "tools/historical-library/land-borders"
+            ]
+          },
+          "worldManifestBlobSha": "6f637e1b4f6afea2311af44a8a2aa1733bea2f1f",
+          "worldCompatibility": {
+            "sharedBoundaries": {
+              "preview": "countries-preview-shared-v0.36.1.json.gz",
+              "canonical": "countries-canonical-shared-v0.36.1.json.gz"
+            }
+          },
+          "pinnedArchive": {
+            "name": "countries-preview-shared-v0.36.1.json.gz",
+            "path": "assets/data/countries-preview-shared-v0.36.1.json.gz",
+            "type": "file",
+            "size": 178234,
+            "sha": "3ebafb5c2e238b475972b888ac295569ef3ee39b"
+          },
+          "archiveMetadataUrl": "https://api.github.com/repos/kimjeon-il/PandoLab-library-data/contents/assets/data?ref=139941d8056418547c796068304ba8db3696fe69"
+        },
+        "baseline": {
+          "runId": 41265483904,
+          "jobId": 124727574166,
+          "tests": 31,
+          "pass": 30,
+          "fail": 1,
+          "skipped": 0,
+          "failedFile": "tests/unit/country-shared-boundary-generator.test.mjs",
+          "failure": "Missing frontend source: assets/data/countries-preview-shared-v0.36.1.json.gz",
+          "pinMount": "success",
+          "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture-before.log",
+          "logSha256": "6afd4faa1b6bbe24c3e401e627bffb6dcab17d823432cb6a020dd00a52a9f7c7"
+        },
+        "preservation": {
+          "onlyExpectedTwoSitesChanged": true,
+          "assertionsBefore": 18,
+          "assertionsAfter": 18,
+          "expandedTargetTests": 8
+        },
+        "syntax": {
+          "command": [
+            "node",
+            "--check",
+            "tests/unit/country-shared-boundary-generator.test.mjs"
+          ],
+          "exitCode": 0,
+          "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-fixture-syntax.log",
+          "logSha256": "0c962771733cd1651af447c0de56e45960827650c90b098d928a5624625fa797"
+        },
+        "ownershipProbe": {
+          "command": [
+            "node",
+            "--input-type=module",
+            "-"
+          ],
+          "exitCode": 0,
+          "result": {
+            "fixture": "one synthetic gzip only",
+            "staleResolverError": "Missing frontend source: assets/data/countries-preview-shared-v0.36.1.json.gz",
+            "correctedPath": "/tmp/p6-2-boundary-owner-2crYf9/assets/data/countries-preview-shared-v0.36.1.json.gz",
+            "correctedReadMatchesExactFixtureBytes": true,
+            "temporaryFixtureRemoved": true,
+            "removedLogicalBytes": 66
+          },
+          "logPath": "/workspace/scratch/b8bc66be8985/p6-2-release-evidence/p3-boundary-owner-probe.log",
+          "logSha256": "3c6e552982a7185592371f556dc78d94220a31e4001662226ed157072843fd87"
+        },
+        "actualUnitRerun": "Pending root-managed focused CI; local snapshot lacks real pinned data and WASM. Existing unit invokes the real preview/canonical country generator, so no local data/WASM hydration was attempted.",
+        "modifiedPaths": [
+          "tests/unit/country-shared-boundary-generator.test.mjs"
+        ],
+        "hydratedPaths": [
+          "tests/unit/country-shared-boundary-generator.test.mjs"
+        ],
+        "helperLayoutProductPinGeneratorChanges": [],
+        "remoteMutations": []
+      }
+    },
+    {
+      "sourceFile": "pages-live-summary.json",
+      "blobSha": "da411ab45ef6dc9f4777f4a8afdf06ba531245c1",
+      "content": {
+        "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "dataCommit": "139941d8056418547c796068304ba8db3696fe69",
+        "checkedFiles": 10,
+        "url": "https://kimjeon-il.github.io/Pando/",
+        "run": 41266675990,
+        "buildJob": 124730803083,
+        "deployJob": 124731040846,
+        "deployReportedSuccessAt": "2026-11-01T02:50:11.2031132Z",
+        "liveVerifiedAt": "2026-11-01T02:50:12.0424663Z",
+        "command": "node tools/verify-pages-deployment.mjs --url https://kimjeon-il.github.io/Pando/ --manifest <staged pages-evidence.json> --output <live.json>",
+        "result": "success",
+        "evidenceKind": "Exact emitted live-verifier summary and complete build/deploy logs; detailed artifact retained by the CI run.",
+        "liveArtifactId": 13068025779,
+        "liveArtifactUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266675990/artifacts/13068025779"
+      }
+    },
+    {
+      "sourceFile": "release-scope-decision.json",
+      "blobSha": "f7806a752ec04fc4026f8dd935b0eaabb7689630",
+      "content": {
+        "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "baselineMain": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+        "authorization": "User explicitly requested P6-2, main integration and deployment.",
+        "scope": [
+          "390x844 Chromium touch-emulated Viewer functionality",
+          "focused touch/read-model/check-registry/shared-boundary fixture contracts",
+          "Web publication closure and both App staging profiles",
+          "fast-forward main integration and existing Pages deployment with live response verification"
+        ],
+        "deferredUserCases": {
+          "automaticExecution": false,
+          "passed": false,
+          "deleted": false,
+          "cases": [
+            "July 1953 transition completion wait",
+            "injected-failure previous-year click timeout"
+          ]
+        },
+        "existingContractFailures": {
+          "observedRun": 41265483904,
+          "job": 124727574107,
+          "counts": {
+            "tests": 399,
+            "pass": 333,
+            "fail": 66,
+            "skipped": 0
+          },
+          "workflowStatus": "cancelled after corrective push; completed unit batches contain failures",
+          "disposition": "Unresolved. Not skipped, deleted, reclassified, or marked passing. Read-only triage compared immutable baseline/current sources and identified stale fixtures, paths and frozen-oracle contracts. No full baseline replay was performed.",
+          "evidence": [
+            "existing-core-contract-triage.md",
+            "existing-test-path-triage.md",
+            "existing-packaging-contract-triage.md",
+            "p3-contracts-before.log"
+          ]
+        },
+        "newRegressionCorrections": [
+          "Viewer pinch avoids editor-only cancellation; Editor async/error behavior retained",
+          "new test fixture event globals qualified for lint",
+          "read-model fixture canonical order and objectRef aligned",
+          "shared-boundary archive read from its actual data mount"
+        ],
+        "generationPolicy": {
+          "runtimeDataPin": "139941d8056418547c796068304ba8db3696fe69",
+          "compiledSourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+          "unrelatedAutomaticGenerationCancelled": 41264286651,
+          "staleDiagnosticsPreserved": true,
+          "requiredWasmAndManualGenerationUnchanged": true
+        },
+        "completionLimits": [
+          "No claim of all repository checks being green.",
+          "No physical-device, Safari, WebView, IME or software-keyboard certification.",
+          "No native installer built or launched; App verification covers the two staging profiles.",
+          "No full behavioral parity or new performance benchmark claimed."
+        ]
+      }
+    },
+    {
+      "sourceFile": "release-verification.json",
+      "blobSha": "3e83a75bf1bd8d91e0735416b1edf44a94492fff",
+      "content": {
+        "schema": "pando-p6-2-release-verification-v1",
+        "reportDate": "2026-11-01",
+        "request": "P6-2 · main 통합 · 배포",
+        "outcome": {
+          "p62Functional": "passed",
+          "mainIntegration": "completed",
+          "pagesDeployment": "completed",
+          "liveSelectedResponseIdentity": "passed: 10 files",
+          "allRepositoryCiGreen": false,
+          "independentLiveUiStartup": "unconfirmed: browser client blocked dynamic module",
+          "latestNativeWasmParity": "not passed: native 3 failures; downstream WASM parity skipped"
+        },
+        "identity": {
+          "checkedAt": "2026-11-01 02:57:01 UTC",
+          "appMain": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "appWorkUi": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "dataWorkUi": "67e54b893d754b58e58544d24ad3b2c0eed58e02",
+          "runtimeDataPin": "139941d8056418547c796068304ba8db3696fe69",
+          "pinFile": "config/library-data.json",
+          "pinFileBlob": "33835a6a694a8a0b628b6fbf407cc6c0cdaf0293"
+        },
+        "mainIntegration": {
+          "previousMain": "2b460e40dbc51de2d13b0fe40e11bd4af9e49b75",
+          "main": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "workUi": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "method": "fast-forward",
+          "force": false,
+          "integratedAt": "2026-11-01 02:48:28 UTC",
+          "advance": 201,
+          "changedFiles": 229
+        },
+        "sourceTree": "d251ffa02c3026b7cdb65dc7e0cd30538a81e357",
+        "p62": {
+          "run": 41266380067,
+          "job": 124729942675,
+          "url": "https://github.com/kimjeon-il/Pando/actions/runs/41266380067",
+          "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "conclusion": "success",
+          "tests": 1,
+          "steps": 4,
+          "passed": 1,
+          "failed": 0,
+          "retries": 0,
+          "environment": {
+            "viewport": {
+              "width": 390,
+              "height": 844
+            },
+            "hasTouch": true,
+            "isMobile": true,
+            "locale": "ko-KR",
+            "timezone": "Asia/Seoul",
+            "fixedTime": "2026-10-31T00:00:00+09:00"
+          },
+          "browser": "151.0.7922.34",
+          "node": "v24.22.1",
+          "pageExceptions": 0,
+          "consoleErrors": 0,
+          "inputContracts": {
+            "tests": 18,
+            "passed": 18,
+            "failed": 0,
+            "skipped": 0
+          },
+          "focusedLint": "passed",
+          "evidence": [
+            "narrow-release.json",
+            "narrow-release.log",
+            "screenshots-release/manifest.json"
+          ],
+          "screenshotOrigin": "CI Chromium emulation, not live Pages browser startup",
+          "visualObservation": "No clipping of inspected controls/forms. Dense map labels overlap and some edge labels crop."
+        },
+        "focusedContracts": [
+          {
+            "name": "read model",
+            "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+            "run": 41266000828,
+            "job": 124728815176,
+            "tests": 14,
+            "passed": 14,
+            "failed": 0,
+            "skipped": 0,
+            "evidence": "read-model-release.log"
+          },
+          {
+            "name": "registry and runner",
+            "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+            "run": 41266000828,
+            "job": 124728815176,
+            "tests": 26,
+            "passed": 26,
+            "failed": 0,
+            "skipped": 0,
+            "evidence": "read-model-release.log"
+          },
+          {
+            "name": "shared boundary pinned real-data fixture",
+            "sourceCommit": "e53f067ef37cafc4bd5d4d50e323f8866e7c9833",
+            "run": 41266000828,
+            "job": 124728815278,
+            "tests": 8,
+            "assertions": 18,
+            "passed": 8,
+            "failed": 0,
+            "skipped": 0,
+            "evidence": "shared-boundary-final.log"
+          },
+          {
+            "name": "P2 source, selection and dependency graph",
+            "sourceCommit": "84bf8312a09b53215a551eeb74d48f6df4750428",
+            "run": 41265483853,
+            "job": 124727448843,
+            "tests": 49,
+            "passed": 49,
+            "failed": 0,
+            "skipped": 0,
+            "evidence": "p2-ci-checks.log"
+          }
+        ],
+        "staging": {
+          "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "run": 41266380067,
+          "webClosure": "passed",
+          "appProfiles": [
+            {
+              "profile": "test-fixture",
+              "files": 1131,
+              "bytes": 67149412,
+              "entities": 3,
+              "stage": "passed",
+              "verify": "passed"
+            },
+            {
+              "profile": "map-data",
+              "files": 1829,
+              "bytes": 263395493,
+              "entities": 258,
+              "stage": "passed",
+              "verify": "passed"
+            }
+          ],
+          "nativeInstallerBuilt": false,
+          "nativeInstallerLaunched": false,
+          "scope": "staging and dependency verification only"
+        },
+        "integrationPlan": {
+          "unitTests": 432,
+          "browserSpecs": 159,
+          "commands": [
+            "app-small-stage",
+            "app-small-verify",
+            "app-world-stage",
+            "app-world-verify",
+            "assets",
+            "commands",
+            "country-boundaries",
+            "country-preview",
+            "country-selftest",
+            "country-validity",
+            "country-validity-canonical",
+            "current-world",
+            "lint",
+            "object-registry",
+            "places-runtime",
+            "provenance",
+            "renderer-contract",
+            "runtime-boundaries",
+            "territorial-chunks",
+            "territorial-library-contract",
+            "territorial-storage",
+            "ui-architecture",
+            "ui-components",
+            "ui-ia",
+            "ui-layering",
+            "ui-spacing",
+            "version",
+            "version-contract",
+            "web-stage",
+            "worker-contracts"
+          ],
+          "prerequisites": [
+            "app-small-stage",
+            "app-small-verify",
+            "app-world-stage",
+            "core",
+            "country-preview",
+            "country-validity-canonical",
+            "generated"
+          ],
+          "deferredAutomatic": false,
+          "deferredManual": [
+            "tests/browser/deferred-builtin-timeline.spec.mjs"
+          ],
+          "mode": "list-only",
+          "countsArePassCounts": false,
+          "commandCount": 30
+        },
+        "generation": {
+          "unrelatedRunCancelled": 41264286651,
+          "runtimePublicationFromCancelledRun": false,
+          "irrelevantFamilySelectionBefore": 9,
+          "irrelevantFamilySelectionAfter": 0,
+          "staleFamilyDiagnosticsRetained": 11,
+          "requiredWasmAndManualModesPreserved": true,
+          "compiledSourceSha256": "fb6f8c79c19b0f786632b3a494c700373c2cf5a1d41f0e68c5a23c87475ea043",
+          "runtimePinUnchanged": true,
+          "finalP2Run": 41266380044,
+          "finalPlan": "success",
+          "finalGenerate": "skipped, unselected",
+          "evidence": [
+            "p2-ci-selection.json",
+            "p2-selection-boundaries.json",
+            "p2-cancelled-runtime-audit.json"
+          ]
+        },
+        "deployment": {
+          "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "dataCommit": "139941d8056418547c796068304ba8db3696fe69",
+          "checkedFiles": 10,
+          "url": "https://kimjeon-il.github.io/Pando/",
+          "run": 41266675990,
+          "buildJob": 124730803083,
+          "deployJob": 124731040846,
+          "deployReportedSuccessAt": "2026-11-01T02:50:11.2031132Z",
+          "liveVerifiedAt": "2026-11-01T02:50:12.0424663Z",
+          "command": "node tools/verify-pages-deployment.mjs --url https://kimjeon-il.github.io/Pando/ --manifest <staged pages-evidence.json> --output <live.json>",
+          "result": "success",
+          "evidenceKind": "Exact emitted live-verifier summary and complete build/deploy logs; detailed artifact retained by the CI run.",
+          "liveArtifactId": 13068025779,
+          "liveArtifactUrl": "https://github.com/kimjeon-il/Pando/actions/runs/41266675990/artifacts/13068025779"
+        },
+        "independentLiveBrowser": {
+          "url": "https://kimjeon-il.github.io/Pando/",
+          "observedAt": "2026-11-01T02:52:02Z",
+          "browserTitle": "판도연구소",
+          "initialUi": "Viewer menu, map canvas element, timeline controls and loading status were present.",
+          "subsequentUi": "연결이 복구되면 지도를 다시 불러옵니다. / 다시 시도",
+          "productConsoleError": "[PL-VIEWER-START] TypeError: Failed to fetch dynamically imported module: https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+          "retry": {
+            "performed": true,
+            "uiChanged": false
+          },
+          "directModuleObservation": {
+            "url": "https://kimjeon-il.github.io/Pando/assets/js/modules/viewer-composition.js?v=0.36.0-build-35bce38a3444",
+            "result": "Browser Use cannot open the URL; browser reported net::ERR_BLOCKED_BY_CLIENT."
+          },
+          "interpretation": "The current browser client blocks the module request. This observation does not establish an HTTP 404 or a product regression, and does not establish a successful live UI startup.",
+          "limits": "No browser protection or network setting was changed. Live UI startup is unconfirmed in this browser; separate CI response checks and P6-2 functionality are recorded independently.",
+          "searchReader": "Public site and module URL were also unavailable through the search reader; this is not treated as a website outage.",
+          "buildIdObservedInScriptUrl": "0.36.0-build-35bce38a3444",
+          "matchingVerifiedSourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "sourceIdentityBasis": "The browser observed the 12-character build suffix; the full commit identity was independently verified from main and the Pages response verifier."
+        },
+        "remainingChecks": {
+          "run": 41266380046,
+          "job": 124730140093,
+          "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "conclusion": "failure",
+          "counts": {
+            "tests": 85,
+            "pass": 84,
+            "fail": 1,
+            "skipped": 0
+          },
+          "remainingFailure": {
+            "file": "tests/unit/current-browser-contracts.test.mjs",
+            "name": "CSS selects relevant UI checks without C++/GIS build or data generation commands",
+            "message": "Unclassified product change: assets/css/features/map-rendering.css",
+            "baselineEvidence": "The test and selector are unchanged from main 2b460e40; an earlier main run 40895207190 also recorded this exact path classification failure."
+          },
+          "lintIntroducedInThisTask": "Corrected; final narrow workflow lint step succeeded.",
+          "broaderPriorObservation": {
+            "run": 41265483904,
+            "job": 124727574107,
+            "counts": {
+              "tests": 399,
+              "pass": 333,
+              "fail": 66,
+              "skipped": 0
+            },
+            "status": "unresolved, not replayed or counted as passing"
+          },
+          "mainAutomaticChecks": {
+            "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+            "observedAtUtc": "2026-11-01T02:57:32Z",
+            "native": {
+              "run": 41266676029,
+              "job": 124730803184,
+              "conclusion": "failure",
+              "counts": {
+                "tests": 9,
+                "passed": 6,
+                "failed": 3,
+                "exitCode": 8,
+                "reportedPercentPassed": 67
+              },
+              "failures": [
+                {
+                  "test": "web_content_codec_tests",
+                  "path": "shared/tests/web-content-codec-tests.cpp",
+                  "line": 50,
+                  "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+                  "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+                },
+                {
+                  "test": "web_content_command_tests",
+                  "path": "shared/tests/web-content-command-tests.cpp",
+                  "line": 144,
+                  "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+                  "assertion": "row.encode()==expected.encode()"
+                },
+                {
+                  "test": "web_object_command_tests",
+                  "path": "shared/tests/web-object-command-tests.cpp",
+                  "line": 54,
+                  "function": "apply",
+                  "error": "INVALID_DATE: format",
+                  "assertion": "false"
+                }
+              ],
+              "subsequentWasmParityAndWorkerLifecycle": "skipped after native test failure"
+            },
+            "architecture": {
+              "run": 41266676100,
+              "job": 124730992689,
+              "status": "in_progress",
+              "conclusion": null,
+              "observedFailureCount": null,
+              "countsMeaning": "null means not observed, never zero or passed"
+            },
+            "evidence": "main-automatic-checks.json"
+          },
+          "liveUiStartup": {
+            "status": "unconfirmed in the independent browser",
+            "reason": "dynamic module request blocked by current client: net::ERR_BLOCKED_BY_CLIENT",
+            "evidence": "live-browser-observation.json"
+          },
+          "doNotSumCountsAcrossRuns": true
+        },
+        "deferredCases": {
+          "cases": [
+            "July 1953 transition completion wait",
+            "injected-failure previous-year click timeout"
+          ],
+          "file": "tests/browser/deferred-builtin-timeline.spec.mjs",
+          "automaticExecution": false,
+          "rerunInThisTask": false,
+          "passed": false,
+          "deleted": false,
+          "manualCatalogGroup": "deferred-builtin-timeline",
+          "bodyAndHelperIdentityComparedTo": "9bc6856fa2218f758565acb8670f406c6dab8a41",
+          "ordinaryFloatingDateControlsRemainAutomatic": true
+        },
+        "limitations": [
+          "Not all repository CI is green; unresolved failures are retained.",
+          "No full previous-main baseline replay was performed; source triage is not proof all product behavior is unchanged.",
+          "Current main native 6/9 pass, 3 fail; subsequent WASM parity and lifecycle verification skipped.",
+          "Independent public UI startup could not be confirmed due to client-side blocked module request.",
+          "Live identity verifier checks 10 selected response files, not all modules or full UI startup.",
+          "No physical device, Safari, WebView, software keyboard or IME certification.",
+          "No native installer build or launch; two App profiles were staged and verified.",
+          "No new performance benchmark and no rerun of the two user-deferred cases."
+        ],
+        "cleanup": {
+          "knownExplicitTemporaryFilesRemoved": 8,
+          "logicalBytes": 449124,
+          "components": [
+            92157,
+            178674,
+            178293
+          ],
+          "physicalReclamationMeasured": false
+        },
+        "evidencePublication": {
+          "repository": "kimjeon-il/PandoLab-library-data",
+          "scope": "reports/development/ui/p6-2-release-2026-11-01/",
+          "method": "Git-data connector blob/tree/commit with expected-SHA ref update and remote hash/index verification",
+          "runtimePinMustRemain": "139941d8056418547c796068304ba8db3696fe69",
+          "repositoryHelperExecuted": false,
+          "publicationReceipt": "Recorded separately after publication; this document does not self-attest its own commit."
+        }
+      }
+    },
+    {
+      "sourceFile": "remaining-checks.json",
+      "blobSha": "db297a0910144a1120efcd6743a401792750390e",
+      "content": {
+        "run": 41266380046,
+        "job": 124730140093,
+        "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+        "conclusion": "failure",
+        "counts": {
+          "tests": 85,
+          "pass": 84,
+          "fail": 1,
+          "skipped": 0
+        },
+        "remainingFailure": {
+          "file": "tests/unit/current-browser-contracts.test.mjs",
+          "name": "CSS selects relevant UI checks without C++/GIS build or data generation commands",
+          "message": "Unclassified product change: assets/css/features/map-rendering.css",
+          "baselineEvidence": "The test and selector are unchanged from main 2b460e40; an earlier main run 40895207190 also recorded this exact path classification failure."
+        },
+        "lintIntroducedInThisTask": "Corrected; final narrow workflow lint step succeeded.",
+        "broaderPriorObservation": {
+          "run": 41265483904,
+          "job": 124727574107,
+          "counts": {
+            "tests": 399,
+            "pass": 333,
+            "fail": 66,
+            "skipped": 0
+          },
+          "status": "unresolved, not replayed or counted as passing"
+        },
+        "mainAutomaticChecks": {
+          "sourceCommit": "35bce38a3444c57bcaf60a9a12d30421e6602740",
+          "observedAtUtc": "2026-11-01T02:57:32Z",
+          "native": {
+            "run": 41266676029,
+            "job": 124730803184,
+            "conclusion": "failure",
+            "counts": {
+              "tests": 9,
+              "passed": 6,
+              "failed": 3,
+              "exitCode": 8,
+              "reportedPercentPassed": 67
+            },
+            "failures": [
+              {
+                "test": "web_content_codec_tests",
+                "path": "shared/tests/web-content-codec-tests.cpp",
+                "line": 50,
+                "function": "currentDtoReadersPreserveEveryFieldAndArrayOrder",
+                "assertion": "codecjson::parse(projectcodec::encodeWeb(project.snapshot(),ports)).encode()==root.encode()"
+              },
+              {
+                "test": "web_content_command_tests",
+                "path": "shared/tests/web-content-command-tests.cpp",
+                "line": 144,
+                "function": "currentRawHydroAndLabelAnnotationsKeepPresence",
+                "assertion": "row.encode()==expected.encode()"
+              },
+              {
+                "test": "web_object_command_tests",
+                "path": "shared/tests/web-object-command-tests.cpp",
+                "line": 54,
+                "function": "apply",
+                "error": "INVALID_DATE: format",
+                "assertion": "false"
+              }
+            ],
+            "subsequentWasmParityAndWorkerLifecycle": "skipped after native test failure"
+          },
+          "architecture": {
+            "run": 41266676100,
+            "job": 124730992689,
+            "status": "in_progress",
+            "conclusion": null,
+            "observedFailureCount": null,
+            "countsMeaning": "null means not observed, never zero or passed"
+          },
+          "evidence": "main-automatic-checks.json"
+        },
+        "liveUiStartup": {
+          "status": "unconfirmed in the independent browser",
+          "reason": "dynamic module request blocked by current client: net::ERR_BLOCKED_BY_CLIENT",
+          "evidence": "live-browser-observation.json"
+        },
+        "doNotSumCountsAcrossRuns": true
+      }
+    }
+  ],
+  "discardedInterimReports": [
+    {
+      "path": "existing-core-contract-triage.json",
+      "blobSha": "645fe623079713ea4dc5e8dc2445f70353456065"
+    },
+    {
+      "path": "existing-packaging-contract-triage.json",
+      "blobSha": "962bed32488fab9a22c4f61589819032e5940672"
+    },
+    {
+      "path": "existing-test-path-triage.json",
+      "blobSha": "efd9e2836b1e6f3db2b8aa2a3e6b42ea7243dcee"
+    },
+    {
+      "path": "integration-plan-release.json",
+      "blobSha": "01908dbd523809ad7d91f71cfd3d95dcf4279310"
+    },
+    {
+      "path": "live-browser-observation.json",
+      "blobSha": "6866129b4ea3989ad3f456940127772ea6f355fc"
+    },
+    {
+      "path": "main-automatic-checks.json",
+      "blobSha": "d0e8d33a8a621eb453a515a602df86263b42f9dd"
+    },
+    {
+      "path": "map-input-pinch-before.json",
+      "blobSha": "e632fce31f4c431c48690de62769c43786a88ebe"
+    },
+    {
+      "path": "map-input-pinch-red.json",
+      "blobSha": "f8c43e45e028e81f8d8a4b42d7ab26f0f20f2315"
+    },
+    {
+      "path": "map-input-pinch-result.json",
+      "blobSha": "baa56f29246ec92549657defbf8dd28d1b47b547"
+    },
+    {
+      "path": "narrow-before.json",
+      "blobSha": "aedade447c2918120cea7b6907547eff40b39272"
+    },
+    {
+      "path": "narrow-final.json",
+      "blobSha": "e4a822d1112b1545bba092165d22bc1d2800b550"
+    },
+    {
+      "path": "p2-cancelled-runtime-audit.json",
+      "blobSha": "c10af55d6ccc740ebb05d9e7adff75880095d499"
+    },
+    {
+      "path": "p2-ci-selection.json",
+      "blobSha": "d1330a0823dcb05a0030240a24adb0f2cf9390c0"
+    },
+    {
+      "path": "p2-selection-actual-graph-intersection.json",
+      "blobSha": "c4ad3fca3f1b743a22d8e53b6f7b1005498e5bc4"
+    },
+    {
+      "path": "p2-selection-boundaries.json",
+      "blobSha": "6e579a3e8ea38810bf45f7f3bcdf33e0e6867879"
+    },
+    {
+      "path": "p2-selection-cleanup.json",
+      "blobSha": "b122848e5113d6ed00d1dcacfa3b117b2f3535eb"
+    },
+    {
+      "path": "p2-selection-patch.json",
+      "blobSha": "9c46e4c7432a1e5af52ffd2b91fa4f782e3eda33"
+    },
+    {
+      "path": "read-model-fixture-patch.json",
+      "blobSha": "525e1336b93160a80581ca1a2630a00486e84b7c"
+    },
+    {
+      "path": "read-model-fixture-prerequisite.json",
+      "blobSha": "b3b35ccd8e3054f77b7d27629a3180b5d413491b"
+    },
+    {
+      "path": "release-identity.json",
+      "blobSha": "4d596f3859ff052ee0b03578f98199bc59b7e548"
+    },
+    {
+      "path": "screenshots-release/manifest.json",
+      "blobSha": "872582c34bbe594d84dd2d6bc9941bbfa4a8be42"
+    },
+    {
+      "path": "screenshots/manifest.json",
+      "blobSha": "308270c5d873d00f86f0e916163164bcf09d0154"
+    }
+  ]
+}
