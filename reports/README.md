@@ -22,3 +22,9 @@
 - [도시·지명 자료](places/) — 승인/검토 정보, 고정된 입력 배치와 원본 매니페스트
 
 기술자료는 역사 조사 정본과 구분하며, 소비 경로·해시·출처·권리 고지·재현 관계를 검증하지 않고 일괄 이동하거나 확장자를 바꾸지 않습니다.
+
+## 완료된 검증 결과 탐색
+
+- [국경 검증 보존·삭제 이력](borders/validation/README.md), [삭제된 일회성 검증 파일 색인](borders/validation/RETIRED-ONE-OFF-INDEX.json). 국가별 원본 후보와 배치별 요약을 구분합니다.
+- [개발 검증 통합 기준](development/README.md), [삭제된 구형 개발 산출물 색인](development/RETIRED-EVIDENCE-INDEX.json). P6.2 릴리스와 원격 브랜치 통합의 완료 내역은 각 하위 폴더의 `consolidated-*.json`에 보관합니다.
+- [지도 분석 구조](map-analysis/README.md), [지도 분석 결과](map-analysis/results/README.md), [구형 모델 평가 이력](map-analysis/results/model-evaluations/README.md), [학습 모델](map-analysis/models/README.md).

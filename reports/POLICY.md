@@ -102,3 +102,10 @@ reports/
 - **전환 보류**: `corpus/gazetteer-v1/runtime/`의 지명 검색용 분할 인덱스, `models/`의 모델 바이너리와 여러 코퍼스의 상호참조 파일은 외부 소비 경로·해시·학습 명세가 확인되기 전까지 원래 위치에 둡니다. 보류는 새 결과물과 원본을 혼합 저장해도 된다는 허가가 아닙니다.
 
 `reports/map-analysis/README.md`에 현재 탐색 경로와 신규 파일의 분류 예시를 제공합니다. 정리 대상의 원문을 `backup`·추가 산출물로 복사하지 않으며, 구형 경로가 필요하면 이동 이전 Git 판본을 참조합니다.
+
+## 7. 검증 보고서의 완료 이후 유지 방식
+
+- **국경 검증**: `borders/validation/`에서 완료된 일회성 재현 스크립트·중복 콘솔 출력을 제거하고 `RETIRED-ONE-OFF-INDEX.json`으로 이전 경로·Git blob SHA를 추적합니다. 같은 배치의 개별 국가 검증은 `modern-raw-source-20261110/{batch}/source-validation-rollup.json` 또는 `evidence-rollup.json` 등으로 묶습니다. 통합 JSON의 `records[].content`/ `records[].data`가 원래 판정을 보유하고, 미적용 후보의 파일 내용은 해당 Git 커밋에서 찾습니다. 국경 원본 형상·좌표·원사료는 이러한 정리만으로 폐기하지 않습니다.
+- **개발 검증**: 종료된 구형 UI 릴리스·브랜치 통합의 검사 증거는 `development/ui/*/consolidated-release.json`, `development/integrations/*/consolidated-integration.json` 등 하나의 범주별 결과물로 유지합니다. 원시 로그, 완성 뒤의 일회성 스크립트·캡처, 임시 상태는 `development/RETIRED-EVIDENCE-INDEX.json`을 통해 이전 Git 판본에서 추적합니다. 과거의 성공/실패 기록을 현재 코드의 테스트 승인으로 해석하지 않습니다.
+- **지도 분석**: 외부 원본·권리 문서는 `map-analysis/corpus/*/sources/`, 학습용 레이블과 참조 파생 이미지는 `corpus/*/{labels,derived}/`, 모델 가중치·체크포인트는 `map-analysis/models/`에 둡니다. 실제 평가·진단·미배포 실험 결과는 `map-analysis/results/model-evaluations/`, 기타 실행 결과는 `map-analysis/results/`로 분리합니다. 승인되지 않은 학습 산출물은 현재 서비스에 배포된 모델이 아닙니다.
+- **완료 후 정리 순서**: 정본 식별 → 구조화된 최종 결과 통합 → 고유 원본·소비 경로·출처 보호 → 불필요한 파일 제거 → Git 이전 경로 기록 → 색인 갱신. 폴더 통합만으로 실제 GIS 데이터 적용, 현재 코드 검증, 서비스 배포를 수행한 것으로 기록하지 않습니다.
