@@ -42,5 +42,33 @@ for(const r of records){
  }
  for(const key of r.entityKeys)(byEntity[key]??=[]).push(r.id);
 }
-const output={schema:"pando-history-catalog-v1",generatedFrom:dirs,entries:records,byType,byEntity,byYear};
+// Chronological navigation is a derived view: never duplicate event reports by decade.
+const decadeOf=year=>{
+  if(!Number.isInteger(year)||year<1801)return null;
+  const start=Math.floor(year/10)*10;
+  return `${start}-${start+9}`;
+};
+const byDecade={};
+for(const record of records){
+  if(record.type!=="event")continue;
+  const decade=decadeOf(record.year);
+  if(decade)(byDecade[decade]??=[]).push(record.id);
+}
+const orderDecades=groups=>Object.fromEntries(
+  Object.entries(groups).sort(([a],[b])=>a.localeCompare(b,"en"))
+);
+const recordById=new Map(records.map(record=>[record.id,record]));
+const byCountry={};
+for(const [key,recordIds] of Object.entries(byEntity).sort(([a],[b])=>a.localeCompare(b,"en"))){
+  if(!/^(?:state:|dependency:|research:(?:state|dependency):)/.test(key))continue;
+  const decades={};
+  for(const id of recordIds){
+    const record=recordById.get(id);
+    if(record.type!=="event")continue;
+    const decade=decadeOf(record.year);
+    if(decade)(decades[decade]??=[]).push(id);
+  }
+  byCountry[key]={recordIds,byDecade:orderDecades(decades)};
+}
+const output={schema:"pando-history-catalog-v1",generatedFrom:dirs,entries:records,byType,byEntity,byYear,byDecade:orderDecades(byDecade),byCountry};
 await writeFile(join(reports,"research","catalog.json"),JSON.stringify(output,null,2)+"\n");
