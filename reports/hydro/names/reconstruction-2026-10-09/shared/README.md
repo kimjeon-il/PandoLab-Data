@@ -1,6 +1,6 @@
 # Shared reconstruction helpers (P1)
 
-The 95 copies of recover-remaining-queue.py, test-remaining-queue.py and geometry-support.py in batch-r04 through batch-r46 were 12 unique Git blobs. They have been replaced by three stdlib-only implementations and version-map.json. Runnable implementations now live under `tools/gis/hydro/reconstruction/`; the corresponding report-local source is preserved byte-for-byte as `.txt` evidence.
+The 95 copies of recover-remaining-queue.py, test-remaining-queue.py and geometry-support.py in batch-r04 through batch-r46 were 12 unique Git blobs. They have been replaced by three stdlib-only implementations and version-map.json. Runnable implementations live under `tools/gis/hydro/reconstruction/`. Retired report-local Python sources are available as exact Git blobs from commit `71796423342b1d06ee00c289151e0ab9429d3658`.
 
 Run from the repository root with a pinned committed inventory and a selected batch index:
 

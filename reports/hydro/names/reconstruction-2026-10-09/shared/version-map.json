@@ -234,7 +234,7 @@
     "test_remaining_queue.py",
     "geometry_support.py"
   ],
-  "note": "Archived source and recorded Git blob SHAs remain unchanged. Executable canonical scripts now live at canonicalCodeRoot; report-local Python files use .txt extension. Original batch scripts remain retrievable from originalRevision.",
+  "note": "Runnable canonical implementations are under tools/gis/hydro/reconstruction/. Old report-local Python code was retired from the current tree; its exact Git blobs are available from retiredReportCodeRevision. Earlier originalRevision and per-batch hashes remain intact.",
   "canonicalCodeRoot": "tools/gis/hydro/reconstruction/",
-  "reportTextEvidenceRoot": "reports/hydro/names/reconstruction-2026-10-09/shared/"
+  "retiredReportCodeRevision": "71796423342b1d06ee00c289151e0ab9429d3658"
 }
