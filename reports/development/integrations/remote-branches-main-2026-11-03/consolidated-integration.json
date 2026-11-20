@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "kind": "completed-remote-branch-integration-report",
+  "sourceCommit": "a73f768f7583043e3d1a4fb64ec4190eb6ec2d6e",
+  "status": "past integration; not current viewer test acceptance",
+  "records": [
+    {
+      "path": "completion.json",
+      "blobSha": "b537c9c172b2f580c967305c28745a07c6d125ae",
+      "report": {
+        "status": "complete",
+        "sourceCommit": "b917ddb7485f4bab3446aa31050270f5b2aa7a45",
+        "dataCommit": "0388abf78dff4ea4835e36b01de67d10703ac596",
+        "runtimeIdentity": "data-49126647213439404ae76ebefca51e3f",
+        "run": "https://github.com/kimjeon-il/Pando/actions/runs/41578529081",
+        "pages": "success",
+        "liveTransfer": {
+          "sourceCommit": "b917ddb7485f4bab3446aa31050270f5b2aa7a45",
+          "dataCommit": "0388abf78dff4ea4835e36b01de67d10703ac596",
+          "checkedFiles": 10
+        },
+        "browser": {
+          "completed": true,
+          "failure": null,
+          "errors": [],
+          "consoleErrors": [],
+          "failedRequests": []
+        },
+        "protectedWip": 6,
+        "cleanup": {
+          "freeBefore": 49975173120,
+          "freeAfter": 50036432896,
+          "note": "Duplicate checkpoints equal final samples/checkpoints. Archive verified, no remaining reader. Drive delta includes concurrent host activity. Final exact CI artifact attachment duplicates also removed after SHA256 comparison; free-space sample above predates those removals.",
+          "freeChange": 61259776,
+          "logicalBytes": 62099509,
+          "removed": [
+            {
+              "path": "D:\\dev\\PandoLab\\.library-data\\plugin-release\\current.tar.gz",
+              "sha256": "42FB08C09B22BB5809D2A0015978DFEE4D2F4DB4FC42A7F3DBE7AEE0A2DDA131",
+              "bytes": 58825647
+            },
+            {
+              "path": "D:\\dev\\PandoLab\\.library-data\\plugin-release\\remote.json",
+              "sha256": "B316D1B27222D634EF0EAFF86C1CCA9E1F8CD3E533A916F35655464D5032BE9F",
+              "bytes": 41693
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\performance\\w65-A-memory-checkpoint.json",
+              "sha256": "A25753D98A9A5F7CD4EB89455C8DBA9DCF4B899BAC34AC90224EB961251854D6",
+              "bytes": 468500
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\performance\\w65-B-memory-checkpoint.json",
+              "sha256": "C0CB1104BED1CD95E2CE9A116B2B7D1DB0EC5DF4E5F242FA5ABE88AE53770B71",
+              "bytes": 1244178
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\performance\\w65-A2-memory-checkpoint.json",
+              "sha256": "4EEE5F6632863D547B3AD5746BC311281DC7256DFF4B7E20459621BD635FBB98",
+              "bytes": 468486
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\performance\\summary.json",
+              "sha256": "82140CA1DA06AFA201E841F70BDAF727F97312C140339F876A59BFD98F6CB4E6",
+              "bytes": 200074
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\attachments\\public-viewer-initial-jpg-2b1c83850d1c6bf4981fa99506d3490af00d0c83.jpg",
+              "sha256": "3EC95BDB8FCE8D8CE30F7E412181F8499E1E7B8E294AD4C11C023C9B7E4432E1",
+              "bytes": 124968,
+              "recoverableOriginal": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\public-viewer-initial.jpg"
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\attachments\\public-viewer-jpg-a91d3add876bc194706ba4b4a86c44478d72618e.jpg",
+              "sha256": "7BAD6A9211A5EC53184CF4136283ED2F6AF5764265877AC78E478E8C4E04B000",
+              "bytes": 124667,
+              "recoverableOriginal": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\public-viewer.jpg"
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\attachments\\public-viewer-result-617d87c6e4f6cfc17c8f04b1e4ccf4e9eb78175e.json",
+              "sha256": "9A9C708470634696FD1561768325D320A381FB49A7E44A0B6A05468DDEFD5FA9",
+              "bytes": 43062,
+              "recoverableOriginal": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-browser\\public-viewer-boot-publish-83b32-and-completes-a-year-change\\public-viewer.json"
+            },
+            {
+              "path": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\main\\development\\integrations\\remote-branches-main-2026-11-03\\deployment\\ci-live\\pages-evidence.json",
+              "sha256": "D0F06D4BC6A4614E409EA485DEE111C8035BE291619739CCACCA073DD2F93835",
+              "bytes": 558234,
+              "recoverableOriginal": "D:/dev/PandoLab-library-data/reports/.edits/main/development/integrations/remote-branches-main-2026-11-03/deployment/pages-evidence.json"
+            }
+          ]
+        },
+        "limits": [
+          "Scoped checks only",
+          "No model accuracy or historical legal geometry approval",
+          "No branch propagation/deletion",
+          "Installed private plugin cache refresh unverified"
+        ]
+      }
+    },
+    {
+      "path": "final-ref-coverage.json",
+      "blobSha": "435e1405692d86e4a3da08f308adb5df8bc7654c",
+      "report": {
+        "head": "b917ddb7485f4bab3446aa31050270f5b2aa7a45",
+        "rows": [
+          {
+            "ref": "refs/remotes/origin/fix/r1-readonly-runtime-contracts-20261102",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/fix/r2-retire-android-native-20261102",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/fix/r3-windows-native-inputs-20261102",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/fix/r4-editor-source-retirement-20261102",
+            "sha": "9c99a2041d854a5043fc4ff69e32b1131a5b78fc",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/main",
+            "sha": "ddf40152876e0f4ac334e3e1e2e35ff9c72f857c",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/gis",
+            "sha": "ba6b2fe6719f4fb5276aeeea205cb2bb07b79801",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/objects",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/places",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4-editor-source-retirement-20261102",
+            "sha": "b9d5e2ab5e41b9a9f77709cf3e5c3db4041906da",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4d-editor-test-ci",
+            "sha": "b5a9b48b17233e5fe74a5b807d0d1cc25cb787fa",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e0-dependency-audit-20261103",
+            "sha": "90e7abbd62ccef62ada766b3ee0868b2e57bd8bf",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e1-gis-interop-20261103",
+            "sha": "2ddc331700743f8cb0c54baf9e76918f67dc5065",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e2-core-gis-test-fixtures-20261103",
+            "sha": "e8eb9a3a2826671f56732f69a3a1f40af7815e25",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e2-core-test-migration-20261103",
+            "sha": "da8fb65732e43026a77d151253d4eb45ff27f2db",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e3-retired-test-fixture-pruning-20261103",
+            "sha": "78568cac3b84964b05c89b5c70170a76a3a46274",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/r4e3-test-fixture-retirement-20261103",
+            "sha": "44965d0a656c2f63bcf8cb55d65b9eea4237fbf2",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/ui",
+            "sha": "0eec519a8b734fc0f9ae22ba6cf8d00f1124f50c",
+            "included": true
+          },
+          {
+            "ref": "refs/remotes/origin/work/w2-p6-3-geometry-delta-20261103",
+            "sha": "0af8b63d2efbeb19e9b677ec23d5f3fb92abfb83",
+            "included": true
+          }
+        ]
+      }
+    },
+    {
+      "path": "performance/viewer-resync-supersession-1793680019022.json",
+      "blobSha": "9645ab752f55a2f22f8db5ebc70547cd54341883",
+      "report": {
+        "initial": "2026-11",
+        "previous": "2025-12",
+        "records": [
+          {
+            "month": "2025-12",
+            "stats": {
+              "countrySharedBoundaryReady": true,
+              "countryBoundaryReplacementPending": false,
+              "countrySharedBoundarySegmentCount": 75205,
+              "currentGeneration": 2
+            },
+            "packets": [
+              {
+                "kind": "prepared",
+                "requestId": 1,
+                "projectGeneration": 0,
+                "geometryRevision": 0,
+                "quality": "canonical",
+                "packetCacheHit": false,
+                "packetPreparationMs": 2.800000000745058,
+                "packetCacheResidentEstimate": 0,
+                "segments": 0,
+                "receivedAt": 899.1999999992549
+              },
+              {
+                "kind": "prepared",
+                "requestId": 3,
+                "projectGeneration": 1,
+                "geometryRevision": 1,
+                "quality": "canonical",
+                "packetCacheHit": false,
+                "packetPreparationMs": 3425.5,
+                "packetCacheResidentEstimate": 16556996,
+                "segments": 75205,
+                "receivedAt": 18467.300000000745
+              }
+            ]
+          },
+          {
+            "month": "2026-11",
+            "stats": {
+              "countrySharedBoundaryReady": true,
+              "countryBoundaryReplacementPending": false,
+              "countrySharedBoundarySegmentCount": 75205,
+              "currentGeneration": 3
+            },
+            "packets": [
+              {
+                "kind": "prepared",
+                "requestId": 1,
+                "projectGeneration": 0,
+                "geometryRevision": 0,
+                "quality": "canonical",
+                "packetCacheHit": false,
+                "packetPreparationMs": 2.800000000745058,
+                "packetCacheResidentEstimate": 0,
+                "segments": 0,
+                "receivedAt": 899.1999999992549
+              },
+              {
+                "kind": "prepared",
+                "requestId": 3,
+                "projectGeneration": 1,
+                "geometryRevision": 1,
+                "quality": "canonical",
+                "packetCacheHit": false,
+                "packetPreparationMs": 3425.5,
+                "packetCacheResidentEstimate": 16556996,
+                "segments": 75205,
+                "receivedAt": 18467.300000000745
+              }
+            ]
+          },
+          {
+            "kind": "resync-supersession",
+            "invalidId": 7,
+            "burst": [
+              9,
+              10,
+              11
+            ],
+            "latest": 11,
+            "accepted": [
+              1,
+              3,
+              6,
+              8,
+              11
+            ],
+            "recovery": [
+              {
+                "type": "delta",
+                "requestId": 7,
+                "generation": 3,
+                "quality": "canonical",
+                "total": 254,
+                "included": 0,
+                "omitted": 254,
+                "removed": 0,
+                "hasBaseToken": true
+              },
+              {
+                "type": "replace",
+                "requestId": 8,
+                "generation": 3,
+                "quality": "canonical",
+                "total": 254,
+                "included": 254,
+                "omitted": 0,
+                "removed": 0,
+                "hasBaseToken": false
+              }
+            ],
+            "semanticUnchanged": true,
+            "pixelsUnchanged": true
+          }
+        ],
+        "errors": []
+      }
+    }
+  ],
+  "supersededEvidence": [
+    {
+      "path": "cleanup.json",
+      "blobSha": "e30a63144c9fd8631c60ebb391d937fd75b2c276",
+      "bytes": 4516
+    },
+    {
+      "path": "deployment/ci-browser/public-viewer-boot-publish-83b32-and-completes-a-year-change/public-viewer.json",
+      "blobSha": "ac19adcca088b22ccf047669da971db0a7fd6e1d",
+      "bytes": 43062
+    },
+    {
+      "path": "deployment/ci-live/live.json",
+      "blobSha": "7dfd8fff401feb70e2a5d44c04473fd2a3c6fa04",
+      "bytes": 147
+    },
+    {
+      "path": "deployment/pages-evidence.json",
+      "blobSha": "e36304d39c0fd7b042ff238a87df41458148c151",
+      "bytes": 558234
+    },
+    {
+      "path": "initial-state.txt",
+      "blobSha": "90ebadf5f1290d82507b409fa967354ae023c08e",
+      "bytes": 3415
+    },
+    {
+      "path": "performance/server-488c845a.json",
+      "blobSha": "380eaf38ac26ccac4d588d07204be2ca24beecec",
+      "bytes": 265
+    },
+    {
+      "path": "performance/server-f53efa37.json",
+      "blobSha": "4c21ec673222b3317cf59c31fec9ddfb49b0b5fe",
+      "bytes": 265
+    },
+    {
+      "path": "performance/w65-A-memory.json",
+      "blobSha": "12b9fc647eb6624d379cf09e6676586e2eb9239b",
+      "bytes": 468944
+    },
+    {
+      "path": "performance/w65-A2-memory.json",
+      "blobSha": "b57e1ac423770e8abc4ef72ee275fe536fbbddb2",
+      "bytes": 468929
+    },
+    {
+      "path": "performance/w65-B-input.json",
+      "blobSha": "82827777eee2e814107f8b51478ee4c6c4856580",
+      "bytes": 78789
+    },
+    {
+      "path": "performance/w65-B-memory.json",
+      "blobSha": "5fbc2012a134f4cfd04821c15cf7ffb4d470cbcd",
+      "bytes": 1244623
+    },
+    {
+      "path": "performance/w65-B-stale.json",
+      "blobSha": "31ef8f403a3520a48fc8d369a997cca0bfcb7d2b",
+      "bytes": 89196
+    },
+    {
+      "path": "performance/w65-B-webgl-initial.json",
+      "blobSha": "46d3d63bef8632ee95c50ef8a5118a99b0f1db43",
+      "bytes": 89430
+    },
+    {
+      "path": "performance/w65-B-webgl-notice-settled.json",
+      "blobSha": "cc62f6fa709f018df869c8021f2fd7ea39890b96",
+      "bytes": 89304
+    },
+    {
+      "path": "performance/w65-history-runs.json",
+      "blobSha": "43c446fb6c3c8c81d479e6fe0df682fbf9a3add2",
+      "bytes": 1685979
+    },
+    {
+      "path": "wip-preservation.json",
+      "blobSha": "19734c0776100ce114627cf86ae15abc5c3aa349",
+      "bytes": 1170
+    }
+  ]
+}
