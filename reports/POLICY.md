@@ -109,3 +109,11 @@ reports/
 - **개발 검증**: 종료된 구형 UI 릴리스·브랜치 통합의 검사 증거는 `development/ui/*/consolidated-release.json`, `development/integrations/*/consolidated-integration.json` 등 하나의 범주별 결과물로 유지합니다. 원시 로그, 완성 뒤의 일회성 스크립트·캡처, 임시 상태는 `development/RETIRED-EVIDENCE-INDEX.json`을 통해 이전 Git 판본에서 추적합니다. 과거의 성공/실패 기록을 현재 코드의 테스트 승인으로 해석하지 않습니다.
 - **지도 분석**: 외부 원본·권리 문서는 `map-analysis/corpus/*/sources/`, 학습용 레이블과 참조 파생 이미지는 `corpus/*/{labels,derived}/`, 모델 가중치·체크포인트는 `map-analysis/models/`에 둡니다. 실제 평가·진단·미배포 실험 결과는 `map-analysis/results/model-evaluations/`, 기타 실행 결과는 `map-analysis/results/`로 분리합니다. 승인되지 않은 학습 산출물은 현재 서비스에 배포된 모델이 아닙니다.
 - **완료 후 정리 순서**: 정본 식별 → 구조화된 최종 결과 통합 → 고유 원본·소비 경로·출처 보호 → 불필요한 파일 제거 → Git 이전 경로 기록 → 색인 갱신. 폴더 통합만으로 실제 GIS 데이터 적용, 현재 코드 검증, 서비스 배포를 수행한 것으로 기록하지 않습니다.
+
+## 8. 지도 분석 같은 종류 파일 통합 규칙
+
+1. 구형 모델의 평가·학습 보고서는 모델 버전별 `results/model-evaluations/{version}/evaluation.json` 하나로, 활성/미승인 가중치 주변의 비실행 연구 요약은 `models/{version}/training-evaluation.json`으로 묶습니다. 가중치·모델 매니페스트·진단용 벡터/이미지와 실제 독립 입력을 함께 묶지 않습니다.
+2. `corpus/quality-v2/selected/sources/source-provenance.json`은 같은 코퍼스의 공급처 18건의 라이선스·출처·해시 통합 원장이고, `derived/derived-metadata.json`은 변환 이미지 5건의 메타데이터 통합 원장입니다. 원본 지도·이미지 자체는 이동하지 않습니다.
+3. `results/plugin-migration/runtime-verification.json`은 과거 플랫폼 검사 판정을 하나로 모은 보존 기록입니다. 바이너리 내보내기·개별 대형 job 결과는 삭제하지 않습니다.
+4. JSON 통합 시 `records[기존 상대경로].content`와 Git blob SHA를 함께 보존합니다. 완성된 증거 이미지는 외부 파일로 두고 상대경로를 유지합니다.
+5. **검색 인덱스/학습 입력 예외**: `corpus/gazetteer-v1/runtime/names`(4,096), `records`(256), `manifest.json`(1)은 4,353개의 검색 파생 파일이며 보고서가 아닙니다. `corpus/*/labels`, 훈련 명세서 및 실제 GIS 파일도 코드 소비자가 직접 읽으므로 현재 분할을 유지합니다. 이 데이터의 파일 수를 줄이려면 검색·학습 로더와 파일별 해시 계약을 동시에 개편해야 합니다. 검증 없이 경로만 삭제하거나 JSON을 합치지 않습니다.

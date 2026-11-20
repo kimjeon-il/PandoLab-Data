@@ -2,7 +2,7 @@
 
 이 폴더는 코퍼스 원본·훈련 입력·모델 바이너리와 분리한 **완료 결과**를 보관합니다.
 
-- `plugin-migration/`: 지오리퍼런스·지도 플러그인 작업 결과 및 검증된 내보내기 파일. 원본 지도 파일과 혼합하지 않습니다.
+- `plugin-migration/`: 지오리퍼런스·지도 플러그인 완료 결과 및 GIS 내보내기 파일. 공통 런타임·플랫폼 검증 8개는 `runtime-verification.json`으로 통합하고, 대형 개별 job/GeoPackage 결과는 분리 보존합니다. 원본 지도와 혼합하지 않습니다.
 - `windows-runtime-2026-10-23.json`: 동일한 Windows 네이티브 테스트에서 생성된 8개 중간·최종 JSON을 원문 객체별로 합친 보존용 기록이며 **현재 Viewer의 테스트 성공 판정이 아닙니다**.
 - `source-inventory-dimensions.json`: 지도 원본 인벤토리의 치수 분석 결과.
 
