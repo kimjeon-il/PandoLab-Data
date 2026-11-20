@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entityId": "state:HTI",
+  "rawProof": {
+    "entityId": "state:HTI",
+    "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+    "rawLayer": "DoS_WP_11_4",
+    "rawWP_ID": "fb5ddb15-9381-4ef0-8989-2a62149cd54f",
+    "rawBlobSha256": "69e04a7f4ccd60b116df2dcb680658f9f9f5616d9eb9bca38151cea13573b5b8",
+    "rawCoordinatesUnmodified": true,
+    "simplification": false,
+    "rounded": false,
+    "geometryValid": true,
+    "polygonCount": 183,
+    "coordinateCount": 76620,
+    "holes": 0,
+    "candidateSha256": "7a8db25af9afc77045e9717eaa903a16c51bfeddf164397ced2208527a69400c",
+    "bytes": 3041869,
+    "sourceWrite": false
+  },
+  "sourceCandidateCheck": {
+    "status": "canonical-schema candidate verified, not applied",
+    "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+    "sourcePath": "assets/data/territorial-entities/source/countries/state-HTI.json",
+    "originalDescriptorSha256": "a6a77aac239a79d1f903f69d0c3c5d0a6d518aa57e06e7d64f523d66dc8d58d9",
+    "candidateDescriptorSha256": "d4aa560e11f2f48892405343f4afb442900d20e9e7f4a70bbedcd5752b2ff326",
+    "beforeCoordinates": 1888,
+    "afterCoordinates": 76620,
+    "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+    "metadataPreserved": true,
+    "sourceCodecRoundtrip": true,
+    "historicalGateChangedVersions": 0,
+    "sourceWritten": false,
+    "runtimeGenerated": false,
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:HTI:state:HTI:natural-earth-5.1.1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-232c15bb4a31753a0f37f0b530f5160c2316b2d8cd82cf97c5385af45e905200.json",
+      "sha256": "232c15bb4a31753a0f37f0b530f5160c2316b2d8cd82cf97c5385af45e905200",
+      "bytes": 3041294
+    }
+  },
+  "provenance": {
+    "rawProof": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/HTI-raw-proof.json",
+      "gitBlobSha": "a3510680c0007664964a6921851d1a846e196e75"
+    },
+    "sourceCandidateCheck": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/HTI-source-candidate-check.json",
+      "gitBlobSha": "65aa9ed5fca6383a77995f67fb9b3ef5b535f047"
+    }
+  }
+}

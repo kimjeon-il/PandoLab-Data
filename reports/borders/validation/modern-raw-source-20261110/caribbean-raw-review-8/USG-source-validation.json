@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entityId": "state:USG",
+  "rawProof": {
+    "entityId": "state:USG",
+    "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+    "rawLayer": "DoS_WP_11_4",
+    "rawWP_ID": "110ae8ac-bd0f-40e3-a7a5-0586f7e6d939",
+    "rawBlobSha256": "3c2f631896c74ef7bccdb220b42def458775e64973acf67a27db015dfb742e4c",
+    "rawCoordinatesUnmodified": true,
+    "simplification": false,
+    "rounded": false,
+    "geometryValid": true,
+    "polygonCount": 24,
+    "coordinateCount": 4546,
+    "holes": 0,
+    "candidateSha256": "f8d8c6213727b75c2054efb5aa1d596b3d0881a7fee26fe923828cd62c97ce0a",
+    "bytes": 181169,
+    "sourceWrite": false
+  },
+  "sourceCandidateCheck": {
+    "status": "canonical-schema candidate verified, not applied",
+    "baseRevision": "4ff29196673614272b28e9376b72b8b8d527701f",
+    "sourcePath": "assets/data/territorial-entities/source/countries/state-USG.json",
+    "originalDescriptorSha256": "b2d2f0c0fe530ff014741823ac31a0450f24107753b43380dacfe325907f41cf",
+    "candidateDescriptorSha256": "f5df6125b25b1cd05ab24d332b7016ab56ba40aa1d0860e42457c6d499254d34",
+    "beforeCoordinates": 139,
+    "afterCoordinates": 4546,
+    "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+    "metadataPreserved": true,
+    "sourceCodecRoundtrip": true,
+    "historicalGateChangedVersions": 0,
+    "sourceWritten": false,
+    "runtimeGenerated": false,
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:USG:state:USG:natural-earth-5.1.1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-7d4f2e16e0500a10944b1a3f3ef8364b44a044da83f377ffe188e70f725b9ca4.json",
+      "sha256": "7d4f2e16e0500a10944b1a3f3ef8364b44a044da83f377ffe188e70f725b9ca4",
+      "bytes": 180518
+    }
+  },
+  "provenance": {
+    "rawProof": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/USG-raw-proof.json",
+      "gitBlobSha": "c9266b682f4c8aa0176930ae55d37cf860e51139"
+    },
+    "sourceCandidateCheck": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/USG-source-candidate-check.json",
+      "gitBlobSha": "0fb4853a1929ca7c15f3c50d581381624dc9179f"
+    }
+  }
+}

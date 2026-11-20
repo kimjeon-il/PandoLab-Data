@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entityId": "state:DOM",
+  "rawProof": {
+    "entityId": "state:DOM",
+    "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+    "rawLayer": "DoS_WP_11_4",
+    "rawWP_ID": "45947b09-7993-4e47-9ba6-3261703fa7ef",
+    "rawBlobSha256": "7dbc7412d6166b81c7246f330e132b37d10ea2c6ff1446febc2ef47aa8c2c81a",
+    "rawCoordinatesUnmodified": true,
+    "simplification": false,
+    "rounded": false,
+    "geometryValid": true,
+    "polygonCount": 72,
+    "coordinateCount": 54850,
+    "holes": 0,
+    "candidateSha256": "cd669a105a20da47ec1fb66ddd66a861d95161f655a09147c689c5ace164b943",
+    "bytes": 2177458,
+    "sourceWrite": false
+  },
+  "sourceCandidateCheck": {
+    "status": "canonical-schema candidate verified, not applied",
+    "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+    "sourcePath": "assets/data/territorial-entities/source/countries/state-DOM.json",
+    "originalDescriptorSha256": "5f8262eb40c3e37734997dc45703694f6d41c769ef9c48e12209b175f7977f10",
+    "candidateDescriptorSha256": "5bd724484a9d465c3ed787c5eda811089803cf5d36284b0aed9180762d2c5f0b",
+    "beforeCoordinates": 1331,
+    "afterCoordinates": 54850,
+    "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+    "metadataPreserved": true,
+    "sourceCodecRoundtrip": true,
+    "historicalGateChangedVersions": 0,
+    "sourceWritten": false,
+    "runtimeGenerated": false,
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:DOM:state:DOM:natural-earth-5.1.1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-5ce4c0e277e55b3b787cfb0f3dc063b91e1f67c0a97f691b427195e5649ef8b7.json",
+      "sha256": "5ce4c0e277e55b3b787cfb0f3dc063b91e1f67c0a97f691b427195e5649ef8b7",
+      "bytes": 2176817
+    }
+  },
+  "provenance": {
+    "rawProof": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/DOM-raw-proof.json",
+      "gitBlobSha": "e4f8a0d3fa2dc78cff6eee6762946668a17af6e2"
+    },
+    "sourceCandidateCheck": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/DOM-source-candidate-check.json",
+      "gitBlobSha": "c21007b254ccb43f0832af0b32b69b868f66893f"
+    }
+  }
+}

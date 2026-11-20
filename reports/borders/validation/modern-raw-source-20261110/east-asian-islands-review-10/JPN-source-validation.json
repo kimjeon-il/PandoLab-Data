@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entityId": "state:JPN",
+  "rawProof": {
+    "entityId": "state:JPN",
+    "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+    "rawLayer": "DoS_WP_11_4",
+    "rawWP_ID": "1d116ea2-5067-4f6b-b34d-057e3ac7da6f",
+    "rawBlobSha256": "7a0d01cd76bf28376dc6bbf979276286c65b1fffdb75c5e98fe382ec88c7c34b",
+    "rawCoordinatesUnmodified": true,
+    "simplification": false,
+    "rounded": false,
+    "geometryValid": true,
+    "polygonCount": 5626,
+    "coordinateCount": 1230569,
+    "holes": 0,
+    "candidateSha256": "b42daced16e94b0e46784a4ed09ab7543b1be919133342ab85f26f31920e0804",
+    "bytes": 47594048,
+    "sourceWrite": false
+  },
+  "sourceCandidateCheck": {
+    "status": "canonical-schema candidate verified, not applied",
+    "baseRevision": "4ff29196673614272b28e9376b72b8b8d527701f",
+    "sourcePath": "assets/data/territorial-entities/source/countries/state-JPN.json",
+    "originalDescriptorSha256": "666affba71fae6afbf94b44c7c7e6c0bf65160c9be47bf4aadfbe9575bec4515",
+    "candidateDescriptorSha256": "276c23d4ac7c92aba37e3222d72fc4acb0353521721ea72d6066f61c87492741",
+    "beforeCoordinates": 29095,
+    "afterCoordinates": 1230569,
+    "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+    "metadataPreserved": true,
+    "sourceCodecRoundtrip": true,
+    "historicalGateChangedVersions": 0,
+    "sourceWritten": false,
+    "runtimeGenerated": false,
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:JPN:state:JPN:natural-earth-5.1.1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-5452bb11740cbbf6a0da65efd6f5a563e3f002e2e65ce0398d30977aa5033200.json",
+      "sha256": "5452bb11740cbbf6a0da65efd6f5a563e3f002e2e65ce0398d30977aa5033200",
+      "bytes": 47593497
+    }
+  },
+  "provenance": {
+    "rawProof": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/east-asian-islands-review-10/JPN-raw-proof.json",
+      "gitBlobSha": "bcf87b42c05d3d22537082206d1c6205f5f37cae"
+    },
+    "sourceCandidateCheck": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/east-asian-islands-review-10/JPN-source-candidate-check.json",
+      "gitBlobSha": "7fe5bf143833e8ce044d7af7361fa69b2f7842df"
+    }
+  }
+}

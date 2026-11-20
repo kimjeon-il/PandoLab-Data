@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "entityId": "state:CUB",
+  "rawProof": {
+    "entityId": "state:CUB",
+    "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+    "rawLayer": "DoS_WP_11_4",
+    "rawWP_ID": "e1081793-4fc5-44ac-8ff8-3f9cf10c87f2",
+    "rawBlobSha256": "5214d54ac0616ff38625440ebe49cd479b35d08108ecd70298a94b1c65f36f49",
+    "rawCoordinatesUnmodified": true,
+    "simplification": false,
+    "rounded": false,
+    "geometryValid": true,
+    "polygonCount": 5122,
+    "coordinateCount": 647069,
+    "holes": 0,
+    "candidateSha256": "79f4884024f252e852c30647c7d722cd3745415f81a56e64361625d754924bb4",
+    "bytes": 25696137,
+    "sourceWrite": false
+  },
+  "sourceCandidateCheck": {
+    "status": "canonical-schema candidate verified, not applied",
+    "baseRevision": "48f87454b84af04def4cd9cd172a4725d134899b",
+    "sourcePath": "assets/data/territorial-entities/source/countries/state-CUB.json",
+    "originalDescriptorSha256": "f5e3d819c775bdd934405a3acd8c02c227e7993b77748f84055e119b26064fb2",
+    "candidateDescriptorSha256": "5c283918c6da3f7d3c86bb0400d4c45d55a3bfb3687d39ad6ab73576b43e342a",
+    "beforeCoordinates": 16486,
+    "afterCoordinates": 647069,
+    "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+    "metadataPreserved": true,
+    "sourceCodecRoundtrip": true,
+    "historicalGateChangedVersions": 0,
+    "sourceWritten": false,
+    "runtimeGenerated": false,
+    "geometryResource": {
+      "logicalRef": {
+        "id": "state:CUB:state:CUB:natural-earth-5.1.1",
+        "version": 1
+      },
+      "role": "source",
+      "type": "MultiPolygon",
+      "file": "geometries/sha256-f875da8223eb8a71e746c2c3f0f752420c18985f417e890623eb94905cad59ad.json",
+      "sha256": "f875da8223eb8a71e746c2c3f0f752420c18985f417e890623eb94905cad59ad",
+      "bytes": 25695570
+    }
+  },
+  "provenance": {
+    "rawProof": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/CUB-raw-proof.json",
+      "gitBlobSha": "6a737425ffa53e8344600f4f9e99ef3d1e532b73"
+    },
+    "sourceCandidateCheck": {
+      "originalPath": "reports/borders/validation/modern-raw-source-20261110/caribbean-raw-review-8/CUB-source-candidate-check.json",
+      "gitBlobSha": "f290a8e4584da979067e777653306ab3d92862c0"
+    }
+  }
+}
