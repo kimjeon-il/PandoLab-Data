@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "kind": "current-island-border-source-verification",
+  "category": "island-batch-5",
+  "sourceCommit": "4ff514333f7e17bd4db41b928b924a20c018bbe6",
+  "records": [
+    {
+      "sourceFile": "AUS-source-validation.json",
+      "blobSha": "bc528be33704ee15562e5b7e612913e5f81976ae",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:AUS",
+        "rawProof": {
+          "entityId": "state:AUS",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "1f959630-f4f3-446e-8aeb-28c0fb371d52",
+          "rawBlobSha256": "7463303d171fe54b18744e0d779b751f11dab80fab0d61554d618de73c167f52",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 8428,
+          "coordinateCount": 2144776,
+          "holes": 0,
+          "candidateSha256": "227d5ab2caba07c8c9e268f8cc3798eab29f16574e60cc84b6731cddb70a43b3",
+          "bytes": 85933904,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-AUS.json",
+          "originalDescriptorSha256": "6e0b1dd6bc6bf38f64fd63fcd439ca9e51c9a25e1cbc9adb2f9273ea71eaf84a",
+          "candidateDescriptorSha256": "61a0a3e90d66885d645665b32ba6afbb2581b3e50b8c1c74acfc51ad97b338ec",
+          "beforeCoordinates": 72637,
+          "afterCoordinates": 2144776,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:AUS:state:AUS:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-fdb717096e7af58a8e94d01eafccad21a81684acfe5b80668e414f91db17176a.json",
+            "sha256": "fdb717096e7af58a8e94d01eafccad21a81684acfe5b80668e414f91db17176a",
+            "bytes": 85933294
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/AUS-raw-proof.json",
+            "gitBlobSha": "7daba09c10fa93781989131fa1fc6a6a58ac1432"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/AUS-source-candidate-check.json",
+            "gitBlobSha": "bf11ac871a3d0f38fed239cdba05c46f9c316813"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "LKA-source-validation.json",
+      "blobSha": "da1d5ddebb5fad1faf466abf986c763328775db3",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:LKA",
+        "rawProof": {
+          "entityId": "state:LKA",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "a5dfbd71-8d9a-4a1c-9afd-d00e7b752d8c",
+          "rawBlobSha256": "7b951deb5a87b3d31ce2c98bda243a853e456369c8ee1035d826da316b2423d3",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 186,
+          "coordinateCount": 95323,
+          "holes": 0,
+          "candidateSha256": "75a066eb14da91bc2f702fe99d128aace7ad001f91e236369855c50b743c7357",
+          "bytes": 3615171,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-LKA.json",
+          "originalDescriptorSha256": "e417d80ebf75c15489553945d70ce3f6fa22ca7ea8fad4235733715e6c31027b",
+          "candidateDescriptorSha256": "3f5747b81923709e46f87aad8dd05a550456d89179108d8f9bebe7be6cddbe93",
+          "beforeCoordinates": 2505,
+          "afterCoordinates": 95323,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:LKA:state:LKA:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-8d3c9a7050ad59dbe8a417166c444a0a77bc7a4c7d5e2a32510d94bd4fb8cd9b.json",
+            "sha256": "8d3c9a7050ad59dbe8a417166c444a0a77bc7a4c7d5e2a32510d94bd4fb8cd9b",
+            "bytes": 3614526
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/LKA-raw-proof.json",
+            "gitBlobSha": "6fe271ec0a9e41b9a6c40d5cbbc930ac64e178dd"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/LKA-source-candidate-check.json",
+            "gitBlobSha": "9f79a0fa9a007e3bf93e33045df8bf78f7167b63"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "NZL-source-validation.json",
+      "blobSha": "29b81f4e0d9146b785b95e282bc2734fdc0f6dd2",
+      "content": {
+        "schemaVersion": 1,
+        "entityId": "state:NZL",
+        "rawProof": {
+          "entityId": "state:NZL",
+          "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+          "rawLayer": "DoS_WP_11_4",
+          "rawWP_ID": "19933a67-5b8a-42ac-8f87-e4cb9349085e",
+          "rawBlobSha256": "5693599535dae4842f5f4a831dc84a22482cd6b3eaa43cc1756d45937393487e",
+          "rawCoordinatesUnmodified": true,
+          "simplification": false,
+          "rounded": false,
+          "geometryValid": true,
+          "polygonCount": 1731,
+          "coordinateCount": 545809,
+          "holes": 0,
+          "candidateSha256": "dd65ac0437c307fb9b07acdf8a12ba54e93a13bcb34606f9927ad6c88051fb23",
+          "bytes": 21770104,
+          "sourceWrite": false
+        },
+        "sourceCandidateCheck": {
+          "status": "canonical-schema candidate verified, not applied",
+          "baseRevision": "fa97cd822f7c6dd2ceafd3d697c669187868b61b",
+          "sourcePath": "assets/data/territorial-entities/source/countries/state-NZL.json",
+          "originalDescriptorSha256": "a3247aba64850acea8abd764dc6ad0bbbcf46eaa633b9384e985375e5c33cada",
+          "candidateDescriptorSha256": "2c3cb11054cd237a508d2778b41d685ac25f856505111d5b073aa9dd07c38152",
+          "beforeCoordinates": 13856,
+          "afterCoordinates": 545809,
+          "rawCoordinateRoundtrip": "byte-identical WKB checked separately",
+          "metadataPreserved": true,
+          "sourceCodecRoundtrip": true,
+          "historicalGateChangedVersions": 0,
+          "sourceWritten": false,
+          "runtimeGenerated": false,
+          "geometryResource": {
+            "logicalRef": {
+              "id": "state:NZL:state:NZL:natural-earth-5.1.1",
+              "version": 1
+            },
+            "role": "source",
+            "type": "MultiPolygon",
+            "file": "geometries/sha256-38b8679e9512bf401d0836d0fe32d4c8f8532c31d05250a00331a51c81af0ea2.json",
+            "sha256": "38b8679e9512bf401d0836d0fe32d4c8f8532c31d05250a00331a51c81af0ea2",
+            "bytes": 21769511
+          }
+        },
+        "provenance": {
+          "rawProof": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/NZL-raw-proof.json",
+            "gitBlobSha": "4d85683e7ffed2ed16e4a942c1a053600e889bf0"
+          },
+          "sourceCandidateCheck": {
+            "originalPath": "reports/borders/validation/modern-raw-source-20261110/island-batch-5/NZL-source-candidate-check.json",
+            "gitBlobSha": "01d0e7950b49e5fb20dcb35e7c348f68651ca51a"
+          }
+        }
+      }
+    },
+    {
+      "sourceFile": "applied-result.json",
+      "blobSha": "6253ac9ff4f57241751029278b2b2d167e5c5663",
+      "content": {
+        "base": "1cec447db3b8f90581debf8739ad891d30370329",
+        "revision": "b9d7b278286657138a32ffbb43adb33e04923b4e",
+        "codes": [
+          "AUS",
+          "NZL",
+          "LKA"
+        ],
+        "changed": [
+          "assets/data/territorial-entities/source/countries/state-AUS.json",
+          "assets/data/territorial-entities/source/countries/state-LKA.json",
+          "assets/data/territorial-entities/source/countries/state-NZL.json",
+          "assets/data/territorial-entities/source/geometries/sha256-38b8679e9512bf401d0836d0fe32d4c8f8532c31d05250a00331a51c81af0ea2.json",
+          "assets/data/territorial-entities/source/geometries/sha256-8d3c9a7050ad59dbe8a417166c444a0a77bc7a4c7d5e2a32510d94bd4fb8cd9b.json",
+          "assets/data/territorial-entities/source/geometries/sha256-fdb717096e7af58a8e94d01eafccad21a81684acfe5b80668e414f91db17176a.json"
+        ],
+        "readback": true,
+        "rawLossless": true,
+        "remote": false,
+        "runtime": false
+      }
+    },
+    {
+      "sourceFile": "cleanup.json",
+      "blobSha": "f561c96905feb0bf0b30fef7e7fe2cd7bbb3bd91",
+      "content": {
+        "removed": [
+          {
+            "file": "AUS-raw-candidate.geojson",
+            "bytes": 85933904
+          },
+          {
+            "file": "AUS-before.geojson",
+            "bytes": 2924137
+          },
+          {
+            "file": "geometries/sha256-fdb717096e7af58a8e94d01eafccad21a81684acfe5b80668e414f91db17176a.json",
+            "bytes": 85933294
+          },
+          {
+            "file": "NZL-raw-candidate.geojson",
+            "bytes": 21770104
+          },
+          {
+            "file": "NZL-before.geojson",
+            "bytes": 554497
+          },
+          {
+            "file": "geometries/sha256-38b8679e9512bf401d0836d0fe32d4c8f8532c31d05250a00331a51c81af0ea2.json",
+            "bytes": 21769511
+          },
+          {
+            "file": "LKA-raw-candidate.geojson",
+            "bytes": 3615171
+          },
+          {
+            "file": "LKA-before.geojson",
+            "bytes": 95221
+          },
+          {
+            "file": "geometries/sha256-8d3c9a7050ad59dbe8a417166c444a0a77bc7a4c7d5e2a32510d94bd4fb8cd9b.json",
+            "bytes": 3614526
+          }
+        ],
+        "reason": "verified committed raw original coordinates; redundant temporary exports",
+        "logicalBytes": 226210365
+      }
+    },
+    {
+      "sourceFile": "island-batch-geographic-review.json",
+      "blobSha": "f4e9b21af557ce0623ecde9786bd0bf7cd30aa65",
+      "content": [
+        {
+          "code": "AUS",
+          "rawBounds": [
+            112.92118600000003,
+            159.25570460000006,
+            -55.05044399999997,
+            -9.14098619999993
+          ],
+          "previousBounds": [
+            112.92119960000002,
+            159.25570460000006,
+            -55.049166999999954,
+            -9.220538199999964
+          ],
+          "rawPolygonCount": 8428,
+          "previousPolygonCount": 2260,
+          "rawAreaSquareDegrees": 695.2868450043012,
+          "previousAreaSquareDegrees": 695.2778991823006,
+          "rawNeighbours": [
+            {
+              "id": "19933a67-5b8a-42ac-8f87-e4cb9349085e",
+              "name": "New Zealand",
+              "code": "NZL",
+              "intersects": false
+            },
+            {
+              "id": "23477918-2e5a-4117-99fc-c907bc5e387b",
+              "name": "Fiji",
+              "code": "FJI",
+              "intersects": false
+            },
+            {
+              "id": "6a542429-4cb1-41cc-a91d-0956f79b8be4",
+              "name": "Kiribati",
+              "code": "KIR",
+              "intersects": false
+            },
+            {
+              "id": "24670f25-43cb-4101-b52c-c8f489f53a78",
+              "name": "Ashmore and Cartier Islands",
+              "code": "XAC",
+              "intersects": false
+            },
+            {
+              "id": "11343578-4897-4c94-ae3a-625a5eea1e6f",
+              "name": "Coral Sea Islands",
+              "code": "XCS",
+              "intersects": false
+            },
+            {
+              "id": "4026e6ac-83c9-423f-9114-decf7461c75f",
+              "name": "Indonesia",
+              "code": "IDN",
+              "intersects": false
+            },
+            {
+              "id": "f47b7581-8276-4049-a0ea-18986e8a764b",
+              "name": "New Caledonia",
+              "code": "NCL",
+              "intersects": false
+            },
+            {
+              "id": "7578d771-2efa-4aaf-b4fb-03b37feabcfb",
+              "name": "Papua New Guinea",
+              "code": "PNG",
+              "intersects": false
+            },
+            {
+              "id": "f371e7f5-b7fc-4df0-900e-046e3266326b",
+              "name": "Solomon Islands",
+              "code": "SLB",
+              "intersects": false
+            },
+            {
+              "id": "88cb3d29-f783-4135-a3fb-d28e3fa45cfb",
+              "name": "Timor-Leste",
+              "code": "TLS",
+              "intersects": false
+            }
+          ],
+          "scope": "No geopolitical repartition; one independent LSIB feature with unchanged parent, all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        },
+        {
+          "code": "NZL",
+          "rawBounds": [
+            -178.57008949999997,
+            179.06218380000007,
+            -52.620862099999954,
+            -29.23064299999993
+          ],
+          "previousBounds": [
+            -178.55991899999998,
+            178.82221530000004,
+            -52.620862099999954,
+            -8.532947999999976
+          ],
+          "rawPolygonCount": 1731,
+          "previousPolygonCount": 382,
+          "rawAreaSquareDegrees": 29.30185734952679,
+          "previousAreaSquareDegrees": 29.317594629298764,
+          "rawNeighbours": [
+            {
+              "id": "68ef9660-cb2d-4e77-9eda-bc6a93d4ff7d",
+              "name": "Chile",
+              "code": "CHL",
+              "intersects": false
+            },
+            {
+              "id": "0aec5e8e-3c28-482d-93ec-c232f679f780",
+              "name": "Argentina",
+              "code": "ARG",
+              "intersects": false
+            },
+            {
+              "id": "cbe8070a-f505-4eb6-9c9e-e1a5f3bc7a63",
+              "name": "Falkland Islands (Islas Malvinas)",
+              "code": "FLK",
+              "intersects": false
+            },
+            {
+              "id": "028649a9-8250-4c25-9cff-d1a08f4a5f44",
+              "name": "South Africa",
+              "code": "ZAF",
+              "intersects": false
+            },
+            {
+              "id": "84bd1da3-d6b3-4244-94fe-fb5a3e503f8f",
+              "name": "Saint Helena, Ascension, and Tristan da Cunha",
+              "code": "SHN",
+              "intersects": false
+            },
+            {
+              "id": "ddc44fac-bb84-4d9b-88ee-7fc95e409a3b",
+              "name": "Brazil",
+              "code": "BRA",
+              "intersects": false
+            },
+            {
+              "id": "78b85cb6-71a1-4548-9dff-03045ef7cc96",
+              "name": "Brazilian Island",
+              "code": "XQP",
+              "intersects": false
+            },
+            {
+              "id": "38f71534-ed56-4db6-b9a0-33396d4e6a71",
+              "name": "Uruguay",
+              "code": "URY",
+              "intersects": false
+            },
+            {
+              "id": "7be95087-6977-490d-bf14-8c030d08a6ba",
+              "name": "French Southern and Antarctic Lands",
+              "code": "ATF",
+              "intersects": false
+            },
+            {
+              "id": "1f959630-f4f3-446e-8aeb-28c0fb371d52",
+              "name": "Australia",
+              "code": "AUS",
+              "intersects": false
+            },
+            {
+              "id": "11343578-4897-4c94-ae3a-625a5eea1e6f",
+              "name": "Coral Sea Islands",
+              "code": "XCS",
+              "intersects": false
+            },
+            {
+              "id": "d425f095-8cd2-4255-b565-7d84cb999a59",
+              "name": "Lesotho",
+              "code": "LSO",
+              "intersects": false
+            }
+          ],
+          "scope": "No geopolitical repartition; one independent LSIB feature with unchanged parent, all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        },
+        {
+          "code": "LKA",
+          "rawBounds": [
+            79.52196770000006,
+            81.87842520000004,
+            5.918755200000021,
+            9.836121000000048
+          ],
+          "previousBounds": [
+            79.52254260000007,
+            81.87765867905681,
+            5.918755800000042,
+            9.836120600000072
+          ],
+          "rawPolygonCount": 186,
+          "previousPolygonCount": 80,
+          "rawAreaSquareDegrees": 5.397720981554711,
+          "previousAreaSquareDegrees": 5.398020623198925,
+          "rawNeighbours": [
+            {
+              "id": "d1fab3b1-73a8-4492-8513-6ef4298a134c",
+              "name": "India",
+              "code": "IND",
+              "intersects": false
+            }
+          ],
+          "scope": "No geopolitical repartition; one independent LSIB feature with unchanged parent, all original polygons retained. Bounds/area are geographic degrees, not metric accuracy estimates."
+        }
+      ]
+    }
+  ],
+  "retiredUnappliedDescriptors": [
+    {
+      "sourceFile": "AUS-existing-source-candidate.json",
+      "blobSha": "c68392f8e0ec58d425628bb9499dbd1e88aeec27"
+    },
+    {
+      "sourceFile": "LKA-existing-source-candidate.json",
+      "blobSha": "6736da193a22b84d0e6a2846b9ed90bca2185b63"
+    },
+    {
+      "sourceFile": "NZL-existing-source-candidate.json",
+      "blobSha": "0600f01ea49bce4bc7fd5b878916858a5f9aafae"
+    }
+  ]
+}
