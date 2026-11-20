@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "canonicalFile": "world-webgl2.json",
+  "canonicalGitBlobSha": "735f20330a6e3f892fc650405eb1a1ee3100f819",
+  "measurementBytes": 1647609,
+  "runs": [
+    {
+      "originalFile": "world-webgl2-initial.json",
+      "role": "initial WebGL2 measurement snapshot",
+      "mergedInto": "world-webgl2.json"
+    },
+    {
+      "originalFile": "world-webgl2.json",
+      "role": "canonical WebGL2 evidence snapshot / later reference",
+      "mergedInto": "world-webgl2.json"
+    }
+  ],
+  "deduplication": {
+    "identity": "Git blob SHA and byte length identical",
+    "independentMeasurementNotInferred": true,
+    "sourceFilesBefore": 2,
+    "canonicalMeasurementFilesAfter": 1
+  },
+  "date": "2026-11-20"
+}
