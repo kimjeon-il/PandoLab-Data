@@ -1,6 +1,6 @@
 {
   "schema": "pando-history-research-progress-v1",
-  "updatedOn": "2026-11-21",
+  "updatedOn": "2026-11-22",
   "lifetime": {
     "rotationOrder": [
       "유럽",
@@ -149,8 +149,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "아프리카",
-    "nextRegion": "북아메리카",
+    "lastRegion": "북아메리카",
+    "nextRegion": "남아메리카",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -160,11 +160,11 @@
       },
       {
         "scope": "마지막 처리 지역",
-        "detail": "2025년 아프리카(2026-11-21): 가봉–적도기니 ICJ 법적 권원(2025년 주권 이전 아님), 차고스 미발효 조약, AES 조직기/ECOWAS 탈퇴 제외. 검토 범위 내 신규 입력 사건 0건; 지역 전수 미완료."
+        "detail": "2025년 북아메리카(2026-11-22): 그린란드 지위, 벨리즈–과테말라 사르스툰강/섬, 벨리즈–온두라스 사포디야 제도, 미국–캐나다/멕시코 국제경계 2025 공식 벡터 조사. 범위 내 법적 입력 변동 미발견. 북아메리카 전수 미완료."
       },
       {
         "scope": "다음 지역",
-        "detail": "2025년 북아메리카: 실제 입력 가능한 국가·속령·국경·도서·정식 국명·국기 효력 변동 조사. 아이티 세관 통제 등 비입력 사건 배제. 2025 여섯 지역 전수 완료 전 2024 이동 금지."
+        "detail": "2025년 남아메리카: 페루–콜롬비아 산타로사섬 귀속·국경 등 법적 효력 변동을 조사하고 속령 관계·국명·국기 변경 여부 확인. 시설·행정구역·국지 점령만으로 사건 작성 금지."
       },
       {
         "scope": "연도 잠금",
@@ -189,6 +189,10 @@
       {
         "scope": "아프리카 2025",
         "detail": "가봉–적도기니 1900/1968의 법적 권원과 2025 ICJ 판결을 2025 주권 이전으로 취급하지 말 것. 차고스 2025 조약 미발효 상태와 향후 효력일 재확인. 현 회차 외 지역 전수 미완료."
+      },
+      {
+        "scope": "북아메리카 2025",
+        "detail": "2025 그린란드 편입/독립 실현 미발견, 사르스툰강·섬은 상충 주장 및 국지 군사활동, 사포디야 제도는 ICJ 소송 참가 관련 절차로서 법적 귀속 변경 확인 불가. 공식 TIGER/Line 2025 SHP ZIP은 2025-01-01 기준 기존 국제경계 지도이며 새 영토변동 증거 아님. GIS 원본 다운/CRS/해시/변환/위상/화면검사 모두 미실행. 북아메리카 전수 미완료."
       }
     ],
     "exclude": [
@@ -200,86 +204,99 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-21",
+    "lastReviewedOn": "2026-11-22",
     "lastReview": {
       "year": 2025,
-      "region": "아프리카",
-      "scope": "2025-01-01~2025-12-31: 가봉–적도기니 3개 도서/국경 권원, 차고스(BIOT)–모리셔스의 속령·도서 귀속, 사헬 3국 연합기·ECOWAS 탈퇴의 입력 적격성. 조사 범위 한정; 아프리카 전체 전수 미완료.",
-      "finding": "검토한 3개 쟁점에서 2025년 효력이 발생한 Pando 입력 가능 국가·속령 생성/소멸, 주권·부모관계, 국경·도서 귀속, 정식 국명·국기 변경 미발견. 사건 JSON 0건; 아프리카 전체 변화 없음 확정 아님.",
+      "region": "북아메리카",
+      "scope": "2025-01-01~2025-12-31: 그린란드의 자치국 지위, 벨리즈·과테말라 사르스툰강/섬, 벨리즈·온두라스 사포디야 제도 소송, 미국–캐나다·멕시코 국제경계 공식 벡터의 실질적인 국가·속령·국경·도서 귀속 변동 여부. 이 네 주제에 한정하며 북아메리카 전체 전수는 미완료.",
+      "finding": "조사된 범위 내 2025년 유효한 신규 국가/속령의 성립·종료/상위관계 변경, 공식 국명·국기 변경, 국제 국경·도서 귀속 변경 미발견. 그린란드 선거, 사르스툰강 현장 충돌, 국제사법재판소 절차, 연도별 지도판본 갱신은 법적 귀속/형상 변경 사건이 아님. 신규 사건 JSON 0건; 정본 적용 0건. 이 결과는 북아메리카 전체의 '변화 없음' 확정이 아님.",
       "checkedCandidates": [
         {
-          "topic": "가봉–적도기니 Mbanié/Mbañe·Cocotiers/Cocoteros·Conga 도서",
-          "judgmentDate": "2025-05-19",
-          "finding": "ICJ가 1900년 조약의 법적 권원 및 1968년 스페인→적도기니 승계 확인. 1974 Bata 문서는 법적 권원 아님. 재판소는 섬 주권의 직접 결정/경계 획정 의뢰를 받지 않았다고 명시. 2025년 주권 이전/국경 이동 사건으로 기록 불가.",
+          "topic": "그린란드(덴마크 왕국 자치령)",
+          "date": "2025-03-11",
+          "finding": "의회 선거 및 미국의 편입 주장·장래 독립 논의가 존재하나 2025년에 독립, 미국 편입, 덴마크 상위관계 변경은 실현되지 않은 것으로 확인. 선거·정부 교체는 입력 대상에서 제외.",
+          "inputAssessment": "no-new-legal-change",
           "sourceUrls": [
-            "https://api.icj-cij.org/sites/default/files/case-related/179/179-20250519-pre-01-00-en.pdf",
-            "https://academic.oup.com/jids/article/17/2/idag016/8719172"
+            "https://www.europarl.europa.eu/thinktank/en/academic/EPRS_BRI(2025)769527",
+            "https://www.reuters.com/world/europe/greenland-strengthens-danish-ties-it-eyes-independence-2025-03-31/"
           ],
-          "sourceReview": "ICJ 공보의 추출 텍스트 열람, 독립 학술 분석 대조. PDF 화면 스크린샷은 403, 원 판결 전문 미검토.",
-          "inputAssessment": "no-new-2025-change"
+          "sourceReview": "유럽의회 2025년 브리핑 검색 본문 발췌와 로이터 2025-03-31 보도 열람. 덴마크 자치법 원문 금회 미열람."
         },
         {
-          "topic": "영국–모리셔스 차고스 제도·영국령 인도양 지역",
-          "treatySigned": "2025-05-22",
-          "entryIntoForce": "not-in-force-as-of-2026-10-08",
-          "finding": "2025년 조약 서명은 실제 주권 이전/BIOT 폐지의 효력일이 아님. 영국 하원 2026-10-08 조사에서 미발효 및 영국 비준절차 중단 확인. 2025 사건 생성하지 않음.",
-          "sourceUrls": [
-            "https://www.gov.uk/government/publications/ukmauritius-agreement-concerning-the-chagos-archipelago-including-diego-garcia-cs-mauritius-no12025",
-            "https://commonslibrary.parliament.uk/research-briefings/cbp-10512/"
-          ],
-          "sourceReview": "FCDO 조약 게시 페이지 및 영국 하원 도서관 HTML 열람; 조약 PDF 원문 미검토.",
-          "inputAssessment": "not-in-force"
-        },
-        {
-          "topic": "사헬 3국 AES 조직기·ECOWAS 탈퇴",
+          "topic": "벨리즈–과테말라 사르스툰강·사르스툰섬(Sarstoon)",
           "dates": [
-            "2025-01-29",
-            "2025-02-22"
+            "2025-09-10",
+            "2025-09-12",
+            "2025-09-13"
           ],
-          "finding": "국제기구 회원 탈퇴 및 2024년 이미 성립한 AES의 조직기 도입. 말리·니제르·부르키나파소 주권국의 국기/국호/영토/국가 동일성/상위관계 변경이 아님. 국가·속령 이벤트 제외.",
+          "finding": "CARICOM의 2025-09-16 발표와 과테말라 외무부 같은 날 발표는 서로 상충하는 국경침입·사르스툰섬 영유권 주장을 담음. 기존 국경분쟁의 군사 접촉은 2025년 확정 법적 영토 이전·경계 이동을 입증하지 않으므로 신규 사건 미작성.",
+          "inputAssessment": "contested-no-verified-2025-transfer",
           "sourceUrls": [
-            "https://westafricaweekly.com/css-unveils-official-flag-after-exit-from-ecowas/",
-            "https://www.reuters.com/world/africa/west-africa-bloc-announces-formal-exit-three-junta-led-states-2025-01-29/"
+            "https://caricom.org/caricom-statement-on-border-incursions-on-belize-by-guatemala/",
+            "https://guatemala.gob.gt/comunicado-sobre-los-incidentes-ocurridos-los-dias-10-12-y-13-de-septiembre-de-2025-en-el-rio-sarstun/"
           ],
-          "inputAssessment": "out-of-scope"
+          "sourceReview": "CARICOM 성명 및 과테말라 정부 성명 HTML 본문 직접 열람; 상충 주장 그대로 유보."
+        },
+        {
+          "topic": "벨리즈–온두라스 사포디야 제도(Sapodilla Cayes) 국제사법재판소 절차",
+          "dates": [
+            "2025-07-21",
+            "2025-11-24",
+            "2025-11-26"
+          ],
+          "finding": "2025-07-21 벨리즈 외교부는 과테말라의 소송 참가허가 신청에 대한 ICJ 심리를 예고. 11월 24~26일 절차는 참가허가 심리일 뿐 도서 주권이나 법적 귀속 확정 판결이 아님. 2026년 참가허가 결정 역시 본안 판결로 소급하지 않음.",
+          "inputAssessment": "procedure-only",
+          "sourceUrls": [
+            "https://www.pressoffice.gov.bz/wp-content/uploads/2025/07/July-21-PR127-25-Statement-by-the-Ministry-of-Foreign-Affairs-and-Foreign-Trade.pdf",
+            "https://www.icj-cij.org/case/185",
+            "https://icj-web.leman.un-icc.cloud/case/185/press-releases"
+          ],
+          "sourceReview": "벨리즈 2025-07-21 공식 PDF 검색 추출과 ICJ 2025-11-05/26 보도자료 목록 검색; ICJ 정식 페이지 직접 열람 403, PDF 시각 검증 미실행."
+        },
+        {
+          "topic": "미국–캐나다·미국–멕시코 육상 국경 자료",
+          "finding": "2025 Census TIGER/Line 국제경계 데이터는 기존 국제경계의 통계·지도 표현으로 국경 조약 변경·영토 양도 자체가 아님. IBC/IBWC 제공자료를 Census 편집에 사용하며 지도 수정·표지 개선은 국제법적 경계변경으로 집계할 수 없음.",
+          "inputAssessment": "source-version-not-territorial-change",
+          "sourceUrls": [
+            "https://catalog.data.gov/dataset/tiger-line-shapefile-2025-nation-u-s-international-boundaries",
+            "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2025.html",
+            "https://www.internationalboundarycommission.org/en/maps-coordinates.php"
+          ],
+          "sourceReview": "미 정부 data.gov 상세 메타데이터 및 Census 공식 발행일·유효시점 안내, IBC 공식 자료 해설 웹 열람."
         }
       ],
       "historicalVectorPriority": {
         "candidates": [
           {
-            "provider": "미 국무부 LSIB",
-            "edition": "11.4",
-            "published": "2025-02-24",
-            "formats": [
-              "SHP ZIP",
-              "GPKG"
-            ],
-            "url": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
-            "suitability": "판결 전 발행, 2025-05 이후 권원/영토 변화 입증 불가"
+            "provider": "U.S. Census Bureau (IBC·IBWC 경계자료 기반)",
+            "dataset": "TIGER/Line Shapefile 2025 Nation U.S. International Boundaries",
+            "version": "TIGER2025",
+            "editionPublished": "2025-09-23 공개; 카탈로그 issued 2025-10",
+            "boundaryEffectiveDate": "Census 2025 법정 경계·지명 기준 2025-01-01; 이 발행/기준일은 국경 변경 조약 효력일이 아님",
+            "format": "SHP ZIP(.shp/.shx/.dbf/.prj 구성은 문서상 포맷이며 파일 실물 미열람)",
+            "originalUrl": "https://www2.census.gov/geo/tiger/TIGER2025/INTERNATIONALBOUNDARY/tl_2025_us_internationalboundary.zip",
+            "metadataUrl": "https://catalog.data.gov/dataset/tiger-line-shapefile-2025-nation-u-s-international-boundaries",
+            "coverage": "미국–캐나다 및 미국–멕시코 국제경계",
+            "crs": "Census TIGER2025 기술문서에는 GCS NAD83 명시; 대상 원본 .prj 미열람·미검증",
+            "featureId": "미확인(원본 속성 미열람)",
+            "geometryType": "국제경계 데이터셋; 실제 피처/선·폴리곤 구분 원본 미열람",
+            "rights": "data.gov CC0 1.0 표시 및 Census 출처표기 요청; 개별 출처·파생 제한 별도 미검증",
+            "redistribution": "제품 도입·재배포 미승인",
+            "suitability": "공식 2025판 국경 지도 참고 후보. 2025년 신규 역사 경계 변경을 입증하는 독립 자료 아님."
           },
           {
-            "provider": "ETH Zürich CShapes",
-            "edition": "2.0 (2022 발표)",
-            "validPeriod": "1886–2019",
-            "formats": [
-              "SHP",
-              "GeoJSON"
-            ],
-            "url": "https://icr.ethz.ch/data/cshapes/",
-            "suitability": "2025년 범위 밖"
-          },
-          {
-            "provider": "ICJ 179",
-            "edition": "1900년 조약·2025 판결",
-            "formats": [
-              "PDF",
-              "문서·도면"
-            ],
-            "url": "https://www.icj-cij.org/case/179",
-            "suitability": "법적 권원 사료; 공식 GIS 벡터 형상·도서별 2025 유효 피처 미발견"
+            "provider": "International Boundary Commission (캐나다–미국)",
+            "dataset": "공인 지도·좌표·국경측량 소개",
+            "version": "미확인",
+            "format": "웹 지도/좌표 안내; 해당 2025 역사 경계 SHP·GPKG·WFS 원본 미확인",
+            "originalUrl": "https://www.internationalboundarycommission.org/en/maps-coordinates.php",
+            "crs": "미확인",
+            "featureId": "미확인",
+            "rights": "미확인",
+            "suitability": "기존 경계 위치에 관한 참고 후보이며 2025년 신설 국제 경계 증거 아님."
           }
         ],
-        "dataOriginalDownloaded": false,
+        "originalFileDownloaded": false,
         "originalCrsInspected": false,
         "featureIdsChecked": false,
         "hashComputed": false,
@@ -288,15 +305,15 @@
         "visualComparisonRun": false,
         "pixel0_5CssPxRun": false,
         "redistributionCleared": false,
-        "rights": "원본 데이터별 라이선스 및 재배포 허가 검증 미완료. 제품 도입 불가.",
-        "missing": "효력시기 일치하는 도서 단위 역사 벡터, 원문 좌표 및 CRS 미확보. 현재 국가/행정 폴리곤 역사 소급 불가.",
-        "fallback": "실제 경계·도서 귀속 변경 확정 시 적합한 벡터 부재 구간만 고지도 중첩 후보로 인계"
+        "missing": "2025년 법적 변경이 확인된 북아메리카 국제경계의 독립 역사 형상 미발견; 원본 파일 및 개별 CRS·피처 검증 미실행.",
+        "fallback": "변경의 실제 효력일·법적 귀속이 확인된 경우에만 해당 시기 유효 벡터를 우선 확보하고, 불완전 구간에만 역사 지도 중첩 후보를 둔다."
       },
       "unresolved": [
-        "2026년 후속 가봉–적도기니 합의의 영토 효력과 역사적 귀속/실효 지배 구분",
-        "차고스 조약 실제 국제 발효·BIOT 법적 종료일 추적",
-        "남은 아프리카 국가·속령의 2025년 전수 검사",
-        "Pando 원래 work/gis 브랜치 조회 불가; 현행 PandoLab main AGENTS는 읽기 전용 확인, 런타임 객체 ID 미검증"
+        "북아메리카 전체 국가·속령의 2025년 공식 국명·국기·상위관계·영토 변동 전수 조사 미완료",
+        "사르스툰섬과 강의 상충 법적 권원·도서/하천 중앙선·실효지배 및 실제 귀속 여부 미해결",
+        "사포디야 제도 도서 주권 본안 판정과 역사 효력일 미해결",
+        "Census 2025 원본 ZIP/CRS·피처 ID·위상·해시·역사 정확도 검사 미실행; 개별 원본 재배포 권리 미확정",
+        "Pando work/gis 브랜치 접근 불가·원런타임 객체 ID 개별 재검증 미완료; PandoLab main AGENTS 정책만 읽기 전용 확인"
       ],
       "savedRecords": {
         "event": 0,
@@ -308,9 +325,118 @@
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "북아메리카"
+      "nextRegion": "남아메리카"
     },
     "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "아프리카",
+        "scope": "2025-01-01~2025-12-31: 가봉–적도기니 3개 도서/국경 권원, 차고스(BIOT)–모리셔스의 속령·도서 귀속, 사헬 3국 연합기·ECOWAS 탈퇴의 입력 적격성. 조사 범위 한정; 아프리카 전체 전수 미완료.",
+        "finding": "검토한 3개 쟁점에서 2025년 효력이 발생한 Pando 입력 가능 국가·속령 생성/소멸, 주권·부모관계, 국경·도서 귀속, 정식 국명·국기 변경 미발견. 사건 JSON 0건; 아프리카 전체 변화 없음 확정 아님.",
+        "checkedCandidates": [
+          {
+            "topic": "가봉–적도기니 Mbanié/Mbañe·Cocotiers/Cocoteros·Conga 도서",
+            "judgmentDate": "2025-05-19",
+            "finding": "ICJ가 1900년 조약의 법적 권원 및 1968년 스페인→적도기니 승계 확인. 1974 Bata 문서는 법적 권원 아님. 재판소는 섬 주권의 직접 결정/경계 획정 의뢰를 받지 않았다고 명시. 2025년 주권 이전/국경 이동 사건으로 기록 불가.",
+            "sourceUrls": [
+              "https://api.icj-cij.org/sites/default/files/case-related/179/179-20250519-pre-01-00-en.pdf",
+              "https://academic.oup.com/jids/article/17/2/idag016/8719172"
+            ],
+            "sourceReview": "ICJ 공보의 추출 텍스트 열람, 독립 학술 분석 대조. PDF 화면 스크린샷은 403, 원 판결 전문 미검토.",
+            "inputAssessment": "no-new-2025-change"
+          },
+          {
+            "topic": "영국–모리셔스 차고스 제도·영국령 인도양 지역",
+            "treatySigned": "2025-05-22",
+            "entryIntoForce": "not-in-force-as-of-2026-10-08",
+            "finding": "2025년 조약 서명은 실제 주권 이전/BIOT 폐지의 효력일이 아님. 영국 하원 2026-10-08 조사에서 미발효 및 영국 비준절차 중단 확인. 2025 사건 생성하지 않음.",
+            "sourceUrls": [
+              "https://www.gov.uk/government/publications/ukmauritius-agreement-concerning-the-chagos-archipelago-including-diego-garcia-cs-mauritius-no12025",
+              "https://commonslibrary.parliament.uk/research-briefings/cbp-10512/"
+            ],
+            "sourceReview": "FCDO 조약 게시 페이지 및 영국 하원 도서관 HTML 열람; 조약 PDF 원문 미검토.",
+            "inputAssessment": "not-in-force"
+          },
+          {
+            "topic": "사헬 3국 AES 조직기·ECOWAS 탈퇴",
+            "dates": [
+              "2025-01-29",
+              "2025-02-22"
+            ],
+            "finding": "국제기구 회원 탈퇴 및 2024년 이미 성립한 AES의 조직기 도입. 말리·니제르·부르키나파소 주권국의 국기/국호/영토/국가 동일성/상위관계 변경이 아님. 국가·속령 이벤트 제외.",
+            "sourceUrls": [
+              "https://westafricaweekly.com/css-unveils-official-flag-after-exit-from-ecowas/",
+              "https://www.reuters.com/world/africa/west-africa-bloc-announces-formal-exit-three-junta-led-states-2025-01-29/"
+            ],
+            "inputAssessment": "out-of-scope"
+          }
+        ],
+        "historicalVectorPriority": {
+          "candidates": [
+            {
+              "provider": "미 국무부 LSIB",
+              "edition": "11.4",
+              "published": "2025-02-24",
+              "formats": [
+                "SHP ZIP",
+                "GPKG"
+              ],
+              "url": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+              "suitability": "판결 전 발행, 2025-05 이후 권원/영토 변화 입증 불가"
+            },
+            {
+              "provider": "ETH Zürich CShapes",
+              "edition": "2.0 (2022 발표)",
+              "validPeriod": "1886–2019",
+              "formats": [
+                "SHP",
+                "GeoJSON"
+              ],
+              "url": "https://icr.ethz.ch/data/cshapes/",
+              "suitability": "2025년 범위 밖"
+            },
+            {
+              "provider": "ICJ 179",
+              "edition": "1900년 조약·2025 판결",
+              "formats": [
+                "PDF",
+                "문서·도면"
+              ],
+              "url": "https://www.icj-cij.org/case/179",
+              "suitability": "법적 권원 사료; 공식 GIS 벡터 형상·도서별 2025 유효 피처 미발견"
+            }
+          ],
+          "dataOriginalDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "pixel0_5CssPxRun": false,
+          "redistributionCleared": false,
+          "rights": "원본 데이터별 라이선스 및 재배포 허가 검증 미완료. 제품 도입 불가.",
+          "missing": "효력시기 일치하는 도서 단위 역사 벡터, 원문 좌표 및 CRS 미확보. 현재 국가/행정 폴리곤 역사 소급 불가.",
+          "fallback": "실제 경계·도서 귀속 변경 확정 시 적합한 벡터 부재 구간만 고지도 중첩 후보로 인계"
+        },
+        "unresolved": [
+          "2026년 후속 가봉–적도기니 합의의 영토 효력과 역사적 귀속/실효 지배 구분",
+          "차고스 조약 실제 국제 발효·BIOT 법적 종료일 추적",
+          "남은 아프리카 국가·속령의 2025년 전수 검사",
+          "Pando 원래 work/gis 브랜치 조회 불가; 현행 PandoLab main AGENTS는 읽기 전용 확인, 런타임 객체 ID 미검증"
+        ],
+        "savedRecords": {
+          "event": 0,
+          "entity": 0,
+          "geography": 0,
+          "sourceRegistry": 0,
+          "progress": 1,
+          "catalog": 0
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "북아메리카"
+      },
       {
         "year": 2025,
         "region": "아시아",
