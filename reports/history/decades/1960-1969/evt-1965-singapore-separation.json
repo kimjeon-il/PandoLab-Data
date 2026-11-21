@@ -1,0 +1,77 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1965-SINGAPORE-SEPARATION",
+  "type": "event",
+  "title": "싱가포르의 말레이시아 탈퇴와 주권 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1965,
+    "value": "1965-08-09",
+    "precision": "day",
+    "note": "분리협정은 1965-08-07 체결, 실제 분리·독립은 08-09 효력."
+  },
+  "entityKeys": [
+    "state:MYS",
+    "state:SGP"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:SGP",
+      "field": "relationship.parent",
+      "summary": "말레이시아 연방 구성주 지위 종료·별도 주권국 성립.",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:SGP",
+      "field": "lifetime.validFrom",
+      "summary": "1965-08-09 독립 주권국 단계 시작; 이전 식민지·연방 구성주 객체의 법적 동일성 분류 후 최종 lifetime 결정.",
+      "assessment": "provisional",
+      "uncertainty": "1946·1959·1963 이전 싱가포르 정치체와 국가 동일성 미확정"
+    },
+    {
+      "entityKey": "state:MYS",
+      "field": "territory.assignment",
+      "summary": "말레이시아가 싱가포르를 연방 영토 및 구성주에서 제외.",
+      "assessment": "source-reviewed",
+      "uncertainty": "실제 국제경계 형상은 확인하지 않았으며 헌정적 분리를 지리 단순화로 대체 금지"
+    },
+    {
+      "entityKey": "state:SGP",
+      "field": "territory.assignment",
+      "summary": "싱가포르가 연방에서 탈퇴하여 영토에 대한 독립국 법적 관할권 취득.",
+      "assessment": "source-reviewed",
+      "uncertainty": "국가 경계 원본/피처 미검증"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1965-08-07",
+      "role": "separation-agreement-signed"
+    },
+    {
+      "date": "1965-08-09",
+      "role": "separation-and-independence-effective"
+    }
+  ],
+  "sourceIds": [
+    "SRC-107",
+    "SRC-108",
+    "SRC-109"
+  ],
+  "unresolved": [
+    "1965 분리협정 원문 PDF 및 헌법 개정 원조문 직접 열람 미완료; UN 조약 등록 효력 확인.",
+    "싱가포르 왕령식민지 시점과 1965 독립국의 Pando 동일 객체 여부 미확정.",
+    "독립 국기·정식명칭의 선행 사용 시점과 해상/도서 국경 검증 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-041",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-041",
+    "createdOn": "2026-11-22"
+  }
+}

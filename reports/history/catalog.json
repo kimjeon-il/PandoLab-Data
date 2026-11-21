@@ -70,6 +70,22 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-BRUNEI",
+      "type": "entity",
+      "path": "reports/history/countries/brunei.json",
+      "title": "브루나이 술탄국·브루나이 다루살람",
+      "entityKeys": [
+        "state:BRN"
+      ],
+      "eventIds": [
+        "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+        "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-COOK-ISLANDS",
       "type": "entity",
       "path": "reports/history/countries/cook-islands.json",
@@ -245,6 +261,23 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-MALAYSIA",
+      "type": "entity",
+      "path": "reports/history/countries/malaysia.json",
+      "title": "말라야 연방·말레이시아",
+      "entityKeys": [
+        "state:MYS"
+      ],
+      "eventIds": [
+        "EVT-1957-MALAYA-INDEPENDENCE",
+        "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+        "EVT-1965-SINGAPORE-SEPARATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-NASSAU",
       "type": "entity",
       "path": "reports/history/countries/nassau.json",
@@ -337,6 +370,22 @@
         "EVT-1815-SAXONY-PRUSSIAN-CESSION",
         "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
         "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SINGAPORE",
+      "type": "entity",
+      "path": "reports/history/countries/singapore.json",
+      "title": "싱가포르",
+      "entityKeys": [
+        "state:SGP"
+      ],
+      "eventIds": [
+        "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+        "EVT-1965-SINGAPORE-SEPARATION"
       ],
       "year": null,
       "research": "provisional",
@@ -560,6 +609,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+      "type": "event",
+      "path": "reports/history/decades/1880-1889/evt-1888-brunei-british-protectorate.json",
+      "title": "브루나이의 영국 보호국 지위 성립",
+      "entityKeys": [
+        "state:BRN"
+      ],
+      "eventIds": [],
+      "year": 1888,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1897-KOREAN-EMPIRE-NAME",
       "type": "event",
       "path": "reports/history/decades/1890-1899/evt-1897-korean-empire-name.json",
@@ -744,6 +806,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1957-MALAYA-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1957-malaya-independence.json",
+      "title": "말라야 연방의 주권 독립",
+      "entityKeys": [
+        "state:MYS"
+      ],
+      "eventIds": [],
+      "year": 1957,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1962-TRINIDAD-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1962-trinidad-independence.json",
@@ -770,6 +845,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1963-malaysia-federation-enlargement.json",
+      "title": "말라야 연방 확대 및 말레이시아 국명 변경",
+      "entityKeys": [
+        "state:MYS",
+        "state:SGP"
+      ],
+      "eventIds": [],
+      "year": 1963,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1964-MALAWI-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1964-malawi-independence.json",
@@ -789,6 +878,20 @@
       "title": "쿡 제도 자유연합 자치 시행",
       "entityKeys": [
         "state:COK"
+      ],
+      "eventIds": [],
+      "year": 1965,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1965-SINGAPORE-SEPARATION",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1965-singapore-separation.json",
+      "title": "싱가포르의 말레이시아 탈퇴와 주권 독립",
+      "entityKeys": [
+        "state:MYS",
+        "state:SGP"
       ],
       "eventIds": [],
       "year": 1965,
@@ -871,6 +974,19 @@
       "eventIds": [],
       "year": 1975,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1980-1989/evt-1984-brunei-full-independence.json",
+      "title": "브루나이의 영국 외교·국방 보호관계 종료와 완전 주권 회복",
+      "entityKeys": [
+        "state:BRN"
+      ],
+      "eventIds": [],
+      "year": 1984,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -964,6 +1080,7 @@
       "ENT-BADEN",
       "ENT-BAHAMAS",
       "ENT-BARBADOS",
+      "ENT-BRUNEI",
       "ENT-COOK-ISLANDS",
       "ENT-ESWATINI",
       "ENT-FREE-CITY-DANZIG",
@@ -975,12 +1092,14 @@
       "ENT-LAOS",
       "ENT-LESOTHO",
       "ENT-MALAWI",
+      "ENT-MALAYSIA",
       "ENT-NASSAU",
       "ENT-NIUE",
       "ENT-RIOGRANDENSE",
       "ENT-RYUKYU",
       "ENT-SAMOA",
       "ENT-SAXONY",
+      "ENT-SINGAPORE",
       "ENT-TJK",
       "ENT-TRINIDAD",
       "ENT-UZB"
@@ -999,6 +1118,7 @@
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
       "EVT-1872-RYUKYU-DOMAIN",
       "EVT-1879-RYUKYU-ANNEXATION",
+      "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
       "EVT-1897-KOREAN-EMPIRE-NAME",
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
       "EVT-1900-ACRE-FIRST-REPUBLIC-END",
@@ -1013,16 +1133,20 @@
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
       "EVT-1949-LAOS-FRENCH-UNION",
       "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1957-MALAYA-INDEPENDENCE",
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1964-MALAWI-INDEPENDENCE",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
       "EVT-1968-ESWATINI-INDEPENDENCE",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
       "EVT-1975-LAOS-OFFICIAL-NAME",
+      "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
       "EVT-1997-SAMOA-NAME-CHANGE",
       "EVT-2018-ESWATINI-RENAMING",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
@@ -1052,6 +1176,11 @@
     "state:BRB": [
       "ENT-BARBADOS",
       "EVT-1966-BARBADOS-INDEPENDENCE"
+    ],
+    "state:BRN": [
+      "ENT-BRUNEI",
+      "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+      "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
     ],
     "state:COK": [
       "ENT-COOK-ISLANDS",
@@ -1108,6 +1237,12 @@
       "ENT-MALAWI",
       "EVT-1964-MALAWI-INDEPENDENCE"
     ],
+    "state:MYS": [
+      "ENT-MALAYSIA",
+      "EVT-1957-MALAYA-INDEPENDENCE",
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "EVT-1965-SINGAPORE-SEPARATION"
+    ],
     "research:state:nassau-duchy": [
       "ENT-NASSAU",
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
@@ -1139,6 +1274,11 @@
       "EVT-1815-SAXONY-PRUSSIAN-CESSION",
       "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP"
+    ],
+    "state:SGP": [
+      "ENT-SINGAPORE",
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "EVT-1965-SINGAPORE-SEPARATION"
     ],
     "state:TJK": [
       "ENT-TJK",
@@ -1198,6 +1338,9 @@
     "1879": [
       "EVT-1879-RYUKYU-ANNEXATION"
     ],
+    "1888": [
+      "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
+    ],
     "1897": [
       "EVT-1897-KOREAN-EMPIRE-NAME"
     ],
@@ -1238,15 +1381,22 @@
     "1953": [
       "EVT-1953-LAOS-SOVEREIGNTY"
     ],
+    "1957": [
+      "EVT-1957-MALAYA-INDEPENDENCE"
+    ],
     "1962": [
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE"
+    ],
+    "1963": [
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT"
     ],
     "1964": [
       "EVT-1964-MALAWI-INDEPENDENCE"
     ],
     "1965": [
-      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+      "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-SINGAPORE-SEPARATION"
     ],
     "1966": [
       "EVT-1966-BARBADOS-INDEPENDENCE",
@@ -1263,6 +1413,9 @@
     ],
     "1975": [
       "EVT-1975-LAOS-OFFICIAL-NAME"
+    ],
+    "1984": [
+      "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
     ],
     "1997": [
       "EVT-1997-SAMOA-NAME-CHANGE"
@@ -1301,6 +1454,9 @@
       "EVT-1872-RYUKYU-DOMAIN",
       "EVT-1879-RYUKYU-ANNEXATION"
     ],
+    "1880-1889": [
+      "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
+    ],
     "1890-1899": [
       "EVT-1897-KOREAN-EMPIRE-NAME",
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
@@ -1327,13 +1483,16 @@
       "EVT-1949-LAOS-FRENCH-UNION"
     ],
     "1950-1959": [
-      "EVT-1953-LAOS-SOVEREIGNTY"
+      "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1957-MALAYA-INDEPENDENCE"
     ],
     "1960-1969": [
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1964-MALAWI-INDEPENDENCE",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
       "EVT-1968-ESWATINI-INDEPENDENCE"
@@ -1342,6 +1501,9 @@
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
       "EVT-1975-LAOS-OFFICIAL-NAME"
+    ],
+    "1980-1989": [
+      "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
     ],
     "1990-1999": [
       "EVT-1997-SAMOA-NAME-CHANGE"
@@ -1570,6 +1732,21 @@
         ]
       }
     },
+    "state:BRN": {
+      "recordIds": [
+        "ENT-BRUNEI",
+        "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+        "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+      ],
+      "byDecade": {
+        "1880-1889": [
+          "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
+        ],
+        "1980-1989": [
+          "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+        ]
+      }
+    },
     "state:COK": {
       "recordIds": [
         "ENT-COOK-ISLANDS",
@@ -1638,6 +1815,23 @@
         ]
       }
     },
+    "state:MYS": {
+      "recordIds": [
+        "ENT-MALAYSIA",
+        "EVT-1957-MALAYA-INDEPENDENCE",
+        "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+        "EVT-1965-SINGAPORE-SEPARATION"
+      ],
+      "byDecade": {
+        "1950-1959": [
+          "EVT-1957-MALAYA-INDEPENDENCE"
+        ],
+        "1960-1969": [
+          "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+          "EVT-1965-SINGAPORE-SEPARATION"
+        ]
+      }
+    },
     "state:NIU": {
       "recordIds": [
         "ENT-NIUE",
@@ -1646,6 +1840,19 @@
       "byDecade": {
         "1970-1979": [
           "EVT-1974-NIUE-SELF-GOVERNMENT"
+        ]
+      }
+    },
+    "state:SGP": {
+      "recordIds": [
+        "ENT-SINGAPORE",
+        "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+        "EVT-1965-SINGAPORE-SEPARATION"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+          "EVT-1965-SINGAPORE-SEPARATION"
         ]
       }
     },

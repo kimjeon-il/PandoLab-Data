@@ -1,0 +1,89 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+  "type": "event",
+  "title": "말라야 연방 확대 및 말레이시아 국명 변경",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1963,
+    "value": "1963-09-16",
+    "precision": "day",
+    "note": "1963-07-09 조약 원체결일 및 08-28 수정·09-11 초기 효력과 실제 09-16 연방 변동 효력 구분."
+  },
+  "entityKeys": [
+    "state:MYS",
+    "state:SGP"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:MYS",
+      "field": "name.formal",
+      "summary": "기존 Federation of Malaya 연방이 Malaysia로 국명을 변경. 기존 법적 동일성은 유지.",
+      "assessment": "source-reviewed",
+      "proposedValue": "Malaysia",
+      "uncertainty": "말레이어 정식헌법 국명 표기는 후속 원법령 확인"
+    },
+    {
+      "entityKey": "state:MYS",
+      "field": "territory.assignment",
+      "summary": "싱가포르·북보르네오(사바)·사라왁이 말라야 기존 연방에 편입되어 영토가 확대됨.",
+      "assessment": "source-reviewed",
+      "uncertainty": "3개 구성 지역의 정확한 1963 원경계 벡터는 확보·검증하지 않음"
+    },
+    {
+      "entityKey": "state:SGP",
+      "field": "relationship.parent",
+      "summary": "영국 통치 지역 싱가포르가 1963-09-16 말레이시아 연방의 구성주가 됨.",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:MYS"
+    },
+    {
+      "entityKey": "state:SGP",
+      "field": "relationship.childType",
+      "summary": "연방의 구성주로 바뀜. 1963에 싱가포르가 독립 주권국으로 출현한 것은 아님.",
+      "assessment": "source-reviewed",
+      "proposedValue": "constituent state"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1963-07-09",
+      "role": "malaysia-agreement-signed"
+    },
+    {
+      "date": "1963-08-28",
+      "role": "date-amendment-signed"
+    },
+    {
+      "date": "1963-09-11",
+      "role": "amendment-initial-effective"
+    },
+    {
+      "date": "1963-09-16",
+      "role": "final-effective"
+    }
+  ],
+  "sourceIds": [
+    "SRC-103",
+    "SRC-104",
+    "SRC-105",
+    "SRC-106",
+    "SRC-107",
+    "SRC-113"
+  ],
+  "unresolved": [
+    "사바·사라왁 및 영국 측 관계 변화의 별도 객체화·국경 원형상과 이력 추가 조사 필요.",
+    "원조약 상세 PDF 원문 및 1963 연방 법률 전체 원전 미열람. 일정은 UN 조약 등록 메타데이터와 국립기록원으로 교차 확인.",
+    "말라야→말레이시아는 국가 소멸/재건국이 아니라 동일 국가의 국명·구성 영역 변화로 우선 기록."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-041",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-041",
+    "createdOn": "2026-11-22"
+  }
+}

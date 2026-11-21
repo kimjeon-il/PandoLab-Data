@@ -1,0 +1,50 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SINGAPORE",
+  "type": "entity",
+  "title": "싱가포르",
+  "subject": {
+    "key": "state:SGP",
+    "kind": "state",
+    "displayName": "싱가포르",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아시아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-22",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1963-09-16 영국에서 말레이시아 구성주로 전환, 1965-08-09 말레이시아에서 분리되어 독립 주권국. 국가·행정 객체의 연속성 및 1946/1959 이전 영국 통치 단계를 분리해 validFrom 최종 보류."
+  },
+  "eventIds": [
+    "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+    "EVT-1965-SINGAPORE-SEPARATION"
+  ],
+  "sourceIds": [
+    "SRC-104",
+    "SRC-107",
+    "SRC-108",
+    "SRC-109"
+  ],
+  "unresolved": [
+    "1946 해협식민지 해체 이후 싱가포르 왕령식민지 성립 및 1959 자치 전환의 입력 가능 지위 변동은 후속 조사.",
+    "1965-08-07 분리협정 서명과 1965-08-09 효력을 구분. 국가 법적 동일성/속령 객체 분리 규칙 미확정.",
+    "현행 Pando 객체·정식 국명·국기 변경일·독립 당시 육상 도서 귀속 원자료 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-041",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-041",
+    "createdOn": "2026-11-22"
+  }
+}

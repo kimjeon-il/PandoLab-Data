@@ -1,0 +1,51 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+  "type": "event",
+  "title": "브루나이의 영국 보호국 지위 성립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1888,
+    "value": null,
+    "precision": "year",
+    "note": "보호국화의 연도만 독립 출처에서 대조. 원조약 효력일(월·일) 미확인."
+  },
+  "entityKeys": [
+    "state:BRN"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:BRN",
+      "field": "relationship.childType",
+      "summary": "1888년 브루나이는 영국 보호를 받는 술탄국으로 국제적 지위 변경. 주권 영토 자체를 영국에 병합한 것으로 간주하지 않음.",
+      "assessment": "source-reviewed",
+      "proposedValue": "British protected state"
+    },
+    {
+      "entityKey": "state:BRN",
+      "field": "relationship.parent",
+      "summary": "영국이 외교관계를 담당한 보호국 관계 형성. Pando의 부모 객체가 곧 법적 영토 주권자를 뜻하는지 확인 필요.",
+      "assessment": "provisional",
+      "uncertainty": "영국은 보호국 외교 담당국이지 술탄국의 영토 자체 소유국이라고 단정할 수 없음"
+    }
+  ],
+  "evidenceDates": [],
+  "sourceIds": [
+    "SRC-110",
+    "SRC-111"
+  ],
+  "unresolved": [
+    "1888년 원조약·비준 및 국제효력일 미열람, 연도만 확정.",
+    "실제 국가성/법적 계속성·Pando 상위 관계 의미 검증 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-041",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-041",
+    "createdOn": "2026-11-22"
+  }
+}

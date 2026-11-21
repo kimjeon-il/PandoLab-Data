@@ -765,6 +765,114 @@
       "kind": "primary-diplomatic-record",
       "reviewStatus": "search-result-reviewed",
       "reviewedOn": "2026-11-21"
+    },
+    {
+      "id": "SRC-102",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/60/enacted",
+      "fromReport": "GEO-LIFE-041",
+      "section": "1957-07-31 영국 말라야 독립법; 독립 예정 효력과 재가일 구별",
+      "kind": "primary-statute",
+      "reviewStatus": "search-index-reviewed; direct-HTML-open-failed",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-103",
+      "url": "https://www.un.org/en/about-us/member-states/malaysia",
+      "fromReport": "GEO-LIFE-041",
+      "section": "1957-09-17 말라야 UN 가입·1963-09-16 말레이시아 국명·영토 확대와 동일 국가 계속성",
+      "kind": "intergovernmental-history",
+      "reviewStatus": "search-index-reviewed; direct-HTML-open-403",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-104",
+      "url": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028011f470",
+      "fromReport": "GEO-LIFE-041",
+      "section": "1963-07-09 말레이시아 협정 체결, 1963-09-16 발효",
+      "kind": "primary-treaty-registry",
+      "reviewStatus": "web-page-opened; treaty-original-pdf-not-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-105",
+      "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=080000028011f47b",
+      "fromReport": "GEO-LIFE-041",
+      "section": "1963-08-28 변경협정 체결, 1963-09-16 최종 효력",
+      "kind": "primary-treaty-registry",
+      "reviewStatus": "web-page-opened; treaty-original-pdf-not-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-106",
+      "url": "https://pustakailmu.arkib.gov.my/index.php/ms/pustaka-ilmu/jendela-sejarah/penubuhan-malaysia-16-september-1963",
+      "fromReport": "GEO-LIFE-041",
+      "section": "말레이시아 국립기록원 1963-09-16 연방 확대와 브루나이 불참 경과",
+      "kind": "national-archives",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-107",
+      "url": "https://corporate.nas.gov.sg/discover-archives/media/lawoftheland/",
+      "fromReport": "GEO-LIFE-041",
+      "section": "싱가포르 국립기록원: 1963-09-16 말레이시아 편입, 1965-08-09 주권국 분리",
+      "kind": "national-archives",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-108",
+      "url": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028012b8be",
+      "fromReport": "GEO-LIFE-041",
+      "section": "UNTS 8206: 1965-08-07 싱가포르 분리협정 서명, 1965-08-09 발효",
+      "kind": "primary-treaty-registry",
+      "reviewStatus": "web-page-opened; treaty-original-pdf-not-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-109",
+      "url": "https://corporate.nas.gov.sg/discover-archives/media/proclamationofsingapore/",
+      "fromReport": "GEO-LIFE-041",
+      "section": "싱가포르 1965-08-09 독립선언 공표 및 원문 소장",
+      "kind": "national-archives",
+      "reviewStatus": "search-index-reviewed",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-110",
+      "url": "https://www.mfa.gov.bn/taipei/SitePages/bruneiintroduction.aspx",
+      "fromReport": "GEO-LIFE-041",
+      "section": "브루나이 정부: 영국 보호국 1888년·완전 독립 1984-01-01",
+      "kind": "government-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-111",
+      "url": "https://history.state.gov/countries/brunei",
+      "fromReport": "GEO-LIFE-041",
+      "section": "미 국무부: 1888 보호국화 및 1984-01-01 독립, 1959 자치 중 영국 외교·국방 담당",
+      "kind": "government-diplomatic-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-112",
+      "url": "https://api.parliament.uk/historic-hansard/lords/1984/nov/20/brunei-and-maldives-bill-hl",
+      "fromReport": "GEO-LIFE-041",
+      "section": "영국 1984-11-20 의회: 1971 지위 변화, 1983-12-31 조약 잔여 효력 소멸, 1984-01-01 독립",
+      "kind": "primary-parliamentary-record",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-113",
+      "url": "https://www.legislation.gov.uk/ukpga/1963/35/section/3",
+      "fromReport": "GEO-LIFE-041",
+      "section": "1963 말레이시아 법상 기존 연방 법체계의 연속",
+      "kind": "primary-statute",
+      "reviewStatus": "search-index-reviewed",
+      "reviewedOn": "2026-11-22"
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1957-MALAYA-INDEPENDENCE",
+  "type": "event",
+  "title": "말라야 연방의 주권 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1957,
+    "value": "1957-08-31",
+    "precision": "day",
+    "note": "독립 효력일과 영국 1957-07-31 법률 재가일을 구분. 1948 연방 자체 성립과도 구별."
+  },
+  "entityKeys": [
+    "state:MYS"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:MYS",
+      "field": "relationship.parent",
+      "summary": "영국 보호·식민 통치권이 말라야 연방 주권 독립과 함께 종료되었음.",
+      "assessment": "source-reviewed",
+      "uncertainty": "연방 구성의 이전 보호국·왕령지역을 단일 parent로 표현할지 검증 필요"
+    },
+    {
+      "entityKey": "state:MYS",
+      "field": "lifetime.validFrom",
+      "summary": "1957-08-31은 독립 주권국 단계 시작일이며 말라야 연방 최초 성립·Pando 단일 객체 validFrom은 별도 확인.",
+      "assessment": "provisional",
+      "uncertainty": "1948년 연방 설립과 1957 독립을 별개 국가 건국으로 자동 처리하지 않음"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1957-07-31",
+      "role": "uk-independence-act-royal-assent"
+    }
+  ],
+  "sourceIds": [
+    "SRC-102",
+    "SRC-103"
+  ],
+  "unresolved": [
+    "1957 영국 국내법 원문 직접 HTML 열람 제한; 검색 색인 확인. 말라야 독립협정·명령의 정확한 적용 조항 직접 추가 검증 필요.",
+    "1948 연방과 1957 독립국의 개별 객체 분리 여부 보류."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-041",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-041",
+    "createdOn": "2026-11-22"
+  }
+}
