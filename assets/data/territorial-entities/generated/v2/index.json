@@ -14100,6 +14100,36 @@
         "ko": "라오스"
       },
       "alternateNames": [],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Laos",
+              "formal": "Kingdom of Laos"
+            },
+            "ko": {
+              "common": "라오스",
+              "formal": "라오스 왕국"
+            }
+          },
+          "validFrom": "1951-09-09",
+          "validTo": "1975-12-01"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Laos",
+              "formal": "Lao People's Democratic Republic"
+            },
+            "ko": {
+              "common": "라오스",
+              "formal": "라오인민민주공화국"
+            }
+          },
+          "validFrom": "1975-12-02",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1946-08-27",
         "validTo": null
@@ -14111,7 +14141,34 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "approved-current-world-display-20261107",
+          "modernBoundarySupplement": {
+            "sourceId": "approved-current-world-display-20261107",
+            "status": "approved-prepared-current-source-adoption",
+            "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+            "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+            "featureId": "LAO",
+            "geometrySha256": "e82dae57839c0ea7e4a136777fe7989579741425da7444886d75d01400a3e0da",
+            "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+            "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+            "historicalAccuracyVerified": false,
+            "effectiveDateEstablished": false,
+            "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+            "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+            "upstream": {
+              "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+              "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+              "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+              "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+              "sourceFileBytesLocallyVerified": false,
+              "sourceWP_IDs": [],
+              "sourceWP_IDsEvidence": null
+            },
+            "sourceReview": {
+              "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+              "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+            }
+          }
         }
       ],
       "instantiation": {
@@ -14124,23 +14181,24 @@
         "representativeGeometryVersionId": "state:LAO:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
-        "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "title": "Approved prepared current display geometry; prior versions retain their own source provenance",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "sourceId": "approved-current-world-display-20261107"
       },
       "file": "state-LAO.json.gz",
       "validFrom": "1946-08-27",
       "validTo": null,
-      "compressedBytes": 17419,
-      "decodedBytes": 141259,
-      "sha256": "f963558626d44e2c3dbfcbfe5fcaec2be825354832557b15f4a01466ab048ae3",
+      "compressedBytes": 2767,
+      "decodedBytes": 7812,
+      "sha256": "170780f9e3c619024ad3cc8e6f7130dda8efa69c998e3c74510e2390b6957b9e",
       "bbox": [
-        100.097073,
-        13.915457,
-        107.664363,
-        22.496044
+        100.08440200000007,
+        13.90972000000005,
+        107.63509390000007,
+        22.508999800000026
       ],
-      "geometryVersionCount": 1
+      "geometryVersionCount": 1,
+      "storageLayout": "geometry-resources-v1"
     },
     {
       "schemaVersion": 2,
@@ -32893,6 +32951,36 @@
         "ko": "사모아"
       },
       "alternateNames": [],
+      "nameVersions": [
+        {
+          "names": {
+            "en": {
+              "common": "Western Samoa",
+              "formal": "Independent State of Western Samoa"
+            },
+            "ko": {
+              "common": "서사모아",
+              "formal": "서사모아 독립국"
+            }
+          },
+          "validFrom": "1962-01-01",
+          "validTo": "1997-07-03"
+        },
+        {
+          "names": {
+            "en": {
+              "common": "Samoa",
+              "formal": "Independent State of Samoa"
+            },
+            "ko": {
+              "common": "사모아",
+              "formal": "사모아 독립국"
+            }
+          },
+          "validFrom": "1997-07-04",
+          "validTo": null
+        }
+      ],
       "lifetime": {
         "validFrom": "1962-01-01",
         "validTo": null
@@ -32904,7 +32992,72 @@
           "validFrom": null,
           "validTo": null,
           "certainty": "high",
-          "sourceId": "natural-earth-5.1.1"
+          "sourceId": "dos-world-polygons-11.4-beta-raw",
+          "modernBoundarySupplement": {
+            "sourceId": "dos-world-polygons-11.4-beta-raw",
+            "status": "raw-original-source-adopted-not-runtime-approved",
+            "sourceFile": "D:\\dev\\PandoLab-library-data\\reports\\.edits\\gis\\borders\\validation\\ne-world-map-rebase-2026-11-08\\historical-modern-reuse-local-20261109\\c-raw-versus-prepared-audit\\official-original-preserved\\WorldPolygons11_4.gpkg",
+            "rawLayer": "DoS_WP_11_4",
+            "sourceWP_IDs": [
+              "04a70a16-99e8-4f45-9323-776afd8c62ca"
+            ],
+            "rawBlobSha256": "d7e4d3a00a63cbd24ecd07106e40c9d74eb963bd4ff0363204391682638f106f",
+            "geometrySha256": "b8cad538e009cff744321376393af91bef0f87bbe52686e2efcb2d4c21e9d52b",
+            "adoptionMode": "lossless-original-coordinate-selection-no-simplification",
+            "sourceProperties": {
+              "fid": 250,
+              "WP_Name": "Samoa",
+              "WP_Name_ND": "Samoa",
+              "DOS_Short": "Samoa",
+              "DOS_Long": "Independent State of Samoa",
+              "Map_Label": "SAMOA",
+              "US_Recog": "Independent",
+              "Show_Disp": null,
+              "Map_Disp": null,
+              "NOTES": null,
+              "NOTES_Cont": null,
+              "MapTint_2": "WS",
+              "MapTint_3": "WSM",
+              "GENC_Short": "Samoa",
+              "GENC_Full": "Independent State of Samoa",
+              "GENC_2": "WS",
+              "GENC_3": "WSM",
+              "ISO_3166_1": null,
+              "ISO_3166_2": null,
+              "WP_ID": "04a70a16-99e8-4f45-9323-776afd8c62ca",
+              "WP_PREV_ID": "04a70a16-99e8-4f45-9323-776afd8c62ca",
+              "WP_PAR_ID": "04a70a16-99e8-4f45-9323-776afd8c62ca"
+            },
+            "priorPreparedAttribution": {
+              "sourceId": "approved-current-world-display-20261107",
+              "status": "approved-prepared-current-source-adoption",
+              "sourceFile": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/display-review-final-authorized-candidate.geojson",
+              "sourceFileSha256": "da1fbbf46e7a1e4cf41ec891133cf150f59e8a5f36c0fd990d1ed7c29d51956e",
+              "featureId": "WSM",
+              "geometrySha256": "d408bc46cb8c30f211ee842b51fecd6175806af3e9920f1429c617ff4816c75c",
+              "geometryDigestFormat": "sha256(JSON.stringify([geometry.type, geometry.coordinates]))",
+              "adoptionMode": "complete-prepared-current-geometry; no additional simplification",
+              "historicalAccuracyVerified": false,
+              "effectiveDateEstablished": false,
+              "scope": "Only this selected current geometry version; source dates, identity, names, lifetime, hierarchy and other versions are unchanged.",
+              "limitations": "Approved composite modern display proxy. Some previously identified Natural Earth-derived edges remain in the broader donor and are being handled separately. This receipt does not claim all edges are LSIB or newly establish historical boundary accuracy.",
+              "upstream": {
+                "sourceId": "dos-world-polygons-11.4-beta-reviewed-2000m-250m",
+                "role": "Recorded upstream prepared display provider, with existing local political exceptions; not an assertion that every coordinate comes from that provider",
+                "sourceFile": "reports/borders/validation/world-map-integration-20261107/source/country-territory-review-small-holes-updated.gpkg",
+                "recordedSourceFileSha256": "903802ac3af29e071a608f27a3c1ca67372d38dba2125f8325b9569f454f519d",
+                "sourceFileBytesLocallyVerified": false,
+                "sourceWP_IDs": [],
+                "sourceWP_IDsEvidence": null
+              },
+              "sourceReview": {
+                "reference": "D:/dev/PandoLab-library-data/reports/.edits/gis/borders/validation/ne-world-map-rebase-2026-11-08/current-source-adoption-review/topology-and-preservation.json",
+                "sha256": "6a9bbc26842f436337ffc3496ca309f714982b6a9d91fc350cb56efb5dc9939c"
+              }
+            },
+            "scope": "Only existing modern source version, unchanged entity identity and dates. Rendering derivatives and LOD handled separately.",
+            "historicalAccuracyVerified": false
+          }
         }
       ],
       "instantiation": {
@@ -32917,23 +33070,24 @@
         "representativeGeometryVersionId": "state:WSM:natural-earth-5.1.1"
       },
       "sourceInfo": {
-        "title": "Natural Earth 5.1.1 Admin 0 Countries",
-        "license": "Public domain",
-        "sourceId": "natural-earth-5.1.1"
+        "title": "U.S. Department of State World Polygons 11.4 beta raw original",
+        "license": "Composite prepared display: recorded U.S. Government work upstream; incorporated third-party material and retained local exceptions keep their respective rights. Prior attribution is preserved.",
+        "sourceId": "dos-world-polygons-11.4-beta-raw"
       },
       "file": "state-WSM.json.gz",
       "validFrom": "1962-01-01",
       "validTo": null,
-      "compressedBytes": 1861,
-      "decodedBytes": 13018,
-      "sha256": "a089a8b7115061ad78bc26575d21d77bae836d9b9ecff58caff5190a0b7fe74a",
+      "compressedBytes": 2779,
+      "decodedBytes": 8339,
+      "sha256": "2ff80014d31bc083d2ac26666b35bb99bb13e854ebd1ea78b34f46b8eb0b1edd",
       "bbox": [
-        -172.782582,
-        -14.05283,
-        -171.437693,
-        -13.462823
+        -172.80340829999997,
+        -14.075702199999967,
+        -171.39835109999999,
+        -13.439860799999963
       ],
-      "geometryVersionCount": 1
+      "geometryVersionCount": 1,
+      "storageLayout": "geometry-resources-v1"
     },
     {
       "schemaVersion": 2,

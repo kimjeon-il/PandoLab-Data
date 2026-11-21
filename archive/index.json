@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "kimjeon-il/Pando",
-  "sourceRevision": "b384f70009c30f5c857983fcc55ba2f01d800537",
+  "sourceRevision": "9f375a2b470919608bb761680d0c76d5a0fb8b4a",
   "branch": "main",
   "files": {
     "assets/data/builtin-world/generated/v1/index.json": {
       "stored": "assets/data/builtin-world/generated/v1/index.json",
       "encoding": "identity",
-      "sha256": "3a9b4c44daa6f4f5018ee2dce769401ded570421f6d2f0d0c4e3e034cd1c2e9e",
-      "bytes": 2006157
+      "sha256": "6170975a610fb795a927ef7136323a1936af6546151d0fd5ff32321f87c5798d",
+      "bytes": 2007022
     },
     "assets/data/countries-canonical-shared-v0.36.1.json.gz": {
       "stored": "assets/data/countries-canonical-shared-v0.36.1.json.gz",
@@ -2047,8 +2047,8 @@
     "assets/data/territorial-entities/generated/v2/index.json": {
       "stored": "assets/data/territorial-entities/generated/v2/index.json",
       "encoding": "identity",
-      "sha256": "7889e1d0ff13324962e7474189da4d41c1d6ae18e5ca96819ac0332bee7ef7fb",
-      "bytes": 1785649
+      "sha256": "9113a8d059ff1c36d06b694e44257c4a0d389bb75426a36a8e38793ebfc3c8a3",
+      "bytes": 1794550
     },
     "assets/data/territorial-entities/generated/v2/state-ABW.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-ABW.json.gz",
@@ -2827,8 +2827,8 @@
     "assets/data/territorial-entities/generated/v2/state-LAO.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-LAO.json.gz",
       "encoding": "identity",
-      "sha256": "f963558626d44e2c3dbfcbfe5fcaec2be825354832557b15f4a01466ab048ae3",
-      "bytes": 17419
+      "sha256": "170780f9e3c619024ad3cc8e6f7130dda8efa69c998e3c74510e2390b6957b9e",
+      "bytes": 2767
     },
     "assets/data/territorial-entities/generated/v2/state-LBN.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-LBN.json.gz",
@@ -3565,8 +3565,8 @@
     "assets/data/territorial-entities/generated/v2/state-WSM.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-WSM.json.gz",
       "encoding": "identity",
-      "sha256": "a089a8b7115061ad78bc26575d21d77bae836d9b9ecff58caff5190a0b7fe74a",
-      "bytes": 1861
+      "sha256": "2ff80014d31bc083d2ac26666b35bb99bb13e854ebd1ea78b34f46b8eb0b1edd",
+      "bytes": 2779
     },
     "assets/data/territorial-entities/generated/v2/state-YEM.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-YEM.json.gz",
@@ -4505,10 +4505,10 @@
       "bytes": 7841
     },
     "assets/data/territorial-entities/source/countries/state-LAO.json": {
-      "stored": "assets/data/territorial-entities/.originals/8650b32ba052f0835c1f38b8b2f3519d6cab2f2bde7ef9262f9600f4343d37e0.gz",
+      "stored": "assets/data/territorial-entities/.originals/8c2677e211c0bea73c87d56e77df7bb58a7748a3439f347ac7748d5044b59095.gz",
       "encoding": "gzip",
-      "sha256": "8650b32ba052f0835c1f38b8b2f3519d6cab2f2bde7ef9262f9600f4343d37e0",
-      "bytes": 7182
+      "sha256": "8c2677e211c0bea73c87d56e77df7bb58a7748a3439f347ac7748d5044b59095",
+      "bytes": 7812
     },
     "assets/data/territorial-entities/source/countries/state-LBN.json": {
       "stored": "assets/data/territorial-entities/.originals/9cef93dae085dd7c60af80fe23b6561dd922d9bed6f3991f262c99089df9eed1.gz",
@@ -5243,10 +5243,10 @@
       "bytes": 7423
     },
     "assets/data/territorial-entities/source/countries/state-WSM.json": {
-      "stored": "assets/data/territorial-entities/.originals/84af880cb7f26f0171d46f4ee9447c8f0a988144d8976bcbf5ac39c40886c217.gz",
+      "stored": "assets/data/territorial-entities/.originals/5a18eecee08d529c1998368667867dd256dbaca273b2dc84b664d8ca07ddf5e2.gz",
       "encoding": "gzip",
-      "sha256": "84af880cb7f26f0171d46f4ee9447c8f0a988144d8976bcbf5ac39c40886c217",
-      "bytes": 7685
+      "sha256": "5a18eecee08d529c1998368667867dd256dbaca273b2dc84b664d8ca07ddf5e2",
+      "bytes": 8339
     },
     "assets/data/territorial-entities/source/countries/state-YEM.json": {
       "stored": "assets/data/territorial-entities/.originals/1b3474dfaec4196e26e1cf0553e7e519f7c3d2547507a63639b429494d96a7cf.gz",
@@ -85497,6 +85497,18 @@
       "encoding": "identity",
       "sha256": "37b27ccf3c40817be846ea773e9ad08c8c42708281aefc05e3a57e0c77d1b099",
       "bytes": 1685979
+    },
+    "assets/data/builtin-world/generated/v1/countries/LAO-sha256-aaabbc380b78e406235d1246bb0127300b22beee858ef65071f941dc140d56c8.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/LAO-sha256-aaabbc380b78e406235d1246bb0127300b22beee858ef65071f941dc140d56c8.json.gz",
+      "encoding": "identity",
+      "sha256": "aaabbc380b78e406235d1246bb0127300b22beee858ef65071f941dc140d56c8",
+      "bytes": 827
+    },
+    "assets/data/builtin-world/generated/v1/countries/WSM-sha256-7cd1f4aaeb8e02fdfa23c948c5ec25f04215b3dee99c748c9d0b46c82f324200.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/WSM-sha256-7cd1f4aaeb8e02fdfa23c948c5ec25f04215b3dee99c748c9d0b46c82f324200.json.gz",
+      "encoding": "identity",
+      "sha256": "7cd1f4aaeb8e02fdfa23c948c5ec25f04215b3dee99c748c9d0b46c82f324200",
+      "bytes": 795
     }
   },
   "reportLayout": "subjects-v1"
