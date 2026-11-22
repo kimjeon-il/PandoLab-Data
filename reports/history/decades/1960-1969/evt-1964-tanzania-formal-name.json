@@ -1,0 +1,72 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1964-TANZANIA-FORMAL-NAME",
+  "type": "event",
+  "title": "연합공화국 법정 국명 Tanganyika and Zanzibar → Tanzania",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1964,
+    "value": "1964-12-11",
+    "precision": "day",
+    "note": "1964 제61호 정식명칭 변경법 1964-12-11 시행; 역사 정체성 유지"
+  },
+  "entityKeys": [
+    "state:TZA"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:TZA",
+      "field": "name.formal",
+      "summary": "United Republic of Tanganyika and Zanzibar의 법정 국명이 United Republic of Tanzania로 변경",
+      "assessment": "source-reviewed",
+      "proposedValue": "United Republic of Tanzania",
+      "uncertainty": "1964-10-29 발표/11-01 UN 용례와 12-11 국내법 시행을 구별; 10-28 이후 명칭 사용은 소급 적법화"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1964-10-28",
+      "role": "retroactive-validity-of-use-start"
+    },
+    {
+      "date": "1964-10-29",
+      "role": "cabinet-name-announcement"
+    },
+    {
+      "date": "1964-11-01",
+      "role": "un-name-metadata-effective"
+    },
+    {
+      "date": "1964-12-03",
+      "role": "act-passed"
+    },
+    {
+      "date": "1964-12-10",
+      "role": "act-assented"
+    },
+    {
+      "date": "1964-12-11",
+      "role": "domestic-statute-commenced"
+    }
+  ],
+  "sourceIds": [
+    "SRC-123",
+    "SRC-124",
+    "SRC-125"
+  ],
+  "unresolved": [
+    "1964-10-28 이후 Tanzania라는 명칭 사용을 유효하게 인정한 소급 조항이 1964-12-11 법의 개시일을 10월로 바꾸는 것인지는 추가 법해석 대상.",
+    "1964-11-01 UN 기록의 국제기구 용례와 공식 국내 국명 법률 시행을 구별.",
+    "1964-12-11 탄자니아 정부 법률 원문 첫 페이지 스크린샷 확인, 원본 2페이지 내용 전수 검사는 미실행."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

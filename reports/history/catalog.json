@@ -180,6 +180,22 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-KENYA",
+      "type": "entity",
+      "path": "reports/history/countries/kenya.json",
+      "title": "케냐",
+      "entityKeys": [
+        "state:KEN"
+      ],
+      "eventIds": [
+        "EVT-1963-KENYA-INDEPENDENCE",
+        "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-KGZ",
       "type": "entity",
       "path": "reports/history/countries/kyrgyzstan.json",
@@ -392,6 +408,38 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-TANGANYIKA",
+      "type": "entity",
+      "path": "reports/history/countries/tanganyika.json",
+      "title": "탕가니카(독립국·공화국)",
+      "entityKeys": [
+        "research:state:tanganyika"
+      ],
+      "eventIds": [
+        "EVT-1961-TANGANYIKA-INDEPENDENCE",
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-TANZANIA",
+      "type": "entity",
+      "path": "reports/history/countries/tanzania.json",
+      "title": "탕가니카·잔지바르 연합공화국 / 탄자니아 연합공화국",
+      "entityKeys": [
+        "state:TZA"
+      ],
+      "eventIds": [
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+        "EVT-1964-TANZANIA-FORMAL-NAME"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-TJK",
       "type": "entity",
       "path": "reports/history/countries/tajikistan.json",
@@ -432,6 +480,24 @@
       ],
       "eventIds": [
         "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-ZANZIBAR",
+      "type": "entity",
+      "path": "reports/history/countries/zanzibar.json",
+      "title": "잔지바르 술탄국·잔지바르",
+      "entityKeys": [
+        "research:state:zanzibar-sultanate"
+      ],
+      "eventIds": [
+        "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+        "EVT-1963-ZANZIBAR-INDEPENDENCE",
+        "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
       ],
       "year": null,
       "research": "provisional",
@@ -619,6 +685,19 @@
       "eventIds": [],
       "year": 1888,
       "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+      "type": "event",
+      "path": "reports/history/decades/1890-1899/evt-1890-zanzibar-british-protectorate.json",
+      "title": "잔지바르 술탄국 영국 보호국화",
+      "entityKeys": [
+        "research:state:zanzibar-sultanate"
+      ],
+      "eventIds": [],
+      "year": 1890,
+      "research": "provisional",
       "application": "not-applied"
     },
     {
@@ -819,6 +898,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1961-TANGANYIKA-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1961-tanganyika-independence.json",
+      "title": "탕가니카 영국 통치 종료·주권 독립",
+      "entityKeys": [
+        "research:state:tanganyika"
+      ],
+      "eventIds": [],
+      "year": 1961,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1962-TRINIDAD-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1962-trinidad-independence.json",
@@ -845,6 +937,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1963-KENYA-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1963-kenya-independence.json",
+      "title": "케냐 주권 독립",
+      "entityKeys": [
+        "state:KEN"
+      ],
+      "eventIds": [],
+      "year": 1963,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1963-malaysia-federation-enlargement.json",
@@ -859,12 +964,67 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1963-ZANZIBAR-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1963-zanzibar-independence.json",
+      "title": "잔지바르 영국 보호관계 종료·독립",
+      "entityKeys": [
+        "research:state:zanzibar-sultanate"
+      ],
+      "eventIds": [],
+      "year": 1963,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1963-zanzibar-kenya-coastal-strip.json",
+      "title": "잔지바르 술탄령 케냐 해안지대 주권 귀속 이전",
+      "entityKeys": [
+        "research:state:zanzibar-sultanate",
+        "state:KEN"
+      ],
+      "eventIds": [],
+      "year": 1963,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1964-MALAWI-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1964-malawi-independence.json",
       "title": "말라위 독립",
       "entityKeys": [
         "state:MWI"
+      ],
+      "eventIds": [],
+      "year": 1964,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1964-tanganyika-zanzibar-union.json",
+      "title": "탕가니카·잔지바르 연합공화국 성립",
+      "entityKeys": [
+        "research:state:tanganyika",
+        "research:state:zanzibar-sultanate",
+        "state:TZA"
+      ],
+      "eventIds": [],
+      "year": 1964,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1964-TANZANIA-FORMAL-NAME",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1964-tanzania-formal-name.json",
+      "title": "연합공화국 법정 국명 Tanganyika and Zanzibar → Tanzania",
+      "entityKeys": [
+        "state:TZA"
       ],
       "eventIds": [],
       "year": 1964,
@@ -1087,6 +1247,7 @@
       "ENT-FREE-STATE-FIUME",
       "ENT-FREE-TERRITORY-TRIESTE",
       "ENT-JULIANA",
+      "ENT-KENYA",
       "ENT-KGZ",
       "ENT-KOREAN-EMPIRE",
       "ENT-LAOS",
@@ -1100,9 +1261,12 @@
       "ENT-SAMOA",
       "ENT-SAXONY",
       "ENT-SINGAPORE",
+      "ENT-TANGANYIKA",
+      "ENT-TANZANIA",
       "ENT-TJK",
       "ENT-TRINIDAD",
-      "ENT-UZB"
+      "ENT-UZB",
+      "ENT-ZANZIBAR"
     ],
     "event": [
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
@@ -1119,6 +1283,7 @@
       "EVT-1872-RYUKYU-DOMAIN",
       "EVT-1879-RYUKYU-ANNEXATION",
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
+      "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
       "EVT-1897-KOREAN-EMPIRE-NAME",
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
       "EVT-1900-ACRE-FIRST-REPUBLIC-END",
@@ -1134,10 +1299,16 @@
       "EVT-1949-LAOS-FRENCH-UNION",
       "EVT-1953-LAOS-SOVEREIGNTY",
       "EVT-1957-MALAYA-INDEPENDENCE",
+      "EVT-1961-TANGANYIKA-INDEPENDENCE",
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1963-KENYA-INDEPENDENCE",
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "EVT-1963-ZANZIBAR-INDEPENDENCE",
+      "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
       "EVT-1964-MALAWI-INDEPENDENCE",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+      "EVT-1964-TANZANIA-FORMAL-NAME",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
       "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
@@ -1210,6 +1381,11 @@
       "EVT-1839-JULIANA-END",
       "EVT-1839-JULIANA-PROCLAMATION"
     ],
+    "state:KEN": [
+      "ENT-KENYA",
+      "EVT-1963-KENYA-INDEPENDENCE",
+      "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
+    ],
     "state:KGZ": [
       "ENT-KGZ",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
@@ -1280,6 +1456,16 @@
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1965-SINGAPORE-SEPARATION"
     ],
+    "research:state:tanganyika": [
+      "ENT-TANGANYIKA",
+      "EVT-1961-TANGANYIKA-INDEPENDENCE",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+    ],
+    "state:TZA": [
+      "ENT-TANZANIA",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+      "EVT-1964-TANZANIA-FORMAL-NAME"
+    ],
     "state:TJK": [
       "ENT-TJK",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
@@ -1294,6 +1480,13 @@
       "ENT-UZB",
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
       "GEO-2025-KGZ-TJK-BORDER"
+    ],
+    "research:state:zanzibar-sultanate": [
+      "ENT-ZANZIBAR",
+      "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+      "EVT-1963-ZANZIBAR-INDEPENDENCE",
+      "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
     ],
     "state:BOL": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
@@ -1341,6 +1534,9 @@
     "1888": [
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
     ],
+    "1890": [
+      "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE"
+    ],
     "1897": [
       "EVT-1897-KOREAN-EMPIRE-NAME"
     ],
@@ -1384,15 +1580,23 @@
     "1957": [
       "EVT-1957-MALAYA-INDEPENDENCE"
     ],
+    "1961": [
+      "EVT-1961-TANGANYIKA-INDEPENDENCE"
+    ],
     "1962": [
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE"
     ],
     "1963": [
-      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT"
+      "EVT-1963-KENYA-INDEPENDENCE",
+      "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "EVT-1963-ZANZIBAR-INDEPENDENCE",
+      "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
     ],
     "1964": [
-      "EVT-1964-MALAWI-INDEPENDENCE"
+      "EVT-1964-MALAWI-INDEPENDENCE",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+      "EVT-1964-TANZANIA-FORMAL-NAME"
     ],
     "1965": [
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
@@ -1458,6 +1662,7 @@
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
     ],
     "1890-1899": [
+      "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
       "EVT-1897-KOREAN-EMPIRE-NAME",
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
     ],
@@ -1487,10 +1692,16 @@
       "EVT-1957-MALAYA-INDEPENDENCE"
     ],
     "1960-1969": [
+      "EVT-1961-TANGANYIKA-INDEPENDENCE",
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
+      "EVT-1963-KENYA-INDEPENDENCE",
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
+      "EVT-1963-ZANZIBAR-INDEPENDENCE",
+      "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
       "EVT-1964-MALAWI-INDEPENDENCE",
+      "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+      "EVT-1964-TANZANIA-FORMAL-NAME",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
       "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
@@ -1688,6 +1899,38 @@
         ]
       }
     },
+    "research:state:tanganyika": {
+      "recordIds": [
+        "ENT-TANGANYIKA",
+        "EVT-1961-TANGANYIKA-INDEPENDENCE",
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1961-TANGANYIKA-INDEPENDENCE",
+          "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+        ]
+      }
+    },
+    "research:state:zanzibar-sultanate": {
+      "recordIds": [
+        "ENT-ZANZIBAR",
+        "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+        "EVT-1963-ZANZIBAR-INDEPENDENCE",
+        "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+      ],
+      "byDecade": {
+        "1890-1899": [
+          "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE"
+        ],
+        "1960-1969": [
+          "EVT-1963-ZANZIBAR-INDEPENDENCE",
+          "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+          "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+        ]
+      }
+    },
     "state:BHS": {
       "recordIds": [
         "ENT-BAHAMAS",
@@ -1755,6 +1998,19 @@
       "byDecade": {
         "1960-1969": [
           "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
+        ]
+      }
+    },
+    "state:KEN": {
+      "recordIds": [
+        "ENT-KENYA",
+        "EVT-1963-KENYA-INDEPENDENCE",
+        "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1963-KENYA-INDEPENDENCE",
+          "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
         ]
       }
     },
@@ -1893,6 +2149,19 @@
       "byDecade": {
         "1960-1969": [
           "EVT-1962-TRINIDAD-INDEPENDENCE"
+        ]
+      }
+    },
+    "state:TZA": {
+      "recordIds": [
+        "ENT-TANZANIA",
+        "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+        "EVT-1964-TANZANIA-FORMAL-NAME"
+      ],
+      "byDecade": {
+        "1960-1969": [
+          "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+          "EVT-1964-TANZANIA-FORMAL-NAME"
         ]
       }
     },

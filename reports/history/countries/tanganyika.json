@@ -1,0 +1,51 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-TANGANYIKA",
+  "type": "entity",
+  "title": "탕가니카(독립국·공화국)",
+  "subject": {
+    "key": "research:state:tanganyika",
+    "kind": "state",
+    "displayName": "탕가니카(독립국·공화국)",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-23",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1961-12-09 독립 주권국 효력 확인. 1962-12-09 공화정 전환은 자동 국가 소멸이 아니다. 1964-04-26 연합과 현 탄자니아의 법적 동일성은 아직 판단하지 않아 lifetime 단정 금지."
+  },
+  "eventIds": [
+    "EVT-1961-TANGANYIKA-INDEPENDENCE",
+    "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+  ],
+  "sourceIds": [
+    "SRC-117",
+    "SRC-122",
+    "SRC-123",
+    "SRC-126"
+  ],
+  "unresolved": [
+    "독립 전 영국 위임통치·유엔 신탁통치의 시작/종료와 Tanganyika 동일 정치체 객체 매핑 미확인.",
+    "1962 공화정 국명·국기 변동 여부 원문 조사 필요; 단순 헌정 전환은 별도 사건으로 만들지 않음.",
+    "1964 연합이 탕가니카의 법적 소멸인지 새 연합국에 계속되는 법인격인지 별도 2차 검증 필요.",
+    "현행 Pando의 실존 객체 ID·validFrom 의미·역사 국기 매핑 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

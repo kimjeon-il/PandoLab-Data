@@ -1,0 +1,65 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+  "type": "event",
+  "title": "잔지바르 술탄령 케냐 해안지대 주권 귀속 이전",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1963,
+    "value": "1963-12-12",
+    "precision": "day",
+    "note": "1963-10-08 협정은 서명, 효력은 케냐 독립일 1963-12-12"
+  },
+  "entityKeys": [
+    "research:state:zanzibar-sultanate",
+    "state:KEN"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "territory.assignment",
+      "summary": "술탄이 주권을 가졌으나 영국이 케냐 보호령으로 관리하던 해안지대를 케냐의 독립에 맞춰 양도",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "연관 도서·영역의 세부 공간 경계 불명"
+    },
+    {
+      "entityKey": "state:KEN",
+      "field": "territory.assignment",
+      "summary": "1963-10-08 다자 협정에 따라 1963-12-12 케냐 독립 시 케냐 보호령 해안지대가 케냐의 통합 영토가 됨",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "원 도면·경계 벡터 확보 전까지 geometry 후보 승인 금지"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1963-10-08",
+      "role": "coastal-strip-four-party-agreement-signed"
+    },
+    {
+      "date": "1963-12-12",
+      "role": "transfer-effective-with-kenya-independence"
+    }
+  ],
+  "sourceIds": [
+    "SRC-119",
+    "SRC-120",
+    "SRC-121"
+  ],
+  "unresolved": [
+    "1963-10-08 케냐 의회도서관 원협정 PDF는 목록만 열람, 본문 PDF 직접 열람·해석·형상 검증 미실행.",
+    "이전 영국 행정 운영과 술탄 법적 주권 구별. 해안 침식/간척 등 물리적 형상변화 대상 제외.",
+    "역사 10마일 해안지대 실제 폴리곤/인접국 공유 경계 및 도서 포함범위 미확정; 현대 Kenya 경계 소급 금지."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

@@ -873,6 +873,132 @@
       "kind": "primary-statute",
       "reviewStatus": "search-index-reviewed",
       "reviewedOn": "2026-11-22"
+    },
+    {
+      "id": "SRC-114",
+      "url": "https://www.zanzibarassembly.go.tz/public/documents-reports/about",
+      "fromReport": "GEO-LIFE-042",
+      "section": "잔지바르 의회 1890-06-14 영국 보호협정",
+      "kind": "official-parliament-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-115",
+      "url": "https://history.state.gov/historicaldocuments/frus1890/d292",
+      "fromReport": "GEO-LIFE-042",
+      "section": "1890-11-04 London Gazette 원문 재수록, 보호국 공포",
+      "kind": "primary-diplomatic-document",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-116",
+      "url": "https://archontology.org/nations/tanzania/zanzibar/01_polity.php",
+      "fromReport": "GEO-LIFE-042",
+      "section": "잔지바르 1856·1890·1963·1964 정치체 연혁 및 원사료 목록",
+      "kind": "historical-reference",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-117",
+      "url": "https://www.legislation.gov.uk/ukpga/Eliz2/10-11/1",
+      "fromReport": "GEO-LIFE-042",
+      "section": "탕가니카 1961 독립법 제1조 12월9일 효력",
+      "kind": "primary-statute",
+      "reviewStatus": "search-result-reviewed; direct-open-anti-bot",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-118",
+      "url": "https://www.legislation.gov.uk/ukpga/1963/55/body/enacted/data.htm",
+      "fromReport": "GEO-LIFE-042",
+      "section": "잔지바르 1963년법 제1조 12월10일 보호국 종료·독립",
+      "kind": "primary-statute",
+      "reviewStatus": "search-result-reviewed; direct-open-xhtml-error",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-119",
+      "url": "https://www.legislation.gov.uk/ukpga/1963/54",
+      "fromReport": "GEO-LIFE-042",
+      "section": "케냐 1963 독립법 제1조 12월12일·보호령 해안지대 포함",
+      "kind": "primary-statute",
+      "reviewStatus": "search-result-reviewed; direct-open-anti-bot",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-120",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1963/nov/22/kenya-independence-bill",
+      "fromReport": "GEO-LIFE-042",
+      "section": "1963-10-08 해안지대 협정과 12월12일 귀속, 식민성 vs 자치령",
+      "kind": "primary-parliamentary-record",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-121",
+      "url": "https://libraryir.parliament.go.ke/items/fe5e6005-58ff-4db0-9366-a22cf4a12511",
+      "fromReport": "GEO-LIFE-042",
+      "section": "케냐 의회도서관 1963-10-08 4자 해안지대 협정 원본 소장 (원문 미열람)",
+      "kind": "primary-treaty-archive-catalog",
+      "reviewStatus": "catalog-metadata-opened; source-pdf-not-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-122",
+      "url": "https://www.jp.tzembassy.go.tz/resources/view/the-59th-union-day-anniversary-of-the-united-republic-of-tanzania-on-26th-april-2023",
+      "fromReport": "GEO-LIFE-042",
+      "section": "탄자니아 정부 1964-04-22 연합 협정·04-26 단일 공화국 효력",
+      "kind": "government-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-123",
+      "url": "https://www.un.org/en/node/122916",
+      "fromReport": "GEO-LIFE-042",
+      "section": "UN 탕가니카·잔지바르 단일 회원 존속, 국제 사용 국명 변동일 1964-11-01",
+      "kind": "intergovernmental-record",
+      "reviewStatus": "search-result-reviewed; direct-open-403",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-124",
+      "url": "https://www.chragg.go.tz/uploads/documents/sw-1669284662-61-1964%20The%20United%20Republic%20%28Declaration%20of%20Name%29%20Act.pdf",
+      "fromReport": "GEO-LIFE-042",
+      "section": "탄자니아 1964 제61호 법: 국명 변경 12월11일 법적 시행·10월28일 이후 명칭 소급 적법화",
+      "kind": "primary-statute-pdf",
+      "reviewStatus": "pdf-text-opened; page-1-screenshot-reviewed",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-125",
+      "url": "https://www.archontology.org/nations/tanzania/01_polity.php",
+      "fromReport": "GEO-LIFE-042",
+      "section": "연합국 정식 국명 1964-04-26, 10월29일 발표, 12월11일 법률 발효 및 Gazette 출처",
+      "kind": "historical-reference",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-126",
+      "url": "https://www.wipo.int/wipolex/en/legislation/details/11127",
+      "fromReport": "GEO-LIFE-042",
+      "section": "1964 연합법 제22호 4월25일 재가, 카탈로그 5월1일 시행 표기(연합국 효력 4월26일과 충돌)",
+      "kind": "official-law-catalog",
+      "reviewStatus": "web-page-opened; law-original-pdf-403",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-127",
+      "url": "https://elibrary.osg.go.tz/items/697cd4d7-0ce0-40f3-bec4-afb520696d16",
+      "fromReport": "GEO-LIFE-042",
+      "section": "잔지바르 혁명평의회 1964-04-25 연합 비준법 정부 공보 보존",
+      "kind": "official-archive-catalog",
+      "reviewStatus": "catalog-metadata-reviewed; file-not-opened",
+      "reviewedOn": "2026-11-23"
     }
   ]
 }

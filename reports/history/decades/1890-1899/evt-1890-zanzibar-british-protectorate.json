@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+  "type": "event",
+  "title": "잔지바르 술탄국 영국 보호국화",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1890,
+    "value": null,
+    "precision": "year",
+    "note": "실제 보호관계 효력일 불명확, year만 확정"
+  },
+  "entityKeys": [
+    "research:state:zanzibar-sultanate"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.parent",
+      "summary": "술탄국이 영국의 보호하로 들어감. 식민지 직할 편입이 아니라 술탄 주권을 둔 보호관계로 구분.",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR",
+      "uncertainty": "14 Jun 협정·4 Nov 공표는 확인; 법적 효력일은 11월4일/7일 등 엇갈려 일 정밀도 보류"
+    },
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.childType",
+      "summary": "영국의 보호국 형태로 국제적 지위 변경",
+      "assessment": "source-reviewed",
+      "proposedValue": "protectorate",
+      "uncertainty": "보호국 성립일 정밀도 year 유지"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1890-06-14",
+      "role": "protection-agreement-signed"
+    },
+    {
+      "date": "1890-11-04",
+      "role": "london-gazette-public-notice"
+    },
+    {
+      "date": "1890-11-07",
+      "role": "secondary-reference-proclamation-disputed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-114",
+    "SRC-115",
+    "SRC-116"
+  ],
+  "unresolved": [
+    "원보호협정 및 현지 공보의 효력 조항 미열람; 1890-06-14 서명/1890-11-04 공표를 자동 효력일로 기입하지 않음.",
+    "국경 영토 범위는 당시 미확보, 1890년도 경계가 아닌 현대 형상 소급 적용 금지."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

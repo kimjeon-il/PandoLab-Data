@@ -1,0 +1,104 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+  "type": "event",
+  "title": "탕가니카·잔지바르 연합공화국 성립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1964,
+    "value": "1964-04-26",
+    "precision": "day",
+    "note": "연합 주권국 성립 04-26 (정부·사료), 일부 법률 카탈로그 05-01 표기 유의"
+  },
+  "entityKeys": [
+    "research:state:tanganyika",
+    "research:state:zanzibar-sultanate",
+    "state:TZA"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:TZA",
+      "field": "lifetime.validFrom",
+      "summary": "두 독립 주권국이 1964-04-26 United Republic of Tanganyika and Zanzibar 구성",
+      "assessment": "provisional",
+      "uncertainty": "연합국의 신생 법인격 여부 vs 탕가니카 국가 동일성 보류"
+    },
+    {
+      "entityKey": "state:TZA",
+      "field": "name.formal",
+      "summary": "연합 직후 정식 국명 United Republic of Tanganyika and Zanzibar",
+      "assessment": "source-reviewed",
+      "proposedValue": "United Republic of Tanganyika and Zanzibar"
+    },
+    {
+      "entityKey": "research:state:tanganyika",
+      "field": "relationship.parent",
+      "summary": "탕가니카 독립 주권국이 공동 연합 공화국의 본토 구성부분으로 편입",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:TZA",
+      "uncertainty": "탕가니카의 법인격 종료 문제는 확정하지 않음"
+    },
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.parent",
+      "summary": "잔지바르 주권국이 연합국에 편입되나 내정 자치정부 존속",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:TZA"
+    },
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.childType",
+      "summary": "잔지바르 연합국 내 자치정부 지위로 전환",
+      "assessment": "source-reviewed",
+      "proposedValue": "autonomous constituent"
+    },
+    {
+      "entityKey": "state:TZA",
+      "field": "territory.assignment",
+      "summary": "탕가니카 본토와 잔지바르 제도가 하나의 주권국 관할로 결합",
+      "assessment": "provisional",
+      "uncertainty": "역사 폴리곤 원형상 및 해안 경계 미검증"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1964-04-22",
+      "role": "articles-of-union-signed"
+    },
+    {
+      "date": "1964-04-25",
+      "role": "tanganyika-and-zanzibar-ratification-laws"
+    },
+    {
+      "date": "1964-04-26",
+      "role": "union-effective"
+    },
+    {
+      "date": "1964-05-01",
+      "role": "wipo-catalog-statute-entry-into-force-discrepancy"
+    }
+  ],
+  "sourceIds": [
+    "SRC-122",
+    "SRC-123",
+    "SRC-125",
+    "SRC-126",
+    "SRC-127"
+  ],
+  "unresolved": [
+    "1964-04-22 연합 조약 서명 및 04-25 양측 입법, 04-26 주권국 결합 구분.",
+    "WIPO 법률 카탈로그의 일부 법률 05-01 시행 기록은 04-26 연합 효력과 별도로 확인 필요.",
+    "탕가니카·잔지바르 개별 주권국의 법적 동일성/소멸, 잔지바르 자치 계속성 및 각국 국기 원문 미확정.",
+    "원본 GIS 변환, 위상/배율 검사 미실행."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

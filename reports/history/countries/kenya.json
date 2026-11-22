@@ -1,0 +1,49 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-KENYA",
+  "type": "entity",
+  "title": "케냐",
+  "subject": {
+    "key": "state:KEN",
+    "kind": "state",
+    "displayName": "케냐",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-23",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1963-12-12 영국 통치 종료·독립 효력. 동시에 1963-10-08 협정에 따라 잔지바르 술탄의 케냐 보호령 해안지대에 대한 주권적 귀속이 케냐로 전환됨. 독립일과 해안 귀속은 기존 알려진 역사사실이며 이번에 새로 발견했다고 집계하지 않음."
+  },
+  "eventIds": [
+    "EVT-1963-KENYA-INDEPENDENCE",
+    "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP"
+  ],
+  "sourceIds": [
+    "SRC-119",
+    "SRC-120",
+    "SRC-121"
+  ],
+  "unresolved": [
+    "케냐 식민지와 케냐 보호령(술탄 주권/영국 행정) 객체 이력 및 이전 1895년 협정의 정확한 범위 미검증.",
+    "해안지대 원협정 PDF 본문 직접 열람과 토지/도서 등 원형상·국경 공유 위상 미검증.",
+    "1963 독립국의 런타임 매핑과 formal name/국기 변경 날짜 검증 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

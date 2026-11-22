@@ -1,0 +1,63 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1961-TANGANYIKA-INDEPENDENCE",
+  "type": "event",
+  "title": "탕가니카 영국 통치 종료·주권 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1961,
+    "value": "1961-12-09",
+    "precision": "day",
+    "note": "UK Tanganyika Independence Act 1961 §1(1) 지정일"
+  },
+  "entityKeys": [
+    "research:state:tanganyika"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:tanganyika",
+      "field": "relationship.parent",
+      "summary": "영국의 위임/신탁 통치 관계가 종료되고 독립 주권국이 됨",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "그 전단계 UN 신탁통치 종료의 정확한 국제 효력은 별도 대조"
+    },
+    {
+      "entityKey": "research:state:tanganyika",
+      "field": "relationship.childType",
+      "summary": "영국의 통치 아래 있던 영토에서 독립국으로 전환",
+      "assessment": "source-reviewed",
+      "proposedValue": "sovereign state",
+      "uncertainty": "Tanganyika 이전 행정/신탁 객체와 법적 동일성 보류"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1961-11-22",
+      "role": "uk-independence-act-royal-assent"
+    },
+    {
+      "date": "1961-12-09",
+      "role": "appointed-independence-day"
+    }
+  ],
+  "sourceIds": [
+    "SRC-117",
+    "SRC-122"
+  ],
+  "unresolved": [
+    "1961 독립일은 기존 널리 알려진 사실로 신규 발견 집계 금지.",
+    "1962 공화정 전환만으로 lifetime 분할 금지.",
+    "원 법령 직접 페이지는 anti-bot 차단되어 검색 색인 본문과 탄자니아 정부 기록 교차 확인."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

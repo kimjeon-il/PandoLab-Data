@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-ZANZIBAR",
+  "type": "entity",
+  "title": "잔지바르 술탄국·잔지바르",
+  "subject": {
+    "key": "research:state:zanzibar-sultanate",
+    "kind": "state",
+    "displayName": "잔지바르 술탄국·잔지바르",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-23",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "잔지바르는 1801년 이후 형성된 술탄국으로 1890년 영국 보호하의 종속관계, 1963년 독립, 1964년 연합국 편입으로 지위가 바뀌었다. 1964년 이후 잔지바르 자치정부가 존속하므로 영토 객체의 종말일과 주권국 존속 종료일을 구별해야 한다."
+  },
+  "eventIds": [
+    "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
+    "EVT-1963-ZANZIBAR-INDEPENDENCE",
+    "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
+    "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
+  ],
+  "sourceIds": [
+    "SRC-114",
+    "SRC-115",
+    "SRC-116",
+    "SRC-118",
+    "SRC-120",
+    "SRC-121",
+    "SRC-122",
+    "SRC-127"
+  ],
+  "unresolved": [
+    "1856년 분리와 1861년 분립 승인 시점 및 실질 국가 동일성의 원사료 대조가 남음. 1801년을 설립일로 사용하지 않음.",
+    "1890년 6월14일 보호협정·11월4일 영국 관보 공고·다른 사료의 11월7일 현지 선포 주장 중 실제 지위 효력일 확정 유보.",
+    "1964-01-12 혁명과 People's Republic of Zanzibar 공식 국명·국기 변경의 법적 발효일 직접 검증 필요. 공화정 전환만으로 새 국가 생성 금지.",
+    "케냐 해안지대에 대한 1963-12-12 술탄 주권 소멸과 기존 영국 행정지배 구별. 해안 지형/경계 폴리곤 미검증.",
+    "1964-04-26 연합 후 잔지바르 자치정부가 존속하므로 주권국 validTo와 자치구역 validTo/relationship을 구별. Pando 객체·국기 매핑 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

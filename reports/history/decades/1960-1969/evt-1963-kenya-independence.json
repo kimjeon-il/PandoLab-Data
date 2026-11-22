@@ -1,0 +1,61 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1963-KENYA-INDEPENDENCE",
+  "type": "event",
+  "title": "케냐 주권 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1963,
+    "value": "1963-12-12",
+    "precision": "day",
+    "note": "Kenya Independence Act 1963 §1(1), §1(3)"
+  },
+  "entityKeys": [
+    "state:KEN"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:KEN",
+      "field": "relationship.parent",
+      "summary": "영국의 정부 책임 종료, 독립 주권국",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:KEN",
+      "field": "relationship.childType",
+      "summary": "영국 통치하의 케냐가 독립 주권국으로 전환",
+      "assessment": "source-reviewed",
+      "proposedValue": "sovereign state"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1963-12-03",
+      "role": "kenya-independence-act-royal-assent"
+    },
+    {
+      "date": "1963-12-12",
+      "role": "appointed-day"
+    }
+  ],
+  "sourceIds": [
+    "SRC-119",
+    "SRC-120"
+  ],
+  "unresolved": [
+    "기존 알려진 독립일 재계수 금지.",
+    "케냐 보호령 해안지대의 동시 합의상 귀속은 별도 다자 영토변경 사건 ID로 연결.",
+    "독립 전 Colony/Protectorate 법적 구분과 역사 객체 mapping 검증 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

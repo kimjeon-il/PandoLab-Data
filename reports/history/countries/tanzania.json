@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-TANZANIA",
+  "type": "entity",
+  "title": "탕가니카·잔지바르 연합공화국 / 탄자니아 연합공화국",
+  "subject": {
+    "key": "state:TZA",
+    "kind": "state",
+    "displayName": "탕가니카·잔지바르 연합공화국 / 탄자니아 연합공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-23",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1964-04-26 탕가니카와 잔지바르가 단일 주권 공화국을 구성. 정식 국명은 1964-12-11 법률 시행에 따라 United Republic of Tanzania로 변경되며, 10월말 사용과 11월1일 UN 기록은 별도 구별. 당사자 법적 계속성 논쟁으로 validFrom 최종 승인 유보."
+  },
+  "eventIds": [
+    "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
+    "EVT-1964-TANZANIA-FORMAL-NAME"
+  ],
+  "sourceIds": [
+    "SRC-122",
+    "SRC-123",
+    "SRC-124",
+    "SRC-125",
+    "SRC-126",
+    "SRC-127"
+  ],
+  "unresolved": [
+    "연합을 신국 성립으로 볼지 탕가니카 법인격의 계속으로 볼지 Pando 객체 동일성 정책과 국제법상 검증 보류.",
+    "WIPO 법률 카탈로그의 연합법 시행 1964-05-01과 정부의 연합국 성립 1964-04-26을 원법령 부칙으로 대조 필요.",
+    "1964-10-29 이름 공표·1964-11-01 UN 기록·1964-12-11 국내 법적 국명 시행을 혼동하지 말 것. 소급 사용 인정은 10월28일부터.",
+    "연합 이후 잔지바르 자치권 종류와 연합국 국기 최초 효력일·런타임 객체/지도 형상 검증 유보."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1963-ZANZIBAR-INDEPENDENCE",
+  "type": "event",
+  "title": "잔지바르 영국 보호관계 종료·독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1963,
+    "value": "1963-12-10",
+    "precision": "day",
+    "note": "UK Zanzibar Act 1963 §1(1) appointed day"
+  },
+  "entityKeys": [
+    "research:state:zanzibar-sultanate"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.parent",
+      "summary": "영국의 보호관계 종료, 잔지바르 독립",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "1890~1963 술탄국 법인격 계속 및 왕국 성격 보류"
+    },
+    {
+      "entityKey": "research:state:zanzibar-sultanate",
+      "field": "relationship.childType",
+      "summary": "영국 보호국에서 독립국으로 지위 변경",
+      "assessment": "source-reviewed",
+      "proposedValue": "sovereign state"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1963-12-03",
+      "role": "uk-zanzibar-act-royal-assent"
+    },
+    {
+      "date": "1963-12-10",
+      "role": "protectorate-ended-independence"
+    }
+  ],
+  "sourceIds": [
+    "SRC-116",
+    "SRC-118"
+  ],
+  "unresolved": [
+    "1963년은 잔지바르 주권국 최초 설립일이 아님; 19세기 술탄국 계속성 연구 필요.",
+    "1964년 1월의 왕정→공화정 전환은 자동 새 국가 성립 사건이 아님.",
+    "원법령 사이트 직접 열람 오류로 검색 색인 법조항 및 독립된 역사 사료 교차."
+  ],
+  "provenance": {
+    "legacyReportId": "GEO-LIFE-042",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-042",
+    "createdOn": "2026-11-23"
+  }
+}
