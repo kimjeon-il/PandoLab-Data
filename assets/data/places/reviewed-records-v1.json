@@ -14,7 +14,7 @@
       "file": "reports/places/tier1-major-cities-batch01.json",
       "cityCount": 9,
       "publishedCount": 9,
-      "sourceBlobSha": "a41fa7d25787dd6b12f3228361fd0de4e3046ece"
+      "sourceBlobSha": "93c64924bd422f0cabeb705c7f4d8e073650c829"
     },
     {
       "batch": "02-east-asia",
@@ -5685,7 +5685,16 @@
       "nameEn": "London",
       "nameNative": "London",
       "nameNativeExtras": [],
-      "nameTimeline": [],
+      "nameTimeline": [
+        {
+          "fromYear": 1801,
+          "ko": "런던",
+          "en": "London",
+          "native": "London",
+          "nativeExtras": []
+        }
+      ],
+      "capitalPeriods": [],
       "coordinates": [
         -0.12574,
         51.50853
@@ -5698,8 +5707,7 @@
       "minZoom": 1.25,
       "reviewFile": "reports/places/tier1-major-cities-batch01.json",
       "historicalDisplayCoverage": "reviewed-stable-since-1801",
-      "reviewStatus": "verified-source-staging-not-runtime",
-      "capitalPeriods": []
+      "reviewStatus": "verified-source-staging-not-runtime"
     },
     {
       "source": "geonames",
@@ -6043,7 +6051,16 @@
       "nameEn": "Paris",
       "nameNative": "Paris",
       "nameNativeExtras": [],
-      "nameTimeline": [],
+      "nameTimeline": [
+        {
+          "fromYear": 1801,
+          "ko": "파리",
+          "en": "Paris",
+          "native": "Paris",
+          "nativeExtras": []
+        }
+      ],
+      "capitalPeriods": [],
       "coordinates": [
         2.3488,
         48.85341
@@ -6056,8 +6073,7 @@
       "minZoom": 1.25,
       "reviewFile": "reports/places/tier1-major-cities-batch01.json",
       "historicalDisplayCoverage": "reviewed-stable-since-1801",
-      "reviewStatus": "verified-source-staging-not-runtime",
-      "capitalPeriods": []
+      "reviewStatus": "verified-source-staging-not-runtime"
     },
     {
       "source": "geonames",
@@ -7477,7 +7493,7 @@
   ],
   "stats": {
     "cityCount": 173,
-    "timelineEntries": 407,
+    "timelineEntries": 409,
     "stagedCount": 312,
     "withheldCount": 139,
     "sourceBatchCount": 24,
