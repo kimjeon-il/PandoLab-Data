@@ -999,6 +999,78 @@
       "kind": "official-archive-catalog",
       "reviewStatus": "catalog-metadata-reviewed; file-not-opened",
       "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-128",
+      "url": "https://www.cancilleria.gov.co/node/30985",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "콜롬비아 외교부 2025-08-05: 산타로사섬 1929 후 형성으로 미배정 주장; 2025 양국 귀속합의 아님",
+      "kind": "foreign-ministry-primary",
+      "reviewStatus": "search-index-reviewed; direct-open-403",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-129",
+      "url": "https://www.gob.pe/institucion/rree/noticias/1221792-el-gobierno-peruano-expresa-su-protesta-por-declaraciones-del-gobierno-de-colombia-sobre-integridad-territorial-del-peru",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "페루 외교부 2025-08-05: 산타로사는 치네리아섬 일부이며 1929 배정됐다는 페루측 법적 주장; Ley 32403 국내 지구 설치",
+      "kind": "foreign-ministry-primary",
+      "reviewStatus": "search-index-reviewed; direct-open-418",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-130",
+      "url": "https://cancilleria.gov.co/sala-de-prensa/noticias/comunicado-conjunto-xiv-reunion-ordinaria-de-la-comision-mixta-permanente-para-la-inspeccion-de-la-frontera-peruano-colombiana-comperif",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "2025-09-12 페루·콜롬비아 공동 성명: 협력·항행·기술조사·경계표지 유지, 도서 양도/국경 조정 합의 없음",
+      "kind": "joint-government-primary",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-131",
+      "url": "https://apps.rree.gob.pe/portal/webtratados.nsf/Ficha_Tratados.xsp?documentId=C6A48AE9F244837205256E8300679933",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "페루 외교부 조약 원장 B-0334: 1922-03-24 서명·1928-03-19 발효; 첨부 B-0334.pdf 원문 미열람",
+      "kind": "official-treaty-registry",
+      "reviewStatus": "search-index-reviewed; direct-open-timeout; original-pdf-not-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-132",
+      "url": "https://mapas2.igac.gov.co/server/rest/services/limites/fronterasterrestresinternacionales/MapServer",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "콜롬비아 IGAC 공식 국제 육상 국경 ArcGIS REST MapServer; GeoJSON 질의 지원; CRS 메타데이터 9377, 서비스 원자료·유효기간 개별검증 미실행",
+      "kind": "official-vector-service-metadata",
+      "reviewStatus": "web-service-metadata-opened; feature-query-not-run",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-133",
+      "url": "https://mapas2.igac.gov.co/server/rest/services/limites/fronterasterrestresinternacionales/MapServer/1",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "IGAC Islas Fronterizas 레이어 1: 폴리곤·OBJECTID 필드·EPSG:9377 서비스 메타데이터; 산타로사 개별 피처 미조회",
+      "kind": "official-vector-layer-metadata",
+      "reviewStatus": "web-service-layer-metadata-opened; feature-query-not-run",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-134",
+      "url": "https://portalgeo.idep.gob.pe/",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "페루 IGN IDEP 국경지도 1:100,000 WMS 안내: WFS/다운로드 가능한 역사 원벡터라고 확인되지 않음",
+      "kind": "official-geodata-portal",
+      "reviewStatus": "web-page-opened; service-data-not-opened",
+      "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-135",
+      "url": "https://minfor.gov.gy/node/252",
+      "fromReport": "timeline-2025-south-america-2026-11-23",
+      "section": "가이아나 외교부 2025-05-01 ICJ 잠정조치 발표: 에세키보는 가이아나가 실제 관리·통제, 베네수엘라 선거/편입 주장은 주권 이전 아님",
+      "kind": "foreign-ministry-primary",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-23"
     }
   ]
 }

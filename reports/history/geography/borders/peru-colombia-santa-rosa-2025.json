@@ -1,0 +1,139 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "GEO-PER-COL-SANTA-ROSA-2025",
+  "type": "geography",
+  "title": "페루–콜롬비아 산타로사·치네리아 도서 귀속과 아마존 공유국경 검증 후보 (2025)",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-south-america"
+  },
+  "feature": {
+    "kind": "island-international-boundary",
+    "name": "Santa Rosa de Loreto / isla Santa Rosa / isla Chinería (Amazonas)",
+    "coordinates": null,
+    "geometryVerified": false,
+    "featureIdentified": false,
+    "boundarySharedSegmentVerified": false,
+    "validityAt2025Verified": false
+  },
+  "entityKeys": [
+    "state:PER",
+    "state:COL"
+  ],
+  "date": {
+    "year": 2025,
+    "value": null,
+    "precision": "unknown",
+    "note": "2025년 도서 주권 이양·국제경계 변경의 효력일 미발견. 2025-07-03 페루 Ley 32403은 국내 행정구역 설치/공포로 Pando 국제경계 변동 아님. 1922 조약은 1928-03-19 발효(외교부 조약 원장), 1929 도서 배정에 관한 양측 법적 견해는 다름."
+  },
+  "changes": [],
+  "finding": "2025년 페루의 산타로사 지구 설치를 콜롬비아는 미배정 도서의 일방 편입이라고 항의하고 페루는 기존 치네리아섬 일부에 대한 종전 주권의 국내 행정 재편이라고 설명. 2025-09-12 양국 공동성명은 항행·기술 검토·경계표지 보수 합의만 확인되며 새로운 도서 양도·법적 경계 확정 합의는 없음. 기존 주권 주장과 실제 법적 귀속은 미해결이며 2025년 변동 사건 JSON 생성·영토 형상 승인 금지. 하천 자연변화·침식·퇴적은 별도 조사로 제외.",
+  "sourceCandidates": [
+    {
+      "provider": "Instituto Geográfico Agustín Codazzi (IGAC), Colombia",
+      "dataset": "fronterasterrestresinternacionales / MapServer, layer 0 Limite Fronterizo; layer 1 Islas Fronterizas",
+      "originalUrl": "https://mapas2.igac.gov.co/server/rest/services/limites/fronterasterrestresinternacionales/MapServer",
+      "layerUrl": "https://mapas2.igac.gov.co/server/rest/services/limites/fronterasterrestresinternacionales/MapServer/1",
+      "version": "미확인 (실시간 서비스; 2025년 당시 고정 판본 미확보)",
+      "publishedOrUpdated": "메타데이터에 명시적 발행·개정일 미확인",
+      "historicalEffectivePeriod": "2025-01-01~2025-12-31 실제 경계 유효판본/원조약과 일치 여부 미확인",
+      "format": "ArcGIS REST MapServer Feature Layer; supports GeoJSON query (WFS 확인 안 됨; GeoJSON 내보내기 미실행)",
+      "geometryType": "layer 0 polyline; layer 1 polygon",
+      "crs": "EPSG:9377 (서비스 메타데이터 공간참조; 개별 파일/응답 좌표계 미검증)",
+      "featureIdField": "OBJECTID (layer 1 메타데이터)",
+      "individualFeatureId": null,
+      "sharedBoundaryVerified": false,
+      "coverage": "콜롬비아와 페루를 포함한 콜롬비아의 국제 육상 경계·도서 레이어; 산타로사 개별 피처 존재 여부 미확인",
+      "rights": "IGAC 저작권 표기; 개별 재사용·상용·재배포 조건 미확인",
+      "redistribution": "미승인",
+      "downloaded": false,
+      "crsVerifiedFromData": false,
+      "featuresQueried": false,
+      "hashComputed": false,
+      "converted": false,
+      "topologyTested": false,
+      "suitability": "공식 원벡터 서비스 메타데이터 후보, 역사 효력일/국제합의/도서 피처/정확도 검증 전 정본 부적합"
+    },
+    {
+      "provider": "Instituto Geográfico Nacional (IGN), Perú",
+      "dataset": "IDEP 1:100,000 límites 지도 서비스",
+      "originalUrl": "http://www.idep.gob.pe:6080/arcgis/services/IDE_IGN/LIMITES/MapServer/WMSServer?",
+      "metadataUrl": "https://portalgeo.idep.gob.pe/",
+      "version": "미확인",
+      "publishedOrUpdated": "미확인",
+      "historicalEffectivePeriod": "2025 유효성 미확인",
+      "format": "WMS(지도 이미지), 벡터 WFS·SHP·GPKG·GeoJSON 제공 확인 안 됨",
+      "crs": null,
+      "individualFeatureId": null,
+      "rights": "미확인",
+      "redistribution": "미승인",
+      "downloaded": false,
+      "suitability": "페루측 참고 지도 포털. 역사 공간 벡터 후보로는 미확보"
+    },
+    {
+      "provider": "ETH Zurich CShapes 2.0",
+      "dataset": "CShapes 2.0 historical borders",
+      "originalUrl": "https://icr.ethz.ch/data/cshapes/",
+      "version": "2.0 / 1886–2019",
+      "publishedOrUpdated": "기존 출처 SRC-088로 보존",
+      "historicalEffectivePeriod": "2025년 미수록",
+      "format": "SHP/GeoJSON 배포 후보(기존 메타데이터 근거)",
+      "crs": null,
+      "individualFeatureId": null,
+      "rights": "현 회차 미검증",
+      "downloaded": false,
+      "suitability": "2025 도서 귀속·하천 경계 직접 증거로 부적합"
+    }
+  ],
+  "sourceIds": [
+    "SRC-128",
+    "SRC-129",
+    "SRC-130",
+    "SRC-131",
+    "SRC-132",
+    "SRC-133",
+    "SRC-134",
+    "SRC-088"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1922-03-24",
+      "kind": "treaty-signing-not-effective",
+      "sourceId": "SRC-131"
+    },
+    {
+      "date": "1928-03-19",
+      "kind": "treaty-entry-into-force",
+      "sourceId": "SRC-131"
+    },
+    {
+      "date": "2025-07-03",
+      "kind": "domestic-district-law-promulgation-not-border-transfer",
+      "sourceId": "SRC-129"
+    },
+    {
+      "date": "2025-08-05",
+      "kind": "opposed-government-territorial-claims",
+      "sourceId": "SRC-128"
+    },
+    {
+      "date": "2025-09-12",
+      "kind": "joint-commission-communique-no-territorial-settlement",
+      "sourceId": "SRC-130"
+    }
+  ],
+  "unresolved": [
+    "산타로사의 1929년 섬 배정 목록·부속도면·조약해석: 페루는 치네리아의 일부, 콜롬비아는 그 후 생긴 미배정 도서라고 주장하며 법적 판정 유보",
+    "2025년 전후 공유 국경 탈베그의 법적 효력·우회 수로·도서 실제 귀속과 실효지배 구분; 하천 침식·퇴적 자체는 자동 조사 제외",
+    "IGAC 공식 2025 유효 벡터 판본/개별 섬 OBJECTID·상대국 피처·공유경계 연결·위상·배율별 정확도 검증 및 재배포 허락 미확보",
+    "페루측 동시기 국가경계 원벡터(SHP ZIP/GPKG/GeoJSON/WFS) 직접 URL·CRS·피처 미확보. IDEP의 확인된 제공물은 WMS 이미지 지도",
+    "원본 파일·CRS 내부값·해시·변환·화면·0.5 CSS px 검사는 미실행. 독립 역사 폴리곤 없으므로 합격 판정 금지"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-south-america-2026-11-23",
+    "createdOn": "2026-11-23"
+  }
+}

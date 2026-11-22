@@ -25,7 +25,7 @@
     "note": "2025년 새 영토 이양·국경 변경은 확인되지 않았다. 협의일과 법적 변동일을 혼동하지 않는다."
   },
   "changes": [],
-  "finding": "2025년 새 영토·주권·국경 변경 확인 0건. 1958년 원교환공문과 양국 승인문, 현행 공식 벡터의 비교를 거쳐 실제 지리 입력 후보 여부를 판단한다.",
+  "finding": "2025년 새 영토·주권·국경 변경 확인 0건. 볼리비아 외교부의 2025-10-23 공식 발표에 따르면 10월14~16일 양국 공동위원회는 수아레스섬 문제가 1958년 교환각서 이후 미해결임을 인정하고 추후 역사·기술 조사에 합의했다. 당시 52개 경계표지 좌표 갱신은 보수·측량이며 법적 영토 이전이 아님. 1958년 원교환공문 및 양국 승인문, 도서 대상 공식 벡터로 법적 효력·형상을 별도 검증할 것.",
   "sourceCandidates": [
     {
       "provider": "IBGE",
@@ -66,12 +66,19 @@
   "unresolved": [
     "1958년 양국 교환공문·후속 승인문에서 실제 법적 귀속·효력일 확인",
     "수아레스섬 대상 국가경계 벡터 피처·좌표·정확도·위상·재배포 권리 검증",
-    "2025 협의 및 측량이 실제 국경 변경이 아닌지 최종 판정"
+    "2025-10-23 발표는 영유권 미해결과 추후 연구 합의일 뿐 양국 귀속 확정이나 새 국경 조약이 아님; 과거 1958 원자료 효력 계속 미검증"
   ],
   "provenance": {
     "legacyReportId": "GEO-TIME-033",
     "legacyPath": "reports/borders/history/timeline/historical-timeline-2025-south-america-bolivia-brazil-border-commission-isla-suarez-vector-2026-11-17.md",
     "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-2025-south-america-bolivia-brazil-border-commission-isla-suarez-vector-2026-11-17.md",
     "snapshotBlobSha": "780fd1eb8d804b893d9b625391ac4370f239b875"
-  }
+  },
+  "evidenceDates": [
+    {
+      "date": "2025-10-23",
+      "kind": "foreign-ministry-notice-of-unresolved-territorial-issue",
+      "sourceId": "SRC-057"
+    }
+  ]
 }
