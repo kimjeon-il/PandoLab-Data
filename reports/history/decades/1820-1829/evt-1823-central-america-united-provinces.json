@@ -1,0 +1,51 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+  "type": "event",
+  "title": "중앙아메리카 연합주의 멕시코로부터 독립 선언",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1823,
+    "value": "1823-07-01",
+    "precision": "day",
+    "note": "1823-10-01 선언 재확인은 별도 건국이 아님; 1823-07-01 당시 각 지방 참여 및 전 지역에 대한 법적 효력 차이"
+  },
+  "entityKeys": [
+    "research:state:central-american-federation"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:central-american-federation",
+      "field": "lifetime.validFrom",
+      "summary": "1823-07-01 중앙아메리카 연합주의 절대독립 선언; 정치체 성립 기준은 잠정",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-145",
+    "SRC-146"
+  ],
+  "unresolved": [
+    "1823-10-01 선언 재확인은 별도 건국이 아님; 1823-07-01 당시 각 지방 참여 및 전 지역에 대한 법적 효력 차이"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1823-07-01",
+      "role": "declaration"
+    },
+    {
+      "date": "1823-10-01",
+      "role": "ratification-of-prior-declaration"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

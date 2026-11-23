@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-REPUBLIC-OF-TEXAS",
+  "type": "entity",
+  "title": "텍사스 공화국",
+  "subject": {
+    "key": "research:state:republic-of-texas",
+    "kind": "state",
+    "displayName": "텍사스 공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-24",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1836-03-02 공화국 독립 선언과 1845-12-29 미국 주 가입은 확인. 1846-02-19 정부 실제 이양 기록도 있어 단일 validTo 최종 승인 보류."
+  },
+  "eventIds": [
+    "EVT-1836-TEXAS-INDEPENDENCE",
+    "EVT-1836-TEXAS-BURNET-FLAG",
+    "EVT-1839-TEXAS-LONE-STAR-FLAG",
+    "EVT-1845-TEXAS-US-ADMISSION"
+  ],
+  "sourceIds": [
+    "SRC-136",
+    "SRC-137",
+    "SRC-138",
+    "SRC-139",
+    "SRC-140"
+  ],
+  "unresolved": [
+    "1836-03-02 독립 선언과 멕시코로부터의 실효 분리 시점 구분; 1836-04-21 San Jacinto 승리와 국가 성립일 단순 동일시 금지",
+    "1845-12-29 미국 연방 가입 법적 효력과 1846-02-19 공화국 정부·외교관계 종료 이양 중 validTo 기준 재검토",
+    "공화국의 광범위한 리오그란데 서부 주장과 멕시코 실효 지배 지역 분리; 1845 주 편입을 분쟁 영토 전체 승인으로 간주하지 않음",
+    "Pando work/gis 불가로 런타임 객체 ID·국기 이미지 ID 미확인"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24",
+    "note": "이번 신규 개별 JSON; 종전 국가별 Markdown 스냅샷 없음"
+  },
+  "region": "북아메리카",
+  "statehoodAssessment": "historic-republic-with-disputed-boundary"
+}

@@ -1071,6 +1071,123 @@
       "kind": "foreign-ministry-primary",
       "reviewStatus": "web-page-opened",
       "reviewedOn": "2026-11-23"
+    },
+    {
+      "id": "SRC-136",
+      "url": "https://www.tsl.texas.gov/declaration-independence.html",
+      "fromReport": "GEO-LIFE-043",
+      "section": "텍사스 1836-03-02 독립선언 원문·기록",
+      "kind": "state-archive-primary",
+      "reviewStatus": "web-page-searched",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-137",
+      "url": "https://history.state.gov/countries/texas",
+      "fromReport": "GEO-LIFE-043",
+      "section": "미 국무부 1836 독립·1845 병합·1846-02-19 정부 이양 구별",
+      "kind": "government-history",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-138",
+      "url": "https://www.tsl.texas.gov/ref/abouttx/annexation/timeline.html",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1845-12-29 텍사스 미국 주 가입·1846-02-19 정부 이양",
+      "kind": "state-archive-timeline",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-139",
+      "url": "https://house.texas.gov/index.php/about",
+      "fromReport": "GEO-LIFE-043",
+      "section": "텍사스 공화국 1836-12-10 Burnet 기·1839-01-25 Lone Star 기",
+      "kind": "state-legislature",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-140",
+      "url": "https://www.tsl.texas.gov/exhibits/texas175/flag.html",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1839-01-25 Peter Krag 국기 도안 비준 원사료",
+      "kind": "state-archive-primary",
+      "reviewStatus": "web-page-searched",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-141",
+      "url": "https://www.gob.mx/agn/articulos/la-accion-del-estado-de-yucatan-ante-la-republica-centralista",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1840-03-04 유카탄 분리 선언; 1841 선언과 구분",
+      "kind": "national-archive",
+      "reviewStatus": "search-snippet-only-direct-open-403",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-142",
+      "url": "https://memoriapoliticademexico.org/Textos/2ImpDictadura/1841-AI-PY.html",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1841-10-01 유카탄 독립선언문 전재",
+      "kind": "primary-text-republication",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-143",
+      "url": "https://internet.contenidos.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/historicos/2104/702825222581/702825222581_6.pdf",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1840 분리·1843 재편입 협약·1845 재분리·1848-08-17 재편입",
+      "kind": "government-historical-territory-report",
+      "reviewStatus": "web-pdf-text-opened-screenshot-502-no-original-download",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-144",
+      "url": "https://archivogeneral.yucatan.gob.mx/boletines/impreso-de-la-publicacion-oficial-del-decreto-de-la-reincorporacion-del-estado-de-yucatan-a-la-confederacion-mexicana-del-17-de-agosto-de1848",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1848-08-17 유카탄 멕시코 재편입 공포 기록",
+      "kind": "state-archive-primary-metadata",
+      "reviewStatus": "web-page-opened-original-image-not-inspected",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-145",
+      "url": "https://www.memoriapoliticademexico.org/Textos/2ImpDictadura/1823DIA.html",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1823-07-01 중앙아메리카 절대독립 선언문 재수록",
+      "kind": "primary-text-republication",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-146",
+      "url": "https://www.leybook.com/doc/19027",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1823-10-01 독립선언 재확인 법령(선언일 07-01과 구분)",
+      "kind": "historic-law-text",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-147",
+      "url": "https://pgrweb.go.cr/DOCS/NORMAS/1/VIGENTE/C/1820-1829/1820-1824/1824/E8EC/A8084.HTML",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1824-11-22 중앙아메리카 연방공화국 정식 명칭과 5개 연방주",
+      "kind": "official-legislation",
+      "reviewStatus": "web-page-opened",
+      "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-148",
+      "url": "https://sajurin.enriquebolanos.org/docs/1824%20Constitucion%20Federal%20de%20Centroamerica.pdf",
+      "fromReport": "GEO-LIFE-043",
+      "section": "1824 연방헌법 조항 1·5·6의 정치체 명칭·구성주 교차 검토",
+      "kind": "historic-law-facsimile",
+      "reviewStatus": "search-excerpt-only-pdf-not-downloaded",
+      "reviewedOn": "2026-11-24"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1836-TEXAS-BURNET-FLAG",
+  "type": "event",
+  "title": "텍사스 공화국 최초 공식 Burnet 국기 채택",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1836,
+    "value": "1836-12-10",
+    "precision": "day",
+    "note": "1836년 혁명기 비공식 기들과 법정 채택 국기 구분; 실제 국기 파일·ID 매핑 미확인"
+  },
+  "entityKeys": [
+    "research:state:republic-of-texas"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-texas",
+      "field": "flag",
+      "summary": "1836-12-10 텍사스 공화국 의회가 중앙 금색 별이 있는 청색 바탕 국기를 채택",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-139"
+  ],
+  "unresolved": [
+    "1836년 혁명기 비공식 기들과 법정 채택 국기 구분; 실제 국기 파일·ID 매핑 미확인"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1836-12-10",
+      "role": "flag-legislation"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

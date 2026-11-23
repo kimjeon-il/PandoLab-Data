@@ -1,0 +1,54 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-CENTRAL-AMERICAN-FEDERATION",
+  "type": "entity",
+  "title": "중앙아메리카 연방(중앙아메리카 연합주·연방공화국)",
+  "subject": {
+    "key": "research:state:central-american-federation",
+    "kind": "state",
+    "displayName": "중앙아메리카 연방(중앙아메리카 연합주·연방공화국)",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-24",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1823-07-01 독립 선언, 1824-11-22 연방 공화국 공식 명칭 확인. 1838~1841 해체 과정의 법적 종료 시점 불확정으로 validFrom/validTo 승인 보류."
+  },
+  "eventIds": [
+    "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+    "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+  ],
+  "sourceIds": [
+    "SRC-145",
+    "SRC-146",
+    "SRC-147",
+    "SRC-148"
+  ],
+  "unresolved": [
+    "1823-07-01 독립선언 당시 일부 주 대표 부재, 1823-10-01 재확인 및 1824-11-22 연방헌법으로 지위 명시",
+    "1824 헌법 제6조의 코스타리카·니카라과·온두라스·엘살바도르·과테말라 연방 구성관계의 개별 시작일",
+    "1838~1841 각국 연방 이탈·국가승계 및 최종 연방 소멸 효력일은 별도 2차 원법령 검증 필요",
+    "연합주→연방공화국 국명 변경과 1824 헌법 제정 자체를 새로운 별개 국가 건국으로 중복 취급 금지",
+    "Pando 실제 객체·국기 원도면·영토 경계 형상 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24",
+    "note": "이번 신규 개별 JSON; 종전 국가별 Markdown 스냅샷 없음"
+  },
+  "region": "북아메리카",
+  "statehoodAssessment": "historic-federal-state-continuity-under-name-change"
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1848-YUCATAN-MEXICO-REINCORPORATION",
+  "type": "event",
+  "title": "유카탄의 멕시코 연방 재편입",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1848,
+    "value": "1848-08-17",
+    "precision": "day",
+    "note": "법령 공포일과 법적 효력일의 일치 여부 원문으로 추가 검증; 1843·1845 선행 재편입/재분리 구간이 확정되지 않아 복수 존속구간 표현 보류"
+  },
+  "entityKeys": [
+    "research:state:republic-of-yucatan",
+    "state:MEX"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-yucatan",
+      "field": "relationship.parent",
+      "summary": "1848-08-17 재편입 법령에 따라 유카탄이 멕시코 국가 상위관계로 복귀",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:republic-of-yucatan",
+      "field": "lifetime.validTo",
+      "summary": "1848-08-17 재편입 법령. 1840~1848 기간 중 복수 분리·재편입을 하나의 lifetime 종료로 단순화하지 않음",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-143",
+    "SRC-144"
+  ],
+  "unresolved": [
+    "법령 공포일과 법적 효력일의 일치 여부 원문으로 추가 검증",
+    "1843·1845 선행 재편입/재분리 구간이 확정되지 않아 복수 존속구간 표현 보류"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1848-08-17",
+      "role": "reincorporation-decree"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

@@ -86,6 +86,22 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-CENTRAL-AMERICAN-FEDERATION",
+      "type": "entity",
+      "path": "reports/history/countries/central-american-federation.json",
+      "title": "중앙아메리카 연방(중앙아메리카 연합주·연방공화국)",
+      "entityKeys": [
+        "research:state:central-american-federation"
+      ],
+      "eventIds": [
+        "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+        "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-COOK-ISLANDS",
       "type": "entity",
       "path": "reports/history/countries/cook-islands.json",
@@ -326,6 +342,40 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-REPUBLIC-OF-TEXAS",
+      "type": "entity",
+      "path": "reports/history/countries/republic-of-texas.json",
+      "title": "텍사스 공화국",
+      "entityKeys": [
+        "research:state:republic-of-texas"
+      ],
+      "eventIds": [
+        "EVT-1836-TEXAS-INDEPENDENCE",
+        "EVT-1836-TEXAS-BURNET-FLAG",
+        "EVT-1839-TEXAS-LONE-STAR-FLAG",
+        "EVT-1845-TEXAS-US-ADMISSION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-REPUBLIC-OF-YUCATAN",
+      "type": "entity",
+      "path": "reports/history/countries/republic-of-yucatan.json",
+      "title": "유카탄 공화국",
+      "entityKeys": [
+        "research:state:republic-of-yucatan"
+      ],
+      "eventIds": [
+        "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+        "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-RIOGRANDENSE",
       "type": "entity",
       "path": "reports/history/countries/riograndense.json",
@@ -557,6 +607,32 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+      "type": "event",
+      "path": "reports/history/decades/1820-1829/evt-1823-central-america-united-provinces.json",
+      "title": "중앙아메리카 연합주의 멕시코로부터 독립 선언",
+      "entityKeys": [
+        "research:state:central-american-federation"
+      ],
+      "eventIds": [],
+      "year": 1823,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC",
+      "type": "event",
+      "path": "reports/history/decades/1820-1829/evt-1824-central-america-federal-republic.json",
+      "title": "중앙아메리카 연방공화국의 정식 명칭과 연방 구성",
+      "entityKeys": [
+        "research:state:central-american-federation"
+      ],
+      "eventIds": [],
+      "year": 1824,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1836-RIOGRANDENSE-PROCLAMATION",
       "type": "event",
       "path": "reports/history/decades/1830-1839/evt-1836-riograndense-proclamation.json",
@@ -567,6 +643,32 @@
       "eventIds": [],
       "year": 1836,
       "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1836-TEXAS-BURNET-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1836-texas-burnet-flag.json",
+      "title": "텍사스 공화국 최초 공식 Burnet 국기 채택",
+      "entityKeys": [
+        "research:state:republic-of-texas"
+      ],
+      "eventIds": [],
+      "year": 1836,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1836-TEXAS-INDEPENDENCE",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1836-texas-independence.json",
+      "title": "텍사스의 멕시코로부터 독립 선언",
+      "entityKeys": [
+        "research:state:republic-of-texas"
+      ],
+      "eventIds": [],
+      "year": 1836,
+      "research": "provisional",
       "application": "not-applied"
     },
     {
@@ -596,6 +698,32 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1839-TEXAS-LONE-STAR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1830-1839/evt-1839-texas-lone-star-flag.json",
+      "title": "텍사스 공화국 Lone Star 국기 채택",
+      "entityKeys": [
+        "research:state:republic-of-texas"
+      ],
+      "eventIds": [],
+      "year": 1839,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+      "type": "event",
+      "path": "reports/history/decades/1840-1849/evt-1841-yucatan-independence-act.json",
+      "title": "유카탄 공화국 독립선언문 채택",
+      "entityKeys": [
+        "research:state:republic-of-yucatan"
+      ],
+      "eventIds": [],
+      "year": 1841,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1845-RIOGRANDENSE-PEACE",
       "type": "event",
       "path": "reports/history/decades/1840-1849/evt-1845-riograndense-peace.json",
@@ -605,6 +733,34 @@
       ],
       "eventIds": [],
       "year": 1845,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1845-TEXAS-US-ADMISSION",
+      "type": "event",
+      "path": "reports/history/decades/1840-1849/evt-1845-texas-us-admission.json",
+      "title": "텍사스 공화국 미국 연방 가입",
+      "entityKeys": [
+        "research:state:republic-of-texas",
+        "state:USA"
+      ],
+      "eventIds": [],
+      "year": 1845,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1848-YUCATAN-MEXICO-REINCORPORATION",
+      "type": "event",
+      "path": "reports/history/decades/1840-1849/evt-1848-yucatan-mexico-reincorporation.json",
+      "title": "유카탄의 멕시코 연방 재편입",
+      "entityKeys": [
+        "research:state:republic-of-yucatan",
+        "state:MEX"
+      ],
+      "eventIds": [],
+      "year": 1848,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -1241,6 +1397,7 @@
       "ENT-BAHAMAS",
       "ENT-BARBADOS",
       "ENT-BRUNEI",
+      "ENT-CENTRAL-AMERICAN-FEDERATION",
       "ENT-COOK-ISLANDS",
       "ENT-ESWATINI",
       "ENT-FREE-CITY-DANZIG",
@@ -1256,6 +1413,8 @@
       "ENT-MALAYSIA",
       "ENT-NASSAU",
       "ENT-NIUE",
+      "ENT-REPUBLIC-OF-TEXAS",
+      "ENT-REPUBLIC-OF-YUCATAN",
       "ENT-RIOGRANDENSE",
       "ENT-RYUKYU",
       "ENT-SAMOA",
@@ -1273,10 +1432,18 @@
       "EVT-1806-RHINE-CONFEDERATION",
       "EVT-1806-SAXONY-ROYAL-STATUS",
       "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+      "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC",
       "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1836-TEXAS-BURNET-FLAG",
+      "EVT-1836-TEXAS-INDEPENDENCE",
       "EVT-1839-JULIANA-END",
       "EVT-1839-JULIANA-PROCLAMATION",
+      "EVT-1839-TEXAS-LONE-STAR-FLAG",
+      "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
       "EVT-1845-RIOGRANDENSE-PEACE",
+      "EVT-1845-TEXAS-US-ADMISSION",
+      "EVT-1848-YUCATAN-MEXICO-REINCORPORATION",
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
       "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
@@ -1352,6 +1519,11 @@
       "ENT-BRUNEI",
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+    ],
+    "research:state:central-american-federation": [
+      "ENT-CENTRAL-AMERICAN-FEDERATION",
+      "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+      "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
     ],
     "state:COK": [
       "ENT-COOK-ISLANDS",
@@ -1429,6 +1601,18 @@
       "ENT-NIUE",
       "EVT-1974-NIUE-SELF-GOVERNMENT"
     ],
+    "research:state:republic-of-texas": [
+      "ENT-REPUBLIC-OF-TEXAS",
+      "EVT-1836-TEXAS-BURNET-FLAG",
+      "EVT-1836-TEXAS-INDEPENDENCE",
+      "EVT-1839-TEXAS-LONE-STAR-FLAG",
+      "EVT-1845-TEXAS-US-ADMISSION"
+    ],
+    "research:state:republic-of-yucatan": [
+      "ENT-REPUBLIC-OF-YUCATAN",
+      "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+      "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+    ],
     "research:state:riograndense-republic": [
       "ENT-RIOGRANDENSE",
       "EVT-1836-RIOGRANDENSE-PROCLAMATION",
@@ -1488,6 +1672,12 @@
       "EVT-1963-ZANZIBAR-KENYA-COASTAL-STRIP",
       "EVT-1964-TANGANYIKA-ZANZIBAR-UNION"
     ],
+    "state:USA": [
+      "EVT-1845-TEXAS-US-ADMISSION"
+    ],
+    "state:MEX": [
+      "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+    ],
     "state:BOL": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "GEO-ISLA-SUAREZ"
@@ -1506,15 +1696,31 @@
     "1815": [
       "EVT-1815-SAXONY-PRUSSIAN-CESSION"
     ],
+    "1823": [
+      "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES"
+    ],
+    "1824": [
+      "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+    ],
     "1836": [
-      "EVT-1836-RIOGRANDENSE-PROCLAMATION"
+      "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1836-TEXAS-BURNET-FLAG",
+      "EVT-1836-TEXAS-INDEPENDENCE"
     ],
     "1839": [
       "EVT-1839-JULIANA-END",
-      "EVT-1839-JULIANA-PROCLAMATION"
+      "EVT-1839-JULIANA-PROCLAMATION",
+      "EVT-1839-TEXAS-LONE-STAR-FLAG"
+    ],
+    "1841": [
+      "EVT-1841-YUCATAN-INDEPENDENCE-ACT"
     ],
     "1845": [
-      "EVT-1845-RIOGRANDENSE-PEACE"
+      "EVT-1845-RIOGRANDENSE-PEACE",
+      "EVT-1845-TEXAS-US-ADMISSION"
+    ],
+    "1848": [
+      "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
     ],
     "1866": [
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
@@ -1641,13 +1847,23 @@
     "1810-1819": [
       "EVT-1815-SAXONY-PRUSSIAN-CESSION"
     ],
+    "1820-1829": [
+      "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+      "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+    ],
     "1830-1839": [
       "EVT-1836-RIOGRANDENSE-PROCLAMATION",
+      "EVT-1836-TEXAS-BURNET-FLAG",
+      "EVT-1836-TEXAS-INDEPENDENCE",
       "EVT-1839-JULIANA-END",
-      "EVT-1839-JULIANA-PROCLAMATION"
+      "EVT-1839-JULIANA-PROCLAMATION",
+      "EVT-1839-TEXAS-LONE-STAR-FLAG"
     ],
     "1840-1849": [
-      "EVT-1845-RIOGRANDENSE-PEACE"
+      "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+      "EVT-1845-RIOGRANDENSE-PEACE",
+      "EVT-1845-TEXAS-US-ADMISSION",
+      "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
     ],
     "1860-1869": [
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
@@ -1771,6 +1987,19 @@
         ]
       }
     },
+    "research:state:central-american-federation": {
+      "recordIds": [
+        "ENT-CENTRAL-AMERICAN-FEDERATION",
+        "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+        "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+      ],
+      "byDecade": {
+        "1820-1829": [
+          "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
+          "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC"
+        ]
+      }
+    },
     "research:state:free-city-danzig": {
       "recordIds": [
         "ENT-FREE-CITY-DANZIG",
@@ -1845,6 +2074,38 @@
         ],
         "1860-1869": [
           "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+        ]
+      }
+    },
+    "research:state:republic-of-texas": {
+      "recordIds": [
+        "ENT-REPUBLIC-OF-TEXAS",
+        "EVT-1836-TEXAS-BURNET-FLAG",
+        "EVT-1836-TEXAS-INDEPENDENCE",
+        "EVT-1839-TEXAS-LONE-STAR-FLAG",
+        "EVT-1845-TEXAS-US-ADMISSION"
+      ],
+      "byDecade": {
+        "1830-1839": [
+          "EVT-1836-TEXAS-BURNET-FLAG",
+          "EVT-1836-TEXAS-INDEPENDENCE",
+          "EVT-1839-TEXAS-LONE-STAR-FLAG"
+        ],
+        "1840-1849": [
+          "EVT-1845-TEXAS-US-ADMISSION"
+        ]
+      }
+    },
+    "research:state:republic-of-yucatan": {
+      "recordIds": [
+        "ENT-REPUBLIC-OF-YUCATAN",
+        "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+        "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+      ],
+      "byDecade": {
+        "1840-1849": [
+          "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+          "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
         ]
       }
     },
@@ -2060,6 +2321,16 @@
         ]
       }
     },
+    "state:MEX": {
+      "recordIds": [
+        "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+      ],
+      "byDecade": {
+        "1840-1849": [
+          "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+        ]
+      }
+    },
     "state:MWI": {
       "recordIds": [
         "ENT-MALAWI",
@@ -2162,6 +2433,16 @@
         "1960-1969": [
           "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
           "EVT-1964-TANZANIA-FORMAL-NAME"
+        ]
+      }
+    },
+    "state:USA": {
+      "recordIds": [
+        "EVT-1845-TEXAS-US-ADMISSION"
+      ],
+      "byDecade": {
+        "1840-1849": [
+          "EVT-1845-TEXAS-US-ADMISSION"
         ]
       }
     },

@@ -1,0 +1,47 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1839-TEXAS-LONE-STAR-FLAG",
+  "type": "event",
+  "title": "텍사스 공화국 Lone Star 국기 채택",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1839,
+    "value": "1839-01-25",
+    "precision": "day",
+    "note": "법안 의회 통과일과 대통령 승인일 구분; 원안의 디자인 비준·게양 관행, 국기 이미지 ID 미검증"
+  },
+  "entityKeys": [
+    "research:state:republic-of-texas"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-texas",
+      "field": "flag",
+      "summary": "1839-01-25 파랑 세로 띠·흰 별·흰색/빨강 가로 띠 구성의 Lone Star 기를 법정 국기로 승인",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-139",
+    "SRC-140"
+  ],
+  "unresolved": [
+    "법안 의회 통과일과 대통령 승인일 구분; 원안의 디자인 비준·게양 관행, 국기 이미지 ID 미검증"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1839-01-25",
+      "role": "presidential-assent-flag"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

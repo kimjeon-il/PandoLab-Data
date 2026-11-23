@@ -1,0 +1,54 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-REPUBLIC-OF-YUCATAN",
+  "type": "entity",
+  "title": "유카탄 공화국",
+  "subject": {
+    "key": "research:state:republic-of-yucatan",
+    "kind": "state",
+    "displayName": "유카탄 공화국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-24",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-final",
+    "validFrom": null,
+    "validTo": null,
+    "note": "유카탄의 분리·재편입은 단일 연속 존속기간으로 간소화 불가. 1840/1841, 1843/1845, 1848 시기별 지위 검증 전 validFrom/validTo 미확정."
+  },
+  "eventIds": [
+    "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+    "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
+  ],
+  "sourceIds": [
+    "SRC-141",
+    "SRC-142",
+    "SRC-143",
+    "SRC-144"
+  ],
+  "unresolved": [
+    "1840-03-04 조기 분리 선언과 1841-10-01 공화국 독립선언의 법적 동일성·실질 효력 구별",
+    "1841/1843 재편입 협상·1843-12-14 조약과 1845 재분리, 1846~1848 귀속 변경 단계의 실제 효력일과 연속/복수 존속기간 구별",
+    "1848-08-17 재편입 법령의 공포와 현실 행정 통합·국제효력일 대조",
+    "유카탄반도 중 캄페체·킨타나로오의 당시 정치적 점유·도서 및 마야 자치 지역 형상 미검증",
+    "Pando 객체·국기·당시 공식 법적 성격 미확정"
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24",
+    "note": "이번 신규 개별 JSON; 종전 국가별 Markdown 스냅샷 없음"
+  },
+  "region": "북아메리카",
+  "statehoodAssessment": "contested-historic-republic-separation-periods"
+}

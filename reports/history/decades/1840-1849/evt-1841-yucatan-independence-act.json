@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1841-YUCATAN-INDEPENDENCE-ACT",
+  "type": "event",
+  "title": "유카탄 공화국 독립선언문 채택",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1841,
+    "value": "1841-10-01",
+    "precision": "day",
+    "note": "1840-03-04 선행 '독립' 고시와 1841-10-01 선언의 관계, 해당 법령 효력일·지위와 1843 재편입 협약 구별"
+  },
+  "entityKeys": [
+    "research:state:republic-of-yucatan"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-yucatan",
+      "field": "lifetime.validFrom",
+      "summary": "1841-10-01 유카탄 반도 공화국 독립 선언. 1840년 선행 분리 선언과의 국가 동일성 미검증",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-142",
+    "SRC-141",
+    "SRC-143"
+  ],
+  "unresolved": [
+    "1840-03-04 선행 '독립' 고시와 1841-10-01 선언의 관계, 해당 법령 효력일·지위와 1843 재편입 협약 구별"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1840-03-04",
+      "role": "earlier-separation-decree"
+    },
+    {
+      "date": "1841-10-01",
+      "role": "republic-independence-act"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

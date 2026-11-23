@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1836-TEXAS-INDEPENDENCE",
+  "type": "event",
+  "title": "텍사스의 멕시코로부터 독립 선언",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1836,
+    "value": "1836-03-02",
+    "precision": "day",
+    "note": "1836-04-21 실효 군사 승리 및 1837 미 승인 날짜는 독립 선언 날짜가 아님; 분쟁 영토는 지도 형상에 자동 편입 불가"
+  },
+  "entityKeys": [
+    "research:state:republic-of-texas"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-texas",
+      "field": "lifetime.validFrom",
+      "summary": "1836-03-02 멕시코로부터 독립 선언; 대외 주권·실효 지배 안정화는 별도 평가",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-136",
+    "SRC-137",
+    "SRC-138"
+  ],
+  "unresolved": [
+    "1836-04-21 실효 군사 승리 및 1837 미 승인 날짜는 독립 선언 날짜가 아님; 분쟁 영토는 지도 형상에 자동 편입 불가"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1836-03-02",
+      "role": "declaration"
+    },
+    {
+      "date": "1836-04-21",
+      "role": "de-facto-control-milestone-not-creation"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

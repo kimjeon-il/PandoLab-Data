@@ -1,0 +1,63 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1845-TEXAS-US-ADMISSION",
+  "type": "event",
+  "title": "텍사스 공화국 미국 연방 가입",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1845,
+    "value": "1845-12-29",
+    "precision": "day",
+    "note": "주 편입 법적 날짜와 주권의 상징적·행정적 실제 이양 1846-02-19 간 단일 lifetime 종료일 정본 판정 보류; 1845 당시 미–멕 국경의 실효 지배와 영토 주장 경계 분리"
+  },
+  "entityKeys": [
+    "research:state:republic-of-texas",
+    "state:USA"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:republic-of-texas",
+      "field": "lifetime.validTo",
+      "summary": "1845-12-29 미국 28번째 주로 편입(주 승격 법적 날짜), 1846-02-19 공화국 정부 이양과 구분",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:republic-of-texas",
+      "field": "territory.assignment",
+      "summary": "텍사스가 미국 주로 편입. 멕시코와 분쟁이던 리오그란데·뉴멕시코 등 광역 청구권까지 자동 확정하지 않음",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-137",
+    "SRC-138"
+  ],
+  "unresolved": [
+    "주 편입 법적 날짜와 주권의 상징적·행정적 실제 이양 1846-02-19 간 단일 lifetime 종료일 정본 판정 보류",
+    "1845 당시 미–멕 국경의 실효 지배와 영토 주장 경계 분리"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1845-03-01",
+      "role": "us-annexation-offer-signed"
+    },
+    {
+      "date": "1845-12-29",
+      "role": "us-state-admission"
+    },
+    {
+      "date": "1846-02-19",
+      "role": "formal-transfer-of-government"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}

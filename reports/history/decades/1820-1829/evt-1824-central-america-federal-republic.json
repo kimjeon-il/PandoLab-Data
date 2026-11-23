@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC",
+  "type": "event",
+  "title": "중앙아메리카 연방공화국의 정식 명칭과 연방 구성",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1824,
+    "value": "1824-11-22",
+    "precision": "day",
+    "note": "1824 헌법 채택이 별개의 신국가 성립·종전 국가 소멸을 의미하지 않음; 1835 헌법 개정과 혼동 금지"
+  },
+  "entityKeys": [
+    "research:state:central-american-federation"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:central-american-federation",
+      "field": "name.formal",
+      "summary": "헌법 원문에 República Federal de Centro América 표기; 종전 Provincias Unidas에서 연방공화국 명칭으로 법률상 정비",
+      "assessment": "source-reviewed"
+    },
+    {
+      "entityKey": "research:state:central-american-federation",
+      "field": "relationship.childType",
+      "summary": "연방 5개 구성주: 코스타리카·니카라과·온두라스·엘살바도르·과테말라 (개별 효력일은 별도 검토)",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-147",
+    "SRC-148"
+  ],
+  "unresolved": [
+    "1824 헌법 채택이 별개의 신국가 성립·종전 국가 소멸을 의미하지 않음; 1835 헌법 개정과 혼동 금지"
+  ],
+  "evidenceDates": [
+    {
+      "date": "1824-11-22",
+      "role": "constitution-decreed"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-043",
+    "createdOn": "2026-11-24"
+  }
+}
