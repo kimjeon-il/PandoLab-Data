@@ -1,0 +1,70 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SURINAME",
+  "type": "entity",
+  "title": "수리남",
+  "subject": {
+    "key": "state:SUR",
+    "kind": "state",
+    "displayName": "수리남",
+    "runtimeEntityId": "state:SUR"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "남아메리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-25",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-dates-not-final-approval",
+    "validFrom": "1975-11-25",
+    "validTo": null,
+    "note": "1975-11-25 독립·왕국 관계 종료 확인, 기존 원본과 일치. 1954 이전 식민지 및 1954~1975 왕국 구성국의 역사 구간은 동일성·객체 분리 검토 전 최종 승인하지 않음."
+  },
+  "eventIds": [
+    "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+    "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+    "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+  ],
+  "sourceIds": [
+    "SRC-164",
+    "SRC-165",
+    "SRC-166",
+    "SRC-167",
+    "SRC-168",
+    "SRC-169",
+    "SRC-170",
+    "SRC-171",
+    "SRC-172"
+  ],
+  "unresolved": [
+    "1954 이전 식민지와 왕국 구성국의 동일성·별도 속령 객체 또는 동일 lineage 기간 확장 여부, 네덜란드 왕국 parent 매핑 확정 필요. 현재 state:SUR의 1975 독립 시작일은 유지 후보.",
+    "1959 국기령 원문·도안 비율 및 1975 국기법 원문·정확한 법정 채택/효력일은 미확보. 1975-11-25 실제 게양일과 구별.",
+    "현재 main의 공개 library.json 및 객체 원본 확인; work/gis 및 실제 배포 핀·전체 속성 이력 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "7c9fbad71522a96ba7abc002791a47bb98e23829",
+    "objectPath": "objects/32928cd393379947b97b5b74ff114f6cdc9fb9b6be136be277cea7623aaf6e94.json",
+    "lifetime": {
+      "validFrom": "1975-11-25",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "수리남"
+    },
+    "note": "공개 main 원본 열람, 정본 변경 없음. 이전 시대 별도 속령이나 이름 이력의 승인 아님."
+  }
+}

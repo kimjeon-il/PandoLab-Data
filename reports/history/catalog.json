@@ -180,6 +180,21 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-GUYANA",
+      "type": "entity",
+      "path": "reports/history/countries/guyana.json",
+      "title": "가이아나",
+      "entityKeys": [
+        "state:GUY"
+      ],
+      "eventIds": [
+        "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+      ],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-JULIANA",
       "type": "entity",
       "path": "reports/history/countries/juliana.json",
@@ -455,6 +470,23 @@
       ],
       "year": null,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SURINAME",
+      "type": "entity",
+      "path": "reports/history/countries/suriname.json",
+      "title": "수리남",
+      "entityKeys": [
+        "state:SUR"
+      ],
+      "eventIds": [
+        "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+        "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+        "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+      ],
+      "year": null,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -1041,6 +1073,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1954-suriname-kingdom-autonomy.json",
+      "title": "수리남의 네덜란드 왕국 자치 구성국 지위 발효",
+      "entityKeys": [
+        "state:SUR",
+        "state:NLD"
+      ],
+      "eventIds": [],
+      "year": 1954,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1957-MALAYA-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1950-1959/evt-1957-malaya-independence.json",
@@ -1050,6 +1096,19 @@
       ],
       "eventIds": [],
       "year": 1957,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1959-suriname-autonomous-flag.json",
+      "title": "수리남 자치 구성국의 오성 타원 국기 도입",
+      "entityKeys": [
+        "state:SUR"
+      ],
+      "eventIds": [],
+      "year": 1959,
       "research": "source-reviewed",
       "application": "not-applied"
     },
@@ -1254,6 +1313,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1970-guyana-republic-formal-name.json",
+      "title": "가이아나의 공화국 정식명칭 전환 후보",
+      "entityKeys": [
+        "state:GUY"
+      ],
+      "eventIds": [],
+      "year": 1970,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1973-BAHAMAS-INDEPENDENCE",
       "type": "event",
       "path": "reports/history/decades/1970-1979/evt-1973-bahamas-independence.json",
@@ -1290,6 +1362,20 @@
       "eventIds": [],
       "year": 1975,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1975-SURINAME-KINGDOM-RELATION-END",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1975-suriname-kingdom-relation-end.json",
+      "title": "수리남 왕국관계 종료와 독립 공화국 국명·국기 전환",
+      "entityKeys": [
+        "state:SUR",
+        "state:NLD"
+      ],
+      "eventIds": [],
+      "year": 1975,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -1416,6 +1502,7 @@
       "ENT-FREE-CITY-DANZIG",
       "ENT-FREE-STATE-FIUME",
       "ENT-FREE-TERRITORY-TRIESTE",
+      "ENT-GUYANA",
       "ENT-JULIANA",
       "ENT-KENYA",
       "ENT-KGZ",
@@ -1433,6 +1520,7 @@
       "ENT-SAMOA",
       "ENT-SAXONY",
       "ENT-SINGAPORE",
+      "ENT-SURINAME",
       "ENT-TANGANYIKA",
       "ENT-TANZANIA",
       "ENT-TJK",
@@ -1478,7 +1566,9 @@
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
       "EVT-1949-LAOS-FRENCH-UNION",
       "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
       "EVT-1957-MALAYA-INDEPENDENCE",
+      "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
       "EVT-1961-TANGANYIKA-INDEPENDENCE",
       "EVT-1962-TRINIDAD-INDEPENDENCE",
       "EVT-1962-WESTERN-SAMOA-INDEPENDENCE",
@@ -1494,9 +1584,11 @@
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
       "EVT-1968-ESWATINI-INDEPENDENCE",
+      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
       "EVT-1975-LAOS-OFFICIAL-NAME",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END",
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
       "EVT-1997-SAMOA-NAME-CHANGE",
       "EVT-2018-ESWATINI-RENAMING",
@@ -1561,6 +1653,10 @@
     "research:dependency:free-territory-trieste": [
       "ENT-FREE-TERRITORY-TRIESTE",
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
+    ],
+    "state:GUY": [
+      "ENT-GUYANA",
+      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
     ],
     "research:state:juliana-republic": [
       "ENT-JULIANA",
@@ -1654,6 +1750,12 @@
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1965-SINGAPORE-SEPARATION"
     ],
+    "state:SUR": [
+      "ENT-SURINAME",
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+      "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+    ],
     "research:state:tanganyika": [
       "ENT-TANGANYIKA",
       "EVT-1961-TANGANYIKA-INDEPENDENCE",
@@ -1699,6 +1801,10 @@
     "state:BRA": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "GEO-ISLA-SUAREZ"
+    ],
+    "state:NLD": [
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
     ],
     "state:DNK": [
       "GEO-DNK-SCHLESWIG-KONGEAA-1836"
@@ -1800,8 +1906,14 @@
     "1953": [
       "EVT-1953-LAOS-SOVEREIGNTY"
     ],
+    "1954": [
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY"
+    ],
     "1957": [
       "EVT-1957-MALAYA-INDEPENDENCE"
+    ],
+    "1959": [
+      "EVT-1959-SURINAME-AUTONOMOUS-FLAG"
     ],
     "1961": [
       "EVT-1961-TANGANYIKA-INDEPENDENCE"
@@ -1832,6 +1944,9 @@
     "1968": [
       "EVT-1968-ESWATINI-INDEPENDENCE"
     ],
+    "1970": [
+      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+    ],
     "1973": [
       "EVT-1973-BAHAMAS-INDEPENDENCE"
     ],
@@ -1839,7 +1954,8 @@
       "EVT-1974-NIUE-SELF-GOVERNMENT"
     ],
     "1975": [
-      "EVT-1975-LAOS-OFFICIAL-NAME"
+      "EVT-1975-LAOS-OFFICIAL-NAME",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
     ],
     "1984": [
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
@@ -1922,7 +2038,9 @@
     ],
     "1950-1959": [
       "EVT-1953-LAOS-SOVEREIGNTY",
-      "EVT-1957-MALAYA-INDEPENDENCE"
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+      "EVT-1957-MALAYA-INDEPENDENCE",
+      "EVT-1959-SURINAME-AUTONOMOUS-FLAG"
     ],
     "1960-1969": [
       "EVT-1961-TANGANYIKA-INDEPENDENCE",
@@ -1942,9 +2060,11 @@
       "EVT-1968-ESWATINI-INDEPENDENCE"
     ],
     "1970-1979": [
+      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
-      "EVT-1975-LAOS-OFFICIAL-NAME"
+      "EVT-1975-LAOS-OFFICIAL-NAME",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
     ],
     "1980-1989": [
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
@@ -2285,6 +2405,17 @@
       ],
       "byDecade": {}
     },
+    "state:GUY": {
+      "recordIds": [
+        "ENT-GUYANA",
+        "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+      ],
+      "byDecade": {
+        "1970-1979": [
+          "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+        ]
+      }
+    },
     "state:KEN": {
       "recordIds": [
         "ENT-KENYA",
@@ -2393,6 +2524,20 @@
         ]
       }
     },
+    "state:NLD": {
+      "recordIds": [
+        "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+        "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+      ],
+      "byDecade": {
+        "1950-1959": [
+          "EVT-1954-SURINAME-KINGDOM-AUTONOMY"
+        ],
+        "1970-1979": [
+          "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+        ]
+      }
+    },
     "state:SGP": {
       "recordIds": [
         "ENT-SINGAPORE",
@@ -2403,6 +2548,23 @@
         "1960-1969": [
           "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
           "EVT-1965-SINGAPORE-SEPARATION"
+        ]
+      }
+    },
+    "state:SUR": {
+      "recordIds": [
+        "ENT-SURINAME",
+        "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+        "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+        "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+      ],
+      "byDecade": {
+        "1950-1959": [
+          "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+          "EVT-1959-SURINAME-AUTONOMOUS-FLAG"
+        ],
+        "1970-1979": [
+          "EVT-1975-SURINAME-KINGDOM-RELATION-END"
         ]
       }
     },

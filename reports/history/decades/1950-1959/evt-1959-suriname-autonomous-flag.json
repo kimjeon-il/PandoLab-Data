@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
+  "type": "event",
+  "title": "수리남 자치 구성국의 오성 타원 국기 도입",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1959,
+    "value": "1959-12-15",
+    "precision": "day",
+    "note": "정부 교육자료 및 법령 번역 교차; 원본 국기령은 미열람."
+  },
+  "entityKeys": [
+    "state:SUR"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:SUR",
+      "field": "flag",
+      "summary": "흰 바탕, 검은 타원으로 연결된 검정·갈색·노랑·빨강·흰색 별 5개; 법령 일자와 실제 도입일을 분리.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-167",
+    "SRC-168"
+  ],
+  "unresolved": [
+    "1954 이전 식민지와 왕국 구성국의 동일성·별도 속령 객체 또는 동일 lineage 기간 확장 여부, 네덜란드 왕국 parent 매핑 확정 필요. 현재 state:SUR의 1975 독립 시작일은 유지 후보.",
+    "1959 국기령 원문·도안 비율 및 1975 국기법 원문·정확한 법정 채택/효력일은 미확보. 1975-11-25 실제 게양일과 구별."
+  ],
+  "evidenceDates": [
+    {
+      "date": "1959-12-08",
+      "role": "ordinance-date"
+    },
+    {
+      "date": "1959-12-15",
+      "role": "reported-effective-and-introduction-date"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  }
+}

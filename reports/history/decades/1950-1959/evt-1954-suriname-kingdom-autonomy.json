@@ -1,0 +1,61 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+  "type": "event",
+  "title": "수리남의 네덜란드 왕국 자치 구성국 지위 발효",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1954,
+    "value": "1954-12-29",
+    "precision": "day",
+    "note": "현행 state:SUR 시작일(1975) 이전 상태로, 별도 속령 또는 동일 객체의 역사 구간 결정 전 적용하지 않음."
+  },
+  "entityKeys": [
+    "state:SUR",
+    "state:NLD"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:SUR",
+      "field": "relationship.childType",
+      "summary": "식민지 관계에서 네덜란드 왕국의 자치 구성국(land)으로 전환; 공통 외교·국방 유지, 완전 독립 아님.",
+      "assessment": "source-reviewed",
+      "proposedValue": "자치 구성국"
+    },
+    {
+      "entityKey": "state:SUR",
+      "field": "relationship.parent",
+      "summary": "네덜란드 왕국 소속 유지; state:NLD는 관련국 키이며 왕국 객체와의 정확한 매핑 보류.",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-164",
+    "SRC-165",
+    "SRC-166"
+  ],
+  "unresolved": [
+    "1954 이전 식민지와 왕국 구성국의 동일성·별도 속령 객체 또는 동일 lineage 기간 확장 여부, 네덜란드 왕국 parent 매핑 확정 필요. 현재 state:SUR의 1975 독립 시작일은 유지 후보.",
+    "현재 main의 공개 library.json 및 객체 원본 확인; work/gis 및 실제 배포 핀·전체 속성 이력 미확인."
+  ],
+  "evidenceDates": [
+    {
+      "date": "1954-12-15",
+      "role": "royal-confirmation"
+    },
+    {
+      "date": "1954-12-29",
+      "role": "proclamation-and-effective-date"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  }
+}

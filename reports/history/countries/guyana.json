@@ -1,0 +1,85 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-GUYANA",
+  "type": "entity",
+  "title": "가이아나",
+  "subject": {
+    "key": "state:GUY",
+    "kind": "state",
+    "displayName": "가이아나",
+    "runtimeEntityId": "state:GUY"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "남아메리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-25",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-dates-not-final-approval",
+    "validFrom": "1966-05-26",
+    "validTo": null,
+    "note": "1966-05-26 영국 책임 종료 및 Guyana 명칭 시작, 기존 원본과 일치. 현 국기 사용 시작도 같은 날. 1970 공화국 전환은 국가 동일성 유지."
+  },
+  "eventIds": [
+    "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+  ],
+  "sourceIds": [
+    "SRC-157",
+    "SRC-158",
+    "SRC-159",
+    "SRC-160",
+    "SRC-161",
+    "SRC-162",
+    "SRC-163"
+  ],
+  "unresolved": [
+    "1970-02-23 공화국 전환일은 확정적이나 Republic of Guyana와 Co-operative Republic of Guyana 법정 명칭의 정확한 효력일·원법령 원문 미확보. 1980 헌법 표제를 최초 변경일로 단정하지 않음.",
+    "영국령 기원(1814/1831)·별도 속령 객체 존속기간 및 이전 국기 원법령 후속 검증.",
+    "현재 main의 공개 library.json 및 객체 원본은 확인했으나 work/gis 부재; 실제 배포 핀과 전체 이름/국기 시간축의 중복 여부는 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "7c9fbad71522a96ba7abc002791a47bb98e23829",
+    "objectPath": "objects/111b45f4fac6fda597caede4f6a7d8ab7f0e8dac4f1320c318d4f4b1a865db23.json",
+    "lifetime": {
+      "validFrom": "1966-05-26",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "가이아나"
+    },
+    "note": "공개 main 원본 열람, 정본 변경 없음. 이전 시대 별도 속령이나 이름 이력의 승인 아님."
+  },
+  "historicalFacts": [
+    {
+      "date": "1966-05-26",
+      "field": "lifetime.validFrom",
+      "assessment": "existing-date-reconfirmed",
+      "sourceIds": [
+        "SRC-157",
+        "SRC-158"
+      ]
+    },
+    {
+      "date": "1966-05-26",
+      "field": "flag",
+      "summary": "Golden Arrowhead 사용 개시. 현재 기본 국기와 일치; 별도 신규 사건으로 집계하지 않음.",
+      "sourceIds": [
+        "SRC-159"
+      ]
+    }
+  ]
+}

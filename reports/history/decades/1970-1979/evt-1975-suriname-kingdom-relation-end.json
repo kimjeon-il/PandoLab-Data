@@ -1,0 +1,81 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1975-SURINAME-KINGDOM-RELATION-END",
+  "type": "event",
+  "title": "수리남 왕국관계 종료와 독립 공화국 국명·국기 전환",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1975,
+    "value": "1975-11-25",
+    "precision": "day",
+    "note": "독립일은 기존 원본과 일치하여 신규 독립일로 계수하지 않음. 원법 제III조의 다지역 공포와 제62조 관계종료일 구분."
+  },
+  "entityKeys": [
+    "state:SUR",
+    "state:NLD"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:SUR",
+      "field": "relationship.parent",
+      "summary": "왕국법 제62조에 의해 네덜란드 왕국과의 헌장상 관계 종료.",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:SUR",
+      "field": "relationship.childType",
+      "summary": "왕국 자치 구성국 지위 종료·독립 주권국 전환.",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:SUR",
+      "field": "name.formal",
+      "summary": "독립 수리남 공화국 (Republiek Suriname).",
+      "assessment": "source-reviewed",
+      "proposedValue": "Republiek Suriname"
+    },
+    {
+      "entityKey": "state:SUR",
+      "field": "flag",
+      "summary": "이전 오성 타원기 대신 현재 국기를 실제 게양.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "sourceIds": [
+    "SRC-169",
+    "SRC-170",
+    "SRC-171",
+    "SRC-172"
+  ],
+  "unresolved": [
+    "1954 이전 식민지와 왕국 구성국의 동일성·별도 속령 객체 또는 동일 lineage 기간 확장 여부, 네덜란드 왕국 parent 매핑 확정 필요. 현재 state:SUR의 1975 독립 시작일은 유지 후보.",
+    "1959 국기령 원문·도안 비율 및 1975 국기법 원문·정확한 법정 채택/효력일은 미확보. 1975-11-25 실제 게양일과 구별.",
+    "현재 main의 공개 library.json 및 객체 원본 확인; work/gis 및 실제 배포 핀·전체 속성 이력 미확인."
+  ],
+  "evidenceDates": [
+    {
+      "date": "1975-11-22",
+      "role": "kingdom-act-signature-and-netherlands-publication"
+    },
+    {
+      "date": "1975-11-25",
+      "role": "statutory-relationship-end-and-independence"
+    },
+    {
+      "date": "1975-11-25",
+      "role": "actual-flag-hoisting"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  }
+}

@@ -1244,6 +1244,118 @@
       "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
       "section": "19세기 초 덴마크 왕국과 슐레스비히 공국의 복합군주국 관계",
       "reviewStatus": "historical-context-reviewed"
+    },
+    {
+      "id": "SRC-157",
+      "url": "https://www.legislation.gov.uk/ukpga/1966/14/enacted",
+      "fromReport": "GEO-LIFE-044",
+      "section": "영국 Guyana Independence Act 1966, 1조: 5월 12일 재가, 5월 26일 독립 효력",
+      "reviewStatus": "original-law-web-text-reviewed"
+    },
+    {
+      "id": "SRC-158",
+      "url": "https://history.state.gov/countries/guyana",
+      "fromReport": "GEO-LIFE-044",
+      "section": "미국 국무부 역사국: 1831 영국령 통합 및 1966 독립 확인",
+      "reviewStatus": "government-history-reviewed"
+    },
+    {
+      "id": "SRC-159",
+      "url": "https://parliament.gov.gy/GUYANA%20PARLIAMENT%20HISTORY%202009-1.pdf",
+      "fromReport": "GEO-LIFE-044",
+      "section": "가이아나 의회 역사: 1966-05-26 Golden Arrowhead 사용 시작",
+      "reviewStatus": "indexed-pdf-excerpt-reviewed-not-original-download"
+    },
+    {
+      "id": "SRC-160",
+      "url": "https://www.parliament.gov.gy/parliamentcorner/detail",
+      "fromReport": "GEO-LIFE-044",
+      "section": "가이아나 의회: 1970-02-23 Republic of Guyana 공식 명칭 용례",
+      "reviewStatus": "indexed-government-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-161",
+      "url": "https://www.legislation.govt.nz/act/public/1970/5/en/latest/",
+      "fromReport": "GEO-LIFE-044",
+      "section": "뉴질랜드 Republic of Guyana Act: 1970-02-23 공화국 전환과 법적 계속성",
+      "reviewStatus": "original-law-web-text-reviewed"
+    },
+    {
+      "id": "SRC-162",
+      "url": "https://api.parliament.uk/historic-hansard/commons/1970/apr/27/guyana-republic-bill-lords",
+      "fromReport": "GEO-LIFE-044",
+      "section": "영국 의회 1970-04-27 의사록: cooperative Republic of Guyana 용례",
+      "reviewStatus": "official-parliament-transcript-reviewed"
+    },
+    {
+      "id": "SRC-163",
+      "url": "https://www.wipo.int/wipolex/en/legislation/details/21212",
+      "fromReport": "GEO-LIFE-044",
+      "section": "1980-10-06 발효 헌법의 Co-operative Republic of Guyana 명칭; 정확한 최초 효력일의 증거는 아님",
+      "reviewStatus": "legal-metadata-reviewed"
+    },
+    {
+      "id": "SRC-164",
+      "url": "https://zoek.officielebekendmakingen.nl/stb-1954-596",
+      "fromReport": "GEO-LIFE-044",
+      "section": "네덜란드 1954년 596호: 12월 29일 왕국 신질서 공포, 12월 15일 확인",
+      "reviewStatus": "official-gazette-metadata-and-indexed-text-reviewed"
+    },
+    {
+      "id": "SRC-165",
+      "url": "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/autonomie-voor-suriname-en-de-nederlandse-antillen-1954",
+      "fromReport": "GEO-LIFE-044",
+      "section": "네덜란드 국가기록원: 1954 왕국 구성국·공통 외교 및 국방·자치",
+      "reviewStatus": "government-archive-web-text-reviewed"
+    },
+    {
+      "id": "SRC-166",
+      "url": "https://www.inview.nl/openCitation/id3999cd9e112f0f1ecfdb386d7522d131/wet-houdende-aanvaarding-van-een-statuut-voor-het-koninkrijk-der-nederlanden-bijlage",
+      "fromReport": "GEO-LIFE-044",
+      "section": "법령 데이터베이스: 1954-12-29 발효 및 Stb. 596",
+      "reviewStatus": "legal-database-metadata-reviewed"
+    },
+    {
+      "id": "SRC-167",
+      "url": "https://gov.sr/wp-content/uploads/2023/10/Reader-SWO-leerjaar-10_Final.pdf",
+      "fromReport": "GEO-LIFE-044",
+      "section": "수리남 정부 교육자료: 1959-12-08 국기령, 12-15 공식 도입",
+      "reviewStatus": "indexed-pdf-excerpt-reviewed-not-original-download"
+    },
+    {
+      "id": "SRC-168",
+      "url": "https://www.fotw.info/Flags/sr-nl.html",
+      "fromReport": "GEO-LIFE-044",
+      "section": "1959-12-08 국기령 번역 및 12-15 효력일; 원 관보 미확보",
+      "reviewStatus": "secondary-transcription-reviewed"
+    },
+    {
+      "id": "SRC-169",
+      "url": "https://zoek.officielebekendmakingen.nl/stb-1975-617.pdf",
+      "fromReport": "GEO-LIFE-044",
+      "section": "1975-11-22 왕국법 제62조: 11-25 수리남 왕국관계 종료; 관보 본문 웹 열람",
+      "reviewStatus": "original-gazette-pdf-text-reviewed-screenshot-unavailable"
+    },
+    {
+      "id": "SRC-170",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/onafhankelijke-republiek-suriname",
+      "fromReport": "GEO-LIFE-044",
+      "section": "국가기록원: 1975-11-25 왕국 이탈 및 수리남 공화국 명칭",
+      "reviewStatus": "government-archive-web-text-reviewed"
+    },
+    {
+      "id": "SRC-171",
+      "url": "https://gov.sr/eerbied-voor-surinaamse-vlag-en-volkslied/",
+      "fromReport": "GEO-LIFE-044",
+      "section": "수리남 정부: 1975-11-25 구 국기 하강 및 현 국기 게양",
+      "reviewStatus": "government-history-reviewed"
+    },
+    {
+      "id": "SRC-172",
+      "url": "https://gov.sr/suriname/",
+      "fromReport": "GEO-LIFE-044",
+      "section": "수리남 정부: 1975-11-25 독립 공화국",
+      "reviewStatus": "government-history-reviewed"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
+  "type": "event",
+  "title": "가이아나의 공화국 정식명칭 전환 후보",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1970,
+    "value": "1970-02-23",
+    "precision": "day",
+    "note": "공화국 전환 자체가 아니라 정식 국명 이력 후보; 동일 국가의 존속기간은 연속. 날짜는 공화국 전환일이며 장칭 효력일은 미확정."
+  },
+  "entityKeys": [
+    "state:GUY"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:GUY",
+      "field": "name.formal",
+      "summary": "가이아나 의회는 Republic of Guyana로 기술; 1970-04-27 영국 의사록은 cooperative Republic of Guyana 용례를 보여 정확한 법정 장칭과 발효일은 유보.",
+      "assessment": "provisional"
+    }
+  ],
+  "sourceIds": [
+    "SRC-160",
+    "SRC-161",
+    "SRC-162",
+    "SRC-163"
+  ],
+  "unresolved": [
+    "1970-02-23 공화국 전환일은 확정적이나 Republic of Guyana와 Co-operative Republic of Guyana 법정 명칭의 정확한 효력일·원법령 원문 미확보. 1980 헌법 표제를 최초 변경일로 단정하지 않음.",
+    "현재 main의 공개 library.json 및 객체 원본은 확인했으나 work/gis 부재; 실제 배포 핀과 전체 이름/국기 시간축의 중복 여부는 미확인."
+  ],
+  "evidenceDates": [
+    {
+      "date": "1970-02-23",
+      "role": "republic-effective-date"
+    },
+    {
+      "date": "1970-04-27",
+      "role": "cooperative-name-attestation"
+    },
+    {
+      "date": "1980-10-06",
+      "role": "constitution-with-current-formal-name-effective"
+    }
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-044",
+    "createdOn": "2026-11-25"
+  }
+}
