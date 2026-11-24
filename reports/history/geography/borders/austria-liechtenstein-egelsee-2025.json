@@ -1,0 +1,196 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "GEO-2025-AUT-LIE-EGELSEE",
+  "type": "geography",
+  "title": "2025 Egelsee 오스트리아–리히텐슈타인 국경 형상 근거",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "timeline-2025-europe"
+  },
+  "feature": {
+    "kind": "international-border",
+    "name": "Egelsee / Mistelmark–Rhein",
+    "coordinates": null,
+    "geometryVerified": false,
+    "adjacentStates": [
+      "state:AUT",
+      "state:LIE"
+    ],
+    "sharedBoundaryChecked": false,
+    "topologyChecked": false
+  },
+  "entityKeys": [
+    "state:AUT",
+    "state:LIE"
+  ],
+  "date": {
+    "year": 2025,
+    "value": "2025-11-01",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:AUT",
+      "field": "territory.geometry",
+      "summary": "Mistelmark–Rhein 구간 국경점 54.00–55.00 및 55.00–56.00 직선 연결.",
+      "assessment": "provisional",
+      "uncertainty": "공식 부속 좌표·공유 경계 벡터 미검증."
+    },
+    {
+      "entityKey": "state:LIE",
+      "field": "territory.geometry",
+      "summary": "Mistelmark–Rhein 구간 국경점 54.00–55.00 및 55.00–56.00 직선 연결.",
+      "assessment": "provisional",
+      "uncertainty": "공식 부속 좌표·공유 경계 벡터 미검증."
+    }
+  ],
+  "sourceCandidates": [
+    {
+      "provider": "Austria BEV",
+      "product": "VGD 1:50,000",
+      "url": "https://data.bev.gv.at/download/Verwaltungsgrenzen/shp/20251001/VGD_Oesterreich_gen_50_20251001.zip",
+      "edition": "2025-10-01",
+      "issuedOn": "2025-12-19",
+      "boundaryEffectiveFrom": null,
+      "format": "SHP ZIP",
+      "crs": "EPSG:31287 (메타데이터)",
+      "featureIds": null,
+      "license": "CC BY 4.0 (메타데이터)",
+      "downloaded": false,
+      "opened": "공식 웹 메타데이터/검색 본문만 확인",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "pre-change baseline; 1:50,000 ±5 m generalization; 정본 부적합",
+      "metadataUrl": "https://data.bev.gv.at/geonetwork/srv/api/records/a1c6cd3c-30af-47cb-bd65-9f864e38db48",
+      "dataAsOf": "2025-10-01"
+    },
+    {
+      "provider": "Austria BEV",
+      "product": "VGD (국가경계 포함)",
+      "url": "https://data.bev.gv.at/geonetwork/srv/api/records/2d7b8f24-deb9-42eb-82f2-c7c1c7ff7075",
+      "edition": "2026-04-01",
+      "issuedOn": "2026-07-01",
+      "boundaryEffectiveFrom": null,
+      "format": "VGD SHP 후보; 개별 파일 링크 미확인",
+      "crs": null,
+      "featureIds": null,
+      "license": "개별 판본 권리 미확인",
+      "downloaded": false,
+      "opened": "공식 웹 메타데이터/검색 본문만 확인",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "post-change candidate; Egelsee 적용 여부 미확인",
+      "dataAsOf": "2026-04-01"
+    },
+    {
+      "provider": "swisstopo",
+      "product": "swissBOUNDARIES3D (LIE 포함)",
+      "url": "https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d",
+      "edition": "2025",
+      "issuedOn": "2024-12-18",
+      "boundaryEffectiveFrom": null,
+      "format": "SHP/GPKG",
+      "crs": "LV95 LN02 (제품 문서)",
+      "featureIds": null,
+      "license": "재배포 조건 미확인",
+      "downloaded": false,
+      "opened": "공식 웹 메타데이터/검색 본문만 확인",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "pre-change baseline",
+      "dataAsOf": "2025-01-01",
+      "editionMetadataUrl": "https://www.swisstopo.admin.ch/de/landschaftsmodell-swissboundaries3d-update-20250101"
+    },
+    {
+      "provider": "swisstopo",
+      "product": "swissBOUNDARIES3D (LIE 포함)",
+      "url": "https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d",
+      "edition": "2026",
+      "issuedOn": "2025-12-18",
+      "boundaryEffectiveFrom": null,
+      "format": "SHP/GPKG",
+      "crs": "LV95 LN02 (제품 문서)",
+      "featureIds": null,
+      "license": "재배포 조건 미확인",
+      "downloaded": false,
+      "opened": "공식 웹 메타데이터/검색 본문만 확인",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "post-change candidate; Egelsee 반영 및 양국 공유선 일치 미검증",
+      "dataAsOf": "2026-01-01",
+      "editionMetadataUrl": "https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d-update-20260101"
+    },
+    {
+      "provider": "Austria BEV",
+      "product": "Staatsgrenzdokumentation / Staatsgrenzpunkte digital",
+      "url": "https://www.bev.gv.at/Services/Produkte/Kataster-und-Verzeichnisse/Staatsgrenzdokumentation.html",
+      "edition": null,
+      "issuedOn": null,
+      "boundaryEffectiveFrom": null,
+      "format": "digital boundary points; PDF coordinates/maps",
+      "crs": null,
+      "featureIds": null,
+      "license": "유료 제공 및 별도 이용권",
+      "downloaded": false,
+      "opened": "공식 웹 메타데이터/검색 본문만 확인",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "정밀 국경점 후보; 2025 유효판 및 좌표 요청 필요"
+    },
+    {
+      "provider": "Austria / Liechtenstein",
+      "product": "조약 부속서 1~3",
+      "url": "https://www.parlament.gv.at/gegenstand/XXVIII/BNR/16",
+      "edition": "2024-12-12 treaty",
+      "issuedOn": "2025-11-18 관보 (부속서 별도 게시일 미확인)",
+      "boundaryEffectiveFrom": "2025-11-01",
+      "format": "좌표 목록 및 국경도 1:2,000/1:10,000, 상황도 1:750; 벡터 아님",
+      "crs": null,
+      "featureIds": "54.00,55.00,56.00 (법정 국경점 번호; GIS FID 아님)",
+      "license": "부속 도면 권리 미확인",
+      "downloaded": false,
+      "opened": "조약 조문 및 의회 부속서 목록 확인; 부속서 원문 미열람",
+      "hash": null,
+      "converted": false,
+      "topologyChecked": false,
+      "sharedBoundaryChecked": false,
+      "adoption": "벡터 부재·불일치 구간만 원좌표/지도 복원 후보"
+    }
+  ],
+  "finding": "전후 공신력 있는 벡터 판본 메타데이터 확보. 정밀한 법적 교환 구획은 미확보; 2025-10-01 BEV 판본은 발행일이 뒤여도 변경 전 자료. 2026판은 비교 후보일 뿐 실제 반영 확인 전 승인하지 않음.",
+  "sourceIds": [
+    "SRC-173",
+    "SRC-174",
+    "SRC-175",
+    "SRC-176",
+    "SRC-177",
+    "SRC-178",
+    "SRC-179",
+    "SRC-180",
+    "SRC-181",
+    "SRC-182"
+  ],
+  "unresolved": [
+    "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
+    "2025-11-01 변경 구획에 대응하는 전후 공식 벡터와 재배포 조건, 공통 국경 피처 및 실제 반영 시점 검증 유보.",
+    "런타임 원본은 두 국가 모두 Natural Earth 5.1.1 단일 기본 형상이며 시기별 교환 기록 없음. 전체 배포 핀·별도 LSIB 데이터와의 공간 대조는 미실행.",
+    "원본 다운로드·CRS 검사·FID·해시·변환·위상·화면 비교·재배포 승인 미실행."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-europe-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+  "type": "event",
+  "title": "2025 오스트리아–리히텐슈타인 Egelsee 국경 변경",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "timeline-2025-europe"
+  },
+  "date": {
+    "year": 2025,
+    "value": "2025-11-01",
+    "precision": "day",
+    "note": "오스트리아 관보의 조약 Art II(2) 발효 명시. 2024-12-12 서명과 2025-11-18 공포는 구별."
+  },
+  "entityKeys": [
+    "state:AUT",
+    "state:LIE"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:AUT",
+      "field": "territory.assignment",
+      "summary": "리히텐슈타인에 주로 Egelsee 수면 구역 239 m²를 양도하고 북서·남동쪽 토지 띠 239 m²를 취득.",
+      "assessment": "source-reviewed",
+      "uncertainty": "세부 교환 구획 원좌표·형상 미확보; 순면적 변화 없음."
+    },
+    {
+      "entityKey": "state:AUT",
+      "field": "territory.geometry",
+      "summary": "Mistelmark–Rhein 구간 국경점 54.00–55.00 및 55.00–56.00 직선 연결.",
+      "assessment": "source-reviewed",
+      "uncertainty": "공식 부속 좌표·공유 경계 벡터 미검증."
+    },
+    {
+      "entityKey": "state:LIE",
+      "field": "territory.assignment",
+      "summary": "오스트리아로부터 주로 Egelsee 구역 239 m²를 취득하고 북서·남동쪽 토지 띠 239 m²를 양도.",
+      "assessment": "source-reviewed",
+      "uncertainty": "세부 교환 구획 원좌표·형상 미확보; 순면적 변화 없음."
+    },
+    {
+      "entityKey": "state:LIE",
+      "field": "territory.geometry",
+      "summary": "Mistelmark–Rhein 구간 국경점 54.00–55.00 및 55.00–56.00 직선 연결.",
+      "assessment": "source-reviewed",
+      "uncertainty": "공식 부속 좌표·공유 경계 벡터 미검증."
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "2024-12-12",
+      "kind": "treaty-signing",
+      "sourceId": "SRC-173"
+    },
+    {
+      "date": "2025-03-26",
+      "kind": "austrian-national-council-approval",
+      "sourceId": "SRC-176"
+    },
+    {
+      "date": "2025-04-10",
+      "kind": "austrian-federal-council-approval",
+      "sourceId": "SRC-176"
+    },
+    {
+      "date": "2025-11-01",
+      "kind": "entry-into-force",
+      "sourceId": "SRC-173"
+    },
+    {
+      "date": "2025-11-18",
+      "kind": "austrian-gazette-publication",
+      "sourceId": "SRC-173"
+    }
+  ],
+  "finding": "실제 영토 교환과 국제경계 변경 1건. 양국의 존속기간·국명·국기·부모 관계는 변경 대상 아님. 단순 재측량, 건축 제한 변경, 호수 형상 생성은 사건으로 분리하지 않음.",
+  "sourceIds": [
+    "SRC-173",
+    "SRC-174",
+    "SRC-175",
+    "SRC-176"
+  ],
+  "unresolved": [
+    "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
+    "2025-11-01 변경 구획에 대응하는 전후 공식 벡터와 재배포 조건, 공통 국경 피처 및 실제 반영 시점 검증 유보.",
+    "런타임 원본은 두 국가 모두 Natural Earth 5.1.1 단일 기본 형상이며 시기별 교환 기록 없음. 전체 배포 핀·별도 LSIB 데이터와의 공간 대조는 미실행."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-europe-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

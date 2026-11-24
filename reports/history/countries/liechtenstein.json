@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-LIE",
+  "type": "entity",
+  "title": "리히텐슈타인",
+  "subject": {
+    "key": "state:LIE",
+    "kind": "state",
+    "displayName": "리히텐슈타인",
+    "runtimeEntityId": "state:LIE"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "timeline-2025-europe"
+  },
+  "region": "유럽",
+  "historyScope": {
+    "from": "2025-01-01",
+    "through": "2025-12-31",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "not-in-scope-this-run",
+    "validFrom": null,
+    "validTo": null,
+    "note": "존속기간 조사는 별도. 현재 객체를 읽기 전용 확인했으며 기존 값 변경 없음."
+  },
+  "eventIds": [
+    "EVT-2025-AUT-LIE-EGELSEE-BORDER"
+  ],
+  "sourceIds": [
+    "SRC-173",
+    "SRC-174",
+    "SRC-175",
+    "SRC-176"
+  ],
+  "unresolved": [
+    "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
+    "2025-11-01 변경 구획에 대응하는 전후 공식 벡터와 재배포 조건, 공통 국경 피처 및 실제 반영 시점 검증 유보.",
+    "런타임 원본은 두 국가 모두 Natural Earth 5.1.1 단일 기본 형상이며 시기별 교환 기록 없음. 전체 배포 핀·별도 LSIB 데이터와의 공간 대조는 미실행."
+  ],
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "0d726d86c3f062842b78ce745d81e639548e16bd",
+    "objectPath": "objects/b64c0af0021c7b1283322b28c4dd0f250d14d445ce61c001d8378b0a7ae86513.json",
+    "geometryVersion": "state:LIE:natural-earth-5.1.1",
+    "note": "공개 main 객체 원본과 ID 확인; 2025 변경 전후 geometryVersions 없음. 실제 좌표 일치 검증 미실행."
+  },
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "timeline-2025-europe-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

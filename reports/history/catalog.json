@@ -24,6 +24,21 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-AUT",
+      "type": "entity",
+      "path": "reports/history/countries/austria.json",
+      "title": "오스트리아",
+      "entityKeys": [
+        "state:AUT"
+      ],
+      "eventIds": [
+        "EVT-2025-AUT-LIE-EGELSEE-BORDER"
+      ],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-BADEN",
       "type": "entity",
       "path": "reports/history/countries/baden.json",
@@ -290,6 +305,21 @@
       ],
       "year": null,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-LIE",
+      "type": "entity",
+      "path": "reports/history/countries/liechtenstein.json",
+      "title": "리히텐슈타인",
+      "entityKeys": [
+        "state:LIE"
+      ],
+      "eventIds": [
+        "EVT-2025-AUT-LIE-EGELSEE-BORDER"
+      ],
+      "year": null,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -1418,6 +1448,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+      "type": "event",
+      "path": "reports/history/decades/2020-2029/evt-2025-aut-lie-egelsee-border.json",
+      "title": "2025 오스트리아–리히텐슈타인 Egelsee 국경 변경",
+      "entityKeys": [
+        "state:AUT",
+        "state:LIE"
+      ],
+      "eventIds": [],
+      "year": 2025,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
       "type": "event",
       "path": "reports/history/decades/2020-2029/evt-2025-kgz-tjk-border-settlement.json",
@@ -1443,6 +1487,20 @@
       ],
       "eventIds": [],
       "year": 2025,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "GEO-2025-AUT-LIE-EGELSEE",
+      "type": "geography",
+      "path": "reports/history/geography/borders/austria-liechtenstein-egelsee-2025.json",
+      "title": "2025 Egelsee 오스트리아–리히텐슈타인 국경 형상 근거",
+      "entityKeys": [
+        "state:AUT",
+        "state:LIE"
+      ],
+      "eventIds": [],
+      "year": null,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -1492,6 +1550,7 @@
   "byType": {
     "entity": [
       "ENT-ACRE-REPUBLIC",
+      "ENT-AUT",
       "ENT-BADEN",
       "ENT-BAHAMAS",
       "ENT-BARBADOS",
@@ -1509,6 +1568,7 @@
       "ENT-KOREAN-EMPIRE",
       "ENT-LAOS",
       "ENT-LESOTHO",
+      "ENT-LIE",
       "ENT-MALAWI",
       "ENT-MALAYSIA",
       "ENT-NASSAU",
@@ -1592,10 +1652,12 @@
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
       "EVT-1997-SAMOA-NAME-CHANGE",
       "EVT-2018-ESWATINI-RENAMING",
+      "EVT-2025-AUT-LIE-EGELSEE-BORDER",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
     ],
     "geography": [
+      "GEO-2025-AUT-LIE-EGELSEE",
       "GEO-2025-KGZ-TJK-BORDER",
       "GEO-DNK-SCHLESWIG-KONGEAA-1836",
       "GEO-ISLA-SUAREZ"
@@ -1607,6 +1669,11 @@
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
       "EVT-1900-ACRE-FIRST-REPUBLIC-END",
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
+    ],
+    "state:AUT": [
+      "ENT-AUT",
+      "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+      "GEO-2025-AUT-LIE-EGELSEE"
     ],
     "research:state:baden-grand-duchy": [
       "ENT-BADEN",
@@ -1690,6 +1757,11 @@
     "state:LSO": [
       "ENT-LESOTHO",
       "EVT-1966-LESOTHO-INDEPENDENCE"
+    ],
+    "state:LIE": [
+      "ENT-LIE",
+      "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+      "GEO-2025-AUT-LIE-EGELSEE"
     ],
     "state:MWI": [
       "ENT-MALAWI",
@@ -1967,6 +2039,7 @@
       "EVT-2018-ESWATINI-RENAMING"
     ],
     "2025": [
+      "EVT-2025-AUT-LIE-EGELSEE-BORDER",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
     ]
@@ -2076,6 +2149,7 @@
       "EVT-2018-ESWATINI-RENAMING"
     ],
     "2020-2029": [
+      "EVT-2025-AUT-LIE-EGELSEE-BORDER",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
     ]
@@ -2329,6 +2403,18 @@
         ]
       }
     },
+    "state:AUT": {
+      "recordIds": [
+        "ENT-AUT",
+        "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+        "GEO-2025-AUT-LIE-EGELSEE"
+      ],
+      "byDecade": {
+        "2020-2029": [
+          "EVT-2025-AUT-LIE-EGELSEE-BORDER"
+        ]
+      }
+    },
     "state:BHS": {
       "recordIds": [
         "ENT-BAHAMAS",
@@ -2461,6 +2547,18 @@
         ],
         "1970-1979": [
           "EVT-1975-LAOS-OFFICIAL-NAME"
+        ]
+      }
+    },
+    "state:LIE": {
+      "recordIds": [
+        "ENT-LIE",
+        "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+        "GEO-2025-AUT-LIE-EGELSEE"
+      ],
+      "byDecade": {
+        "2020-2029": [
+          "EVT-2025-AUT-LIE-EGELSEE-BORDER"
         ]
       }
     },
