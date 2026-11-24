@@ -1,0 +1,1934 @@
+{
+  "schema": "pandolab-builtin-formal-names",
+  "schemaVersion": 1,
+  "names": [
+    {
+      "entityId": "state:AFG",
+      "ko": "아프가니스탄 이슬람 공화국",
+      "validFrom": "2004-01-26",
+      "validTo": "2021-08-14",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://digitallibrary.un.org/record/667101/files/HRI_CORE_AFG_2007-EN.pdf",
+        "https://digitallibrary.un.org/record/3940834/files/A_76_328--S_2021_759-EN.pdf"
+      ]
+    },
+    {
+      "entityId": "state:AGO",
+      "ko": "앙골라 공화국",
+      "validFrom": "1992-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=201",
+        "https://provedordejustica.ao/historia/"
+      ]
+    },
+    {
+      "entityId": "state:ALB",
+      "ko": "알바니아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=112",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=5"
+      ]
+    },
+    {
+      "entityId": "state:AND",
+      "ko": "안도라 공국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=111",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=7"
+      ]
+    },
+    {
+      "entityId": "state:ARE",
+      "ko": "아랍에미리트 연합국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=188",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=105"
+      ]
+    },
+    {
+      "entityId": "state:ARG",
+      "ko": "아르헨티나 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=61",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=8"
+      ]
+    },
+    {
+      "entityId": "state:ARM",
+      "ko": "아르메니아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=107",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=9"
+      ]
+    },
+    {
+      "entityId": "state:ATG",
+      "ko": "앤티가바부다",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=63",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=8"
+      ]
+    },
+    {
+      "entityId": "state:AUS",
+      "ko": "오스트레일리아 연방",
+      "validFrom": "1901-01-01",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=41",
+        "https://www.aph.gov.au/Visit_Parliament/Art/Collections/Constitution_Act_1900"
+      ]
+    },
+    {
+      "entityId": "state:AUT",
+      "ko": "오스트리아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=115",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=10"
+      ]
+    },
+    {
+      "entityId": "state:AZE",
+      "ko": "아제르바이잔 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=110",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=10"
+      ]
+    },
+    {
+      "entityId": "state:BDI",
+      "ko": "부룬디 공화국",
+      "validFrom": "1966-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=156",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1966"
+      ]
+    },
+    {
+      "entityId": "state:BEL",
+      "ko": "벨기에 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=94",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=14"
+      ]
+    },
+    {
+      "entityId": "state:BEN",
+      "ko": "베냉 공화국",
+      "validFrom": "1990-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=154",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1990"
+      ]
+    },
+    {
+      "entityId": "state:BFA",
+      "ko": "부르키나파소",
+      "validFrom": "1984-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=157",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1984"
+      ]
+    },
+    {
+      "entityId": "state:BGD",
+      "ko": "방글라데시 인민공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=18",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=12"
+      ]
+    },
+    {
+      "entityId": "state:BGR",
+      "ko": "불가리아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=98",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=19"
+      ]
+    },
+    {
+      "entityId": "state:BHS",
+      "ko": "바하마 연방",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=52",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=11"
+      ]
+    },
+    {
+      "entityId": "state:BIH",
+      "ko": "보스니아헤르체고비나",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=97",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=17"
+      ]
+    },
+    {
+      "entityId": "state:BLR",
+      "ko": "벨라루스 공화국",
+      "validFrom": "1992-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=95",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1992"
+      ]
+    },
+    {
+      "entityId": "state:BLZ",
+      "ko": "벨리즈",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=54",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=15"
+      ]
+    },
+    {
+      "entityId": "state:BRA",
+      "ko": "브라질 연방공화국",
+      "validFrom": "1988-10-05",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=56",
+        "https://legis.senado.gov.br/norma/579494"
+      ]
+    },
+    {
+      "entityId": "state:BRB",
+      "ko": "바베이도스",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=51",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=12"
+      ]
+    },
+    {
+      "entityId": "state:BRN",
+      "ko": "브루나이 다루살람",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=21",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=19"
+      ]
+    },
+    {
+      "entityId": "state:BTN",
+      "ko": "부탄 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=20",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=16"
+      ]
+    },
+    {
+      "entityId": "state:BWA",
+      "ko": "보츠와나 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=155",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=18"
+      ]
+    },
+    {
+      "entityId": "state:CAF",
+      "ko": "중앙아프리카 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=171",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=23"
+      ]
+    },
+    {
+      "entityId": "state:CAN",
+      "ko": "캐나다",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=42",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=22"
+      ]
+    },
+    {
+      "entityId": "state:CHE",
+      "ko": "스위스 연방",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=103",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=96"
+      ]
+    },
+    {
+      "entityId": "state:CHL",
+      "ko": "칠레 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=69",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=24"
+      ]
+    },
+    {
+      "entityId": "state:CHN",
+      "ko": "중화인민공화국",
+      "validFrom": "1949-10-01",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=4",
+        "https://www.ccdi.gov.cn/yaowen/201909/t20190916_200635.html"
+      ]
+    },
+    {
+      "entityId": "state:CIV",
+      "ko": "코트디부아르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=179",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=27"
+      ]
+    },
+    {
+      "entityId": "state:CMR",
+      "ko": "카메룬 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=175",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=21"
+      ]
+    },
+    {
+      "entityId": "state:COD",
+      "ko": "콩고 민주 공화국",
+      "validFrom": "1964-08-01",
+      "validTo": "1971-10-26",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://digitallibrary.un.org/record/1647449?ln=en"
+      ]
+    },
+    {
+      "entityId": "state:COD",
+      "ko": "자이르 공화국",
+      "validFrom": "1971-10-27",
+      "validTo": "1997-05-16",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://digitallibrary.un.org/record/3894560/files/achievingourcommonhumanity.pdf"
+      ]
+    },
+    {
+      "entityId": "state:COD",
+      "ko": "콩고 민주 공화국",
+      "validFrom": "1997-05-17",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=181",
+        "https://www.un.org/en/about-us/member-states/democratic-republic-of-the-congo"
+      ]
+    },
+    {
+      "entityId": "state:COG",
+      "ko": "콩고 공화국",
+      "validFrom": "1992-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=180",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1992"
+      ]
+    },
+    {
+      "entityId": "state:COK",
+      "ko": "쿡제도",
+      "validFrom": "1965-08-04",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=30",
+        "https://parliament.gov.ck/wp-content/uploads/2022/07/CONSTITUTION-OF-THE-COOK-ISLANDS-JUNE-2022.pdf"
+      ]
+    },
+    {
+      "entityId": "state:COL",
+      "ko": "콜롬비아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=71",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=25"
+      ]
+    },
+    {
+      "entityId": "state:CRI",
+      "ko": "코스타리카 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=70",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=27"
+      ]
+    },
+    {
+      "entityId": "state:CUB",
+      "ko": "쿠바 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=72",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=28"
+      ]
+    },
+    {
+      "entityId": "state:CYN",
+      "ko": "북키프로스 튀르크 공화국",
+      "validFrom": "1983-11-15",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://ombudsman.gov.ct.tr/Portals/20/Constitution%20of%20TRNC.pdf"
+      ]
+    },
+    {
+      "entityId": "state:CYP",
+      "ko": "키프로스 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=99",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=29"
+      ]
+    },
+    {
+      "entityId": "state:DEU",
+      "ko": "독일 연방공화국",
+      "validFrom": "1949-05-24",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=82",
+        "https://www.bundestag.de/besuche/ausstellungen/verfassung/tafel26"
+      ]
+    },
+    {
+      "entityId": "state:DJI",
+      "ko": "지부티 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=172",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=30"
+      ]
+    },
+    {
+      "entityId": "state:DMA",
+      "ko": "도미니카 연방",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=49",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=31"
+      ]
+    },
+    {
+      "entityId": "state:DNK",
+      "ko": "덴마크 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=81",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=30"
+      ]
+    },
+    {
+      "entityId": "state:DOM",
+      "ko": "도미니카 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=48",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=31"
+      ]
+    },
+    {
+      "entityId": "state:DZA",
+      "ko": "알제리 인민민주공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=165",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=6"
+      ]
+    },
+    {
+      "entityId": "state:ECU",
+      "ko": "에콰도르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=64",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=32"
+      ]
+    },
+    {
+      "entityId": "state:EGY",
+      "ko": "이집트 아랍 공화국",
+      "validFrom": "1971-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=168",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1971"
+      ]
+    },
+    {
+      "entityId": "state:ERI",
+      "ko": "에리트레아국",
+      "validFrom": "1993-05-24",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=166",
+        "https://digitallibrary.un.org/record/229464/files/%5EST_%5EDPI_1850-EN.pdf"
+      ]
+    },
+    {
+      "entityId": "state:ESP",
+      "ko": "에스파냐 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=104",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=92"
+      ]
+    },
+    {
+      "entityId": "state:EST",
+      "ko": "에스토니아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=113",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=35"
+      ]
+    },
+    {
+      "entityId": "state:ETH",
+      "ko": "에티오피아 연방민주공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=167",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=35"
+      ]
+    },
+    {
+      "entityId": "state:FIN",
+      "ko": "핀란드 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=130",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=36"
+      ]
+    },
+    {
+      "entityId": "state:FJI",
+      "ko": "피지 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=39",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=36"
+      ]
+    },
+    {
+      "entityId": "state:FRA",
+      "ko": "프랑스 공화국",
+      "validFrom": "1870-09-04",
+      "dateBasis": "effective-date",
+      "validTo": "1940-07-09",
+      "sources": [
+        "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/le-suffrage-universel/la-republique-et-le-suffrage-universel/1870-1940-la-iiieme-republique-ou-l-avenement-du-suffrage-universel-masculin",
+        "https://www.assemblee-nationale.fr/gouv_parl/regimes.asp"
+      ]
+    },
+    {
+      "entityId": "state:FRA",
+      "ko": "프랑스 공화국",
+      "validFrom": "1946-10-27",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=129",
+        "https://www.elysee.fr/la-presidence/la-constitution-du-27-octobre-1946"
+      ]
+    },
+    {
+      "entityId": "state:FSM",
+      "ko": "미크로네시아 연방국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=13",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=65"
+      ]
+    },
+    {
+      "entityId": "state:GAB",
+      "ko": "가봉 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=133",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=37"
+      ]
+    },
+    {
+      "entityId": "state:GBR",
+      "ko": "그레이트브리튼 왕국",
+      "validFrom": "1707-05-01",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/act-of-union-1707/overview/the-articles-constitution-and-trade/"
+      ]
+    },
+    {
+      "entityId": "state:GBR",
+      "ko": "그레이트브리튼 및 아일랜드 연합왕국",
+      "validFrom": "1801-01-01",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.legislation.gov.uk/apgb/Geo3/39-40/67/part/1/data.html"
+      ]
+    },
+    {
+      "entityId": "state:GBR",
+      "ko": "그레이트브리튼 및 북아일랜드 연합왕국",
+      "validFrom": "1927-04-12",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.legislation.gov.uk/ukpga/1927/4/pdfs/ukpga_19270004_en.pdf",
+        "https://gbr.mofa.go.kr/gb-ko/brd/m_8385/view.do?seq=1342405"
+      ]
+    },
+    {
+      "entityId": "state:GEO",
+      "ko": "조지아",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=119",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=38"
+      ]
+    },
+    {
+      "entityId": "state:GHA",
+      "ko": "가나 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=132",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=39"
+      ]
+    },
+    {
+      "entityId": "state:GIN",
+      "ko": "기니 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=135",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=41"
+      ]
+    },
+    {
+      "entityId": "state:GMB",
+      "ko": "감비아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=134",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=38"
+      ]
+    },
+    {
+      "entityId": "state:GNB",
+      "ko": "기니비사우 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=136",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=42"
+      ]
+    },
+    {
+      "entityId": "state:GNQ",
+      "ko": "적도기니 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=170",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=33"
+      ]
+    },
+    {
+      "entityId": "state:GRC",
+      "ko": "그리스 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=78",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=40"
+      ]
+    },
+    {
+      "entityId": "state:GRD",
+      "ko": "그레나다",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=46",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=40"
+      ]
+    },
+    {
+      "entityId": "state:GTM",
+      "ko": "과테말라 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=45",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=41"
+      ]
+    },
+    {
+      "entityId": "state:GUY",
+      "ko": "가이아나 협동 공화국",
+      "validFrom": "2019-03-15",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=44",
+        "https://digitallibrary.un.org/nanna/record/4009605/files/1373275_E.pdf#page=42"
+      ]
+    },
+    {
+      "entityId": "state:HND",
+      "ko": "온두라스 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=66",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=44"
+      ]
+    },
+    {
+      "entityId": "state:HRV",
+      "ko": "크로아티아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=123",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=28"
+      ]
+    },
+    {
+      "entityId": "state:HTI",
+      "ko": "아이티 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=62",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=43"
+      ]
+    },
+    {
+      "entityId": "state:HUN",
+      "ko": "헝가리",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=131",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=44"
+      ]
+    },
+    {
+      "entityId": "state:IDN",
+      "ko": "인도네시아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=28",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=46"
+      ]
+    },
+    {
+      "entityId": "state:IND",
+      "ko": "인도 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=27",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=45"
+      ]
+    },
+    {
+      "entityId": "state:IRL",
+      "ko": "아일랜드",
+      "validFrom": "1937-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=109",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1937"
+      ]
+    },
+    {
+      "entityId": "state:IRN",
+      "ko": "이란 이슬람 공화국",
+      "validFrom": "1979-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=193",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1979"
+      ]
+    },
+    {
+      "entityId": "state:IRQ",
+      "ko": "이라크 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=192",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=47"
+      ]
+    },
+    {
+      "entityId": "state:ISL",
+      "ko": "아이슬란드",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=108",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=45"
+      ]
+    },
+    {
+      "entityId": "state:ISR",
+      "ko": "이스라엘국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://law.go.kr/trtyBInfoP.do?trtySeq=1166",
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=194",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=48"
+      ]
+    },
+    {
+      "entityId": "state:ITA",
+      "ko": "이탈리아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=118",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=48"
+      ]
+    },
+    {
+      "entityId": "state:JAM",
+      "ko": "자메이카",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=68",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=49"
+      ]
+    },
+    {
+      "entityId": "state:JOR",
+      "ko": "요르단 하심 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=191",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=50",
+        "https://www.mofa.go.kr/jo-ko/wpge/m_11155/contents.do"
+      ]
+    },
+    {
+      "entityId": "state:JPN",
+      "ko": "일본국",
+      "validFrom": "1947-05-03",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=3",
+        "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm"
+      ]
+    },
+    {
+      "entityId": "state:KAZ",
+      "ko": "카자흐스탄 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=121",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=51"
+      ]
+    },
+    {
+      "entityId": "state:KEN",
+      "ko": "케냐 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=177",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=52"
+      ]
+    },
+    {
+      "entityId": "state:KGZ",
+      "ko": "키르기스 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=124",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=55"
+      ]
+    },
+    {
+      "entityId": "state:KHM",
+      "ko": "캄보디아 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=29",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=21"
+      ]
+    },
+    {
+      "entityId": "state:KIR",
+      "ko": "키리바시 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=31",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=52"
+      ]
+    },
+    {
+      "entityId": "state:KNA",
+      "ko": "세인트키츠네비스",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=59",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=82"
+      ]
+    },
+    {
+      "entityId": "state:KOR",
+      "ko": "대한민국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1027547733",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=54"
+      ]
+    },
+    {
+      "entityId": "state:KOS",
+      "ko": "코소보 공화국",
+      "validFrom": "2008-06-15",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=122",
+        "https://gzk.rks-gov.net/ActDetail.aspx?ActID=3702&langid=2",
+        "https://kryeministri.rks-gov.net/en/news/prime-minister-thaci-the-state-is-build-with-the-sacrifice-of-those-who-are-no-longer-with-us-and-it-functions-guided-by-the-visions-for-the-future/"
+      ]
+    },
+    {
+      "entityId": "state:KWT",
+      "ko": "쿠웨이트국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=196",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=54"
+      ]
+    },
+    {
+      "entityId": "state:LBN",
+      "ko": "레바논 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=185",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=57"
+      ]
+    },
+    {
+      "entityId": "state:LBR",
+      "ko": "라이베리아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=142",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=58"
+      ]
+    },
+    {
+      "entityId": "state:LCA",
+      "ko": "세인트루시아",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=57",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=82"
+      ]
+    },
+    {
+      "entityId": "state:LIE",
+      "ko": "리히텐슈타인 공국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=88",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=59"
+      ]
+    },
+    {
+      "entityId": "state:LKA",
+      "ko": "스리랑카 민주사회주의공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=24",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=93"
+      ]
+    },
+    {
+      "entityId": "state:LSO",
+      "ko": "레소토 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=143",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=57"
+      ]
+    },
+    {
+      "entityId": "state:LTU",
+      "ko": "리투아니아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=87",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=59"
+      ]
+    },
+    {
+      "entityId": "state:LUX",
+      "ko": "룩셈부르크 대공국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=86",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=60"
+      ]
+    },
+    {
+      "entityId": "state:LVA",
+      "ko": "라트비아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=83",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=56"
+      ]
+    },
+    {
+      "entityId": "state:MAR",
+      "ko": "모로코 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=149",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=68"
+      ]
+    },
+    {
+      "entityId": "state:MCO",
+      "ko": "모나코 공국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=90",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=66"
+      ]
+    },
+    {
+      "entityId": "state:MDA",
+      "ko": "몰도바 공화국",
+      "validFrom": "1992-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=92",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1992"
+      ]
+    },
+    {
+      "entityId": "state:MDG",
+      "ko": "마다가스카르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=146",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=60"
+      ]
+    },
+    {
+      "entityId": "state:MDV",
+      "ko": "몰디브 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=15",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=62"
+      ]
+    },
+    {
+      "entityId": "state:MEX",
+      "ko": "멕시코 합중국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=50",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=65"
+      ]
+    },
+    {
+      "entityId": "state:MHL",
+      "ko": "마셜제도 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=12",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=63"
+      ]
+    },
+    {
+      "entityId": "state:MLI",
+      "ko": "말리 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=148",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=62"
+      ]
+    },
+    {
+      "entityId": "state:MLT",
+      "ko": "몰타 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=93",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=63"
+      ]
+    },
+    {
+      "entityId": "state:MNE",
+      "ko": "몬테네그로",
+      "validFrom": "2007-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=91",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#2007"
+      ]
+    },
+    {
+      "entityId": "state:MNG",
+      "ko": "몽골",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=5",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=67"
+      ]
+    },
+    {
+      "entityId": "state:MOZ",
+      "ko": "모잠비크 공화국",
+      "validFrom": "1990-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=152",
+        "https://www.ts.gov.mz/legislacao/"
+      ]
+    },
+    {
+      "entityId": "state:MRT",
+      "ko": "모리타니아 이슬람 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=151",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=64"
+      ]
+    },
+    {
+      "entityId": "state:MUS",
+      "ko": "모리셔스 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=150",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=64"
+      ]
+    },
+    {
+      "entityId": "state:MWI",
+      "ko": "말라위 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=147",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=61"
+      ]
+    },
+    {
+      "entityId": "state:MYS",
+      "ko": "말레이시아",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=14",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=61"
+      ]
+    },
+    {
+      "entityId": "state:NAM",
+      "ko": "나미비아 공화국",
+      "validFrom": "1990-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=137",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1990"
+      ]
+    },
+    {
+      "entityId": "state:NER",
+      "ko": "니제르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=141",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=72"
+      ]
+    },
+    {
+      "entityId": "state:NGA",
+      "ko": "나이지리아 연방공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=138",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=73"
+      ]
+    },
+    {
+      "entityId": "state:NIC",
+      "ko": "니카라과 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=47",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=72"
+      ]
+    },
+    {
+      "entityId": "state:NIU",
+      "ko": "니우에",
+      "validFrom": "1974-10-19",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=9",
+        "https://www.legislation.govt.nz/act/public/1974/0042/latest/DLM413443.html"
+      ]
+    },
+    {
+      "entityId": "state:NLD",
+      "ko": "네덜란드 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=79",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=71"
+      ]
+    },
+    {
+      "entityId": "state:NOR",
+      "ko": "노르웨이 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=80",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=73"
+      ]
+    },
+    {
+      "entityId": "state:NZL",
+      "ko": "뉴질랜드",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=8",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=71"
+      ]
+    },
+    {
+      "entityId": "state:OMN",
+      "ko": "오만 술탄국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=190",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=74",
+        "https://opendata.mofa.go.kr/core/resource/Country/OM.page"
+      ]
+    },
+    {
+      "entityId": "state:PAK",
+      "ko": "파키스탄 이슬람 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=36",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=75"
+      ]
+    },
+    {
+      "entityId": "state:PAN",
+      "ko": "파나마 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=74",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=76"
+      ]
+    },
+    {
+      "entityId": "state:PER",
+      "ko": "페루 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=76",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=78"
+      ]
+    },
+    {
+      "entityId": "state:PHL",
+      "ko": "필리핀 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=40",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=78"
+      ]
+    },
+    {
+      "entityId": "state:PLW",
+      "ko": "팔라우 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=38",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=76"
+      ]
+    },
+    {
+      "entityId": "state:PNG",
+      "ko": "파푸아뉴기니 독립국",
+      "validFrom": "2019-03-15",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=37",
+        "https://digitallibrary.un.org/nanna/record/4009605/files/1373275_E.pdf#page=75"
+      ]
+    },
+    {
+      "entityId": "state:POL",
+      "ko": "폴란드 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=199",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=79"
+      ]
+    },
+    {
+      "entityId": "state:PRK",
+      "ko": "조선민주주의인민공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://law.go.kr/LSW/detcInfoP.do?detcSeq=137462",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=53"
+      ]
+    },
+    {
+      "entityId": "state:PRT",
+      "ko": "포르투갈 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=128",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=79"
+      ]
+    },
+    {
+      "entityId": "state:PRY",
+      "ko": "파라과이 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=75",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=77"
+      ]
+    },
+    {
+      "entityId": "state:PSX",
+      "ko": "팔레스타인국",
+      "validFrom": "1988-11-15",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.un.org/unispal/document/auto-insert-178680/"
+      ]
+    },
+    {
+      "entityId": "state:QAT",
+      "ko": "카타르국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=195",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=80"
+      ]
+    },
+    {
+      "entityId": "state:ROU",
+      "ko": "루마니아",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=85",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=80"
+      ]
+    },
+    {
+      "entityId": "state:RUS",
+      "ko": "러시아 연방",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=84",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=81"
+      ]
+    },
+    {
+      "entityId": "state:RWA",
+      "ko": "르완다 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=144",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=81"
+      ]
+    },
+    {
+      "entityId": "state:SAH",
+      "ko": "사하라 아랍 민주공화국",
+      "validFrom": "1976-02-27",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://au.int/web/sites/default/files/newsevents/workingdocuments/13174-wd-legal_opinionof-the-auc-legal-counsel-on-the-legality-of-the-exploitation-and-exploration-by-foreign-entities-of-the-natural-resources-of-western-sahara.pdf"
+      ]
+    },
+    {
+      "entityId": "state:SAU",
+      "ko": "사우디아라비아 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=186",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=85"
+      ]
+    },
+    {
+      "entityId": "state:SDN",
+      "ko": "수단 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=162",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=94"
+      ]
+    },
+    {
+      "entityId": "state:SDS",
+      "ko": "남수단 공화국",
+      "validFrom": "2011-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=139",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#2011"
+      ]
+    },
+    {
+      "entityId": "state:SEN",
+      "ko": "세네갈 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=159",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=85"
+      ]
+    },
+    {
+      "entityId": "state:SGP",
+      "ko": "싱가포르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=25",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=88"
+      ]
+    },
+    {
+      "entityId": "state:SLB",
+      "ko": "솔로몬제도",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=23",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=90"
+      ]
+    },
+    {
+      "entityId": "state:SLE",
+      "ko": "시에라리온 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=164",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=87"
+      ]
+    },
+    {
+      "entityId": "state:SLV",
+      "ko": "엘살바도르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=65",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=33"
+      ]
+    },
+    {
+      "entityId": "state:SMR",
+      "ko": "산마리노 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=100",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=84"
+      ]
+    },
+    {
+      "entityId": "state:SOL",
+      "ko": "소말릴란드 공화국",
+      "validFrom": "1991-05-18",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.govsomaliland.org/uploads/files/2020/08/2020-08-11-05-04-04-84-1597122244.pdf"
+      ]
+    },
+    {
+      "entityId": "state:SRB",
+      "ko": "세르비아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=101",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=86"
+      ]
+    },
+    {
+      "entityId": "state:STP",
+      "ko": "상투메프린시페 민주공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=158",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=84"
+      ]
+    },
+    {
+      "entityId": "state:SUR",
+      "ko": "수리남 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=60",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=94"
+      ]
+    },
+    {
+      "entityId": "state:SVK",
+      "ko": "슬로바키아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=105",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=89"
+      ]
+    },
+    {
+      "entityId": "state:SVN",
+      "ko": "슬로베니아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=106",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=89"
+      ]
+    },
+    {
+      "entityId": "state:SWE",
+      "ko": "스웨덴 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=102",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=95"
+      ]
+    },
+    {
+      "entityId": "state:SYC",
+      "ko": "세이셸 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=160",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=86"
+      ]
+    },
+    {
+      "entityId": "state:SYR",
+      "ko": "시리아 아랍 공화국",
+      "validFrom": "1961-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1961",
+        "https://natlex.ilo.org/dyn/natlex2/r/natlex/fe/details?p3_isn=118300"
+      ]
+    },
+    {
+      "entityId": "state:TCD",
+      "ko": "차드 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=174",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=23"
+      ]
+    },
+    {
+      "entityId": "state:TGO",
+      "ko": "토고 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=183",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=100"
+      ]
+    },
+    {
+      "entityId": "state:THA",
+      "ko": "태국 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.law.go.kr/trtyMInfoP.do?trtySeq=2222",
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=32",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=98"
+      ]
+    },
+    {
+      "entityId": "state:TJK",
+      "ko": "타지키스탄 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=125",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=97"
+      ]
+    },
+    {
+      "entityId": "state:TKM",
+      "ko": "투르크메니스탄",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=127",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=103"
+      ]
+    },
+    {
+      "entityId": "state:TLS",
+      "ko": "동티모르 민주공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=10",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=100"
+      ]
+    },
+    {
+      "entityId": "state:TON",
+      "ko": "통가 왕국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=33",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=101"
+      ]
+    },
+    {
+      "entityId": "state:TTO",
+      "ko": "트리니다드토바고 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=73",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=101"
+      ]
+    },
+    {
+      "entityId": "state:TUN",
+      "ko": "튀니지 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=184",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=102"
+      ]
+    },
+    {
+      "entityId": "state:TUV",
+      "ko": "투발루",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=34",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=103"
+      ]
+    },
+    {
+      "entityId": "state:TWN",
+      "ko": "중화민국",
+      "validFrom": "1947-12-25",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://english.president.gov.tw/Page/48"
+      ]
+    },
+    {
+      "entityId": "state:TZA",
+      "ko": "탄자니아 합중국",
+      "validFrom": "1964-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=182",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1964"
+      ]
+    },
+    {
+      "entityId": "state:UGA",
+      "ko": "우간다 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=200",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=104"
+      ]
+    },
+    {
+      "entityId": "state:UKR",
+      "ko": "우크라이나",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=117",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=104"
+      ]
+    },
+    {
+      "entityId": "state:URY",
+      "ko": "우루과이 동방공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=67",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=107"
+      ]
+    },
+    {
+      "entityId": "state:USA",
+      "ko": "미합중국",
+      "validFrom": "1776-08-02",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=43",
+        "https://www.archives.gov/milestone-documents/declaration-of-independence"
+      ]
+    },
+    {
+      "entityId": "state:UZB",
+      "ko": "우즈베키스탄 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=116",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=108"
+      ]
+    },
+    {
+      "entityId": "state:VAT",
+      "ko": "바티칸 시국",
+      "validFrom": "1929-06-07",
+      "dateBasis": "effective-date",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=77",
+        "https://www.vaticanstate.va/en/state-and-government/general-informations.html"
+      ]
+    },
+    {
+      "entityId": "state:VCT",
+      "ko": "세인트빈센트그레나딘",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=58",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=83"
+      ]
+    },
+    {
+      "entityId": "state:VEN",
+      "ko": "베네수엘라 볼리바르 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=53",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=109"
+      ]
+    },
+    {
+      "entityId": "state:VNM",
+      "ko": "베트남 사회주의공화국",
+      "validFrom": "1976-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=19",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1976"
+      ]
+    },
+    {
+      "entityId": "state:VUT",
+      "ko": "바누아투 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=17",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=108"
+      ]
+    },
+    {
+      "entityId": "state:YEM",
+      "ko": "예멘 공화국",
+      "validFrom": "1990-12-31",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=189",
+        "https://www.gov.uk/government/publications/country-names/timeline-of-country-name-changes-in-hmg-use-1919-to-present#1990"
+      ]
+    },
+    {
+      "entityId": "state:ZAF",
+      "ko": "남아프리카 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=140",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=91"
+      ]
+    },
+    {
+      "entityId": "state:ZMB",
+      "ko": "잠비아 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=169",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=110"
+      ]
+    },
+    {
+      "entityId": "state:ZWE",
+      "ko": "짐바브웨 공화국",
+      "validFrom": "2012-05-21",
+      "dateBasis": "documented-use",
+      "sources": [
+        "https://www.mofa.go.kr/www/nation/m_3458/view.do?seq=173",
+        "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_25_UNGEGN%20WG%20Country%20Names%20Document.pdf#page=111"
+      ]
+    }
+  ],
+  "reviewedOn": "2026-11-21",
+  "deferred": [
+    {
+      "entityId": "state:AFG",
+      "validFrom": "2021-08-15",
+      "reason": "Different names in current de facto and UN diplomatic use; retain the short name pending review of current naming policy."
+    }
+  ]
+}
