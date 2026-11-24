@@ -2987,7 +2987,8 @@
       "metadata": {
         "sourceFeatureId": "ABW",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/aw.svg",
-        "representativeGeometryVersionId": "state:ABW:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ABW:natural-earth-5.1.1",
+        "affiliationType": "자치구성국"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -2997,9 +2998,9 @@
       "file": "state-ABW.json.gz",
       "validFrom": "1986-01-01",
       "validTo": null,
-      "compressedBytes": 1247,
-      "decodedBytes": 4054,
-      "sha256": "09af35cb77877c377fda4305ce409e6765cccdc33c8e7e72bfd913cdf192de11",
+      "compressedBytes": 1286,
+      "decodedBytes": 4096,
+      "sha256": "2283a1ec4f684f099e971ad76c80737ab968ae60ee833eff82776e3b178bf31b",
       "bbox": [
         -70.062408,
         12.41767,
@@ -3140,7 +3141,24 @@
       "metadata": {
         "sourceFeatureId": "AIA",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ai.svg",
-        "representativeGeometryVersionId": "state:AIA:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:AIA:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1980-12-19",
+            "validTo": "1982-12-31",
+            "type": "별도속령"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -3150,9 +3168,9 @@
       "file": "state-AIA.json.gz",
       "validFrom": "1980-12-19",
       "validTo": null,
-      "compressedBytes": 1617,
-      "decodedBytes": 7802,
-      "sha256": "33aab83b170877f4e1a777a3473a67d3f4f6fda52647ce9aa4c991452a0a039a",
+      "compressedBytes": 1716,
+      "decodedBytes": 8180,
+      "sha256": "8b3fb7332bb0a340011a223b8c95fed00b535739357088c0116d8e591689e94b",
       "bbox": [
         -63.428822,
         18.169094,
@@ -3346,7 +3364,14 @@
       "metadata": {
         "sourceFeatureId": "ALD",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ax.svg",
-        "representativeGeometryVersionId": "state:ALD:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ALD:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1922-06-09",
+            "validTo": null,
+            "type": "자치주"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -3356,9 +3381,9 @@
       "file": "state-ALD.json.gz",
       "validFrom": "1920-05-07",
       "validTo": null,
-      "compressedBytes": 5943,
-      "decodedBytes": 44461,
-      "sha256": "e0510840b2ae267ccfd102b143d5d6e3f0f77c1dd8a7bb80be5aeaedf4890203",
+      "compressedBytes": 6016,
+      "decodedBytes": 44604,
+      "sha256": "19d317437e7be6c505746d8c8c75141dae5ec17878fd86f5a9ef1aaf97c25bcb",
       "bbox": [
         19.513194,
         59.904486,
@@ -3669,7 +3694,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYwMCIgdmVyc2lvbj0iMS4xIiBpZD0ic3ZnMTA2MyI+DQogIDxtZXRhZGF0YSBpZD0ibWV0YWRhdGExMDY5Ij4NCiAgICA8cmRmOlJERj4NCiAgICAgIDxjYzpXb3JrIHJkZjphYm91dD0iIj4NCiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+DQogICAgICAgIDxkYzp0eXBlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiLz4NCiAgICAgICAgPGRjOnRpdGxlLz4NCiAgICAgIDwvY2M6V29yaz4NCiAgICA8L3JkZjpSREY+DQogIDwvbWV0YWRhdGE+DQogIDxkZWZzIGlkPSJkZWZzMTA2NyIvPg0KICA8cGF0aCBmaWxsPSIjYzAwIiBkPSJNMCAwaDEyMDB2NjAwSDB6IiBpZD0icGF0aDEwNTEiLz4NCiAgPHBhdGggZD0iTTAgMjI1aDEyMDB2MTUwSDB6IiBmaWxsPSIjMjkzMzk5IiBpZD0icGF0aDEwNTMiLz4NCiAgPGcNCiAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MSINCiAgICAgaWQ9ImcyOTAwIg0KICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjc5MTQ1NTAzLDAsMCwwLjc4OTM5MDQ5LC02LjkzNjIxNTgsLTIuNDQyMTM4MykiPg0KICAgIDxwYXRoDQogICAgICAgaWQ9InJlY3Q0MTY1LTYiDQogICAgICAgZD0ibSAxMzcuNDM3NDQsMTcxLjY5NDIxIDE4Ljg2Mjk2LDE4Ljk5MzcgMTcuNzg4MzQsLTE3LjY2NTg5IGMgMjcuMDU4NDcsMjkuMDIxIDU1LjQzODA3LDU2Ljk5NTAxIDgyLjI4NzA0LDg2LjEyNzgyIDQuMDM0NDQsNC4wNjIzMyAxMC41OTgxNSw0LjA4NSAxNC42NjA1NiwwLjA1MDYgNC4wNjIzMiwtNC4wMzQ0NSA0LjA4NDk5LC0xMC41OTgxNSAwLjA1MDYsLTE0LjY2MDU2IC0yOC44MTg3MSwtMjcuMTkwMSAtNTcuNzI1NDUsLTU0LjYwMTQzIC04Ni41NTMyOCwtODEuODkwOTUgbCAyMy45NjQ5OSwtMjMuODAwMDMgLTMzLjM0MDI2LC00LjYxNjA1IHoiDQogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC40ODkxOTE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPg0KICAgIDxwYXRoDQogICAgICAgaWQ9InBhdGg0MTc5LTMiDQogICAgICAgZD0ibSAxOTguMjg4NywxMTAuMTk1NSBjIDE1LjUxNzQzLDguNzM5NCAyNy4yOTg3MiwyMS4yODEyMiAzNC4yNDg0LDM0LjM5MjQgNy4wNDM5NCwxMy4yODkwMiAxMC4xMzk1OSwyNy4xNjIxOCAxMC4yMDMyNSwzOC4yNTQzMyAwLjEzMDU0LDIyLjc0Mzc0IC0xOC40Mzc3MSw0MS4xODE4NCAtNDEuMTgxODMsNDEuMTgxODQgLTEyLjEzNTk3LDAgLTIzLjA0NjA3LC01LjI0ODY4IC0zMC41ODMwMiwtMTMuNjAwODUgbCAtNC4xNjg2MywzLjUxMDMzIGMgLTAuNzA5OTksLTAuMjcyMzEgLTEuNDYzODcsLTAuNDEyMjEgLTIuMjI0MjksLTAuNDEyNzYgLTEuODI5NDgsMS45ZS00IC0zLjU2NjIxLDAuODA1MzEgLTQuNzQ4NTksMi4yMDEzNiAtMi45NzM2OCwwLjM4ODk2IC01LjQ2MjUxLDIuNDQ1MjkgLTYuNDA1MzQsNS4yOTIyNCAtMy4xMzQ4Niw2LjI4ODQzIC04LjYzNTI0LDExLjIxOTk3IC0xNS4yOTEwNCwxMy40Nzc2IC0wLjA2MzcsMC4wMjE2IC0wLjExOTkyLDAuMDUgLTAuMTc1OCwwLjA3ODMgLTMuMDc3NDksMS4xMjc1OCAtNi4xNjI1OSwzLjE2NDMgLTguNzg5MTksNS44MDI0NSAtNS4xOTE1NSw1LjIzNjU2IC03LjcyODU4LDExLjkzNjU4IC02LjMwMDI0LDE2LjYzODIyIC0wLjE0MDk4LDAuNDA4NTcgLTAuMjEzNjEsMC44Mzc1OSAtMC4yMTQ5OCwxLjI2OTc5IDEuNWUtNCwyLjE3MDgyIDEuNzU5OTEsMy45MzA1OCAzLjkzMDczLDMuOTMwNzMgMC41NDM0MSwtMC4wMDIgMS4wODA1MywtMC4xMTYzOSAxLjU3NzQ1LC0wLjMzNjMyIDQuNjkzNjksMS4wNTg4MSAxMS4wNjg4NSwtMS41NDU4MiAxNi4wNTQ0NCwtNi41NTkxNyAyLjgyNjI0LC0yLjg1MDcyIDQuOTQzNTYsLTYuMjIzNDkgNS45ODMwMywtOS41MzA2MiAyLjMxNjk2LC02LjYyMjc4IDcuMjk2OTksLTEyLjAxODU2IDEzLjYyMjgxLC0xNS4wNTMxMiAwLjE1MTA1LC0wLjA3MjUgMC4yNzMwMywtMC4xNDcxNCAwLjM4MjE4LC0wLjIyMzU4IDIuMTIwODIsLTEuMDE0MDggMy42NzI1MSwtMi45Mjg5NSA0LjIyNSwtNS4yMTM5IDkuNzAyMjIsMTEuNDQ0ODEgMjQuMjUyNTUsMTguNzUyOTkgNDAuNTE4NzYsMTkuMTM1NzcgMjkuODMzNTIsMC43MDIwNSA1Mi4xMzI5OSwtMjEuMjU4MDIgNTMuMTY0MTQsLTUyLjgzNjQyIDAuNTE4OTQsLTE1Ljg5MjU5IC01LjYyOTkzLC0zNi4zODQ3IC0xOS42NDEyLC01My4xOTA4OSAtMTAuNzA4MzUsLTEyLjg0NDQxIC0yNi40MDk4NywtMjMuNTA3OTUgLTQ0LjE4Njk5LC0yOC4yMDc3NyB6Ig0KICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTAwMDM1O3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgLz4NCiAgPC9nPg0KICA8cGF0aA0KICAgICBpZD0icGF0aDExNzI4Ig0KICAgICBkPSJtIDE1MC4wMDA5MywyNC41NDU0NTcgLTYuNzM1NDYsMjAuNzI5NTA5IGggLTIxLjc5NjE0IGwgMTcuNjMzNDIsMTIuODExMzg4IC02LjczNTQ3LDIwLjcyOTUwMyAxNy42MzM2NSwtMTIuODExNjI4IDE3LjYzMzY2LDEyLjgxMTYyOCAtNi43MzU0NywtMjAuNzI5NTAzIDE3LjYzMzQxLC0xMi44MTEzODggSCAxNTYuNzM2NCBaIG0gMCwxMC43OTk5ODkgNC4zMTA2MiwxMy4yNjY3NzkgaCAxMy45NDk3NSBsIC0xMS4yODU2LDguMTk5NTk3IDQuMzEwNjEsMTMuMjY2Nzc3IC0xMS4yODUzOCwtOC4xOTkzNjMgLTExLjI4NTM4LDguMTk5MzYzIDQuMzEwNjIsLTEzLjI2Njc3NyAtMTEuMjg1NjEsLTguMTk5NTk3IGggMTMuOTQ5NzUgeiINCiAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC4xMnB4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEiIC8+DQo8L3N2Zz4=",
-        "representativeGeometryVersionId": "state:soviet-union-armenian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-armenian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-12-05",
+            "validTo": "1991-09-22",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -3679,9 +3711,9 @@
       "file": "state-soviet-union-armenian-ssr.json.gz",
       "validFrom": "1936-12-05",
       "validTo": "1991-09-22",
-      "compressedBytes": 8646,
-      "decodedBytes": 45127,
-      "sha256": "55a194190848af2d211b34c135fa4b5cf811f0702983dd15cd998939976e72f8",
+      "compressedBytes": 8696,
+      "decodedBytes": 45284,
+      "sha256": "724379066079f99c716e9ccf9b141eeb8f8a30995913c531b83e697b50230888",
       "bbox": [
         43.436294,
         38.863701,
@@ -3720,7 +3752,14 @@
       "metadata": {
         "sourceFeatureId": "ASM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/as.svg",
-        "representativeGeometryVersionId": "state:ASM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ASM:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1929-02-20",
+            "validTo": null,
+            "type": "비편입영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -3730,9 +3769,9 @@
       "file": "state-ASM.json.gz",
       "validFrom": "1900-02-16",
       "validTo": null,
-      "compressedBytes": 1726,
-      "decodedBytes": 7718,
-      "sha256": "467a84e28bd393d887dca31f8e48aa0ba40901beafc2fa3d074c0147b91a9429",
+      "compressedBytes": 1783,
+      "decodedBytes": 7867,
+      "sha256": "794d43893c4d966da57c606be1fc82fba67f2d0612a2e9e2c771c7a8c53f8d42",
       "bbox": [
         -171.086537,
         -14.532892,
@@ -3821,7 +3860,8 @@
       },
       "metadata": {
         "sourceFeatureId": "ATC",
-        "representativeGeometryVersionId": "state:ATC:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ATC:natural-earth-5.1.1",
+        "affiliationType": "외부영토"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -3831,9 +3871,9 @@
       "file": "state-ATC.json.gz",
       "validFrom": "1934-05-10",
       "validTo": null,
-      "compressedBytes": 1061,
-      "decodedBytes": 2570,
-      "sha256": "8825426a60c7e6608a37bc63d2f5b649e2d99ab93333d2fa283ffab8215c5a44",
+      "compressedBytes": 1089,
+      "decodedBytes": 2609,
+      "sha256": "c0580f0e78de0aae5eba47c82abfaad4a37ef58ecea885542f416a802ba78d95",
       "bbox": [
         123.575043,
         -12.438572,
@@ -3872,7 +3912,14 @@
       "metadata": {
         "sourceFeatureId": "ATF",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tf.svg",
-        "representativeGeometryVersionId": "state:ATF:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ATF:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1955-08-09",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -3882,9 +3929,9 @@
       "file": "state-ATF.json.gz",
       "validFrom": "1955-08-06",
       "validTo": null,
-      "compressedBytes": 6212,
-      "decodedBytes": 49345,
-      "sha256": "9388be79893943b6fe83fb3b5a2191b28777b7541b3414b318c778fa9753a88d",
+      "compressedBytes": 6295,
+      "decodedBytes": 49491,
+      "sha256": "88625a5becd4ccdc3f153d84ef4e623f62501178534b19cb5cc97c8056b9b4cf",
       "bbox": [
         39.728282,
         -49.721612,
@@ -4142,7 +4189,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjAwIiBpZD0ic3ZnMTAiPg0KICA8bWV0YWRhdGEgaWQ9Im1ldGFkYXRhMTYiPg0KICAgIDxyZGY6UkRGPg0KICAgICAgPGNjOldvcmsgcmRmOmFib3V0PSIiPg0KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4NCiAgICAgICAgPGRjOnR5cGUgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIvPg0KICAgICAgICA8ZGM6dGl0bGUvPg0KICAgICAgPC9jYzpXb3JrPg0KICAgIDwvcmRmOlJERj4NCiAgPC9tZXRhZGF0YT4NCiAgPGRlZnMgaWQ9ImRlZnMxNCIvPg0KICA8cGF0aCBkPSJNMCAwaDEyMDB2NjAwSDB6IiBpZD0icGF0aDIiIHN0eWxlPSJmaWxsOiNjYzAwMDA7ZmlsbC1vcGFjaXR5OjEiIGZpbGwtb3BhY2l0eT0iMSIgZmlsbD0iI2JjMDAwMCIvPg0KICA8cGF0aCBpZD0icGF0aDExNzI4IiBkPSJtIDIwMCwzNy41IC04LjQxOTMzLDI1LjkxMTg4NiBIIDE2NC4zMzYgTCAxODYuMzc3NzcsNzkuNDI2MTIyIDE3Ny45NTg0NCwxMDUuMzM4IDIwMC4wMDA1LDg5LjMyMzQ2NSAyMjIuMDQyNTcsMTA1LjMzOCAyMTMuNjIzMjQsNzkuNDI2MTIyIDIzNS42NjUsNjMuNDExODg2IGggLTI3LjI0NTE2IHogbSAwLDEzLjQ5OTk4NyA1LjM4ODI4LDE2LjU4MzQ3MyBoIDE3LjQzNzE4IGwgLTE0LjEwNywxMC4yNDk0OTYgNS4zODgyNywxNi41ODM0NzIgTCAyMDAuMDAwNSw4NC4xNjcyMjQgMTg1Ljg5Mzc4LDk0LjQxNjQyOCAxOTEuMjgyMDUsNzcuODMyOTU2IDE3Ny4xNzUwNCw2Ny41ODM0NiBoIDE3LjQzNzE4IHoiIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuMTQ5OTk5NzdweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxIi8+DQogIDxnIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiIGlkPSJnMjkwMCIgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODkzMTg3OSwwLDAsMC45ODY3MzgxMSwzLjgyOTc2NTgsMy43NjU5Mzk4KSI+DQogICAgPHBhdGggaWQ9InJlY3Q0MTY1LTYiIGQ9Im0gMTM3LjQzNzQ0LDE3MS42OTQyMSAxOC44NjI5NiwxOC45OTM3IDE3Ljc4ODM0LC0xNy42NjU4OSBjIDI3LjA1ODQ3LDI5LjAyMSA1NS40MzgwNyw1Ni45OTUwMSA4Mi4yODcwNCw4Ni4xMjc4MiA0LjAzNDQ0LDQuMDYyMzMgMTAuNTk4MTUsNC4wODUgMTQuNjYwNTYsMC4wNTA2IDQuMDYyMzIsLTQuMDM0NDUgNC4wODQ5OSwtMTAuNTk4MTUgMC4wNTA2LC0xNC42NjA1NiAtMjguODE4NzEsLTI3LjE5MDEgLTU3LjcyNTQ1LC01NC42MDE0MyAtODYuNTUzMjgsLTgxLjg5MDk1IGwgMjMuOTY0OTksLTIzLjgwMDAzIC0zMy4zNDAyNiwtNC42MTYwNSB6IiBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MDczO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIvPg0KICAgIDxwYXRoIGlkPSJwYXRoNDE3OS0zIiBkPSJtIDE5OC4yODg3LDExMC4xOTU1IGMgMTUuNTE3NDMsOC43Mzk0IDI3LjI5ODcyLDIxLjI4MTIyIDM0LjI0ODQsMzQuMzkyNCA3LjA0Mzk0LDEzLjI4OTAyIDEwLjEzOTU5LDI3LjE2MjE4IDEwLjIwMzI1LDM4LjI1NDMzIDAuMTMwNTQsMjIuNzQzNzQgLTE4LjQzNzcxLDQxLjE4MTg0IC00MS4xODE4Myw0MS4xODE4NCAtMTIuMTM1OTcsMCAtMjMuMDQ2MDcsLTUuMjQ4NjggLTMwLjU4MzAyLC0xMy42MDA4NSBsIC00LjE2ODYzLDMuNTEwMzMgYyAtMC43MDk5OSwtMC4yNzIzMSAtMS40NjM4NywtMC40MTIyMSAtMi4yMjQyOSwtMC40MTI3NiAtMS44Mjk0OCwxLjllLTQgLTMuNTY2MjEsMC44MDUzMSAtNC43NDg1OSwyLjIwMTM2IC0yLjk3MzY4LDAuMzg4OTYgLTUuNDYyNTEsMi40NDUyOSAtNi40MDUzNCw1LjI5MjI0IC0zLjEzNDg2LDYuMjg4NDMgLTguNjM1MjQsMTEuMjE5OTcgLTE1LjI5MTA0LDEzLjQ3NzYgLTAuMDYzNywwLjAyMTYgLTAuMTE5OTIsMC4wNSAtMC4xNzU4LDAuMDc4MyAtMy4wNzc0OSwxLjEyNzU4IC02LjE2MjU5LDMuMTY0MyAtOC43ODkxOSw1LjgwMjQ1IC01LjE5MTU1LDUuMjM2NTYgLTcuNzI4NTgsMTEuOTM2NTggLTYuMzAwMjQsMTYuNjM4MjIgLTAuMTQwOTgsMC40MDg1NyAtMC4yMTM2MSwwLjgzNzU5IC0wLjIxNDk4LDEuMjY5NzkgMS41ZS00LDIuMTcwODIgMS43NTk5MSwzLjkzMDU4IDMuOTMwNzMsMy45MzA3MyAwLjU0MzQxLC0wLjAwMiAxLjA4MDUzLC0wLjExNjM5IDEuNTc3NDUsLTAuMzM2MzIgNC42OTM2OSwxLjA1ODgxIDExLjA2ODg1LC0xLjU0NTgyIDE2LjA1NDQ0LC02LjU1OTE3IDIuODI2MjQsLTIuODUwNzIgNC45NDM1NiwtNi4yMjM0OSA1Ljk4MzAzLC05LjUzMDYyIDIuMzE2OTYsLTYuNjIyNzggNy4yOTY5OSwtMTIuMDE4NTYgMTMuNjIyODEsLTE1LjA1MzEyIDAuMTUxMDUsLTAuMDcyNSAwLjI3MzAzLC0wLjE0NzE0IDAuMzgyMTgsLTAuMjIzNTggMi4xMjA4MiwtMS4wMTQwOCAzLjY3MjUxLC0yLjkyODk1IDQuMjI1LC01LjIxMzkgOS43MDIyMiwxMS40NDQ4MSAyNC4yNTI1NSwxOC43NTI5OSA0MC41MTg3NiwxOS4xMzU3NyAyOS44MzM1MiwwLjcwMjA1IDUyLjEzMjk5LC0yMS4yNTgwMiA1My4xNjQxNCwtNTIuODM2NDIgMC41MTg5NCwtMTUuODkyNTkgLTUuNjI5OTMsLTM2LjM4NDcgLTE5LjY0MTIsLTUzLjE5MDg5IC0xMC43MDgzNSwtMTIuODQ0NDEgLTI2LjQwOTg3LC0yMy41MDc5NSAtNDQuMTg2OTksLTI4LjIwNzc3IHoiIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTAwMDM0ODE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIi8+DQogIDwvZz4NCiAgPHBhdGggaWQ9InBhdGgxNjg0IiBkPSJNIDAsNDUwIEggMTIwMCBWIDYwMCBIIDAgWiIgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiMwMDMzOTk7ZmlsbC1ydWxlOmV2ZW5vZGQiLz4NCjwvc3ZnPg==",
-        "representativeGeometryVersionId": "state:soviet-union-azerbaijan-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-azerbaijan-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-12-05",
+            "validTo": "1991-10-17",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -4152,9 +4206,9 @@
       "file": "state-soviet-union-azerbaijan-ssr.json.gz",
       "validFrom": "1936-12-05",
       "validTo": "1991-10-17",
-      "compressedBytes": 13718,
-      "decodedBytes": 90143,
-      "sha256": "1736edec07019516ecd0a5a885d388a81691b26fc72136522dadbcc09722a443",
+      "compressedBytes": 13768,
+      "decodedBytes": 90300,
+      "sha256": "f07c8ad897f800b32d83fb1822be26145854dfa178dcaf8b1fc8e8a9dae42a6c",
       "bbox": [
         44.774559,
         38.392645,
@@ -4973,7 +5027,8 @@
       "metadata": {
         "sourceFeatureId": "BLM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bl.svg",
-        "representativeGeometryVersionId": "state:BLM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:BLM:natural-earth-5.1.1",
+        "affiliationType": "해외집합체"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -4983,9 +5038,9 @@
       "file": "state-BLM.json.gz",
       "validFrom": "2007-07-15",
       "validTo": null,
-      "compressedBytes": 1151,
-      "decodedBytes": 2981,
-      "sha256": "0448fa0eb4469e2da0a55409558674be4e9bf41c368ee347951e26fd159030d4",
+      "compressedBytes": 1185,
+      "decodedBytes": 3023,
+      "sha256": "8a25df3bc8e87af1322fef4bb7c4b1f9e88adae270a195239c658a114edf5785",
       "bbox": [
         -62.86734,
         17.881985,
@@ -5492,7 +5547,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiCiAgIHdpZHRoPSIxMjAwIgogICBoZWlnaHQ9IjYwMCIKICAgdmlld0JveD0iMCAwIDg4NTM2MDAgNDQyNjgwMCIKICAgaWQ9InN2ZzIiCiAgIHZlcnNpb249IjEuMSI+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNDgiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgICAgPGRjOnRpdGxlPjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM0NiIgLz4KICA8cmVjdAogICAgIHdpZHRoPSI4ODUzNjAwIgogICAgIGhlaWdodD0iNDQyNjgwMCIKICAgICBpZD0icmVjdDQiCiAgICAgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiMwMDk5MzM7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjEuMzMzMzMzMzciCiAgICAgeD0iMCIKICAgICB5PSIyLjMyODMwNjRlLTAxMCIgLz4KICA8cmVjdAogICAgIHdpZHRoPSI4ODUzNjAwIgogICAgIGhlaWdodD0iMjk1MTIwMCIKICAgICBpZD0icmVjdDYiCiAgICAgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiNjYzAwMDA7c3Ryb2tlLXdpZHRoOjEuMzMzMzMzMzciCiAgICAgeD0iMCIKICAgICB5PSIyLjMyODMwNjRlLTAxMCIgLz4KICA8ZwogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiCiAgICAgaWQ9ImcyOTAwIgogICAgIHRyYW5zZm9ybT0ibWF0cml4KDQ4NjYuMTI5MywwLDAsNDg1My40MzU4LDEyNDg1MDMuOCwyMDI5NzMuNDIpIj4KICAgIDxwYXRoCiAgICAgICBpZD0icmVjdDQxNjUtNiIKICAgICAgIGQ9Im0gMTM3LjQzNzQ0LDE3MS42OTQyMSAxOC44NjI5NiwxOC45OTM3IDE3Ljc4ODM0LC0xNy42NjU4OSBjIDI3LjA1ODQ3LDI5LjAyMSA1NS40MzgwNyw1Ni45OTUwMSA4Mi4yODcwNCw4Ni4xMjc4MiA0LjAzNDQ0LDQuMDYyMzMgMTAuNTk4MTUsNC4wODUgMTQuNjYwNTYsMC4wNTA2IDQuMDYyMzIsLTQuMDM0NDUgNC4wODQ5OSwtMTAuNTk4MTUgMC4wNTA2LC0xNC42NjA1NiAtMjguODE4NzEsLTI3LjE5MDEgLTU3LjcyNTQ1LC01NC42MDE0MyAtODYuNTUzMjgsLTgxLjg5MDk1IGwgMjMuOTY0OTksLTIzLjgwMDAzIC0zMy4zNDAyNiwtNC42MTYwNSB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC40ODkxOTA3MztzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgICA8cGF0aAogICAgICAgaWQ9InBhdGg0MTc5LTMiCiAgICAgICBkPSJtIDE5OC4yODg3LDExMC4xOTU1IGMgMTUuNTE3NDMsOC43Mzk0IDI3LjI5ODcyLDIxLjI4MTIyIDM0LjI0ODQsMzQuMzkyNCA3LjA0Mzk0LDEzLjI4OTAyIDEwLjEzOTU5LDI3LjE2MjE4IDEwLjIwMzI1LDM4LjI1NDMzIDAuMTMwNTQsMjIuNzQzNzQgLTE4LjQzNzcxLDQxLjE4MTg0IC00MS4xODE4Myw0MS4xODE4NCAtMTIuMTM1OTcsMCAtMjMuMDQ2MDcsLTUuMjQ4NjggLTMwLjU4MzAyLC0xMy42MDA4NSBsIC00LjE2ODYzLDMuNTEwMzMgYyAtMC43MDk5OSwtMC4yNzIzMSAtMS40NjM4NywtMC40MTIyMSAtMi4yMjQyOSwtMC40MTI3NiAtMS44Mjk0OCwxLjllLTQgLTMuNTY2MjEsMC44MDUzMSAtNC43NDg1OSwyLjIwMTM2IC0yLjk3MzY4LDAuMzg4OTYgLTUuNDYyNTEsMi40NDUyOSAtNi40MDUzNCw1LjI5MjI0IC0zLjEzNDg2LDYuMjg4NDMgLTguNjM1MjQsMTEuMjE5OTcgLTE1LjI5MTA0LDEzLjQ3NzYgLTAuMDYzNywwLjAyMTYgLTAuMTE5OTIsMC4wNSAtMC4xNzU4LDAuMDc4MyAtMy4wNzc0OSwxLjEyNzU4IC02LjE2MjU5LDMuMTY0MyAtOC43ODkxOSw1LjgwMjQ1IC01LjE5MTU1LDUuMjM2NTYgLTcuNzI4NTgsMTEuOTM2NTggLTYuMzAwMjQsMTYuNjM4MjIgLTAuMTQwOTgsMC40MDg1NyAtMC4yMTM2MSwwLjgzNzU5IC0wLjIxNDk4LDEuMjY5NzkgMS41ZS00LDIuMTcwODIgMS43NTk5MSwzLjkzMDU4IDMuOTMwNzMsMy45MzA3MyAwLjU0MzQxLC0wLjAwMiAxLjA4MDUzLC0wLjExNjM5IDEuNTc3NDUsLTAuMzM2MzIgNC42OTM2OSwxLjA1ODgxIDExLjA2ODg1LC0xLjU0NTgyIDE2LjA1NDQ0LC02LjU1OTE3IDIuODI2MjQsLTIuODUwNzIgNC45NDM1NiwtNi4yMjM0OSA1Ljk4MzAzLC05LjUzMDYyIDIuMzE2OTYsLTYuNjIyNzggNy4yOTY5OSwtMTIuMDE4NTYgMTMuNjIyODEsLTE1LjA1MzEyIDAuMTUxMDUsLTAuMDcyNSAwLjI3MzAzLC0wLjE0NzE0IDAuMzgyMTgsLTAuMjIzNTggMi4xMjA4MiwtMS4wMTQwOCAzLjY3MjUxLC0yLjkyODk1IDQuMjI1LC01LjIxMzkgOS43MDIyMiwxMS40NDQ4MSAyNC4yNTI1NSwxOC43NTI5OSA0MC41MTg3NiwxOS4xMzU3NyAyOS44MzM1MiwwLjcwMjA1IDUyLjEzMjk5LC0yMS4yNTgwMiA1My4xNjQxNCwtNTIuODM2NDIgMC41MTg5NCwtMTUuODkyNTkgLTUuNjI5OTMsLTM2LjM4NDcgLTE5LjY0MTIsLTUzLjE5MDg5IC0xMC43MDgzNSwtMTIuODQ0NDEgLTI2LjQwOTg3LC0yMy41MDc5NSAtNDQuMTg2OTksLTI4LjIwNzc3IHoiCiAgICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjUwMDAzNDgxO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KICA8L2c+CiAgPHJlY3QKICAgICB3aWR0aD0iOTgzNzMzLjMxIgogICAgIGhlaWdodD0iNDQyNjgwMCIKICAgICBpZD0icmVjdDgiCiAgICAgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiNmZmZmZmY7c3Ryb2tlLXdpZHRoOjEuMzMzMzMzMzciCiAgICAgeD0iMCIKICAgICB5PSIyLjMyODMwNjRlLTAxMCIgLz4KICA8cGF0aAogICAgIGQ9Ik0gNzg2OTguNywwIFYgNDQyNjgwMCBNIDkwNTAzNC42NywwIHYgNDQyNjgwMCIKICAgICBpZD0icGF0aDEwIgogICAgIHN0eWxlPSJvcGFjaXR5OjE7c3Ryb2tlOiNjYzAwMDA7c3Ryb2tlLXdpZHRoOjc4Njk4LjY2NDA2MjUiIC8+CiAgPHJlY3QKICAgICB3aWR0aD0iNjY4OTM4LjY5IgogICAgIGhlaWdodD0iNDQyNjgwMCIKICAgICB4PSIxNTczOTcuMzEiCiAgICAgaWQ9InJlY3QxMiIKICAgICBzdHlsZT0ib3BhY2l0eToxO2ZpbGw6I2NjMDAwMDtzdHJva2Utd2lkdGg6MS4zMzMzMzMzNyIKICAgICB5PSIyLjMyODMwNjRlLTAxMCIgLz4KICA8ZwogICAgIHRyYW5zZm9ybT0ibWF0cml4KDE2NzgxLjMzMywwLDAsMTAyMDAsMjA2NTg0LDApIgogICAgIGlkPSJnMTQiCiAgICAgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiNmZmZmZmYiPgogICAgPGcKICAgICAgIGlkPSJoIj4KICAgICAgPGcKICAgICAgICAgaWQ9InEiPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgZD0iTSAwLDggSCAyIFYgMjAgSCAwIFogTSAwLDY2IEggMiBWIDc4IEggMCBaIG0gMCw1MiBoIDIgdiAxMiBIIDAgWiBtIDAsNTAgaCAyIHYgOCBIIDAgWiBtIDEsNTAgMSwtMSB2IC02IEggMCB2IDYgeiIKICAgICAgICAgICBpZD0icGF0aDE4IiAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgZD0iTSA4LDAgViAxMCBIIDYgViAyMCBIIDQgViAzMCBIIDIgViA0MCBIIDAgdiAxMCBoIDIgdiAxMCBoIDIgdiAxMCBoIDIgdiAxMCBoIDIgdiAxMCBoIDIgViA4MCBoIDIgViA3MCBoIDIgViA2MCBoIDIgViA1MCBoIDMgViA0MCBIIDE2IFYgMzAgSCAxNCBWIDIwIEggMTIgViAxMCBIIDEwIFYgMCBaIG0gMiwyMCB2IDEwIGggMiB2IDEwIGggMiBWIDUwIEggMTIgViA2MCBIIDEwIFYgNzAgSCA4IFYgNjAgSCA2IFYgNTAgSCA0IFYgNDAgSCA2IFYgMzAgSCA4IFYgMjAgWiBNIDgsNDAgdiAxMCBoIDIgViA0MCBaIgogICAgICAgICAgIGlkPSJwYXRoMjAiIC8+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBkPSJtIDAsOTQgaCAxIHYgLTYgaCAxIHYgLTYgaCAzIHYgNiBoIDEgdiA2IGggMSB2IDggSCA2IHYgNiBIIDUgdiA2IEggMiB2IC02IEggMSB2IC02IEggMCBaIG0gMywtMiB2IDQgSCAyIHYgNCBoIDEgdiA0IGggMSB2IC00IEggNSBWIDk2IEggNCB2IC00IHoiCiAgICAgICAgICAgaWQ9InBhdGgyMiIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgIGQ9Im0gMTEsOTQgaCAxIHYgLTYgaCAxIHYgLTYgaCAzIHYgNiBoIDIgdiAyMCBoIC0yIHYgNiBoIC0zIHYgLTYgaCAtMSB2IC02IGggLTEgeiBtIDMsLTIgdiA0IGggLTEgdiA0IGggMSB2IDQgaCAxIHYgLTQgaCAxIHYgLTQgaCAtMSB2IC00IHoiCiAgICAgICAgICAgaWQ9InBhdGgyNCIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgIGQ9Im0gMCwxODAgaCAyIHYgNiBoIDIgdiA2IGggMiB2IDEwIGggMiB2IC0xMCBoIDIgdiAtNiBoIDIgdiAtOCBoIDMgdiAtMTAgaCAtMSB2IC0xNiBoIC0yIHYgLTggaCAtMiB2IDEyIGggMiB2IDEwIGggLTIgdiAxMCBIIDggdiAxMCBIIDYgViAxNzYgSCA0IFYgMTY2IEggMiBWIDE1NiBIIDAgdiAtMTAgaCAyIHYgLTEwIGggMiB2IC0xMCBoIDIgdiAtMTAgaCAyIHYgLTEwIGggMiB2IDEwIGggMiB2IDEwIGggMiB2IDEwIGggMiB2IDEwIGggMiB2IDM4IGggLTIgdiA0LjUgaCAtMSB2IDkuNSBoIC0zIHYgOCBoIC0yIHYgNyBIIDggdiA4IEggNiB2IC04IEggNCB2IC03IEggMiB2IC04IEggMCBaIgogICAgICAgICAgIGlkPSJwYXRoMjYiIC8+CiAgICAgICAgPHBhdGgKICAgICAgICAgICBkPSJtIDEzLDIwNCBoIDIgdiA0IGggMSB2IDMgaCAyIHYgMTAgaCAtMyB2IC04IGggLTEgdiAtMyBoIC0xIHogbSAtMSwxNCAxLC0xIHYgLTYgaCAtMiB2IDYgeiIKICAgICAgICAgICBpZD0icGF0aDI4IiAvPgogICAgICA8L2c+CiAgICAgIDx1c2UKICAgICAgICAgeGxpbms6aHJlZj0iI3EiCiAgICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KC0xLDAsMCwxLDM0LDApIgogICAgICAgICBpZD0idXNlMzAiCiAgICAgICAgIHg9IjAiCiAgICAgICAgIHk9IjAiCiAgICAgICAgIHdpZHRoPSIxMDAlIgogICAgICAgICBoZWlnaHQ9IjEwMCUiIC8+CiAgICAgIDxwYXRoCiAgICAgICAgIGQ9Im0gMTYsOCBoIDIgdiAxMiBoIC0yIHogbSAwLDU4IGggMiB2IDEyIGggLTIgeiBtIDAsNTIgaCAyIHYgMTIgaCAtMiB6IG0gMCw3OCBoIDIgdiAxMCBoIC0yIHoiCiAgICAgICAgIGlkPSJwYXRoMzIiIC8+CiAgICA8L2c+CiAgICA8dXNlCiAgICAgICB4bGluazpocmVmPSIjaCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDEsMCwwLC0xLDAsNDM0KSIKICAgICAgIGlkPSJ1c2UzNCIKICAgICAgIHg9IjAiCiAgICAgICB5PSIwIgogICAgICAgd2lkdGg9IjEwMCUiCiAgICAgICBoZWlnaHQ9IjEwMCUiIC8+CiAgPC9nPgogIDxwYXRoCiAgICAgZD0iTSAyNzg5NDEyLjUsOTY3MDQ3LjQ4IgogICAgIGlkPSJwYXRoMzY3NSIKICAgICBzdHlsZT0ib3ZlcmZsb3c6dmlzaWJsZTtvcGFjaXR5OjE7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDo1NzA1LjY1MjgzMjAzIiAvPgogIDxwYXRoCiAgICAgaWQ9InBhdGgxMTcyOCIKICAgICBkPSJtIDIyMTM0MDIuMywzNjg5MDAuMTkgLTQxNDExLjYsMTI3NDUwLjk4IGggLTEzNDAwOC45IGwgMTA4NDE1LjMsNzg3NjguMTUgLTQxNDExLjYsMTI3NDUwLjkxIDEwODQxNi44LC03ODc2OS42MSAxMDg0MTYuOCw3ODc2OS42MSAtNDE0MTEuNiwtMTI3NDUwLjkxIDEwODQxNS4yLC03ODc2OC4xNSBoIC0xMzQwMDguOSB6IG0gMCw2NjQwMS40MyAyNjUwMi45LDgxNTY4IGggODU3NjcgbCAtNjkzODcsNTA0MTMuNDkgMjY1MDIuOCw4MTU2Ny45MiAtNjkzODUuNywtNTA0MTIuMDIgLTY5Mzg1LjgsNTA0MTIuMDIgMjY1MDIuOSwtODE1NjcuOTIgLTY5Mzg3LjEsLTUwNDEzLjQ5IGggODU3NjcgeiIKICAgICBzdHlsZT0ib3BhY2l0eTowLjk4MDAwMDA0O2ZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6NzM3Ljc5MzMzNDk2cHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KPC9zdmc+Cg==",
-        "representativeGeometryVersionId": "state:soviet-union-byelorussian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-byelorussian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1922-12-30",
+            "validTo": "1991-08-24",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -5502,9 +5564,9 @@
       "file": "state-soviet-union-byelorussian-ssr.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1991-08-24",
-      "compressedBytes": 31257,
-      "decodedBytes": 175418,
-      "sha256": "31f4201e5ee62948891401d7073f75779f4f42828ece5e1fb70ae1ffea3caa3b",
+      "compressedBytes": 31341,
+      "decodedBytes": 175575,
+      "sha256": "96b830061d2a3ca301113eed751a0b323d8d029d34045a2209a11d67b0963a68",
       "bbox": [
         23.165645,
         51.235168,
@@ -5594,7 +5656,24 @@
       "metadata": {
         "sourceFeatureId": "BMU",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/bm.svg",
-        "representativeGeometryVersionId": "state:BMU:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:BMU:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1707-05-12",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -5604,9 +5683,9 @@
       "file": "state-BMU.json.gz",
       "validFrom": "1612",
       "validTo": null,
-      "compressedBytes": 1760,
-      "decodedBytes": 9347,
-      "sha256": "4a9f56e0f29bed631b4075d9ad2d562f3173a8836411e8d68c40c29b174a1d78",
+      "compressedBytes": 1916,
+      "decodedBytes": 9728,
+      "sha256": "b06d3a4255a4f968cb04a137512151db8630410e04d286be8cf847e0a5351425",
       "bbox": [
         -64.885994,
         32.248077,
@@ -6995,7 +7074,19 @@
       },
       "metadata": {
         "sourceFeatureId": "CLP",
-        "representativeGeometryVersionId": "state:CLP:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:CLP:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-06-16",
+            "validTo": "2007-02-21",
+            "type": "오세아니아 행정편입도서"
+          },
+          {
+            "validFrom": "2007-02-22",
+            "validTo": null,
+            "type": "정부직할도서"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -7005,9 +7096,9 @@
       "file": "state-CLP.json.gz",
       "validFrom": "1858-11-17",
       "validTo": null,
-      "compressedBytes": 1098,
-      "decodedBytes": 2630,
-      "sha256": "9c52e2d35620a7cfb76f718bb57021dbd8834b758386aeb1655a20c6eb6d3c75",
+      "compressedBytes": 1234,
+      "decodedBytes": 2920,
+      "sha256": "eb0f5c364424af256e7da21c16cf9df3152e324d018010279e51aea251f5ea53",
       "bbox": [
         -109.234242,
         10.281562,
@@ -7604,7 +7695,8 @@
       },
       "metadata": {
         "sourceFeatureId": "CSI",
-        "representativeGeometryVersionId": "state:CSI:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:CSI:natural-earth-5.1.1",
+        "affiliationType": "외부영토"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -7614,9 +7706,9 @@
       "file": "state-CSI.json.gz",
       "validFrom": "1969-09-30",
       "validTo": null,
-      "compressedBytes": 1023,
-      "decodedBytes": 2442,
-      "sha256": "b3af884fe48039339697bcc592c8a8b930349f4ffceff4eee407f480d69fed7e",
+      "compressedBytes": 1050,
+      "decodedBytes": 2481,
+      "sha256": "b54dc17079fa545dd3d51ae0e474fb52ecd013e73a013e23e613e0ba4040e9a3",
       "bbox": [
         154.38852,
         -21.030043,
@@ -7706,7 +7798,8 @@
       "metadata": {
         "sourceFeatureId": "CUW",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/cw.svg",
-        "representativeGeometryVersionId": "state:CUW:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:CUW:natural-earth-5.1.1",
+        "affiliationType": "자치구성국"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -7716,9 +7809,9 @@
       "file": "state-CUW.json.gz",
       "validFrom": "2010-10-10",
       "validTo": null,
-      "compressedBytes": 1477,
-      "decodedBytes": 5557,
-      "sha256": "70353107677f01954604c428d070e76381db4fc7d81f1f6f620b92a08a658c8d",
+      "compressedBytes": 1517,
+      "decodedBytes": 5599,
+      "sha256": "07789928df424ba848defa19a31c8a95c9c10287ed4cff2d8edfbe67a461dfcf",
       "bbox": [
         -69.171742,
         12.041327,
@@ -7757,7 +7850,29 @@
       "metadata": {
         "sourceFeatureId": "CYM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ky.svg",
-        "representativeGeometryVersionId": "state:CYM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:CYM:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1959-07-04",
+            "validTo": "1962-08-05",
+            "type": "별도헌정 식민지"
+          },
+          {
+            "validFrom": "1962-08-06",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -7767,9 +7882,9 @@
       "file": "state-CYM.json.gz",
       "validFrom": "1959-07-04",
       "validTo": null,
-      "compressedBytes": 1940,
-      "decodedBytes": 9593,
-      "sha256": "b9905bdf957e913a14fc77c342a7da6ccad3a973e18695e5b1705f0f663468b0",
+      "compressedBytes": 2108,
+      "decodedBytes": 10100,
+      "sha256": "55cdd32a5ebb615b2bae3f1688d4af7fb68010db118b13cb35b901d7e279da0c",
       "bbox": [
         -81.416542,
         19.263864,
@@ -8567,7 +8682,8 @@
       },
       "metadata": {
         "sourceFeatureId": "ESB",
-        "representativeGeometryVersionId": "state:ESB:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:ESB:natural-earth-5.1.1",
+        "affiliationType": "주권기지구역"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -8577,9 +8693,9 @@
       "file": "state-ESB.json.gz",
       "validFrom": "1960-08-16",
       "validTo": null,
-      "compressedBytes": 2200,
-      "decodedBytes": 11141,
-      "sha256": "e26145885691723743b207a1719382be2548d3d69af21dce4f4236c8f106c2bf",
+      "compressedBytes": 2244,
+      "decodedBytes": 11186,
+      "sha256": "236d7748c3ef2c726b18caa27e21eaab97fd927a581969673baa6da729bc8eeb",
       "bbox": [
         33.674099,
         34.937893,
@@ -8735,7 +8851,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjYwMCIgd2lkdGg9IjEyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHBhdGggZD0ibTAgMGgxMjAwdjYwMGgtMTIwMHoiIGZpbGw9IiNjMDAiIC8+DQogICAgPHBhdGgNCiAgICAgICAgZD0ibTIwMC4wMDA1IDM3LjUwMDAwOS04LjQxOTMzIDI1LjkxMTg5aC0yNy4yNDUxN2wyMi4wNDE3NyAxNi4wMTQyMy04LjQxOTMzIDI1LjkxMTg4MSAyMi4wNDIwNi0xNi4wMTQ1MzEgMjIuMDQyMDcgMTYuMDE0NTMxLTguNDE5MzMtMjUuOTExODgxIDIyLjA0MTc2LTE2LjAxNDIzaC0yNy4yNDUxNnptMCAxMy40OTk5OSA1LjM4ODI4IDE2LjU4MzQ3aDE3LjQzNzE4bC0xNC4xMDcgMTAuMjQ5NSA1LjM4ODI3IDE2LjU4MzQ3LTE0LjEwNjczLTEwLjI0OTItMTQuMTA2NzIgMTAuMjQ5MiA1LjM4ODI3LTE2LjU4MzQ3LTE0LjEwNzAxLTEwLjI0OTVoMTcuNDM3MTh6Ig0KICAgICAgICBmaWxsPSIjZmZkNzAwIiAvPg0KICAgIDxnIGZpbGw9IiNmZmQ3MDAiIHRyYW5zZm9ybT0ibWF0cml4KC45ODkzMTg3OSAwIDAgLjk4NjczODExIDMuODI5NzcgMy43NjU5NDkpIj4NCiAgICAgICAgPHBhdGgNCiAgICAgICAgICAgIGQ9Im0xMzcuNDM3NDQgMTcxLjY5NDIxIDE4Ljg2Mjk2IDE4Ljk5MzcgMTcuNzg4MzQtMTcuNjY1ODljMjcuMDU4NDcgMjkuMDIxIDU1LjQzODA3IDU2Ljk5NTAxIDgyLjI4NzA0IDg2LjEyNzgyIDQuMDM0NDQgNC4wNjIzMyAxMC41OTgxNSA0LjA4NSAxNC42NjA1Ni4wNTA2IDQuMDYyMzItNC4wMzQ0NSA0LjA4NDk5LTEwLjU5ODE1LjA1MDYtMTQuNjYwNTYtMjguODE4NzEtMjcuMTkwMS01Ny43MjU0NS01NC42MDE0My04Ni41NTMyOC04MS44OTA5NWwyMy45NjQ5OS0yMy44MDAwMy0zMy4zNDAyNi00LjYxNjA1eiIgLz4NCiAgICAgICAgPHBhdGgNCiAgICAgICAgICAgIGQ9Im0xOTguMjg4NyAxMTAuMTk1NWMxNS41MTc0MyA4LjczOTQgMjcuMjk4NzIgMjEuMjgxMjIgMzQuMjQ4NCAzNC4zOTI0IDcuMDQzOTQgMTMuMjg5MDIgMTAuMTM5NTkgMjcuMTYyMTggMTAuMjAzMjUgMzguMjU0MzMuMTMwNTQgMjIuNzQzNzQtMTguNDM3NzEgNDEuMTgxODQtNDEuMTgxODMgNDEuMTgxODQtMTIuMTM1OTcgMC0yMy4wNDYwNy01LjI0ODY4LTMwLjU4MzAyLTEzLjYwMDg1bC00LjE2ODYzIDMuNTEwMzNjLS43MDk5OS0uMjcyMzEtMS40NjM4Ny0uNDEyMjEtMi4yMjQyOS0uNDEyNzYtMS44Mjk0OC4wMDAxOS0zLjU2NjIxLjgwNTMxLTQuNzQ4NTkgMi4yMDEzNi0yLjk3MzY4LjM4ODk2LTUuNDYyNTEgMi40NDUyOS02LjQwNTM0IDUuMjkyMjQtMy4xMzQ4NiA2LjI4ODQzLTguNjM1MjQgMTEuMjE5OTctMTUuMjkxMDQgMTMuNDc3Ni0uMDYzNy4wMjE2LS4xMTk5Mi4wNS0uMTc1OC4wNzgzLTMuMDc3NDkgMS4xMjc1OC02LjE2MjU5IDMuMTY0My04Ljc4OTE5IDUuODAyNDUtNS4xOTE1NSA1LjIzNjU2LTcuNzI4NTggMTEuOTM2NTgtNi4zMDAyNCAxNi42MzgyMi0uMTQwOTguNDA4NTctLjIxMzYxLjgzNzU5LS4yMTQ5OCAxLjI2OTc5LjAwMDE1IDIuMTcwODIgMS43NTk5MSAzLjkzMDU4IDMuOTMwNzMgMy45MzA3My41NDM0MS0uMDAyIDEuMDgwNTMtLjExNjM5IDEuNTc3NDUtLjMzNjMyIDQuNjkzNjkgMS4wNTg4MSAxMS4wNjg4NS0xLjU0NTgyIDE2LjA1NDQ0LTYuNTU5MTcgMi44MjYyNC0yLjg1MDcyIDQuOTQzNTYtNi4yMjM0OSA1Ljk4MzAzLTkuNTMwNjIgMi4zMTY5Ni02LjYyMjc4IDcuMjk2OTktMTIuMDE4NTYgMTMuNjIyODEtMTUuMDUzMTIuMTUxMDUtLjA3MjUuMjczMDMtLjE0NzE0LjM4MjE4LS4yMjM1OCAyLjEyMDgyLTEuMDE0MDggMy42NzI1MS0yLjkyODk1IDQuMjI1LTUuMjEzOSA5LjcwMjIyIDExLjQ0NDgxIDI0LjI1MjU1IDE4Ljc1Mjk5IDQwLjUxODc2IDE5LjEzNTc3IDI5LjgzMzUyLjcwMjA1IDUyLjEzMjk5LTIxLjI1ODAyIDUzLjE2NDE0LTUyLjgzNjQyLjUxODk0LTE1Ljg5MjU5LTUuNjI5OTMtMzYuMzg0Ny0xOS42NDEyLTUzLjE5MDg5LTEwLjcwODM1LTEyLjg0NDQxLTI2LjQwOTg3LTIzLjUwNzk1LTQ0LjE4Njk5LTI4LjIwNzc3eiIgLz4NCiAgICA8L2c+DQogICAgPHBhdGgNCiAgICBkPSJtIDEyMDAsNDgwIGMgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCAtMzUsMCAtNzAsLTYgLTEwMCwtMjQgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCBDIDY1LDUwNCAzMCw0OTggMCw0ODAgViAzMzYgaCAxMjAwIHoiDQogICAgc3R5bGU9ImZpbGw6IzE1NGNiYztmaWxsLW9wYWNpdHk6MSINCiAgICBpZD0icGF0aDE0Ii8+PHBhdGgNCiAgICBkPSJtIDEyMDAsMzAwIGMgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCAtMzUsMCAtNzAsLTYgLTEwMCwtMjQgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCAtMzUsMCAtNzAsLTYgLTEwMCwtMjQgdiAzNiBjIDMwLDE4IDY1LDI0IDEwMCwyNCAzNSwwIDcwLC02IDEwMCwtMjQgMzAsMTggNjUsMjQgMTAwLDI0IDM1LDAgNzAsLTYgMTAwLC0yNCAzMCwxOCA2NSwyNCAxMDAsMjQgMzUsMCA3MCwtNiAxMDAsLTI0IDMwLDE4IDY1LDI0IDEwMCwyNCAzNSwwIDcwLC02IDEwMCwtMjQgMzAsMTggNjUsMjQgMTAwLDI0IDM1LDAgNzAsLTYgMTAwLC0yNCAzMCwxOCA2NSwyNCAxMDAsMjQgMzUsMCA3MCwtNiAxMDAsLTI0IHoiDQogICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MSINCiAgICBpZD0icGF0aDExIi8+PHBhdGgNCiAgICBkPSJtIDEyMDAsMzI3IGMgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCAtMzUsMCAtNzAsLTYgLTEwMCwtMjQgLTMwLDE4IC02NSwyNCAtMTAwLDI0IC0zNSwwIC03MCwtNiAtMTAwLC0yNCAtMzAsMTggLTY1LDI0IC0xMDAsMjQgLTM1LDAgLTcwLC02IC0xMDAsLTI0IC0zMCwxOCAtNjUsMjQgLTEwMCwyNCAtMzUsMCAtNzAsLTYgLTEwMCwtMjQgdiAtOSBjIDMwLDE4IDY1LDI0IDEwMCwyNCAzNSwwIDcwLC02IDEwMCwtMjQgMzAsMTggNjUsMjQgMTAwLDI0IDM1LDAgNzAsLTYgMTAwLC0yNCAzMCwxOCA2NSwyNCAxMDAsMjQgMzUsMCA3MCwtNiAxMDAsLTI0IDMwLDE4IDY1LDI0IDEwMCwyNCAzNSwwIDcwLC02IDEwMCwtMjQgMzAsMTggNjUsMjQgMTAwLDI0IDM1LDAgNzAsLTYgMTAwLC0yNCAzMCwxOCA2NSwyNCAxMDAsMjQgMzUsMCA3MCwtNiAxMDAsLTI0IHoiDQogICAgc3R5bGU9ImZpbGw6IzE1NGNiYztmaWxsLW9wYWNpdHk6MSINCiAgICBpZD0icGF0aDE3Ii8+DQo8L3N2Zz4=",
-        "representativeGeometryVersionId": "state:soviet-union-estonian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-estonian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1940-08-06",
+            "validTo": "1991-08-19",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -8745,9 +8868,9 @@
       "file": "state-soviet-union-estonian-ssr.json.gz",
       "validFrom": "1940-08-06",
       "validTo": "1991-08-19",
-      "compressedBytes": 13481,
-      "decodedBytes": 98052,
-      "sha256": "7187fcaf7b29e32d6406c56b225270f165683e87a270bde5b161b4b96ae6635d",
+      "compressedBytes": 13535,
+      "decodedBytes": 98209,
+      "sha256": "25b8bafb36e2df2c5302738138555ab663ef0b1c8d1fa35fee19a8d4e014e61c",
       "bbox": [
         21.832367,
         57.515819,
@@ -8939,7 +9062,24 @@
       "metadata": {
         "sourceFeatureId": "FLK",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fk.svg",
-        "representativeGeometryVersionId": "state:FLK:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:FLK:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1843-06-23",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -8949,9 +9089,9 @@
       "file": "state-FLK.json.gz",
       "validFrom": "1843-06-23",
       "validTo": null,
-      "compressedBytes": 12886,
-      "decodedBytes": 120511,
-      "sha256": "3b340c7716eb4758a2a464a984afde39489be041897c28456ee9d4e23c745f65",
+      "compressedBytes": 13041,
+      "decodedBytes": 120892,
+      "sha256": "9ede348541406fc7c0e35eb4610dcb1f11b3565dc39b3b7f8f3b916658d28e94",
       "bbox": [
         -61.318186,
         -52.406523,
@@ -9159,7 +9299,8 @@
       "metadata": {
         "sourceFeatureId": "FRO",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fo.svg",
-        "representativeGeometryVersionId": "state:FRO:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:FRO:natural-earth-5.1.1",
+        "affiliationType": "자치지역"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -9169,9 +9310,9 @@
       "file": "state-FRO.json.gz",
       "validFrom": "1948-04-01",
       "validTo": null,
-      "compressedBytes": 5345,
-      "decodedBytes": 44281,
-      "sha256": "e8d5cf3b8cdf83b521e7ac62e170ab7d1f1328d23df13b38144540bdd443c6b6",
+      "compressedBytes": 5383,
+      "decodedBytes": 44320,
+      "sha256": "73b3d255872765464aac970ea651d77ca85968d7ce4d8053106b9ad3b1cfb528",
       "bbox": [
         -7.644154,
         61.39411,
@@ -9443,7 +9584,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgaGVpZ2h0PSI2MDAiCiAgIHdpZHRoPSIxMjAwIgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmczNjU2IgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEzNjYyIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMzY2MCIgLz4KICA8cmVjdAogICAgIHN0eWxlPSJmaWxsOiNjYzAwMDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjMwMCIKICAgICBpZD0icmVjdDUiCiAgICAgd2lkdGg9IjEyMDAiCiAgICAgaGVpZ2h0PSI2MDAiCiAgICAgeD0iMCIKICAgICB5PSIwIiAvPgogIDxwYXRoCiAgICAgaWQ9InJlY3QyIgogICAgIHN0eWxlPSJmaWxsOiMzM2E2ZmY7c3Ryb2tlLXdpZHRoOjMxNC43NzQiCiAgICAgZD0ibSAwLDAgaCAzMDAgdiAxMDAgaCA5MDAgViAyMDAgSCAzMDAgViAzMDAgSCAwIFoiIC8+CiAgPHBhdGgKICAgICBpZD0icGF0aDMiCiAgICAgc3R5bGU9ImZpbGw6I2NjMDAwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6OTAxLjY5NiIKICAgICBkPSJNIDAgMCBMIDAgMTcuMzU1NDY5IEwgMTUwIDE1MCBMIDE3LjM1NTQ2OSAwIEwgMCAwIHogTSAxNTAgMTUwIEwgNzUuMjU3ODEyIDAgTCA1MC42NjYwMTYgMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAxMTkuNTE5NTMgMCBMIDk5Ljc2OTUzMSAwIEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDE1OS4yMTA5NCAwIEwgMTQwLjc4OTA2IDAgTCAxNTAgMTUwIHogTSAxNTAgMTUwIEwgMjAwLjIzMDQ3IDAgTCAxODAuNDgwNDcgMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAyNDkuMzMzOTggMCBMIDIyNC43NDIxOSAwIEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCAxNy4zNTU0NjkgTCAzMDAgMCBMIDI4Mi42NDQ1MyAwIEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCA3NS4yNTc4MTIgTCAzMDAgNTAuNjY2MDE2IEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCAxMTkuNTE5NTMgTCAzMDAgOTkuNzY5NTMxIEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCAxNTkuMjEwOTQgTCAzMDAgMTQwLjc4OTA2IEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCAyMDAuMjMwNDcgTCAzMDAgMTgwLjQ4MDQ3IEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDMwMCAyNDkuMzMzOTggTCAzMDAgMjI0Ljc0MjE5IEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDI4Mi42NDQ1MyAzMDAgTCAzMDAgMzAwIEwgMzAwIDI4Mi42NDQ1MyBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAyMjQuNzQyMTkgMzAwIEwgMjQ5LjMzMzk4IDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAxODAuNDgwNDcgMzAwIEwgMjAwLjIzMDQ3IDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAxNDAuNzg5MDYgMzAwIEwgMTU5LjIxMDk0IDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCA5OS43Njk1MzEgMzAwIEwgMTE5LjUxOTUzIDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCA1MC42NjYwMTYgMzAwIEwgNzUuMjU3ODEyIDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAwIDI4Mi42NDQ1MyBMIDAgMzAwIEwgMTcuMzU1NDY5IDMwMCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAwIDIyNC43NDIxOSBMIDAgMjQ5LjMzMzk4IEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDAgMTgwLjQ4MDQ3IEwgMCAyMDAuMjMwNDcgTCAxNTAgMTUwIHogTSAxNTAgMTUwIEwgMCAxNDAuNzg5MDYgTCAwIDE1OS4yMTA5NCBMIDE1MCAxNTAgeiBNIDE1MCAxNTAgTCAwIDk5Ljc2OTUzMSBMIDAgMTE5LjUxOTUzIEwgMTUwIDE1MCB6IE0gMTUwIDE1MCBMIDAgNTAuNjY2MDE2IEwgMCA3NS4yNTc4MTIgTCAxNTAgMTUwIHogIiAvPgogIDxjaXJjbGUKICAgICByPSIxMDAiCiAgICAgY3g9IjE1MCIKICAgICBjeT0iMTUwIgogICAgIGZpbGw9IiMzM2E2ZmYiCiAgICAgaWQ9ImNpcmNsZTM2NDIiIC8+CiAgPGcKICAgICBzdHlsZT0iZmlsbDojY2MwMDAwO2ZpbGwtb3BhY2l0eToxIgogICAgIGlkPSJnMjkwMC02IgogICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuNjU5NTQ1ODYsMCwwLDAuNjU3ODI1NDEsMTkuMjE5NTA3LDI3LjUxMDYyNikiPgogICAgPHBhdGgKICAgICAgIGlkPSJyZWN0NDE2NS02IgogICAgICAgZD0ibSAxMzcuNDM3NDQsMTcxLjY5NDIxIDE4Ljg2Mjk2LDE4Ljk5MzcgMTcuNzg4MzQsLTE3LjY2NTg5IGMgMjcuMDU4NDcsMjkuMDIxIDU1LjQzODA3LDU2Ljk5NTAxIDgyLjI4NzA0LDg2LjEyNzgyIDQuMDM0NDQsNC4wNjIzMyAxMC41OTgxNSw0LjA4NSAxNC42NjA1NiwwLjA1MDYgNC4wNjIzMiwtNC4wMzQ0NSA0LjA4NDk5LC0xMC41OTgxNSAwLjA1MDYsLTE0LjY2MDU2IC0yOC44MTg3MSwtMjcuMTkwMSAtNTcuNzI1NDUsLTU0LjYwMTQzIC04Ni41NTMyOCwtODEuODkwOTUgbCAyMy45NjQ5OSwtMjMuODAwMDMgLTMzLjM0MDI2LC00LjYxNjA1IHoiCiAgICAgICBzdHlsZT0iZmlsbDojY2MwMDAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgICA8cGF0aAogICAgICAgaWQ9InBhdGg0MTc5LTMiCiAgICAgICBkPSJtIDE5OC4yODg3LDExMC4xOTU1IGMgMTUuNTE3NDMsOC43Mzk0IDI3LjI5ODcyLDIxLjI4MTIyIDM0LjI0ODQsMzQuMzkyNCA3LjA0Mzk0LDEzLjI4OTAyIDEwLjEzOTU5LDI3LjE2MjE4IDEwLjIwMzI1LDM4LjI1NDMzIDAuMTMwNTQsMjIuNzQzNzQgLTE4LjQzNzcxLDQxLjE4MTg0IC00MS4xODE4Myw0MS4xODE4NCAtMTIuMTM1OTcsMCAtMjMuMDQ2MDcsLTUuMjQ4NjggLTMwLjU4MzAyLC0xMy42MDA4NSBsIC00LjE2ODYzLDMuNTEwMzMgYyAtMC43MDk5OSwtMC4yNzIzMSAtMS40NjM4NywtMC40MTIyMSAtMi4yMjQyOSwtMC40MTI3NiAtMS44Mjk0OCwxLjllLTQgLTMuNTY2MjEsMC44MDUzMSAtNC43NDg1OSwyLjIwMTM2IC0yLjk3MzY4LDAuMzg4OTYgLTUuNDYyNTEsMi40NDUyOSAtNi40MDUzNCw1LjI5MjI0IC0zLjEzNDg2LDYuMjg4NDMgLTguNjM1MjQsMTEuMjE5OTcgLTE1LjI5MTA0LDEzLjQ3NzYgLTAuMDYzNywwLjAyMTYgLTAuMTE5OTIsMC4wNSAtMC4xNzU4LDAuMDc4MyAtMy4wNzc0OSwxLjEyNzU4IC02LjE2MjU5LDMuMTY0MyAtOC43ODkxOSw1LjgwMjQ1IC01LjE5MTU1LDUuMjM2NTYgLTcuNzI4NTgsMTEuOTM2NTggLTYuMzAwMjQsMTYuNjM4MjIgLTAuMTQwOTgsMC40MDg1NyAtMC4yMTM2MSwwLjgzNzU5IC0wLjIxNDk4LDEuMjY5NzkgMS41ZS00LDIuMTcwODIgMS43NTk5MSwzLjkzMDU4IDMuOTMwNzMsMy45MzA3MyAwLjU0MzQxLC0wLjAwMiAxLjA4MDUzLC0wLjExNjM5IDEuNTc3NDUsLTAuMzM2MzIgNC42OTM2OSwxLjA1ODgxIDExLjA2ODg1LC0xLjU0NTgyIDE2LjA1NDQ0LC02LjU1OTE3IDIuODI2MjQsLTIuODUwNzIgNC45NDM1NiwtNi4yMjM0OSA1Ljk4MzAzLC05LjUzMDYyIDIuMzE2OTYsLTYuNjIyNzggNy4yOTY5OSwtMTIuMDE4NTYgMTMuNjIyODEsLTE1LjA1MzEyIDAuMTUxMDUsLTAuMDcyNSAwLjI3MzAzLC0wLjE0NzE0IDAuMzgyMTgsLTAuMjIzNTggMi4xMjA4MiwtMS4wMTQwOCAzLjY3MjUxLC0yLjkyODk1IDQuMjI1LC01LjIxMzkgOS43MDIyMiwxMS40NDQ4MSAyNC4yNTI1NSwxOC43NTI5OSA0MC41MTg3NiwxOS4xMzU3NyAyOS44MzM1MiwwLjcwMjA1IDUyLjEzMjk5LC0yMS4yNTgwMiA1My4xNjQxNCwtNTIuODM2NDIgMC41MTg5NCwtMTUuODkyNTkgLTUuNjI5OTMsLTM2LjM4NDcgLTE5LjY0MTIsLTUzLjE5MDg5IC0xMC43MDgzNSwtMTIuODQ0NDEgLTI2LjQwOTg3LC0yMy41MDc5NSAtNDQuMTg2OTksLTI4LjIwNzc3IHoiCiAgICAgICBzdHlsZT0iZmlsbDojY2MwMDAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjUwMDAzNTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgPC9nPgogIDxwYXRoCiAgICAgc3R5bGU9ImZpbGw6I2NjMDAwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MjUwIgogICAgIGQ9Im0gMTUwLDY2LjY2NjY2NyAtOS43OTY5LDMwLjE0OTkzNSAyNS42NDc5NiwtMTguNjMzMTY5IC0zMS43MDIxMiwtMTBlLTcgMjUuNjQ2OTksMTguNjMzODY5IHoiCiAgICAgaWQ9InBhdGg4IiAvPgo8L3N2Zz4K",
-        "representativeGeometryVersionId": "state:soviet-union-georgian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-georgian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-12-05",
+            "validTo": "1991-04-08",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -9453,9 +9601,9 @@
       "file": "state-soviet-union-georgian-ssr.json.gz",
       "validFrom": "1936-12-05",
       "validTo": "1991-04-08",
-      "compressedBytes": 9875,
-      "decodedBytes": 50896,
-      "sha256": "02e9718c229e0617bc9a69d9a4652615cb41ab063beb16656a07b4c3fd3f5237",
+      "compressedBytes": 9926,
+      "decodedBytes": 51053,
+      "sha256": "4e92460ced3318be243c66a9f124aa4bd5445b1691900748c328d3154477957b",
       "bbox": [
         39.985976,
         41.044111,
@@ -10316,7 +10464,7 @@
       ],
       "lifetime": {
         "validFrom": "1878-04-01",
-        "validTo": "1920-01-10"
+        "validTo": "1945-08-01"
       },
       "parentEntityId": "",
       "geometryVersions": [
@@ -10358,7 +10506,14 @@
           "postMergeOverlapKm2": 0,
           "redistributionPermission": "unconfirmed"
         },
-        "representativeGeometryVersionId": "ostpreussen-1878-1920-r3"
+        "representativeGeometryVersionId": "ostpreussen-1878-1920-r3",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1878-04-01",
+            "validTo": "1918-11-08",
+            "type": "프로이센 왕국 소속 주"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Interaktive Karte Ostpreußens IV (2018), LKI / Goethe-Universität / Latvijas Universitāte; PandoLab canonical alignment",
@@ -10367,10 +10522,10 @@
       },
       "file": "state-east-prussia.json.gz",
       "validFrom": "1878-04-01",
-      "validTo": "1920-01-10",
-      "compressedBytes": 54498,
-      "decodedBytes": 585074,
-      "sha256": "5e513c96cd4910d1bb818faa46548523d507ad61cafffb346c6d926ef45fe1bf",
+      "validTo": "1945-08-01",
+      "compressedBytes": 54583,
+      "decodedBytes": 585246,
+      "sha256": "f44f642294b5cf600c1aab29b1e32be474db697cbc5f9acfa2ce2b605b1bfbbf",
       "bbox": [
         19.306593,
         53.139569,
@@ -10399,7 +10554,7 @@
       ],
       "lifetime": {
         "validFrom": "1878-04-01",
-        "validTo": "1919-12-31"
+        "validTo": "1922-06-30"
       },
       "parentEntityId": "",
       "geometryVersions": [
@@ -10438,7 +10593,14 @@
           "degenerateRings": 0,
           "redistributionPermission": "source-conditions-must-be-reviewed"
         },
-        "representativeGeometryVersionId": "state:west-prussia:1900-01-01-r1"
+        "representativeGeometryVersionId": "state:west-prussia:1900-01-01-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1878-04-01",
+            "validTo": "1918-11-08",
+            "type": "프로이센 왕국 소속 주"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "HistoGIS Prussia Provinces 1914 — Westpreußen",
@@ -10447,10 +10609,10 @@
       },
       "file": "state-west-prussia.json.gz",
       "validFrom": "1878-04-01",
-      "validTo": "1919-12-31",
-      "compressedBytes": 13218,
-      "decodedBytes": 66022,
-      "sha256": "39f2d0242f103ace8a8e22345193cb5cb307d87a85d0c41a64cbe47e005eff59",
+      "validTo": "1922-06-30",
+      "compressedBytes": 13289,
+      "decodedBytes": 66194,
+      "sha256": "91c120c0b9ddec0bbbd2a9de0965413d1566198d2ecfeb01f7632033ca61900d",
       "bbox": [
         15.97351150789861,
         52.8458661199028,
@@ -10489,7 +10651,8 @@
       "metadata": {
         "sourceFeatureId": "GGY",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gg.svg",
-        "representativeGeometryVersionId": "state:GGY:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:GGY:natural-earth-5.1.1",
+        "affiliationType": "왕실속령"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -10499,9 +10662,9 @@
       "file": "state-GGY.json.gz",
       "validFrom": "1204",
       "validTo": null,
-      "compressedBytes": 2025,
-      "decodedBytes": 7871,
-      "sha256": "9fb9914d0a0f15b3ed59a1c5c7664034da1f367f646f0328964ef8b548488a32",
+      "compressedBytes": 2045,
+      "decodedBytes": 7910,
+      "sha256": "672f2ffe5e64899d614a085197c616218836e7d04f2edfc727e9c574ae4a3b2b",
       "bbox": [
         -2.673451,
         49.411566,
@@ -10591,7 +10754,29 @@
       "metadata": {
         "sourceFeatureId": "GIB",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gi.svg",
-        "representativeGeometryVersionId": "state:GIB:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:GIB:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1713-07-13",
+            "validTo": "1829-12-31",
+            "type": "군사주둔지"
+          },
+          {
+            "validFrom": "1831-01-01",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -10601,9 +10786,9 @@
       "file": "state-GIB.json.gz",
       "validFrom": "1713-07-13",
       "validTo": null,
-      "compressedBytes": 967,
-      "decodedBytes": 2319,
-      "sha256": "ab2184674edffb9992dcceb5d051bd1fbf0cc6d0ea515efc1c5c456d798b782b",
+      "compressedBytes": 1132,
+      "decodedBytes": 2819,
+      "sha256": "cfb3bb13d1e2a9714e2f2a460bd286719c2a86d06aa1e00800cb34aab62f5716",
       "bbox": [
         -5.358387,
         36.1105,
@@ -11052,7 +11237,24 @@
       "metadata": {
         "sourceFeatureId": "GRL",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gl.svg",
-        "representativeGeometryVersionId": "state:GRL:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:GRL:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1814-01-14",
+            "validTo": "1953-06-04",
+            "type": "식민지"
+          },
+          {
+            "validFrom": "1953-06-05",
+            "validTo": "1979-04-30",
+            "type": "주"
+          },
+          {
+            "validFrom": "1979-05-01",
+            "validTo": null,
+            "type": "자치지역"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11062,9 +11264,9 @@
       "file": "state-GRL.json.gz",
       "validFrom": "1721",
       "validTo": null,
-      "compressedBytes": 175436,
-      "decodedBytes": 1755608,
-      "sha256": "162d550ee39f3d3d398b1097b7b1bac94ac072c6daa242f5f343f2d3de0845ec",
+      "compressedBytes": 175601,
+      "decodedBytes": 1755974,
+      "sha256": "5bad05aa22a516e9b0e57d511451421ba72d31db44b55dabb1f83f8a2522185c",
       "bbox": [
         -73.05724,
         59.792629,
@@ -11154,7 +11356,19 @@
       "metadata": {
         "sourceFeatureId": "GUM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gu.svg",
-        "representativeGeometryVersionId": "state:GUM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:GUM:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1899-04-11",
+            "validTo": "1950-07-31",
+            "type": "영토(해군관할)"
+          },
+          {
+            "validFrom": "1950-08-01",
+            "validTo": null,
+            "type": "비편입영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11164,9 +11378,9 @@
       "file": "state-GUM.json.gz",
       "validFrom": "1899-04-11",
       "validTo": null,
-      "compressedBytes": 1590,
-      "decodedBytes": 5909,
-      "sha256": "4361778f3693a75b8a69526a92b6b90863862f06b698ac110447f7c0d673e770",
+      "compressedBytes": 1686,
+      "decodedBytes": 6182,
+      "sha256": "7b5a237b9cf3064a59bfcaec39072eccc818b9f2290b6b0caa214620ea6d3929",
       "bbox": [
         144.624197,
         13.241034,
@@ -11256,7 +11470,14 @@
       "metadata": {
         "sourceFeatureId": "HKG",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hk.svg",
-        "representativeGeometryVersionId": "state:HKG:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:HKG:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1997-07-01",
+            "validTo": null,
+            "type": "특별행정구"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11266,9 +11487,9 @@
       "file": "state-HKG.json.gz",
       "validFrom": "1843-06-26",
       "validTo": null,
-      "compressedBytes": 4255,
-      "decodedBytes": 36718,
-      "sha256": "7bfb99ef9497e11a0cbb6d6274589644e06fcfcd0849b9d7dee884f7db385766",
+      "compressedBytes": 4340,
+      "decodedBytes": 36867,
+      "sha256": "ef6197e3d7d921fd877b6eca82ffafcfff89ab1a2b4135bf81132c3b72e39058",
       "bbox": [
         113.837332,
         22.177069,
@@ -11307,7 +11528,8 @@
       "metadata": {
         "sourceFeatureId": "HMD",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/hm.svg",
-        "representativeGeometryVersionId": "state:HMD:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:HMD:natural-earth-5.1.1",
+        "affiliationType": "외부영토"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11317,9 +11539,9 @@
       "file": "state-HMD.json.gz",
       "validFrom": "1953-04-24",
       "validTo": null,
-      "compressedBytes": 1613,
-      "decodedBytes": 6309,
-      "sha256": "6b7fe1429c56ac4a34495f06b0f2f0fb14ceea7d2743ef1ebcc3a7743d2dd4da",
+      "compressedBytes": 1637,
+      "decodedBytes": 6348,
+      "sha256": "1ef8cdb196c7b1a061d749e8b16fe1ea23ffff783c5886066ea7a50818ac1f1c",
       "bbox": [
         73.236013,
         -53.19256,
@@ -11562,7 +11784,14 @@
       "metadata": {
         "sourceFeatureId": "IMN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/im.svg",
-        "representativeGeometryVersionId": "state:IMN:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:IMN:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1765-05-10",
+            "validTo": null,
+            "type": "왕실속령"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11572,9 +11801,9 @@
       "file": "state-IMN.json.gz",
       "validFrom": "1765",
       "validTo": null,
-      "compressedBytes": 1896,
-      "decodedBytes": 8092,
-      "sha256": "7be17857f45ee8bfc25276ceacfa5ac35f7aa79d279103fe4293aa0d9dea6092",
+      "compressedBytes": 1962,
+      "decodedBytes": 8238,
+      "sha256": "eb536d3fcc8c9e1123faeb04f6604ecb74bdd530803a6ec73db0d98b8fca05df",
       "bbox": [
         -4.790151,
         54.056952,
@@ -11876,7 +12105,14 @@
       },
       "metadata": {
         "sourceFeatureId": "IOA",
-        "representativeGeometryVersionId": "state:IOA:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:IOA:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1958-10-01",
+            "validTo": null,
+            "type": "외부영토묶음"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11886,9 +12122,9 @@
       "file": "state-IOA.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 1093,
-      "decodedBytes": 5994,
-      "sha256": "326aac63978f5981f2ad2f28a96a6a78912f361b694263e1cbf3707cb2efe2c3",
+      "compressedBytes": 1164,
+      "decodedBytes": 6146,
+      "sha256": "2584d69aec9eb1f77cefa68461a5e68cd879de1b936b7c513e2eddba377afbb9",
       "bbox": [
         96.821544,
         -12.199965,
@@ -11927,7 +12163,14 @@
       "metadata": {
         "sourceFeatureId": "IOT",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/io.svg",
-        "representativeGeometryVersionId": "state:IOT:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:IOT:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1965-11-08",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -11937,9 +12180,9 @@
       "file": "state-IOT.json.gz",
       "validFrom": "1965-11-08",
       "validTo": null,
-      "compressedBytes": 2190,
-      "decodedBytes": 11826,
-      "sha256": "1facf12f34f99729ed6caa7ac28338b2d157ddad54bba40454a6df34154947f6",
+      "compressedBytes": 2245,
+      "decodedBytes": 11972,
+      "sha256": "06b403d642fe21fd7bc388db86322061a598806fed3f90ba733b0da8eeab5146",
       "bbox": [
         71.260997,
         -7.432224,
@@ -13024,7 +13267,8 @@
       "metadata": {
         "sourceFeatureId": "JEY",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/je.svg",
-        "representativeGeometryVersionId": "state:JEY:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:JEY:natural-earth-5.1.1",
+        "affiliationType": "왕실속령"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -13034,9 +13278,9 @@
       "file": "state-JEY.json.gz",
       "validFrom": "1204",
       "validTo": null,
-      "compressedBytes": 1808,
-      "decodedBytes": 6162,
-      "sha256": "da7fade7c72d32ff65995ce6d1533264d5a80c650aca4f16f03fce3992689b57",
+      "compressedBytes": 1828,
+      "decodedBytes": 6201,
+      "sha256": "d4a22f22c077c39db002d5b694a2b95c98ce2cb2786d1bd5e44de4c04dfe4da3",
       "bbox": [
         -2.242014,
         49.171332,
@@ -13303,7 +13547,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjIsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0ic3ZnNDI3MiIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMTIwMHB4IiBoZWlnaHQ9IjYwMHB4IiB2aWV3Qm94PSIwIDAgMTIwMCA2MDAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyMDAgNjAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCgk8cGF0aCBpZD0icGF0aDQyNjAiIGZpbGw9IiNDRDAwMDAiIGQ9Ik0wLDBoMTIwMHY2MDBIMFYweiIvPg0KCTxwYXRoIGlkPSJwYXRoNDI2OCIgZmlsbD0iIzAwQUZFQyIgZD0iTTAsNDAwaDEyMDB2MTMzLjMzMzMzMzNIMFY0MDB6Ii8+DQoJPHN2ZzpwYXRoDQoJaWQ9InBhdGgxMTcyOCINCglkPSJtIDMwMC4wMDA0NiwzNy41IC04LjQxOTMzLDI1LjkxMTg4NiBIIDI2NC4zMzU5NiBMIDI4Ni4zNzc3Myw3OS40MjYxMjIgMjc3Ljk1ODQsMTA1LjMzOCAzMDAuMDAwNDYsODkuMzIzNDY1IDMyMi4wNDI1MywxMDUuMzM4IDMxMy42MjMyLDc5LjQyNjEyMiAzMzUuNjY0OTYsNjMuNDExODg2IEggMzA4LjQxOTggWiBtIDAsMTMuNDk5OTg3IDUuMzg4MjgsMTYuNTgzNDczIGggMTcuNDM3MTggbCAtMTQuMTA3LDEwLjI0OTQ5NiA1LjM4ODI3LDE2LjU4MzQ3MiBMIDMwMC4wMDA0Niw4NC4xNjcyMjQgMjg1Ljg5Mzc0LDk0LjQxNjQyOCAyOTEuMjgyMDEsNzcuODMyOTU2IDI3Ny4xNzUsNjcuNTgzNDYgaCAxNy40MzcxOCB6Ig0KCXN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuMTVweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxIiAvPg0KCTxzdmc6Zw0KCXN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiDQoJaWQ9ImcyOTAwIg0KCXRyYW5zZm9ybT0ibWF0cml4KDAuOTg5MzE4NzksMCwwLDAuOTg2NzM4MTEsMTAzLjgyOTczLDMuNzY1OTM5OCkiPg0KICAgPHN2ZzpwYXRoDQoJICBpZD0icmVjdDQxNjUtNiINCgkgIGQ9Im0gMTM3LjQzNzQ0LDE3MS42OTQyMSAxOC44NjI5NiwxOC45OTM3IDE3Ljc4ODM0LC0xNy42NjU4OSBjIDI3LjA1ODQ3LDI5LjAyMSA1NS40MzgwNyw1Ni45OTUwMSA4Mi4yODcwNCw4Ni4xMjc4MiA0LjAzNDQ0LDQuMDYyMzMgMTAuNTk4MTUsNC4wODUgMTQuNjYwNTYsMC4wNTA2IDQuMDYyMzIsLTQuMDM0NDUgNC4wODQ5OSwtMTAuNTk4MTUgMC4wNTA2LC0xNC42NjA1NiAtMjguODE4NzEsLTI3LjE5MDEgLTU3LjcyNTQ1LC01NC42MDE0MyAtODYuNTUzMjgsLTgxLjg5MDk1IGwgMjMuOTY0OTksLTIzLjgwMDAzIC0zMy4zNDAyNiwtNC42MTYwNSB6Ig0KCSAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC40ODkxOTE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPg0KICAgPHN2ZzpwYXRoDQoJICBpZD0icGF0aDQxNzktMyINCgkgIGQ9Im0gMTk4LjI4ODcsMTEwLjE5NTUgYyAxNS41MTc0Myw4LjczOTQgMjcuMjk4NzIsMjEuMjgxMjIgMzQuMjQ4NCwzNC4zOTI0IDcuMDQzOTQsMTMuMjg5MDIgMTAuMTM5NTksMjcuMTYyMTggMTAuMjAzMjUsMzguMjU0MzMgMC4xMzA1NCwyMi43NDM3NCAtMTguNDM3NzEsNDEuMTgxODQgLTQxLjE4MTgzLDQxLjE4MTg0IC0xMi4xMzU5NywwIC0yMy4wNDYwNywtNS4yNDg2OCAtMzAuNTgzMDIsLTEzLjYwMDg1IGwgLTQuMTY4NjMsMy41MTAzMyBjIC0wLjcwOTk5LC0wLjI3MjMxIC0xLjQ2Mzg3LC0wLjQxMjIxIC0yLjIyNDI5LC0wLjQxMjc2IC0xLjgyOTQ4LDEuOWUtNCAtMy41NjYyMSwwLjgwNTMxIC00Ljc0ODU5LDIuMjAxMzYgLTIuOTczNjgsMC4zODg5NiAtNS40NjI1MSwyLjQ0NTI5IC02LjQwNTM0LDUuMjkyMjQgLTMuMTM0ODYsNi4yODg0MyAtOC42MzUyNCwxMS4yMTk5NyAtMTUuMjkxMDQsMTMuNDc3NiAtMC4wNjM3LDAuMDIxNiAtMC4xMTk5MiwwLjA1IC0wLjE3NTgsMC4wNzgzIC0zLjA3NzQ5LDEuMTI3NTggLTYuMTYyNTksMy4xNjQzIC04Ljc4OTE5LDUuODAyNDUgLTUuMTkxNTUsNS4yMzY1NiAtNy43Mjg1OCwxMS45MzY1OCAtNi4zMDAyNCwxNi42MzgyMiAtMC4xNDA5OCwwLjQwODU3IC0wLjIxMzYxLDAuODM3NTkgLTAuMjE0OTgsMS4yNjk3OSAxLjVlLTQsMi4xNzA4MiAxLjc1OTkxLDMuOTMwNTggMy45MzA3MywzLjkzMDczIDAuNTQzNDEsLTAuMDAyIDEuMDgwNTMsLTAuMTE2MzkgMS41Nzc0NSwtMC4zMzYzMiA0LjY5MzY5LDEuMDU4ODEgMTEuMDY4ODUsLTEuNTQ1ODIgMTYuMDU0NDQsLTYuNTU5MTcgMi44MjYyNCwtMi44NTA3MiA0Ljk0MzU2LC02LjIyMzQ5IDUuOTgzMDMsLTkuNTMwNjIgMi4zMTY5NiwtNi42MjI3OCA3LjI5Njk5LC0xMi4wMTg1NiAxMy42MjI4MSwtMTUuMDUzMTIgMC4xNTEwNSwtMC4wNzI1IDAuMjczMDMsLTAuMTQ3MTQgMC4zODIxOCwtMC4yMjM1OCAyLjEyMDgyLC0xLjAxNDA4IDMuNjcyNTEsLTIuOTI4OTUgNC4yMjUsLTUuMjEzOSA5LjcwMjIyLDExLjQ0NDgxIDI0LjI1MjU1LDE4Ljc1Mjk5IDQwLjUxODc2LDE5LjEzNTc3IDI5LjgzMzUyLDAuNzAyMDUgNTIuMTMyOTksLTIxLjI1ODAyIDUzLjE2NDE0LC01Mi44MzY0MiAwLjUxODk0LC0xNS44OTI1OSAtNS42Mjk5MywtMzYuMzg0NyAtMTkuNjQxMiwtNTMuMTkwODkgLTEwLjcwODM1LC0xMi44NDQ0MSAtMjYuNDA5ODcsLTIzLjUwNzk1IC00NC4xODY5OSwtMjguMjA3NzcgeiINCgkgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTAwMDM1O3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgLz4NCiA8L3N2ZzpnPg0KPC9zdmc+",
-        "representativeGeometryVersionId": "state:soviet-union-kazakh-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-kazakh-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-12-05",
+            "validTo": "1991-12-15",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -13311,9 +13562,9 @@
         "sourceId": ""
       },
       "file": "state-soviet-union-kazakh-ssr.json.gz",
-      "compressedBytes": 42297,
-      "decodedBytes": 362321,
-      "sha256": "e9ff846a4272c60fca560801f979c78c4a901d4bb94358866710a0201574aebc",
+      "compressedBytes": 42346,
+      "decodedBytes": 362478,
+      "sha256": "d1785f00d310c9fb7d4225aad4bec51bce68774d21a3251355349ed4cf7e95e6",
       "bbox": [
         46.478279,
         40.584656,
@@ -13483,7 +13734,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNjAwIiB3aWR0aD0iMTIwMCIgdmVyc2lvbj0iMS4xIiBpZD0ic3ZnNDg5NyI+DQogIDxtZXRhZGF0YSBpZD0ibWV0YWRhdGE0OTAzIj4NCiAgICA8cmRmOlJERj4NCiAgICAgIDxjYzpXb3JrIHJkZjphYm91dD0iIj4NCiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+DQogICAgICAgIDxkYzp0eXBlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiLz4NCiAgICAgICAgPGRjOnRpdGxlLz4NCiAgICAgIDwvY2M6V29yaz4NCiAgICA8L3JkZjpSREY+DQogIDwvbWV0YWRhdGE+DQogIDxkZWZzIGlkPSJkZWZzNDkwMSIvPg0KICA8cGF0aCBkPSJNMCAwaDEyMDB2NjAwSDB6IiBpZD0icGF0aDQ4ODMiIGZpbGw9IiNjZDAwMDAiLz4NCiAgPGcNCiAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MSINCiAgICAgaWQ9ImcyOTAwLTAiDQogICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuNjU5NTQ1ODYsMCwwLDAuNjU3ODI1NDEsNjkuMjE5ODEzLDE3LjUxMTA5KSI+DQogICAgPHBhdGgNCiAgICAgICBpZD0icmVjdDQxNjUtNiINCiAgICAgICBkPSJtIDEzNy40Mzc0NCwxNzEuNjk0MjEgMTguODYyOTYsMTguOTkzNyAxNy43ODgzNCwtMTcuNjY1ODkgYyAyNy4wNTg0NywyOS4wMjEgNTUuNDM4MDcsNTYuOTk1MDEgODIuMjg3MDQsODYuMTI3ODIgNC4wMzQ0NCw0LjA2MjMzIDEwLjU5ODE1LDQuMDg1IDE0LjY2MDU2LDAuMDUwNiA0LjA2MjMyLC00LjAzNDQ1IDQuMDg0OTksLTEwLjU5ODE1IDAuMDUwNiwtMTQuNjYwNTYgLTI4LjgxODcxLC0yNy4xOTAxIC01Ny43MjU0NSwtNTQuNjAxNDMgLTg2LjU1MzI4LC04MS44OTA5NSBsIDIzLjk2NDk5LC0yMy44MDAwMyAtMzMuMzQwMjYsLTQuNjE2MDUgeiINCiAgICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+DQogICAgPHBhdGgNCiAgICAgICBpZD0icGF0aDQxNzktMyINCiAgICAgICBkPSJtIDE5OC4yODg3LDExMC4xOTU1IGMgMTUuNTE3NDMsOC43Mzk0IDI3LjI5ODcyLDIxLjI4MTIyIDM0LjI0ODQsMzQuMzkyNCA3LjA0Mzk0LDEzLjI4OTAyIDEwLjEzOTU5LDI3LjE2MjE4IDEwLjIwMzI1LDM4LjI1NDMzIDAuMTMwNTQsMjIuNzQzNzQgLTE4LjQzNzcxLDQxLjE4MTg0IC00MS4xODE4Myw0MS4xODE4NCAtMTIuMTM1OTcsMCAtMjMuMDQ2MDcsLTUuMjQ4NjggLTMwLjU4MzAyLC0xMy42MDA4NSBsIC00LjE2ODYzLDMuNTEwMzMgYyAtMC43MDk5OSwtMC4yNzIzMSAtMS40NjM4NywtMC40MTIyMSAtMi4yMjQyOSwtMC40MTI3NiAtMS44Mjk0OCwxLjllLTQgLTMuNTY2MjEsMC44MDUzMSAtNC43NDg1OSwyLjIwMTM2IC0yLjk3MzY4LDAuMzg4OTYgLTUuNDYyNTEsMi40NDUyOSAtNi40MDUzNCw1LjI5MjI0IC0zLjEzNDg2LDYuMjg4NDMgLTguNjM1MjQsMTEuMjE5OTcgLTE1LjI5MTA0LDEzLjQ3NzYgLTAuMDYzNywwLjAyMTYgLTAuMTE5OTIsMC4wNSAtMC4xNzU4LDAuMDc4MyAtMy4wNzc0OSwxLjEyNzU4IC02LjE2MjU5LDMuMTY0MyAtOC43ODkxOSw1LjgwMjQ1IC01LjE5MTU1LDUuMjM2NTYgLTcuNzI4NTgsMTEuOTM2NTggLTYuMzAwMjQsMTYuNjM4MjIgLTAuMTQwOTgsMC40MDg1NyAtMC4yMTM2MSwwLjgzNzU5IC0wLjIxNDk4LDEuMjY5NzkgMS41ZS00LDIuMTcwODIgMS43NTk5MSwzLjkzMDU4IDMuOTMwNzMsMy45MzA3MyAwLjU0MzQxLC0wLjAwMiAxLjA4MDUzLC0wLjExNjM5IDEuNTc3NDUsLTAuMzM2MzIgNC42OTM2OSwxLjA1ODgxIDExLjA2ODg1LC0xLjU0NTgyIDE2LjA1NDQ0LC02LjU1OTE3IDIuODI2MjQsLTIuODUwNzIgNC45NDM1NiwtNi4yMjM0OSA1Ljk4MzAzLC05LjUzMDYyIDIuMzE2OTYsLTYuNjIyNzggNy4yOTY5OSwtMTIuMDE4NTYgMTMuNjIyODEsLTE1LjA1MzEyIDAuMTUxMDUsLTAuMDcyNSAwLjI3MzAzLC0wLjE0NzE0IDAuMzgyMTgsLTAuMjIzNTggMi4xMjA4MiwtMS4wMTQwOCAzLjY3MjUxLC0yLjkyODk1IDQuMjI1LC01LjIxMzkgOS43MDIyMiwxMS40NDQ4MSAyNC4yNTI1NSwxOC43NTI5OSA0MC41MTg3NiwxOS4xMzU3NyAyOS44MzM1MiwwLjcwMjA1IDUyLjEzMjk5LC0yMS4yNTgwMiA1My4xNjQxNCwtNTIuODM2NDIgMC41MTg5NCwtMTUuODkyNTkgLTUuNjI5OTMsLTM2LjM4NDcgLTE5LjY0MTIsLTUzLjE5MDg5IC0xMC43MDgzNSwtMTIuODQ0NDEgLTI2LjQwOTg3LC0yMy41MDc5NSAtNDQuMTg2OTksLTI4LjIwNzc3IHoiDQogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41MDAwMzU7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPg0KICA8L2c+DQogIDxwYXRoIGZpbGw9IiMwMTIxOTgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTAgMjAwaDEyMDB2MjAwSDB6IiBpZD0icGF0aDQ4OTMiLz4NCiAgPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMCAyODVoMTIwMHYzMEgweiIgaWQ9InBhdGg0ODk1Ii8+DQogIDxwYXRoDQogICAgIGlkPSJwYXRoMTE3MjgiDQogICAgIGQ9Ik0gMjAwLjAwMDM0LDMwIDE5My4yNjQ5LDUwLjcyOTczNyBIIDE3MS40Njg4NCBMIDE4OS4xMDIxOSw2My41NDEyNjcgMTgyLjM2Njc1LDg0LjI3MSAyMDAuMDAwMzQsNzEuNDU5MjI5IDIxNy42MzM5Myw4NC4yNzEgMjEwLjg5ODQ5LDYzLjU0MTI2NyAyMjguNTMxODQsNTAuNzI5NzM3IGggLTIxLjc5NjA1IHogbSAwLDEwLjgwMDEwOSA0LjMxMDYxLDEzLjI2NjkyNCBoIDEzLjk0OTY5IGwgLTExLjI4NTU2LDguMTk5Njg4IDQuMzEwNiwxMy4yNjY5MjMgLTExLjI4NTM0LC04LjE5OTQ1MyAtMTEuMjg1MzQsOC4xOTk0NTMgNC4zMTA2LC0xMy4yNjY5MjMgLTExLjI4NTU2LC04LjE5OTY4OCBoIDEzLjk0OTY5IHoiDQogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuMTJweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxIiAvPg0KPC9zdmc+",
-        "representativeGeometryVersionId": "state:soviet-union-kirghiz-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-kirghiz-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1936-12-05",
+            "validTo": "1991-08-30",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -13493,9 +13751,9 @@
       "file": "state-soviet-union-kirghiz-ssr.json.gz",
       "validFrom": "1936-12-05",
       "validTo": "1991-08-30",
-      "compressedBytes": 16168,
-      "decodedBytes": 101724,
-      "sha256": "29256bd6fbb7bdd4b602af826f5abaa810dbf324c459dee3308fb4cb727096dd",
+      "compressedBytes": 16220,
+      "decodedBytes": 101881,
+      "sha256": "b1e10e158501f602c54b43c29c81e9d06ea6632639f51db0cc1b5b3e60784fd3",
       "bbox": [
         69.226296,
         39.189237,
@@ -14740,7 +14998,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgaWQ9InN2ZzkzOTUiCiAgIHZlcnNpb249IjEuMSIKICAgd2lkdGg9IjEyMDAiCiAgIGhlaWdodD0iNjAwIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE5NDAxIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzOTM5OSIgLz4KICA8cGF0aAogICAgIGQ9Ik0gMCwwIEggMTIwMCBWIDYwMCBIIDAgWiIKICAgICBpZD0icGF0aDIiCiAgICAgc3R5bGU9ImZpbGw6I2NjMDAwMDtmaWxsLW9wYWNpdHk6MSIgLz4KICA8cGF0aAogICAgIGlkPSJwYXRoMTE3MjgiCiAgICAgZD0ibSAyMDAuMDAwNSwzNy41IC04LjQxOTMzLDI1LjkxMTg4IEggMTY0LjMzNiBMIDE4Ni4zNzc3Nyw3OS40MjYxMTggMTc3Ljk1ODQ0LDEwNS4zMzggMjAwLjAwMDUsODkuMzIzNDYxIDIyMi4wNDI1NywxMDUuMzM4IDIxMy42MjMyNCw3OS40MjYxMTggMjM1LjY2NSw2My40MTE4OCBoIC0yNy4yNDUxNiB6IG0gMCwxMy40OTk5OCA1LjM4ODI4LDE2LjU4MzQ3NiBoIDE3LjQzNzE4IGwgLTE0LjEwNywxMC4yNDk0OTYgNS4zODgyNywxNi41ODM0NzIgTCAyMDAuMDAwNSw4NC4xNjcyMiAxODUuODkzNzgsOTQuNDE2NDI0IDE5MS4yODIwNSw3Ny44MzI5NTIgMTc3LjE3NTA0LDY3LjU4MzQ1NiBoIDE3LjQzNzE4IHoiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC4xNDk5OTk3N3B4O3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgPGcKICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxIgogICAgIGlkPSJnMjkwMCIKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgwLjk4OTMxODc5LDAsMCwwLjk4NjczODExLDMuODI5NzcsMy43NjU5NCkiPgogICAgPHBhdGgKICAgICAgIGlkPSJyZWN0NDE2NS02IgogICAgICAgZD0ibSAxMzcuNDM3NDQsMTcxLjY5NDIxIDE4Ljg2Mjk2LDE4Ljk5MzcgMTcuNzg4MzQsLTE3LjY2NTg5IGMgMjcuMDU4NDcsMjkuMDIxIDU1LjQzODA3LDU2Ljk5NTAxIDgyLjI4NzA0LDg2LjEyNzgyIDQuMDM0NDQsNC4wNjIzMyAxMC41OTgxNSw0LjA4NSAxNC42NjA1NiwwLjA1MDYgNC4wNjIzMiwtNC4wMzQ0NSA0LjA4NDk5LC0xMC41OTgxNSAwLjA1MDYsLTE0LjY2MDU2IC0yOC44MTg3MSwtMjcuMTkwMSAtNTcuNzI1NDUsLTU0LjYwMTQzIC04Ni41NTMyOCwtODEuODkwOTUgbCAyMy45NjQ5OSwtMjMuODAwMDMgLTMzLjM0MDI2LC00LjYxNjA1IHoiCiAgICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MDczO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KICAgIDxwYXRoCiAgICAgICBpZD0icGF0aDQxNzktMyIKICAgICAgIGQ9Im0gMTk4LjI4ODcsMTEwLjE5NTUgYyAxNS41MTc0Myw4LjczOTQgMjcuMjk4NzIsMjEuMjgxMjIgMzQuMjQ4NCwzNC4zOTI0IDcuMDQzOTQsMTMuMjg5MDIgMTAuMTM5NTksMjcuMTYyMTggMTAuMjAzMjUsMzguMjU0MzMgMC4xMzA1NCwyMi43NDM3NCAtMTguNDM3NzEsNDEuMTgxODQgLTQxLjE4MTgzLDQxLjE4MTg0IC0xMi4xMzU5NywwIC0yMy4wNDYwNywtNS4yNDg2OCAtMzAuNTgzMDIsLTEzLjYwMDg1IGwgLTQuMTY4NjMsMy41MTAzMyBjIC0wLjcwOTk5LC0wLjI3MjMxIC0xLjQ2Mzg3LC0wLjQxMjIxIC0yLjIyNDI5LC0wLjQxMjc2IC0xLjgyOTQ4LDEuOWUtNCAtMy41NjYyMSwwLjgwNTMxIC00Ljc0ODU5LDIuMjAxMzYgLTIuOTczNjgsMC4zODg5NiAtNS40NjI1MSwyLjQ0NTI5IC02LjQwNTM0LDUuMjkyMjQgLTMuMTM0ODYsNi4yODg0MyAtOC42MzUyNCwxMS4yMTk5NyAtMTUuMjkxMDQsMTMuNDc3NiAtMC4wNjM3LDAuMDIxNiAtMC4xMTk5MiwwLjA1IC0wLjE3NTgsMC4wNzgzIC0zLjA3NzQ5LDEuMTI3NTggLTYuMTYyNTksMy4xNjQzIC04Ljc4OTE5LDUuODAyNDUgLTUuMTkxNTUsNS4yMzY1NiAtNy43Mjg1OCwxMS45MzY1OCAtNi4zMDAyNCwxNi42MzgyMiAtMC4xNDA5OCwwLjQwODU3IC0wLjIxMzYxLDAuODM3NTkgLTAuMjE0OTgsMS4yNjk3OSAxLjVlLTQsMi4xNzA4MiAxLjc1OTkxLDMuOTMwNTggMy45MzA3MywzLjkzMDczIDAuNTQzNDEsLTAuMDAyIDEuMDgwNTMsLTAuMTE2MzkgMS41Nzc0NSwtMC4zMzYzMiA0LjY5MzY5LDEuMDU4ODEgMTEuMDY4ODUsLTEuNTQ1ODIgMTYuMDU0NDQsLTYuNTU5MTcgMi44MjYyNCwtMi44NTA3MiA0Ljk0MzU2LC02LjIyMzQ5IDUuOTgzMDMsLTkuNTMwNjIgMi4zMTY5NiwtNi42MjI3OCA3LjI5Njk5LC0xMi4wMTg1NiAxMy42MjI4MSwtMTUuMDUzMTIgMC4xNTEwNSwtMC4wNzI1IDAuMjczMDMsLTAuMTQ3MTQgMC4zODIxOCwtMC4yMjM1OCAyLjEyMDgyLC0xLjAxNDA4IDMuNjcyNTEsLTIuOTI4OTUgNC4yMjUsLTUuMjEzOSA5LjcwMjIyLDExLjQ0NDgxIDI0LjI1MjU1LDE4Ljc1Mjk5IDQwLjUxODc2LDE5LjEzNTc3IDI5LjgzMzUyLDAuNzAyMDUgNTIuMTMyOTksLTIxLjI1ODAyIDUzLjE2NDE0LC01Mi44MzY0MiAwLjUxODk0LC0xNS44OTI1OSAtNS42Mjk5MywtMzYuMzg0NyAtMTkuNjQxMiwtNTMuMTkwODkgLTEwLjcwODM1LC0xMi44NDQ0MSAtMjYuNDA5ODcsLTIzLjUwNzk1IC00NC4xODY5OSwtMjguMjA3NzcgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTAwMDM0ODE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPgogIDwvZz4KICA8cGF0aAogICAgIGlkPSJwYXRoOTM5MSIKICAgICBkPSJNMCA0MDBoMTIwMHY1MUgweiIKICAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICAgZmlsbD0iI2ZmZiIgLz4KICA8cGF0aAogICAgIGlkPSJwYXRoOTM5MyIKICAgICBkPSJNMCA0NTBoMTIwMHYxNTBIMHoiCiAgICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgIGZpbGw9IiMwOTMiIC8+Cjwvc3ZnPgo=",
-        "representativeGeometryVersionId": "state:soviet-union-lithuanian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-lithuanian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1940-08-03",
+            "validTo": "1990-03-10",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -14750,9 +15015,9 @@
       "file": "state-soviet-union-lithuanian-ssr.json.gz",
       "validFrom": "1940-08-03",
       "validTo": "1990-03-10",
-      "compressedBytes": 10172,
-      "decodedBytes": 56773,
-      "sha256": "a89bee7e9536ba61122d502a02c19aaef1dd7e2ba273f8cb7773511a329184bc",
+      "compressedBytes": 10221,
+      "decodedBytes": 56930,
+      "sha256": "7b769b06d75cafce1bc64e5c30f5c7b5e5ccaea70ae15fb05a6c925f64818df3",
       "bbox": [
         20.924569,
         53.886841,
@@ -15012,7 +15277,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjYwMCIgd2lkdGg9IjEyMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQogICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjYzAwIiAvPg0KICAgIDxwYXRoDQogICAgICAgIGQ9Im0yNDAuMDAwMDEgMzcuNS04LjQxOTMzIDI1LjkxMTg4aC0yNy4yNDUxN2wyMi4wNDE3NyAxNi4wMTQyNC04LjQxOTMzIDI1LjkxMTg4IDIyLjA0MjA2LTE2LjAxNDU0IDIyLjA0MjA3IDE2LjAxNDU0LTguNDE5MzMtMjUuOTExODggMjIuMDQxNzYtMTYuMDE0MjRoLTI3LjI0NTE2em0wIDEzLjQ5OTk4IDUuMzg4MjggMTYuNTgzNDhoMTcuNDM3MThsLTE0LjEwNyAxMC4yNDk0OSA1LjM4ODI3IDE2LjU4MzQ4LTE0LjEwNjczLTEwLjI0OTIxLTE0LjEwNjcyIDEwLjI0OTIxIDUuMzg4MjctMTYuNTgzNDgtMTQuMTA3MDEtMTAuMjQ5NDloMTcuNDM3MTh6Ig0KICAgICAgICBmaWxsPSIjZmZkNzAwIiAvPg0KICAgIDxnIGZpbGw9IiNmZmQ3MDAiIHRyYW5zZm9ybT0ibWF0cml4KC45ODkzMTg3OSAwIDAgLjk4NjczODExIDQzLjgyOTI3MyAzLjc2NTk0MSkiPg0KICAgICAgICA8cGF0aA0KICAgICAgICAgICAgZD0ibTEzNy40Mzc0NCAxNzEuNjk0MjEgMTguODYyOTYgMTguOTkzNyAxNy43ODgzNC0xNy42NjU4OWMyNy4wNTg0NyAyOS4wMjEgNTUuNDM4MDcgNTYuOTk1MDEgODIuMjg3MDQgODYuMTI3ODIgNC4wMzQ0NCA0LjA2MjMzIDEwLjU5ODE1IDQuMDg1IDE0LjY2MDU2LjA1MDYgNC4wNjIzMi00LjAzNDQ1IDQuMDg0OTktMTAuNTk4MTUuMDUwNi0xNC42NjA1Ni0yOC44MTg3MS0yNy4xOTAxLTU3LjcyNTQ1LTU0LjYwMTQzLTg2LjU1MzI4LTgxLjg5MDk1bDIzLjk2NDk5LTIzLjgwMDAzLTMzLjM0MDI2LTQuNjE2MDV6IiAvPg0KICAgICAgICA8cGF0aA0KICAgICAgICAgICAgZD0ibTE5OC4yODg3IDExMC4xOTU1YzE1LjUxNzQzIDguNzM5NCAyNy4yOTg3MiAyMS4yODEyMiAzNC4yNDg0IDM0LjM5MjQgNy4wNDM5NCAxMy4yODkwMiAxMC4xMzk1OSAyNy4xNjIxOCAxMC4yMDMyNSAzOC4yNTQzMy4xMzA1NCAyMi43NDM3NC0xOC40Mzc3MSA0MS4xODE4NC00MS4xODE4MyA0MS4xODE4NC0xMi4xMzU5NyAwLTIzLjA0NjA3LTUuMjQ4NjgtMzAuNTgzMDItMTMuNjAwODVsLTQuMTY4NjMgMy41MTAzM2MtLjcwOTk5LS4yNzIzMS0xLjQ2Mzg3LS40MTIyMS0yLjIyNDI5LS40MTI3Ni0xLjgyOTQ4LjAwMDE5LTMuNTY2MjEuODA1MzEtNC43NDg1OSAyLjIwMTM2LTIuOTczNjguMzg4OTYtNS40NjI1MSAyLjQ0NTI5LTYuNDA1MzQgNS4yOTIyNC0zLjEzNDg2IDYuMjg4NDMtOC42MzUyNCAxMS4yMTk5Ny0xNS4yOTEwNCAxMy40Nzc2LS4wNjM3LjAyMTYtLjExOTkyLjA1LS4xNzU4LjA3ODMtMy4wNzc0OSAxLjEyNzU4LTYuMTYyNTkgMy4xNjQzLTguNzg5MTkgNS44MDI0NS01LjE5MTU1IDUuMjM2NTYtNy43Mjg1OCAxMS45MzY1OC02LjMwMDI0IDE2LjYzODIyLS4xNDA5OC40MDg1Ny0uMjEzNjEuODM3NTktLjIxNDk4IDEuMjY5NzkuMDAwMTUgMi4xNzA4MiAxLjc1OTkxIDMuOTMwNTggMy45MzA3MyAzLjkzMDczLjU0MzQxLS4wMDIgMS4wODA1My0uMTE2MzkgMS41Nzc0NS0uMzM2MzIgNC42OTM2OSAxLjA1ODgxIDExLjA2ODg1LTEuNTQ1ODIgMTYuMDU0NDQtNi41NTkxNyAyLjgyNjI0LTIuODUwNzIgNC45NDM1Ni02LjIyMzQ5IDUuOTgzMDMtOS41MzA2MiAyLjMxNjk2LTYuNjIyNzggNy4yOTY5OS0xMi4wMTg1NiAxMy42MjI4MS0xNS4wNTMxMi4xNTEwNS0uMDcyNS4yNzMwMy0uMTQ3MTQuMzgyMTgtLjIyMzU4IDIuMTIwODItMS4wMTQwOCAzLjY3MjUxLTIuOTI4OTUgNC4yMjUtNS4yMTM5IDkuNzAyMjIgMTEuNDQ0ODEgMjQuMjUyNTUgMTguNzUyOTkgNDAuNTE4NzYgMTkuMTM1NzcgMjkuODMzNTIuNzAyMDUgNTIuMTMyOTktMjEuMjU4MDIgNTMuMTY0MTQtNTIuODM2NDIuNTE4OTQtMTUuODkyNTktNS42Mjk5My0zNi4zODQ3LTE5LjY0MTItNTMuMTkwODktMTAuNzA4MzUtMTIuODQ0NDEtMjYuNDA5ODctMjMuNTA3OTUtNDQuMTg2OTktMjguMjA3Nzd6IiAvPg0KICAgIDwvZz4NCiAgICA8ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8cmVjdCB4PSIwIiB5PSI0ODAiIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMCIgZmlsbD0iIzAzOSIgLz4NCiAgICAgICAgPHBhdGgNCiAgICAgICAgICAgIGQ9Im0xMjAwIDUwMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMC04MCAzMC0xMjAgMzAtODAtMzAtMTIwLTMwLTgwIDMwLTEyMCAzMC04MC0zMC0xMjAtMzAtODAgMzAtMTIwIDMwLTgwLTMwLTEyMC0zMC04MCAzMC0xMjAgMzAtODAtMzAtMTIwLTMwbDAtMTAwYzQwIDAgODAgMzAgMTIwIDMwczgwLTMwIDEyMC0zMGM0MCAwIDgwIDMwIDEyMCAzMHM4MC0zMCAxMjAtMzBjNDAgMCA4MCAzMCAxMjAgMzBzODAtMzAgMTIwLTMwYzQwIDAgODAgMzAgMTIwIDMwczgwLTMwIDEyMC0zMGM0MCAwIDgwIDMwIDEyMCAzMHM4MC0zMCAxMjAtMzB6Ig0KICAgICAgICAgICAgZmlsbD0iI2ZmZiIgLz4NCiAgICAgICAgPHBhdGgNCiAgICAgICAgICAgIGQ9Im0xMjAwIDQyMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMGMtNDAgMC04MCAzMC0xMjAgMzBzLTgwLTMwLTEyMC0zMGwtMCA0MGM0MCAwIDgwIDMwIDEyMCAzMHM4MC0zMCAxMjAtMzAgODAgMzAgMTIwIDMwIDgwLTMwIDEyMC0zMCA4MCAzMCAxMjAgMzAgODAtMzAgMTIwLTMwIDgwIDMwIDEyMCAzMCA4MC0zMCAxMjAtMzAgODAgMzAgMTIwIDMwIDgwLTMwIDEyMC0zMHoiDQogICAgICAgICAgICBmaWxsPSIjMDM5IiAvPg0KICAgIDwvZz4NCjwvc3ZnPg==",
-        "representativeGeometryVersionId": "state:soviet-union-latvian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-latvian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1940-08-05",
+            "validTo": "1991-08-20",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -15022,9 +15294,9 @@
       "file": "state-soviet-union-latvian-ssr.json.gz",
       "validFrom": "1940-08-05",
       "validTo": "1991-08-20",
-      "compressedBytes": 8973,
-      "decodedBytes": 49332,
-      "sha256": "2c1169c4253eecd303815d3e19f6f83d36c2e39f91f49342e95b8042c6849dda",
+      "compressedBytes": 9023,
+      "decodedBytes": 49489,
+      "sha256": "f9904f5d98f22bdf93410745706007145ffab2670e55bde65578efefabb58c22",
       "bbox": [
         20.968598,
         55.666991,
@@ -15063,7 +15335,14 @@
       "metadata": {
         "sourceFeatureId": "MAC",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mo.svg",
-        "representativeGeometryVersionId": "state:MAC:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:MAC:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1999-12-20",
+            "validTo": null,
+            "type": "특별행정구"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -15073,9 +15352,9 @@
       "file": "state-MAC.json.gz",
       "validFrom": "1844-09-20",
       "validTo": null,
-      "compressedBytes": 1891,
-      "decodedBytes": 10128,
-      "sha256": "dbc84649b4a1517e07f26fc2018c7219a0556b2fe80c23dd2dcce7a98da44336",
+      "compressedBytes": 1946,
+      "decodedBytes": 10277,
+      "sha256": "4ca9a1bd8d88d251f5004d9fc89f368885a7fab4747b5dc14cafec7dcaa26a7f",
       "bbox": [
         113.519867,
         22.105373,
@@ -15114,7 +15393,14 @@
       "metadata": {
         "sourceFeatureId": "MAF",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mf.svg",
-        "representativeGeometryVersionId": "state:MAF:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:MAF:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "2007-07-15",
+            "validTo": null,
+            "type": "해외집합체"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -15124,9 +15410,9 @@
       "file": "state-MAF.json.gz",
       "validFrom": "1648",
       "validTo": null,
-      "compressedBytes": 1409,
-      "decodedBytes": 4303,
-      "sha256": "66351b0548a52afdf87f9e697092e2871288d7d5cc22e057881039838fa2a425",
+      "compressedBytes": 1474,
+      "decodedBytes": 4452,
+      "sha256": "e4d9fd5db7be97fd03d95a3a666f190da328d7613fa5c361aa2ef63c948d197c",
       "bbox": [
         -63.14684,
         18.033391,
@@ -15348,7 +15634,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgb3ZlcmZsb3c9InZpc2libGUiCiAgIHdpZHRoPSIxMjAwIgogICBoZWlnaHQ9IjYwMCIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnOTIwOSI+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhOTIxNSI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+CiAgPGRlZnMKICAgICBpZD0iZGVmczkyMTMiIC8+CiAgPHBhdGgKICAgICBmaWxsPSIjYzAwIgogICAgIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiCiAgICAgaWQ9InBhdGg5MTk3IiAvPgogIDxwYXRoCiAgICAgZD0iTTAgMjI1aDEyMDB2MTUwSDB6IgogICAgIGZpbGw9IiMwOTMiCiAgICAgaWQ9InBhdGg5MTk5IiAvPgogIDxwYXRoCiAgICAgaWQ9InBhdGgxMTcyOCIKICAgICBkPSJtIDE0OS45OTk5NywyOS45OTk1NDEgLTYuNzM1NDQsMjAuNzI5NzM4IGggLTIxLjc5NjA2IGwgMTcuNjMzMzUsMTIuODExNTMgLTYuNzM1NDMsMjAuNzI5NzMyIDE3LjYzMzU4LC0xMi44MTE3NyAxNy42MzM1OSwxMi44MTE3NyAtNi43MzU0NCwtMjAuNzI5NzMyIDE3LjYzMzM1LC0xMi44MTE1MyBoIC0yMS43OTYwNSB6IG0gMCwxMC44MDAxMDkgNC4zMTA2LDEzLjI2NjkyNSBoIDEzLjk0OTcxIGwgLTExLjI4NTU3LDguMTk5Njg3IDQuMzEwNjEsMTMuMjY2OTI0IC0xMS4yODUzNSwtOC4xOTk0NTMgLTExLjI4NTM0LDguMTk5NDUzIDQuMzEwNjEsLTEzLjI2NjkyNCAtMTEuMjg1NTgsLTguMTk5Njg3IGggMTMuOTQ5NzEgeiIKICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjEyMDAwMDI3cHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KICA8ZwogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiCiAgICAgaWQ9ImcyOTAwLTciCiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC43OTE0NTUwMywwLDAsMC43ODkzOTA0OSwtNi45MzY1OTE2LDMuMDEyNzUxMykiPgogICAgPHBhdGgKICAgICAgIGlkPSJyZWN0NDE2NS02IgogICAgICAgZD0ibSAxMzcuNDM3NDQsMTcxLjY5NDIxIDE4Ljg2Mjk2LDE4Ljk5MzcgMTcuNzg4MzQsLTE3LjY2NTg5IGMgMjcuMDU4NDcsMjkuMDIxIDU1LjQzODA3LDU2Ljk5NTAxIDgyLjI4NzA0LDg2LjEyNzgyIDQuMDM0NDQsNC4wNjIzMyAxMC41OTgxNSw0LjA4NSAxNC42NjA1NiwwLjA1MDYgNC4wNjIzMiwtNC4wMzQ0NSA0LjA4NDk5LC0xMC41OTgxNSAwLjA1MDYsLTE0LjY2MDU2IC0yOC44MTg3MSwtMjcuMTkwMSAtNTcuNzI1NDUsLTU0LjYwMTQzIC04Ni41NTMyOCwtODEuODkwOTUgbCAyMy45NjQ5OSwtMjMuODAwMDMgLTMzLjM0MDI2LC00LjYxNjA1IHoiCiAgICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MDczO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KICAgIDxwYXRoCiAgICAgICBpZD0icGF0aDQxNzktMyIKICAgICAgIGQ9Im0gMTk4LjI4ODcsMTEwLjE5NTUgYyAxNS41MTc0Myw4LjczOTQgMjcuMjk4NzIsMjEuMjgxMjIgMzQuMjQ4NCwzNC4zOTI0IDcuMDQzOTQsMTMuMjg5MDIgMTAuMTM5NTksMjcuMTYyMTggMTAuMjAzMjUsMzguMjU0MzMgMC4xMzA1NCwyMi43NDM3NCAtMTguNDM3NzEsNDEuMTgxODQgLTQxLjE4MTgzLDQxLjE4MTg0IC0xMi4xMzU5NywwIC0yMy4wNDYwNywtNS4yNDg2OCAtMzAuNTgzMDIsLTEzLjYwMDg1IGwgLTQuMTY4NjMsMy41MTAzMyBjIC0wLjcwOTk5LC0wLjI3MjMxIC0xLjQ2Mzg3LC0wLjQxMjIxIC0yLjIyNDI5LC0wLjQxMjc2IC0xLjgyOTQ4LDEuOWUtNCAtMy41NjYyMSwwLjgwNTMxIC00Ljc0ODU5LDIuMjAxMzYgLTIuOTczNjgsMC4zODg5NiAtNS40NjI1MSwyLjQ0NTI5IC02LjQwNTM0LDUuMjkyMjQgLTMuMTM0ODYsNi4yODg0MyAtOC42MzUyNCwxMS4yMTk5NyAtMTUuMjkxMDQsMTMuNDc3NiAtMC4wNjM3LDAuMDIxNiAtMC4xMTk5MiwwLjA1IC0wLjE3NTgsMC4wNzgzIC0zLjA3NzQ5LDEuMTI3NTggLTYuMTYyNTksMy4xNjQzIC04Ljc4OTE5LDUuODAyNDUgLTUuMTkxNTUsNS4yMzY1NiAtNy43Mjg1OCwxMS45MzY1OCAtNi4zMDAyNCwxNi42MzgyMiAtMC4xNDA5OCwwLjQwODU3IC0wLjIxMzYxLDAuODM3NTkgLTAuMjE0OTgsMS4yNjk3OSAxLjVlLTQsMi4xNzA4MiAxLjc1OTkxLDMuOTMwNTggMy45MzA3MywzLjkzMDczIDAuNTQzNDEsLTAuMDAyIDEuMDgwNTMsLTAuMTE2MzkgMS41Nzc0NSwtMC4zMzYzMiA0LjY5MzY5LDEuMDU4ODEgMTEuMDY4ODUsLTEuNTQ1ODIgMTYuMDU0NDQsLTYuNTU5MTcgMi44MjYyNCwtMi44NTA3MiA0Ljk0MzU2LC02LjIyMzQ5IDUuOTgzMDMsLTkuNTMwNjIgMi4zMTY5NiwtNi42MjI3OCA3LjI5Njk5LC0xMi4wMTg1NiAxMy42MjI4MSwtMTUuMDUzMTIgMC4xNTEwNSwtMC4wNzI1IDAuMjczMDMsLTAuMTQ3MTQgMC4zODIxOCwtMC4yMjM1OCAyLjEyMDgyLC0xLjAxNDA4IDMuNjcyNTEsLTIuOTI4OTUgNC4yMjUsLTUuMjEzOSA5LjcwMjIyLDExLjQ0NDgxIDI0LjI1MjU1LDE4Ljc1Mjk5IDQwLjUxODc2LDE5LjEzNTc3IDI5LjgzMzUyLDAuNzAyMDUgNTIuMTMyOTksLTIxLjI1ODAyIDUzLjE2NDE0LC01Mi44MzY0MiAwLjUxODk0LC0xNS44OTI1OSAtNS42Mjk5MywtMzYuMzg0NyAtMTkuNjQxMiwtNTMuMTkwODkgLTEwLjcwODM1LC0xMi44NDQ0MSAtMjYuNDA5ODcsLTIzLjUwNzk1IC00NC4xODY5OSwtMjguMjA3NzcgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTAwMDM0ODE7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPgogIDwvZz4KPC9zdmc+Cg==",
-        "representativeGeometryVersionId": "state:soviet-union-moldavian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-moldavian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1940-08-02",
+            "validTo": "1991-08-26",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -15358,9 +15651,9 @@
       "file": "state-soviet-union-moldavian-ssr.json.gz",
       "validFrom": "1940-08-02",
       "validTo": "1991-08-26",
-      "compressedBytes": 11273,
-      "decodedBytes": 63964,
-      "sha256": "279153e277d284191b46de416fdfe84f9b0152a3b4390cd661e500015601eeee",
+      "compressedBytes": 11325,
+      "decodedBytes": 64121,
+      "sha256": "eeefb79818b29c8c38fe5cf642e11d3498af2b8d9cee2fa82e8b041c1de81773",
       "bbox": [
         26.617889,
         45.461774,
@@ -16053,7 +16346,19 @@
       "metadata": {
         "sourceFeatureId": "MNP",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mp.svg",
-        "representativeGeometryVersionId": "state:MNP:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:MNP:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1978-01-09",
+            "validTo": "1986-11-03",
+            "type": "신탁통치지역"
+          },
+          {
+            "validFrom": "1986-11-04",
+            "validTo": null,
+            "type": "자치령"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16063,9 +16368,9 @@
       "file": "state-MNP.json.gz",
       "validFrom": "1978-01-09",
       "validTo": null,
-      "compressedBytes": 2933,
-      "decodedBytes": 18925,
-      "sha256": "5cc33654af11038377ab763ea90c363965553c52d20e9e7282ec8479c09fd38b",
+      "compressedBytes": 3036,
+      "decodedBytes": 19190,
+      "sha256": "73b272c798c6f91afd27e83a4aac8997cfa8917951383128b3bb402c2be29232",
       "bbox": [
         144.90211,
         14.110663,
@@ -16219,7 +16524,24 @@
       "metadata": {
         "sourceFeatureId": "MSR",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ms.svg",
-        "representativeGeometryVersionId": "state:MSR:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:MSR:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1956-07-01",
+            "validTo": "1982-12-31",
+            "type": "별도식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16229,9 +16551,9 @@
       "file": "state-MSR.json.gz",
       "validFrom": "1632",
       "validTo": null,
-      "compressedBytes": 1228,
-      "decodedBytes": 3782,
-      "sha256": "20653a2aac937ca9b74fa4f4f6d32cf242b60cedfc3b969833df0f2be6a0de0f",
+      "compressedBytes": 1376,
+      "decodedBytes": 4163,
+      "sha256": "c6980bb8606dbb97cad7082539e5cae550bd71689fc90886e9a69b5fb2ccf4a1",
       "bbox": [
         -62.230133,
         16.67536,
@@ -16562,7 +16884,24 @@
       "metadata": {
         "sourceFeatureId": "NCL",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nc.svg",
-        "representativeGeometryVersionId": "state:NCL:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:NCL:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1853-09-24",
+            "validTo": "1946-10-27",
+            "type": "식민지"
+          },
+          {
+            "validFrom": "1946-10-28",
+            "validTo": "1998-07-20",
+            "type": "해외영토"
+          },
+          {
+            "validFrom": "1999-03-21",
+            "validTo": null,
+            "type": "특별지위공동체"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16572,9 +16911,9 @@
       "file": "state-NCL.json.gz",
       "validFrom": "1853-09-24",
       "validTo": null,
-      "compressedBytes": 10031,
-      "decodedBytes": 89553,
-      "sha256": "23e35da1310bc528acf15784355d73c32ba59f2df335f36eca745d3ee4946d80",
+      "compressedBytes": 10211,
+      "decodedBytes": 89937,
+      "sha256": "4f2396d32d07a71b0979274d5eedef7cfdfc99f0dc6e942ed420ce5c7d01d3e1",
       "bbox": [
         163.615733,
         -22.670668,
@@ -16664,7 +17003,24 @@
       "metadata": {
         "sourceFeatureId": "NFK",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nf.svg",
-        "representativeGeometryVersionId": "state:NFK:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:NFK:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1914-07-01",
+            "validTo": "1979-08-06",
+            "type": "외부영토"
+          },
+          {
+            "validFrom": "1979-08-07",
+            "validTo": "2015-06-17",
+            "type": "자치외부영토"
+          },
+          {
+            "validFrom": "2015-06-18",
+            "validTo": null,
+            "type": "외부영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -16674,9 +17030,9 @@
       "file": "state-NFK.json.gz",
       "validFrom": "1856-11-01",
       "validTo": null,
-      "compressedBytes": 1381,
-      "decodedBytes": 4410,
-      "sha256": "879ccdd27c504dd3536cdfefb47347eeb7405641c6532c258b099479bdc4467f",
+      "compressedBytes": 1492,
+      "decodedBytes": 4794,
+      "sha256": "16e944ad5f0ac4ac14617089feab626bc69eca302db184feff9258912828042d",
       "bbox": [
         167.91212,
         -29.080011,
@@ -17548,7 +17904,24 @@
       "metadata": {
         "sourceFeatureId": "PCN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pn.svg",
-        "representativeGeometryVersionId": "state:PCN:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:PCN:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1952-04-01",
+            "validTo": "1982-12-31",
+            "type": "식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -17558,9 +17931,9 @@
       "file": "state-PCN.json.gz",
       "validFrom": null,
       "validTo": null,
-      "compressedBytes": 1006,
-      "decodedBytes": 4784,
-      "sha256": "63220c3f94b9e022284d3a405d579013a78594f20526b8b3ac9c5c322edf216d",
+      "compressedBytes": 1142,
+      "decodedBytes": 5159,
+      "sha256": "2beba2745761032d755edb152efac8f92b3e0fbde0fb512bc68f565897f7cd2c",
       "bbox": [
         -130.753082,
         -25.077081,
@@ -17904,7 +18277,24 @@
       "metadata": {
         "sourceFeatureId": "PRI",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pr.svg",
-        "representativeGeometryVersionId": "state:PRI:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:PRI:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1899-04-11",
+            "validTo": "1900-04-30",
+            "type": "영토(군정)"
+          },
+          {
+            "validFrom": "1900-05-01",
+            "validTo": "1952-07-24",
+            "type": "영토(민정)"
+          },
+          {
+            "validFrom": "1952-07-25",
+            "validTo": null,
+            "type": "자치령"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -17914,9 +18304,9 @@
       "file": "state-PRI.json.gz",
       "validFrom": "1509-08-24",
       "validTo": null,
-      "compressedBytes": 4069,
-      "decodedBytes": 29156,
-      "sha256": "755ec7b109c47489d3cb7baa8ed322b7538f236390441dddaf74a9cfcf8eb998",
+      "compressedBytes": 4204,
+      "decodedBytes": 29535,
+      "sha256": "347da24b49f2784ff506894e0289925027e542259fbd2cc534e1165ea0b7ad3d",
       "bbox": [
         -67.937815,
         17.922919,
@@ -18108,7 +18498,24 @@
       "metadata": {
         "sourceFeatureId": "PYF",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pf.svg",
-        "representativeGeometryVersionId": "state:PYF:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:PYF:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1880-12-30",
+            "validTo": "1946-10-27",
+            "type": "식민지"
+          },
+          {
+            "validFrom": "1946-10-28",
+            "validTo": "2003-03-28",
+            "type": "해외영토"
+          },
+          {
+            "validFrom": "2003-03-29",
+            "validTo": null,
+            "type": "해외집합체"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -18118,9 +18525,9 @@
       "file": "state-PYF.json.gz",
       "validFrom": "1880-12-30",
       "validTo": null,
-      "compressedBytes": 10821,
-      "decodedBytes": 99093,
-      "sha256": "9e2e788db39f94e0f397149facd4f8f9cfea65723fdc8eac4c5e2c5d8c8a88a4",
+      "compressedBytes": 10965,
+      "decodedBytes": 99471,
+      "sha256": "e80eeb7e187928af70cfd3dd51c455c4964ec8f4db9e49edce4daf9d23f75fe1",
       "bbox": [
         -154.536977,
         -27.641209,
@@ -22438,7 +22845,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYwMCI+DQogICAgPHBhdGggZmlsbD0iI2NkMDAwMCIgZD0iTTAgMGgxMjAwdjYwMEgweiIvPg0KICAgIDxwYXRoIGZpbGw9IiMwMDkxZmEiIGQ9Ik0wIDBoMTUwdjYwMEgweiIvPg0KICAgIDxwYXRoIGZpbGw9IiNmZmQ3MDAiIGQ9Im0gMjY1LjAwMDQ2LDM3LjUgLTguNDE5MzMsMjUuOTExODkxIEggMjI5LjMzNTk2IEwgMjUxLjM3NzczLDc5LjQyNjEyMSAyNDIuOTU4NCwxMDUuMzM4IDI2NS4wMDA0Niw4OS4zMjM0NjEgMjg3LjA0MjUzLDEwNS4zMzggMjc4LjYyMzIsNzkuNDI2MTIxIDMwMC42NjQ5Niw2My40MTE4OTEgSCAyNzMuNDE5OCBaIG0gMCwxMy40OTk5OSA1LjM4ODI4LDE2LjU4MzQ3MSBoIDE3LjQzNzE4IGwgLTE0LjEwNywxMC4yNDk1IDUuMzg4MjcsMTYuNTgzNDcgLTE0LjEwNjczLC0xMC4yNDkyMSAtMTQuMTA2NzIsMTAuMjQ5MjEgNS4zODgyNywtMTYuNTgzNDcgLTE0LjEwNzAxLC0xMC4yNDk1IGggMTcuNDM3MTggeiIvPg0KICAgIDxnIHRyYW5zZm9ybT0ibWF0cml4KDAuOTg5MzE4NzksMCwwLDAuOTg2NzM4MTEsNjguODI5NzMsMy43NjU5Mzk4KSI+DQogICAgICAgIDxwYXRoIGZpbGw9IiNmZmQ3MDAiIGQ9Im0gMTM3LjQzNzQ0LDE3MS42OTQyMSAxOC44NjI5NiwxOC45OTM3IDE3Ljc4ODM0LC0xNy42NjU4OSBjIDI3LjA1ODQ3LDI5LjAyMSA1NS40MzgwNyw1Ni45OTUwMSA4Mi4yODcwNCw4Ni4xMjc4MiA0LjAzNDQ0LDQuMDYyMzMgMTAuNTk4MTUsNC4wODUgMTQuNjYwNTYsMC4wNTA2IDQuMDYyMzIsLTQuMDM0NDUgNC4wODQ5OSwtMTAuNTk4MTUgMC4wNTA2LC0xNC42NjA1NiAtMjguODE4NzEsLTI3LjE5MDEgLTU3LjcyNTQ1LC01NC42MDE0MyAtODYuNTUzMjgsLTgxLjg5MDk1IGwgMjMuOTY0OTksLTIzLjgwMDAzIC0zMy4zNDAyNiwtNC42MTYwNSB6Ii8+DQogICAgICAgIDxwYXRoIGZpbGw9IiNmZmQ3MDAiIGQ9Im0gMTk4LjI4ODcsMTEwLjE5NTUgYyAxNS41MTc0Myw4LjczOTQgMjcuMjk4NzIsMjEuMjgxMjIgMzQuMjQ4NCwzNC4zOTI0IDcuMDQzOTQsMTMuMjg5MDIgMTAuMTM5NTksMjcuMTYyMTggMTAuMjAzMjUsMzguMjU0MzMgMC4xMzA1NCwyMi43NDM3NCAtMTguNDM3NzEsNDEuMTgxODQgLTQxLjE4MTgzLDQxLjE4MTg0IC0xMi4xMzU5NywwIC0yMy4wNDYwNywtNS4yNDg2OCAtMzAuNTgzMDIsLTEzLjYwMDg1IGwgLTQuMTY4NjMsMy41MTAzMyBjIC0wLjcwOTk5LC0wLjI3MjMxIC0xLjQ2Mzg3LC0wLjQxMjIxIC0yLjIyNDI5LC0wLjQxMjc2IC0xLjgyOTQ4LDEuOWUtNCAtMy41NjYyMSwwLjgwNTMxIC00Ljc0ODU5LDIuMjAxMzYgLTIuOTczNjgsMC4zODg5NiAtNS40NjI1MSwyLjQ0NTI5IC02LjQwNTM0LDUuMjkyMjQgLTMuMTM0ODYsNi4yODg0MyAtOC42MzUyNCwxMS4yMTk5NyAtMTUuMjkxMDQsMTMuNDc3NiAtMC4wNjM3LDAuMDIxNiAtMC4xMTk5MiwwLjA1IC0wLjE3NTgsMC4wNzgzIC0zLjA3NzQ5LDEuMTI3NTggLTYuMTYyNTksMy4xNjQzIC04Ljc4OTE5LDUuODAyNDUgLTUuMTkxNTUsNS4yMzY1NiAtNy43Mjg1OCwxMS45MzY1OCAtNi4zMDAyNCwxNi42MzgyMiAtMC4xNDA5OCwwLjQwODU3IC0wLjIxMzYxLDAuODM3NTkgLTAuMjE0OTgsMS4yNjk3OSAxLjVlLTQsMi4xNzA4MiAxLjc1OTkxLDMuOTMwNTggMy45MzA3MywzLjkzMDczIDAuNTQzNDEsLTAuMDAyIDEuMDgwNTMsLTAuMTE2MzkgMS41Nzc0NSwtMC4zMzYzMiA0LjY5MzY5LDEuMDU4ODEgMTEuMDY4ODUsLTEuNTQ1ODIgMTYuMDU0NDQsLTYuNTU5MTcgMi44MjYyNCwtMi44NTA3MiA0Ljk0MzU2LC02LjIyMzQ5IDUuOTgzMDMsLTkuNTMwNjIgMi4zMTY5NiwtNi42MjI3OCA3LjI5Njk5LC0xMi4wMTg1NiAxMy42MjI4MSwtMTUuMDUzMTIgMC4xNTEwNSwtMC4wNzI1IDAuMjczMDMsLTAuMTQ3MTQgMC4zODIxOCwtMC4yMjM1OCAyLjEyMDgyLC0xLjAxNDA4IDMuNjcyNTEsLTIuOTI4OTUgNC4yMjUsLTUuMjEzOSA5LjcwMjIyLDExLjQ0NDgxIDI0LjI1MjU1LDE4Ljc1Mjk5IDQwLjUxODc2LDE5LjEzNTc3IDI5LjgzMzUyLDAuNzAyMDUgNTIuMTMyOTksLTIxLjI1ODAyIDUzLjE2NDE0LC01Mi44MzY0MiAwLjUxODk0LC0xNS44OTI1OSAtNS42Mjk5MywtMzYuMzg0NyAtMTkuNjQxMiwtNTMuMTkwODkgLTEwLjcwODM1LC0xMi44NDQ0MSAtMjYuNDA5ODcsLTIzLjUwNzk1IC00NC4xODY5OSwtMjguMjA3NzcgeiIvPg0KICAgIDwvZz4NCjwvc3ZnPg0K",
-        "representativeGeometryVersionId": "state:soviet-union-russian-sfsr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-russian-sfsr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1922-12-30",
+            "validTo": "1991-12-24",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -22448,9 +22862,9 @@
       "file": "state-soviet-union-russian-sfsr.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1991-12-24",
-      "compressedBytes": 793702,
-      "decodedBytes": 6892288,
-      "sha256": "f5dd3e872a38a66b7f4590d985c2d228d62dd9addcee4a05a064f1070f469ab2",
+      "compressedBytes": 793748,
+      "decodedBytes": 6892445,
+      "sha256": "89c117bfeec5ba6d47ace77aecd3bbd5024503188903b334d215ce3583068cec",
       "bbox": [
         -180,
         35.140647,
@@ -22925,7 +23339,19 @@
       "metadata": {
         "sourceFeatureId": "SGS",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gs.svg",
-        "representativeGeometryVersionId": "state:SGS:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SGS:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1985-10-03",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -22935,9 +23361,9 @@
       "file": "state-SGS.json.gz",
       "validFrom": "1985-10-03",
       "validTo": null,
-      "compressedBytes": 6408,
-      "decodedBytes": 54038,
-      "sha256": "2e28f76f095e830b111e1ebe5d6f22a3f20cc6216e73881eef5df88799500702",
+      "compressedBytes": 6510,
+      "decodedBytes": 54300,
+      "sha256": "dcff3121eba7f91aa72278c5f0541472fb25c14d8c333278ac91af1eb13fbd73",
       "bbox": [
         -38.087026,
         -59.472752,
@@ -22976,7 +23402,19 @@
       "metadata": {
         "sourceFeatureId": "SHN",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sh.svg",
-        "representativeGeometryVersionId": "state:SHN:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SHN:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -22986,9 +23424,9 @@
       "file": "state-SHN.json.gz",
       "validFrom": "1659",
       "validTo": null,
-      "compressedBytes": 1995,
-      "decodedBytes": 9795,
-      "sha256": "040a74365b653b343f94987974c9d9e1e10b1eb4c842ee42c42241be4ea1e4c8",
+      "compressedBytes": 2098,
+      "decodedBytes": 10057,
+      "sha256": "e7e097cfdc7f4d255ff866c30889d6b5f992776a578bbcd7446de4f074702adb",
       "bbox": [
         -14.417714,
         -40.397882,
@@ -27983,7 +28421,34 @@
       "metadata": {
         "sourceFeatureId": "SPM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/pm.svg",
-        "representativeGeometryVersionId": "state:SPM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SPM:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1816-06-22",
+            "validTo": "1946-10-27",
+            "type": "식민지"
+          },
+          {
+            "validFrom": "1946-10-28",
+            "validTo": "1976-07-19",
+            "type": "해외영토"
+          },
+          {
+            "validFrom": "1977-10-01",
+            "validTo": "1985-06-13",
+            "type": "해외주"
+          },
+          {
+            "validFrom": "1985-06-14",
+            "validTo": "2003-03-28",
+            "type": "특별지위 지방공동체"
+          },
+          {
+            "validFrom": "2003-03-29",
+            "validTo": null,
+            "type": "해외집합체"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -27993,9 +28458,9 @@
       "file": "state-SPM.json.gz",
       "validFrom": "1816-06-22",
       "validTo": null,
-      "compressedBytes": 1806,
-      "decodedBytes": 9206,
-      "sha256": "c16e0082681ab173e8c6a9fa52c434eedb8ac2426869dba137bf85f9932d6ca9",
+      "compressedBytes": 1995,
+      "decodedBytes": 9829,
+      "sha256": "14264047239c2ffa34391c3c855a9b0487034f3f4aaba6ae5327fa1d654e345c",
       "bbox": [
         -56.396596,
         46.752753,
@@ -28565,7 +29030,14 @@
       "metadata": {
         "sourceFeatureId": "SXM",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sx.svg",
-        "representativeGeometryVersionId": "state:SXM:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:SXM:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "2010-10-10",
+            "validTo": null,
+            "type": "자치구성국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -28575,9 +29047,9 @@
       "file": "state-SXM.json.gz",
       "validFrom": "1648",
       "validTo": null,
-      "compressedBytes": 1314,
-      "decodedBytes": 3296,
-      "sha256": "6fe55e35674ad43cbcdbfb99f2a936a18d298a50f1062a723b0df705c0492b0f",
+      "compressedBytes": 1380,
+      "decodedBytes": 3445,
+      "sha256": "be38b3f9f0a000a3f9641ac3889adbe39bb3cb05d445eeed2acc5413693b7774",
       "bbox": [
         -63.118886,
         18.01911,
@@ -28732,7 +29204,24 @@
       "metadata": {
         "sourceFeatureId": "TCA",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tc.svg",
-        "representativeGeometryVersionId": "state:TCA:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:TCA:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1962-08-06",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -28742,9 +29231,9 @@
       "file": "state-TCA.json.gz",
       "validFrom": "1962-08-06",
       "validTo": null,
-      "compressedBytes": 3057,
-      "decodedBytes": 21187,
-      "sha256": "3e16db3b2bedd2bfe37f03bb5d690669f4e7d8bd9286e146ecb1838a477aae52",
+      "compressedBytes": 3174,
+      "decodedBytes": 21568,
+      "sha256": "58e3a8edacd5238fa283454edc1716efa8c4be8e59ee662d07516be9bb85cefb",
       "bbox": [
         -72.481313,
         21.290107,
@@ -28945,7 +29434,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+DQo8c3ZnIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzdmcxMCIgaGVpZ2h0PSI2MDAiIHdpZHRoPSIxMjAwIiB2ZXJzaW9uPSIxLjEiPg0KICA8bWV0YWRhdGEgaWQ9Im1ldGFkYXRhMTYiPg0KICAgIDxyZGY6UkRGPg0KICAgICAgPGNjOldvcmsgcmRmOmFib3V0PSIiPg0KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4NCiAgICAgICAgPGRjOnR5cGUgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIvPg0KICAgICAgICA8ZGM6dGl0bGUvPg0KICAgICAgPC9jYzpXb3JrPg0KICAgIDwvcmRmOlJERj4NCiAgPC9tZXRhZGF0YT4NCiAgPGRlZnMgaWQ9ImRlZnMxNCIvPg0KICA8cGF0aCBzdHlsZT0iZmlsbDojY2MwMDAwO2ZpbGwtb3BhY2l0eToxIiBpZD0icGF0aDIiIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiIGZpbGwtb3BhY2l0eT0iMSIgZmlsbD0iI2JjMDAwMCIvPg0KICA8cGF0aCBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjE0OTk5OTc3cHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MSIgZD0ibSAxNTAuMDAwNSwyMi41IC04LjQxOTMzLDI1LjkxMTg4NiBIIDExNC4zMzYgTCAxMzYuMzc3NzcsNjQuNDI2MTIyIDEyNy45NTg0NCw5MC4zMzggMTUwLjAwMDUsNzQuMzIzNDY1IDE3Mi4wNDI1Nyw5MC4zMzggMTYzLjYyMzI0LDY0LjQyNjEyMiAxODUuNjY1LDQ4LjQxMTg4NiBoIC0yNy4yNDUxNiB6IG0gMCwxMy40OTk5ODcgNS4zODgyOCwxNi41ODM0NzMgaCAxNy40MzcxOCBsIC0xNC4xMDcsMTAuMjQ5NDk2IDUuMzg4MjcsMTYuNTgzNDcyIEwgMTUwLjAwMDUsNjkuMTY3MjI0IDEzNS44OTM3OCw3OS40MTY0MjggMTQxLjI4MjA1LDYyLjgzMjk1NiAxMjcuMTc1MDQsNTIuNTgzNDYgaCAxNy40MzcxOCB6IiBpZD0icGF0aDExNzI4Ii8+DQogIDxnIHRyYW5zZm9ybT0ibWF0cml4KDAuOTg5MzE4NzksMCwwLDAuOTg2NzM4MTEsLTQ2LjE3MDIzMiwtMTEuMjM0MDkyKSIgaWQ9ImcyOTAwIiBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxIj4NCiAgICA8cGF0aCBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjQ4OTE5MDczO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1kYXNob2Zmc2V0OjA7c3Ryb2tlLW9wYWNpdHk6MSIgZD0ibSAxMzcuNDM3NDQsMTcxLjY5NDIxIDE4Ljg2Mjk2LDE4Ljk5MzcgMTcuNzg4MzQsLTE3LjY2NTg5IGMgMjcuMDU4NDcsMjkuMDIxIDU1LjQzODA3LDU2Ljk5NTAxIDgyLjI4NzA0LDg2LjEyNzgyIDQuMDM0NDQsNC4wNjIzMyAxMC41OTgxNSw0LjA4NSAxNC42NjA1NiwwLjA1MDYgNC4wNjIzMiwtNC4wMzQ0NSA0LjA4NDk5LC0xMC41OTgxNSAwLjA1MDYsLTE0LjY2MDU2IC0yOC44MTg3MSwtMjcuMTkwMSAtNTcuNzI1NDUsLTU0LjYwMTQzIC04Ni41NTMyOCwtODEuODkwOTUgbCAyMy45NjQ5OSwtMjMuODAwMDMgLTMzLjM0MDI2LC00LjYxNjA1IHoiIGlkPSJyZWN0NDE2NS02Ii8+DQogICAgPHBhdGggc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41MDAwMzQ4MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIGQ9Im0gMTk4LjI4ODcsMTEwLjE5NTUgYyAxNS41MTc0Myw4LjczOTQgMjcuMjk4NzIsMjEuMjgxMjIgMzQuMjQ4NCwzNC4zOTI0IDcuMDQzOTQsMTMuMjg5MDIgMTAuMTM5NTksMjcuMTYyMTggMTAuMjAzMjUsMzguMjU0MzMgMC4xMzA1NCwyMi43NDM3NCAtMTguNDM3NzEsNDEuMTgxODQgLTQxLjE4MTgzLDQxLjE4MTg0IC0xMi4xMzU5NywwIC0yMy4wNDYwNywtNS4yNDg2OCAtMzAuNTgzMDIsLTEzLjYwMDg1IGwgLTQuMTY4NjMsMy41MTAzMyBjIC0wLjcwOTk5LC0wLjI3MjMxIC0xLjQ2Mzg3LC0wLjQxMjIxIC0yLjIyNDI5LC0wLjQxMjc2IC0xLjgyOTQ4LDEuOWUtNCAtMy41NjYyMSwwLjgwNTMxIC00Ljc0ODU5LDIuMjAxMzYgLTIuOTczNjgsMC4zODg5NiAtNS40NjI1MSwyLjQ0NTI5IC02LjQwNTM0LDUuMjkyMjQgLTMuMTM0ODYsNi4yODg0MyAtOC42MzUyNCwxMS4yMTk5NyAtMTUuMjkxMDQsMTMuNDc3NiAtMC4wNjM3LDAuMDIxNiAtMC4xMTk5MiwwLjA1IC0wLjE3NTgsMC4wNzgzIC0zLjA3NzQ5LDEuMTI3NTggLTYuMTYyNTksMy4xNjQzIC04Ljc4OTE5LDUuODAyNDUgLTUuMTkxNTUsNS4yMzY1NiAtNy43Mjg1OCwxMS45MzY1OCAtNi4zMDAyNCwxNi42MzgyMiAtMC4xNDA5OCwwLjQwODU3IC0wLjIxMzYxLDAuODM3NTkgLTAuMjE0OTgsMS4yNjk3OSAxLjVlLTQsMi4xNzA4MiAxLjc1OTkxLDMuOTMwNTggMy45MzA3MywzLjkzMDczIDAuNTQzNDEsLTAuMDAyIDEuMDgwNTMsLTAuMTE2MzkgMS41Nzc0NSwtMC4zMzYzMiA0LjY5MzY5LDEuMDU4ODEgMTEuMDY4ODUsLTEuNTQ1ODIgMTYuMDU0NDQsLTYuNTU5MTcgMi44MjYyNCwtMi44NTA3MiA0Ljk0MzU2LC02LjIyMzQ5IDUuOTgzMDMsLTkuNTMwNjIgMi4zMTY5NiwtNi42MjI3OCA3LjI5Njk5LC0xMi4wMTg1NiAxMy42MjI4MSwtMTUuMDUzMTIgMC4xNTEwNSwtMC4wNzI1IDAuMjczMDMsLTAuMTQ3MTQgMC4zODIxOCwtMC4yMjM1OCAyLjEyMDgyLC0xLjAxNDA4IDMuNjcyNTEsLTIuOTI4OTUgNC4yMjUsLTUuMjEzOSA5LjcwMjIyLDExLjQ0NDgxIDI0LjI1MjU1LDE4Ljc1Mjk5IDQwLjUxODc2LDE5LjEzNTc3IDI5LjgzMzUyLDAuNzAyMDUgNTIuMTMyOTksLTIxLjI1ODAyIDUzLjE2NDE0LC01Mi44MzY0MiAwLjUxODk0LC0xNS44OTI1OSAtNS42Mjk5MywtMzYuMzg0NyAtMTkuNjQxMiwtNTMuMTkwODkgLTEwLjcwODM1LC0xMi44NDQ0MSAtMjYuNDA5ODcsLTIzLjUwNzk1IC00NC4xODY5OSwtMjguMjA3NzcgeiIgaWQ9InBhdGg0MTc5LTMiLz4NCiAgPC9nPg0KICA8cmVjdCB5PSIzMDAiIHg9IjAiIGhlaWdodD0iMTgwIiB3aWR0aD0iMTIwMCIgaWQ9InJlY3Q4MzciIHN0eWxlPSJvcGFjaXR5OjE7ZmlsbDojZmZmZmZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjAxOTcxMDgzO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1vcGFjaXR5OjEiLz4NCiAgPHJlY3QgeT0iNDIwIiB4PSIwIiBoZWlnaHQ9IjYwIiB3aWR0aD0iMTIwMCIgaWQ9InJlY3Q4MzctNyIgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOiMwMDk5MzM7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuMDEzNjQ5ODc7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIvPg0KPC9zdmc+",
-        "representativeGeometryVersionId": "state:soviet-union-tajik-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-tajik-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1929-12-05",
+            "validTo": "1991-09-08",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -28955,9 +29451,9 @@
       "file": "state-soviet-union-tajik-ssr.json.gz",
       "validFrom": "1929-12-05",
       "validTo": "1991-09-08",
-      "compressedBytes": 16613,
-      "decodedBytes": 116156,
-      "sha256": "34b3d5055ef3a8fc59091dd4af7e06651a0dcd7e3a6494ec4f34e63d8e62fcb2",
+      "compressedBytes": 16664,
+      "decodedBytes": 116313,
+      "sha256": "758adfde90c0ce866ef62fb605d2d512301235dff186bc7dd2a9b3e8b00d6838",
       "bbox": [
         67.34269,
         36.678641,
@@ -29062,7 +29558,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgd2lkdGg9IjEyMDAiCiAgIGhlaWdodD0iNjAwIgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmc3Mzg4Ij4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE3Mzk0Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzNzM5MiIgLz4KICA8cGF0aAogICAgIGZpbGw9IiNjZDAwMDAiCiAgICAgZD0iTTAgMGgxMjAwdjYwMEgweiIKICAgICBpZD0icGF0aDczNzYiIC8+CiAgPGcKICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxIgogICAgIGlkPSJnMjkwMC0xIgogICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuNjU5NTQ1ODYsMCwwLDAuNjU3ODI1NDEsLTcwLjc4MDQ5MiwyNS4wMTA2KSI+CiAgICA8cGF0aAogICAgICAgaWQ9InJlY3Q0MTY1LTYiCiAgICAgICBkPSJtIDEzNy40Mzc0NCwxNzEuNjk0MjEgMTguODYyOTYsMTguOTkzNyAxNy43ODgzNCwtMTcuNjY1ODkgYyAyNy4wNTg0NywyOS4wMjEgNTUuNDM4MDcsNTYuOTk1MDEgODIuMjg3MDQsODYuMTI3ODIgNC4wMzQ0NCw0LjA2MjMzIDEwLjU5ODE1LDQuMDg1IDE0LjY2MDU2LDAuMDUwNiA0LjA2MjMyLC00LjAzNDQ1IDQuMDg0OTksLTEwLjU5ODE1IDAuMDUwNiwtMTQuNjYwNTYgLTI4LjgxODcxLC0yNy4xOTAxIC01Ny43MjU0NSwtNTQuNjAxNDMgLTg2LjU1MzI4LC04MS44OTA5NSBsIDIzLjk2NDk5LC0yMy44MDAwMyAtMzMuMzQwMjYsLTQuNjE2MDUgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNDg5MTkwNzM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPgogICAgPHBhdGgKICAgICAgIGlkPSJwYXRoNDE3OS0zIgogICAgICAgZD0ibSAxOTguMjg4NywxMTAuMTk1NSBjIDE1LjUxNzQzLDguNzM5NCAyNy4yOTg3MiwyMS4yODEyMiAzNC4yNDg0LDM0LjM5MjQgNy4wNDM5NCwxMy4yODkwMiAxMC4xMzk1OSwyNy4xNjIxOCAxMC4yMDMyNSwzOC4yNTQzMyAwLjEzMDU0LDIyLjc0Mzc0IC0xOC40Mzc3MSw0MS4xODE4NCAtNDEuMTgxODMsNDEuMTgxODQgLTEyLjEzNTk3LDAgLTIzLjA0NjA3LC01LjI0ODY4IC0zMC41ODMwMiwtMTMuNjAwODUgbCAtNC4xNjg2MywzLjUxMDMzIGMgLTAuNzA5OTksLTAuMjcyMzEgLTEuNDYzODcsLTAuNDEyMjEgLTIuMjI0MjksLTAuNDEyNzYgLTEuODI5NDgsMS45ZS00IC0zLjU2NjIxLDAuODA1MzEgLTQuNzQ4NTksMi4yMDEzNiAtMi45NzM2OCwwLjM4ODk2IC01LjQ2MjUxLDIuNDQ1MjkgLTYuNDA1MzQsNS4yOTIyNCAtMy4xMzQ4Niw2LjI4ODQzIC04LjYzNTI0LDExLjIxOTk3IC0xNS4yOTEwNCwxMy40Nzc2IC0wLjA2MzcsMC4wMjE2IC0wLjExOTkyLDAuMDUgLTAuMTc1OCwwLjA3ODMgLTMuMDc3NDksMS4xMjc1OCAtNi4xNjI1OSwzLjE2NDMgLTguNzg5MTksNS44MDI0NSAtNS4xOTE1NSw1LjIzNjU2IC03LjcyODU4LDExLjkzNjU4IC02LjMwMDI0LDE2LjYzODIyIC0wLjE0MDk4LDAuNDA4NTcgLTAuMjEzNjEsMC44Mzc1OSAtMC4yMTQ5OCwxLjI2OTc5IDEuNWUtNCwyLjE3MDgyIDEuNzU5OTEsMy45MzA1OCAzLjkzMDczLDMuOTMwNzMgMC41NDM0MSwtMC4wMDIgMS4wODA1MywtMC4xMTYzOSAxLjU3NzQ1LC0wLjMzNjMyIDQuNjkzNjksMS4wNTg4MSAxMS4wNjg4NSwtMS41NDU4MiAxNi4wNTQ0NCwtNi41NTkxNyAyLjgyNjI0LC0yLjg1MDcyIDQuOTQzNTYsLTYuMjIzNDkgNS45ODMwMywtOS41MzA2MiAyLjMxNjk2LC02LjYyMjc4IDcuMjk2OTksLTEyLjAxODU2IDEzLjYyMjgxLC0xNS4wNTMxMiAwLjE1MTA1LC0wLjA3MjUgMC4yNzMwMywtMC4xNDcxNCAwLjM4MjE4LC0wLjIyMzU4IDIuMTIwODIsLTEuMDE0MDggMy42NzI1MSwtMi45Mjg5NSA0LjIyNSwtNS4yMTM5IDkuNzAyMjIsMTEuNDQ0ODEgMjQuMjUyNTUsMTguNzUyOTkgNDAuNTE4NzYsMTkuMTM1NzcgMjkuODMzNTIsMC43MDIwNSA1Mi4xMzI5OSwtMjEuMjU4MDIgNTMuMTY0MTQsLTUyLjgzNjQyIDAuNTE4OTQsLTE1Ljg5MjU5IC01LjYyOTkzLC0zNi4zODQ3IC0xOS42NDEyLC01My4xOTA4OSAtMTAuNzA4MzUsLTEyLjg0NDQxIC0yNi40MDk4NywtMjMuNTA3OTUgLTQ0LjE4Njk5LC0yOC4yMDc3NyB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41MDAwMzQ4MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgPC9nPgogIDxwYXRoCiAgICAgZD0iTTEyMDAgMzE1SDB2ODVoMTIwMHYtODV6TTAgMjAwdjg1aDEyMDB2LTg1SDB6IgogICAgIGZpbGw9IiMwMGFmZWMiCiAgICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgIGlkPSJwYXRoNzM4NCIgLz4KICA8cGF0aAogICAgIGlkPSJwYXRoMTE3MjgiCiAgICAgZD0iTSA2MC4wMDAwMDEsMjIuNSA1MS41ODA2NjksNDguNDExODkgSCAyNC4zMzU0OTYgTCA0Ni4zNzcyNjIsNjQuNDI2MTMgMzcuOTU3OTM2LDkwLjMzOCA2MC4wMDAwMDEsNzQuMzIzNDcgODIuMDQyMDYsOTAuMzM4IDczLjYyMjczNyw2NC40MjYxMyA5NS42NjQ0OTYsNDguNDExODkgSCA2OC40MTkzNDMgWiBtIDAsMTMuNDk5OTggNS4zODgyODIsMTYuNTgzNDggSCA4Mi44MjU0NTEgTCA2OC43MTg0NTcsNjIuODMyOTYgNzQuMTA2NzI2LDc5LjQxNjQyIDYwLjAwMDAwMSw2OS4xNjcyMiA0NS44OTMyNzIsNzkuNDE2NDIgNTEuMjgxNTQ5LDYyLjgzMjk2IDM3LjE3NDU0Niw1Mi41ODM0NiBoIDE3LjQzNzE3MiB6IgogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuMTQ5OTk5NzdweDtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2Utb3BhY2l0eToxIiAvPgo8L3N2Zz4K",
-        "representativeGeometryVersionId": "state:soviet-union-turkmen-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-turkmen-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1925-05-13",
+            "validTo": "1991-10-26",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -29072,9 +29575,9 @@
       "file": "state-soviet-union-turkmen-ssr.json.gz",
       "validFrom": "1925-05-13",
       "validTo": "1991-10-26",
-      "compressedBytes": 20234,
-      "decodedBytes": 150772,
-      "sha256": "a7c01abed2a8c805a3ea46806b2a6f0bd40b9107e2bbee4ab1669908c80b38fe",
+      "compressedBytes": 20282,
+      "decodedBytes": 150929,
+      "sha256": "937a83df0412958c2cae304ced893b00cbeafdaed9d1c1e90dd0351b2b35fc94",
       "bbox": [
         52.437671,
         35.140647,
@@ -29420,7 +29923,14 @@
         "referenceDate": "1922-12-30",
         "identityScope": "Soviet constituent-republic membership only; predecessor federation not merged",
         "dissolutionDate": "1936-12-05",
-        "representativeGeometryVersionId": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2"
+        "representativeGeometryVersionId": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1922-12-30",
+            "validTo": "1936-12-04",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "",
@@ -29430,9 +29940,9 @@
       "file": "state-soviet-union-transcaucasian-sfsr.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1936-12-04",
-      "compressedBytes": 27626,
-      "decodedBytes": 174994,
-      "sha256": "70e2a19ad9537251ef058e78dabe2d57019b550f7936e81ef34f4c7b0f5bdf14",
+      "compressedBytes": 27703,
+      "decodedBytes": 175151,
+      "sha256": "a2404c3d3f2385c36b782f5bc5d77e17099ab9ef049d9c71c0480157c691c6cf",
       "bbox": [
         40.12017296416585,
         38.392645,
@@ -30303,7 +30813,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgd2lkdGg9IjEyMDAiCiAgIGhlaWdodD0iNjAwIgogICB2ZXJzaW9uPSIxIgogICBpZD0ic3ZnMiIKICAgY2xpcC1ydWxlPSJldmVub2RkIgogICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgIGltYWdlLXJlbmRlcmluZz0ib3B0aW1pemVRdWFsaXR5IgogICBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIKICAgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiI+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjc4NyI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+CiAgPGRlZnMKICAgICBpZD0iZGVmczQiIC8+CiAgPHBhdGgKICAgICBmaWxsPSIjYzAwIgogICAgIHN0cm9rZS13aWR0aD0iMiIKICAgICBpZD0icmVjdDkwOCIKICAgICBkPSJNMCAwaDEyMDB2NjAwSDB6IiAvPgogIDxwYXRoCiAgICAgaWQ9InJlY3QxMzEyIgogICAgIGQ9Ik0wIDQwMGgxMjAwdjIwMEgweiIKICAgICBmaWxsPSIjMzNiNWZmIgogICAgIHN0cm9rZS13aWR0aD0iMiIgLz4KICA8cGF0aAogICAgIGlkPSJwYXRoMTE3MjgiCiAgICAgZD0ibSA0MDAuMDAwNDYsMzcuNSAtOC40MTkzMywyNS45MTE4OCBIIDM2NC4zMzU5NiBMIDM4Ni4zNzc3Myw3OS40MjYxMiAzNzcuOTU4NCwxMDUuMzM4IDQwMC4wMDA0Niw4OS4zMjM0NiA0MjIuMDQyNTMsMTA1LjMzOCA0MTMuNjIzMiw3OS40MjYxMiA0MzUuNjY0OTYsNjMuNDExODggSCA0MDguNDE5OCBaIG0gMCwxMy40OTk5OSA1LjM4ODI4LDE2LjU4MzQ3IGggMTcuNDM3MTggbCAtMTQuMTA3LDEwLjI0OTQ5IDUuMzg4MjcsMTYuNTgzNDggTCA0MDAuMDAwNDYsODQuMTY3MjIgMzg1Ljg5Mzc0LDk0LjQxNjQzIDM5MS4yODIwMSw3Ny44MzI5NSAzNzcuMTc1LDY3LjU4MzQ2IGggMTcuNDM3MTggeiIKICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjE0OTk5OTc3cHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KICA8ZwogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiCiAgICAgaWQ9ImcyOTAwLTgiCiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC45ODkzMTg3OSwwLDAsMC45ODY3MzgxMSwyMDMuODI5NzMsMy43NjU5Mzk4KSI+CiAgICA8cGF0aAogICAgICAgaWQ9InJlY3Q0MTY1LTYiCiAgICAgICBkPSJtIDEzNy40Mzc0NCwxNzEuNjk0MjEgMTguODYyOTYsMTguOTkzNyAxNy43ODgzNCwtMTcuNjY1ODkgYyAyNy4wNTg0NywyOS4wMjEgNTUuNDM4MDcsNTYuOTk1MDEgODIuMjg3MDQsODYuMTI3ODIgNC4wMzQ0NCw0LjA2MjMzIDEwLjU5ODE1LDQuMDg1IDE0LjY2MDU2LDAuMDUwNiA0LjA2MjMyLC00LjAzNDQ1IDQuMDg0OTksLTEwLjU5ODE1IDAuMDUwNiwtMTQuNjYwNTYgLTI4LjgxODcxLC0yNy4xOTAxIC01Ny43MjU0NSwtNTQuNjAxNDMgLTg2LjU1MzI4LC04MS44OTA5NSBsIDIzLjk2NDk5LC0yMy44MDAwMyAtMzMuMzQwMjYsLTQuNjE2MDUgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNDg5MTkwNzM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPgogICAgPHBhdGgKICAgICAgIGlkPSJwYXRoNDE3OS0zIgogICAgICAgZD0ibSAxOTguMjg4NywxMTAuMTk1NSBjIDE1LjUxNzQzLDguNzM5NCAyNy4yOTg3MiwyMS4yODEyMiAzNC4yNDg0LDM0LjM5MjQgNy4wNDM5NCwxMy4yODkwMiAxMC4xMzk1OSwyNy4xNjIxOCAxMC4yMDMyNSwzOC4yNTQzMyAwLjEzMDU0LDIyLjc0Mzc0IC0xOC40Mzc3MSw0MS4xODE4NCAtNDEuMTgxODMsNDEuMTgxODQgLTEyLjEzNTk3LDAgLTIzLjA0NjA3LC01LjI0ODY4IC0zMC41ODMwMiwtMTMuNjAwODUgbCAtNC4xNjg2MywzLjUxMDMzIGMgLTAuNzA5OTksLTAuMjcyMzEgLTEuNDYzODcsLTAuNDEyMjEgLTIuMjI0MjksLTAuNDEyNzYgLTEuODI5NDgsMS45ZS00IC0zLjU2NjIxLDAuODA1MzEgLTQuNzQ4NTksMi4yMDEzNiAtMi45NzM2OCwwLjM4ODk2IC01LjQ2MjUxLDIuNDQ1MjkgLTYuNDA1MzQsNS4yOTIyNCAtMy4xMzQ4Niw2LjI4ODQzIC04LjYzNTI0LDExLjIxOTk3IC0xNS4yOTEwNCwxMy40Nzc2IC0wLjA2MzcsMC4wMjE2IC0wLjExOTkyLDAuMDUgLTAuMTc1OCwwLjA3ODMgLTMuMDc3NDksMS4xMjc1OCAtNi4xNjI1OSwzLjE2NDMgLTguNzg5MTksNS44MDI0NSAtNS4xOTE1NSw1LjIzNjU2IC03LjcyODU4LDExLjkzNjU4IC02LjMwMDI0LDE2LjYzODIyIC0wLjE0MDk4LDAuNDA4NTcgLTAuMjEzNjEsMC44Mzc1OSAtMC4yMTQ5OCwxLjI2OTc5IDEuNWUtNCwyLjE3MDgyIDEuNzU5OTEsMy45MzA1OCAzLjkzMDczLDMuOTMwNzMgMC41NDM0MSwtMC4wMDIgMS4wODA1MywtMC4xMTYzOSAxLjU3NzQ1LC0wLjMzNjMyIDQuNjkzNjksMS4wNTg4MSAxMS4wNjg4NSwtMS41NDU4MiAxNi4wNTQ0NCwtNi41NTkxNyAyLjgyNjI0LC0yLjg1MDcyIDQuOTQzNTYsLTYuMjIzNDkgNS45ODMwMywtOS41MzA2MiAyLjMxNjk2LC02LjYyMjc4IDcuMjk2OTksLTEyLjAxODU2IDEzLjYyMjgxLC0xNS4wNTMxMiAwLjE1MTA1LC0wLjA3MjUgMC4yNzMwMywtMC4xNDcxNCAwLjM4MjE4LC0wLjIyMzU4IDIuMTIwODIsLTEuMDE0MDggMy42NzI1MSwtMi45Mjg5NSA0LjIyNSwtNS4yMTM5IDkuNzAyMjIsMTEuNDQ0ODEgMjQuMjUyNTUsMTguNzUyOTkgNDAuNTE4NzYsMTkuMTM1NzcgMjkuODMzNTIsMC43MDIwNSA1Mi4xMzI5OSwtMjEuMjU4MDIgNTMuMTY0MTQsLTUyLjgzNjQyIDAuNTE4OTQsLTE1Ljg5MjU5IC01LjYyOTkzLC0zNi4zODQ3IC0xOS42NDEyLC01My4xOTA4OSAtMTAuNzA4MzUsLTEyLjg0NDQxIC0yNi40MDk4NywtMjMuNTA3OTUgLTQ0LjE4Njk5LC0yOC4yMDc3NyB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41MDAwMzQ4MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgPC9nPgo8L3N2Zz4K",
-        "representativeGeometryVersionId": "state:soviet-union-ukrainian-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-ukrainian-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1922-12-30",
+            "validTo": "1991-08-23",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -30313,9 +30830,9 @@
       "file": "state-soviet-union-ukrainian-ssr.json.gz",
       "validFrom": "1922-12-30",
       "validTo": "1991-08-23",
-      "compressedBytes": 69050,
-      "decodedBytes": 548077,
-      "sha256": "436e51dceb355c07e07d46d17fc9e6d897583e36758566e1ba59e78948b73b9d",
+      "compressedBytes": 69082,
+      "decodedBytes": 548234,
+      "sha256": "b1af60565c02b07fcee09bbcc6c0be4aa633a8decb9a1e3920dcbd71ce858ca4",
       "bbox": [
         22.13284,
         44.381049,
@@ -32333,7 +32850,8 @@
       },
       "metadata": {
         "sourceFeatureId": "USG",
-        "representativeGeometryVersionId": "state:USG:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:USG:natural-earth-5.1.1",
+        "affiliationType": "조차지"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -32343,9 +32861,9 @@
       "file": "state-USG.json.gz",
       "validFrom": "1903-02-23",
       "validTo": null,
-      "compressedBytes": 1454,
-      "decodedBytes": 5862,
-      "sha256": "e1a5c17a18f664aeb0cad895f63998dddda62e9935a1ecd1bad69d044c167f94",
+      "compressedBytes": 1470,
+      "decodedBytes": 5898,
+      "sha256": "0bf540a54bb8404bef85036e0b6bfefc205f13608a605339a4658507a545d921",
       "bbox": [
         -75.232859,
         19.891142,
@@ -32393,7 +32911,14 @@
         "referenceDate": "1991-01-01",
         "constituentRepublic": true,
         "defaultFlagDataUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgd2lkdGg9IjEyMDAiCiAgIGhlaWdodD0iNjAwIgogICB2ZXJzaW9uPSIxIgogICBpZD0ic3ZnMiIKICAgY2xpcC1ydWxlPSJldmVub2RkIgogICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgIGltYWdlLXJlbmRlcmluZz0ib3B0aW1pemVRdWFsaXR5IgogICBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIKICAgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiI+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjE4NCI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlCiAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4KICAgICAgICA8ZGM6dGl0bGU+PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+CiAgPGRlZnMKICAgICBpZD0iZGVmczQiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09InNjYWxlKDIpIgogICAgIGlkPSLQodC70L7QuV94MDAyMF8xIj4KICAgIDxwYXRoCiAgICAgICBkPSJNMCAwaDYwMHYzMDBIMHoiCiAgICAgICBpZD0icmVkX3gwMDIwX2JhY2tncm91bmQiCiAgICAgICBmaWxsPSIjYzAwIiAvPgogICAgPHBhdGgKICAgICAgIGQ9Ik0wIDEyMGg2MDB2NjBIMHoiCiAgICAgICBpZD0icmVjdDE4NTMiCiAgICAgICBmaWxsPSIjZmZmIiAvPgogICAgPHBhdGgKICAgICAgIGQ9Ik0wIDEyM2g2MDB2NTRIMHoiCiAgICAgICBpZD0icmVjdDI3NDYiCiAgICAgICBmaWxsPSIjMGRhZGZmIiAvPgogIDwvZz4KICA8ZwogICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjEiCiAgICAgaWQ9ImcyOTAwLTQiCiAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMC43OTE0NTUwMywwLDAsMC43ODkzOTA0OSw0My4wNjM3ODQsMy4wMTI3NTEzKSI+CiAgICA8cGF0aAogICAgICAgaWQ9InJlY3Q0MTY1LTYiCiAgICAgICBkPSJtIDEzNy40Mzc0NCwxNzEuNjk0MjEgMTguODYyOTYsMTguOTkzNyAxNy43ODgzNCwtMTcuNjY1ODkgYyAyNy4wNTg0NywyOS4wMjEgNTUuNDM4MDcsNTYuOTk1MDEgODIuMjg3MDQsODYuMTI3ODIgNC4wMzQ0NCw0LjA2MjMzIDEwLjU5ODE1LDQuMDg1IDE0LjY2MDU2LDAuMDUwNiA0LjA2MjMyLC00LjAzNDQ1IDQuMDg0OTksLTEwLjU5ODE1IDAuMDUwNiwtMTQuNjYwNTYgLTI4LjgxODcxLC0yNy4xOTAxIC01Ny43MjU0NSwtNTQuNjAxNDMgLTg2LjU1MzI4LC04MS44OTA5NSBsIDIzLjk2NDk5LC0yMy44MDAwMyAtMzMuMzQwMjYsLTQuNjE2MDUgeiIKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ3MDA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNDg5MTkwNzM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLWRhc2hvZmZzZXQ6MDtzdHJva2Utb3BhY2l0eToxIiAvPgogICAgPHBhdGgKICAgICAgIGlkPSJwYXRoNDE3OS0zIgogICAgICAgZD0ibSAxOTguMjg4NywxMTAuMTk1NSBjIDE1LjUxNzQzLDguNzM5NCAyNy4yOTg3MiwyMS4yODEyMiAzNC4yNDg0LDM0LjM5MjQgNy4wNDM5NCwxMy4yODkwMiAxMC4xMzk1OSwyNy4xNjIxOCAxMC4yMDMyNSwzOC4yNTQzMyAwLjEzMDU0LDIyLjc0Mzc0IC0xOC40Mzc3MSw0MS4xODE4NCAtNDEuMTgxODMsNDEuMTgxODQgLTEyLjEzNTk3LDAgLTIzLjA0NjA3LC01LjI0ODY4IC0zMC41ODMwMiwtMTMuNjAwODUgbCAtNC4xNjg2MywzLjUxMDMzIGMgLTAuNzA5OTksLTAuMjcyMzEgLTEuNDYzODcsLTAuNDEyMjEgLTIuMjI0MjksLTAuNDEyNzYgLTEuODI5NDgsMS45ZS00IC0zLjU2NjIxLDAuODA1MzEgLTQuNzQ4NTksMi4yMDEzNiAtMi45NzM2OCwwLjM4ODk2IC01LjQ2MjUxLDIuNDQ1MjkgLTYuNDA1MzQsNS4yOTIyNCAtMy4xMzQ4Niw2LjI4ODQzIC04LjYzNTI0LDExLjIxOTk3IC0xNS4yOTEwNCwxMy40Nzc2IC0wLjA2MzcsMC4wMjE2IC0wLjExOTkyLDAuMDUgLTAuMTc1OCwwLjA3ODMgLTMuMDc3NDksMS4xMjc1OCAtNi4xNjI1OSwzLjE2NDMgLTguNzg5MTksNS44MDI0NSAtNS4xOTE1NSw1LjIzNjU2IC03LjcyODU4LDExLjkzNjU4IC02LjMwMDI0LDE2LjYzODIyIC0wLjE0MDk4LDAuNDA4NTcgLTAuMjEzNjEsMC44Mzc1OSAtMC4yMTQ5OCwxLjI2OTc5IDEuNWUtNCwyLjE3MDgyIDEuNzU5OTEsMy45MzA1OCAzLjkzMDczLDMuOTMwNzMgMC41NDM0MSwtMC4wMDIgMS4wODA1MywtMC4xMTYzOSAxLjU3NzQ1LC0wLjMzNjMyIDQuNjkzNjksMS4wNTg4MSAxMS4wNjg4NSwtMS41NDU4MiAxNi4wNTQ0NCwtNi41NTkxNyAyLjgyNjI0LC0yLjg1MDcyIDQuOTQzNTYsLTYuMjIzNDkgNS45ODMwMywtOS41MzA2MiAyLjMxNjk2LC02LjYyMjc4IDcuMjk2OTksLTEyLjAxODU2IDEzLjYyMjgxLC0xNS4wNTMxMiAwLjE1MTA1LC0wLjA3MjUgMC4yNzMwMywtMC4xNDcxNCAwLjM4MjE4LC0wLjIyMzU4IDIuMTIwODIsLTEuMDE0MDggMy42NzI1MSwtMi45Mjg5NSA0LjIyNSwtNS4yMTM5IDkuNzAyMjIsMTEuNDQ0ODEgMjQuMjUyNTUsMTguNzUyOTkgNDAuNTE4NzYsMTkuMTM1NzcgMjkuODMzNTIsMC43MDIwNSA1Mi4xMzI5OSwtMjEuMjU4MDIgNTMuMTY0MTQsLTUyLjgzNjQyIDAuNTE4OTQsLTE1Ljg5MjU5IC01LjYyOTkzLC0zNi4zODQ3IC0xOS42NDEyLC01My4xOTA4OSAtMTAuNzA4MzUsLTEyLjg0NDQxIC0yNi40MDk4NywtMjMuNTA3OTUgLTQ0LjE4Njk5LC0yOC4yMDc3NyB6IgogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDcwMDtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41MDAwMzQ4MTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjEiIC8+CiAgPC9nPgogIDxwYXRoCiAgICAgaWQ9InBhdGgxMTcyOCIKICAgICBkPSJtIDE5OS4yMDAzNywzMC4wMDAwMzEgLTYuNzM1NDQsMjAuODE5NTA0IGggLTIxLjc5NjA2IGwgMTcuNjMzMzUsMTIuODY3MDAxIC02LjczNTQ0LDIwLjgxOTQ5NSAxNy42MzM1OSwtMTIuODY3MjQyIDE3LjYzMzU5LDEyLjg2NzI0MiAtNi43MzU0NCwtMjAuODE5NDk1IDE3LjYzMzM1LC0xMi44NjcwMDEgaCAtMjEuNzk2MDUgeiBtIDAsMTAuODQ2ODc3IDQuMzEwNjEsMTMuMzI0MzcgaCAxMy45NDk2OSBsIC0xMS4yODU1Niw4LjIzNTE5NyA0LjMxMDYsMTMuMzI0MzcgLTExLjI4NTM0LC04LjIzNDk1NiAtMTEuMjg1MzQsOC4yMzQ5NTYgNC4zMTA2LC0xMy4zMjQzNyAtMTEuMjg1NTYsLTguMjM1MTk3IGggMTMuOTQ5NjkgeiIKICAgICBzdHlsZT0iZmlsbDojZmZkNzAwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjEyMDI1OTc5cHg7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlLW9wYWNpdHk6MSIgLz4KPC9zdmc+Cg==",
-        "representativeGeometryVersionId": "state:soviet-union-uzbek-ssr:1991-r1"
+        "representativeGeometryVersionId": "state:soviet-union-uzbek-ssr:1991-r1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1925-05-13",
+            "validTo": "1991-08-30",
+            "type": "구성공화국"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 with late-Soviet boundary adjustments",
@@ -32403,9 +32928,9 @@
       "file": "state-soviet-union-uzbek-ssr.json.gz",
       "validFrom": "1925-05-13",
       "validTo": "1991-08-30",
-      "compressedBytes": 20556,
-      "decodedBytes": 151329,
-      "sha256": "a4231f27e11155f7593d05919d7abc54f0be65512abf5eb296e4e535d1c0753e",
+      "compressedBytes": 20605,
+      "decodedBytes": 151486,
+      "sha256": "102fcefc937eae90e1ec149385cb5bf5ea40981751991f79055e8cd277937917",
       "bbox": [
         55.975839,
         37.185147,
@@ -32667,7 +33192,24 @@
       "metadata": {
         "sourceFeatureId": "VGB",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vg.svg",
-        "representativeGeometryVersionId": "state:VGB:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:VGB:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1956-07-01",
+            "validTo": "1982-12-31",
+            "type": "왕령식민지"
+          },
+          {
+            "validFrom": "1983-01-01",
+            "validTo": "2002-02-25",
+            "type": "영국속령"
+          },
+          {
+            "validFrom": "2002-02-26",
+            "validTo": null,
+            "type": "해외영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -32677,9 +33219,9 @@
       "file": "state-VGB.json.gz",
       "validFrom": "1956-07-01",
       "validTo": null,
-      "compressedBytes": 1964,
-      "decodedBytes": 10508,
-      "sha256": "613c30b86d4c073fb6f7be2ae7629415f2beb9dfa161811be0f2ecb70ab4e8e1",
+      "compressedBytes": 2090,
+      "decodedBytes": 10889,
+      "sha256": "c6c050512e865a3ef33cf74f5a8e5f47e1d8be240e0a7dd88b5ab81044a4ac02",
       "bbox": [
         -64.773997,
         18.334662,
@@ -32718,7 +33260,19 @@
       "metadata": {
         "sourceFeatureId": "VIR",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/vi.svg",
-        "representativeGeometryVersionId": "state:VIR:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:VIR:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1917-03-31",
+            "validTo": "1936-06-21",
+            "type": "영토"
+          },
+          {
+            "validFrom": "1936-06-22",
+            "validTo": null,
+            "type": "조직비편입영토"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -32728,9 +33282,9 @@
       "file": "state-VIR.json.gz",
       "validFrom": "1672",
       "validTo": null,
-      "compressedBytes": 1890,
-      "decodedBytes": 8819,
-      "sha256": "55a3266ad461de5693cf438b7dda42a4023b3bf1261601fc8761bdbef2fca5e1",
+      "compressedBytes": 1989,
+      "decodedBytes": 9084,
+      "sha256": "6b1bcdc4d60a5bc6c7520a272785f83f57600061ba6830807cd758367fcabe37",
       "bbox": [
         -65.041493,
         17.682766,
@@ -32871,7 +33425,24 @@
       "metadata": {
         "sourceFeatureId": "WLF",
         "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/wf.svg",
-        "representativeGeometryVersionId": "state:WLF:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:WLF:natural-earth-5.1.1",
+        "affiliationTypeHistory": [
+          {
+            "validFrom": "1909-06-10",
+            "validTo": "1961-07-29",
+            "type": "보호령"
+          },
+          {
+            "validFrom": "1961-07-30",
+            "validTo": "2003-03-28",
+            "type": "해외영토"
+          },
+          {
+            "validFrom": "2003-03-29",
+            "validTo": null,
+            "type": "해외집합체"
+          }
+        ]
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -32881,9 +33452,9 @@
       "file": "state-WLF.json.gz",
       "validFrom": "1909-06-10",
       "validTo": null,
-      "compressedBytes": 1509,
-      "decodedBytes": 5593,
-      "sha256": "3b194f4947255a57225592b58cc8b217324adacea76afd91d859be949e600278",
+      "compressedBytes": 1616,
+      "decodedBytes": 5971,
+      "sha256": "d66c3b3d9621d3ba995313c23da1f52a12d361fcaa8d24a0fcbce1b137291b61",
       "bbox": [
         -178.18574,
         -14.319431,
@@ -32921,7 +33492,8 @@
       },
       "metadata": {
         "sourceFeatureId": "WSB",
-        "representativeGeometryVersionId": "state:WSB:natural-earth-5.1.1"
+        "representativeGeometryVersionId": "state:WSB:natural-earth-5.1.1",
+        "affiliationType": "주권기지구역"
       },
       "sourceInfo": {
         "title": "Natural Earth 5.1.1 Admin 0 Countries",
@@ -32931,9 +33503,9 @@
       "file": "state-WSB.json.gz",
       "validFrom": "1960-08-16",
       "validTo": null,
-      "compressedBytes": 1705,
-      "decodedBytes": 6460,
-      "sha256": "7a52ce5bfecf3d356b844e53c580c56236575b1cf848fd48b7d509fca7d055d8",
+      "compressedBytes": 1749,
+      "decodedBytes": 6505,
+      "sha256": "2b97f4812ef60119c2c2948acf4e887fde5c848dde0c01718e4beeb2c58a0b74",
       "bbox": [
         32.760102,
         34.568549,
