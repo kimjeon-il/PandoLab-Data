@@ -1,0 +1,97 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+  "type": "geography",
+  "title": "콩에오강 빌레뵐–스코드보르후스 구간의 덴마크 왕국·슐레스비히 공국 경계 (1836년 검토)",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "historical-border-review"
+  },
+  "feature": {
+    "kind": "historical-territorial-jurisdiction-boundary",
+    "name": "Kongeå: Villebøl–Foldingbro–Skodborghus",
+    "coordinates": null,
+    "geometryVerified": false,
+    "sharedBoundaryChecked": false,
+    "topologyChecked": false,
+    "precisionByScaleChecked": false
+  },
+  "entityKeys": [
+    "state:DNK"
+  ],
+  "date": {
+    "year": 1836,
+    "value": null,
+    "precision": "year",
+    "note": "검토 기준 시점. 경계가 이 해에 새로 생겼다는 뜻이 아니다."
+  },
+  "changes": [
+    {
+      "entityKey": "state:DNK",
+      "field": "territory.geometry",
+      "summary": "콩에오강을 따라 표시된 왕국과 공국의 관할 경계는 확인했으나, 적용할 수치 형상은 미확정.",
+      "assessment": "source-reviewed"
+    }
+  ],
+  "finding": "1828년 하데르슬레우 도엽에서 빌레뵐–폴딩브로–스코드보르후스 구간의 관할 경계는 강줄기와 다른 쇄선이다. 스코드보르후스에서 베옌으로 향하는 도로와도 갈라진다. 1827년 리베 도엽은 빌레뵐 쪽만 대조할 수 있고 같은 글리만 계열이다. 1795년 실측 초고 두 장은 강의 옛 굽이와 세 지점을 확인하는 근거다. 원 기호 중 원형 점선은 교구 경계이며, 그대로 왕국·공국 경계나 주권선으로 해석하지 않는다.",
+  "evidenceDates": [
+    {
+      "year": 1795,
+      "kind": "survey-manuscript"
+    },
+    {
+      "year": 1818,
+      "kind": "cadastral-drawing-with-later-amendments"
+    },
+    {
+      "year": 1827,
+      "kind": "printed-map"
+    },
+    {
+      "year": 1828,
+      "kind": "printed-map"
+    }
+  ],
+  "coordinateChecks": {
+    "crs": "ETRS89 / UTM zone 32N (EPSG:25832), 시험 계산의 대상 좌표계",
+    "westernSheet": {
+      "controls": 6,
+      "similarityLeaveOneOutP95NativePixels": 32.7,
+      "affineLeaveOneOutP95NativePixels": 35.5,
+      "geometryAccepted": false
+    },
+    "easternSheet": {
+      "controls": 3,
+      "diagnosis": "서쪽으로 외삽이 필요하고 기준점이 거의 한 줄에 놓여 독립 검증 불가",
+      "geometryAccepted": false
+    },
+    "sheetJoinVerified": false
+  },
+  "sourceIds": [
+    "SRC-149",
+    "SRC-150",
+    "SRC-151",
+    "SRC-152",
+    "SRC-153",
+    "SRC-154",
+    "SRC-155",
+    "SRC-156"
+  ],
+  "unresolved": [
+    "원도 두 장의 접합을 독립 기준점으로 확인하지 못했다.",
+    "1828년 지도상 기호만으로 당시 어느 강둑 또는 중심선이 법적 경계였는지 확정할 수 없다.",
+    "서부 원도의 위치 검증 오차가 커서 좌표나 연결선을 등록하지 않았다. 현대 강줄기와 1864년 경계를 대신 사용하지 않는다.",
+    "원본 스캔을 재배포하지 않는다. 실제 적용 전 근거 자료의 이용 조건과 공유 경계 위상을 별도 확인한다."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "kongeaa-border-source-review",
+    "createdOn": "2026-11-23"
+  },
+  "politiesOnEitherSide": [
+    "덴마크 왕국",
+    "슐레스비히 공국 (당시 덴마크 국왕과 군주를 공유; 이 기록은 별도 주권국 또는 현대 객체 ID를 설정하지 않음)"
+  ]
+}

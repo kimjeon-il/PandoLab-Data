@@ -1188,6 +1188,62 @@
       "kind": "historic-law-facsimile",
       "reviewStatus": "search-excerpt-only-pdf-not-downloaded",
       "reviewedOn": "2026-11-24"
+    },
+    {
+      "id": "SRC-149",
+      "url": "https://slaegtsbibliotek.dk/2024/943033.pdf#page=44",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "글리만 하데르슬레우 도엽 (1828), 인쇄 42–43쪽과 47쪽",
+      "reviewStatus": "facsimile-map-image-reviewed"
+    },
+    {
+      "id": "SRC-150",
+      "url": "https://commons.wikimedia.org/wiki/File:Gliemann_Ribe_Amt%2C_s%C3%B8ndre_del.jpg",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "글리만 리베 남부 도엽 (1827), 빌레뵐과 범례",
+      "reviewStatus": "original-map-scan-reviewed"
+    },
+    {
+      "id": "SRC-151",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21943493#432840,78964593",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "S. 브룬 1795년 실측 초고 8x 서부",
+      "reviewStatus": "original-map-scan-reviewed"
+    },
+    {
+      "id": "SRC-152",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/billedviser?epid=21943493#432840,78964594",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "S. 브룬 1795년 실측 초고 8x 동부",
+      "reviewStatus": "original-map-scan-reviewed"
+    },
+    {
+      "id": "SRC-153",
+      "url": "https://arkivalieronline.rigsarkivet.dk/da/other/index-creator/134/2245162/21943493",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "덴마크 국립기록원 실측 초고 목록 및 8y 교구 경계 범례",
+      "reviewStatus": "archive-catalog-and-map-legend-reviewed"
+    },
+    {
+      "id": "SRC-154",
+      "url": "https://vejentilviden.dk/Museumsavisen/Museumsavisen_65.pdf#page=8",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "스코드보르후스 1818년 지적도 도판과 1862년 도로 수정",
+      "reviewStatus": "facsimile-map-image-reviewed"
+    },
+    {
+      "id": "SRC-155",
+      "url": "https://slaegtsbibliotek.dk/2025/951092.pdf",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "폴딩브로 세관을 설치한 1790년 2월 24일 왕실 결의의 후대 인용",
+      "reviewStatus": "published-historical-transcription-reviewed"
+    },
+    {
+      "id": "SRC-156",
+      "url": "https://cas.au.dk/danmarkshistorien/lektioner/lektion-6-fra-enevaeldig-helstat-til-nationalstat-1814-1914/1-det-danske-rige",
+      "fromReport": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "section": "19세기 초 덴마크 왕국과 슐레스비히 공국의 복합군주국 관계",
+      "reviewStatus": "historical-context-reviewed"
     }
   ]
 }

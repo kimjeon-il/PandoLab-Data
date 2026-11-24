@@ -1376,6 +1376,19 @@
       "application": "not-applied"
     },
     {
+      "id": "GEO-DNK-SCHLESWIG-KONGEAA-1836",
+      "type": "geography",
+      "path": "reports/history/geography/borders/kongeaa-denmark-schleswig-1836.json",
+      "title": "콩에오강 빌레뵐–스코드보르후스 구간의 덴마크 왕국·슐레스비히 공국 경계 (1836년 검토)",
+      "entityKeys": [
+        "state:DNK"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "GEO-ISLA-SUAREZ",
       "type": "geography",
       "path": "reports/history/geography/borders/isla-suarez.json",
@@ -1492,6 +1505,7 @@
     ],
     "geography": [
       "GEO-2025-KGZ-TJK-BORDER",
+      "GEO-DNK-SCHLESWIG-KONGEAA-1836",
       "GEO-ISLA-SUAREZ"
     ]
   },
@@ -1685,6 +1699,9 @@
     "state:BRA": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "GEO-ISLA-SUAREZ"
+    ],
+    "state:DNK": [
+      "GEO-DNK-SCHLESWIG-KONGEAA-1836"
     ]
   },
   "byYear": {
@@ -2261,6 +2278,12 @@
           "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT"
         ]
       }
+    },
+    "state:DNK": {
+      "recordIds": [
+        "GEO-DNK-SCHLESWIG-KONGEAA-1836"
+      ],
+      "byDecade": {}
     },
     "state:KEN": {
       "recordIds": [
