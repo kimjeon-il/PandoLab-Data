@@ -7,8 +7,8 @@
     "assets/data/builtin-world/generated/v1/index.json": {
       "stored": "assets/data/builtin-world/generated/v1/index.json",
       "encoding": "identity",
-      "sha256": "3c20f72d930d4023912d9f791df5cb41b218a9aee01f6c65bd8aafac0f5971bc",
-      "bytes": 2067474
+      "sha256": "258c5c277490b72a63ccc80b46d60e890c76e21a3160ea2b93a25bcfdad4bb49",
+      "bytes": 2015446
     },
     "assets/data/countries-canonical-shared-v0.36.1.json.gz": {
       "stored": "assets/data/countries-canonical-shared-v0.36.1.json.gz",
@@ -2047,8 +2047,8 @@
     "assets/data/territorial-entities/generated/v2/index.json": {
       "stored": "assets/data/territorial-entities/generated/v2/index.json",
       "encoding": "identity",
-      "sha256": "d0cc311db00ec390ed1ba04adb7d236d63ca69df089458c5df348018f7e42e3a",
-      "bytes": 1809835
+      "sha256": "eacaa14ff51a19271c3188329fd376d4615a4dd713f22436cb86800cb87a8534",
+      "bytes": 1675607
     },
     "assets/data/territorial-entities/generated/v2/state-ABW.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-ABW.json.gz",
@@ -2713,8 +2713,8 @@
     "assets/data/territorial-entities/generated/v2/state-IRN.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-IRN.json.gz",
       "encoding": "identity",
-      "sha256": "7e37c37dd6050af65046461df8b810ebe3e5076e25d65979923928c9bb9c7b56",
-      "bytes": 138083
+      "sha256": "2290914a049847044258b1f3e4041e087ca2a5414ebe5c696e31bafce4b90d50",
+      "bytes": 148874
     },
     "assets/data/territorial-entities/generated/v2/state-IRQ.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-IRQ.json.gz",
@@ -3685,8 +3685,8 @@
     "assets/data/territorial-entities/generated/v2/state-soviet-union-russian-sfsr.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-soviet-union-russian-sfsr.json.gz",
       "encoding": "identity",
-      "sha256": "89c117bfeec5ba6d47ace77aecd3bbd5024503188903b334d215ce3583068cec",
-      "bytes": 793748
+      "sha256": "bd88a318b7916345787d5a8ea008c7844083f3edb256506bdfe45716e94d4263",
+      "bytes": 789121
     },
     "assets/data/territorial-entities/generated/v2/state-soviet-union-tajik-ssr.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-soviet-union-tajik-ssr.json.gz",
@@ -3715,8 +3715,8 @@
     "assets/data/territorial-entities/generated/v2/state-soviet-union.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-soviet-union.json.gz",
       "encoding": "identity",
-      "sha256": "8aa272a01d3558fda35c86147257318522fd14d229e82290678d310e37bc65b7",
-      "bytes": 1261789
+      "sha256": "ebe3f4cd8ff501ba915d011eb863c70ce2205f73e21b3de9a1f7594fc4ffc1cd",
+      "bytes": 1261462
     },
     "assets/data/territorial-entities/generated/v2/state-west-prussia.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-west-prussia.json.gz",
@@ -4391,10 +4391,10 @@
       "bytes": 7665
     },
     "assets/data/territorial-entities/source/countries/state-IRN.json": {
-      "stored": "assets/data/territorial-entities/.originals/b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa.gz",
+      "stored": "assets/data/territorial-entities/.originals/e20fe5a5bd23bbd0c57cbcd0745ee28c946a8ad2f5932227e5d4651c25bc4664.gz",
       "encoding": "gzip",
-      "sha256": "b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa",
-      "bytes": 70080
+      "sha256": "e20fe5a5bd23bbd0c57cbcd0745ee28c946a8ad2f5932227e5d4651c25bc4664",
+      "bytes": 72329
     },
     "assets/data/territorial-entities/source/countries/state-IRQ.json": {
       "stored": "assets/data/territorial-entities/.originals/5547d7f6a38604d4f07b7a2815bc6066a03720d815183e572af122b347dfad53.gz",
@@ -5363,10 +5363,10 @@
       "bytes": 16452
     },
     "assets/data/territorial-entities/source/countries/state-soviet-union-russian-sfsr.json": {
-      "stored": "assets/data/territorial-entities/.originals/a754216ac876b0c78a7cfe0bbb40f66e8ea41d190145fa73b92b9477db8d7f46.gz",
+      "stored": "assets/data/territorial-entities/.originals/3d482da15b6560a698cbce9753a0e47a3925cdde31fc910abac021361d148ba3.gz",
       "encoding": "gzip",
-      "sha256": "a754216ac876b0c78a7cfe0bbb40f66e8ea41d190145fa73b92b9477db8d7f46",
-      "bytes": 119921
+      "sha256": "3d482da15b6560a698cbce9753a0e47a3925cdde31fc910abac021361d148ba3",
+      "bytes": 123824
     },
     "assets/data/territorial-entities/source/countries/state-soviet-union-tajik-ssr.json": {
       "stored": "assets/data/territorial-entities/.originals/ba5cadb3fe62dc0921ff06b5bd852ac8dfd977ba0e582e4fb3e49b38e1dc3931.gz",
@@ -5393,10 +5393,10 @@
       "bytes": 17335
     },
     "assets/data/territorial-entities/source/countries/state-soviet-union.json": {
-      "stored": "assets/data/territorial-entities/.originals/fdcd0710e54cc369ba9d09a1bf3b6f7ca539972f8d6a3007f42a0c0c44690fc4.gz",
+      "stored": "assets/data/territorial-entities/.originals/1a64232514ea9aae5e832a41dd7dcd9237741bf78575452c3ea5d62cb3b35c56.gz",
       "encoding": "gzip",
-      "sha256": "fdcd0710e54cc369ba9d09a1bf3b6f7ca539972f8d6a3007f42a0c0c44690fc4",
-      "bytes": 140678
+      "sha256": "1a64232514ea9aae5e832a41dd7dcd9237741bf78575452c3ea5d62cb3b35c56",
+      "bytes": 144555
     },
     "assets/data/territorial-entities/source/countries/state-west-prussia.json": {
       "stored": "assets/data/territorial-entities/.originals/5b50f05183607665502eabb192a59efc5c6279c7b1ac59801d6ca5b8f9e51d2a.gz",
@@ -7579,14 +7579,14 @@
     "assets/data/territorial-entities/generated/v2/state-soviet-union-transcaucasian-sfsr.json.gz": {
       "stored": "assets/data/territorial-entities/generated/v2/state-soviet-union-transcaucasian-sfsr.json.gz",
       "encoding": "identity",
-      "sha256": "a2404c3d3f2385c36b782f5bc5d77e17099ab9ef049d9c71c0480157c691c6cf",
-      "bytes": 27703
+      "sha256": "ccfd5daab3f4e9443afd3a05c85eb05bb3c8994e245b89b8e802c1a9bd0d205d",
+      "bytes": 33482
     },
     "assets/data/territorial-entities/source/countries/state-soviet-union-transcaucasian-sfsr.json": {
-      "stored": "assets/data/territorial-entities/.originals/a901d4d6de7959cf933c200fe0061814e0c0dfbe2deb839544f9924fff5c6756.gz",
+      "stored": "assets/data/territorial-entities/.originals/e8b8f82a26cc93d6230f8540ff1c1ee32bba72f6f63aed731a5c77043ef3e9cc.gz",
       "encoding": "gzip",
-      "sha256": "a901d4d6de7959cf933c200fe0061814e0c0dfbe2deb839544f9924fff5c6756",
-      "bytes": 7309
+      "sha256": "e8b8f82a26cc93d6230f8540ff1c1ee32bba72f6f63aed731a5c77043ef3e9cc",
+      "bytes": 9428
     },
     "assets/data/territorial-entities/source/lineages/transcaucasian-sfsr.json": {
       "stored": "assets/data/territorial-entities/.originals/e7cdfdc12df06b2147da324e77f4f12ba2af2eb7382dab07e92b9de918b13a2d.gz",
@@ -86979,6 +86979,84 @@
       "encoding": "identity",
       "sha256": "ceb814b76e64e0f15c91c5b4794a374d15c12a395f79ecc18b86acde69aca9e6",
       "bytes": 2841
+    },
+    "assets/data/territorial-entities/source/geometries/sha256-10177940ffa7bac8c48a992a5c284359607cfa599500b1a8388b04d19538677e.json": {
+      "stored": "assets/data/territorial-entities/.originals/10177940ffa7bac8c48a992a5c284359607cfa599500b1a8388b04d19538677e.gz",
+      "encoding": "gzip",
+      "sha256": "10177940ffa7bac8c48a992a5c284359607cfa599500b1a8388b04d19538677e",
+      "bytes": 1617751
+    },
+    "assets/data/territorial-entities/source/geometries/sha256-7e38bb3e5a7d8cefa66dd85f8d36407b34c297b872c98408c4a7f9b1a5c11549.json": {
+      "stored": "assets/data/territorial-entities/.originals/7e38bb3e5a7d8cefa66dd85f8d36407b34c297b872c98408c4a7f9b1a5c11549.gz",
+      "encoding": "gzip",
+      "sha256": "7e38bb3e5a7d8cefa66dd85f8d36407b34c297b872c98408c4a7f9b1a5c11549",
+      "bytes": 1590737
+    },
+    "assets/data/territorial-entities/source/geometries/sha256-8370eb71e63e4cd7dc581ff52435517f70b14be1160f6a1cadae67f9a3a6e27d.json": {
+      "stored": "assets/data/territorial-entities/.originals/8370eb71e63e4cd7dc581ff52435517f70b14be1160f6a1cadae67f9a3a6e27d.gz",
+      "encoding": "gzip",
+      "sha256": "8370eb71e63e4cd7dc581ff52435517f70b14be1160f6a1cadae67f9a3a6e27d",
+      "bytes": 283996
+    },
+    "assets/data/territorial-entities/source/geometries/sha256-85caadf3b56c3bd3707f257e1f3ac59f94652b92b3974bc2eea490a6f065e947.json": {
+      "stored": "assets/data/territorial-entities/.originals/85caadf3b56c3bd3707f257e1f3ac59f94652b92b3974bc2eea490a6f065e947.gz",
+      "encoding": "gzip",
+      "sha256": "85caadf3b56c3bd3707f257e1f3ac59f94652b92b3974bc2eea490a6f065e947",
+      "bytes": 69290
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-4b98c302ae0448372e1522894f83a2b19c82fce537a277756f91cc8025421def.json.gz": {
+      "stored": "assets/data/builtin-world/.originals/4b98c302ae0448372e1522894f83a2b19c82fce537a277756f91cc8025421def.bin",
+      "encoding": "identity",
+      "sha256": "4b98c302ae0448372e1522894f83a2b19c82fce537a277756f91cc8025421def",
+      "bytes": 411956
+    },
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-6a2df32d2c8a0e8e76d85b0a3fc9222e544cd302c1652bd7f4b130f5e139d5b9.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-sha256-6a2df32d2c8a0e8e76d85b0a3fc9222e544cd302c1652bd7f4b130f5e139d5b9.json.gz",
+      "encoding": "identity",
+      "sha256": "6a2df32d2c8a0e8e76d85b0a3fc9222e544cd302c1652bd7f4b130f5e139d5b9",
+      "bytes": 17524
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-4704ce312dbdda08b7f3e44d2e573b4f5fc4b9bf61a0f23203a721b3f956080a.json.gz": {
+      "stored": "assets/data/builtin-world/.originals/4704ce312dbdda08b7f3e44d2e573b4f5fc4b9bf61a0f23203a721b3f956080a.bin",
+      "encoding": "identity",
+      "sha256": "4704ce312dbdda08b7f3e44d2e573b4f5fc4b9bf61a0f23203a721b3f956080a",
+      "bytes": 403964
+    },
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-57086715ee09d342231872dcdc36e68dc5ad8b8ceefaa4e32a02ef103bf59f91.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-russian-sfsr-sha256-57086715ee09d342231872dcdc36e68dc5ad8b8ceefaa4e32a02ef103bf59f91.json.gz",
+      "encoding": "identity",
+      "sha256": "57086715ee09d342231872dcdc36e68dc5ad8b8ceefaa4e32a02ef103bf59f91",
+      "bytes": 17823
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-6dd8f6e0441ae2c63c6f700946a5a63de63b1f7a39f51b602172df493526deaf.json.gz": {
+      "stored": "assets/data/builtin-world/.originals/6dd8f6e0441ae2c63c6f700946a5a63de63b1f7a39f51b602172df493526deaf.bin",
+      "encoding": "identity",
+      "sha256": "6dd8f6e0441ae2c63c6f700946a5a63de63b1f7a39f51b602172df493526deaf",
+      "bytes": 36171
+    },
+    "assets/data/builtin-world/generated/v1/countries/IRN-sha256-ad769d1026012614c75763ce427edce9c822db5895e86cea5fd7450612c218ba.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/IRN-sha256-ad769d1026012614c75763ce427edce9c822db5895e86cea5fd7450612c218ba.json.gz",
+      "encoding": "identity",
+      "sha256": "ad769d1026012614c75763ce427edce9c822db5895e86cea5fd7450612c218ba",
+      "bytes": 6028
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-8bbdd8abbc76c6105da62e663e1831a5f7040c0cef3e3cadcb0d4b1c92890b8f.json.gz": {
+      "stored": "assets/data/builtin-world/.originals/8bbdd8abbc76c6105da62e663e1831a5f7040c0cef3e3cadcb0d4b1c92890b8f.bin",
+      "encoding": "identity",
+      "sha256": "8bbdd8abbc76c6105da62e663e1831a5f7040c0cef3e3cadcb0d4b1c92890b8f",
+      "bytes": 27099
+    },
+    "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-eaed717fa3334812e22be42c97fd78f0973d079b957dcd6e1f9c32c13cdef88a.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/state-soviet-union-transcaucasian-sfsr-sha256-eaed717fa3334812e22be42c97fd78f0973d079b957dcd6e1f9c32c13cdef88a.json.gz",
+      "encoding": "identity",
+      "sha256": "eaed717fa3334812e22be42c97fd78f0973d079b957dcd6e1f9c32c13cdef88a",
+      "bytes": 3640
+    },
+    "reports/borders/validation/ussr-1922-iran-caspian-source-correction-2026-11-24.json": {
+      "stored": "reports/borders/validation/ussr-1922-iran-caspian-source-correction-2026-11-24.json",
+      "encoding": "identity",
+      "sha256": "b999a2ca630e45c4f9d90322fef4b00cc45d5ba491b4e8d0d63ca1fc2ca4fac1",
+      "bytes": 8830
     }
   },
   "reportLayout": "subjects-v1"

@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "kind": "bounded-historical-source-correction",
+  "status": "provisional-source-only",
+  "reviewedAt": "2026-11-24",
+  "baseRevision": "acf962d7ed6924c1602ada0ebdc441f6f805a444",
+  "previousConsumerPin": "b37744ac2428f90a843f374bf48822927ef2b96d",
+  "scope": {
+    "validFrom": "1922-12-30",
+    "validTo": "1925-05-12",
+    "userSelectedModernBorderProxy": true,
+    "historicalAccuracyVerified": false,
+    "meaning": "Modern shared Iran borders pending dedicated historical research. Restore whole existing Ogurja Ada land ring to USSR and RSFSR. Preserve existing Caspian water geometry, dates, other entities and unselected geometry."
+  },
+  "sources": {
+    "modernIran": {
+      "versionId": "state:IRN:natural-earth-5.1.1",
+      "resourceSha256": "2fb81ef5e65c3c1a7b337256d0da818673251ad01acee2388f200035efc072b2",
+      "role": "Approved prepared current display geometry, composite source and inherited rights retained"
+    },
+    "water": {
+      "versionId": "caspian-near1922-approved",
+      "resourceSha256": "d0dc8d70fa732c338d219da5f046af42e973fa8d7a6872907032a89dbe57b41b",
+      "role": "Existing historical shoreline and island outline, unmodified"
+    },
+    "turkey": {
+      "resourceSha256": "35fa539f86ee6552b43dfb62c95d871d873fe3597251a29b9b362769dc415f18",
+      "role": "local triple-point connection"
+    },
+    "afghanistan": {
+      "resourceSha256": "b6bb503ee922eee127c1d5865d715b99902b4e3ca98f0e413762f5e2e2eddc46",
+      "role": "local triple-point connection"
+    }
+  },
+  "arcs": {
+    "west": {
+      "points": 470,
+      "sha256": "20d5b436aa157eddbc20a2e91781fc69bb70db22efad8c9bc8ffc443d8916b32",
+      "coastalAnchor": [
+        48.87406348483892,
+        38.44047759387267
+      ],
+      "thirdCountryAnchor": [
+        44.80901410000007,
+        39.62776430000008
+      ],
+      "oldBorderJoinSoviet": [
+        44.78533664946865,
+        39.686884753504714
+      ],
+      "oldBorderJoinIran": [
+        44.800224436477556,
+        39.64368559610997
+      ]
+    },
+    "east": {
+      "points": 660,
+      "sha256": "82e62bd7c1d1c09488180ada64cc197e35bd599390c71ff30f7d5f42889f836f",
+      "coastalAnchor": [
+        54.06224011915656,
+        37.33528709175078
+      ],
+      "thirdCountryAnchor": [
+        61.27412600000008,
+        35.60515000000004
+      ],
+      "oldBorderJoinSoviet": [
+        61.358331357402356,
+        35.622905899562575
+      ],
+      "oldBorderJoinIran": [
+        61.26024142729514,
+        35.49821191376523
+      ]
+    }
+  },
+  "island": {
+    "waterRingIndex": 7,
+    "ringSha256": "e1236fc11579dfa600d36275bfc922a1927b99a4270bfa70456dce913fcc5a61",
+    "oldFragments": 5,
+    "newFragments": 1,
+    "oldAreaSquareDegrees": 0.001339959956567327,
+    "newAreaSquareDegrees": 0.00474871400729171,
+    "meaning": "exact existing land ring, no new water model or historical sovereignty research"
+  },
+  "rows": [
+    {
+      "entityId": "state:soviet-union",
+      "versionId": "state:soviet-union:1922-12-30-reviewed-v2",
+      "previousDescriptorSha256": "fdcd0710e54cc369ba9d09a1bf3b6f7ca539972f8d6a3007f42a0c0c44690fc4",
+      "previousResourceSha256": "dea1fa768510a3475abb90da80aa929cb9cb92815ae2b6e19b964425199d2544",
+      "candidateResourceSha256": "10177940ffa7bac8c48a992a5c284359607cfa599500b1a8388b04d19538677e",
+      "candidateGeometrySha256": "502f8495f6dd3328837bbf114b3434f2c741dc1f6f6a80a57cee2466f9610e22",
+      "candidateResourceBytes": 1617751,
+      "polygonIndex": 6,
+      "ringIndex": 0,
+      "oldRingPoints": 28820,
+      "newRingPoints": 29402,
+      "edits": [
+        {
+          "start": 2839,
+          "end": 3060,
+          "oldSha256": "a54bbff044036b2734d1158a987e7e7b780516a094d5fb11f7ced752333e46e2",
+          "newSha256": "3f68896c3a5a88e2ee4a6180d68e83f737fc1502fb9aa938ebb5763774970cf1",
+          "oldCount": 222,
+          "newCount": 479
+        },
+        {
+          "start": 7158,
+          "end": 7496,
+          "oldSha256": "5e1830d44e174dcbdcf2d36854e62d52a8180d8ee598b1d371d0dd28a29cf623",
+          "newSha256": "a151df8f05cc38bd42326b0734915c847bef81327deea28ac0d3c9447e51ecb1",
+          "oldCount": 339,
+          "newCount": 664
+        }
+      ],
+      "islandReplacement": {
+        "firstPolygonIndex": 65,
+        "removedComponents": 5,
+        "addedComponents": 1
+      },
+      "changedEdgesChecked": 1145
+    },
+    {
+      "entityId": "state:soviet-union-russian-sfsr",
+      "versionId": "state:soviet-union-russian-sfsr:1922-12-30-reviewed-v2",
+      "previousDescriptorSha256": "97914c99b673e6312f100b395ffe2257f8cfcb1d94a5dda1d821dd51b9702ff8",
+      "previousResourceSha256": "72a7dba92731bfe0030ecc867e6ba6c8ec32377a70a75ce62589c00803772671",
+      "candidateResourceSha256": "7e38bb3e5a7d8cefa66dd85f8d36407b34c297b872c98408c4a7f9b1a5c11549",
+      "candidateGeometrySha256": "5031f7878f08b16b1730e1cd305a2eb5bc50ff32448914542eda10353059c22b",
+      "candidateResourceBytes": 1590737,
+      "polygonIndex": 6,
+      "ringIndex": 0,
+      "oldRingPoints": 27257,
+      "newRingPoints": 27582,
+      "edits": [
+        {
+          "start": 4930,
+          "end": 5268,
+          "oldSha256": "5e1830d44e174dcbdcf2d36854e62d52a8180d8ee598b1d371d0dd28a29cf623",
+          "newSha256": "a151df8f05cc38bd42326b0734915c847bef81327deea28ac0d3c9447e51ecb1",
+          "oldCount": 339,
+          "newCount": 664
+        }
+      ],
+      "islandReplacement": {
+        "firstPolygonIndex": 61,
+        "removedComponents": 5,
+        "addedComponents": 1
+      },
+      "changedEdgesChecked": 665
+    },
+    {
+      "entityId": "state:IRN",
+      "versionId": "state:IRN:natural-earth-5.1.1:caspian-1922-12-30",
+      "previousDescriptorSha256": "b732efa94b164e83d17f88b7dd47de36655ddd70ad987d05469735cbca2c96aa",
+      "previousResourceSha256": "f46d52834f5d1c710dcd84b69333a97544180e2a37bbee1844400eb79855ef1e",
+      "candidateResourceSha256": "8370eb71e63e4cd7dc581ff52435517f70b14be1160f6a1cadae67f9a3a6e27d",
+      "candidateGeometrySha256": "44b39d94fd28c1ec245c0e86836064341b2d234e4321843cb52238e4ab947213",
+      "candidateResourceBytes": 283996,
+      "polygonIndex": 0,
+      "ringIndex": 0,
+      "oldRingPoints": 5062,
+      "newRingPoints": 5651,
+      "edits": [
+        {
+          "start": 4303,
+          "end": 4640,
+          "oldSha256": "4d7e53b75b5be287f974cc844b62383947bae83769cf11dcd7b0ff43c20576e4",
+          "newSha256": "d8dd57791eea28b75407f6957bc43acbdafc3171fb2f05947f8ded1a23b67459",
+          "oldCount": 338,
+          "newCount": 673
+        },
+        {
+          "start": 4805,
+          "end": 5023,
+          "oldSha256": "ff8f11e05093d35398e6dd17473cb89645d466f1bcee2020551f65fc41917df6",
+          "newSha256": "a1bb50ca167284c663d4087a65b9d2cd35a7054b29bcab1bf39ed5a4e7d5a64f",
+          "oldCount": 219,
+          "newCount": 473
+        }
+      ],
+      "changedEdgesChecked": 1148
+    },
+    {
+      "entityId": "state:soviet-union-transcaucasian-sfsr",
+      "versionId": "state:soviet-union-transcaucasian-sfsr:1922-12-30-reviewed-v2",
+      "previousDescriptorSha256": "ece8286a66d0f99d12ed75e6677b798a265607e02a0cf63aa699405db1c9300a",
+      "previousResourceSha256": "eddfe1fb8c63417a196b8a50ad9c9992cc013f742d872fc505521bf90bd0e0ca",
+      "candidateResourceSha256": "85caadf3b56c3bd3707f257e1f3ac59f94652b92b3974bc2eea490a6f065e947",
+      "candidateGeometrySha256": "c9ac0070fd71d00b394ad95a279aff558b11e5352a18246b33e19c8bd5eca22c",
+      "candidateResourceBytes": 69290,
+      "polygonIndex": 0,
+      "ringIndex": 0,
+      "oldRingPoints": 1732,
+      "newRingPoints": 1989,
+      "edits": [
+        {
+          "start": 1127,
+          "end": 1348,
+          "oldSha256": "a54bbff044036b2734d1158a987e7e7b780516a094d5fb11f7ced752333e46e2",
+          "newSha256": "3f68896c3a5a88e2ee4a6180d68e83f737fc1502fb9aa938ebb5763774970cf1",
+          "oldCount": 222,
+          "newCount": 479
+        }
+      ],
+      "changedEdgesChecked": 480
+    }
+  ],
+  "checks": {
+    "sourceByteHashesVerified": true,
+    "pairedSharedArcsExact": true,
+    "changedRingClosure": true,
+    "changedEdgeDuplicateCount": 0,
+    "newProperCrossingsAgainstSameRingIranTurkeyAfghanistanWater": 0,
+    "orientationDistanceToleranceDegrees": 1e-10,
+    "islandNoOtherComponentIntersection": true,
+    "unchangedOtherCoordinatesByExactSplice": true,
+    "otherPeriodsUntouched": true,
+    "fullNativeGeometryValidation": "not-run",
+    "fullParentUnionAndNeighborTopology": "not-run",
+    "visualReview": "not-run",
+    "runtimeGeneration": "not-run",
+    "runtimeActivation": "not-approved"
+  },
+  "note": "Only bounded local checks were executed. Historical accuracy and the global Core/rendering gate are not asserted. Keep previous display review as historical evidence rather than relabel it as approval of new coordinates."
+}
