@@ -16,7 +16,10 @@
   },
   "sourceIds": [
     "SRC-263",
-    "SRC-255"
+    "SRC-255",
+    "SRC-349",
+    "SRC-350",
+    "SRC-351"
   ],
   "unresolved": [
     "최종 정면 도안 기준. 1980년 뒷면 무문양 규정 개정은 정면 변경과 구분. 대용량 객체 원문 미열람으로 등록 기본 도안 확인 필요.",
@@ -53,9 +56,12 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-263",
-      "SRC-255"
+      "SRC-255",
+      "SRC-349",
+      "SRC-350",
+      "SRC-351"
     ],
-    "evidenceNote": "최종 정면 도안 기준. 1980년 뒷면 무문양 규정 개정은 정면 변경과 구분. 대용량 객체 원문 미열람으로 등록 기본 도안 확인 필요.",
+    "evidenceNote": "1955-08-19 최고회의 상임위원회 법령 및 1980-08-15 개정(1984-08-16 후속 개정) 확인. 정면 낫·망치 도안 정형화와 뒷면 무문양 규정을 분리. FOTW에는 1977년 이전부터 뒷면 무문양 규정이 있었을 가능성도 제기되어 1980년을 최초 뒷면 변화로 단정하지 않음. 현재 객체 원문 미열람.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +71,23 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "원문 미열람"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-349",
+        "SRC-350",
+        "SRC-351"
+      ],
+      "details": {
+        "frontDesignStandard": "1955-08-19",
+        "laterRegulation": "1980-08-15",
+        "reverseStart": "uncertain",
+        "registeredAssetInspected": false
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }

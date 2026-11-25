@@ -2490,6 +2490,125 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "1993-03-22 최초 시행판 제7조 이미지",
       "reviewStatus": "official-law-pdf-reviewed"
+    },
+    {
+      "id": "SRC-335",
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_2837/2011a123b16a58aa919bb52261df7e3ee94ca6e3/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "대통령령 2126호 및 종전 비율 사용 과도기",
+      "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-336",
+      "url": "https://www.kontur-extern.ru/info/normativ/document/1/34426-ukaz-prezidenta-rf-ot-11-12-93-n-2126",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1993-12-18 게재 메타데이터",
+      "reviewStatus": "legal-publication-metadata-reviewed"
+    },
+    {
+      "id": "SRC-337",
+      "url": "https://crwflags.com/FotW/FLAGS/ru_1991.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1991년형 삼색기",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-338",
+      "url": "https://www.consigliograndeegenerale.sm/on-line/home/scheda17098436.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "의회 법률 처리 및 공표 이력",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-339",
+      "url": "https://www.crwflags.com/Fotw/FLAGS/sm.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1862년 채택 및 2011년 모델",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-340",
+      "url": "https://www.crwflags.com/FoTW/flags/se_fact.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1906-06-22 재채택, 국기 비율 및 후대 색 규정",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-341",
+      "url": "https://ttk.gov.tr/turk-bayragi-kanunu/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1936년 및 1983년 국기법 원문과 시행조항",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-342",
+      "url": "https://www.tccb.gov.tr/cumhurbaskanligi/resmi-simgeler/bayrak/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "현 국기 도안 규격",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-343",
+      "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/flag.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "현 형태 및 최초 게양일",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-344",
+      "url": "https://www.vatican.va/content/leo-xiv/it/motu_proprio/documents/20260731-legge-fondamentale-scv.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2026 기본법 제24·25조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-345",
+      "url": "https://www.vatican.va/content/dam/leo-xiv/images/motu-proprio/legge-fondamentale-scv/allegato-a.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2026년 부속서 A 국기 도면 1쪽",
+      "reviewStatus": "official-annex-image-reviewed"
+    },
+    {
+      "id": "SRC-346",
+      "url": "https://mbc.cyfrowemazowsze.pl/Content/6176/PDF/6176.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1897년 문장학 도서 90쪽, 지방색 1882년",
+      "reviewStatus": "historical-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-347",
+      "url": "https://www.fahnenversand.de/fotw/flags/de-pr-wp.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1886-11-09 및 1882년 상충설",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-348",
+      "url": "https://efile.fara.gov/docs/5342-Informational-Materials-20200910-38.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "저서 Basic Facts 국기 설명 및 채택일",
+      "reviewStatus": "historical-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-349",
+      "url": "https://www.vexillographia.ru/russia/texts/1955_ussr.htm",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1955년 국기 규정과 1980년 개정",
+      "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-350",
+      "url": "https://meganorm.ru/mega_doc/dop1/74/polozhenie_o_gosudarstvennom_flage_soyuza_sovetskikh/0/ukaz_prezidiuma_vs_sssr_ot_19_08_1955_ob_utverzhdenii.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1955년 법령 원문 및 관보 번호",
+      "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-351",
+      "url": "https://www.crwflags.com/FoTW/FLAGS/su%27.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "정면 규격 및 뒷면 사용의 역사적 불확실성",
+      "reviewStatus": "specialist-text-reviewed"
     }
   ]
 }

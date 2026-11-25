@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-227"
+    "SRC-227",
+    "SRC-341",
+    "SRC-342"
   ],
   "unresolved": [
     "오스만 제국 시기 채택 도안. 1936년 비율 규격화. 현 객체 성립 이전부터 사용.",
@@ -39,7 +41,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적색 바탕 백색 초승달과 별",
     "registeredDesignStartCandidate": {
@@ -47,15 +49,17 @@
       "precision": "year"
     },
     "latestRevisionCandidate": {
-      "value": "1936",
-      "precision": "year"
+      "value": "1936-05-29",
+      "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-227"
+      "SRC-227",
+      "SRC-341",
+      "SRC-342"
     ],
-    "evidenceNote": "오스만 제국 시기 채택 도안. 1936년 비율 규격화. 현 객체 성립 이전부터 사용.",
+    "evidenceNote": "오스만 시대 초승달·별 기본 도안과 공화국 국기법을 구분한다. 1936-05-29 법률 2994호(06-05 공표), 1983-09-22 법률 2893호(09-24 공표, 공표 6개월 후 시행)를 확인. 동일한 기본 도안의 법정 규격화이므로 1983년을 새로운 국기 도안 채택일로 처리하지 않으며, 1844년의 정확한 월일은 미확정.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +69,24 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/tr.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-341",
+        "SRC-342"
+      ],
+      "details": {
+        "baseDesignYear": "1844",
+        "firstRepublicFlagLaw": "1936-05-29",
+        "firstLawPublished": "1936-06-05",
+        "laterLawAdoption": "1983-09-22",
+        "laterLawPublished": "1983-09-24",
+        "laterLawEffectiveDerived": "1984-03-24"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }

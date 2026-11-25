@@ -16,7 +16,10 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-228"
+    "SRC-228",
+    "SRC-335",
+    "SRC-336",
+    "SRC-337"
   ],
   "unresolved": [
     "1991년 RSFSR 복원과 1993년 색상·비율 변경 구분. 대용량 객체 원문 잘림으로 현재 등록 SVG 미확인. 1991년 시작일의 출처 간 차이 검토.",
@@ -53,9 +56,12 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-228"
+      "SRC-228",
+      "SRC-335",
+      "SRC-336",
+      "SRC-337"
     ],
-    "evidenceNote": "1991년 RSFSR 복원과 1993년 색상·비율 변경 구분. 대용량 객체 원문 잘림으로 현재 등록 SVG 미확인. 1991년 시작일의 출처 간 차이 검토.",
+    "evidenceNote": "1991년 복원 삼색기와 1993년 대통령령 2126호의 백·청·적 2:3 국기는 구분한다. 종전 비율 국기는 1995-01-01 이전까지 허용되었음. 1993-12-18 관보 게재 기록이 있으나 정확한 시행일과 실제 등록 SVG의 도안은 별도 검증 필요.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +71,23 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "원문 미열람"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-335",
+        "SRC-336",
+        "SRC-337"
+      ],
+      "details": {
+        "decreeDate": "1993-12-11",
+        "published": "1993-12-18",
+        "priorRatioAllowedThrough": "1994-12-31",
+        "registeredAssetInspected": false
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }
