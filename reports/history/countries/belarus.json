@@ -18,7 +18,9 @@
     "SRC-224",
     "SRC-229",
     "SRC-300",
-    "SRC-301"
+    "SRC-301",
+    "SRC-369",
+    "SRC-370"
   ],
   "unresolved": [
     "2012년 문양 폭 확대. 02-10/02-20(공표) 출처 차이로 월 단위 유지. SVG 문양 규격과 원법령 대조 필요.",
@@ -41,7 +43,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적·녹 가로띠 및 깃대 쪽 백색 바탕 적색 문양",
     "registeredDesignStartCandidate": {
@@ -49,17 +51,19 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2012-02",
-      "precision": "month"
+      "value": "2012-05-01",
+      "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
       "SRC-229",
       "SRC-300",
-      "SRC-301"
+      "SRC-301",
+      "SRC-369",
+      "SRC-370"
     ],
-    "evidenceNote": "FOTW는 STB 911-2008 개정이 2012-02-20 공표되며 적색 문양 폭이 1/12에서 1/9로 늘었다고 설명. 02-10 후보와 공표일이 다르므로 표준 원문 발효일 확인 전 월 정밀도 유지. 실제 기하학적 문양 변경.",
+    "evidenceNote": "국가표준위원회 2012-02-10 결의 12호 제3.1항이 STB 911-2008 제2차 개정을 2012-05-01 시행한다고 명시. 관보/결의 원문 p.2 이미지 확인. Viewer by.svg 백색 문양 영역 100/900=1/9, 현 개정 도안 계열과 일치(정확한 여백 및 색조는 별도).",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -71,6 +75,22 @@
     },
     "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인",
+      "sourceIds": [
+        "SRC-369",
+        "SRC-370"
+      ],
+      "details": {
+        "adopted": "2012-02-10",
+        "effective": "2012-05-01",
+        "registeredPatternBandRatio": "1:9",
+        "assetBlob": "574980fabafb89b40ee371cc67f6877d4a07e907"
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
       "dateAssessment": "provisional",

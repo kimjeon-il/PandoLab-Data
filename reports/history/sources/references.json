@@ -2644,6 +2644,146 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "1949-11-21 채택 및 도안 규격",
       "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-357",
+      "url": "https://qbz.gov.al/eli/ligj/2002/07/22/8926",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "공식 ELI 경로; 메타데이터 본문 미노출",
+      "reviewStatus": "official-link-verified-content-unavailable"
+    },
+    {
+      "id": "SRC-358",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ligji_8926_22.07.2002.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "법률 제3·10조, 원문 텍스트 확인, PDF 화면 용량 제한",
+      "reviewStatus": "law-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-359",
+      "url": "https://bopa.mca.ad/constitucio/1993/art-2",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "헌법 제2조, 1993-05-04 발효, 전통 상징",
+      "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-360",
+      "url": "https://www.consellgeneral.ad/ca/arxiu/diari-oficial-del-consell-general-1/any-1996/dcg-6-1996/at_download/pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1996년 의회 회의록, 과거 여러 도안 병존; 검색 텍스트",
+      "reviewStatus": "parliament-search-text-reviewed"
+    },
+    {
+      "id": "SRC-361",
+      "url": "https://www.govern.ad/documents/1898932/2637120/Normes_Grafiques.pdf/7c40952c-6214-d02d-2d61-cc8daaabccdf?t=1727259137135",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1999-05-05 정부 승인 그래픽 규격서, 국기 색상과 형태; 텍스트 열람, 화면 실패",
+      "reviewStatus": "government-manual-text-reviewed"
+    },
+    {
+      "id": "SRC-362",
+      "url": "https://meclis.gov.az/news-qanun.php?id=2000&lang=az",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2013-10-22 개정법 제9.2조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-363",
+      "url": "https://frameworks.e-qanun.az/6/f_6198.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2013-11-29 관보 게재 및 이전 색상",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-364",
+      "url": "https://base.spinform.ru/show_doc.fwx?rgn=65038",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2013-12-04 효력 메타데이터(보조)",
+      "reviewStatus": "secondary-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-365",
+      "url": "https://www.stat.gov.az/menu/3/Legislation/flag_law.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2018-11-02 헌법률 및 제2조, 이미지 검토",
+      "reviewStatus": "official-law-pdf-reviewed"
+    },
+    {
+      "id": "SRC-366",
+      "url": "https://mod.gov.az/images/pdf/19fed7042bd13cea433792069e3ecaf7.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "국방부 RGB 값, 검색 본문",
+      "reviewStatus": "government-search-text-reviewed"
+    },
+    {
+      "id": "SRC-367",
+      "url": "https://azstand.gov.az/az/xeberler/azerbaycan-respublikasinin-dovlet-bayragi-haqqinda-yeni-dovlet-standarti-qebul-edilib",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2023 제작기술 표준",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-368",
+      "url": "https://eprints.nbu.bg/id/eprint/4299/13/2016.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2016년 법학연보 pp.170–171, 주21의 11월 22일 속기록 인용; 화면 요청 실패",
+      "reviewStatus": "academic-pdf-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-369",
+      "url": "https://www.vexillographia.ru/belarus/texts/2012_belarus.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "결의 12호 제3.1항, PDF 2쪽 이미지",
+      "reviewStatus": "official-resolution-copy-pdf-reviewed"
+    },
+    {
+      "id": "SRC-370",
+      "url": "https://www.studmed.ru/stb-911-2008-gosudarstvennyy-flag-respubliki-belarus-obschie-tehnicheskie-usloviya_4cde9eee911.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "표준 및 개정 연혁",
+      "reviewStatus": "secondary-standard-metadata-reviewed"
+    },
+    {
+      "id": "SRC-371",
+      "url": "https://www.gov.cy/media/sites/39/2024/11/26o-%CE%A4%CE%B5%CF%8D%CF%87%CE%BF%CF%82.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "국방부 2010년 공식 역사자료, 2006-04-20/2007-03-21 결정, PDF 텍스트 및 화면 접근 403",
+      "reviewStatus": "government-pdf-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-372",
+      "url": "https://fr.wikisource.org/wiki/La_R%C3%A9volution_fran%C3%A7aise_de_juillet_1830/02",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1830년 8월 1일 명령의 동시대 전재",
+      "reviewStatus": "contemporary-law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-373",
+      "url": "https://www.elysee.fr/la-presidence/la-charte-constitutionnelle-du-14-aout-1830",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "헌장 제67조",
+      "reviewStatus": "official-historical-law-reviewed"
+    },
+    {
+      "id": "SRC-374",
+      "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/monarchie-de-juillet/la-charte-constitutionnelle-revisee",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "의회 역사 설명",
+      "reviewStatus": "official-history-reviewed"
+    },
+    {
+      "id": "SRC-375",
+      "url": "https://balrad.hu/A-Magyar-Nepkoztarsasag_Alkotmanya.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1957-05-23 관보 원문 재수록, 제4·5조 텍스트; 화면 용량 제한",
+      "reviewStatus": "official-gazette-reprint-text-reviewed"
+    },
+    {
+      "id": "SRC-376",
+      "url": "https://hu.wikisource.org/wiki/1957._%C3%A9vi_II._t%C3%B6rv%C3%A9ny",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "법령 전재 및 관보 게재일",
+      "reviewStatus": "law-transcription-reviewed"
     }
   ]
 }

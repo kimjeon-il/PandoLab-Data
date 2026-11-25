@@ -17,7 +17,13 @@
   "sourceIds": [
     "SRC-224",
     "SRC-228",
-    "SRC-285"
+    "SRC-285",
+    "SRC-362",
+    "SRC-363",
+    "SRC-364",
+    "SRC-365",
+    "SRC-366",
+    "SRC-367"
   ],
   "unresolved": [
     "독립 전 국기 복원. 2013년 색상 규격화는 별도 표시하며 기존 SVG와의 일치 확인 필요.",
@@ -40,7 +46,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "청·적·녹 가로띠와 흰 초승달·팔각별",
     "registeredDesignStartCandidate": {
@@ -55,9 +61,15 @@
     "sourceIds": [
       "SRC-224",
       "SRC-228",
-      "SRC-285"
+      "SRC-285",
+      "SRC-362",
+      "SRC-363",
+      "SRC-364",
+      "SRC-365",
+      "SRC-366",
+      "SRC-367"
     ],
-    "evidenceNote": "대통령실이 1991-02-05 국기 복원 및 게양을 확인. 2013년 색상 표준 후보는 원문 미확보로 별개 유지. 현재 객체의 1991-10-18 이전부터 해당 도안 사용.",
+    "evidenceNote": "국회·법령DB 788-IVQD 원문에서 종전 Pantone 313C/185C/3405C를 306C/Red032C/362C로 바꾼 2013-10-22 법 확인. 공식 출처 11-29 게재, 별도 법령 DB 12-04 발효 메타데이터는 후보로 병기. 2018-11-02 헌법률 1331-VKQ 동일 색상 재확인. 2023 표준은 재료·제작·폐기 규정. 등록 az.svg 색 #00b9e4/#ed2939/#3f9c35은 국방부 2021 자료 RGB #00b5e2/#ef3340/#509e2f과 불일치. 실제 SVG 색상 수정 없이 도안 시작일과 색상 개정 기록 분리.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -69,6 +81,28 @@
     },
     "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인",
+      "sourceIds": [
+        "SRC-362",
+        "SRC-363",
+        "SRC-364",
+        "SRC-365",
+        "SRC-366",
+        "SRC-367"
+      ],
+      "details": {
+        "adopted": "2013-10-22",
+        "published": "2013-11-29",
+        "effectiveDateCandidate": "2013-12-04",
+        "reconfirmed": "2018-11-02",
+        "runtimeColorMatch": false,
+        "assetBlob": "013aa6cda4a2dc49f8be253c325d6ffbeb49d8f2"
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
       "dateAssessment": "provisional",

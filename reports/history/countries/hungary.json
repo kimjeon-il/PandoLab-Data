@@ -18,7 +18,9 @@
     "SRC-224",
     "SRC-227",
     "SRC-310",
-    "SRC-311"
+    "SRC-311",
+    "SRC-375",
+    "SRC-376"
   ],
   "unresolved": [
     "1956년 혁명 이후 1957년 기본 무국장 삼색기 복원(FOTW). 종합표 1990-06-19는 공식 규정 변화로 별도 확인. 일자 확정 보류.",
@@ -41,12 +43,12 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적·백·녹 가로 삼색기(무국장)",
     "registeredDesignStartCandidate": {
-      "value": "1957",
-      "precision": "year"
+      "value": "1957-05-23",
+      "precision": "day"
     },
     "latestRevisionCandidate": {
       "value": null,
@@ -57,9 +59,11 @@
       "SRC-224",
       "SRC-227",
       "SRC-310",
-      "SRC-311"
+      "SRC-311",
+      "SRC-375",
+      "SRC-376"
     ],
-    "evidenceNote": "FOTW 무국장 삼색기 채택을 1957년으로 확인. 1957-05-23은 헌법 개정일 후보이나 당시 법 원문과 효력 조항을 독립 확인하지 못함. 현행 1949년 헌법 개정 통합본 제76조는 무국장 삼색기. 일자를 확정하지 않음.",
+    "evidenceNote": "1957년 관보 57호 p.323를 재수록한 2009년 Magyar Közlöny 150호 p.38657: 1957년 법률 II 제4조는 헌법 제68조의 국장 없는 적백녹 삼색기, 제5조는 공포일 발효 명시. 1957-05-23 법적 기준 확인. 1956년 혁명 중 실제 사용과 구분.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -71,6 +75,20 @@
     },
     "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인",
+      "sourceIds": [
+        "SRC-375",
+        "SRC-376"
+      ],
+      "details": {
+        "legalEffectiveDate": "1957-05-23",
+        "actualEarlierUse": "1956"
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
       "dateAssessment": "provisional",
