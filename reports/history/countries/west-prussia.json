@@ -19,11 +19,11 @@
     "SRC-346",
     "SRC-347",
     "SRC-379",
-    "SRC-380"
+    "SRC-380",
+    "SRC-408"
   ],
   "unresolved": [
-    "등록 SVG 일치. 정확한 일자에 대한 별도 법령 확인 필요.",
-    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+    "1886-11-09 개별 국기 채택 명령 및 1882 지방색 지정의 관계 확인 필요. 정확한 일자 불명으로 연도 정밀도를 보존."
   ],
   "provenance": {
     "legacyReportId": "none-new-structured-record",
@@ -59,9 +59,10 @@
       "SRC-346",
       "SRC-347",
       "SRC-379",
-      "SRC-380"
+      "SRC-380",
+      "SRC-408"
     ],
-    "evidenceNote": "1897년 Ströhl Deutsche Wappenrolle p.90은 지방색을 1882년 흑백흑으로 기록. FOTW 미러 및 독립 FOTW 페이지는 Norman Martin의 1886-11-09 공식 채택 주장과 Whitney Smith의 1882년 사용설을 병기한다. 1926년 프로이센 행정 연감은 후계 Grenzmark Posen-Westpreußen에서 1923-09-09 구 서프로이센 색을 계승했다고 명시하나 원래 채택일은 제시하지 않음. 1882년 지방색과 1886년 국기 채택을 구분하는 가설은 가능하지만 원명령 없는 상태에서 일자 확정 금지.",
+    "evidenceNote": "FOTW Norman Martin이 명시한 1886-11-09 공식 국기 채택일을 출발점으로 역검증. 같은 페이지에는 Whitney Smith의 1882년 시작설도 함께 수록. 1897년 Hugo G. Ströhl Deutsche Wappenrolle p.90은 서프로이센 흑백흑 지방색을 1882년으로 직접 기록하고 도판 XXI 19를 제시. 일반 프로이센 지방색 명령 1882-10-22, 1884-04-28, 1892-06-03 언급은 개별 국기 채택일과 동일시하지 않음. 1926년 프로이센 연감 p.10은 후계 주가 1923-09-09 구 서프로이센 지방색을 계승했음을 확인. 1886-11-09 원명령 및 독립된 날짜 출처 확보 실패. 1882년 지방색 및 1886-11-09 공식기 채택 후보를 병기. 지도에 1882-01-01을 임의로 입력하지 않음.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -71,8 +72,27 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "도안 개략 확인"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "localAction": "날짜 후보와 SVG 판본의 직접 일치 검증 후 적용 여부 결정",
     "followUp": {
+      "run": "europe-flag-followup-3-2026-11-25",
+      "dateAssessment": "provisional",
+      "reviewScope": "위키백과·전문자료 날짜 후보를 출발점으로 법령·동시대 기록·등록 SVG 역검증",
+      "sourceIds": [
+        "SRC-408",
+        "SRC-346",
+        "SRC-380"
+      ],
+      "details": {
+        "provincialColorsYear": "1882",
+        "exactAdoptionCandidate": "1886-11-09",
+        "possibleGeneralOrder": "1882-10-22",
+        "successorReuse": "1923-09-09",
+        "exactDateVerified": false,
+        "recommendedMapDate": null
+      },
+      "remaining": "1886-11-09 개별 국기 채택 명령 및 1882 지방색 지정의 관계 확인 필요. 정확한 일자 불명으로 연도 정밀도를 보존."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2-2026-11-25",
       "dateAssessment": "provisional",
       "reviewScope": "국기 원법령·도안·효력일 추가 확인; 실제 객체 연결 검증은 별도",
@@ -88,24 +108,6 @@
         "exactDateVerified": false
       },
       "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
-    },
-    "priorFollowUp": {
-      "run": "europe-flag-followup-2026-11-25",
-      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
-      "dateAssessment": "provisional",
-      "sourceIds": [
-        "SRC-346",
-        "SRC-347"
-      ],
-      "details": {
-        "preferredYear": "1882",
-        "candidateDates": [
-          "1882-10-22",
-          "1886-11-09"
-        ],
-        "officialOrderStillNeeded": true
-      },
-      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
     }
   }
 }

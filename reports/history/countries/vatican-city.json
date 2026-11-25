@@ -20,11 +20,14 @@
     "SRC-344",
     "SRC-345",
     "SRC-377",
-    "SRC-378"
+    "SRC-378",
+    "SRC-404",
+    "SRC-405",
+    "SRC-406",
+    "SRC-407"
   ],
   "unresolved": [
-    "2023년 기본법 부속 도안 표준 개정 후보. SVG는 황백 교황관·열쇠 확인, 2023 도안과 정밀 비교 미완료. 이전 도안일 가능성 보류.",
-    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+    "2023 부속서 A 원본 링크 접근 실패, 등록 va.svg의 2001·2023·2026 세부 판본 일치 확인 필요. 2023 그림 수정의 전문가 기록과 공보실 도안 유지 설명은 별도 보존."
   ],
   "provenance": {
     "legacyReportId": "none-new-structured-record",
@@ -51,8 +54,8 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": null,
-      "precision": "unknown"
+      "value": "2023-06-07",
+      "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
@@ -61,9 +64,13 @@
       "SRC-344",
       "SRC-345",
       "SRC-377",
-      "SRC-378"
+      "SRC-378",
+      "SRC-404",
+      "SRC-405",
+      "SRC-406",
+      "SRC-407"
     ],
-    "evidenceNote": "2023-06-07 기본법 제23·24조와 2026-07-31 기본법 제24·25조에서 황백 이색기+교황관·열쇠 도안 유지. 2026 부속서 A 이미지 직접 확인. 2023년 CNS 보도에서 교황청 공보실은 2000년 공식 그림 이후 변경되지 않았다고 설명하므로 2023년 도안 변경을 확정했던 후보 철회. 2023 부속서 원본 링크 404, 2000·2023·2026 문장 세부 및 등록 va.svg의 정밀 동일성 미확정. 2026년 신법을 별개의 국기 교체로 자동 적용 금지.",
+    "evidenceNote": "위키백과와 위키미디어의 2001~2023/2023 이후 도안 구분 및 2023-06-07 후보를 역검증. 2023년 기본법 제23·24조는 부속서 A와 06-07 시행 명시; FOTW의 문장학자 William Becker는 2024년 설명에서 2023년 국기 및 국장 그림의 경미한 수정을 명시. 2000-11-26 기본법은 제20조와 2001-02-22 시행을 명시. 2023년 6월 교황청 공보실은 2000년 공식 그림 이후 변경되지 않았다는 설명도 했으므로, 2023 부속서 도안 자체의 직접 비교 전까지 변경 후보로 유지. 2026-07-31 기본법과 부속서 A 원도면은 동일 기본 문양 유지; 신법 자체를 별개 국기 채택일로 자동 처리하지 않음. 기존 va.svg 정사각형과 색 확인, 2001/2023/2026 세부 판본 매칭 불가. 1929-06-07 법정 제정·06-08 최초 게양/채택 기록 구분.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -73,8 +80,33 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/va.svg",
       "assetMatchStatus": "SVG 속성 일부 직접 확인, 역사 법정 원도면 정밀 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "localAction": "날짜 후보와 SVG 판본의 직접 일치 검증 후 적용 여부 결정",
     "followUp": {
+      "run": "europe-flag-followup-3-2026-11-25",
+      "dateAssessment": "provisional",
+      "reviewScope": "위키백과·전문자료 날짜 후보를 출발점으로 법령·동시대 기록·등록 SVG 역검증",
+      "sourceIds": [
+        "SRC-404",
+        "SRC-405",
+        "SRC-377",
+        "SRC-406",
+        "SRC-344",
+        "SRC-345",
+        "SRC-407"
+      ],
+      "details": {
+        "originalLawDate": "1929-06-07",
+        "firstHoisting": "1929-06-08",
+        "fundamentalLaw2000Effective": "2001-02-22",
+        "revisedIllustrationCandidate": "2023-06-07",
+        "fundamentalLaw2026Effective": "2026-07-31",
+        "registeredVariantMatch": null,
+        "assetBlob": "479895dc8eb8c55e1e07a590e70e7b91dd4de81c",
+        "recommendedMapDate": null
+      },
+      "remaining": "2023 부속서 A 원본 링크 접근 실패, 등록 va.svg의 2001·2023·2026 세부 판본 일치 확인 필요. 2023 그림 수정의 전문가 기록과 공보실 도안 유지 설명은 별도 보존."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2-2026-11-25",
       "dateAssessment": "provisional",
       "reviewScope": "국기 원법령·도안·효력일 추가 확인; 실제 객체 연결 검증은 별도",
@@ -91,22 +123,6 @@
         "exactGraphicMatch": null
       },
       "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
-    },
-    "priorFollowUp": {
-      "run": "europe-flag-followup-2026-11-25",
-      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
-      "dateAssessment": "provisional",
-      "sourceIds": [
-        "SRC-343",
-        "SRC-344",
-        "SRC-345"
-      ],
-      "details": {
-        "firstModernHoisting": "1929-06-08",
-        "laterBasicLawEffective": "2026-07-31",
-        "visualChange2026": "not-established"
-      },
-      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
     }
   }
 }

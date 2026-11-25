@@ -19,11 +19,15 @@
     "SRC-228",
     "SRC-296",
     "SRC-297",
-    "SRC-368"
+    "SRC-368",
+    "SRC-399",
+    "SRC-400",
+    "SRC-401",
+    "SRC-402",
+    "SRC-403"
   ],
   "unresolved": [
-    "무국장 국기 복원. 종합표는 11-27, FOTW는 12-17을 기재. 법령 공포·효력일 확인 필요. 자동 입력 보류.",
-    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+    "법적 적용일은 당시 일반 발효 규칙으로 산출했으며 최초 게양일·실제 전환일은 확인되지 않음. SVG 색상 및 제작 공차의 역사적 정확성은 별도."
   ],
   "provenance": {
     "legacyReportId": "none-new-structured-record",
@@ -42,14 +46,12 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백·녹·적 가로 삼색기(무국장)",
     "registeredDesignStartCandidate": {
-      "value": null,
-      "precision": "range",
-      "from": "1990-11",
-      "to": "1990-12"
+      "value": "1990-12-11",
+      "precision": "day"
     },
     "latestRevisionCandidate": {
       "value": null,
@@ -61,9 +63,14 @@
       "SRC-228",
       "SRC-296",
       "SRC-297",
-      "SRC-368"
+      "SRC-368",
+      "SRC-399",
+      "SRC-400",
+      "SRC-401",
+      "SRC-402",
+      "SRC-403"
     ],
-    "evidenceNote": "1971 헌법 제141조 연혁은 관보 94(11-23), 98(12-07) 참조. NBU 2016년 법학 연보 Ekaterina Mihaylova 논문 p.170~171 주21은 무국장기 변경 의회 속기록 1990-11-22를 인용. 따라서 11-27·12-17 이차 문헌 후보보다 11-22 의회 단계 근거가 강함. 개정 법령 자체의 효력 및 실제 최초 게양은 미확인; 11-22를 정확한 사용 개시일로 강제하지 않음.",
+    "evidenceNote": "위키백과의 1990-11-27 및 FOTW의 12-17 후보를 역검증. 불가리아 의회 소장 1990-12-07 관보 제98호 p.1 원본 스크린샷: 1990-11-22 의결, 12-05 대통령 공포명령 제136호, 12-07 관보 게재. 헌법 제141조를 무국장 백·녹·적 삼색기로 개정하며 별도 발효조항 없음. 당시 1971년 헌법 제84조 제2항은 공포 3일 후 시행; 법규범법 제41조 제3·4항은 공포 당일 제외 및 마지막 날 24시 만료. 12-08~10 경과 후 1990-12-11 00:00 법적 발효로 산출. 11-22는 공식 채택일, 11-27 실제 게양 주장은 확인되지 않음. 관보 94호 11-23 개정은 국가 명칭 정비이지 이 국장 제거 법률이 아님. Viewer bg.svg 5:3 무국장 삼색기 확인.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -73,8 +80,34 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "localAction": "날짜의 성격(법적 발효·규격 승인)을 구분하여 로컬에서 기존 도안 확인 후 적용 검토",
     "followUp": {
+      "run": "europe-flag-followup-3-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "위키백과·전문자료 날짜 후보를 출발점으로 법령·동시대 기록·등록 SVG 역검증",
+      "sourceIds": [
+        "SRC-399",
+        "SRC-400",
+        "SRC-401",
+        "SRC-402",
+        "SRC-403"
+      ],
+      "details": {
+        "adopted": "1990-11-22",
+        "decreeDate": "1990-12-05",
+        "gazettePublished": "1990-12-07",
+        "effectiveDateDerived": "1990-12-11",
+        "calculation": "공포 당일 제외 3일(12-08~10), 12-10 24:00 만료",
+        "recommendedMapDate": "1990-12-11",
+        "dateBasis": "derived-legal-effective-date",
+        "wikiCandidate": "1990-11-27",
+        "actualFirstHoisting": null,
+        "assetRatio": "3:5",
+        "assetBlob": "4b1e0626fdee11ccb0926851223e41bacc45b10b"
+      },
+      "remaining": "법적 적용일은 당시 일반 발효 규칙으로 산출했으며 최초 게양일·실제 전환일은 확인되지 않음. SVG 색상 및 제작 공차의 역사적 정확성은 별도."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2-2026-11-25",
       "dateAssessment": "provisional",
       "reviewScope": "국기 원법령·도안·효력일 추가 확인",
@@ -92,26 +125,6 @@
         "exactEffectiveDate": null
       },
       "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
-    },
-    "priorFollowUp": {
-      "run": "europe-flag-followup-2026-11-25",
-      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
-      "dateAssessment": "provisional",
-      "sourceIds": [
-        "SRC-296",
-        "SRC-228",
-        "SRC-297"
-      ],
-      "details": {
-        "candidateDates": [
-          "1990-11-23",
-          "1990-11-27",
-          "1990-12-07",
-          "1990-12-17"
-        ],
-        "confirmedWindow": "1990-11~1990-12"
-      },
-      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
     }
   }
 }

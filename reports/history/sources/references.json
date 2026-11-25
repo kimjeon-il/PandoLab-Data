@@ -2910,6 +2910,104 @@
       "fromReport": "europe-flag-followup-2-2026-11-25",
       "section": "1991-08-22 결의·게양, 1955년형 국기 하강 및 09-03 결의 공표",
       "reviewStatus": "specialist-history-reviewed"
+    },
+    {
+      "id": "SRC-395",
+      "url": "https://ascpdp.com/wp-content/uploads/2021/01/revista16.pdf",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "2003년 법학 학술지 제16호 pp.111–112, 법률 8926 발효일 및 관보 서지; 페이지 이미지 확인",
+      "reviewStatus": "legal-periodical-pdf-reviewed"
+    },
+    {
+      "id": "SRC-396",
+      "url": "https://www.fotw.info/flags/ad'.html",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "국장·국기 규격 및 1993-12-01 도안 수령·1999년 자료",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-397",
+      "url": "https://www.wipo.int/wipolex/en/text/490211",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "1996년 국가 상징법",
+      "reviewStatus": "law-text-reviewed"
+    },
+    {
+      "id": "SRC-398",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Andorra",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "1866·1993년 탐색 후보",
+      "reviewStatus": "secondary-date-lead"
+    },
+    {
+      "id": "SRC-399",
+      "url": "https://www.parliament.bg/pub/costitution/71/DV/98_1990.pdf",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "관보 제98호 p.1 개정법 및 대통령령 원본 이미지",
+      "reviewStatus": "official-gazette-image-reviewed"
+    },
+    {
+      "id": "SRC-400",
+      "url": "https://www.parliament.bg/pub/costitution/71/DV/94_1990.pdf",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "관보 제94호 이전 개정 원본 이미지",
+      "reviewStatus": "official-gazette-image-reviewed"
+    },
+    {
+      "id": "SRC-401",
+      "url": "https://www.parliament.bg/bg/19",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "1971 헌법 제84조 제2항",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-402",
+      "url": "https://justice.government.bg/home/normdoc/2127837184",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "법규범법 제41조 제3·4항(공포 당일 불산입, 마지막 날 24시)",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-403",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Bulgaria",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "1990-11-27 탐색 후보; 원법령과 구분",
+      "reviewStatus": "secondary-date-lead"
+    },
+    {
+      "id": "SRC-404",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/va.html",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "1929-06-08 국기 채택 및 2024년 전문가의 2023-06-07 그림 수정 설명",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-405",
+      "url": "https://www.vatican.va/archive/aas/documents/AAS-92-2000-ocr.pdf",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "2000 기본법 제20조와 2001-02-22 시행 문구; 검색 텍스트",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-406",
+      "url": "https://www.ncronline.org/vatican/vatican-news/vexing-vexillology-even-vatican-gets-its-flag-wrong",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "교황청 공보실의 2000년 이후 도안 유지 설명, 2023-06-02 기사",
+      "reviewStatus": "contemporary-news-reviewed"
+    },
+    {
+      "id": "SRC-407",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Vatican_City",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "2023-06-07 도안 수정 후보",
+      "reviewStatus": "secondary-date-lead"
+    },
+    {
+      "id": "SRC-408",
+      "url": "https://www.crwflags.com/fotw/flags/de-pr-wp.html",
+      "fromReport": "europe-flag-followup-3-2026-11-25",
+      "section": "전문 자료의 1886-11-09 채택일 및 1882년설 병기",
+      "reviewStatus": "specialist-text-reviewed"
     }
   ]
 }
