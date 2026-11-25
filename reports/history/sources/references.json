@@ -2609,6 +2609,41 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "정면 규격 및 뒷면 사용의 역사적 불확실성",
       "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-352",
+      "url": "https://www.docs.historyrussia.org/ru/nodes/372350-ob-utverzhdenii-polozheniya-o-gosudarstvennom-flage-rsfsr-ukaz-prezidiuma-verhovnogo-soveta-rsfsr-23-dekabrya-1955-g",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1955-12-23 국기 규정 승인 서지",
+      "reviewStatus": "government-archive-metadata-reviewed"
+    },
+    {
+      "id": "SRC-353",
+      "url": "https://www.crwflags.com/fotw/Flags/su-ru.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1954–1955 및 1955년 이후 도안 차이",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-354",
+      "url": "https://raritety.rusarchives.ru/dokumenty/postanovlenie-verhovnogo-soveta-rsfsr-ob-oficialnom-priznanii-i-ispolzovanii-nacionalnogo-flaga",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1991-08-22 결의 원문",
+      "reviewStatus": "government-archive-text-reviewed"
+    },
+    {
+      "id": "SRC-355",
+      "url": "https://vedomosti.rsfsr-rf.ru/1991/45/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1991-11-01 헌법 제181조 개정",
+      "reviewStatus": "gazette-transcription-reviewed"
+    },
+    {
+      "id": "SRC-356",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/su-ua.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1949-11-21 채택 및 도안 규격",
+      "reviewStatus": "specialist-text-reviewed"
     }
   ]
 }

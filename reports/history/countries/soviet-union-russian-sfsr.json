@@ -17,7 +17,11 @@
     "SRC-183",
     "SRC-184",
     "SRC-185",
-    "SRC-214"
+    "SRC-214",
+    "SRC-352",
+    "SRC-353",
+    "SRC-354",
+    "SRC-355"
   ],
   "unresolved": [
     "대용량 객체 원문을 연결 도구로 완전 열람하지 못함. 객체 키와 해시 경로만 확인. 명칭·존속기간·기본 국기는 로컬 원문 기준으로 확인.",
@@ -80,10 +84,34 @@
       "SRC-183",
       "SRC-184",
       "SRC-185",
-      "SRC-214"
+      "SRC-214",
+      "SRC-352",
+      "SRC-353",
+      "SRC-354",
+      "SRC-355"
     ],
-    "evidenceNote": "등록 SVG 원문 접근 불가. 1955년 판본 및 1991-08-22 복원과 1991-11-01 헌법 개정의 구분, 객체 종료일 재확인 필요. 기존 사건 보고서 및 출처에 근거한 후보. 등록 도안과 법적 효력일의 대조 후 반영.",
+    "evidenceNote": "1954년 소비에트기 채택과 1955-12-23 국기 규정 승인(역사문서 아카이브), 1955년 낫·망치·별 배치 변형을 구분. 1991-08-22 최고회의 결의 원문과 1991-11-01 헌법 개정(1:2 백·하늘청·주홍)을 확인. 등록 SVG가 1954·1955년형 중 무엇인지 확인 전 최종 판본의 시작일 확정 보류.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드. 연·월 정밀도 보존.",
-    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "소비에트기 시작일 및 말기 실제 국기; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-352",
+        "SRC-353",
+        "SRC-354",
+        "SRC-355"
+      ],
+      "details": {
+        "initialSovietDesign": "1954-01-09",
+        "laterSovietRegulation": "1955-12-23",
+        "laterDesignChangeYear": "1955",
+        "latestActualHistoricalFlagStart": "1991-08-22",
+        "constitutionalFlagRevision": "1991-11-01",
+        "registeredAssetInspected": false
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }
