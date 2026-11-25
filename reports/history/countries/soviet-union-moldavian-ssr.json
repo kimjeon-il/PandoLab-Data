@@ -1,0 +1,73 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SOVIET-UNION-MOLDAVIAN-SSR",
+  "type": "entity",
+  "title": "몰도바 소비에트 사회주의 공화국",
+  "subject": {
+    "key": "state:soviet-union-moldavian-ssr",
+    "kind": "state",
+    "displayName": "몰도바 소비에트 사회주의 공화국",
+    "runtimeEntityId": "state:soviet-union-moldavian-ssr"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied"
+  },
+  "sourceIds": [
+    "SRC-183",
+    "SRC-184",
+    "SRC-185",
+    "SRC-210",
+    "SRC-211",
+    "SRC-212",
+    "SRC-213"
+  ],
+  "unresolved": [
+    "한국어 약칭 후보는 사용자가 지정한 몰도바이며 기존 영어 역사 정식명칭 Moldavian Soviet Socialist Republic은 유지. 몰다비아로 임의 변경하지 않음.",
+    "이전 도안의 개별 SVG 및 라이선스·정확한 법령 효력일은 사건별 검토 필요. 일자 미확정 항목을 임의 1월 1일로 변환하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/fa32c9c756f9bc5476d29b5d6a715b5771cdbde9/library.json",
+    "createdInRun": "soviet-republic-flags-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "1940-08-02",
+    "validTo": "1991-08-26",
+    "note": "기존 객체 존속기간을 보존. null은 로컬 검증 전 미확인이지 기간 제한 없음의 의미가 아님."
+  },
+  "eventIds": [
+    "EVT-1941-MOLDAVIAN-SSR-FLAG",
+    "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+    "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+    "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+  ],
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "fa32c9c756f9bc5476d29b5d6a715b5771cdbde9",
+    "objectPath": "objects/04d982cf831d07bec6b2e6aa5cdf81b376d24ad556bffc64330a27a96108012c.json",
+    "nameKo": "몰도바 소비에트 사회주의 공화국",
+    "nameEn": "Moldavian Soviet Socialist Republic",
+    "existingDefaultFlagSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldavian_SSR.svg",
+    "note": "기존 기본 국기 출처 확인. 기본 국기를 전 존속기간에 적용하지 않도록 시간 이력 보강."
+  },
+  "initialFlagAssessment": {
+    "description": "1940-08-02~1941 도안 공백. 1941년 헌법 적색 바탕 РССМ·낫과 망치 도안 후보.",
+    "sourceIds": [
+      "SRC-183",
+      "SRC-210"
+    ],
+    "assessment": "provisional"
+  },
+  "localApplication": {
+    "state": "not-applied",
+    "steps": [
+      "기존 library.json의 객체 ID로 현재 해시와 객체 원문 재확인(보고서의 해시는 조사 시점 스냅샷).",
+      "기존 국기 이력 스키마 및 지원되는 데이터 갱신 도구 확인. 기본 국기를 단순 덮어쓰지 말고 국기별 유효 시작/종료일을 연결.",
+      "각 사건의 날짜·개별 도안·권리 확인 후 적용. 정확한 날짜 없는 후보는 검증 대기. 후속 국기의 시작 전까지 이전 국기 유지하되 객체 기간 밖은 제외.",
+      "국기만 바뀌는 경우 국경·형상·객체 ID·존속기간 및 상하위 관계 불변. 기존 공식 데이터 갱신 절차를 통해 해시/인덱스/압축 산출물 함께 재생성하고 날짜 전후 표시를 확인."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+  "type": "event",
+  "title": "몰도바 소비에트 사회주의 공화국 1990-04-27 국기 변경",
+  "entityKeys": [
+    "state:soviet-union-moldavian-ssr"
+  ],
+  "date": {
+    "year": 1990,
+    "value": "1990-04-27",
+    "precision": "day",
+    "note": "국장은 법에 예정되었으나 새 국장 제정 전 무국장 도안 사용. 1990-05-12 규정과 구분."
+  },
+  "changes": [
+    {
+      "entityKey": "state:soviet-union-moldavian-ssr",
+      "field": "flag",
+      "summary": "청색·황색·적색 세로 삼색기 채택",
+      "assessment": "source-reviewed",
+      "proposedValue": {
+        "description": "청색·황색·적색 세로 삼색기 채택",
+        "sourceCandidate": {
+          "galleryUrl": "https://commons.wikimedia.org/wiki/Flags_of_the_Soviet_Republics",
+          "section": "Moldavian Soviet Socialist Republic",
+          "periodStartCandidate": "1990-04-27",
+          "existingDefaultFlagSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldavian_SSR.svg",
+          "assetSelection": "갤러리 해당 기간의 개별 SVG/원본 도안 및 라이선스 확인 후 로컬 국기 자산으로 등록; 최종 국기 파일을 이전 시기에 재사용하지 않음."
+        },
+        "assetId": null,
+        "applicationRule": "원문·도안 확인 후 기존 프로젝트의 날짜별 국기 이력 입력 방식 사용. 연/월 정밀도 또는 상충 날짜는 자동 변환 금지."
+      },
+      "uncertainty": "국장은 법에 예정되었으나 새 국장 제정 전 무국장 도안 사용. 1990-05-12 규정과 구분."
+    }
+  ],
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied"
+  },
+  "sourceIds": [
+    "SRC-183",
+    "SRC-184",
+    "SRC-185",
+    "SRC-210",
+    "SRC-212",
+    "SRC-213"
+  ],
+  "unresolved": [
+    "개별 SVG 파일명, 다운로드, 라이선스 및 로컬 국기 자산 ID 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/fa32c9c756f9bc5476d29b5d6a715b5771cdbde9/library.json",
+    "createdInRun": "soviet-republic-flags-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1952-08-UZBEK-SSR-FLAG",
+  "type": "event",
+  "title": "우즈베크 소비에트 사회주의 공화국 1952-08 국기 변경 후보",
+  "entityKeys": [
+    "state:soviet-union-uzbek-ssr"
+  ],
+  "date": {
+    "year": 1952,
+    "value": "1952-08",
+    "precision": "month",
+    "note": "FOTW 1952-08-29와 Commons 1952-08-24 상충. 29일 법령과 24일 표기 대조 후 정확한 일자 입력."
+  },
+  "changes": [
+    {
+      "entityKey": "state:soviet-union-uzbek-ssr",
+      "field": "flag",
+      "summary": "적색 바탕 가운데 청색 띠와 백색 테두리, 금색 낫·망치·별",
+      "assessment": "provisional",
+      "proposedValue": {
+        "description": "적색 바탕 가운데 청색 띠와 백색 테두리, 금색 낫·망치·별",
+        "sourceCandidate": {
+          "galleryUrl": "https://commons.wikimedia.org/wiki/Flags_of_the_Soviet_Republics",
+          "section": "Uzbek Soviet Socialist Republic",
+          "periodStartCandidate": "1952-08",
+          "existingDefaultFlagSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbek_SSR.svg",
+          "assetSelection": "갤러리 해당 기간의 개별 SVG/원본 도안 및 라이선스 확인 후 로컬 국기 자산으로 등록; 최종 국기 파일을 이전 시기에 재사용하지 않음."
+        },
+        "assetId": null,
+        "applicationRule": "원문·도안 확인 후 기존 프로젝트의 날짜별 국기 이력 입력 방식 사용. 연/월 정밀도 또는 상충 날짜는 자동 변환 금지."
+      },
+      "uncertainty": "FOTW 1952-08-29와 Commons 1952-08-24 상충. 29일 법령과 24일 표기 대조 후 정확한 일자 입력."
+    }
+  ],
+  "status": {
+    "research": "provisional",
+    "application": "not-applied"
+  },
+  "sourceIds": [
+    "SRC-183",
+    "SRC-184",
+    "SRC-185",
+    "SRC-222"
+  ],
+  "unresolved": [
+    "개별 SVG 파일명, 다운로드, 라이선스 및 로컬 국기 자산 ID 미확정.",
+    "FOTW 1952-08-29와 Commons 1952-08-24 상충. 29일 법령과 24일 표기 대조 후 정확한 일자 입력."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/fa32c9c756f9bc5476d29b5d6a715b5771cdbde9/library.json",
+    "createdInRun": "soviet-republic-flags-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

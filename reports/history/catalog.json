@@ -503,6 +503,288 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-SOVIET-UNION-ARMENIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-armenian-ssr.json",
+      "title": "아르메니아 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-armenian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1940-ARMENIAN-SSR-FLAG",
+        "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+        "EVT-1990-08-24-ARMENIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-AZERBAIJAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-azerbaijan-ssr.json",
+      "title": "아제르바이잔 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-azerbaijan-ssr"
+      ],
+      "eventIds": [
+        "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+        "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+        "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+        "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-BYELORUSSIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-byelorussian-ssr.json",
+      "title": "벨로루시 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-byelorussian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+        "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+        "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-ESTONIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-estonian-ssr.json",
+      "title": "에스토니아 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-estonian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+        "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+        "EVT-1990-08-07-ESTONIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-GEORGIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-georgian-ssr.json",
+      "title": "조지아 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-georgian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1937-GEORGIAN-SSR-FLAG",
+        "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+        "EVT-1990-11-14-GEORGIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-KAZAKH-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-kazakh-ssr.json",
+      "title": "카자흐 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-kazakh-ssr"
+      ],
+      "eventIds": [
+        "EVT-1937-KAZAKH-SSR-FLAG",
+        "EVT-1940-KAZAKH-SSR-FLAG",
+        "EVT-1953-01-24-KAZAKH-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-KIRGHIZ-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-kirghiz-ssr.json",
+      "title": "키르기스 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-kirghiz-ssr"
+      ],
+      "eventIds": [
+        "EVT-1940-KIRGHIZ-SSR-FLAG",
+        "EVT-1952-12-22-KIRGHIZ-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-LATVIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-latvian-ssr.json",
+      "title": "라트비아 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-latvian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+        "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+        "EVT-1990-02-27-LATVIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-LITHUANIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-lithuanian-ssr.json",
+      "title": "리투아니아 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-lithuanian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+        "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-MOLDAVIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-moldavian-ssr.json",
+      "title": "몰도바 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-moldavian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1941-MOLDAVIAN-SSR-FLAG",
+        "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+        "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+        "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-RUSSIAN-SFSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-russian-sfsr.json",
+      "title": "러시아 소비에트 연방 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-russian-sfsr"
+      ],
+      "eventIds": [
+        "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+        "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
+        "EVT-1991-08-22-RUSSIAN-SFSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-TAJIK-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-tajik-ssr.json",
+      "title": "타지크 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [
+        "EVT-1931-02-TAJIK-SSR-FLAG",
+        "EVT-1935-07-04-TAJIK-SSR-FLAG",
+        "EVT-1936-09-26-TAJIK-SSR-FLAG",
+        "EVT-1938-TAJIK-SSR-FLAG",
+        "EVT-1940-09-28-TAJIK-SSR-FLAG",
+        "EVT-1953-TAJIK-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-TRANSCAUCASIAN-SFSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-transcaucasian-sfsr.json",
+      "title": "자캅카스 소비에트 연방 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-transcaucasian-sfsr"
+      ],
+      "eventIds": [
+        "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-TURKMEN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-turkmen-ssr.json",
+      "title": "투르크멘 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [
+        "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+        "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+        "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+        "EVT-1953-08-01-TURKMEN-SSR-FLAG",
+        "EVT-1974-09-23-TURKMEN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-UKRAINIAN-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-ukrainian-ssr.json",
+      "title": "우크라이나 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-ukrainian-ssr"
+      ],
+      "eventIds": [
+        "EVT-1929-UKRAINIAN-SSR-FLAG",
+        "EVT-1937-UKRAINIAN-SSR-FLAG",
+        "EVT-1949-11-21-UKRAINIAN-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-SOVIET-UNION-UZBEK-SSR",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union-uzbek-ssr.json",
+      "title": "우즈베크 소비에트 사회주의 공화국",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [
+        "EVT-1925-07-22-UZBEK-SSR-FLAG",
+        "EVT-1927-UZBEK-SSR-FLAG",
+        "EVT-1929-05-09-UZBEK-SSR-FLAG",
+        "EVT-1931-02-28-UZBEK-SSR-FLAG",
+        "EVT-1934-UZBEK-SSR-FLAG",
+        "EVT-1935-UZBEK-SSR-FLAG",
+        "EVT-1937-02-14-UZBEK-SSR-FLAG",
+        "EVT-1938-07-23-UZBEK-SSR-FLAG",
+        "EVT-1941-01-16-UZBEK-SSR-FLAG",
+        "EVT-1952-08-UZBEK-SSR-FLAG"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-SURINAME",
       "type": "entity",
       "path": "reports/history/countries/suriname.json",
@@ -1038,6 +1320,305 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1925-07-22-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1925-07-22-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1925-07-22 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1925,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1925-transcaucasian-sfsr-flag.json",
+      "title": "자캅카스 소비에트 연방 사회주의 공화국 1925 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-transcaucasian-sfsr"
+      ],
+      "eventIds": [],
+      "year": 1925,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1926-10-06-turkmen-ssr-flag.json",
+      "title": "투르크멘 소비에트 사회주의 공화국 1926-10-06 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [],
+      "year": 1926,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1927-04-11-byelorussian-ssr-flag.json",
+      "title": "벨로루시 소비에트 사회주의 공화국 1927-04-11 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-byelorussian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1927,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1927-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1927-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1927 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1927,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1929-05-09-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1929-05-09-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1929-05-09 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1929,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1929-UKRAINIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1920-1929/evt-1929-ukrainian-ssr-flag.json",
+      "title": "우크라이나 소비에트 사회주의 공화국 1929 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-ukrainian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1929,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1931-02-28-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1931-02-28-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1931-02-28 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1931,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1931-02-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1931-02-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1931-02 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1931,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1934-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1934-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1934 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1934,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1935-07-04-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1935-07-04-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1935-07-04 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1935,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1935-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1935-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1935 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1935,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1936-09-26-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1936-09-26-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1936-09-26 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1936,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-01-21-russian-sfsr-flag.json",
+      "title": "러시아 소비에트 연방 사회주의 공화국 1937-01-21 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-russian-sfsr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-02-14-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-02-14-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1937-02-14 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-02-19-byelorussian-ssr-flag.json",
+      "title": "벨로루시 소비에트 사회주의 공화국 1937-02-19 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-byelorussian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-03-02-turkmen-ssr-flag.json",
+      "title": "투르크멘 소비에트 사회주의 공화국 1937-03-02 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-05-14-azerbaijan-ssr-flag.json",
+      "title": "아제르바이잔 소비에트 사회주의 공화국 1937-05-14 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-azerbaijan-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-GEORGIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-georgian-ssr-flag.json",
+      "title": "조지아 소비에트 사회주의 공화국 1937 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-georgian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-KAZAKH-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-kazakh-ssr-flag.json",
+      "title": "카자흐 소비에트 사회주의 공화국 1937 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-kazakh-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1937-UKRAINIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1937-ukrainian-ssr-flag.json",
+      "title": "우크라이나 소비에트 사회주의 공화국 1937 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-ukrainian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1937,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1938-07-23-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1938-07-23-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1938-07-23 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1938,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1938-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1930-1939/evt-1938-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1938 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1938,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED",
       "type": "event",
       "path": "reports/history/decades/1930-1939/evt-1939-danzig-german-annexation-asserted.json",
@@ -1047,6 +1628,136 @@
       ],
       "eventIds": [],
       "year": 1939,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-03-20-azerbaijan-ssr-flag.json",
+      "title": "아제르바이잔 소비에트 사회주의 공화국 1940-03-20 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-azerbaijan-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-07-19-turkmen-ssr-flag.json",
+      "title": "투르크멘 소비에트 사회주의 공화국 1940-07-19 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-08-25-latvian-ssr-flag.json",
+      "title": "라트비아 소비에트 사회주의 공화국 1940-08-25 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-latvian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-09-28-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-09-28-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1940-09-28 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-10-31-estonian-ssr-flag.json",
+      "title": "에스토니아 소비에트 사회주의 공화국 1940-10-31 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-estonian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-ARMENIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-armenian-ssr-flag.json",
+      "title": "아르메니아 소비에트 사회주의 공화국 1940 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-armenian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-KAZAKH-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-kazakh-ssr-flag.json",
+      "title": "카자흐 소비에트 사회주의 공화국 1940 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-kazakh-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1940-KIRGHIZ-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1940-kirghiz-ssr-flag.json",
+      "title": "키르기스 소비에트 사회주의 공화국 1940 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-kirghiz-ssr"
+      ],
+      "eventIds": [],
+      "year": 1940,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1941-01-16-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1941-01-16-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1941-01-16 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1941,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1941-MOLDAVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1941-moldavian-ssr-flag.json",
+      "title": "몰도바 소비에트 사회주의 공화국 1941 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-moldavian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1941,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -1077,6 +1788,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1949-11-21-UKRAINIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1940-1949/evt-1949-11-21-ukrainian-ssr-flag.json",
+      "title": "우크라이나 소비에트 사회주의 공화국 1949-11-21 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-ukrainian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1949,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1949-LAOS-FRENCH-UNION",
       "type": "event",
       "path": "reports/history/decades/1940-1949/evt-1949-laos-french-union.json",
@@ -1086,6 +1810,162 @@
       ],
       "eventIds": [],
       "year": 1949,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1951-04-11-georgian-ssr-flag.json",
+      "title": "조지아 소비에트 사회주의 공화국 1951-04-11 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-georgian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1951,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1951-12-25-byelorussian-ssr-flag.json",
+      "title": "벨로루시 소비에트 사회주의 공화국 1951-12-25 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-byelorussian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1951,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1952-01-31-moldavian-ssr-flag.json",
+      "title": "몰도바 소비에트 사회주의 공화국 1952-01-31 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-moldavian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1952,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1952-08-UZBEK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1952-08-uzbek-ssr-flag.json",
+      "title": "우즈베크 소비에트 사회주의 공화국 1952-08 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-uzbek-ssr"
+      ],
+      "eventIds": [],
+      "year": 1952,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1952-10-07-azerbaijan-ssr-flag.json",
+      "title": "아제르바이잔 소비에트 사회주의 공화국 1952-10-07 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-azerbaijan-ssr"
+      ],
+      "eventIds": [],
+      "year": 1952,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1952-12-17-armenian-ssr-flag.json",
+      "title": "아르메니아 소비에트 사회주의 공화국 1952-12-17 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-armenian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1952,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1952-12-22-KIRGHIZ-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1952-12-22-kirghiz-ssr-flag.json",
+      "title": "키르기스 소비에트 사회주의 공화국 1952-12-22 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-kirghiz-ssr"
+      ],
+      "eventIds": [],
+      "year": 1952,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-01-17-latvian-ssr-flag.json",
+      "title": "라트비아 소비에트 사회주의 공화국 1953-01-17 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-latvian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-01-24-KAZAKH-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-01-24-kazakh-ssr-flag.json",
+      "title": "카자흐 소비에트 사회주의 공화국 1953-01-24 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-kazakh-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-02-06-estonian-ssr-flag.json",
+      "title": "에스토니아 소비에트 사회주의 공화국 1953-02-06 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-estonian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-07-15-lithuanian-ssr-flag.json",
+      "title": "리투아니아 소비에트 사회주의 공화국 1953-07-15 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-lithuanian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-08-01-TURKMEN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-08-01-turkmen-ssr-flag.json",
+      "title": "투르크멘 소비에트 사회주의 공화국 1953-08-01 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -1100,6 +1980,32 @@
       "eventIds": [],
       "year": 1953,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1953-TAJIK-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1953-tajik-ssr-flag.json",
+      "title": "타지크 소비에트 사회주의 공화국 1953 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-tajik-ssr"
+      ],
+      "eventIds": [],
+      "year": 1953,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1950-1959/evt-1954-01-09-russian-sfsr-flag.json",
+      "title": "러시아 소비에트 연방 사회주의 공화국 1954-01-09 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-russian-sfsr"
+      ],
+      "eventIds": [],
+      "year": 1954,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -1369,6 +2275,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1974-09-23-TURKMEN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1974-09-23-turkmen-ssr-flag.json",
+      "title": "투르크멘 소비에트 사회주의 공화국 1974-09-23 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-turkmen-ssr"
+      ],
+      "eventIds": [],
+      "year": 1974,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1974-NIUE-SELF-GOVERNMENT",
       "type": "event",
       "path": "reports/history/decades/1970-1979/evt-1974-niue-self-government.json",
@@ -1419,6 +2338,123 @@
       "eventIds": [],
       "year": 1984,
       "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1988-11-18-LITHUANIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1980-1989/evt-1988-11-18-lithuanian-ssr-flag.json",
+      "title": "리투아니아 소비에트 사회주의 공화국 1988-11-18 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-lithuanian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1988,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-02-27-LATVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-02-27-latvian-ssr-flag.json",
+      "title": "라트비아 소비에트 사회주의 공화국 1990-02-27 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-latvian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-04-27-moldavian-ssr-flag.json",
+      "title": "몰도바 소비에트 사회주의 공화국 1990-04-27 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-moldavian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-08-07-ESTONIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-08-07-estonian-ssr-flag.json",
+      "title": "에스토니아 소비에트 사회주의 공화국 1990-08-07 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-estonian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-08-24-ARMENIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-08-24-armenian-ssr-flag.json",
+      "title": "아르메니아 소비에트 사회주의 공화국 1990-08-24 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-armenian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-11-14-GEORGIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-11-14-georgian-ssr-flag.json",
+      "title": "조지아 소비에트 사회주의 공화국 1990-11-14 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-georgian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1990-11-MOLDAVIAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1990-11-moldavian-ssr-flag.json",
+      "title": "몰도바 소비에트 사회주의 공화국 1990-11 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-moldavian-ssr"
+      ],
+      "eventIds": [],
+      "year": 1990,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1991-02-05-azerbaijan-ssr-flag.json",
+      "title": "아제르바이잔 소비에트 사회주의 공화국 1991-02-05 국기 변경",
+      "entityKeys": [
+        "state:soviet-union-azerbaijan-ssr"
+      ],
+      "eventIds": [],
+      "year": 1991,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1991-08-22-RUSSIAN-SFSR-FLAG",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1991-08-22-russian-sfsr-flag.json",
+      "title": "러시아 소비에트 연방 사회주의 공화국 1991-08-22 국기 변경 후보",
+      "entityKeys": [
+        "state:soviet-union-russian-sfsr"
+      ],
+      "eventIds": [],
+      "year": 1991,
+      "research": "provisional",
       "application": "not-applied"
     },
     {
@@ -1580,6 +2616,22 @@
       "ENT-SAMOA",
       "ENT-SAXONY",
       "ENT-SINGAPORE",
+      "ENT-SOVIET-UNION-ARMENIAN-SSR",
+      "ENT-SOVIET-UNION-AZERBAIJAN-SSR",
+      "ENT-SOVIET-UNION-BYELORUSSIAN-SSR",
+      "ENT-SOVIET-UNION-ESTONIAN-SSR",
+      "ENT-SOVIET-UNION-GEORGIAN-SSR",
+      "ENT-SOVIET-UNION-KAZAKH-SSR",
+      "ENT-SOVIET-UNION-KIRGHIZ-SSR",
+      "ENT-SOVIET-UNION-LATVIAN-SSR",
+      "ENT-SOVIET-UNION-LITHUANIAN-SSR",
+      "ENT-SOVIET-UNION-MOLDAVIAN-SSR",
+      "ENT-SOVIET-UNION-RUSSIAN-SFSR",
+      "ENT-SOVIET-UNION-TAJIK-SSR",
+      "ENT-SOVIET-UNION-TRANSCAUCASIAN-SFSR",
+      "ENT-SOVIET-UNION-TURKMEN-SSR",
+      "ENT-SOVIET-UNION-UKRAINIAN-SSR",
+      "ENT-SOVIET-UNION-UZBEK-SSR",
       "ENT-SURINAME",
       "ENT-TANGANYIKA",
       "ENT-TANZANIA",
@@ -1621,11 +2673,59 @@
       "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
       "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
       "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION",
+      "EVT-1925-07-22-UZBEK-SSR-FLAG",
+      "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG",
+      "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+      "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1927-UZBEK-SSR-FLAG",
+      "EVT-1929-05-09-UZBEK-SSR-FLAG",
+      "EVT-1929-UKRAINIAN-SSR-FLAG",
+      "EVT-1931-02-28-UZBEK-SSR-FLAG",
+      "EVT-1931-02-TAJIK-SSR-FLAG",
+      "EVT-1934-UZBEK-SSR-FLAG",
+      "EVT-1935-07-04-TAJIK-SSR-FLAG",
+      "EVT-1935-UZBEK-SSR-FLAG",
+      "EVT-1936-09-26-TAJIK-SSR-FLAG",
+      "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+      "EVT-1937-02-14-UZBEK-SSR-FLAG",
+      "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+      "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+      "EVT-1937-GEORGIAN-SSR-FLAG",
+      "EVT-1937-KAZAKH-SSR-FLAG",
+      "EVT-1937-UKRAINIAN-SSR-FLAG",
+      "EVT-1938-07-23-UZBEK-SSR-FLAG",
+      "EVT-1938-TAJIK-SSR-FLAG",
       "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED",
+      "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+      "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+      "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+      "EVT-1940-09-28-TAJIK-SSR-FLAG",
+      "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+      "EVT-1940-ARMENIAN-SSR-FLAG",
+      "EVT-1940-KAZAKH-SSR-FLAG",
+      "EVT-1940-KIRGHIZ-SSR-FLAG",
+      "EVT-1941-01-16-UZBEK-SSR-FLAG",
+      "EVT-1941-MOLDAVIAN-SSR-FLAG",
       "EVT-1946-LAOS-UNIFIED-KINGDOM",
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
+      "EVT-1949-11-21-UKRAINIAN-SSR-FLAG",
       "EVT-1949-LAOS-FRENCH-UNION",
+      "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+      "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+      "EVT-1952-08-UZBEK-SSR-FLAG",
+      "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+      "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+      "EVT-1952-12-22-KIRGHIZ-SSR-FLAG",
+      "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+      "EVT-1953-01-24-KAZAKH-SSR-FLAG",
+      "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+      "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+      "EVT-1953-08-01-TURKMEN-SSR-FLAG",
       "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1953-TAJIK-SSR-FLAG",
+      "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
       "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
       "EVT-1957-MALAYA-INDEPENDENCE",
       "EVT-1959-SURINAME-AUTONOMOUS-FLAG",
@@ -1646,10 +2746,20 @@
       "EVT-1968-ESWATINI-INDEPENDENCE",
       "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
+      "EVT-1974-09-23-TURKMEN-SSR-FLAG",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
       "EVT-1975-LAOS-OFFICIAL-NAME",
       "EVT-1975-SURINAME-KINGDOM-RELATION-END",
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
+      "EVT-1988-11-18-LITHUANIAN-SSR-FLAG",
+      "EVT-1990-02-27-LATVIAN-SSR-FLAG",
+      "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+      "EVT-1990-08-07-ESTONIAN-SSR-FLAG",
+      "EVT-1990-08-24-ARMENIAN-SSR-FLAG",
+      "EVT-1990-11-14-GEORGIAN-SSR-FLAG",
+      "EVT-1990-11-MOLDAVIAN-SSR-FLAG",
+      "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
+      "EVT-1991-08-22-RUSSIAN-SFSR-FLAG",
       "EVT-1997-SAMOA-NAME-CHANGE",
       "EVT-2018-ESWATINI-RENAMING",
       "EVT-2025-AUT-LIE-EGELSEE-BORDER",
@@ -1822,6 +2932,112 @@
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1965-SINGAPORE-SEPARATION"
     ],
+    "state:soviet-union-armenian-ssr": [
+      "ENT-SOVIET-UNION-ARMENIAN-SSR",
+      "EVT-1940-ARMENIAN-SSR-FLAG",
+      "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+      "EVT-1990-08-24-ARMENIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-azerbaijan-ssr": [
+      "ENT-SOVIET-UNION-AZERBAIJAN-SSR",
+      "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+      "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+      "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+      "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG"
+    ],
+    "state:soviet-union-byelorussian-ssr": [
+      "ENT-SOVIET-UNION-BYELORUSSIAN-SSR",
+      "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-estonian-ssr": [
+      "ENT-SOVIET-UNION-ESTONIAN-SSR",
+      "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+      "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+      "EVT-1990-08-07-ESTONIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-georgian-ssr": [
+      "ENT-SOVIET-UNION-GEORGIAN-SSR",
+      "EVT-1937-GEORGIAN-SSR-FLAG",
+      "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+      "EVT-1990-11-14-GEORGIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-kazakh-ssr": [
+      "ENT-SOVIET-UNION-KAZAKH-SSR",
+      "EVT-1937-KAZAKH-SSR-FLAG",
+      "EVT-1940-KAZAKH-SSR-FLAG",
+      "EVT-1953-01-24-KAZAKH-SSR-FLAG"
+    ],
+    "state:soviet-union-kirghiz-ssr": [
+      "ENT-SOVIET-UNION-KIRGHIZ-SSR",
+      "EVT-1940-KIRGHIZ-SSR-FLAG",
+      "EVT-1952-12-22-KIRGHIZ-SSR-FLAG"
+    ],
+    "state:soviet-union-latvian-ssr": [
+      "ENT-SOVIET-UNION-LATVIAN-SSR",
+      "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+      "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+      "EVT-1990-02-27-LATVIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-lithuanian-ssr": [
+      "ENT-SOVIET-UNION-LITHUANIAN-SSR",
+      "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+      "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-moldavian-ssr": [
+      "ENT-SOVIET-UNION-MOLDAVIAN-SSR",
+      "EVT-1941-MOLDAVIAN-SSR-FLAG",
+      "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+      "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+      "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-russian-sfsr": [
+      "ENT-SOVIET-UNION-RUSSIAN-SFSR",
+      "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+      "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
+      "EVT-1991-08-22-RUSSIAN-SFSR-FLAG"
+    ],
+    "state:soviet-union-tajik-ssr": [
+      "ENT-SOVIET-UNION-TAJIK-SSR",
+      "EVT-1931-02-TAJIK-SSR-FLAG",
+      "EVT-1935-07-04-TAJIK-SSR-FLAG",
+      "EVT-1936-09-26-TAJIK-SSR-FLAG",
+      "EVT-1938-TAJIK-SSR-FLAG",
+      "EVT-1940-09-28-TAJIK-SSR-FLAG",
+      "EVT-1953-TAJIK-SSR-FLAG"
+    ],
+    "state:soviet-union-transcaucasian-sfsr": [
+      "ENT-SOVIET-UNION-TRANSCAUCASIAN-SFSR",
+      "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG"
+    ],
+    "state:soviet-union-turkmen-ssr": [
+      "ENT-SOVIET-UNION-TURKMEN-SSR",
+      "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+      "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+      "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+      "EVT-1953-08-01-TURKMEN-SSR-FLAG",
+      "EVT-1974-09-23-TURKMEN-SSR-FLAG"
+    ],
+    "state:soviet-union-ukrainian-ssr": [
+      "ENT-SOVIET-UNION-UKRAINIAN-SSR",
+      "EVT-1929-UKRAINIAN-SSR-FLAG",
+      "EVT-1937-UKRAINIAN-SSR-FLAG",
+      "EVT-1949-11-21-UKRAINIAN-SSR-FLAG"
+    ],
+    "state:soviet-union-uzbek-ssr": [
+      "ENT-SOVIET-UNION-UZBEK-SSR",
+      "EVT-1925-07-22-UZBEK-SSR-FLAG",
+      "EVT-1927-UZBEK-SSR-FLAG",
+      "EVT-1929-05-09-UZBEK-SSR-FLAG",
+      "EVT-1931-02-28-UZBEK-SSR-FLAG",
+      "EVT-1934-UZBEK-SSR-FLAG",
+      "EVT-1935-UZBEK-SSR-FLAG",
+      "EVT-1937-02-14-UZBEK-SSR-FLAG",
+      "EVT-1938-07-23-UZBEK-SSR-FLAG",
+      "EVT-1941-01-16-UZBEK-SSR-FLAG",
+      "EVT-1952-08-UZBEK-SSR-FLAG"
+    ],
     "state:SUR": [
       "ENT-SURINAME",
       "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
@@ -1963,8 +3179,65 @@
     "1924": [
       "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
     ],
+    "1925": [
+      "EVT-1925-07-22-UZBEK-SSR-FLAG",
+      "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG"
+    ],
+    "1926": [
+      "EVT-1926-10-06-TURKMEN-SSR-FLAG"
+    ],
+    "1927": [
+      "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1927-UZBEK-SSR-FLAG"
+    ],
+    "1929": [
+      "EVT-1929-05-09-UZBEK-SSR-FLAG",
+      "EVT-1929-UKRAINIAN-SSR-FLAG"
+    ],
+    "1931": [
+      "EVT-1931-02-28-UZBEK-SSR-FLAG",
+      "EVT-1931-02-TAJIK-SSR-FLAG"
+    ],
+    "1934": [
+      "EVT-1934-UZBEK-SSR-FLAG"
+    ],
+    "1935": [
+      "EVT-1935-07-04-TAJIK-SSR-FLAG",
+      "EVT-1935-UZBEK-SSR-FLAG"
+    ],
+    "1936": [
+      "EVT-1936-09-26-TAJIK-SSR-FLAG"
+    ],
+    "1937": [
+      "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+      "EVT-1937-02-14-UZBEK-SSR-FLAG",
+      "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+      "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+      "EVT-1937-GEORGIAN-SSR-FLAG",
+      "EVT-1937-KAZAKH-SSR-FLAG",
+      "EVT-1937-UKRAINIAN-SSR-FLAG"
+    ],
+    "1938": [
+      "EVT-1938-07-23-UZBEK-SSR-FLAG",
+      "EVT-1938-TAJIK-SSR-FLAG"
+    ],
     "1939": [
       "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
+    ],
+    "1940": [
+      "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+      "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+      "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+      "EVT-1940-09-28-TAJIK-SSR-FLAG",
+      "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+      "EVT-1940-ARMENIAN-SSR-FLAG",
+      "EVT-1940-KAZAKH-SSR-FLAG",
+      "EVT-1940-KIRGHIZ-SSR-FLAG"
+    ],
+    "1941": [
+      "EVT-1941-01-16-UZBEK-SSR-FLAG",
+      "EVT-1941-MOLDAVIAN-SSR-FLAG"
     ],
     "1946": [
       "EVT-1946-LAOS-UNIFIED-KINGDOM"
@@ -1973,12 +3246,31 @@
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION"
     ],
     "1949": [
+      "EVT-1949-11-21-UKRAINIAN-SSR-FLAG",
       "EVT-1949-LAOS-FRENCH-UNION"
     ],
+    "1951": [
+      "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+      "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG"
+    ],
+    "1952": [
+      "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+      "EVT-1952-08-UZBEK-SSR-FLAG",
+      "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+      "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+      "EVT-1952-12-22-KIRGHIZ-SSR-FLAG"
+    ],
     "1953": [
-      "EVT-1953-LAOS-SOVEREIGNTY"
+      "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+      "EVT-1953-01-24-KAZAKH-SSR-FLAG",
+      "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+      "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+      "EVT-1953-08-01-TURKMEN-SSR-FLAG",
+      "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1953-TAJIK-SSR-FLAG"
     ],
     "1954": [
+      "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
       "EVT-1954-SURINAME-KINGDOM-AUTONOMY"
     ],
     "1957": [
@@ -2023,6 +3315,7 @@
       "EVT-1973-BAHAMAS-INDEPENDENCE"
     ],
     "1974": [
+      "EVT-1974-09-23-TURKMEN-SSR-FLAG",
       "EVT-1974-NIUE-SELF-GOVERNMENT"
     ],
     "1975": [
@@ -2031,6 +3324,21 @@
     ],
     "1984": [
       "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+    ],
+    "1988": [
+      "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
+    ],
+    "1990": [
+      "EVT-1990-02-27-LATVIAN-SSR-FLAG",
+      "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+      "EVT-1990-08-07-ESTONIAN-SSR-FLAG",
+      "EVT-1990-08-24-ARMENIAN-SSR-FLAG",
+      "EVT-1990-11-14-GEORGIAN-SSR-FLAG",
+      "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+    ],
+    "1991": [
+      "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
+      "EVT-1991-08-22-RUSSIAN-SFSR-FLAG"
     ],
     "1997": [
       "EVT-1997-SAMOA-NAME-CHANGE"
@@ -2099,18 +3407,66 @@
     "1920-1929": [
       "EVT-1920-DANZIG-FREE-CITY-ESTABLISHED",
       "EVT-1920-FIUME-RAPALLO-STATE-STATUS",
-      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION"
+      "EVT-1924-FIUME-ROME-TREATY-TERRITORIAL-DIVISION",
+      "EVT-1925-07-22-UZBEK-SSR-FLAG",
+      "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG",
+      "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+      "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1927-UZBEK-SSR-FLAG",
+      "EVT-1929-05-09-UZBEK-SSR-FLAG",
+      "EVT-1929-UKRAINIAN-SSR-FLAG"
     ],
     "1930-1939": [
+      "EVT-1931-02-28-UZBEK-SSR-FLAG",
+      "EVT-1931-02-TAJIK-SSR-FLAG",
+      "EVT-1934-UZBEK-SSR-FLAG",
+      "EVT-1935-07-04-TAJIK-SSR-FLAG",
+      "EVT-1935-UZBEK-SSR-FLAG",
+      "EVT-1936-09-26-TAJIK-SSR-FLAG",
+      "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+      "EVT-1937-02-14-UZBEK-SSR-FLAG",
+      "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+      "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+      "EVT-1937-GEORGIAN-SSR-FLAG",
+      "EVT-1937-KAZAKH-SSR-FLAG",
+      "EVT-1937-UKRAINIAN-SSR-FLAG",
+      "EVT-1938-07-23-UZBEK-SSR-FLAG",
+      "EVT-1938-TAJIK-SSR-FLAG",
       "EVT-1939-DANZIG-GERMAN-ANNEXATION-ASSERTED"
     ],
     "1940-1949": [
+      "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+      "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+      "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+      "EVT-1940-09-28-TAJIK-SSR-FLAG",
+      "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+      "EVT-1940-ARMENIAN-SSR-FLAG",
+      "EVT-1940-KAZAKH-SSR-FLAG",
+      "EVT-1940-KIRGHIZ-SSR-FLAG",
+      "EVT-1941-01-16-UZBEK-SSR-FLAG",
+      "EVT-1941-MOLDAVIAN-SSR-FLAG",
       "EVT-1946-LAOS-UNIFIED-KINGDOM",
       "EVT-1947-TRIESTE-FREE-TERRITORY-CREATION",
+      "EVT-1949-11-21-UKRAINIAN-SSR-FLAG",
       "EVT-1949-LAOS-FRENCH-UNION"
     ],
     "1950-1959": [
+      "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+      "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG",
+      "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+      "EVT-1952-08-UZBEK-SSR-FLAG",
+      "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+      "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+      "EVT-1952-12-22-KIRGHIZ-SSR-FLAG",
+      "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+      "EVT-1953-01-24-KAZAKH-SSR-FLAG",
+      "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+      "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+      "EVT-1953-08-01-TURKMEN-SSR-FLAG",
       "EVT-1953-LAOS-SOVEREIGNTY",
+      "EVT-1953-TAJIK-SSR-FLAG",
+      "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
       "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
       "EVT-1957-MALAYA-INDEPENDENCE",
       "EVT-1959-SURINAME-AUTONOMOUS-FLAG"
@@ -2135,14 +3491,24 @@
     "1970-1979": [
       "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
+      "EVT-1974-09-23-TURKMEN-SSR-FLAG",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
       "EVT-1975-LAOS-OFFICIAL-NAME",
       "EVT-1975-SURINAME-KINGDOM-RELATION-END"
     ],
     "1980-1989": [
-      "EVT-1984-BRUNEI-FULL-INDEPENDENCE"
+      "EVT-1984-BRUNEI-FULL-INDEPENDENCE",
+      "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
     ],
     "1990-1999": [
+      "EVT-1990-02-27-LATVIAN-SSR-FLAG",
+      "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+      "EVT-1990-08-07-ESTONIAN-SSR-FLAG",
+      "EVT-1990-08-24-ARMENIAN-SSR-FLAG",
+      "EVT-1990-11-14-GEORGIAN-SSR-FLAG",
+      "EVT-1990-11-MOLDAVIAN-SSR-FLAG",
+      "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
+      "EVT-1991-08-22-RUSSIAN-SFSR-FLAG",
       "EVT-1997-SAMOA-NAME-CHANGE"
     ],
     "2010-2019": [
@@ -2646,6 +4012,330 @@
         "1960-1969": [
           "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
           "EVT-1965-SINGAPORE-SEPARATION"
+        ]
+      }
+    },
+    "state:soviet-union-armenian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-ARMENIAN-SSR",
+        "EVT-1940-ARMENIAN-SSR-FLAG",
+        "EVT-1952-12-17-ARMENIAN-SSR-FLAG",
+        "EVT-1990-08-24-ARMENIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1940-ARMENIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1952-12-17-ARMENIAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1990-08-24-ARMENIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-azerbaijan-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-AZERBAIJAN-SSR",
+        "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG",
+        "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG",
+        "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG",
+        "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1930-1939": [
+          "EVT-1937-05-14-AZERBAIJAN-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1940-03-20-AZERBAIJAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1952-10-07-AZERBAIJAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-byelorussian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-BYELORUSSIAN-SSR",
+        "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG",
+        "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG",
+        "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1927-04-11-BYELORUSSIAN-SSR-FLAG"
+        ],
+        "1930-1939": [
+          "EVT-1937-02-19-BYELORUSSIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1951-12-25-BYELORUSSIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-estonian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-ESTONIAN-SSR",
+        "EVT-1940-10-31-ESTONIAN-SSR-FLAG",
+        "EVT-1953-02-06-ESTONIAN-SSR-FLAG",
+        "EVT-1990-08-07-ESTONIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1940-10-31-ESTONIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1953-02-06-ESTONIAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1990-08-07-ESTONIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-georgian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-GEORGIAN-SSR",
+        "EVT-1937-GEORGIAN-SSR-FLAG",
+        "EVT-1951-04-11-GEORGIAN-SSR-FLAG",
+        "EVT-1990-11-14-GEORGIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1930-1939": [
+          "EVT-1937-GEORGIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1951-04-11-GEORGIAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1990-11-14-GEORGIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-kazakh-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-KAZAKH-SSR",
+        "EVT-1937-KAZAKH-SSR-FLAG",
+        "EVT-1940-KAZAKH-SSR-FLAG",
+        "EVT-1953-01-24-KAZAKH-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1930-1939": [
+          "EVT-1937-KAZAKH-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1940-KAZAKH-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1953-01-24-KAZAKH-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-kirghiz-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-KIRGHIZ-SSR",
+        "EVT-1940-KIRGHIZ-SSR-FLAG",
+        "EVT-1952-12-22-KIRGHIZ-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1940-KIRGHIZ-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1952-12-22-KIRGHIZ-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-latvian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-LATVIAN-SSR",
+        "EVT-1940-08-25-LATVIAN-SSR-FLAG",
+        "EVT-1953-01-17-LATVIAN-SSR-FLAG",
+        "EVT-1990-02-27-LATVIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1940-08-25-LATVIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1953-01-17-LATVIAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1990-02-27-LATVIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-lithuanian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-LITHUANIAN-SSR",
+        "EVT-1953-07-15-LITHUANIAN-SSR-FLAG",
+        "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1950-1959": [
+          "EVT-1953-07-15-LITHUANIAN-SSR-FLAG"
+        ],
+        "1980-1989": [
+          "EVT-1988-11-18-LITHUANIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-moldavian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-MOLDAVIAN-SSR",
+        "EVT-1941-MOLDAVIAN-SSR-FLAG",
+        "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG",
+        "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+        "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1940-1949": [
+          "EVT-1941-MOLDAVIAN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1952-01-31-MOLDAVIAN-SSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1990-04-27-MOLDAVIAN-SSR-FLAG",
+          "EVT-1990-11-MOLDAVIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-russian-sfsr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-RUSSIAN-SFSR",
+        "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+        "EVT-1954-01-09-RUSSIAN-SFSR-FLAG",
+        "EVT-1991-08-22-RUSSIAN-SFSR-FLAG"
+      ],
+      "byDecade": {
+        "1930-1939": [
+          "EVT-1937-01-21-RUSSIAN-SFSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1954-01-09-RUSSIAN-SFSR-FLAG"
+        ],
+        "1990-1999": [
+          "EVT-1991-08-22-RUSSIAN-SFSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-tajik-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-TAJIK-SSR",
+        "EVT-1931-02-TAJIK-SSR-FLAG",
+        "EVT-1935-07-04-TAJIK-SSR-FLAG",
+        "EVT-1936-09-26-TAJIK-SSR-FLAG",
+        "EVT-1938-TAJIK-SSR-FLAG",
+        "EVT-1940-09-28-TAJIK-SSR-FLAG",
+        "EVT-1953-TAJIK-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1930-1939": [
+          "EVT-1931-02-TAJIK-SSR-FLAG",
+          "EVT-1935-07-04-TAJIK-SSR-FLAG",
+          "EVT-1936-09-26-TAJIK-SSR-FLAG",
+          "EVT-1938-TAJIK-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1940-09-28-TAJIK-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1953-TAJIK-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-transcaucasian-sfsr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-TRANSCAUCASIAN-SFSR",
+        "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1925-TRANSCAUCASIAN-SFSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-turkmen-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-TURKMEN-SSR",
+        "EVT-1926-10-06-TURKMEN-SSR-FLAG",
+        "EVT-1937-03-02-TURKMEN-SSR-FLAG",
+        "EVT-1940-07-19-TURKMEN-SSR-FLAG",
+        "EVT-1953-08-01-TURKMEN-SSR-FLAG",
+        "EVT-1974-09-23-TURKMEN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1926-10-06-TURKMEN-SSR-FLAG"
+        ],
+        "1930-1939": [
+          "EVT-1937-03-02-TURKMEN-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1940-07-19-TURKMEN-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1953-08-01-TURKMEN-SSR-FLAG"
+        ],
+        "1970-1979": [
+          "EVT-1974-09-23-TURKMEN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-ukrainian-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-UKRAINIAN-SSR",
+        "EVT-1929-UKRAINIAN-SSR-FLAG",
+        "EVT-1937-UKRAINIAN-SSR-FLAG",
+        "EVT-1949-11-21-UKRAINIAN-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1929-UKRAINIAN-SSR-FLAG"
+        ],
+        "1930-1939": [
+          "EVT-1937-UKRAINIAN-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1949-11-21-UKRAINIAN-SSR-FLAG"
+        ]
+      }
+    },
+    "state:soviet-union-uzbek-ssr": {
+      "recordIds": [
+        "ENT-SOVIET-UNION-UZBEK-SSR",
+        "EVT-1925-07-22-UZBEK-SSR-FLAG",
+        "EVT-1927-UZBEK-SSR-FLAG",
+        "EVT-1929-05-09-UZBEK-SSR-FLAG",
+        "EVT-1931-02-28-UZBEK-SSR-FLAG",
+        "EVT-1934-UZBEK-SSR-FLAG",
+        "EVT-1935-UZBEK-SSR-FLAG",
+        "EVT-1937-02-14-UZBEK-SSR-FLAG",
+        "EVT-1938-07-23-UZBEK-SSR-FLAG",
+        "EVT-1941-01-16-UZBEK-SSR-FLAG",
+        "EVT-1952-08-UZBEK-SSR-FLAG"
+      ],
+      "byDecade": {
+        "1920-1929": [
+          "EVT-1925-07-22-UZBEK-SSR-FLAG",
+          "EVT-1927-UZBEK-SSR-FLAG",
+          "EVT-1929-05-09-UZBEK-SSR-FLAG"
+        ],
+        "1930-1939": [
+          "EVT-1931-02-28-UZBEK-SSR-FLAG",
+          "EVT-1934-UZBEK-SSR-FLAG",
+          "EVT-1935-UZBEK-SSR-FLAG",
+          "EVT-1937-02-14-UZBEK-SSR-FLAG",
+          "EVT-1938-07-23-UZBEK-SSR-FLAG"
+        ],
+        "1940-1949": [
+          "EVT-1941-01-16-UZBEK-SSR-FLAG"
+        ],
+        "1950-1959": [
+          "EVT-1952-08-UZBEK-SSR-FLAG"
         ]
       }
     },

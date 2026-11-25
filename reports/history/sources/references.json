@@ -1426,6 +1426,293 @@
       "fromReport": "timeline-2025-europe-2026-11-25",
       "section": "BEV 국경점 디지털·좌표 목록·지도 유료 공급 및 이용 조건.",
       "reviewStatus": "vector-candidate-metadata-reviewed"
+    },
+    {
+      "id": "SRC-183",
+      "url": "https://commons.wikimedia.org/wiki/Flags_of_the_Soviet_Republics",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "소련 구성공화국 국기 도안과 기간별 갤러리; 개별 SVG 라이선스·날짜 검증 필요.",
+      "reviewStatus": "image-gallery-timeline-reviewed"
+    },
+    {
+      "id": "SRC-184",
+      "url": "https://www.crwflags.com/fotw/flags/su_tab.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "구성공화국 국기 비교표",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-185",
+      "url": "https://en.wikipedia.org/wiki/Flags_of_the_Soviet_Republics",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "구성공화국별 채택일 비교; 개별 원법령 대조 필요.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-186",
+      "url": "https://www.crwflags.com/fotw/flags/su-am_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아르메니아 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-187",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아르메니아 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-188",
+      "url": "https://www.crwflags.com/fotw/flags/am.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아르메니아 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-189",
+      "url": "https://www.crwflags.com/fotw/flags/su-az_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아제르바이잔 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-190",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아제르바이잔 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-191",
+      "url": "https://www.azerbaijans.com/content_429_en.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아제르바이잔 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-192",
+      "url": "https://president.az/en/pages/view/azerbaijan/symbols/",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "아제르바이잔 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-193",
+      "url": "https://www.crwflags.com/fotw/flags/su-by_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "벨로루시 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-194",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Byelorussian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "벨로루시 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-195",
+      "url": "https://www.crwflags.com/fotw/flags/su-ee_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "에스토니아 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-196",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Estonian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "에스토니아 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-197",
+      "url": "https://www.crwflags.com/fotw/flags/su-ge_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "조지아 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-198",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Georgian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "조지아 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-199",
+      "url": "https://www.matsne.gov.ge/en/document/view/13270",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "조지아 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-200",
+      "url": "https://www.crwflags.com/fotw/flags/su-kz_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "카자흐 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-201",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakh_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "카자흐 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-202",
+      "url": "https://www.crwflags.com/fotw/flags/su-kg_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "키르기스 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-203",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kirghiz_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "키르기스 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-204",
+      "url": "https://www.crwflags.com/fotw/flags/su-lv_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "라트비아 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-205",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "라트비아 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-206",
+      "url": "https://www.president.lv/en/national-symbols?consent=true",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "라트비아 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-207",
+      "url": "https://www.crwflags.com/fotw/flags/su-lt_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "리투아니아 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-208",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuanian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "리투아니아 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-209",
+      "url": "https://www.lrs.lt/pls/inter/w5_show?p_b=3804&p_d=49324&p_k=2&p_r=4056",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "리투아니아 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-210",
+      "url": "https://www.crwflags.com/fotw/flags/su-md_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "몰도바 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-211",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldavian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "몰도바 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-212",
+      "url": "https://www.nationalmuseum.md/en/exhibitions/the_tricolor_symbol_of_dignity/",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "몰도바 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-213",
+      "url": "https://presedinte.md/eng/flag",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "몰도바 소비에트 사회주의 공화국 국기 법제·역사 관련 자료",
+      "reviewStatus": "official-source-reviewed"
+    },
+    {
+      "id": "SRC-214",
+      "url": "https://www.crwflags.com/fotw/flags/su-ru_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "러시아 소비에트 연방 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-215",
+      "url": "https://www.crwflags.com/fotw/flags/su-tj_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "타지크 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-216",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tajik_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "타지크 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-217",
+      "url": "https://www.crwflags.com/fotw/flags/su-tm_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "투르크멘 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-218",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkmen_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "투르크멘 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-219",
+      "url": "https://www.crwflags.com/fotw/flags/su-tc.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "자캅카스 소비에트 연방 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-220",
+      "url": "https://www.crwflags.com/fotw/flags/su-ua_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "우크라이나 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-221",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukrainian_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "우크라이나 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-222",
+      "url": "https://www.crwflags.com/fotw/flags/su-uz_h.html",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "우즈베크 소비에트 사회주의 공화국 국기 역사; 도안 및 법령일 교차검토.",
+      "reviewStatus": "secondary-source-reviewed"
+    },
+    {
+      "id": "SRC-223",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbek_SSR.svg",
+      "fromReport": "soviet-republic-flags-2026-11-25",
+      "section": "우즈베크 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
+      "reviewStatus": "existing-runtime-source-reference"
     }
   ]
 }

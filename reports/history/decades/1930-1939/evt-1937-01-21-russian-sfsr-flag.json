@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1937-01-21-RUSSIAN-SFSR-FLAG",
+  "type": "event",
+  "title": "러시아 소비에트 연방 사회주의 공화국 1937-01-21 국기 변경 후보",
+  "entityKeys": [
+    "state:soviet-union-russian-sfsr"
+  ],
+  "date": {
+    "year": 1937,
+    "value": "1937-01-21",
+    "precision": "day",
+    "note": "1937년 헌법형 도안, 이전 1925년형 법정 구분 검증."
+  },
+  "changes": [
+    {
+      "entityKey": "state:soviet-union-russian-sfsr",
+      "field": "flag",
+      "summary": "적색 바탕 금색 РСФСР 문자",
+      "assessment": "provisional",
+      "proposedValue": {
+        "description": "적색 바탕 금색 РСФСР 문자",
+        "sourceCandidate": {
+          "galleryUrl": "https://commons.wikimedia.org/wiki/Flags_of_the_Soviet_Republics",
+          "section": "Russian Soviet Federative Socialist Republic",
+          "periodStartCandidate": "1937-01-21",
+          "existingDefaultFlagSource": null,
+          "assetSelection": "갤러리 해당 기간의 개별 SVG/원본 도안 및 라이선스 확인 후 로컬 국기 자산으로 등록; 최종 국기 파일을 이전 시기에 재사용하지 않음."
+        },
+        "assetId": null,
+        "applicationRule": "원문·도안 확인 후 기존 프로젝트의 날짜별 국기 이력 입력 방식 사용. 연/월 정밀도 또는 상충 날짜는 자동 변환 금지."
+      },
+      "uncertainty": "1937년 헌법형 도안, 이전 1925년형 법정 구분 검증."
+    }
+  ],
+  "status": {
+    "research": "provisional",
+    "application": "not-applied"
+  },
+  "sourceIds": [
+    "SRC-183",
+    "SRC-184",
+    "SRC-185",
+    "SRC-214"
+  ],
+  "unresolved": [
+    "개별 SVG 파일명, 다운로드, 라이선스 및 로컬 국기 자산 ID 미확정.",
+    "1937년 헌법형 도안, 이전 1925년형 법정 구분 검증."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/fa32c9c756f9bc5476d29b5d6a715b5771cdbde9/library.json",
+    "createdInRun": "soviet-republic-flags-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1931-02-28-UZBEK-SSR-FLAG",
+  "type": "event",
+  "title": "우즈베크 소비에트 사회주의 공화국 1931-02-28 국기 변경",
+  "entityKeys": [
+    "state:soviet-union-uzbek-ssr"
+  ],
+  "date": {
+    "year": 1931,
+    "value": "1931-02-28",
+    "precision": "day",
+    "note": "Commons 연대표; 법령 원문 확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:soviet-union-uzbek-ssr",
+      "field": "flag",
+      "summary": "1931년형 문자 도안",
+      "assessment": "source-reviewed",
+      "proposedValue": {
+        "description": "1931년형 문자 도안",
+        "sourceCandidate": {
+          "galleryUrl": "https://commons.wikimedia.org/wiki/Flags_of_the_Soviet_Republics",
+          "section": "Uzbek Soviet Socialist Republic",
+          "periodStartCandidate": "1931-02-28",
+          "existingDefaultFlagSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Uzbek_SSR.svg",
+          "assetSelection": "갤러리 해당 기간의 개별 SVG/원본 도안 및 라이선스 확인 후 로컬 국기 자산으로 등록; 최종 국기 파일을 이전 시기에 재사용하지 않음."
+        },
+        "assetId": null,
+        "applicationRule": "원문·도안 확인 후 기존 프로젝트의 날짜별 국기 이력 입력 방식 사용. 연/월 정밀도 또는 상충 날짜는 자동 변환 금지."
+      },
+      "uncertainty": "Commons 연대표; 법령 원문 확인."
+    }
+  ],
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied"
+  },
+  "sourceIds": [
+    "SRC-183",
+    "SRC-184",
+    "SRC-185",
+    "SRC-222"
+  ],
+  "unresolved": [
+    "개별 SVG 파일명, 다운로드, 라이선스 및 로컬 국기 자산 ID 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/fa32c9c756f9bc5476d29b5d6a715b5771cdbde9/library.json",
+    "createdInRun": "soviet-republic-flags-2026-11-25",
+    "createdOn": "2026-11-25"
+  }
+}
