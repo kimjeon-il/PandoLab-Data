@@ -1,0 +1,70 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-DNK",
+  "type": "entity",
+  "title": "덴마크",
+  "subject": {
+    "key": "state:DNK",
+    "kind": "state",
+    "displayName": "덴마크",
+    "runtimeEntityId": "state:DNK"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-224",
+    "SRC-228"
+  ],
+  "unresolved": [
+    "1625년 국기 채택 기준. 1219년 전승은 정확한 시작일로 사용하지 않음. 1801년에 이미 존재하는 도안, 1893년 비율 정비는 별도.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "0965",
+    "validTo": null,
+    "note": "조사 시점 기존 객체 존속기간. 이 보고서는 국기만 다룸."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "적색 바탕 백색 북유럽 십자",
+    "registeredDesignStartCandidate": {
+      "value": "1625",
+      "precision": "year"
+    },
+    "latestRevisionCandidate": {
+      "value": "1893",
+      "precision": "year"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-224",
+      "SRC-228"
+    ],
+    "evidenceNote": "1625년 국기 채택 기준. 1219년 전승은 정확한 시작일로 사용하지 않음. 1801년에 이미 존재하는 도안, 1893년 비율 정비는 별도.",
+    "preexistingAtHistoryStart": true,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/4a3bef8779f866abab569e5b729b36b43598b8a87abd755462cc50138d7dfe97.json",
+      "inspection": "asset-path-confirmed",
+      "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/dk.svg",
+      "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-GIB",
+  "type": "entity",
+  "title": "지브롤터",
+  "subject": {
+    "key": "state:GIB",
+    "kind": "dependency",
+    "displayName": "지브롤터",
+    "runtimeEntityId": "state:GIB"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-240"
+  ],
+  "unresolved": [
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "1713-07-13",
+    "validTo": null,
+    "note": "조사 시점 기존 객체 존속기간. 이 보고서는 국기만 다룸."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "source-reviewed",
+    "application": "not-applied",
+    "description": "백·적 띠와 적색 성, 금색 열쇠",
+    "registeredDesignStartCandidate": {
+      "value": "1982-11-08",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": null,
+      "precision": "unknown"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-240"
+    ],
+    "evidenceNote": "1966년 공식 도입 기록, 1982년 도시기 공식 확정. 종전 식민지 청색기와 구분.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/06469125353562431af4e087f6a135c678b54ce73772a417e2d86226b8495020.json",
+      "inspection": "asset-path-confirmed",
+      "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/gi.svg",
+      "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
+    },
+    "localAction": "채택일 근거 확인, 기존 SVG와 비교 후 입력"
+  }
+}

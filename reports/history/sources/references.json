@@ -1713,6 +1713,286 @@
       "fromReport": "soviet-republic-flags-2026-11-25",
       "section": "우즈베크 소비에트 사회주의 공화국 기존 기본 국기 출처(객체 메타데이터); 개별 라이선스 재확인.",
       "reviewStatus": "existing-runtime-source-reference"
+    },
+    {
+      "id": "SRC-224",
+      "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_current_flag_adoption",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "현 국기 채택·마지막 도안 변경의 종합 비교표",
+      "reviewStatus": "secondary-table-reviewed"
+    },
+    {
+      "id": "SRC-225",
+      "url": "https://www.crwflags.com/FotW/FLAGS/al.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1992년 별 제거, 1992~2002 및 현 도안",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-226",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/ax.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "올란드 도안 역사",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-227",
+      "url": "https://www.crwflags.com/FOTW/flags/xf_d8-mm.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "국기 채택일 및 규격 변경일 비교표",
+      "reviewStatus": "specialist-table-reviewed"
+    },
+    {
+      "id": "SRC-228",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/xf_d8-yy.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "연도별 국기 채택 및 변경 비교표",
+      "reviewStatus": "specialist-table-reviewed"
+    },
+    {
+      "id": "SRC-229",
+      "url": "https://www.crwflags.com/fotw/flags/by.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1995년 채택, 2012년 장식문양 확대 및 공표일",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-230",
+      "url": "https://crwflags.com/FOTW/FLAGS/cy-trnc.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1984-03-07 법률 채택, 03-09 공표",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-231",
+      "url": "https://www.crwflags.com/FotW/FLAGS/xc.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "체코슬로바키아 1920년 국기 및 전후 사용",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-232",
+      "url": "https://www.bundestag.de/en/parliament/symbols/flag/flag-199494",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "독일연방의회 국기 역사",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-233",
+      "url": "https://www.bundestag.de/besuche/ausstellungen/verfassung/tafel26/tafel26-199702",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "기본법 공포일 1949-05-23 및 발효일",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-234",
+      "url": "https://www.crwflags.com/fotw/flags/de.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1949-05-09 국기 채택 관련 기록",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-235",
+      "url": "https://president.ee/en/republic-of-estonia/symbols/index.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1990-08-07 국기 복원",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-236",
+      "url": "https://www.elysee.fr/en/french-presidency/the-french-flag",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "프랑스 대통령실: 1830년 삼색기 복원",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-237",
+      "url": "https://www.euronews.com/2021/11/15/macron-reverts-french-flag-to-navy-blue-from-lighter-eu-shade",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2020년 엘리제궁 감청색 복원 보도",
+      "reviewStatus": "AFP-report-reviewed"
+    },
+    {
+      "id": "SRC-238",
+      "url": "https://crwflags.com/FOTW/FLAGS/fo.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1919년 최초 게양, 1940년 선박기 승인 및 1948년 법적 승인",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-239",
+      "url": "https://crwflags.com/FotW/FLAGS/gg.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1985년 의회 승인·법적 확정·최초 게양",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-240",
+      "url": "https://www.crwflags.com/fotw/FLAGS/gi.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "성·열쇠 기의 1966년 도입 및 1982년 공식 확정",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-241",
+      "url": "https://www.crwflags.com/fotw/flags/im.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1968년 방향 복원 및 1971년 공식 확인",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-242",
+      "url": "https://www.crwflags.com/FotW/FLAGS/je.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1980년 칙령 및 1981년 공식 게양",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-243",
+      "url": "https://www.crwflags.com/fotw/flags/li_hist.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1937·1957·1982 왕관 도안의 단계별 변경",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-244",
+      "url": "https://www.lrs.lt/sip/portal.show?p_a=1745&p_k=2&p_kade_id=10&p_r=38111",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1988-11-18 복원 및 1989년 도안",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-245",
+      "url": "https://e-seimas.lrs.lt/portal/legalActEditions/lt/TAD/TAIS.1488?faces-redirect=true",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2004-09-01 국기법 개정판 효력 시작",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-246",
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.257119/",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2004-07-08 국기법 개정판 채택",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-247",
+      "url": "https://crwflags.com/FotW/FLAGS/no_fact.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1821년 도안 및 1899-12-15 순수 노르웨이 국기법 효력",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-248",
+      "url": "https://www.consigliograndeegenerale.sm/on-line/documento17134133.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2011-07-22 국기·국장 헌법률 제1호",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-249",
+      "url": "https://www.crwflags.com/FotW/FLAGS/sm.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "국기 비율 및 공표 후 15일 효력 조항",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-250",
+      "url": "https://www.srbija.gov.rs/vest/en/4440/parliament-adopts-national-symbols-of-serbia.php",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2004-08-17 국기 권고",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-251",
+      "url": "https://www.srbija.gov.rs/tekst/en/130128/national-symbols",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2010년 국기 및 문장 표준 제정",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-252",
+      "url": "https://zeljko-heimer-fame.from.hr/descr/cs-sr.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "2010-11-11 도안 표준, 11-15 관보",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-253",
+      "url": "https://www.gov.si/en/news/2020-12-20-symbols-of-slovenia/",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1991-06-24 국기 공식화",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-254",
+      "url": "https://www.gov.si/en/news/2022-06-23-statehood-day-commemorates-the-events-of-31-years-ago/",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1991-06-25 독립 문서 및 06-26 국기 교체",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-255",
+      "url": "https://www.crwflags.com/fotw/flags/xf_d8_f.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "소멸국 국기 채택일 비교",
+      "reviewStatus": "specialist-table-reviewed"
+    },
+    {
+      "id": "SRC-256",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/de-ddr.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1959-10-01 국장 추가",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-257",
+      "url": "https://www.fahnenversand.de/fotw/flags/de-pr-ep.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "동프로이센 1882-10-22 흑백 주기",
+      "reviewStatus": "specialist-mirror-text-reviewed"
+    },
+    {
+      "id": "SRC-258",
+      "url": "https://en.wikipedia.org/wiki/List_of_flags_of_the_German_Empire",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "서프로이센 1882년 흑백흑 주기",
+      "reviewStatus": "secondary-table-reviewed"
+    },
+    {
+      "id": "SRC-259",
+      "url": "https://www.crwflags.com/fotw/flags/yu.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1992-04-27 무별 청백적기 및 세르비아몬테네그로 유지",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-260",
+      "url": "https://www.crwflags.com/FotW/FLAGS/yu_fy.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1946-01-31 황색 테두리 별 국기",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-261",
+      "url": "https://arhivyu.rs/en/leksikon-jugoslavije/drzavni_simboli",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "유고슬라비아 기록원: 사회주의 국기와 후대 별 제거",
+      "reviewStatus": "archive-text-reviewed"
+    },
+    {
+      "id": "SRC-262",
+      "url": "https://www.crwflags.com/FotW/FLAGS/ah.html",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "오스트리아-헝가리 공동 국기 부재와 상선기",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-263",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_the_Soviet_Union",
+      "fromReport": "europe-latest-flag-start-2026-11-25",
+      "section": "1955-08-19 최종 정면 도안 및 1980년 뒷면 변경",
+      "reviewStatus": "secondary-text-reviewed"
     }
   ]
 }

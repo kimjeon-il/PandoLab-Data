@@ -1,0 +1,72 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-SMR",
+  "type": "entity",
+  "title": "산마리노",
+  "subject": {
+    "key": "state:SMR",
+    "kind": "state",
+    "displayName": "산마리노",
+    "runtimeEntityId": "state:SMR"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-248",
+    "SRC-249",
+    "SRC-227"
+  ],
+  "unresolved": [
+    "2011년 헌법률로 현재 그래픽 모델 법제화; 공표 15일 후 효력 조항, 정확한 공표·효력일 및 파일 대조 필요. 직접 객체 경로 404.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": null,
+    "validTo": null,
+    "note": "객체 원문 열람 불가: null은 미확인 값, 실제 존속기간으로 적용하지 말 것."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "백·하늘색 가로띠와 중앙 국장",
+    "registeredDesignStartCandidate": {
+      "value": "1862-04-06",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": "2011-07-22",
+      "precision": "day"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-248",
+      "SRC-249",
+      "SRC-227"
+    ],
+    "evidenceNote": "2011년 헌법률로 현재 그래픽 모델 법제화; 공표 15일 후 효력 조항, 정확한 공표·효력일 및 파일 대조 필요. 직접 객체 경로 404.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/eca991bf32d15af63199b3cf29aae0908b9dc74d57ace765dccf01c7437d87f4.json",
+      "inspection": "object-unreadable",
+      "defaultFlagAssetPath": null,
+      "assetMatchStatus": "원문 미열람"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-NOR",
+  "type": "entity",
+  "title": "노르웨이",
+  "subject": {
+    "key": "state:NOR",
+    "kind": "state",
+    "displayName": "노르웨이",
+    "runtimeEntityId": "state:NOR"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-247",
+    "SRC-224"
+  ],
+  "unresolved": [
+    "1821년 기본 도안, 1899-12-15 현 순수 국기 법률 효력. ID는 있으나 직접 객체 경로 404; 실제 등록 SVG 미확인.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": null,
+    "validTo": null,
+    "note": "객체 원문 열람 불가: null은 미확인 값, 실제 존속기간으로 적용하지 말 것."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "적색 바탕 백색 테두리 청색 십자(연합표지 없음)",
+    "registeredDesignStartCandidate": {
+      "value": "1899-12-15",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": null,
+      "precision": "unknown"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-247",
+      "SRC-224"
+    ],
+    "evidenceNote": "1821년 기본 도안, 1899-12-15 현 순수 국기 법률 효력. ID는 있으나 직접 객체 경로 404; 실제 등록 SVG 미확인.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/c446083b095ec301bb64643e3a8ac32ad0e3d6f16710eb5767b7e550b4a9e547.json",
+      "inspection": "object-unreadable",
+      "defaultFlagAssetPath": null,
+      "assetMatchStatus": "원문 미열람"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}

@@ -148,6 +148,903 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-FLAG-ALB",
+      "type": "entity",
+      "path": "reports/history/countries/albania.json",
+      "title": "알바니아",
+      "entityKeys": [
+        "state:ALB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ALD",
+      "type": "entity",
+      "path": "reports/history/countries/aland-islands.json",
+      "title": "올란드제도",
+      "entityKeys": [
+        "state:ALD"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-AND",
+      "type": "entity",
+      "path": "reports/history/countries/andorra.json",
+      "title": "안도라",
+      "entityKeys": [
+        "state:AND"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ARM",
+      "type": "entity",
+      "path": "reports/history/countries/armenia.json",
+      "title": "아르메니아",
+      "entityKeys": [
+        "state:ARM"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-AUSTRO-HUNGARIAN-EMPIRE",
+      "type": "entity",
+      "path": "reports/history/countries/austro-hungarian-empire.json",
+      "title": "오스트리아-헝가리",
+      "entityKeys": [
+        "state:austro-hungarian-empire"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-AZE",
+      "type": "entity",
+      "path": "reports/history/countries/azerbaijan.json",
+      "title": "아제르바이잔",
+      "entityKeys": [
+        "state:AZE"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-BEL",
+      "type": "entity",
+      "path": "reports/history/countries/belgium.json",
+      "title": "벨기에",
+      "entityKeys": [
+        "state:BEL"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-BGR",
+      "type": "entity",
+      "path": "reports/history/countries/bulgaria.json",
+      "title": "불가리아",
+      "entityKeys": [
+        "state:BGR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-BIH",
+      "type": "entity",
+      "path": "reports/history/countries/bosnia-and-herzegovina.json",
+      "title": "보스니아헤르체고비나",
+      "entityKeys": [
+        "state:BIH"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-BLR",
+      "type": "entity",
+      "path": "reports/history/countries/belarus.json",
+      "title": "벨라루스",
+      "entityKeys": [
+        "state:BLR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-CHE",
+      "type": "entity",
+      "path": "reports/history/countries/switzerland.json",
+      "title": "스위스",
+      "entityKeys": [
+        "state:CHE"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-CYN",
+      "type": "entity",
+      "path": "reports/history/countries/northern-cyprus.json",
+      "title": "북키프로스",
+      "entityKeys": [
+        "state:CYN"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-CYP",
+      "type": "entity",
+      "path": "reports/history/countries/cyprus.json",
+      "title": "키프로스",
+      "entityKeys": [
+        "state:CYP"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-CZE",
+      "type": "entity",
+      "path": "reports/history/countries/czechia.json",
+      "title": "체코",
+      "entityKeys": [
+        "state:CZE"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-CZECHOSLOVAKIA",
+      "type": "entity",
+      "path": "reports/history/countries/czechoslovakia.json",
+      "title": "체코슬로바키아",
+      "entityKeys": [
+        "state:czechoslovakia"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-DEU",
+      "type": "entity",
+      "path": "reports/history/countries/germany.json",
+      "title": "독일",
+      "entityKeys": [
+        "state:DEU"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-DEUTSCHE-DEMOKRATISCHE-REPUBLIK",
+      "type": "entity",
+      "path": "reports/history/countries/deutsche-demokratische-republik.json",
+      "title": "독일 민주공화국",
+      "entityKeys": [
+        "state:deutsche-demokratische-republik"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-DNK",
+      "type": "entity",
+      "path": "reports/history/countries/denmark.json",
+      "title": "덴마크",
+      "entityKeys": [
+        "state:DNK"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-EAST-PRUSSIA",
+      "type": "entity",
+      "path": "reports/history/countries/east-prussia.json",
+      "title": "동프로이센주",
+      "entityKeys": [
+        "state:east-prussia"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ESB",
+      "type": "entity",
+      "path": "reports/history/countries/dekelia.json",
+      "title": "데켈리아",
+      "entityKeys": [
+        "state:ESB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ESP",
+      "type": "entity",
+      "path": "reports/history/countries/spain.json",
+      "title": "에스파냐",
+      "entityKeys": [
+        "state:ESP"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-EST",
+      "type": "entity",
+      "path": "reports/history/countries/estonia.json",
+      "title": "에스토니아",
+      "entityKeys": [
+        "state:EST"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-FIN",
+      "type": "entity",
+      "path": "reports/history/countries/finland.json",
+      "title": "핀란드",
+      "entityKeys": [
+        "state:FIN"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-FRA",
+      "type": "entity",
+      "path": "reports/history/countries/france.json",
+      "title": "프랑스",
+      "entityKeys": [
+        "state:FRA"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-FRO",
+      "type": "entity",
+      "path": "reports/history/countries/faroe-islands.json",
+      "title": "페로제도",
+      "entityKeys": [
+        "state:FRO"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-GBR",
+      "type": "entity",
+      "path": "reports/history/countries/united-kingdom.json",
+      "title": "영국",
+      "entityKeys": [
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-GEO",
+      "type": "entity",
+      "path": "reports/history/countries/georgia.json",
+      "title": "조지아",
+      "entityKeys": [
+        "state:GEO"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-GGY",
+      "type": "entity",
+      "path": "reports/history/countries/guernsey.json",
+      "title": "건지섬",
+      "entityKeys": [
+        "state:GGY"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-GIB",
+      "type": "entity",
+      "path": "reports/history/countries/gibraltar.json",
+      "title": "지브롤터",
+      "entityKeys": [
+        "state:GIB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-GRC",
+      "type": "entity",
+      "path": "reports/history/countries/greece.json",
+      "title": "그리스",
+      "entityKeys": [
+        "state:GRC"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-HRV",
+      "type": "entity",
+      "path": "reports/history/countries/croatia.json",
+      "title": "크로아티아",
+      "entityKeys": [
+        "state:HRV"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-HUN",
+      "type": "entity",
+      "path": "reports/history/countries/hungary.json",
+      "title": "헝가리",
+      "entityKeys": [
+        "state:HUN"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-IMN",
+      "type": "entity",
+      "path": "reports/history/countries/isle-of-man.json",
+      "title": "맨섬",
+      "entityKeys": [
+        "state:IMN"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-IRL",
+      "type": "entity",
+      "path": "reports/history/countries/ireland.json",
+      "title": "아일랜드",
+      "entityKeys": [
+        "state:IRL"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ISL",
+      "type": "entity",
+      "path": "reports/history/countries/iceland.json",
+      "title": "아이슬란드",
+      "entityKeys": [
+        "state:ISL"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ITA",
+      "type": "entity",
+      "path": "reports/history/countries/italy.json",
+      "title": "이탈리아",
+      "entityKeys": [
+        "state:ITA"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-JEY",
+      "type": "entity",
+      "path": "reports/history/countries/jersey.json",
+      "title": "저지섬",
+      "entityKeys": [
+        "state:JEY"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-KAZ",
+      "type": "entity",
+      "path": "reports/history/countries/kazakhstan.json",
+      "title": "카자흐스탄",
+      "entityKeys": [
+        "state:KAZ"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-KINGDOM-OF-SERBIA",
+      "type": "entity",
+      "path": "reports/history/countries/kingdom-of-serbia.json",
+      "title": "세르비아 왕국",
+      "entityKeys": [
+        "state:kingdom-of-serbia"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-KOS",
+      "type": "entity",
+      "path": "reports/history/countries/kosovo.json",
+      "title": "코소보",
+      "entityKeys": [
+        "state:KOS"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-LTU",
+      "type": "entity",
+      "path": "reports/history/countries/lithuania.json",
+      "title": "리투아니아",
+      "entityKeys": [
+        "state:LTU"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-LUX",
+      "type": "entity",
+      "path": "reports/history/countries/luxembourg.json",
+      "title": "룩셈부르크",
+      "entityKeys": [
+        "state:LUX"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-LVA",
+      "type": "entity",
+      "path": "reports/history/countries/latvia.json",
+      "title": "라트비아",
+      "entityKeys": [
+        "state:LVA"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-MCO",
+      "type": "entity",
+      "path": "reports/history/countries/monaco.json",
+      "title": "모나코",
+      "entityKeys": [
+        "state:MCO"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-MDA",
+      "type": "entity",
+      "path": "reports/history/countries/moldova.json",
+      "title": "몰도바",
+      "entityKeys": [
+        "state:MDA"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-MKD",
+      "type": "entity",
+      "path": "reports/history/countries/north-macedonia.json",
+      "title": "북마케도니아",
+      "entityKeys": [
+        "state:MKD"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-MLT",
+      "type": "entity",
+      "path": "reports/history/countries/malta.json",
+      "title": "몰타",
+      "entityKeys": [
+        "state:MLT"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-MNE",
+      "type": "entity",
+      "path": "reports/history/countries/montenegro.json",
+      "title": "몬테네그로",
+      "entityKeys": [
+        "state:MNE"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-NAGORNO-KARABAKH",
+      "type": "entity",
+      "path": "reports/history/countries/nagorno-karabakh.json",
+      "title": "아르차흐",
+      "entityKeys": [
+        "state:nagorno-karabakh"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-NLD",
+      "type": "entity",
+      "path": "reports/history/countries/netherlands.json",
+      "title": "네덜란드",
+      "entityKeys": [
+        "state:NLD"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-NOR",
+      "type": "entity",
+      "path": "reports/history/countries/norway.json",
+      "title": "노르웨이",
+      "entityKeys": [
+        "state:NOR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-NORTH-SCHLESWIG",
+      "type": "entity",
+      "path": "reports/history/countries/north-schleswig.json",
+      "title": "북슐레스비히",
+      "entityKeys": [
+        "state:north-schleswig"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-POL",
+      "type": "entity",
+      "path": "reports/history/countries/poland.json",
+      "title": "폴란드",
+      "entityKeys": [
+        "state:POL"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-PRT",
+      "type": "entity",
+      "path": "reports/history/countries/portugal.json",
+      "title": "포르투갈",
+      "entityKeys": [
+        "state:PRT"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-ROU",
+      "type": "entity",
+      "path": "reports/history/countries/romania.json",
+      "title": "루마니아",
+      "entityKeys": [
+        "state:ROU"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-RUS",
+      "type": "entity",
+      "path": "reports/history/countries/russia.json",
+      "title": "러시아",
+      "entityKeys": [
+        "state:RUS"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SMR",
+      "type": "entity",
+      "path": "reports/history/countries/san-marino.json",
+      "title": "산마리노",
+      "entityKeys": [
+        "state:SMR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SOVIET-UNION",
+      "type": "entity",
+      "path": "reports/history/countries/soviet-union.json",
+      "title": "소련",
+      "entityKeys": [
+        "state:soviet-union"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SRB",
+      "type": "entity",
+      "path": "reports/history/countries/serbia.json",
+      "title": "세르비아",
+      "entityKeys": [
+        "state:SRB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SVK",
+      "type": "entity",
+      "path": "reports/history/countries/slovakia.json",
+      "title": "슬로바키아",
+      "entityKeys": [
+        "state:SVK"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SVN",
+      "type": "entity",
+      "path": "reports/history/countries/slovenia.json",
+      "title": "슬로베니아",
+      "entityKeys": [
+        "state:SVN"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-SWE",
+      "type": "entity",
+      "path": "reports/history/countries/sweden.json",
+      "title": "스웨덴",
+      "entityKeys": [
+        "state:SWE"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-TUR",
+      "type": "entity",
+      "path": "reports/history/countries/turkey.json",
+      "title": "튀르키예",
+      "entityKeys": [
+        "state:TUR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-UKR",
+      "type": "entity",
+      "path": "reports/history/countries/ukraine.json",
+      "title": "우크라이나",
+      "entityKeys": [
+        "state:UKR"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-UNMIK-KOSOVO",
+      "type": "entity",
+      "path": "reports/history/countries/unmik-kosovo.json",
+      "title": "코소보 유엔 임시행정",
+      "entityKeys": [
+        "state:unmik-kosovo"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-VAT",
+      "type": "entity",
+      "path": "reports/history/countries/vatican-city.json",
+      "title": "바티칸 시국",
+      "entityKeys": [
+        "state:VAT"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-WEST-PRUSSIA",
+      "type": "entity",
+      "path": "reports/history/countries/west-prussia.json",
+      "title": "서프로이센주",
+      "entityKeys": [
+        "state:west-prussia"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-WSB",
+      "type": "entity",
+      "path": "reports/history/countries/akrotiri.json",
+      "title": "아크로티리",
+      "entityKeys": [
+        "state:WSB"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-FLAG-YUGOSLAVIA",
+      "type": "entity",
+      "path": "reports/history/countries/yugoslavia.json",
+      "title": "유고슬라비아",
+      "entityKeys": [
+        "state:yugoslavia"
+      ],
+      "eventIds": [],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-FREE-CITY-DANZIG",
       "type": "entity",
       "path": "reports/history/countries/free-city-danzig.json",
@@ -2594,6 +3491,75 @@
       "ENT-CENTRAL-AMERICAN-FEDERATION",
       "ENT-COOK-ISLANDS",
       "ENT-ESWATINI",
+      "ENT-FLAG-ALB",
+      "ENT-FLAG-ALD",
+      "ENT-FLAG-AND",
+      "ENT-FLAG-ARM",
+      "ENT-FLAG-AUSTRO-HUNGARIAN-EMPIRE",
+      "ENT-FLAG-AZE",
+      "ENT-FLAG-BEL",
+      "ENT-FLAG-BGR",
+      "ENT-FLAG-BIH",
+      "ENT-FLAG-BLR",
+      "ENT-FLAG-CHE",
+      "ENT-FLAG-CYN",
+      "ENT-FLAG-CYP",
+      "ENT-FLAG-CZE",
+      "ENT-FLAG-CZECHOSLOVAKIA",
+      "ENT-FLAG-DEU",
+      "ENT-FLAG-DEUTSCHE-DEMOKRATISCHE-REPUBLIK",
+      "ENT-FLAG-DNK",
+      "ENT-FLAG-EAST-PRUSSIA",
+      "ENT-FLAG-ESB",
+      "ENT-FLAG-ESP",
+      "ENT-FLAG-EST",
+      "ENT-FLAG-FIN",
+      "ENT-FLAG-FRA",
+      "ENT-FLAG-FRO",
+      "ENT-FLAG-GBR",
+      "ENT-FLAG-GEO",
+      "ENT-FLAG-GGY",
+      "ENT-FLAG-GIB",
+      "ENT-FLAG-GRC",
+      "ENT-FLAG-HRV",
+      "ENT-FLAG-HUN",
+      "ENT-FLAG-IMN",
+      "ENT-FLAG-IRL",
+      "ENT-FLAG-ISL",
+      "ENT-FLAG-ITA",
+      "ENT-FLAG-JEY",
+      "ENT-FLAG-KAZ",
+      "ENT-FLAG-KINGDOM-OF-SERBIA",
+      "ENT-FLAG-KOS",
+      "ENT-FLAG-LTU",
+      "ENT-FLAG-LUX",
+      "ENT-FLAG-LVA",
+      "ENT-FLAG-MCO",
+      "ENT-FLAG-MDA",
+      "ENT-FLAG-MKD",
+      "ENT-FLAG-MLT",
+      "ENT-FLAG-MNE",
+      "ENT-FLAG-NAGORNO-KARABAKH",
+      "ENT-FLAG-NLD",
+      "ENT-FLAG-NOR",
+      "ENT-FLAG-NORTH-SCHLESWIG",
+      "ENT-FLAG-POL",
+      "ENT-FLAG-PRT",
+      "ENT-FLAG-ROU",
+      "ENT-FLAG-RUS",
+      "ENT-FLAG-SMR",
+      "ENT-FLAG-SOVIET-UNION",
+      "ENT-FLAG-SRB",
+      "ENT-FLAG-SVK",
+      "ENT-FLAG-SVN",
+      "ENT-FLAG-SWE",
+      "ENT-FLAG-TUR",
+      "ENT-FLAG-UKR",
+      "ENT-FLAG-UNMIK-KOSOVO",
+      "ENT-FLAG-VAT",
+      "ENT-FLAG-WEST-PRUSSIA",
+      "ENT-FLAG-WSB",
+      "ENT-FLAG-YUGOSLAVIA",
       "ENT-FREE-CITY-DANZIG",
       "ENT-FREE-STATE-FIUME",
       "ENT-FREE-TERRITORY-TRIESTE",
@@ -2816,6 +3782,216 @@
       "ENT-ESWATINI",
       "EVT-1968-ESWATINI-INDEPENDENCE",
       "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "state:ALB": [
+      "ENT-FLAG-ALB"
+    ],
+    "state:ALD": [
+      "ENT-FLAG-ALD"
+    ],
+    "state:AND": [
+      "ENT-FLAG-AND"
+    ],
+    "state:ARM": [
+      "ENT-FLAG-ARM"
+    ],
+    "state:austro-hungarian-empire": [
+      "ENT-FLAG-AUSTRO-HUNGARIAN-EMPIRE"
+    ],
+    "state:AZE": [
+      "ENT-FLAG-AZE"
+    ],
+    "state:BEL": [
+      "ENT-FLAG-BEL"
+    ],
+    "state:BGR": [
+      "ENT-FLAG-BGR"
+    ],
+    "state:BIH": [
+      "ENT-FLAG-BIH"
+    ],
+    "state:BLR": [
+      "ENT-FLAG-BLR"
+    ],
+    "state:CHE": [
+      "ENT-FLAG-CHE"
+    ],
+    "state:CYN": [
+      "ENT-FLAG-CYN"
+    ],
+    "state:CYP": [
+      "ENT-FLAG-CYP"
+    ],
+    "state:CZE": [
+      "ENT-FLAG-CZE"
+    ],
+    "state:czechoslovakia": [
+      "ENT-FLAG-CZECHOSLOVAKIA"
+    ],
+    "state:DEU": [
+      "ENT-FLAG-DEU"
+    ],
+    "state:deutsche-demokratische-republik": [
+      "ENT-FLAG-DEUTSCHE-DEMOKRATISCHE-REPUBLIK"
+    ],
+    "state:DNK": [
+      "ENT-FLAG-DNK",
+      "GEO-DNK-SCHLESWIG-KONGEAA-1836"
+    ],
+    "state:east-prussia": [
+      "ENT-FLAG-EAST-PRUSSIA"
+    ],
+    "state:ESB": [
+      "ENT-FLAG-ESB"
+    ],
+    "state:ESP": [
+      "ENT-FLAG-ESP"
+    ],
+    "state:EST": [
+      "ENT-FLAG-EST"
+    ],
+    "state:FIN": [
+      "ENT-FLAG-FIN"
+    ],
+    "state:FRA": [
+      "ENT-FLAG-FRA"
+    ],
+    "state:FRO": [
+      "ENT-FLAG-FRO"
+    ],
+    "state:GBR": [
+      "ENT-FLAG-GBR"
+    ],
+    "state:GEO": [
+      "ENT-FLAG-GEO"
+    ],
+    "state:GGY": [
+      "ENT-FLAG-GGY"
+    ],
+    "state:GIB": [
+      "ENT-FLAG-GIB"
+    ],
+    "state:GRC": [
+      "ENT-FLAG-GRC"
+    ],
+    "state:HRV": [
+      "ENT-FLAG-HRV"
+    ],
+    "state:HUN": [
+      "ENT-FLAG-HUN"
+    ],
+    "state:IMN": [
+      "ENT-FLAG-IMN"
+    ],
+    "state:IRL": [
+      "ENT-FLAG-IRL"
+    ],
+    "state:ISL": [
+      "ENT-FLAG-ISL"
+    ],
+    "state:ITA": [
+      "ENT-FLAG-ITA"
+    ],
+    "state:JEY": [
+      "ENT-FLAG-JEY"
+    ],
+    "state:KAZ": [
+      "ENT-FLAG-KAZ"
+    ],
+    "state:kingdom-of-serbia": [
+      "ENT-FLAG-KINGDOM-OF-SERBIA"
+    ],
+    "state:KOS": [
+      "ENT-FLAG-KOS"
+    ],
+    "state:LTU": [
+      "ENT-FLAG-LTU"
+    ],
+    "state:LUX": [
+      "ENT-FLAG-LUX"
+    ],
+    "state:LVA": [
+      "ENT-FLAG-LVA"
+    ],
+    "state:MCO": [
+      "ENT-FLAG-MCO"
+    ],
+    "state:MDA": [
+      "ENT-FLAG-MDA"
+    ],
+    "state:MKD": [
+      "ENT-FLAG-MKD"
+    ],
+    "state:MLT": [
+      "ENT-FLAG-MLT"
+    ],
+    "state:MNE": [
+      "ENT-FLAG-MNE"
+    ],
+    "state:nagorno-karabakh": [
+      "ENT-FLAG-NAGORNO-KARABAKH"
+    ],
+    "state:NLD": [
+      "ENT-FLAG-NLD",
+      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
+      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
+    ],
+    "state:NOR": [
+      "ENT-FLAG-NOR"
+    ],
+    "state:north-schleswig": [
+      "ENT-FLAG-NORTH-SCHLESWIG"
+    ],
+    "state:POL": [
+      "ENT-FLAG-POL"
+    ],
+    "state:PRT": [
+      "ENT-FLAG-PRT"
+    ],
+    "state:ROU": [
+      "ENT-FLAG-ROU"
+    ],
+    "state:RUS": [
+      "ENT-FLAG-RUS"
+    ],
+    "state:SMR": [
+      "ENT-FLAG-SMR"
+    ],
+    "state:soviet-union": [
+      "ENT-FLAG-SOVIET-UNION"
+    ],
+    "state:SRB": [
+      "ENT-FLAG-SRB"
+    ],
+    "state:SVK": [
+      "ENT-FLAG-SVK"
+    ],
+    "state:SVN": [
+      "ENT-FLAG-SVN"
+    ],
+    "state:SWE": [
+      "ENT-FLAG-SWE"
+    ],
+    "state:TUR": [
+      "ENT-FLAG-TUR"
+    ],
+    "state:UKR": [
+      "ENT-FLAG-UKR"
+    ],
+    "state:unmik-kosovo": [
+      "ENT-FLAG-UNMIK-KOSOVO"
+    ],
+    "state:VAT": [
+      "ENT-FLAG-VAT"
+    ],
+    "state:west-prussia": [
+      "ENT-FLAG-WEST-PRUSSIA"
+    ],
+    "state:WSB": [
+      "ENT-FLAG-WSB"
+    ],
+    "state:yugoslavia": [
+      "ENT-FLAG-YUGOSLAVIA"
     ],
     "research:state:free-city-danzig": [
       "ENT-FREE-CITY-DANZIG",
@@ -3089,13 +4265,6 @@
     "state:BRA": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "GEO-ISLA-SUAREZ"
-    ],
-    "state:NLD": [
-      "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
-      "EVT-1975-SURINAME-KINGDOM-RELATION-END"
-    ],
-    "state:DNK": [
-      "GEO-DNK-SCHLESWIG-KONGEAA-1836"
     ]
   },
   "byYear": {
@@ -3769,6 +4938,36 @@
         ]
       }
     },
+    "state:ALB": {
+      "recordIds": [
+        "ENT-FLAG-ALB"
+      ],
+      "byDecade": {}
+    },
+    "state:ALD": {
+      "recordIds": [
+        "ENT-FLAG-ALD"
+      ],
+      "byDecade": {}
+    },
+    "state:AND": {
+      "recordIds": [
+        "ENT-FLAG-AND"
+      ],
+      "byDecade": {}
+    },
+    "state:ARM": {
+      "recordIds": [
+        "ENT-FLAG-ARM"
+      ],
+      "byDecade": {}
+    },
+    "state:austro-hungarian-empire": {
+      "recordIds": [
+        "ENT-FLAG-AUSTRO-HUNGARIAN-EMPIRE"
+      ],
+      "byDecade": {}
+    },
     "state:AUT": {
       "recordIds": [
         "ENT-AUT",
@@ -3781,6 +4980,24 @@
         ]
       }
     },
+    "state:AZE": {
+      "recordIds": [
+        "ENT-FLAG-AZE"
+      ],
+      "byDecade": {}
+    },
+    "state:BEL": {
+      "recordIds": [
+        "ENT-FLAG-BEL"
+      ],
+      "byDecade": {}
+    },
+    "state:BGR": {
+      "recordIds": [
+        "ENT-FLAG-BGR"
+      ],
+      "byDecade": {}
+    },
     "state:BHS": {
       "recordIds": [
         "ENT-BAHAMAS",
@@ -3791,6 +5008,18 @@
           "EVT-1973-BAHAMAS-INDEPENDENCE"
         ]
       }
+    },
+    "state:BIH": {
+      "recordIds": [
+        "ENT-FLAG-BIH"
+      ],
+      "byDecade": {}
+    },
+    "state:BLR": {
+      "recordIds": [
+        "ENT-FLAG-BLR"
+      ],
+      "byDecade": {}
     },
     "state:BOL": {
       "recordIds": [
@@ -3840,6 +5069,12 @@
         ]
       }
     },
+    "state:CHE": {
+      "recordIds": [
+        "ENT-FLAG-CHE"
+      ],
+      "byDecade": {}
+    },
     "state:COK": {
       "recordIds": [
         "ENT-COOK-ISLANDS",
@@ -3851,9 +5086,118 @@
         ]
       }
     },
+    "state:CYN": {
+      "recordIds": [
+        "ENT-FLAG-CYN"
+      ],
+      "byDecade": {}
+    },
+    "state:CYP": {
+      "recordIds": [
+        "ENT-FLAG-CYP"
+      ],
+      "byDecade": {}
+    },
+    "state:CZE": {
+      "recordIds": [
+        "ENT-FLAG-CZE"
+      ],
+      "byDecade": {}
+    },
+    "state:czechoslovakia": {
+      "recordIds": [
+        "ENT-FLAG-CZECHOSLOVAKIA"
+      ],
+      "byDecade": {}
+    },
+    "state:DEU": {
+      "recordIds": [
+        "ENT-FLAG-DEU"
+      ],
+      "byDecade": {}
+    },
+    "state:deutsche-demokratische-republik": {
+      "recordIds": [
+        "ENT-FLAG-DEUTSCHE-DEMOKRATISCHE-REPUBLIK"
+      ],
+      "byDecade": {}
+    },
     "state:DNK": {
       "recordIds": [
+        "ENT-FLAG-DNK",
         "GEO-DNK-SCHLESWIG-KONGEAA-1836"
+      ],
+      "byDecade": {}
+    },
+    "state:east-prussia": {
+      "recordIds": [
+        "ENT-FLAG-EAST-PRUSSIA"
+      ],
+      "byDecade": {}
+    },
+    "state:ESB": {
+      "recordIds": [
+        "ENT-FLAG-ESB"
+      ],
+      "byDecade": {}
+    },
+    "state:ESP": {
+      "recordIds": [
+        "ENT-FLAG-ESP"
+      ],
+      "byDecade": {}
+    },
+    "state:EST": {
+      "recordIds": [
+        "ENT-FLAG-EST"
+      ],
+      "byDecade": {}
+    },
+    "state:FIN": {
+      "recordIds": [
+        "ENT-FLAG-FIN"
+      ],
+      "byDecade": {}
+    },
+    "state:FRA": {
+      "recordIds": [
+        "ENT-FLAG-FRA"
+      ],
+      "byDecade": {}
+    },
+    "state:FRO": {
+      "recordIds": [
+        "ENT-FLAG-FRO"
+      ],
+      "byDecade": {}
+    },
+    "state:GBR": {
+      "recordIds": [
+        "ENT-FLAG-GBR"
+      ],
+      "byDecade": {}
+    },
+    "state:GEO": {
+      "recordIds": [
+        "ENT-FLAG-GEO"
+      ],
+      "byDecade": {}
+    },
+    "state:GGY": {
+      "recordIds": [
+        "ENT-FLAG-GGY"
+      ],
+      "byDecade": {}
+    },
+    "state:GIB": {
+      "recordIds": [
+        "ENT-FLAG-GIB"
+      ],
+      "byDecade": {}
+    },
+    "state:GRC": {
+      "recordIds": [
+        "ENT-FLAG-GRC"
       ],
       "byDecade": {}
     },
@@ -3867,6 +5211,54 @@
           "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
         ]
       }
+    },
+    "state:HRV": {
+      "recordIds": [
+        "ENT-FLAG-HRV"
+      ],
+      "byDecade": {}
+    },
+    "state:HUN": {
+      "recordIds": [
+        "ENT-FLAG-HUN"
+      ],
+      "byDecade": {}
+    },
+    "state:IMN": {
+      "recordIds": [
+        "ENT-FLAG-IMN"
+      ],
+      "byDecade": {}
+    },
+    "state:IRL": {
+      "recordIds": [
+        "ENT-FLAG-IRL"
+      ],
+      "byDecade": {}
+    },
+    "state:ISL": {
+      "recordIds": [
+        "ENT-FLAG-ISL"
+      ],
+      "byDecade": {}
+    },
+    "state:ITA": {
+      "recordIds": [
+        "ENT-FLAG-ITA"
+      ],
+      "byDecade": {}
+    },
+    "state:JEY": {
+      "recordIds": [
+        "ENT-FLAG-JEY"
+      ],
+      "byDecade": {}
+    },
+    "state:KAZ": {
+      "recordIds": [
+        "ENT-FLAG-KAZ"
+      ],
+      "byDecade": {}
     },
     "state:KEN": {
       "recordIds": [
@@ -3894,6 +5286,18 @@
           "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
         ]
       }
+    },
+    "state:kingdom-of-serbia": {
+      "recordIds": [
+        "ENT-FLAG-KINGDOM-OF-SERBIA"
+      ],
+      "byDecade": {}
+    },
+    "state:KOS": {
+      "recordIds": [
+        "ENT-FLAG-KOS"
+      ],
+      "byDecade": {}
     },
     "state:LAO": {
       "recordIds": [
@@ -3939,6 +5343,36 @@
         ]
       }
     },
+    "state:LTU": {
+      "recordIds": [
+        "ENT-FLAG-LTU"
+      ],
+      "byDecade": {}
+    },
+    "state:LUX": {
+      "recordIds": [
+        "ENT-FLAG-LUX"
+      ],
+      "byDecade": {}
+    },
+    "state:LVA": {
+      "recordIds": [
+        "ENT-FLAG-LVA"
+      ],
+      "byDecade": {}
+    },
+    "state:MCO": {
+      "recordIds": [
+        "ENT-FLAG-MCO"
+      ],
+      "byDecade": {}
+    },
+    "state:MDA": {
+      "recordIds": [
+        "ENT-FLAG-MDA"
+      ],
+      "byDecade": {}
+    },
     "state:MEX": {
       "recordIds": [
         "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
@@ -3948,6 +5382,24 @@
           "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
         ]
       }
+    },
+    "state:MKD": {
+      "recordIds": [
+        "ENT-FLAG-MKD"
+      ],
+      "byDecade": {}
+    },
+    "state:MLT": {
+      "recordIds": [
+        "ENT-FLAG-MLT"
+      ],
+      "byDecade": {}
+    },
+    "state:MNE": {
+      "recordIds": [
+        "ENT-FLAG-MNE"
+      ],
+      "byDecade": {}
     },
     "state:MWI": {
       "recordIds": [
@@ -3977,6 +5429,12 @@
         ]
       }
     },
+    "state:nagorno-karabakh": {
+      "recordIds": [
+        "ENT-FLAG-NAGORNO-KARABAKH"
+      ],
+      "byDecade": {}
+    },
     "state:NIU": {
       "recordIds": [
         "ENT-NIUE",
@@ -3990,6 +5448,7 @@
     },
     "state:NLD": {
       "recordIds": [
+        "ENT-FLAG-NLD",
         "EVT-1954-SURINAME-KINGDOM-AUTONOMY",
         "EVT-1975-SURINAME-KINGDOM-RELATION-END"
       ],
@@ -4001,6 +5460,42 @@
           "EVT-1975-SURINAME-KINGDOM-RELATION-END"
         ]
       }
+    },
+    "state:NOR": {
+      "recordIds": [
+        "ENT-FLAG-NOR"
+      ],
+      "byDecade": {}
+    },
+    "state:north-schleswig": {
+      "recordIds": [
+        "ENT-FLAG-NORTH-SCHLESWIG"
+      ],
+      "byDecade": {}
+    },
+    "state:POL": {
+      "recordIds": [
+        "ENT-FLAG-POL"
+      ],
+      "byDecade": {}
+    },
+    "state:PRT": {
+      "recordIds": [
+        "ENT-FLAG-PRT"
+      ],
+      "byDecade": {}
+    },
+    "state:ROU": {
+      "recordIds": [
+        "ENT-FLAG-ROU"
+      ],
+      "byDecade": {}
+    },
+    "state:RUS": {
+      "recordIds": [
+        "ENT-FLAG-RUS"
+      ],
+      "byDecade": {}
     },
     "state:SGP": {
       "recordIds": [
@@ -4014,6 +5509,18 @@
           "EVT-1965-SINGAPORE-SEPARATION"
         ]
       }
+    },
+    "state:SMR": {
+      "recordIds": [
+        "ENT-FLAG-SMR"
+      ],
+      "byDecade": {}
+    },
+    "state:soviet-union": {
+      "recordIds": [
+        "ENT-FLAG-SOVIET-UNION"
+      ],
+      "byDecade": {}
     },
     "state:soviet-union-armenian-ssr": {
       "recordIds": [
@@ -4339,6 +5846,12 @@
         ]
       }
     },
+    "state:SRB": {
+      "recordIds": [
+        "ENT-FLAG-SRB"
+      ],
+      "byDecade": {}
+    },
     "state:SUR": {
       "recordIds": [
         "ENT-SURINAME",
@@ -4355,6 +5868,24 @@
           "EVT-1975-SURINAME-KINGDOM-RELATION-END"
         ]
       }
+    },
+    "state:SVK": {
+      "recordIds": [
+        "ENT-FLAG-SVK"
+      ],
+      "byDecade": {}
+    },
+    "state:SVN": {
+      "recordIds": [
+        "ENT-FLAG-SVN"
+      ],
+      "byDecade": {}
+    },
+    "state:SWE": {
+      "recordIds": [
+        "ENT-FLAG-SWE"
+      ],
+      "byDecade": {}
     },
     "state:SWZ": {
       "recordIds": [
@@ -4396,6 +5927,12 @@
         ]
       }
     },
+    "state:TUR": {
+      "recordIds": [
+        "ENT-FLAG-TUR"
+      ],
+      "byDecade": {}
+    },
     "state:TZA": {
       "recordIds": [
         "ENT-TANZANIA",
@@ -4408,6 +5945,18 @@
           "EVT-1964-TANZANIA-FORMAL-NAME"
         ]
       }
+    },
+    "state:UKR": {
+      "recordIds": [
+        "ENT-FLAG-UKR"
+      ],
+      "byDecade": {}
+    },
+    "state:unmik-kosovo": {
+      "recordIds": [
+        "ENT-FLAG-UNMIK-KOSOVO"
+      ],
+      "byDecade": {}
     },
     "state:USA": {
       "recordIds": [
@@ -4431,6 +5980,24 @@
         ]
       }
     },
+    "state:VAT": {
+      "recordIds": [
+        "ENT-FLAG-VAT"
+      ],
+      "byDecade": {}
+    },
+    "state:west-prussia": {
+      "recordIds": [
+        "ENT-FLAG-WEST-PRUSSIA"
+      ],
+      "byDecade": {}
+    },
+    "state:WSB": {
+      "recordIds": [
+        "ENT-FLAG-WSB"
+      ],
+      "byDecade": {}
+    },
     "state:WSM": {
       "recordIds": [
         "ENT-SAMOA",
@@ -4445,6 +6012,12 @@
           "EVT-1997-SAMOA-NAME-CHANGE"
         ]
       }
+    },
+    "state:yugoslavia": {
+      "recordIds": [
+        "ENT-FLAG-YUGOSLAVIA"
+      ],
+      "byDecade": {}
     }
   }
 }

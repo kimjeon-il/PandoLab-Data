@@ -1,0 +1,72 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-SRB",
+  "type": "entity",
+  "title": "세르비아",
+  "subject": {
+    "key": "state:SRB",
+    "kind": "state",
+    "displayName": "세르비아",
+    "runtimeEntityId": "state:SRB"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-250",
+    "SRC-251",
+    "SRC-252"
+  ],
+  "unresolved": [
+    "2004-08-17 권고, 2004-08-30 최초 공식 게양. 2010-11-11 도안 표준, 11-15 관보. 등록 SVG는 국장 포함 국가기; 최신 원도면 대조 필요.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "2006-06-05",
+    "validTo": null,
+    "note": "조사 시점 기존 객체 존속기간. 이 보고서는 국기만 다룸."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "적·청·백 삼색기와 깃대 쪽 국장",
+    "registeredDesignStartCandidate": {
+      "value": "2004-08-17",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": "2010-11-11",
+      "precision": "day"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-250",
+      "SRC-251",
+      "SRC-252"
+    ],
+    "evidenceNote": "2004-08-17 권고, 2004-08-30 최초 공식 게양. 2010-11-11 도안 표준, 11-15 관보. 등록 SVG는 국장 포함 국가기; 최신 원도면 대조 필요.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/1bcd5d7b40f2a17bafeb62ae468dd740e7db3057d5917af0ff77f70e3e3a4232.json",
+      "inspection": "asset-svg-inspected",
+      "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/rs.svg",
+      "assetMatchStatus": "SVG 속성 일부 직접 확인, 역사 법정 원도면 정밀 비교 미완료"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}

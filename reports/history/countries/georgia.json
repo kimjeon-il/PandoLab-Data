@@ -1,0 +1,68 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-GEO",
+  "type": "entity",
+  "title": "조지아",
+  "subject": {
+    "key": "state:GEO",
+    "kind": "state",
+    "displayName": "조지아",
+    "runtimeEntityId": "state:GEO"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-224"
+  ],
+  "unresolved": [
+    "기존 객체 metadata.flagHistory에서 2004-01-14부터 기본 국기, 그 이전 임베디드 도안의 이력 확인. 2018년 규격 표준화 별도.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "1991-04-09",
+    "validTo": null,
+    "note": "조사 시점 기존 객체 존속기간. 이 보고서는 국기만 다룸."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "백색 바탕 큰 적십자와 네 작은 적십자",
+    "registeredDesignStartCandidate": {
+      "value": "2004-01-14",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": "2018",
+      "precision": "year"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-224"
+    ],
+    "evidenceNote": "기존 객체 metadata.flagHistory에서 2004-01-14부터 기본 국기, 그 이전 임베디드 도안의 이력 확인. 2018년 규격 표준화 별도.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/a621e6f2a1b41606d8d37efd05e1e2ac18609e1e0861492afd0e9f898c96561f.json",
+      "inspection": "existing-history-confirmed",
+      "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ge.svg",
+      "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
+    },
+    "localAction": "기존 flagHistory 2004-01-14 유지; 중복 입력 금지"
+  }
+}

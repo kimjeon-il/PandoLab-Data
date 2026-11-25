@@ -1,0 +1,68 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-FIN",
+  "type": "entity",
+  "title": "핀란드",
+  "subject": {
+    "key": "state:FIN",
+    "kind": "state",
+    "displayName": "핀란드",
+    "runtimeEntityId": "state:FIN"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-224"
+  ],
+  "unresolved": [
+    "1918년 기본 도안 채택. 1978년 색상 변경·규격화의 정확한 효력일 및 SVG 색상 비교 필요.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": "1917-12-06",
+    "validTo": null,
+    "note": "조사 시점 기존 객체 존속기간. 이 보고서는 국기만 다룸."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "백색 바탕 청색 북유럽 십자",
+    "registeredDesignStartCandidate": {
+      "value": "1918-05-28",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": "1978",
+      "precision": "year"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-224"
+    ],
+    "evidenceNote": "1918년 기본 도안 채택. 1978년 색상 변경·규격화의 정확한 효력일 및 SVG 색상 비교 필요.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/b309d680450bd41bf2f71f898c91fca2669c39f3dede8b19186637d12615fadc.json",
+      "inspection": "asset-path-confirmed",
+      "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fi.svg",
+      "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}

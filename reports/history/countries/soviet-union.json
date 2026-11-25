@@ -1,0 +1,70 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FLAG-SOVIET-UNION",
+  "type": "entity",
+  "title": "소련",
+  "subject": {
+    "key": "state:soviet-union",
+    "kind": "state",
+    "displayName": "소련",
+    "runtimeEntityId": "state:soviet-union"
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "latest-flag-only"
+  },
+  "sourceIds": [
+    "SRC-263",
+    "SRC-255"
+  ],
+  "unresolved": [
+    "최종 정면 도안 기준. 1980년 뒷면 무문양 규정 개정은 정면 변경과 구분. 대용량 객체 원문 미열람으로 등록 기본 도안 확인 필요.",
+    "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "https://github.com/kimjeon-il/PandoLab-Data/blob/ac7927e1dc1165d9a35600f4508dcb67aff07ff8/library.json",
+    "createdInRun": "europe-latest-flag-start-2026-11-25",
+    "createdOn": "2026-11-25"
+  },
+  "eventIds": [],
+  "lifetimeAssessment": {
+    "status": "existing-period-not-modified",
+    "validFrom": null,
+    "validTo": null,
+    "note": "객체 원문 열람 불가: null은 미확인 값, 실제 존속기간으로 적용하지 말 것."
+  },
+  "latestFlagAssessment": {
+    "field": "flag",
+    "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
+    "researchedOn": "2026-11-25",
+    "assessment": "provisional",
+    "application": "not-applied",
+    "description": "적기와 금색 낫·망치 및 별",
+    "registeredDesignStartCandidate": {
+      "value": "1955-08-19",
+      "precision": "day"
+    },
+    "latestRevisionCandidate": {
+      "value": null,
+      "precision": "unknown"
+    },
+    "latestActualHistoricalFlag": null,
+    "sourceIds": [
+      "SRC-263",
+      "SRC-255"
+    ],
+    "evidenceNote": "최종 정면 도안 기준. 1980년 뒷면 무문양 규정 개정은 정면 변경과 구분. 대용량 객체 원문 미열람으로 등록 기본 도안 확인 필요.",
+    "preexistingAtHistoryStart": false,
+    "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
+    "runtimeSnapshot": {
+      "ref": "ac7927e1dc1165d9a35600f4508dcb67aff07ff8",
+      "objectPath": "objects/95f35ba2dbb7a06ce1e45864cdba7bcd97fb377354de036e3877e79671c41373.json",
+      "inspection": "object-unreadable",
+      "defaultFlagAssetPath": null,
+      "assetMatchStatus": "원문 미열람"
+    },
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+  }
+}
