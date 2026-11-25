@@ -43,8 +43,8 @@
     "application": "not-applied",
     "description": "적색 바탕 세 다리 문장",
     "registeredDesignStartCandidate": {
-      "value": "1968",
-      "precision": "year"
+      "value": "1968-07-09",
+      "precision": "day"
     },
     "latestRevisionCandidate": {
       "value": null,
@@ -55,7 +55,7 @@
       "SRC-241",
       "SRC-279"
     ],
-    "evidenceNote": "1968년 시계 방향 트리스켈리온 복원, 1971-08-27 사용 공식 확인. FOTW 해상기 설명은 육상기 승인 1968-07-09를 제시함. 실제 등록 도안 원문 미확인. 해상 적색기는 대상 아님.",
+    "evidenceNote": "FOTW 해상기 항목의 명시적 육상기 승인일 1968-07-09 확인. 1971-08-27은 해상 적색기의 승인일이기도 하므로 육상기 변경일로 자동 사용하지 않는다. Viewer im.svg는 600:300 적기, 중앙 삼각 배치 다리 문장. 다만 library 객체 자체 404로 해당 SVG 연결 미확인.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -67,6 +67,22 @@
     },
     "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인; 실제 객체 연결 검증은 별도",
+      "sourceIds": [
+        "SRC-279"
+      ],
+      "details": {
+        "landFlagAuthorization": "1968-07-09",
+        "civilEnsignAuthorization": "1971-08-27",
+        "viewerAssetBlob": "757c4018865761f738412545aa9239f218cf3e3e",
+        "viewerAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/im.svg",
+        "objectLinkVerified": false
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
       "dateAssessment": "provisional",

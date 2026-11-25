@@ -18,7 +18,9 @@
     "SRC-224",
     "SRC-343",
     "SRC-344",
-    "SRC-345"
+    "SRC-345",
+    "SRC-377",
+    "SRC-378"
   ],
   "unresolved": [
     "2023년 기본법 부속 도안 표준 개정 후보. SVG는 황백 교황관·열쇠 확인, 2023 도안과 정밀 비교 미완료. 이전 도안일 가능성 보류.",
@@ -49,17 +51,19 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2023-06-07",
-      "precision": "day"
+      "value": null,
+      "precision": "unknown"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
       "SRC-343",
       "SRC-344",
-      "SRC-345"
+      "SRC-345",
+      "SRC-377",
+      "SRC-378"
     ],
-    "evidenceNote": "바티칸 정부는 현 형태의 최초 게양일을 1929-06-08로 설명. 2023년 기본법의 2023-06-07 시행과 2026-07-31 신 기본법 즉시 시행을 분리 기록. 2026년 부속서 A 이미지에서 황백 이색기와 교황관·열쇠 확인. 새 기본법 자체가 도안 변경을 의미하지 않으며 2023년 부속도 및 등록 SVG의 세부 일치는 미확정.",
+    "evidenceNote": "2023-06-07 기본법 제23·24조와 2026-07-31 기본법 제24·25조에서 황백 이색기+교황관·열쇠 도안 유지. 2026 부속서 A 이미지 직접 확인. 2023년 CNS 보도에서 교황청 공보실은 2000년 공식 그림 이후 변경되지 않았다고 설명하므로 2023년 도안 변경을 확정했던 후보 철회. 2023 부속서 원본 링크 404, 2000·2023·2026 문장 세부 및 등록 va.svg의 정밀 동일성 미확정. 2026년 신법을 별개의 국기 교체로 자동 적용 금지.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -71,6 +75,24 @@
     },
     "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "provisional",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인; 실제 객체 연결 검증은 별도",
+      "sourceIds": [
+        "SRC-377",
+        "SRC-344",
+        "SRC-345",
+        "SRC-378"
+      ],
+      "details": {
+        "fundamentalLaw2023Effective": "2023-06-07",
+        "fundamentalLaw2026Effective": "2026-07-31",
+        "officialIllustrationNotChanged2000To2023": "reported-by-Vatican-press-office",
+        "exactGraphicMatch": null
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
       "dateAssessment": "provisional",

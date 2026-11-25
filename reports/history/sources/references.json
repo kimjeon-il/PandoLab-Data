@@ -2784,6 +2784,111 @@
       "fromReport": "europe-flag-followup-2-2026-11-25",
       "section": "법령 전재 및 관보 게재일",
       "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-377",
+      "url": "https://www.vatican.va/content/francesco/it/motu_proprio/documents/20230513-legge-fond-scv.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "2023 기본법 제23·24조, 부속서 A 링크는 404",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-378",
+      "url": "https://www.catholicregister.org/archive/item/35608-vexing-vexillology-even-the-vatican-gets-its-flag-wrong",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "CNS 2023 보도: 교황청 공보실의 2000년 이후 미변경 설명 및 민간 제작 편차",
+      "reviewStatus": "contemporary-news-reviewed"
+    },
+    {
+      "id": "SRC-379",
+      "url": "https://www.fotw.info/FLagS/de-pr-wp.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1886-11-09 공식 채택 주장과 1882년설 병기",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-380",
+      "url": "https://sbc.org.pl/Content/659667/PDF/ii27526-1926-00-0001.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1926년 프로이센 행정 연감 p.10, 1923년 구 서프로이센 색 계승; 검색 텍스트",
+      "reviewStatus": "historical-search-text-reviewed"
+    },
+    {
+      "id": "SRC-381",
+      "url": "https://files.preslib.az/projects/remz/pdf_en/remz_bayraq.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "대통령도서관 국기 역사 p.23, 1956-05-05 도안 수정 및 1981 유지; 텍스트, 화면 요청 타임아웃",
+      "reviewStatus": "government-pdf-text-reviewed-image-unavailable"
+    },
+    {
+      "id": "SRC-382",
+      "url": "https://files.preslib.az/projects/remz/pdf_ru/remz_bayraq.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1956-05-05 규정 원문 재수록",
+      "reviewStatus": "government-law-search-text-reviewed"
+    },
+    {
+      "id": "SRC-383",
+      "url": "https://crwflags.com/FotW/FLAGS/su-az.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1952 및 1956 판본 차이",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-384",
+      "url": "https://stortinget.no/no/Stortinget-og-demokratiet/Historikk/det-norske-flagg/Kronologi/18931899/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "의회 공식 연표, 1899-12-15 순수기 게양",
+      "reviewStatus": "official-history-reviewed"
+    },
+    {
+      "id": "SRC-385",
+      "url": "https://www.regjeringen.no/no/dep/ud/dep/diplomatiske-forbindelser-og-protokoll/norges-flagg-forskrift/id449230/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "외교부 국기 비율과 규격",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-386",
+      "url": "https://yeltsin.ru/uploads/upload/2019/11/29/RS_12_18_93OSR.pdf",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1993-12-18 관보 원문 4면 검색 텍스트",
+      "reviewStatus": "official-gazette-search-text-reviewed"
+    },
+    {
+      "id": "SRC-387",
+      "url": "https://base.garant.ru/5219732/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "공식 게재 서지",
+      "reviewStatus": "legal-metadata-reviewed"
+    },
+    {
+      "id": "SRC-388",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/riksdagsskrivelse/riksdagens-skrifvelse-no-181_d3k0181/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1906년 의회 문서의 7월 1일 시행 및 1908년까지 병용 조항",
+      "reviewStatus": "official-parliament-text-reviewed"
+    },
+    {
+      "id": "SRC-389",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/utlatande/lagutskottets-utlatande-no-48_d510lu48/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1908년 의회 문서의 1906-06-22 법 인용",
+      "reviewStatus": "official-parliament-text-reviewed"
+    },
+    {
+      "id": "SRC-390",
+      "url": "https://nationaldagen.se/start/flaggan/flaggans-historia/",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1905년 연합표지 제거 및 1906년 규격화",
+      "reviewStatus": "institutional-history-reviewed"
+    },
+    {
+      "id": "SRC-391",
+      "url": "https://runeberg.org/svenskaka/1926/0207.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1926년 연감에 기록된 1906년 규격",
+      "reviewStatus": "historical-text-reviewed"
     }
   ]
 }

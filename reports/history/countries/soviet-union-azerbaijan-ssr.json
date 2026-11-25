@@ -22,7 +22,10 @@
     "SRC-191",
     "SRC-192",
     "SRC-284",
-    "SRC-285"
+    "SRC-285",
+    "SRC-381",
+    "SRC-382",
+    "SRC-383"
   ],
   "unresolved": [
     "1920~1936 공화국 도안은 현 객체 이전 시기이므로 무조건 소급하지 않음.",
@@ -73,7 +76,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1952-10-07",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_SSR.svg",
@@ -91,12 +94,33 @@
       "SRC-191",
       "SRC-192",
       "SRC-284",
-      "SRC-285"
+      "SRC-285",
+      "SRC-381",
+      "SRC-382",
+      "SRC-383"
     ],
-    "evidenceNote": "FOTW는 1952년 도안과 1956년 낫·망치·별 배치 개정형을 구분. 1956년 정확한 시작일 및 등록 SVG 판본 대조 필요. 대통령실의 1991-02-05 삼색기 복원 확인.",
+    "evidenceNote": "아제르바이잔 대통령도서관 국기 역사 p.23과 러시아어/아제르바이잔어 법령 모음: 1956-05-05 국기 규정 승인으로 낫·망치·별의 위치·크기 정교화, 1978 및 1981-03-16 개정에서 정면 도안 유지. FOTW의 1952–1956/1956 이후 구분과 일치. 기존 등록 SVG는 적색 3/4·청색 1/4, 별 중심 x200/1200 및 기존 메타데이터의 출처와 부합하는 후기 도안 후보. 원본 치수 도면 정밀 비교 필요. 말기 삼색기는 1991-02-05 의결·복원 기준 유지; 도서관 영문 연표의 1990-11-29 주장과 기존 공식 채택 근거 간 차이는 별도 보존.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
     "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
     "followUp": {
+      "run": "europe-flag-followup-2-2026-11-25",
+      "dateAssessment": "source-reviewed",
+      "reviewScope": "국기 원법령·도안·효력일 추가 확인; 실제 객체 연결 검증은 별도",
+      "sourceIds": [
+        "SRC-381",
+        "SRC-382",
+        "SRC-383"
+      ],
+      "details": {
+        "initialSovietDesign": "1952-10-07",
+        "latestSovietDesignRegulation": "1956-05-05",
+        "frontDesignMaintained1981": true,
+        "actualLastFlagRestorationCandidate": "1991-02-05",
+        "alternateLibraryDate": "1990-11-29"
+      },
+      "remaining": "국기 실제 사용·원도면 정밀 대조의 미확정 사항은 note 참조. 런타임 데이터 변경 없음."
+    },
+    "priorFollowUp": {
       "run": "europe-flag-followup-2026-11-25",
       "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
       "dateAssessment": "provisional",
@@ -110,6 +134,10 @@
         "additionalRevisionCandidate": "1956"
       },
       "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    },
+    "latestSovietRevisionCandidate": {
+      "value": "1956-05-05",
+      "precision": "day"
     }
   }
 }
