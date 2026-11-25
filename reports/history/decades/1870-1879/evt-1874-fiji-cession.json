@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1874-FIJI-CESSION",
+  "type": "event",
+  "title": "피지 제도의 영국 주권 양도",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:FJI",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1874,
+    "value": "1874-10-10",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:FJI",
+      "field": "territory.assignment",
+      "summary": "1874 양도증서에 해당하는 피지 제도의 주권이 영국 왕실로 이전",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR",
+      "uncertainty": "현대 피지 객체는 1970년 시작이므로 선행 왕국·식민지 객체 매핑 및 당시 제도 범위 승인 전에는 입력 불가."
+    },
+    {
+      "entityKey": "state:FJI",
+      "field": "relationship.childType",
+      "summary": "영국 왕령식민지 역사 단계",
+      "assessment": "provisional",
+      "proposedValue": "Crown colony",
+      "uncertainty": "별도 식민지 객체 여부 미확정"
+    }
+  ],
+  "sourceIds": [
+    "SRC-411",
+    "SRC-412",
+    "SRC-414"
+  ],
+  "unresolved": [
+    "1871 왕국 실효 통치 범위 및 법적 성립일, 1874 양도 범위와 현대 피지 형상(로투마 등) 차이; 과거 객체 ID 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "evidenceDates": [
+    {
+      "kind": "cession",
+      "value": "1874-10-10"
+    }
+  ]
+}

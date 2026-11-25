@@ -148,6 +148,23 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-FIJI",
+      "type": "entity",
+      "path": "reports/history/countries/fiji.json",
+      "title": "피지",
+      "entityKeys": [
+        "state:FJI"
+      ],
+      "eventIds": [
+        "EVT-1874-FIJI-CESSION",
+        "EVT-1970-FIJI-COLONIAL-RELATION-END",
+        "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
+      ],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-FLAG-ALB",
       "type": "entity",
       "path": "reports/history/countries/albania.json",
@@ -480,7 +497,12 @@
       "entityKeys": [
         "state:GBR"
       ],
-      "eventIds": [],
+      "eventIds": [
+        "EVT-1874-FIJI-CESSION",
+        "EVT-1970-FIJI-COLONIAL-RELATION-END",
+        "EVT-1900-TONGA-BRITISH-PROTECTION",
+        "EVT-1970-TONGA-PROTECTION-END"
+      ],
       "year": null,
       "research": "source-reviewed",
       "application": "not-applied"
@@ -1747,6 +1769,22 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-TONGA",
+      "type": "entity",
+      "path": "reports/history/countries/tonga.json",
+      "title": "통가",
+      "entityKeys": [
+        "state:TON"
+      ],
+      "eventIds": [
+        "EVT-1900-TONGA-BRITISH-PROTECTION",
+        "EVT-1970-TONGA-PROTECTION-END"
+      ],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-TRINIDAD",
       "type": "entity",
       "path": "reports/history/countries/trinidad.json",
@@ -2059,6 +2097,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1874-FIJI-CESSION",
+      "type": "event",
+      "path": "reports/history/decades/1870-1879/evt-1874-fiji-cession.json",
+      "title": "피지 제도의 영국 주권 양도",
+      "entityKeys": [
+        "state:FJI",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1874,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1879-RYUKYU-ANNEXATION",
       "type": "event",
       "path": "reports/history/decades/1870-1879/evt-1879-ryukyu-annexation.json",
@@ -2130,6 +2182,20 @@
       "title": "제1차 아크리 공화국 해체",
       "entityKeys": [
         "research:state:acre-independent-state"
+      ],
+      "eventIds": [],
+      "year": 1900,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1900-TONGA-BRITISH-PROTECTION",
+      "type": "event",
+      "path": "reports/history/decades/1900-1909/evt-1900-tonga-british-protection.json",
+      "title": "통가 왕국의 영국 보호관계 성립",
+      "entityKeys": [
+        "state:TON",
+        "state:GBR"
       ],
       "eventIds": [],
       "year": 1900,
@@ -3146,6 +3212,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1970-FIJI-COLONIAL-RELATION-END",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1970-fiji-colonial-relation-end.json",
+      "title": "피지 식민지 관계 종료 및 독립 국기",
+      "entityKeys": [
+        "state:FJI",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1970,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
       "type": "event",
       "path": "reports/history/decades/1970-1979/evt-1970-guyana-republic-formal-name.json",
@@ -3156,6 +3236,20 @@
       "eventIds": [],
       "year": 1970,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1970-TONGA-PROTECTION-END",
+      "type": "event",
+      "path": "reports/history/decades/1970-1979/evt-1970-tonga-protection-end.json",
+      "title": "통가 왕국 영국 보호관계 종료",
+      "entityKeys": [
+        "state:TON",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1970,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -3368,6 +3462,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1998-FIJI-ISLANDS-FORMAL-NAME",
+      "type": "event",
+      "path": "reports/history/decades/1990-1999/evt-1998-fiji-islands-formal-name.json",
+      "title": "피지 정식 국명 Republic of the Fiji Islands",
+      "entityKeys": [
+        "state:FJI"
+      ],
+      "eventIds": [],
+      "year": 1998,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-2018-ESWATINI-RENAMING",
       "type": "event",
       "path": "reports/history/decades/2010-2019/evt-2018-eswatini-renaming.json",
@@ -3491,6 +3598,7 @@
       "ENT-CENTRAL-AMERICAN-FEDERATION",
       "ENT-COOK-ISLANDS",
       "ENT-ESWATINI",
+      "ENT-FIJI",
       "ENT-FLAG-ALB",
       "ENT-FLAG-ALD",
       "ENT-FLAG-AND",
@@ -3602,6 +3710,7 @@
       "ENT-TANGANYIKA",
       "ENT-TANZANIA",
       "ENT-TJK",
+      "ENT-TONGA",
       "ENT-TRINIDAD",
       "ENT-UZB",
       "ENT-ZANZIBAR"
@@ -3627,12 +3736,14 @@
       "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
       "EVT-1872-RYUKYU-DOMAIN",
+      "EVT-1874-FIJI-CESSION",
       "EVT-1879-RYUKYU-ANNEXATION",
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
       "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
       "EVT-1897-KOREAN-EMPIRE-NAME",
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION",
       "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1900-TONGA-BRITISH-PROTECTION",
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "EVT-1905-KOREAN-EMPIRE-PROTECTORATE",
       "EVT-1910-KOREAN-EMPIRE-ANNEXATION",
@@ -3710,7 +3821,9 @@
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
       "EVT-1968-ESWATINI-INDEPENDENCE",
+      "EVT-1970-FIJI-COLONIAL-RELATION-END",
       "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
+      "EVT-1970-TONGA-PROTECTION-END",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-09-23-TURKMEN-SSR-FLAG",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
@@ -3727,6 +3840,7 @@
       "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
       "EVT-1991-08-22-RUSSIAN-SFSR-FLAG",
       "EVT-1997-SAMOA-NAME-CHANGE",
+      "EVT-1998-FIJI-ISLANDS-FORMAL-NAME",
       "EVT-2018-ESWATINI-RENAMING",
       "EVT-2025-AUT-LIE-EGELSEE-BORDER",
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
@@ -3782,6 +3896,12 @@
       "ENT-ESWATINI",
       "EVT-1968-ESWATINI-INDEPENDENCE",
       "EVT-2018-ESWATINI-RENAMING"
+    ],
+    "state:FJI": [
+      "ENT-FIJI",
+      "EVT-1874-FIJI-CESSION",
+      "EVT-1970-FIJI-COLONIAL-RELATION-END",
+      "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
     ],
     "state:ALB": [
       "ENT-FLAG-ALB"
@@ -3860,7 +3980,11 @@
       "ENT-FLAG-FRO"
     ],
     "state:GBR": [
-      "ENT-FLAG-GBR"
+      "ENT-FLAG-GBR",
+      "EVT-1874-FIJI-CESSION",
+      "EVT-1900-TONGA-BRITISH-PROTECTION",
+      "EVT-1970-FIJI-COLONIAL-RELATION-END",
+      "EVT-1970-TONGA-PROTECTION-END"
     ],
     "state:GEO": [
       "ENT-FLAG-GEO"
@@ -4236,6 +4360,11 @@
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
       "GEO-2025-KGZ-TJK-BORDER"
     ],
+    "state:TON": [
+      "ENT-TONGA",
+      "EVT-1900-TONGA-BRITISH-PROTECTION",
+      "EVT-1970-TONGA-PROTECTION-END"
+    ],
     "state:TTO": [
       "ENT-TRINIDAD",
       "EVT-1962-TRINIDAD-INDEPENDENCE"
@@ -4314,6 +4443,9 @@
     "1872": [
       "EVT-1872-RYUKYU-DOMAIN"
     ],
+    "1874": [
+      "EVT-1874-FIJI-CESSION"
+    ],
     "1879": [
       "EVT-1879-RYUKYU-ANNEXATION"
     ],
@@ -4330,7 +4462,8 @@
       "EVT-1899-ACRE-INDEPENDENCE-PROCLAMATION"
     ],
     "1900": [
-      "EVT-1900-ACRE-FIRST-REPUBLIC-END"
+      "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1900-TONGA-BRITISH-PROTECTION"
     ],
     "1904": [
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER"
@@ -4478,7 +4611,9 @@
       "EVT-1968-ESWATINI-INDEPENDENCE"
     ],
     "1970": [
-      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME"
+      "EVT-1970-FIJI-COLONIAL-RELATION-END",
+      "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
+      "EVT-1970-TONGA-PROTECTION-END"
     ],
     "1973": [
       "EVT-1973-BAHAMAS-INDEPENDENCE"
@@ -4511,6 +4646,9 @@
     ],
     "1997": [
       "EVT-1997-SAMOA-NAME-CHANGE"
+    ],
+    "1998": [
+      "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
     ],
     "2018": [
       "EVT-2018-ESWATINI-RENAMING"
@@ -4555,6 +4693,7 @@
     "1870-1879": [
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
       "EVT-1872-RYUKYU-DOMAIN",
+      "EVT-1874-FIJI-CESSION",
       "EVT-1879-RYUKYU-ANNEXATION"
     ],
     "1880-1889": [
@@ -4567,6 +4706,7 @@
     ],
     "1900-1909": [
       "EVT-1900-ACRE-FIRST-REPUBLIC-END",
+      "EVT-1900-TONGA-BRITISH-PROTECTION",
       "EVT-1904-PETROPOLIS-ACRE-TERRITORIAL-TRANSFER",
       "EVT-1905-KOREAN-EMPIRE-PROTECTORATE"
     ],
@@ -4658,7 +4798,9 @@
       "EVT-1968-ESWATINI-INDEPENDENCE"
     ],
     "1970-1979": [
+      "EVT-1970-FIJI-COLONIAL-RELATION-END",
       "EVT-1970-GUYANA-REPUBLIC-FORMAL-NAME",
+      "EVT-1970-TONGA-PROTECTION-END",
       "EVT-1973-BAHAMAS-INDEPENDENCE",
       "EVT-1974-09-23-TURKMEN-SSR-FLAG",
       "EVT-1974-NIUE-SELF-GOVERNMENT",
@@ -4678,7 +4820,8 @@
       "EVT-1990-11-MOLDAVIAN-SSR-FLAG",
       "EVT-1991-02-05-AZERBAIJAN-SSR-FLAG",
       "EVT-1991-08-22-RUSSIAN-SFSR-FLAG",
-      "EVT-1997-SAMOA-NAME-CHANGE"
+      "EVT-1997-SAMOA-NAME-CHANGE",
+      "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
     ],
     "2010-2019": [
       "EVT-2018-ESWATINI-RENAMING"
@@ -5159,6 +5302,25 @@
       ],
       "byDecade": {}
     },
+    "state:FJI": {
+      "recordIds": [
+        "ENT-FIJI",
+        "EVT-1874-FIJI-CESSION",
+        "EVT-1970-FIJI-COLONIAL-RELATION-END",
+        "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
+      ],
+      "byDecade": {
+        "1870-1879": [
+          "EVT-1874-FIJI-CESSION"
+        ],
+        "1970-1979": [
+          "EVT-1970-FIJI-COLONIAL-RELATION-END"
+        ],
+        "1990-1999": [
+          "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
+        ]
+      }
+    },
     "state:FRA": {
       "recordIds": [
         "ENT-FLAG-FRA"
@@ -5173,9 +5335,24 @@
     },
     "state:GBR": {
       "recordIds": [
-        "ENT-FLAG-GBR"
+        "ENT-FLAG-GBR",
+        "EVT-1874-FIJI-CESSION",
+        "EVT-1900-TONGA-BRITISH-PROTECTION",
+        "EVT-1970-FIJI-COLONIAL-RELATION-END",
+        "EVT-1970-TONGA-PROTECTION-END"
       ],
-      "byDecade": {}
+      "byDecade": {
+        "1870-1879": [
+          "EVT-1874-FIJI-CESSION"
+        ],
+        "1900-1909": [
+          "EVT-1900-TONGA-BRITISH-PROTECTION"
+        ],
+        "1970-1979": [
+          "EVT-1970-FIJI-COLONIAL-RELATION-END",
+          "EVT-1970-TONGA-PROTECTION-END"
+        ]
+      }
     },
     "state:GEO": {
       "recordIds": [
@@ -5913,6 +6090,21 @@
         "2020-2029": [
           "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
           "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+        ]
+      }
+    },
+    "state:TON": {
+      "recordIds": [
+        "ENT-TONGA",
+        "EVT-1900-TONGA-BRITISH-PROTECTION",
+        "EVT-1970-TONGA-PROTECTION-END"
+      ],
+      "byDecade": {
+        "1900-1909": [
+          "EVT-1900-TONGA-BRITISH-PROTECTION"
+        ],
+        "1970-1979": [
+          "EVT-1970-TONGA-PROTECTION-END"
         ]
       }
     },

@@ -27,7 +27,12 @@
     "createdInRun": "europe-latest-flag-start-2026-11-25",
     "createdOn": "2026-11-25"
   },
-  "eventIds": [],
+  "eventIds": [
+    "EVT-1874-FIJI-CESSION",
+    "EVT-1970-FIJI-COLONIAL-RELATION-END",
+    "EVT-1900-TONGA-BRITISH-PROTECTION",
+    "EVT-1970-TONGA-PROTECTION-END"
+  ],
   "lifetimeAssessment": {
     "status": "existing-period-not-modified",
     "validFrom": "1707-05-12",

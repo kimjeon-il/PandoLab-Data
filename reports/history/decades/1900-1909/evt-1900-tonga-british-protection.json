@@ -1,0 +1,56 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1900-TONGA-BRITISH-PROTECTION",
+  "type": "event",
+  "title": "통가 왕국의 영국 보호관계 성립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:TON",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1900,
+    "value": "1900",
+    "precision": "year"
+  },
+  "changes": [
+    {
+      "entityKey": "state:TON",
+      "field": "relationship.parent",
+      "summary": "통가 왕국의 대외관계를 영국이 담당하는 보호관계",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR"
+    },
+    {
+      "entityKey": "state:TON",
+      "field": "relationship.childType",
+      "summary": "식민지가 아닌 피보호국",
+      "assessment": "source-reviewed",
+      "proposedValue": "protected state"
+    }
+  ],
+  "sourceIds": [
+    "SRC-419",
+    "SRC-420",
+    "SRC-421"
+  ],
+  "unresolved": [
+    "1900-05-18 조약 체결일과 미공개 별도 약속의 효력일·비준 분리 필요. 1958/1968 조약의 단계별 권한 변동 검토."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "evidenceDates": [
+    {
+      "kind": "treaty-signature",
+      "value": "1900-05-18"
+    }
+  ]
+}

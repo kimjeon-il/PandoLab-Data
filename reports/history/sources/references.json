@@ -3022,6 +3022,97 @@
       "fromReport": "cyprus-sba-union-flag-2026-11-25",
       "section": "별도 공식 국기 없이 영국기를 대표기로 사용; 1960년 주권기지 성립부터 사용한다는 설명. 부대·주둔지 깃발과 구분.",
       "reviewStatus": "secondary-history-reviewed"
+    },
+    {
+      "id": "SRC-411",
+      "url": "https://legal.un.org/riaa/cases/vol_VI/93-99_Burt.pdf",
+      "fromReport": "GEO-LIFE-045",
+      "section": "1923-10-26 국제중재판정, 인쇄면 94, 1874-10-10 양도증서 제1조 인용 및 주권 이전 확인; PDF 페이지 이미지 열람.",
+      "reviewStatus": "primary-quotation-pdf-image-reviewed"
+    },
+    {
+      "id": "SRC-412",
+      "url": "https://www.parliament.gov.fj/our-story/",
+      "fromReport": "GEO-LIFE-045",
+      "section": "피지 의회 역사: 1871 정부 성립 시도, 1874-10-10 양도 및 식민지, 1970-10-10 독립.",
+      "reviewStatus": "official-history-reviewed"
+    },
+    {
+      "id": "SRC-413",
+      "url": "https://www.legislation.gov.uk/ukpga/1970/50/pdfs/ukpga_19700050_en.pdf",
+      "fromReport": "GEO-LIFE-045",
+      "section": "1970 c.50, 1970-07-23 재가, 제1조 1970-10-10 영국 정부 책임 종료; 인쇄면 1475 PDF 이미지 열람.",
+      "reviewStatus": "primary-law-pdf-image-reviewed"
+    },
+    {
+      "id": "SRC-414",
+      "url": "https://history.state.gov/countries/fiji",
+      "fromReport": "GEO-LIFE-045",
+      "section": "미 국무부 역사국: 1874 왕령식민지, 1970-10-10 독립.",
+      "reviewStatus": "official-history-reviewed"
+    },
+    {
+      "id": "SRC-415",
+      "url": "https://teara.govt.nz/en/photograph/36870/fijian-independence-celebrations-1970",
+      "fromReport": "GEO-LIFE-045",
+      "section": "뉴질랜드 기록원 사진 및 Te Ara 설명: 1970-10-10 독립 국기 게양, 사진 재사용 허가 필요.",
+      "reviewStatus": "archive-description-reviewed"
+    },
+    {
+      "id": "SRC-416",
+      "url": "https://www.wipo.int/wipolex/fr/text/186885",
+      "fromReport": "GEO-LIFE-045",
+      "section": "1997 Act No.13 법률 본문 재가 1997-07-25, 제1조 Republic of the Fiji Islands 및 이전 Sovereign Democratic Republic of Fiji 명칭.",
+      "reviewStatus": "primary-law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-417",
+      "url": "https://cdd.org.fj/constitution/process/1997-constitution/",
+      "fromReport": "GEO-LIFE-045",
+      "section": "피지 헌법 연구: 제193조 일반 시행일 1998-07-27, 일부 준비조항 선행 시행.",
+      "reviewStatus": "institutional-history-reviewed"
+    },
+    {
+      "id": "SRC-418",
+      "url": "https://www.fijivillage.com/news/Country-is-now-officially-called-Republic-of-Fiji-5s9r2k/",
+      "fromReport": "GEO-LIFE-045",
+      "section": "2011-02-03 총리실 관계자 발표 보도: Republic of Fiji 사용 확인; 정확한 법적 시행일은 불명.",
+      "reviewStatus": "contemporary-report-reviewed"
+    },
+    {
+      "id": "SRC-419",
+      "url": "https://legal.un.org/ilc/documentation/english/a_cn4_263.pdf",
+      "fromReport": "GEO-LIFE-045",
+      "section": "UN ILC A/CN.4/263, pp.57–61: 통가 정부 1970-06-18 선언, 1900-05-18 조약 및 별도 대외관계 약속, 1970-05-19 교환공문과 1970-06-04 효력. pp.59,61 이미지 열람.",
+      "reviewStatus": "primary-diplomatic-text-pdf-image-reviewed"
+    },
+    {
+      "id": "SRC-420",
+      "url": "https://2009-2017.state.gov/outofdate/bgn/tonga/94965.htm",
+      "fromReport": "GEO-LIFE-045",
+      "section": "미 국무부 2008 통가 배경자료: 1845 왕조 성립, 1900 보호관계, 1970-06-04 완전 독립.",
+      "reviewStatus": "official-history-reviewed"
+    },
+    {
+      "id": "SRC-421",
+      "url": "https://doi.org/10.1093/ref%3Aodnb/93271",
+      "fromReport": "GEO-LIFE-045",
+      "section": "Oxford DNB 통가 지도자 항목 공개 발췌: 1875 왕위 공식 인정, 1900 보호관계, 1970 독립; 유료 본문 미열람.",
+      "reviewStatus": "academic-extract-reviewed"
+    },
+    {
+      "id": "SRC-422",
+      "url": "https://www.constituteproject.org/constitution/Tonga_1988",
+      "fromReport": "GEO-LIFE-045",
+      "section": "1875 헌법의 1988 개정본 제47조 기존 왕의 국기를 고정; 1875 원본 미열람.",
+      "reviewStatus": "legal-consolidation-reviewed"
+    },
+    {
+      "id": "SRC-423",
+      "url": "https://www.crwflags.com/FotW/FLAGS/to.html",
+      "fromReport": "GEO-LIFE-045",
+      "section": "Flags of the World 통가 항목: 1875-11-04 헌법상 국기, 1866 선행 사용 가능성; 보호기간에도 같은 국기.",
+      "reviewStatus": "specialist-secondary-reviewed"
     }
   ]
 }

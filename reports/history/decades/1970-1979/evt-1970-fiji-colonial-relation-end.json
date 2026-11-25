@@ -1,0 +1,61 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1970-FIJI-COLONIAL-RELATION-END",
+  "type": "event",
+  "title": "피지 식민지 관계 종료 및 독립 국기",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:FJI",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1970,
+    "value": "1970-10-10",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:FJI",
+      "field": "relationship.parent",
+      "summary": "영국 식민 통치 책임 종료; 독립 주권국",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:FJI",
+      "field": "flag",
+      "summary": "독립 국기 첫 공식 게양(현 피지 국기)",
+      "assessment": "source-reviewed",
+      "proposedValue": "current Fiji flag"
+    }
+  ],
+  "sourceIds": [
+    "SRC-412",
+    "SRC-413",
+    "SRC-414",
+    "SRC-415"
+  ],
+  "unresolved": [
+    "식민지 별도 객체 종료 및 국기 원 채택 법령·이미지 ID 후속 확인; 독립일 자체는 기존 원본과 일치하여 신규 발견 아님."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "evidenceDates": [
+    {
+      "kind": "royal-assent",
+      "value": "1970-07-23"
+    },
+    {
+      "kind": "effective",
+      "value": "1970-10-10"
+    }
+  ]
+}

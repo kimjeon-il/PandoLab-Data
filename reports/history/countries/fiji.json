@@ -1,0 +1,91 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-FIJI",
+  "type": "entity",
+  "title": "피지",
+  "subject": {
+    "key": "state:FJI",
+    "kind": "state",
+    "displayName": "피지",
+    "runtimeEntityId": "state:FJI"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "오세아니아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-26",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-date-not-final-approval",
+    "validFrom": "1970-10-10",
+    "validTo": null,
+    "note": "현대 독립국 기존 시작일 일치. 1871~1874 선행 왕국과 1874~1970 식민지의 동일성·개별 객체 결정 유보."
+  },
+  "eventIds": [
+    "EVT-1874-FIJI-CESSION",
+    "EVT-1970-FIJI-COLONIAL-RELATION-END",
+    "EVT-1998-FIJI-ISLANDS-FORMAL-NAME"
+  ],
+  "sourceIds": [
+    "SRC-411",
+    "SRC-412",
+    "SRC-413",
+    "SRC-414",
+    "SRC-415",
+    "SRC-416",
+    "SRC-417",
+    "SRC-418"
+  ],
+  "unresolved": [
+    "1871 정부의 실제 국가성 및 식민지 개별 객체 존속기간, 로투마의 별도 1881 귀속 및 당시 양도 영역 검증.",
+    "1987 공화정 전환은 국가 재건국 아님. 1990 Sovereign Democratic Republic of Fiji와 2011 Republic of Fiji 법정 효력일, 국기 원 채택 법령·식민지 국기 이력 확인.",
+    "work/gis 조회 불가; main 데이터 객체 확인. 배포 핀과 전체 별도 시간축 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "b8caf3e746c22449aeed653d9ab3861b918b0998",
+    "objectPath": "objects/303e11c2cafbe9299dfb9a30dbb86c878c73752c0e98b247146d1de7226a27fb.json",
+    "lifetime": {
+      "validFrom": "1970-10-10",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "피지"
+    },
+    "countryUpdates": {},
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fj.svg",
+    "note": "main 실제 객체 열람, 정본 및 배포 핀 변경 없음. work/gis 부재."
+  },
+  "historicalFacts": [
+    {
+      "date": "1970-10-10",
+      "field": "lifetime.validFrom",
+      "assessment": "existing-date-reconfirmed",
+      "sourceIds": [
+        "SRC-413",
+        "SRC-414"
+      ]
+    },
+    {
+      "date": "2011-02-03",
+      "field": "name.formal",
+      "summary": "이 날짜까지 Republic of Fiji 사용이 총리실 발언으로 확인됨. 실제 효력일과 구 국명 종료일 미확정.",
+      "assessment": "provisional",
+      "sourceIds": [
+        "SRC-418"
+      ]
+    }
+  ]
+}

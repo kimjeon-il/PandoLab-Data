@@ -1,0 +1,60 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1970-TONGA-PROTECTION-END",
+  "type": "event",
+  "title": "통가 왕국 영국 보호관계 종료",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:TON",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1970,
+    "value": "1970-06-04",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:TON",
+      "field": "relationship.parent",
+      "summary": "영국 대외관계 책임 종료, 완전 주권 회복",
+      "assessment": "source-reviewed",
+      "proposedValue": null
+    },
+    {
+      "entityKey": "state:TON",
+      "field": "relationship.childType",
+      "summary": "피보호국 지위 종료",
+      "assessment": "source-reviewed",
+      "proposedValue": "independent state"
+    }
+  ],
+  "sourceIds": [
+    "SRC-419",
+    "SRC-420",
+    "SRC-421"
+  ],
+  "unresolved": [
+    "Pando 관계 종류의 정확한 저장값 및 보호기간 시작 효력일 승인 필요. 국가 동일성 유지; 신규 건국 아님."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "evidenceDates": [
+    {
+      "kind": "exchange-of-letters",
+      "value": "1970-05-19"
+    },
+    {
+      "kind": "effective",
+      "value": "1970-06-04"
+    }
+  ]
+}

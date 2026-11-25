@@ -1,0 +1,51 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1998-FIJI-ISLANDS-FORMAL-NAME",
+  "type": "event",
+  "title": "피지 정식 국명 Republic of the Fiji Islands",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:FJI"
+  ],
+  "date": {
+    "year": 1998,
+    "value": "1998-07-27",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:FJI",
+      "field": "name.formal",
+      "summary": "1997 헌법개정법 제1조의 국명 일반 효력 개시",
+      "assessment": "source-reviewed",
+      "proposedValue": "Republic of the Fiji Islands"
+    }
+  ],
+  "sourceIds": [
+    "SRC-416",
+    "SRC-417"
+  ],
+  "unresolved": [
+    "선행 조기 시행 포고 유무 및 1990·2011 국명 변경의 정확한 효력일 별도 확인. 국가 동일성 유지."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "evidenceDates": [
+    {
+      "kind": "assent",
+      "value": "1997-07-25"
+    },
+    {
+      "kind": "general-commencement",
+      "value": "1998-07-27"
+    }
+  ]
+}

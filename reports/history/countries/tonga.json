@@ -1,0 +1,88 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-TONGA",
+  "type": "entity",
+  "title": "통가",
+  "subject": {
+    "key": "state:TON",
+    "kind": "state",
+    "displayName": "통가",
+    "runtimeEntityId": "state:TON"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "오세아니아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-26",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "provisional-existing-start-not-final-approval",
+    "validFrom": "1845",
+    "validTo": null,
+    "note": "1845 왕조 성립 근거와 1875 왕위 공식 인정 기록을 구분. 실효 통일 범위·국가 성립일 추가 확인. 1900 보호관계, 1970 완전주권 회복은 동인격 왕국의 지위 변경."
+  },
+  "eventIds": [
+    "EVT-1900-TONGA-BRITISH-PROTECTION",
+    "EVT-1970-TONGA-PROTECTION-END"
+  ],
+  "sourceIds": [
+    "SRC-419",
+    "SRC-420",
+    "SRC-421",
+    "SRC-422",
+    "SRC-423"
+  ],
+  "unresolved": [
+    "1845 왕조 출범과 1850년대 실효 통일, 1875 헌법의 관계 및 선행 정치체 확인.",
+    "1900 조약 및 비공개 약속 정확한 발효일, 1958/1968 조약 단계의 보호관계 세부 성격 확인.",
+    "1875 헌법 원판 및 1866 이전/이후 국기 실제 사용 자료, 국기 이미지 ID; main 객체 확인이나 work/gis·배포 핀 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-045",
+    "createdOn": "2026-11-26"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "b8caf3e746c22449aeed653d9ab3861b918b0998",
+    "objectPath": "objects/55daf8f50db384b5a748c260af8bb705771a0fbb500871579128af83d6ed99b0.json",
+    "lifetime": {
+      "validFrom": "1845",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "통가"
+    },
+    "countryUpdates": {},
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/to.svg",
+    "note": "main 실제 객체 열람, 정본 및 배포 핀 변경 없음. work/gis 부재."
+  },
+  "historicalFacts": [
+    {
+      "date": "1845",
+      "field": "lifetime.validFrom",
+      "assessment": "existing-date-supported-provisional",
+      "sourceIds": [
+        "SRC-420",
+        "SRC-421"
+      ]
+    },
+    {
+      "date": "1875-11-04",
+      "field": "flag",
+      "summary": "기존 왕의 깃발을 헌법에 고정한 날 후보. 1866 선행 사용 가능성 때문에 실제 국기 변경일로 확정하지 않음.",
+      "assessment": "provisional",
+      "sourceIds": [
+        "SRC-422",
+        "SRC-423"
+      ]
+    }
+  ]
+}
