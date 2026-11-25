@@ -3008,6 +3008,20 @@
       "fromReport": "europe-flag-followup-3-2026-11-25",
       "section": "전문 자료의 1886-11-09 채택일 및 1882년설 병기",
       "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-409",
+      "url": "https://assets.publishing.service.gov.uk/media/5a78ab88e5274a277e68e8a9/ot-wp-0612.pdf",
+      "fromReport": "cyprus-sba-union-flag-2026-11-25",
+      "section": "영국 외무부 2012년 해외영토 백서 인쇄면 117쪽: 아크로티리·데켈리아 소개 제목에 영국 유니언기를 사용. 1960년 주권기지 성립 설명. PDF 실제 페이지 이미지 확인.",
+      "reviewStatus": "government-white-paper-pdf-image-reviewed"
+    },
+    {
+      "id": "SRC-410",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Akrotiri_and_Dhekelia",
+      "fromReport": "cyprus-sba-union-flag-2026-11-25",
+      "section": "별도 공식 국기 없이 영국기를 대표기로 사용; 1960년 주권기지 성립부터 사용한다는 설명. 부대·주둔지 깃발과 구분.",
+      "reviewStatus": "secondary-history-reviewed"
     }
   ]
 }
