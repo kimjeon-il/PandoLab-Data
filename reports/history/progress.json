@@ -161,8 +161,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "유럽",
-    "nextRegion": "아시아",
+    "lastRegion": "아시아",
+    "nextRegion": "아프리카",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -220,66 +220,100 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-25",
+    "lastReviewedOn": "2026-11-26",
     "lastReview": {
       "year": 2025,
-      "region": "유럽",
-      "scope": "2025년 유럽 부분 조사: 오스트리아–리히텐슈타인, 스위스–프랑스/독일/이탈리아, 지브롤터 법적 경계·속령 변동 후보.",
-      "finding": "법적으로 발효한 Egelsee 국경·영토 교환 신규 연구 사건 1건. 두 기존 객체 확인; 나머지 후보 효력 미확인 또는 범위 밖. 유럽 전수 미완료.",
+      "region": "아시아",
+      "scope": "2025-01-01~2025-12-31 아시아 2차 순환 부분조사: 시리아 국기·정식 국명·국가 동일성, 시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 국경의 실제 법적 변동 여부. 중앙아시아 기존 사건 2건 중복 확인.",
+      "finding": "신규 입력 가능 변동 미발견(조사한 범위에 한함). 시리아의 삼색 삼별 국기는 실제 원본에 2024-12-08부터 이미 반영되었으며 2025년 법적 재확인을 별도 디자인 변경으로 중복 계수하지 않음. 3개 국경의 협의/휴전/가서명은 확정적인 영토 귀속 변경이 아님. 기존 중앙아시아 사건 2건은 신규 계수하지 않음.",
       "checkedCandidates": [
         {
-          "topic": "오스트리아–리히텐슈타인 Egelsee",
-          "eventId": "EVT-2025-AUT-LIE-EGELSEE-BORDER",
-          "date": "2025-11-01",
-          "finding": "실제 영토 교환과 국제경계 변경 1건. 양국의 존속기간·국명·국기·부모 관계는 변경 대상 아님. 단순 재측량, 건축 제한 변경, 호수 형상 생성은 사건으로 분리하지 않음.",
-          "inputAssessment": "new-effective-territorial-change",
-          "sourceIds": [
-            "SRC-173",
-            "SRC-174",
-            "SRC-175",
-            "SRC-176"
+          "topic": "시리아 국기·국명",
+          "date": "2025-03-13",
+          "finding": "헌법선언 제1조 Syrian Arab Republic 명칭 유지, 제6조 녹·백·흑 삼색 및 붉은 별 3개 명시. 제53조 관보 공포일부터 효력 발생; SANA 3월 13일 게시와 관보 공포를 구분. state:SYR 원본 metadata.flagHistory는 1980-03-30~2024-12-07 구 국기, 2024-12-08~현재 동일 삼색 삼별 국기이며 attributeHistoryEvidence에 기존 헌법선언 출처도 포함. 2025년 새 디자인 또는 국가 건국으로 기록하지 않음.",
+          "inputAssessment": "existing-flag-already-represented",
+          "sourceUrls": [
+            "https://sana.sy/locals/2198312/",
+            "https://www.aljazeera.net/encyclopedia/2025/3/14/نص-الإعلان-الدستوري-لسوريا-2025",
+            "https://www.aymennaltamimi.com/p/the-constitutional-declaration-of",
+            "https://syrianassembly.com/documents/constitutional-declaration-2025"
+          ],
+          "sourceReview": "SANA 원문 게시 페이지, 독립 번역 및 아랍어 전사 열람. syrianassembly.com은 독립 시민 기록 프로젝트로 정부 공식 관보가 아님. 서명 이미지 원본·관보 판본 미열람.",
+          "runtimeObject": "objects/e3a9c7116ad97798c2de38a0ee4def87ed96f0e65fed44b130c4e3fb6c574328.json"
+        },
+        {
+          "topic": "시리아–레바논",
+          "date": "2025-03-27",
+          "finding": "제다 국방장관 합의는 획정 추진 및 협력 틀에 관한 합의; 3월 28일 보도. 변경 구획·주권 양도·효력일 미확인. 양국 실제 객체의 단일 기본 형상 확인.",
+          "inputAssessment": "no-verified-territorial-change",
+          "sourceUrls": [
+            "https://www.gulf-times.com/article/702650/region/syria-lebanon-sign-agreement-on-border-demarcation-in-jeddah",
+            "https://today.lorientlejour.com/article/1453829/syria-and-lebanon-reach-preliminary-border-agreement-in-jeddah.html"
+          ],
+          "sourceReview": "QNA 및 L'Orient Today 보도 본문 열람; 합의 원문 미확보."
+        },
+        {
+          "topic": "태국–캄보디아",
+          "date": "2025-12-27",
+          "finding": "양국 공동성명 제3항은 휴전 조치가 국제경계·획정에 영향을 주지 않음을 명시. 2025년 신규 법적 영토 이전 미확인. 기존 국경분쟁·군사 점령은 제외.",
+          "inputAssessment": "ceasefire-not-boundary-change",
+          "sourceUrls": [
+            "https://thailand.prd.go.th/en/content/category/detail/id/3243/iid/459719",
+            "https://www.akp.gov.kh/index.php/post/detail/380003"
+          ],
+          "sourceReview": "태국 정부 공개 공동성명 원문과 캄보디아 국영통신 2026-09-01 후속 설명 대조. state:THA는 library.json 색인에 있으나 객체 파일 404; state:KHM 원본 열람."
+        },
+        {
+          "topic": "아르메니아–아제르바이잔",
+          "dates": [
+            "2025-01-16",
+            "2025-08-08",
+            "2025-08-11"
+          ],
+          "finding": "8월 가서명 평화협정 제1조 기존 국경 원칙, 제6조 향후 획정 협정 협상 명시. 가서명·공개는 실제 영토 이전/새 국경 효력 아님. 양국 원본 기본 형상 확인.",
+          "inputAssessment": "initialed-no-verified-2025-transfer",
+          "sourceUrls": [
+            "https://www.mfa.am/en/press-releases/2025/08/11/Initialed%2520Arm-Az%2520Peace%2520Agreement%2520text/13394",
+            "https://mfa.gov.az/en/news/no33725",
+            "https://www.mfa.am/en/press-releases/2025/01/16/arm_az/13039"
+          ],
+          "sourceReview": "양국 외교부 공식 HTML 및 1월 획정위원회 발표 열람."
+        },
+        {
+          "topic": "키르기스스탄–타지키스탄 및 우즈베키스탄 삼중 접점",
+          "eventIds": [
+            "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+            "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+          ],
+          "finding": "기존 catalog의 두 사건 확인. LexUZ는 2025-11-15 우즈베키스탄 효력 표기, 조약 제3조 비준서 교환일 발효 규정. 기존 기록의 11-16 문서교환과 실제 국제 효력일 관계는 이번에도 확정하지 못함.",
+          "inputAssessment": "existing-events-no-recount",
+          "sourceUrls": [
+            "https://www.lex.uz/ru/docs/7860582",
+            "https://en.kabar.kg/news/kyrgyzstan-ratifies-treaty-on-kyrgyz-tajik-state-border/"
           ]
-        },
-        {
-          "topic": "스위스–프랑스 3개 경계조약",
-          "date": "2025-10-28",
-          "finding": "Hermance·Foron·Perly-Certoux/Bardonnex 등 등면적 교환 협정 서명. 내부 승인 후 발효 조건; 2025 실제 발효 미확인, 신규 사건 유보.",
-          "sourceUrls": [
-            "https://www.swisstopo.admin.ch/fr/signature-de-trois-conventions-rectifiant-la-frontiere-entre-la-suisse-et-la-france"
-          ],
-          "inputAssessment": "effective-date-unconfirmed"
-        },
-        {
-          "topic": "스위스–독일 국경 통합 조약",
-          "date": "2025-06-25",
-          "finding": "협의안 공고; 정부는 영토 교환·경계 변경 목적 아님을 명시. 라인강 동적 경계 정의 변경의 최종 효력 여부 후속 확인.",
-          "sourceUrls": [
-            "https://www.admin.ch/de/newnsb/ckpEEFs-taJi"
-          ],
-          "inputAssessment": "proposal-no-confirmed-2025-change"
-        },
-        {
-          "topic": "스위스–이탈리아 알프스 경계",
-          "date": "2024-09-27",
-          "finding": "스위스 서명 승인, 이탈리아 절차 진행. 2025 실제 조약 효력일 미확인. 단순 지형 변화는 제외.",
-          "sourceUrls": [
-            "https://www.swisstopo.admin.ch/fr/le-conseil-federal-approuve-la-signature-de-la-convention-portant-rectification-de-la-frontiere-avec-litalie"
-          ],
-          "inputAssessment": "effective-date-unconfirmed"
-        },
-        {
-          "topic": "지브롤터–스페인",
-          "date": "2025-06-11",
-          "finding": "정치 합의 후 2026-07-14 정식 서명; 지브롤터 영국 속령 지위·양측 주권 주장 변화 없음. 검문·통관 변경 제외.",
-          "sourceUrls": [
-            "https://www.gibraltar.gov.gi/press-releases/uk-and-eu-sign-historic-treaty-on-gibraltars-future-relationship-with-the-eu-5572026-12200",
-            "https://commonslibrary.parliament.uk/research-briefings/cbp-10572/"
-          ],
-          "inputAssessment": "no-2025-territorial-change"
         }
       ],
       "historicalVectorPriority": {
-        "geographyId": "GEO-2025-AUT-LIE-EGELSEE",
+        "candidates": [
+          {
+            "provider": "미 국무부 Office of the Geographer and Global Issues",
+            "dataset": "Large Scale International Boundaries",
+            "version": "11.4",
+            "editionPublished": "2025-02-24",
+            "originalUrls": [
+              "https://data.geodata.state.gov/LSIB.gpkg",
+              "https://data.geodata.state.gov/LSIB.zip"
+            ],
+            "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+            "format": "GPKG 및 ZIP 배포",
+            "boundaryEffectiveDate": null,
+            "crs": "원본 미열람",
+            "featureId": "미확인",
+            "sharedBorderVerified": false,
+            "rights": "개별 원본 재배포 조건 미확정",
+            "suitability": "2025-02-24 판본은 본 회차 3~12월 협의보다 앞서며 새 효력 경계 증거 아님. 미국 정부의 국경·승인 정책 반영, 실효 지배와 다를 수 있음."
+          }
+        ],
         "originalFileDownloaded": false,
         "originalCrsInspected": false,
         "featureIdsChecked": false,
@@ -287,27 +321,115 @@
         "conversionRun": false,
         "topologyRun": false,
         "visualComparisonRun": false,
-        "redistributionCleared": false
+        "redistributionCleared": false,
+        "missing": "2025년 신규 법적 변경을 입증하는 효력시점 일치 공식 벡터 미발견. 실제 변동 확정 후 해당 판본 및 필요할 경우 지도 중첩 후보 검토."
       },
       "unresolved": [
-        "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
-        "2025-11-01 변경 구획에 대응하는 전후 공식 벡터와 재배포 조건, 공통 국경 피처 및 실제 반영 시점 검증 유보.",
-        "런타임 원본은 두 국가 모두 Natural Earth 5.1.1 단일 기본 형상이며 시기별 교환 기록 없음. 전체 배포 핀·별도 LSIB 데이터와의 공간 대조는 미실행.",
-        "유럽 전체 국가·속령 국명·국기·지위·국경 전수 미완료. 스위스–프랑스·이탈리아 조약 최종 효력일 유보."
+        "시리아 관보 공포일 및 기존 국기 실사용 시작일과 법적 효력 구분; 기존 flagHistory 변경 없음.",
+        "시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 최종 법적 획정 및 실제 효력일 미확정.",
+        "중앙아시아 기존 2개 사건의 국제 효력일 및 공식 벡터 미확정.",
+        "Pando work/gis 404; 현행 PandoLab main 객체·시간축 정책 및 PandoLab-Data main library.json, SYR/LBN/KHM/ARM/AZE 객체 원본 읽기 전용 확인. THA 객체 원본 404.",
+        "아시아 전수조사 미완료."
       ],
       "savedRecords": {
-        "event": 1,
-        "entity": 2,
-        "geography": 1,
-        "sourceRegistryAdded": 10,
+        "event": 0,
+        "entity": 0,
+        "geography": 0,
+        "sourceRegistry": 0,
         "progress": 1,
-        "catalog": 1
+        "catalog": 0
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "아시아"
+      "nextRegion": "아프리카"
     },
     "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "유럽",
+        "scope": "2025년 유럽 부분 조사: 오스트리아–리히텐슈타인, 스위스–프랑스/독일/이탈리아, 지브롤터 법적 경계·속령 변동 후보.",
+        "finding": "법적으로 발효한 Egelsee 국경·영토 교환 신규 연구 사건 1건. 두 기존 객체 확인; 나머지 후보 효력 미확인 또는 범위 밖. 유럽 전수 미완료.",
+        "checkedCandidates": [
+          {
+            "topic": "오스트리아–리히텐슈타인 Egelsee",
+            "eventId": "EVT-2025-AUT-LIE-EGELSEE-BORDER",
+            "date": "2025-11-01",
+            "finding": "실제 영토 교환과 국제경계 변경 1건. 양국의 존속기간·국명·국기·부모 관계는 변경 대상 아님. 단순 재측량, 건축 제한 변경, 호수 형상 생성은 사건으로 분리하지 않음.",
+            "inputAssessment": "new-effective-territorial-change",
+            "sourceIds": [
+              "SRC-173",
+              "SRC-174",
+              "SRC-175",
+              "SRC-176"
+            ]
+          },
+          {
+            "topic": "스위스–프랑스 3개 경계조약",
+            "date": "2025-10-28",
+            "finding": "Hermance·Foron·Perly-Certoux/Bardonnex 등 등면적 교환 협정 서명. 내부 승인 후 발효 조건; 2025 실제 발효 미확인, 신규 사건 유보.",
+            "sourceUrls": [
+              "https://www.swisstopo.admin.ch/fr/signature-de-trois-conventions-rectifiant-la-frontiere-entre-la-suisse-et-la-france"
+            ],
+            "inputAssessment": "effective-date-unconfirmed"
+          },
+          {
+            "topic": "스위스–독일 국경 통합 조약",
+            "date": "2025-06-25",
+            "finding": "협의안 공고; 정부는 영토 교환·경계 변경 목적 아님을 명시. 라인강 동적 경계 정의 변경의 최종 효력 여부 후속 확인.",
+            "sourceUrls": [
+              "https://www.admin.ch/de/newnsb/ckpEEFs-taJi"
+            ],
+            "inputAssessment": "proposal-no-confirmed-2025-change"
+          },
+          {
+            "topic": "스위스–이탈리아 알프스 경계",
+            "date": "2024-09-27",
+            "finding": "스위스 서명 승인, 이탈리아 절차 진행. 2025 실제 조약 효력일 미확인. 단순 지형 변화는 제외.",
+            "sourceUrls": [
+              "https://www.swisstopo.admin.ch/fr/le-conseil-federal-approuve-la-signature-de-la-convention-portant-rectification-de-la-frontiere-avec-litalie"
+            ],
+            "inputAssessment": "effective-date-unconfirmed"
+          },
+          {
+            "topic": "지브롤터–스페인",
+            "date": "2025-06-11",
+            "finding": "정치 합의 후 2026-07-14 정식 서명; 지브롤터 영국 속령 지위·양측 주권 주장 변화 없음. 검문·통관 변경 제외.",
+            "sourceUrls": [
+              "https://www.gibraltar.gov.gi/press-releases/uk-and-eu-sign-historic-treaty-on-gibraltars-future-relationship-with-the-eu-5572026-12200",
+              "https://commonslibrary.parliament.uk/research-briefings/cbp-10572/"
+            ],
+            "inputAssessment": "no-2025-territorial-change"
+          }
+        ],
+        "historicalVectorPriority": {
+          "geographyId": "GEO-2025-AUT-LIE-EGELSEE",
+          "originalFileDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "redistributionCleared": false
+        },
+        "unresolved": [
+          "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
+          "2025-11-01 변경 구획에 대응하는 전후 공식 벡터와 재배포 조건, 공통 국경 피처 및 실제 반영 시점 검증 유보.",
+          "런타임 원본은 두 국가 모두 Natural Earth 5.1.1 단일 기본 형상이며 시기별 교환 기록 없음. 전체 배포 핀·별도 LSIB 데이터와의 공간 대조는 미실행.",
+          "유럽 전체 국가·속령 국명·국기·지위·국경 전수 미완료. 스위스–프랑스·이탈리아 조약 최종 효력일 유보."
+        ],
+        "savedRecords": {
+          "event": 1,
+          "entity": 2,
+          "geography": 1,
+          "sourceRegistryAdded": 10,
+          "progress": 1,
+          "catalog": 1
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "아시아"
+      },
       {
         "year": 2025,
         "region": "오세아니아",
