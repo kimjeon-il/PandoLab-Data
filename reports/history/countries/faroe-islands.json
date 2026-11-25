@@ -16,7 +16,8 @@
   },
   "sourceIds": [
     "SRC-238",
-    "SRC-227"
+    "SRC-227",
+    "SRC-308"
   ],
   "unresolved": [
     "1919-06-22 첫 게양, 1940-04-25 영국의 선박기 승인. 1948년 자치법의 국기 인정. 1998년 청색 표준은 별도.",
@@ -39,7 +40,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백색 바탕 청색 테두리 적색 십자",
     "registeredDesignStartCandidate": {
@@ -53,9 +54,10 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-238",
-      "SRC-227"
+      "SRC-227",
+      "SRC-308"
     ],
-    "evidenceNote": "1919-06-22 첫 게양, 1940-04-25 영국의 선박기 승인. 1948년 자치법의 국기 인정. 1998년 청색 표준은 별도.",
+    "evidenceNote": "1948년 공식 인정 후 청색은 1959-06-05 밝은 하늘색으로 변경, 1998-12-29 법률 109호가 Pantone 300 및 032로 지정. 이는 실제 청색 변화 이력이며 공포는 12-31. 정확한 효력일은 원법령 추가 확인.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +67,21 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fo.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-308"
+      ],
+      "details": {
+        "colourChange": "1959-06-05",
+        "standardLawDate": "1998-12-29",
+        "published": "1998-12-31",
+        "legalEffectiveDate": null
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일 검증은 로컬에서 실시."
+    }
   }
 }

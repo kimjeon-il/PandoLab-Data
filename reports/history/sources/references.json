@@ -2280,6 +2280,90 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "2007년 개정 도안 배포에 관한 동시대 보도",
       "reviewStatus": "contemporary-news-reviewed"
+    },
+    {
+      "id": "SRC-305",
+      "url": "https://www.gesetze-im-internet.de/englisch_gg/print_englisch_gg.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "기본법 제22조 및 제145조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-306",
+      "url": "https://www.bundesverfassungsgericht.de/EN/BasicLawLegalBasis/TheBasicLaw/thebasiclaw_artikel.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1949-05-23 종료 시 발효",
+      "reviewStatus": "official-court-text-reviewed"
+    },
+    {
+      "id": "SRC-307",
+      "url": "https://www.riigiteataja.ee/en/akt/530012023002",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "국기법 제26조 및 부속서 1",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-308",
+      "url": "https://crwflags.com/FotW/FLAGS/fo.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1959년 및 1998년 색상 변경, 법률 109호",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-309",
+      "url": "https://new.matsne.gov.ge/en/document/view/4370734",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2018년 국기 사용법 제2·3조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-310",
+      "url": "https://www.crwflags.com/Fotw/Flags/hu.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1957년 채택",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-311",
+      "url": "https://static.valasztas.hu/ujweb/alk_en.htm",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1949년 헌법 개정 통합본 제76조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-312",
+      "url": "https://www.gov.ie/en/department-of-the-taoiseach/publications/the-national-flag/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "정부 공식 국기 역사와 규격",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-313",
+      "url": "https://www.crwflags.com/fotw/flags/ie.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1937년 헌법 국기 규정",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-314",
+      "url": "https://www.crwflags.com/fotw/flags/is-hist.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1915·1918 국기 및 1944년 청색 변화",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-315",
+      "url": "https://www.althingi.is/lagas/157c/1944034.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1944년 법률 34호 발효일",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-316",
+      "url": "https://www.norden.org/en/information/icelandic-flag",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "지역기 및 1918년 국가 상징",
+      "reviewStatus": "intergovernmental-text-reviewed"
     }
   ]
 }

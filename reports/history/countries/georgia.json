@@ -15,7 +15,9 @@
     "phase": "latest-flag-only"
   },
   "sourceIds": [
-    "SRC-224"
+    "SRC-224",
+    "SRC-289",
+    "SRC-309"
   ],
   "unresolved": [
     "기존 객체 metadata.flagHistory에서 2004-01-14부터 기본 국기, 그 이전 임베디드 도안의 이력 확인. 2018년 규격 표준화 별도.",
@@ -38,7 +40,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백색 바탕 큰 적십자와 네 작은 적십자",
     "registeredDesignStartCandidate": {
@@ -46,14 +48,16 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2018",
-      "precision": "year"
+      "value": null,
+      "precision": "unknown"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
-      "SRC-224"
+      "SRC-224",
+      "SRC-289",
+      "SRC-309"
     ],
-    "evidenceNote": "기존 객체 metadata.flagHistory에서 2004-01-14부터 기본 국기, 그 이전 임베디드 도안의 이력 확인. 2018년 규격 표준화 별도.",
+    "evidenceNote": "2004-01-14 국기 기본법 및 공포 시 시행 조항. 2018년 국기 사용법은 1월 14일을 국기일로 정하고 색·도안의 변경을 금지. 2018년 별개 국기 채택 근거 없음. 현재 객체의 시작일 유지.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -63,6 +67,20 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/ge.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "기존 flagHistory 2004-01-14 유지; 중복 입력 금지"
+    "localAction": "기존 flagHistory 2004-01-14 유지; 중복 입력 금지",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-289",
+        "SRC-309"
+      ],
+      "details": {
+        "lawDate": "2004-01-14",
+        "revision2018": "사용 규정의 재정비, 도안 교체 근거 없음"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일 검증은 로컬에서 실시."
+    }
   }
 }
