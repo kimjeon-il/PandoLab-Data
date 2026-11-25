@@ -66,5 +66,26 @@
       "각 사건의 날짜·개별 도안·권리 확인 후 적용. 정확한 날짜 없는 후보는 검증 대기. 후속 국기의 시작 전까지 이전 국기 유지하되 객체 기간 밖은 제외.",
       "국기만 바뀌는 경우 국경·형상·객체 ID·존속기간 및 상하위 관계 불변. 기존 공식 데이터 갱신 절차를 통해 해시/인덱스/압축 산출물 함께 재생성하고 날짜 전후 표시를 확인."
     ]
+  },
+  "latestFlagAssessment": {
+    "assessment": "provisional",
+    "application": "not-applied",
+    "registeredDesignStartCandidate": "1949-11-21",
+    "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Ukrainian_SSR.svg",
+    "latestActualHistoricalFlag": {
+      "startCandidate": "1949-11-21",
+      "description": "등록 소비에트기 계열",
+      "withinExistingObjectLifetime": true
+    },
+    "sourceIds": [
+      "SRC-183",
+      "SRC-184",
+      "SRC-185",
+      "SRC-220",
+      "SRC-221"
+    ],
+    "evidenceNote": "1992-01-28 현 국기 공식 채택은 기존 소비에트 객체 종료 이후. 기존 사건 보고서 및 출처에 근거한 후보. 등록 도안과 법적 효력일의 대조 후 반영.",
+    "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드. 연·월 정밀도 보존.",
+    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지."
   }
 }
