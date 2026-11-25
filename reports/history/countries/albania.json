@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-225"
+    "SRC-225",
+    "SRC-293",
+    "SRC-294"
   ],
   "unresolved": [
     "1992년 별 제거. 2002년 도안·색상 표준화. 현재 파일과 1992~2002 도안 비교 후 최신 규격일 적용.",
@@ -53,9 +55,11 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-225"
+      "SRC-225",
+      "SRC-293",
+      "SRC-294"
     ],
-    "evidenceNote": "1992년 별 제거. 2002년 도안·색상 표준화. 현재 파일과 1992~2002 도안 비교 후 최신 규격일 적용.",
+    "evidenceNote": "FOTW 1992년 4월 7일 무별 국기 재채택 및 2002년 법률 8926 확인. 2002-07-22 법률 채택, 07-31 대통령 공포 명령. 발효는 관보 게재 후 15일이라는 별도 근거가 있어 법률 채택일을 정확한 시행일로 확정하지 않음.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +69,21 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-293",
+        "SRC-294"
+      ],
+      "details": {
+        "legalAdoptionDate": "2002-07-22",
+        "presidentialDecreeDate": "2002-07-31",
+        "legalEffectiveDate": null
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }

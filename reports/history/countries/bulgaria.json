@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-228"
+    "SRC-228",
+    "SRC-296",
+    "SRC-297"
   ],
   "unresolved": [
     "무국장 국기 복원. 종합표는 11-27, FOTW는 12-17을 기재. 법령 공포·효력일 확인 필요. 자동 입력 보류.",
@@ -43,8 +45,10 @@
     "application": "not-applied",
     "description": "백·녹·적 가로 삼색기(무국장)",
     "registeredDesignStartCandidate": {
-      "value": "1990-11-27",
-      "precision": "day"
+      "value": null,
+      "precision": "range",
+      "from": "1990-11",
+      "to": "1990-12"
     },
     "latestRevisionCandidate": {
       "value": null,
@@ -53,9 +57,11 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-228"
+      "SRC-228",
+      "SRC-296",
+      "SRC-297"
     ],
-    "evidenceNote": "무국장 국기 복원. 종합표는 11-27, FOTW는 12-17을 기재. 법령 공포·효력일 확인 필요. 자동 입력 보류.",
+    "evidenceNote": "1971년 헌법 제141조 개정판에 국장 없는 백녹적기를 명시. 의회 DB는 관보 94호(1990-11-23), 98호(1990-12-07)를 참조. FOTW 12-17과 다른 11-27 통설의 정확한 효력일을 확정하지 못해 월 또는 범위 자료로 구분. 단일 일자 자동 입력 금지.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +71,26 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-296",
+        "SRC-228",
+        "SRC-297"
+      ],
+      "details": {
+        "candidateDates": [
+          "1990-11-23",
+          "1990-11-27",
+          "1990-12-07",
+          "1990-12-17"
+        ],
+        "confirmedWindow": "1990-11~1990-12"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }

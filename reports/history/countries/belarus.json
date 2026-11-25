@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-229"
+    "SRC-229",
+    "SRC-300",
+    "SRC-301"
   ],
   "unresolved": [
     "2012년 문양 폭 확대. 02-10/02-20(공표) 출처 차이로 월 단위 유지. SVG 문양 규격과 원법령 대조 필요.",
@@ -53,9 +55,11 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-229"
+      "SRC-229",
+      "SRC-300",
+      "SRC-301"
     ],
-    "evidenceNote": "2012년 문양 폭 확대. 02-10/02-20(공표) 출처 차이로 월 단위 유지. SVG 문양 규격과 원법령 대조 필요.",
+    "evidenceNote": "FOTW는 STB 911-2008 개정이 2012-02-20 공표되며 적색 문양 폭이 1/12에서 1/9로 늘었다고 설명. 02-10 후보와 공표일이 다르므로 표준 원문 발효일 확인 전 월 정밀도 유지. 실제 기하학적 문양 변경.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +69,22 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/by.svg",
       "assetMatchStatus": "SVG 속성 일부 직접 확인, 역사 법정 원도면 정밀 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-300",
+        "SRC-301"
+      ],
+      "details": {
+        "published": "2012-02-20",
+        "candidateAdoptionDate": "2012-02-10",
+        "legalEffectiveDate": null,
+        "revisionType": "문양 폭 증가"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }

@@ -2196,6 +2196,90 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "1953-07-15 채택",
       "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-293",
+      "url": "https://www.crwflags.com/fotw/flags/al.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "국가상징법 8926 제정 및 공포 명령",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-294",
+      "url": "https://flagrecord.com/flags/albania/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2002년 표준도안 및 발효 조건, 시행일 미확정",
+      "reviewStatus": "secondary-text-reviewed"
+    },
+    {
+      "id": "SRC-295",
+      "url": "https://www.wipo.int/wipolex/en/legislation/details/6928",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1996년 국가 상징법 본문 및 효력일, 전통 도안 정의",
+      "reviewStatus": "official-law-reproduction-reviewed"
+    },
+    {
+      "id": "SRC-296",
+      "url": "https://parliament.bg/bg/19",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1971년 헌법 개정 연혁 및 제141조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-297",
+      "url": "https://flagrecord.com/flags/bulgaria/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1990-11-27 재채택 후보",
+      "reviewStatus": "secondary-text-reviewed"
+    },
+    {
+      "id": "SRC-298",
+      "url": "https://www.ohr.int/archive/1995-2000/docs/decisions/19980203a.htm",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1998-02-03 OHR 국기법 결정",
+      "reviewStatus": "official-text-reviewed"
+    },
+    {
+      "id": "SRC-299",
+      "url": "https://www.ustavnisud.ba/uploads/odluke/_en/U-11-19-1218642.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "헌법재판소 U-11/19 문단 20~21, 2001년 법률 및 승인 공포 연혁; 10쪽 이미지 확인",
+      "reviewStatus": "official-court-pdf-reviewed"
+    },
+    {
+      "id": "SRC-300",
+      "url": "https://www.crwflags.net/FOTW/Flags/by.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2012-02-20 표준 개정 공표 및 문양 폭 변화",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-301",
+      "url": "https://en.wikipedia.org/wiki/Flag_of_Belarus",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2012-02-10 채택 후보",
+      "reviewStatus": "secondary-text-reviewed"
+    },
+    {
+      "id": "SRC-302",
+      "url": "https://www.bar.admin.ch/en/white-on-red-the-swiss-cross",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "연방기록원 1889-12-12 결의 및 십자 규격",
+      "reviewStatus": "government-archive-reviewed"
+    },
+    {
+      "id": "SRC-303",
+      "url": "https://www.crwflags.com/FotW/FLAGS/cy.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2006년 도안 변경 및 내각 결정 번호",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-304",
+      "url": "https://archive.cyprus-mail.com/2007/04/28/cyprus-flag-and-emblem-get-a-redesign/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2007년 개정 도안 배포에 관한 동시대 보도",
+      "reviewStatus": "contemporary-news-reviewed"
     }
   ]
 }

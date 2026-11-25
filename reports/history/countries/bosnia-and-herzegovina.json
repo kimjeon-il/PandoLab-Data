@@ -15,7 +15,9 @@
     "phase": "latest-flag-only"
   },
   "sourceIds": [
-    "SRC-224"
+    "SRC-224",
+    "SRC-298",
+    "SRC-299"
   ],
   "unresolved": [
     "1998년 현재 기본 도안. 2001년 소폭 변경/법률 확인 후보; 원도면 대조 후 채택.",
@@ -38,7 +40,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "청색 바탕 황색 삼각형과 흰 별 행렬",
     "registeredDesignStartCandidate": {
@@ -46,14 +48,16 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2001-08-10",
-      "precision": "day"
+      "value": null,
+      "precision": "unknown"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
-      "SRC-224"
+      "SRC-224",
+      "SRC-298",
+      "SRC-299"
     ],
-    "evidenceNote": "1998년 현재 기본 도안. 2001년 소폭 변경/법률 확인 후보; 원도면 대조 후 채택.",
+    "evidenceNote": "OHR 1998-02-03 국기법 부과 결정 확인. 2001년 양원 법률 통과, 08-03 관보 공포, 10-12 대통령단 승인, 11-13 승인 결정 공포를 헌법재판소 결정문에서 확인. 2001-08-10 별개 도안 변경 근거를 확인하지 못하여 후보 철회, 새로운 원도면 비교 전까지 1998 도안 유지.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -63,6 +67,23 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-298",
+        "SRC-299"
+      ],
+      "details": {
+        "ohrDecisionDate": "1998-02-03",
+        "newDesignEffectiveCandidate": "1998-02-04",
+        "lawPublished": "2001-08-03",
+        "presidencyApprovalPublished": "2001-11-13",
+        "separateVisualChange2001": "not-established"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일의 검증은 로컬에서 실시."
+    }
   }
 }
