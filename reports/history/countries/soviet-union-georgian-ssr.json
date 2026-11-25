@@ -19,7 +19,9 @@
     "SRC-185",
     "SRC-197",
     "SRC-198",
-    "SRC-199"
+    "SRC-199",
+    "SRC-288",
+    "SRC-289"
   ],
   "unresolved": [
     "현 객체 이전의 1921~1936 도안은 별도 시기 연구.",
@@ -69,7 +71,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1951-04-11",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Georgian_SSR.svg",
@@ -84,10 +86,27 @@
       "SRC-185",
       "SRC-197",
       "SRC-198",
-      "SRC-199"
+      "SRC-199",
+      "SRC-288",
+      "SRC-289"
     ],
-    "evidenceNote": "현재 오십자기는 2004년 채택으로 이 객체 밖. 일자는 기존 사건 보고서 및 출처 대조 후보이며 등록 SVG의 세부 판본과 법적 효력일은 로컬 재확인.",
+    "evidenceNote": "FOTW 1951-04-11 채택일. 조지아 법령 DB 현행 오십자기 법률의 폐지 조항이 1990-11-14 이전 국기법을 명시하므로 해당 날짜를 재확인. 종합표의 11-01보다 11-14 원법령 날짜 우선.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
-    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-288",
+        "SRC-289"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1951-04-11",
+        "lastHistoricalFlagAdopted": "1990-11-14",
+        "additionalRevisionCandidate": null
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

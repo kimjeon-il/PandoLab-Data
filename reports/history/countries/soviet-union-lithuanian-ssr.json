@@ -19,7 +19,9 @@
     "SRC-185",
     "SRC-207",
     "SRC-208",
-    "SRC-209"
+    "SRC-209",
+    "SRC-292",
+    "SRC-244"
   ],
   "unresolved": [
     "1990-03-11 독립 복원은 현 객체 존속기간 종료 이후.",
@@ -68,7 +70,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1953-07-15",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Lithuanian_SSR.svg",
@@ -83,10 +85,27 @@
       "SRC-185",
       "SRC-207",
       "SRC-208",
-      "SRC-209"
+      "SRC-209",
+      "SRC-292",
+      "SRC-244"
     ],
-    "evidenceNote": "1988년 복원 후 1989-01-25 규격 채택. 기존 사건 보고서 및 출처에 근거한 후보. 등록 도안과 법적 효력일의 대조 후 반영.",
+    "evidenceNote": "FOTW 1953-07-15 채택. 리투아니아 의회가 1988-11-18 삼색기 복원과 1989-01-25 색상·비율 승인일 명시. 말기 삼색기 규격 변경은 별도 기록.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드. 연·월 정밀도 보존.",
-    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-292",
+        "SRC-244"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1953-07-15",
+        "lastHistoricalFlagAdopted": "1988-11-18",
+        "additionalRevisionCandidate": "1989-01-25"
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

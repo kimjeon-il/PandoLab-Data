@@ -19,7 +19,9 @@
     "SRC-185",
     "SRC-204",
     "SRC-205",
-    "SRC-206"
+    "SRC-206",
+    "SRC-291",
+    "SRC-228"
   ],
   "unresolved": [
     "1918~1920 라트비아 소비에트 공화국기는 이 객체의 시기 밖.",
@@ -69,7 +71,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1953-01-17",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Latvian_SSR.svg",
@@ -84,10 +86,27 @@
       "SRC-185",
       "SRC-204",
       "SRC-205",
-      "SRC-206"
+      "SRC-206",
+      "SRC-291",
+      "SRC-228"
     ],
-    "evidenceNote": "복원된 라트비아 국기가 독립 이전 법정 국기. 기존 사건 보고서 및 출처에 근거한 후보. 등록 도안과 법적 효력일의 대조 후 반영.",
+    "evidenceNote": "FOTW는 1953-01-17 채택과 1967-02-28 헌법 재확인, 1967-05-30 사용 지침을 구분한다. 1967년에 새 도안이 채택됐다는 근거 없음. 1990-02-27 복원은 별도.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드. 연·월 정밀도 보존.",
-    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-291",
+        "SRC-228"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1953-01-17",
+        "lastHistoricalFlagAdopted": "1990-02-27",
+        "additionalRevisionCandidate": null
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

@@ -20,7 +20,9 @@
     "SRC-189",
     "SRC-190",
     "SRC-191",
-    "SRC-192"
+    "SRC-192",
+    "SRC-284",
+    "SRC-285"
   ],
   "unresolved": [
     "1920~1936 공화국 도안은 현 객체 이전 시기이므로 무조건 소급하지 않음.",
@@ -87,10 +89,27 @@
       "SRC-189",
       "SRC-190",
       "SRC-191",
-      "SRC-192"
+      "SRC-192",
+      "SRC-284",
+      "SRC-285"
     ],
-    "evidenceNote": "등록 소비에트기와 말기 복원 국기를 분리. 일자는 기존 사건 보고서 및 출처 대조 후보이며 등록 SVG의 세부 판본과 법적 효력일은 로컬 재확인.",
+    "evidenceNote": "FOTW는 1952년 도안과 1956년 낫·망치·별 배치 개정형을 구분. 1956년 정확한 시작일 및 등록 SVG 판본 대조 필요. 대통령실의 1991-02-05 삼색기 복원 확인.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
-    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "provisional",
+      "sourceIds": [
+        "SRC-284",
+        "SRC-285"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1952-10-07",
+        "lastHistoricalFlagAdopted": "1991-02-05",
+        "additionalRevisionCandidate": "1956"
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

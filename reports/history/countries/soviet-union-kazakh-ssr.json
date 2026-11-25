@@ -18,7 +18,8 @@
     "SRC-184",
     "SRC-185",
     "SRC-200",
-    "SRC-201"
+    "SRC-201",
+    "SRC-290"
   ],
   "unresolved": [
     "독립 후에도 기존 도안 사용이 이어졌으며 1992-06-04 신국기는 독립국 객체의 대상.",
@@ -68,7 +69,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1953-01-24",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Kazakh_SSR.svg",
@@ -82,10 +83,25 @@
       "SRC-184",
       "SRC-185",
       "SRC-200",
-      "SRC-201"
+      "SRC-201",
+      "SRC-290"
     ],
-    "evidenceNote": "1992년 현 카자흐스탄 국기는 객체 종료 이후. 일자는 기존 사건 보고서 및 출처 대조 후보이며 등록 SVG의 세부 판본과 법적 효력일은 로컬 재확인.",
+    "evidenceNote": "FOTW 1953-01-24 도안 채택과 6:2:1 띠 비율 확인. 1992년 새 독립국기는 이 객체 종료 이후.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
-    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-290"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1953-01-24",
+        "lastHistoricalFlagAdopted": "1953-01-24",
+        "additionalRevisionCandidate": null
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

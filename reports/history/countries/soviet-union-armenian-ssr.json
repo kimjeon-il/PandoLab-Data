@@ -19,7 +19,9 @@
     "SRC-185",
     "SRC-186",
     "SRC-187",
-    "SRC-188"
+    "SRC-188",
+    "SRC-282",
+    "SRC-283"
   ],
   "unresolved": [
     "1920~1922 도안은 현 객체 존속기간 밖이며 자캅카스 연방기와 혼동 금지.",
@@ -69,7 +71,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1952-12-17",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenian_SSR.svg",
@@ -84,10 +86,27 @@
       "SRC-185",
       "SRC-186",
       "SRC-187",
-      "SRC-188"
+      "SRC-188",
+      "SRC-282",
+      "SRC-283"
     ],
-    "evidenceNote": "등록 소비에트기와 말기 복원 국기를 분리. 일자는 기존 사건 보고서 및 출처 대조 후보이며 등록 SVG의 세부 판본과 법적 효력일은 로컬 재확인.",
+    "evidenceNote": "FOTW 소비에트기 승인일과 대통령실의 삼색기 법률 채택일 확인.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
-    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-282",
+        "SRC-283"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1952-12-17",
+        "lastHistoricalFlagAdopted": "1990-08-24",
+        "additionalRevisionCandidate": null
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }

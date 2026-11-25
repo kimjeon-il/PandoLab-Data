@@ -18,7 +18,8 @@
     "SRC-184",
     "SRC-185",
     "SRC-193",
-    "SRC-194"
+    "SRC-194",
+    "SRC-286"
   ],
   "unresolved": [
     "백적백기 복원 날짜 후보 1991-08-25(Commons)와 1991-09-19(공식 국기 관련 자료) 모두 현재 SSR 종료일 뒤. 별도 독립국 객체에서 확인하고 SSR에 입력하지 않음.",
@@ -68,7 +69,7 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1951-12-25",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Byelorussian_SSR.svg",
@@ -82,10 +83,25 @@
       "SRC-184",
       "SRC-185",
       "SRC-193",
-      "SRC-194"
+      "SRC-194",
+      "SRC-286"
     ],
-    "evidenceNote": "백적백기 복원은 기존 객체 종료일 이후이므로 객체 안에 소급하지 않음. 일자는 기존 사건 보고서 및 출처 대조 후보이며 등록 SVG의 세부 판본과 법적 효력일은 로컬 재확인.",
+    "evidenceNote": "FOTW에 인용된 1951-12-25 법령의 적녹 비율·깃대 문양 확인. 1991년 백적백기 복원은 기존 객체 종료 이후.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드.",
-    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조를 확인하고 국기별 유효기간을 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "최종 소비에트기 및 말기 국기 복원 날짜",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-286"
+      ],
+      "details": {
+        "sovietDesignAdopted": "1951-12-25",
+        "lastHistoricalFlagAdopted": "1951-12-25",
+        "additionalRevisionCandidate": null
+      },
+      "remaining": "등록 SVG와 원도면의 판본 및 실제 데이터 반영은 로컬에서 검증."
+    }
   }
 }
