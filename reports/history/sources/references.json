@@ -2056,6 +2056,69 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "6월 24일 의결 및 25일 공포 명령",
       "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-273",
+      "url": "https://www.boe.es/eli/es/rd/1981/12/18/2964",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "왕령 2964/1981 제1~6조 및 발효일",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-274",
+      "url": "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.1488",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "국기법 I-1497 개정 연혁 2004-09-01",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-275",
+      "url": "https://lovdata.no/dokument/NL/lov/1898-12-10-1",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "국기법 제1·3조, 발효일 1899-12-16(2023년 정정)",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-276",
+      "url": "https://www.crwflags.com/fotw/flags/dk.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1748·1893년 비율 규정 비교",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-277",
+      "url": "https://www.crwflags.com/fotw/flags/dk_his.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "도안의 역사, 정방형 끝 국기 규정",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-278",
+      "url": "https://www.crwflags.com/fotw/flags/ax.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "올란드 1992년 국기법 승인/공포/발효 및 비율",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-279",
+      "url": "https://www.crwflags.com/FotW/FLAGS/im_civen.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "육상기 승인 1968-07-09와 해상기의 구분",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-280",
+      "url": "https://www.crwflags.com/FotW/FLAGS/nl.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1937년 왕령 및 1958년 색상 정의",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-281",
+      "url": "https://crwflags.com/FOTW/flags/nl.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1937-02-19 왕령 번역",
+      "reviewStatus": "specialist-text-reviewed"
     }
   ]
 }

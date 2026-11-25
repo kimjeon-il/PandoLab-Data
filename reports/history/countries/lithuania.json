@@ -17,7 +17,8 @@
   "sourceIds": [
     "SRC-244",
     "SRC-245",
-    "SRC-246"
+    "SRC-246",
+    "SRC-274"
   ],
   "unresolved": [
     "1988년 복원, 1989-01-25 1:2 규격. 2004-07-08 개정 채택, 09-01 효력: 3:5 도안과 등록 SVG 일치. 독립 객체의 시작은 1990-03-11.",
@@ -40,7 +41,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "황·녹·적 삼색기(등록 SVG 3:5)",
     "registeredDesignStartCandidate": {
@@ -55,9 +56,10 @@
     "sourceIds": [
       "SRC-244",
       "SRC-245",
-      "SRC-246"
+      "SRC-246",
+      "SRC-274"
     ],
-    "evidenceNote": "1988년 복원, 1989-01-25 1:2 규격. 2004-07-08 개정 채택, 09-01 효력: 3:5 도안과 등록 SVG 일치. 독립 객체의 시작은 1990-03-11.",
+    "evidenceNote": "리투아니아 법령 DB I-1497은 2004-09-01 새 판본의 효력 시작을 명시. 기존 등록 SVG 3:5 확인 결과와 부합. 기본 삼색기 복원과 후속 비율 변경 구분.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -67,6 +69,19 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/lt.svg",
       "assetMatchStatus": "SVG 속성 일부 직접 확인, 역사 법정 원도면 정밀 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-274"
+      ],
+      "details": {
+        "registeredRatio": "3:5",
+        "applicableLatestDate": "2004-09-01"
+      },
+      "remaining": "기존 SVG와 역사 도안의 최종 대조 및 실제 적용은 로컬에서 실시."
+    }
   }
 }

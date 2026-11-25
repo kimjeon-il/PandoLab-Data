@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-227"
+    "SRC-227",
+    "SRC-280",
+    "SRC-281"
   ],
   "unresolved": [
     "적색 띠가 1630~1660년 사이 정착. 1937-02-19 왕령으로 색상 확인, 1949년 표준화 후보. 1801년에 이미 사용된 도안.",
@@ -39,7 +41,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적·백·청 가로 삼색기",
     "registeredDesignStartCandidate": {
@@ -47,15 +49,17 @@
       "precision": "year"
     },
     "latestRevisionCandidate": {
-      "value": "1949",
+      "value": "1958",
       "precision": "year"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-227"
+      "SRC-227",
+      "SRC-280",
+      "SRC-281"
     ],
-    "evidenceNote": "적색 띠가 1630~1660년 사이 정착. 1937-02-19 왕령으로 색상 확인, 1949년 표준화 후보. 1801년에 이미 사용된 도안.",
+    "evidenceNote": "1937-02-19 왕령은 적·백·청 색의 조합을 재확인했을 뿐 새 도안의 채택이 아님. FOTW는 정밀 색상 규정을 1958년으로 기록해 이전 1949년 후보와 다름. 1949년을 최신 규격일로 확정하지 않음. 1801년 이전 도안.",
     "preexistingAtHistoryStart": true,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +69,22 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/nl.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-280",
+        "SRC-281"
+      ],
+      "details": {
+        "reaffirmed": "1937-02-19",
+        "colourStandardCandidate": "1958",
+        "previous1949Candidate": "not-substantiated",
+        "preexistingAtHistoryStart": true
+      },
+      "remaining": "기존 SVG와 역사 도안의 최종 대조 및 실제 적용은 로컬에서 실시."
+    }
   }
 }
