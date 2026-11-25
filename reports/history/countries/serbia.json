@@ -17,7 +17,8 @@
   "sourceIds": [
     "SRC-250",
     "SRC-251",
-    "SRC-252"
+    "SRC-252",
+    "SRC-332"
   ],
   "unresolved": [
     "2004-08-17 권고, 2004-08-30 최초 공식 게양. 2010-11-11 도안 표준, 11-15 관보. 등록 SVG는 국장 포함 국가기; 최신 원도면 대조 필요.",
@@ -40,7 +41,7 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적·청·백 삼색기와 깃대 쪽 국장",
     "registeredDesignStartCandidate": {
@@ -48,16 +49,17 @@
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2010-11-11",
+      "value": "2010-11-23",
       "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-250",
       "SRC-251",
-      "SRC-252"
+      "SRC-252",
+      "SRC-332"
     ],
-    "evidenceNote": "2004-08-17 권고, 2004-08-30 최초 공식 게양. 2010-11-11 도안 표준, 11-15 관보. 등록 SVG는 국장 포함 국가기; 최신 원도면 대조 필요.",
+    "evidenceNote": "2004-08-17 권고로 문장 포함 국가기 사용, 2009년 상징법에 확정. 2010-11-11 그래픽 표준령, 11-15 관보 85호 공포 및 8일 후 11-23 발효 계산. 문장 세부 묘사와 색 변경 실제 발생. 민간 삼색기와 국가기 구분.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -67,6 +69,24 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/rs.svg",
       "assetMatchStatus": "SVG 속성 일부 직접 확인, 역사 법정 원도면 정밀 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-251",
+        "SRC-252",
+        "SRC-332"
+      ],
+      "details": {
+        "originalRecommendation": "2004-08-17",
+        "revisionDecreeDate": "2010-11-11",
+        "revisionPublished": "2010-11-15",
+        "revisionEffectiveDateDerived": "2010-11-23",
+        "revisionType": "문장 표현 및 색 수정"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일 검증은 로컬에서 실시."
+    }
   }
 }

@@ -2364,6 +2364,132 @@
       "fromReport": "europe-flag-followup-2026-11-25",
       "section": "지역기 및 1918년 국가 상징",
       "reviewStatus": "intergovernmental-text-reviewed"
+    },
+    {
+      "id": "SRC-317",
+      "url": "https://new.quirinale.it/page/tricolore_en",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "공화국기 1946-06-19 법령",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-318",
+      "url": "https://www.gazzettaufficiale.it/eli/id/1946/06/20/046U0001/sg",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1946 법령 공표 메타데이터",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-319",
+      "url": "https://www.gazzettaufficiale.it/eli/id/2006/07/28/06A06896/sg",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "2006 규격 법령",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-320",
+      "url": "https://www.wipo.int/wipolex/en/legislation/details/2828",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1982 법령 제4~6·27조 및 공포일",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-321",
+      "url": "https://www.crwflags.com/fotw/flags/lu.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1845년 회람과 1972·1993년 법률",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-322",
+      "url": "https://data.legilux.public.lu/filestore/eli/etat/leg/memorial/1993/a73/fr/pdf/eli-etat-leg-memorial-1993-a73-fr-pdf.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1993 관보 pp.1417–1418 원문 및 이미지",
+      "reviewStatus": "official-law-pdf-reviewed"
+    },
+    {
+      "id": "SRC-323",
+      "url": "https://www.gov.pl/web/diplomacy/polands-day-of-the-flag",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1919-08-01 승인",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-324",
+      "url": "https://eli.gov.pl/eli/DU/1919/416/ogl",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1919 법 효력 메타데이터",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-325",
+      "url": "https://eli.gov.pl/eli/DU/1980/18/ogl",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1980 법 효력일",
+      "reviewStatus": "official-law-metadata-reviewed"
+    },
+    {
+      "id": "SRC-326",
+      "url": "https://www.crwflags.com/FotW/FLAGS/pl.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "백적기 및 색 규격",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-327",
+      "url": "https://www.presidencia.pt/en-en/president-of-the-republic/the-presidency/national-symbols/national-flag/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "임시정부 승인 및 제헌의회 법령",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-328",
+      "url": "https://www.presidencia.pt/presidente-da-republica/a-presidencia/simbolos-nacionais/ficheiros/",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "6월 19일 및 30일 법령 구분",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-329",
+      "url": "https://www.crwflags.com/fotw/flags/pt.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "국기 사용·채택 이력",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-330",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Monitorul_Oficial_al_Rom%C3%A2niei._Partea_I_1989-12-27%2C_nr._4.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1989-12-27 관보 4호 p.2 제1조 원문 이미지",
+      "reviewStatus": "official-gazette-scan-reviewed"
+    },
+    {
+      "id": "SRC-331",
+      "url": "https://legis.medleg.ro/legislatie/1989-decret-lege-2",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "법령 제2호 제1조",
+      "reviewStatus": "law-transcription-reviewed"
+    },
+    {
+      "id": "SRC-332",
+      "url": "https://www.crwflags.com/fotw/flags/rs%29.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "공포 8일 후 발효 및 도안 변경",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-333",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1992/460/19921001.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1992년 헌법 최초 시행판",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-334",
+      "url": "https://static.slov-lex.sk/pdf/SK/ZZ/1993/63/ZZ_1993_63_19930322.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1993-03-22 최초 시행판 제7조 이미지",
+      "reviewStatus": "official-law-pdf-reviewed"
     }
   ]
 }

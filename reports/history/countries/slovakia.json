@@ -16,7 +16,9 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-228"
+    "SRC-228",
+    "SRC-333",
+    "SRC-334"
   ],
   "unresolved": [
     "1992-09-01 헌법 채택, 09-03 최초 게양(FOTW). 1993-02-18 규격 제정 기록; 객체 시작 전 사용.",
@@ -39,23 +41,25 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백·청·적 삼색기 및 깃대 쪽 방패",
     "registeredDesignStartCandidate": {
-      "value": "1992-09-01",
+      "value": "1992-10-01",
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "1993-02-18",
+      "value": "1993-03-22",
       "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-228"
+      "SRC-228",
+      "SRC-333",
+      "SRC-334"
     ],
-    "evidenceNote": "1992-09-01 헌법 채택, 09-03 최초 게양(FOTW). 1993-02-18 규격 제정 기록; 객체 시작 전 사용.",
+    "evidenceNote": "1992-09-01 헌법 채택, 10-01 발효. 제9조 국장 포함 삼색기 명시. 1993-02-18 법률 63호 제7조 국장 위치·흰 테두리·2:3 비율 지정, 03-22 공포 및 발효. 헌법 채택일·법 시행일을 구분.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +69,23 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sk.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-333",
+        "SRC-334"
+      ],
+      "details": {
+        "constitutionalAdoption": "1992-09-01",
+        "constitutionalEffectiveDate": "1992-10-01",
+        "specificationLawDate": "1993-02-18",
+        "specificationEffectiveDate": "1993-03-22",
+        "independentObjectApplicableStart": "1993-01-01"
+      },
+      "remaining": "등록 SVG와 원본 도안 대조 및 미확정 효력일 검증은 로컬에서 실시."
+    }
   }
 }
