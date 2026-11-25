@@ -15,7 +15,9 @@
     "phase": "latest-flag-only"
   },
   "sourceIds": [
-    "SRC-224"
+    "SRC-224",
+    "SRC-269",
+    "SRC-270"
   ],
   "unresolved": [
     "1918년 기본 도안 채택. 1978년 색상 변경·규격화의 정확한 효력일 및 SVG 색상 비교 필요.",
@@ -38,22 +40,24 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백색 바탕 청색 북유럽 십자",
     "registeredDesignStartCandidate": {
-      "value": "1918-05-28",
+      "value": "1918-05-29",
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "1978",
-      "precision": "year"
+      "value": "1978-06-01",
+      "precision": "day"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
-      "SRC-224"
+      "SRC-224",
+      "SRC-269",
+      "SRC-270"
     ],
-    "evidenceNote": "1918년 기본 도안 채택. 1978년 색상 변경·규격화의 정확한 효력일 및 SVG 색상 비교 필요.",
+    "evidenceNote": "1918-05-29 구 국기법 일자는 현행 Finlex 380/1978 제10조로 확인. 1978-05-26 신법 제정, 06-01 발효. 민간 국기의 십자 형상·비율은 기존 유지, 청색 규격은 변화 가능. FOTW는 1920-02-12 청색 변형도 기록하므로 정밀 색상 이력은 별도.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -63,6 +67,21 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/fi.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-269",
+        "SRC-270"
+      ],
+      "details": {
+        "lawDate": "1978-05-26",
+        "legalEffectiveDate": "1978-06-01",
+        "revisionType": "색상 규격 및 국가기 문장, 민간기 십자 형태는 유지"
+      },
+      "remaining": "등록 SVG와 원본 법정 도안의 정밀 대조 및 실제 데이터 적용은 로컬에서 실시."
+    }
   }
 }

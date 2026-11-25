@@ -17,7 +17,9 @@
   "sourceIds": [
     "SRC-253",
     "SRC-254",
-    "SRC-224"
+    "SRC-224",
+    "SRC-271",
+    "SRC-272"
   ],
   "unresolved": [
     "정부 국기 역사 06-24 공식화; 06-25 독립·헌법 관련 문서, 06-26 국기 교체식. 정확한 효력일과 공식화 일자 분리.",
@@ -40,11 +42,11 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "백·청·적 삼색기와 트리글라브 국장",
     "registeredDesignStartCandidate": {
-      "value": "1991-06-24",
+      "value": "1991-06-25",
       "precision": "day"
     },
     "latestRevisionCandidate": {
@@ -55,9 +57,11 @@
     "sourceIds": [
       "SRC-253",
       "SRC-254",
-      "SRC-224"
+      "SRC-224",
+      "SRC-271",
+      "SRC-272"
     ],
-    "evidenceNote": "정부 국기 역사 06-24 공식화; 06-25 독립·헌법 관련 문서, 06-26 국기 교체식. 정확한 효력일과 공식화 일자 분리.",
+    "evidenceNote": "헌법개정 C는 1991-06-24 의결, 06-25 공포 및 발효(발효조항 명시). 기존 조사에서 의결일을 채택일로 기재한 것을 법적 효력일로 수정. 06-26 최초 독립 기념 게양은 별도.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -67,6 +71,22 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/si.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-271",
+        "SRC-272",
+        "SRC-253"
+      ],
+      "details": {
+        "adoptionDate": "1991-06-24",
+        "legalEffectiveDate": "1991-06-25",
+        "firstCeremonialHoisting": "1991-06-26"
+      },
+      "remaining": "등록 SVG와 원본 법정 도안의 정밀 대조 및 실제 데이터 적용은 로컬에서 실시."
+    }
   }
 }

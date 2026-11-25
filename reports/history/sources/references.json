@@ -1993,6 +1993,69 @@
       "fromReport": "europe-latest-flag-start-2026-11-25",
       "section": "1955-08-19 최종 정면 도안 및 1980년 뒷면 변경",
       "reviewStatus": "secondary-text-reviewed"
+    },
+    {
+      "id": "SRC-264",
+      "url": "https://www.ris.bka.gv.at/Dokumente/BgblPdf/1945_7_0/1945_7_0.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1945-05-01 관보 원문 제2조(텍스트 열람, 페이지 이미지 요청 실패)",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-265",
+      "url": "https://www.bmi.gv.at/magazinfiles/2006/11_12/files/wappen_und_flaggen.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "내무부 국기 역사 설명(검색 본문 열람)",
+      "reviewStatus": "government-text-reviewed"
+    },
+    {
+      "id": "SRC-266",
+      "url": "https://www.mebnet.net/sites/default/files/15-1984BayrakYasasi.pdf",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "관보 1984-03-09, 국기법 15/1984 제2·13조, 첫째·셋째 페이지 이미지 확인",
+      "reviewStatus": "official-law-pdf-reviewed"
+    },
+    {
+      "id": "SRC-267",
+      "url": "https://presedinte.md/eng/emblem",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "대통령실: 337-XII 국장 법률 1990-11-03",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-268",
+      "url": "https://www.crwflags.com/fotw/flags/su-md.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1952-01-31 소비에트기 채택 및 1990-11-03 국장 변경",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-269",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/1978/380",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "핀란드 법령 DB 380/1978 제1·2·10조",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-270",
+      "url": "https://www.crwflags.com/FOTW/FLAGS/fi_1920.html",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "1920~1978 민간기 청색 변형",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-271",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/1991-01-0002/ustavni-amandma-k-ustavi-republike-slovenije",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "관보 1/1991 개헌 C 효력조항 및 국기 도안",
+      "reviewStatus": "official-law-text-reviewed"
+    },
+    {
+      "id": "SRC-272",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/1991-01-0001/odlok-o-razglasitvi-ustavnega-amandmaja-k-ustavi-republike-slovenije",
+      "fromReport": "europe-flag-followup-2026-11-25",
+      "section": "6월 24일 의결 및 25일 공포 명령",
+      "reviewStatus": "official-law-text-reviewed"
     }
   ]
 }

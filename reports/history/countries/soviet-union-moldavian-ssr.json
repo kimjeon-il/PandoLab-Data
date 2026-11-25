@@ -20,7 +20,9 @@
     "SRC-210",
     "SRC-211",
     "SRC-212",
-    "SRC-213"
+    "SRC-213",
+    "SRC-268",
+    "SRC-267"
   ],
   "unresolved": [
     "한국어 약칭 후보는 사용자가 지정한 몰도바이며 기존 영어 역사 정식명칭 Moldavian Soviet Socialist Republic은 유지. 몰다비아로 임의 변경하지 않음.",
@@ -71,12 +73,12 @@
     ]
   },
   "latestFlagAssessment": {
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "registeredDesignStartCandidate": "1952-01-31",
     "registeredDesignSource": "https://commons.wikimedia.org/wiki/File:Flag_of_Moldavian_SSR.svg",
     "latestActualHistoricalFlag": {
-      "startCandidate": "1990-11",
+      "startCandidate": "1990-11-03",
       "description": "청·황·적 삼색기와 국장",
       "withinExistingObjectLifetime": true
     },
@@ -87,10 +89,28 @@
       "SRC-210",
       "SRC-211",
       "SRC-212",
-      "SRC-213"
+      "SRC-213",
+      "SRC-268",
+      "SRC-267"
     ],
-    "evidenceNote": "삼색기는 1990-04-27 채택. 국장 추가는 1990년 11월, 정확한 법적 시작일 추가 확인. 기존 사건 보고서 및 출처에 근거한 후보. 등록 도안과 법적 효력일의 대조 후 반영.",
+    "evidenceNote": "FOTW의 1952-01-31 소비에트기 채택 확인. 몰도바 국립역사박물관은 1990-04-27 무국장 삼색기, 1990-11-03 국장 채택까지 무국장 사용으로 설명. 마지막 국기의 시작일 후보를 1990-11-03으로 구체화. 기존 1990-11 사건 참조 유지.",
     "objectDateBoundaryRule": "기존 객체 존속기간 유지; 등록된 소비에트기 시작일과 말기 실제 국기의 시작일은 별도 필드. 연·월 정밀도 보존.",
-    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지."
+    "localAction": "기존 flag history 지원 구조와 국기 파일 확인 후 연결. 중복 사건 신규 생성 금지.",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-268",
+        "SRC-212",
+        "SRC-267"
+      ],
+      "details": {
+        "latestActualHistoricalFlagStart": "1990-11-03",
+        "earlierPlainFlagStart": "1990-04-27",
+        "actualFirstHoistingDate": null
+      },
+      "remaining": "등록 SVG와 원본 법정 도안의 정밀 대조 및 실제 데이터 적용은 로컬에서 실시."
+    }
   }
 }

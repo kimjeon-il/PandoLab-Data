@@ -35,7 +35,9 @@
     "SRC-175",
     "SRC-176",
     "SRC-224",
-    "SRC-227"
+    "SRC-227",
+    "SRC-264",
+    "SRC-265"
   ],
   "unresolved": [
     "부속서 1 경계 기술·좌표, 부속서 2 국경도(1:2,000/1:10,000), 부속서 3 Egelsee 1:750 상황도 원본 미열람.",
@@ -60,12 +62,12 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "적·백·적 가로 삼색기",
     "registeredDesignStartCandidate": {
-      "value": "1945",
-      "precision": "year"
+      "value": "1945-05-01",
+      "precision": "day"
     },
     "latestRevisionCandidate": {
       "value": null,
@@ -74,9 +76,11 @@
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-227"
+      "SRC-227",
+      "SRC-264",
+      "SRC-265"
     ],
-    "evidenceNote": "제2공화국에서 복원. 1918년형과 동일 계열. 1984-04-27 법제화는 신규 도안 채택이 아님; 1945년 정확한 복원일 원문 확인.",
+    "evidenceNote": "1945년 5월 1일 공포된 StGBl 7/1945 제2조가 적백적을 재확인. 내무부 역사 자료도 해방 후 복원으로 설명. 최초 실제 게양일은 별도. 1984년 법제화는 신규 도안이 아님.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -86,6 +90,21 @@
       "defaultFlagAssetPath": null,
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-264",
+        "SRC-265"
+      ],
+      "details": {
+        "legalPublicationDate": "1945-05-01",
+        "legalEffectiveDate": null,
+        "actualUseStart": null
+      },
+      "remaining": "등록 SVG와 원본 법정 도안의 정밀 대조 및 실제 데이터 적용은 로컬에서 실시."
+    }
   }
 }

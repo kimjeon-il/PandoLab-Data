@@ -16,7 +16,10 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-227"
+    "SRC-227",
+    "SRC-212",
+    "SRC-267",
+    "SRC-213"
   ],
   "unresolved": [
     "1990-04-27 최초 삼색기와 국장 있는 현 정면 구분. 2010년 뒷면 국장 규칙은 정면 도안 신규 시작으로 처리하지 않음. 국장 삽입 효력일 후보 추가 원문 검증.",
@@ -39,23 +42,26 @@
     "field": "flag",
     "scope": "등록된 기본 또는 마지막 국기의 시작일 조사; 유럽 및 경계권",
     "researchedOn": "2026-11-25",
-    "assessment": "provisional",
+    "assessment": "source-reviewed",
     "application": "not-applied",
     "description": "청·황·적 세로 삼색기와 국장",
     "registeredDesignStartCandidate": {
-      "value": "1990-11-06",
+      "value": "1990-11-03",
       "precision": "day"
     },
     "latestRevisionCandidate": {
-      "value": "2010-11-26",
-      "precision": "day"
+      "value": null,
+      "precision": "unknown"
     },
     "latestActualHistoricalFlag": null,
     "sourceIds": [
       "SRC-224",
-      "SRC-227"
+      "SRC-227",
+      "SRC-212",
+      "SRC-267",
+      "SRC-213"
     ],
-    "evidenceNote": "1990-04-27 최초 삼색기와 국장 있는 현 정면 구분. 2010년 뒷면 국장 규칙은 정면 도안 신규 시작으로 처리하지 않음. 국장 삽입 효력일 후보 추가 원문 검증.",
+    "evidenceNote": "국립역사박물관: 1990-04-27 삼색기 채택 후 11-03 새 국장 채택까지 무국장기 사용. 대통령실의 법률 337-XII도 11-03 확인. 기존 11-06은 최신 국장 도안 시작일의 우선 근거에서 제외하고, 2010년 법률은 뒷면 규정으로 구분. 현 객체는 1991-08-27부터 적용 가능한 선행 도안.",
     "preexistingAtHistoryStart": false,
     "objectDateBoundaryRule": "국기 자체의 역사적 도안 시작일과 해당 객체에 적용 가능한 시작일을 구분한다. 객체 이전 날짜·1801년 이전 날짜를 허구의 변경 사건으로 만들지 않는다. 날짜 미확정 또는 날짜 충돌은 자동 입력 금지.",
     "runtimeSnapshot": {
@@ -65,6 +71,23 @@
       "defaultFlagAssetPath": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/md.svg",
       "assetMatchStatus": "기본 국기 존재/경로 확인; SVG 세부 비교 미완료"
     },
-    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정"
+    "localAction": "원법령, 개정 종류 및 실제 SVG 일치 확인 후 유효 시작일 결정",
+    "followUp": {
+      "run": "europe-flag-followup-2026-11-25",
+      "reviewScope": "국기 시작일 및 법령·도안 구분; 원격 런타임 변경 없음",
+      "dateAssessment": "source-reviewed",
+      "sourceIds": [
+        "SRC-212",
+        "SRC-267",
+        "SRC-213"
+      ],
+      "details": {
+        "earlierPlainFlagStart": "1990-04-27",
+        "emblemAdopted": "1990-11-03",
+        "objectApplicableStart": "1991-08-27",
+        "actualFirstHoistingDate": null
+      },
+      "remaining": "등록 SVG와 원본 법정 도안의 정밀 대조 및 실제 데이터 적용은 로컬에서 실시."
+    }
   }
 }
