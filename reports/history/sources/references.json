@@ -2889,6 +2889,27 @@
       "fromReport": "europe-flag-followup-2-2026-11-25",
       "section": "1926년 연감에 기록된 1906년 규격",
       "reviewStatus": "historical-text-reviewed"
+    },
+    {
+      "id": "SRC-392",
+      "url": "https://docs.historyrussia.org/ru/nodes/519989-dokumenty?page=3&view=list",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "역사문서 도서관 문서 241번, 1955-08-19 국기 규정 서지",
+      "reviewStatus": "archive-metadata-reviewed"
+    },
+    {
+      "id": "SRC-393",
+      "url": "https://www.crwflags.com/fotw/flags/su-ru.html",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1954/1955 도안 변형 및 말기 삼색기 병용",
+      "reviewStatus": "specialist-text-reviewed"
+    },
+    {
+      "id": "SRC-394",
+      "url": "https://www.vexillographia.ru/russia/RSFSR.htm",
+      "fromReport": "europe-flag-followup-2-2026-11-25",
+      "section": "1991-08-22 결의·게양, 1955년형 국기 하강 및 09-03 결의 공표",
+      "reviewStatus": "specialist-history-reviewed"
     }
   ]
 }
