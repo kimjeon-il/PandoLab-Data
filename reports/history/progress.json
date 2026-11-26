@@ -161,8 +161,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "아시아",
-    "nextRegion": "아프리카",
+    "lastRegion": "아프리카",
+    "nextRegion": "북아메리카",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -172,11 +172,11 @@
       },
       {
         "scope": "마지막 처리 지역",
-        "detail": "2025년 오세아니아(2026-11-24): 부건빌·뉴칼레도니아·매슈/헌터섬·쿡 제도·니우에 실제 발효한 새 지위/귀속 변경 미발견; 전수 미완료."
+        "detail": "2025년 아프리카(2026-11-27): 소말릴란드·북동부 연방구성주, DRC–르완다, 잠비아–DRC, 아비에이 범위의 새 입력 가능 변동 미발견; 전수 미완료."
       },
       {
         "scope": "다음 지역",
-        "detail": "2025년 유럽 재순환: 이전 스위스–프랑스·지브롤터·셍겐 후보 외 미조사 국가·속령의 국명·국기·육상 경계·상위관계 변경 검토 및 기존 후보 효력일 확인. 2024년 이동 금지."
+        "detail": "2025년 북아메리카 재순환: 미조사 국가·속령의 국명·국기·상위관계·국제 육상경계의 법적 변동 검토; 기존 그린란드·사르스툰·사포디야 후보 중복 계수 금지. 2024년 이동 금지."
       },
       {
         "scope": "연도 잠금",
@@ -220,98 +220,133 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-26",
+    "lastReviewedOn": "2026-11-27",
     "lastReview": {
       "year": 2025,
-      "region": "아시아",
-      "scope": "2025-01-01~2025-12-31 아시아 2차 순환 부분조사: 시리아 국기·정식 국명·국가 동일성, 시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 국경의 실제 법적 변동 여부. 중앙아시아 기존 사건 2건 중복 확인.",
-      "finding": "신규 입력 가능 변동 미발견(조사한 범위에 한함). 시리아의 삼색 삼별 국기는 실제 원본에 2024-12-08부터 이미 반영되었으며 2025년 법적 재확인을 별도 디자인 변경으로 중복 계수하지 않음. 3개 국경의 협의/휴전/가서명은 확정적인 영토 귀속 변경이 아님. 기존 중앙아시아 사건 2건은 신규 계수하지 않음.",
+      "region": "아프리카",
+      "scope": "2025-01-01~2025-12-31 아프리카 2차 순환 부분 조사: 소말리아–소말릴란드 및 북동부 연방구성주, 콩고민주공화국–르완다, 잠비아–콩고민주공화국, 수단–남수단 아비에이의 실제 국가·속령 관계와 법적 육상 경계 변동 여부. 대륙 전수 아님.",
+      "finding": "변동 미발견(검토 범위 한정). 국가/속령의 새 성립·소멸·상하위관계 또는 영토 귀속 변경으로 확인된 사항 없음. 국제승인·국내 연방 행정구역·기존 경계 재확인·평화협정·군사 통제 및 미결 분쟁을 독립 사건으로 만들지 않음.",
       "checkedCandidates": [
         {
-          "topic": "시리아 국기·국명",
-          "date": "2025-03-13",
-          "finding": "헌법선언 제1조 Syrian Arab Republic 명칭 유지, 제6조 녹·백·흑 삼색 및 붉은 별 3개 명시. 제53조 관보 공포일부터 효력 발생; SANA 3월 13일 게시와 관보 공포를 구분. state:SYR 원본 metadata.flagHistory는 1980-03-30~2024-12-07 구 국기, 2024-12-08~현재 동일 삼색 삼별 국기이며 attributeHistoryEvidence에 기존 헌법선언 출처도 포함. 2025년 새 디자인 또는 국가 건국으로 기록하지 않음.",
-          "inputAssessment": "existing-flag-already-represented",
-          "sourceUrls": [
-            "https://sana.sy/locals/2198312/",
-            "https://www.aljazeera.net/encyclopedia/2025/3/14/نص-الإعلان-الدستوري-لسوريا-2025",
-            "https://www.aymennaltamimi.com/p/the-constitutional-declaration-of",
-            "https://syrianassembly.com/documents/constitutional-declaration-2025"
+          "topic": "소말릴란드–소말리아",
+          "date": "2025-12-26",
+          "finding": "이스라엘 정부는 상호 승인 선언 서명을 공표했고 AU는 소말리아의 영토 보전을 재확인했다. 실제 Pando 객체 state:SOL은 1991-05-18부터 독립 방식으로 이미 존재하며 state:SOM은 1960-07-01부터 존속, 2012-08-01 이후 정식 국명 이력이 존재한다. 승인만으로 2025년 건국·새 영토양도·부모관계 변경을 기록하지 않는다.",
+          "inputAssessment": "recognition-only-existing-object",
+          "runtimeObjects": [
+            "objects/866536b4ffbd498fd9b98c73f1e53577922669a2864c5aa18ffc329d8fc14eda.json",
+            "objects/3d5c2b85473dbe2d620c0567f83f2d4e8b7944bce48a8b28841975039bf65190.json"
           ],
-          "sourceReview": "SANA 원문 게시 페이지, 독립 번역 및 아랍어 전사 열람. syrianassembly.com은 독립 시민 기록 프로젝트로 정부 공식 관보가 아님. 서명 이미지 원본·관보 판본 미열람.",
-          "runtimeObject": "objects/e3a9c7116ad97798c2de38a0ee4def87ed96f0e65fed44b130c4e3fb6c574328.json"
+          "sourceUrls": [
+            "https://www.gov.il/en/pages/israel-recognizes-the-republic-of-somaliland-as-an-independent-and-sovereign-state-26-dec-2025",
+            "https://au.int/en/pressreleases/20251226/auc-chairperson-rejects-any-recognition-somaliland",
+            "https://www.reuters.com/world/middle-east/israel-recognises-somaliland-somalias-breakway-region-independent-state-2025-12-26/"
+          ],
+          "sourceReview": "이스라엘 정부 발표와 Reuters 검색 본문, AU 공식 HTML 직접 열람; 상호선언 서명 원본 미확보."
         },
         {
-          "topic": "시리아–레바논",
-          "date": "2025-03-27",
-          "finding": "제다 국방장관 합의는 획정 추진 및 협력 틀에 관한 합의; 3월 28일 보도. 변경 구획·주권 양도·효력일 미확인. 양국 실제 객체의 단일 기본 형상 확인.",
-          "inputAssessment": "no-verified-territorial-change",
-          "sourceUrls": [
-            "https://www.gulf-times.com/article/702650/region/syria-lebanon-sign-agreement-on-border-demarcation-in-jeddah",
-            "https://today.lorientlejour.com/article/1453829/syria-and-lebanon-reach-preliminary-border-agreement-in-jeddah.html"
-          ],
-          "sourceReview": "QNA 및 L'Orient Today 보도 본문 열람; 합의 원문 미확보."
-        },
-        {
-          "topic": "태국–캄보디아",
-          "date": "2025-12-27",
-          "finding": "양국 공동성명 제3항은 휴전 조치가 국제경계·획정에 영향을 주지 않음을 명시. 2025년 신규 법적 영토 이전 미확인. 기존 국경분쟁·군사 점령은 제외.",
-          "inputAssessment": "ceasefire-not-boundary-change",
-          "sourceUrls": [
-            "https://thailand.prd.go.th/en/content/category/detail/id/3243/iid/459719",
-            "https://www.akp.gov.kh/index.php/post/detail/380003"
-          ],
-          "sourceReview": "태국 정부 공개 공동성명 원문과 캄보디아 국영통신 2026-09-01 후속 설명 대조. state:THA는 library.json 색인에 있으나 객체 파일 404; state:KHM 원본 열람."
-        },
-        {
-          "topic": "아르메니아–아제르바이잔",
+          "topic": "SSC-Khaatumo/소말리아 북동부 연방구성주",
           "dates": [
-            "2025-01-16",
-            "2025-08-08",
-            "2025-08-11"
+            "2025-07-30",
+            "2025-08-30",
+            "2025-08-31"
           ],
-          "finding": "8월 가서명 평화협정 제1조 기존 국경 원칙, 제6조 향후 획정 협정 협상 명시. 가서명·공개는 실제 영토 이전/새 국경 효력 아님. 양국 원본 기본 형상 확인.",
-          "inputAssessment": "initialed-no-verified-2025-transfer",
+          "finding": "소말리아 내무부는 8월 31일 북동부 연방구성주 형성 완료 발표; 7월 30일 지역 헌법 채택과 8월 30일 지도부 선출 구분. 소말릴란드·푼틀란드와 귀속 주장 상충. library.json에 별도 SSC/Khaatumo 또는 북동부 국가 객체 식별되지 않음. 국내 연방구성주 형성만으로 국가·속령의 성립이나 기존 국제 경계의 법적 이전을 추정하지 않는다. 국가 객체로의 분류나 실제 귀속 변경을 확인할 독립 증거가 나올 경우만 재검토.",
+          "inputAssessment": "domestic-federal-unit-no-verified-international-transfer",
           "sourceUrls": [
-            "https://www.mfa.am/en/press-releases/2025/08/11/Initialed%2520Arm-Az%2520Peace%2520Agreement%2520text/13394",
-            "https://mfa.gov.az/en/news/no33725",
-            "https://www.mfa.am/en/press-releases/2025/01/16/arm_az/13039"
+            "https://sonna.so/en/article/interior-ministry-releases-statement-on-the-finalisation-of-the-state-formation-of-the-north-eastern-state-of-somalia",
+            "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-s-6th-federal-state-sparks-hope-and-tensions-5147892"
           ],
-          "sourceReview": "양국 외교부 공식 HTML 및 1월 획정위원회 발표 열람."
+          "sourceReview": "SONNA 내무부 성명 HTML 직접 열람, The EastAfrican 독립 보도 검색 본문 대조. 지역 헌법 원본 및 경계도면 미확보."
         },
         {
-          "topic": "키르기스스탄–타지키스탄 및 우즈베키스탄 삼중 접점",
-          "eventIds": [
-            "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
-            "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+          "topic": "콩고민주공화국–르완다",
+          "dates": [
+            "2025-06-27",
+            "2025-08-25",
+            "2025-08-29"
           ],
-          "finding": "기존 catalog의 두 사건 확인. LexUZ는 2025-11-15 우즈베키스탄 효력 표기, 조약 제4조 비준서 교환일 발효 규정. 기존 기록의 11-16 문서교환과 실제 국제 효력일 관계는 이번에도 확정하지 못함. 제1조에 1942년 좌표계·발트 고도계와 1:10,000 도면, 제2조에 경계 기술서 명시. 부속서 1·2는 LexUZ 미게시. 개별 좌표·투영대·공유 경계 및 벡터 파일은 미확보.",
-          "inputAssessment": "existing-events-no-recount",
+          "finding": "6월 27일 평화협정, 르완다 8월 25일 비준 법률·대통령령과 8월 29일 관보 게재를 구분. 협정 제1절은 양국의 기존 영토 보전을 재확인하고 무력에 의한 침해를 금지한다. 협정의 영토 할양·새 국제경계는 확인되지 않음. 12월 4일 후속 정상 서명도 PA-X 기록상 평화 합의이며, 군사 통제를 법적 귀속 변경으로 취급하지 않음.",
+          "inputAssessment": "peace-agreement-no-territorial-transfer",
+          "runtimeObjects": [
+            "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json",
+            "objects/002094a7371434f794e6717670661f13a3995f52abdae535004c3525adb89354.json"
+          ],
           "sourceUrls": [
-            "https://www.lex.uz/ru/docs/7860582",
-            "https://en.kabar.kg/news/kyrgyzstan-ratifies-treaty-on-kyrgyz-tajik-state-border/"
-          ]
+            "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Official_gazettes_2/_____2025_Igazeti_ya_Leta/____KANAMA-_August-_Aout/OG_n___Special_of_29.08.2025__DRC-RWANDA__Amasezerano_y_Amahoro.pdf",
+            "https://www.peaceagreements.org/agreements/2795/",
+            "https://www.un.org/sg/en/content/sg/statements/2025-06-27/secretary-generals-statement-the-signing-of-peace-agreement-between-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda-scroll-down-for-french"
+          ],
+          "sourceReview": "르완다 관보 원문 텍스트 및 인쇄면 9 스크린샷 직접 확인; PA-X 학술 데이터 HTML 열람, UN 발표 검색 본문 대조."
+        },
+        {
+          "topic": "잠비아–콩고민주공화국 육상 경계",
+          "date": "2025-07-01",
+          "finding": "잠비아 의회 답변은 2023년 공동위원회 계획의 Kasumbalesa 구간 기존 경계 재확인 작업이 2026년 2분기로 연기되었다고 밝힘. 2024년 의회 위원회 보고서 인쇄면 110은 Tanganyika–Mweru 및 Luapula 강 경계 작업이 1989년 조약에 기초한다고 설명. 2025년 신규 영토 이전·국제경계 효력일 미발견. 1989 조약 원문·도서별 배정 및 나머지 구획은 해당 역사 연도에서 별도로 검증할 대상.",
+          "inputAssessment": "reaffirmation-no-verified-2025-change",
+          "runtimeObjects": [
+            "objects/e02a9b50eced8269cf955a839e73c8a10e2200b08ce2303e7fbc93235fbddfaf.json",
+            "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json"
+          ],
+          "sourceUrls": [
+            "https://pbo.parliament.gov.zm/node/12457",
+            "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THE%20COMMITTEE%20ON%20GOVERNMENT%20ASSURANCES%20FOR%20THE%20THIRD%20SESSION%20OF%20THE%20THIRTEENTH%20NATIONAL%20ASSEMBLY.pdf"
+          ],
+          "sourceReview": "2025 의회 답변 검색 본문, 2024 보고서 PDF 추출 본문 직접 열람. HTML 직접 열람 및 PDF 화면은 타임아웃; DRC 독립 정부 사료·1989 조약 원문 미확보."
+        },
+        {
+          "topic": "수단–남수단 아비에이",
+          "date": "2025-11-14",
+          "finding": "안보리 결의 2802는 아비에이 최종 지위를 양국 협상으로 해결하도록 재확인하며 일방 변경을 부정한다. 양국 국가 객체는 기존 2011-07-09 분리 형상을 보유하며 2025 효력의 새 지위·경계 변경 없음. 현지 군사 통제와 법적 귀속 구분.",
+          "inputAssessment": "unresolved-existing-dispute",
+          "runtimeObjects": [
+            "objects/aa135232134550a98496c024a56b58a61117c7b41a6d9f6f45cff4516e0aece8.json",
+            "objects/6e5e008804b55f23883b0d202ce4f69f468376c508a385c6f960d2e946824638.json"
+          ],
+          "sourceUrls": [
+            "https://digitallibrary.un.org/record/4093196/files/S_RES_2802_%282025%29-EN.pdf",
+            "https://mandates.un.org/mandate/S/RES/2802%20%282025%29",
+            "https://peacekeeping.un.org/en/news/conflict-update-security-council-extends-peacekeeping-mission-in-abyei-in-face-of"
+          ],
+          "sourceReview": "안보리 결의 PDF 추출 본문 직접 열람, 화면 403. UN 임무 레지스트리와 평화유지국 검색 본문 대조(평화유지국 직접 열람 403); 양국 독립 정부 합의문 미확보."
         }
       ],
       "historicalVectorPriority": {
         "candidates": [
           {
+            "provider": "OCHA Somalia / SODMA Open Data Portal",
+            "dataset": "Somalia COD-AB som_adm_ocha_20250108_AB_SHP.zip",
+            "format": "SHP ZIP",
+            "version": "2025-01-08 파일명, 2025-01-15 리소스 갱신",
+            "editionPublished": "2025-01-15 리소스 메타데이터; 2025-05-23 포털 메타데이터",
+            "boundaryEffectiveDate": "행정 경계 1984년 설정; 2025 법적 국제경계 효력일 아님",
+            "originalUrl": "https://data.humdata.org/dataset/ec140a63-5330-4376-a3df-c7ebf73cfc3c/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037/download/som_adm_ocha_20250108_ab_shp.zip",
+            "metadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som",
+            "resourceMetadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037",
+            "crs": "원본 CRS 미확인; Africa Albers Equal Area Conic은 권장 지도 투영으로 실제 .prj 아님",
+            "featureId": "P-code 필드 메타데이터만 확인; 개별 피처 미열람",
+            "sharedBorderVerified": false,
+            "rights": "리소스 메타데이터 cc-by-igo; 실제 원본 및 재배포 조건 미확인",
+            "redistribution": "미승인",
+            "suitability": "연방구성주 경계는 행정 구조에 통합되지 않으며 2025년 7~8월 북동부 변경 이전 판본. 소말릴란드 법적 귀속·실효 지배의 증거로 사용 불가."
+          },
+          {
             "provider": "미 국무부 Office of the Geographer and Global Issues",
             "dataset": "Large Scale International Boundaries",
             "version": "11.4",
             "editionPublished": "2025-02-24",
+            "format": "SHP ZIP/GPKG",
             "originalUrls": [
-              "https://data.geodata.state.gov/LSIB.gpkg",
-              "https://data.geodata.state.gov/LSIB.zip"
+              "https://data.geodata.state.gov/LSIB.zip",
+              "https://data.geodata.state.gov/LSIB.gpkg"
             ],
             "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
-            "format": "GPKG 및 ZIP 배포",
             "boundaryEffectiveDate": null,
             "crs": "원본 미열람",
             "featureId": "미확인",
             "sharedBorderVerified": false,
-            "rights": "개별 원본 재배포 조건 미확정",
-            "suitability": "2025-02-24 판본은 본 회차 3~12월 협의보다 앞서며 새 효력 경계 증거 아님. 미국 정부의 국경·승인 정책 반영, 실효 지배와 다를 수 있음."
+            "rights": "개별 원본 및 제3자 저작권/재배포 조건 미확인",
+            "redistribution": "미승인",
+            "suitability": "2025년 2월판은 검토한 후속 사건 이전 자료. 미국 정부의 법적 경계·승인 정책 반영, 실효 지배와 다를 수 있음."
           }
         ],
         "originalFileDownloaded": false,
@@ -321,15 +356,15 @@
         "conversionRun": false,
         "topologyRun": false,
         "visualComparisonRun": false,
+        "pixel0_5CssPxRun": false,
         "redistributionCleared": false,
-        "missing": "2025년 신규 법적 변경을 입증하는 효력시점 일치 공식 벡터 미발견. 실제 변동 확정 후 해당 판본 및 필요할 경우 지도 중첩 후보 검토."
+        "missing": "2025년 법적으로 변경된 육상 경계의 효력시점 일치 공식 원벡터 미발견. 원본 파일·피처·공유 경계 미검사. 형상 변동 확정 전 지도 복원 미실행."
       },
       "unresolved": [
-        "시리아 관보 공포일 및 기존 국기 실사용 시작일과 법적 효력 구분; 기존 flagHistory 변경 없음.",
-        "시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 최종 법적 획정 및 실제 효력일 미확정.",
-        "중앙아시아 기존 2개 사건의 국제 효력일 및 공식 벡터 미확정.",
-        "Pando work/gis 404; 현행 PandoLab main 객체·시간축 정책 및 PandoLab-Data main library.json, SYR/LBN/KHM/ARM/AZE 객체 원본 읽기 전용 확인. THA 객체 원본 404.",
-        "아시아 전수조사 미완료."
+        "아프리카 전체 국가·속령의 2025년 국명·국기·관계·경계 전수 미완료.",
+        "소말릴란드–북동부 연방구성주 법적 객체 범위 및 귀속 주장과 실제 통제 구분; 새 국가·속령 사건 미확정.",
+        "잠비아–DRC 1989년 조약 원문 및 귀속 형상, 아비에이 최종 지위 합의 미확보.",
+        "Pando 및 PandoLab work/gis 404. PandoLab main AGENTS, PandoLab-Data main library.json 및 7개 관련 국가 객체 원본 읽기 전용 확인."
       ],
       "savedRecords": {
         "event": 0,
@@ -341,9 +376,131 @@
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "아프리카"
+      "nextRegion": "북아메리카"
     },
     "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "아시아",
+        "scope": "2025-01-01~2025-12-31 아시아 2차 순환 부분조사: 시리아 국기·정식 국명·국가 동일성, 시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 국경의 실제 법적 변동 여부. 중앙아시아 기존 사건 2건 중복 확인.",
+        "finding": "신규 입력 가능 변동 미발견(조사한 범위에 한함). 시리아의 삼색 삼별 국기는 실제 원본에 2024-12-08부터 이미 반영되었으며 2025년 법적 재확인을 별도 디자인 변경으로 중복 계수하지 않음. 3개 국경의 협의/휴전/가서명은 확정적인 영토 귀속 변경이 아님. 기존 중앙아시아 사건 2건은 신규 계수하지 않음.",
+        "checkedCandidates": [
+          {
+            "topic": "시리아 국기·국명",
+            "date": "2025-03-13",
+            "finding": "헌법선언 제1조 Syrian Arab Republic 명칭 유지, 제6조 녹·백·흑 삼색 및 붉은 별 3개 명시. 제53조 관보 공포일부터 효력 발생; SANA 3월 13일 게시와 관보 공포를 구분. state:SYR 원본 metadata.flagHistory는 1980-03-30~2024-12-07 구 국기, 2024-12-08~현재 동일 삼색 삼별 국기이며 attributeHistoryEvidence에 기존 헌법선언 출처도 포함. 2025년 새 디자인 또는 국가 건국으로 기록하지 않음.",
+            "inputAssessment": "existing-flag-already-represented",
+            "sourceUrls": [
+              "https://sana.sy/locals/2198312/",
+              "https://www.aljazeera.net/encyclopedia/2025/3/14/نص-الإعلان-الدستوري-لسوريا-2025",
+              "https://www.aymennaltamimi.com/p/the-constitutional-declaration-of",
+              "https://syrianassembly.com/documents/constitutional-declaration-2025"
+            ],
+            "sourceReview": "SANA 원문 게시 페이지, 독립 번역 및 아랍어 전사 열람. syrianassembly.com은 독립 시민 기록 프로젝트로 정부 공식 관보가 아님. 서명 이미지 원본·관보 판본 미열람.",
+            "runtimeObject": "objects/e3a9c7116ad97798c2de38a0ee4def87ed96f0e65fed44b130c4e3fb6c574328.json"
+          },
+          {
+            "topic": "시리아–레바논",
+            "date": "2025-03-27",
+            "finding": "제다 국방장관 합의는 획정 추진 및 협력 틀에 관한 합의; 3월 28일 보도. 변경 구획·주권 양도·효력일 미확인. 양국 실제 객체의 단일 기본 형상 확인.",
+            "inputAssessment": "no-verified-territorial-change",
+            "sourceUrls": [
+              "https://www.gulf-times.com/article/702650/region/syria-lebanon-sign-agreement-on-border-demarcation-in-jeddah",
+              "https://today.lorientlejour.com/article/1453829/syria-and-lebanon-reach-preliminary-border-agreement-in-jeddah.html"
+            ],
+            "sourceReview": "QNA 및 L'Orient Today 보도 본문 열람; 합의 원문 미확보."
+          },
+          {
+            "topic": "태국–캄보디아",
+            "date": "2025-12-27",
+            "finding": "양국 공동성명 제3항은 휴전 조치가 국제경계·획정에 영향을 주지 않음을 명시. 2025년 신규 법적 영토 이전 미확인. 기존 국경분쟁·군사 점령은 제외.",
+            "inputAssessment": "ceasefire-not-boundary-change",
+            "sourceUrls": [
+              "https://thailand.prd.go.th/en/content/category/detail/id/3243/iid/459719",
+              "https://www.akp.gov.kh/index.php/post/detail/380003"
+            ],
+            "sourceReview": "태국 정부 공개 공동성명 원문과 캄보디아 국영통신 2026-09-01 후속 설명 대조. state:THA는 library.json 색인에 있으나 객체 파일 404; state:KHM 원본 열람."
+          },
+          {
+            "topic": "아르메니아–아제르바이잔",
+            "dates": [
+              "2025-01-16",
+              "2025-08-08",
+              "2025-08-11"
+            ],
+            "finding": "8월 가서명 평화협정 제1조 기존 국경 원칙, 제6조 향후 획정 협정 협상 명시. 가서명·공개는 실제 영토 이전/새 국경 효력 아님. 양국 원본 기본 형상 확인.",
+            "inputAssessment": "initialed-no-verified-2025-transfer",
+            "sourceUrls": [
+              "https://www.mfa.am/en/press-releases/2025/08/11/Initialed%2520Arm-Az%2520Peace%2520Agreement%2520text/13394",
+              "https://mfa.gov.az/en/news/no33725",
+              "https://www.mfa.am/en/press-releases/2025/01/16/arm_az/13039"
+            ],
+            "sourceReview": "양국 외교부 공식 HTML 및 1월 획정위원회 발표 열람."
+          },
+          {
+            "topic": "키르기스스탄–타지키스탄 및 우즈베키스탄 삼중 접점",
+            "eventIds": [
+              "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
+              "EVT-2025-KGZ-TJK-UZB-TRIPOINT"
+            ],
+            "finding": "기존 catalog의 두 사건 확인. LexUZ는 2025-11-15 우즈베키스탄 효력 표기, 조약 제4조 비준서 교환일 발효 규정. 기존 기록의 11-16 문서교환과 실제 국제 효력일 관계는 이번에도 확정하지 못함. 제1조에 1942년 좌표계·발트 고도계와 1:10,000 도면, 제2조에 경계 기술서 명시. 부속서 1·2는 LexUZ 미게시. 개별 좌표·투영대·공유 경계 및 벡터 파일은 미확보.",
+            "inputAssessment": "existing-events-no-recount",
+            "sourceUrls": [
+              "https://www.lex.uz/ru/docs/7860582",
+              "https://en.kabar.kg/news/kyrgyzstan-ratifies-treaty-on-kyrgyz-tajik-state-border/"
+            ]
+          }
+        ],
+        "historicalVectorPriority": {
+          "candidates": [
+            {
+              "provider": "미 국무부 Office of the Geographer and Global Issues",
+              "dataset": "Large Scale International Boundaries",
+              "version": "11.4",
+              "editionPublished": "2025-02-24",
+              "originalUrls": [
+                "https://data.geodata.state.gov/LSIB.gpkg",
+                "https://data.geodata.state.gov/LSIB.zip"
+              ],
+              "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+              "format": "GPKG 및 ZIP 배포",
+              "boundaryEffectiveDate": null,
+              "crs": "원본 미열람",
+              "featureId": "미확인",
+              "sharedBorderVerified": false,
+              "rights": "개별 원본 재배포 조건 미확정",
+              "suitability": "2025-02-24 판본은 본 회차 3~12월 협의보다 앞서며 새 효력 경계 증거 아님. 미국 정부의 국경·승인 정책 반영, 실효 지배와 다를 수 있음."
+            }
+          ],
+          "originalFileDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "redistributionCleared": false,
+          "missing": "2025년 신규 법적 변경을 입증하는 효력시점 일치 공식 벡터 미발견. 실제 변동 확정 후 해당 판본 및 필요할 경우 지도 중첩 후보 검토."
+        },
+        "unresolved": [
+          "시리아 관보 공포일 및 기존 국기 실사용 시작일과 법적 효력 구분; 기존 flagHistory 변경 없음.",
+          "시리아–레바논·태국–캄보디아·아르메니아–아제르바이잔 최종 법적 획정 및 실제 효력일 미확정.",
+          "중앙아시아 기존 2개 사건의 국제 효력일 및 공식 벡터 미확정.",
+          "Pando work/gis 404; 현행 PandoLab main 객체·시간축 정책 및 PandoLab-Data main library.json, SYR/LBN/KHM/ARM/AZE 객체 원본 읽기 전용 확인. THA 객체 원본 404.",
+          "아시아 전수조사 미완료."
+        ],
+        "savedRecords": {
+          "event": 0,
+          "entity": 0,
+          "geography": 0,
+          "sourceRegistry": 0,
+          "progress": 1,
+          "catalog": 0
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "아프리카"
+      },
       {
         "year": 2025,
         "region": "유럽",
