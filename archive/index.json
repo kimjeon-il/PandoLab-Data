@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "kimjeon-il/Pando",
-  "sourceRevision": "bdc48e69039af02ff000ae1715f040bb226f6878",
+  "sourceRevision": "928a43c0bd33458eb69a8cbdbda94e9879c44828",
   "branch": "main",
   "files": {
     "assets/data/builtin-world/generated/v1/index.json": {
       "stored": "assets/data/builtin-world/generated/v1/index.json",
       "encoding": "identity",
-      "sha256": "a6077c7d3316c39bdfbc1c013ae48a0b97fe4c086931b7d36ce524e0b1d3e366",
-      "bytes": 2798597
+      "sha256": "8f1a8b0f04fa69407b48b51a03bd6022cc675da0ebef65f6174070266eccf1cb",
+      "bytes": 2798598
     },
     "assets/data/countries-canonical-shared-v0.36.1.json.gz": {
       "stored": "assets/data/countries-canonical-shared-v0.36.1.json.gz",
@@ -99183,6 +99183,396 @@
       "encoding": "identity",
       "sha256": "42e2b67ffde5485c75f132ddc5f56703d40cc4c8e5116c654136ac1d49042dbd",
       "bytes": 1495
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-ea99ffb80f76dc7fe307ad44dc5c81d05d65d99f603fdc9989741234499516c5.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-ea99ffb80f76dc7fe307ad44dc5c81d05d65d99f603fdc9989741234499516c5.json.gz",
+      "encoding": "identity",
+      "sha256": "ea99ffb80f76dc7fe307ad44dc5c81d05d65d99f603fdc9989741234499516c5",
+      "bytes": 15289
+    },
+    "assets/data/builtin-world/generated/v1/countries/AZE-sha256-166893eadba2eeaf7db7606f24129b408d47002b7d3458d977739501cb1051d0.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/AZE-sha256-166893eadba2eeaf7db7606f24129b408d47002b7d3458d977739501cb1051d0.json.gz",
+      "encoding": "identity",
+      "sha256": "166893eadba2eeaf7db7606f24129b408d47002b7d3458d977739501cb1051d0",
+      "bytes": 1689
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-1b70d871c2136bc8ce21b1d7ad0c633d097909ad5b5d1344ebbf38a27da50173.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-1b70d871c2136bc8ce21b1d7ad0c633d097909ad5b5d1344ebbf38a27da50173.json.gz",
+      "encoding": "identity",
+      "sha256": "1b70d871c2136bc8ce21b1d7ad0c633d097909ad5b5d1344ebbf38a27da50173",
+      "bytes": 65177
+    },
+    "assets/data/builtin-world/generated/v1/countries/BGD-sha256-9a7c032a51d335af8032171ba8dd6378459a93fbee24dec75728ba068a5d7914.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/BGD-sha256-9a7c032a51d335af8032171ba8dd6378459a93fbee24dec75728ba068a5d7914.json.gz",
+      "encoding": "identity",
+      "sha256": "9a7c032a51d335af8032171ba8dd6378459a93fbee24dec75728ba068a5d7914",
+      "bytes": 1381
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-9a116efef30f99ba502210520a01eb27555ac20cd24b541fb3efe4fe961f04cb.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-9a116efef30f99ba502210520a01eb27555ac20cd24b541fb3efe4fe961f04cb.json.gz",
+      "encoding": "identity",
+      "sha256": "9a116efef30f99ba502210520a01eb27555ac20cd24b541fb3efe4fe961f04cb",
+      "bytes": 11521
+    },
+    "assets/data/builtin-world/generated/v1/countries/BGR-sha256-f36b1742a11fc44be5cfc99ecc393aeef45a5075fa74512f7a6ed4cd5aac903b.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/BGR-sha256-f36b1742a11fc44be5cfc99ecc393aeef45a5075fa74512f7a6ed4cd5aac903b.json.gz",
+      "encoding": "identity",
+      "sha256": "f36b1742a11fc44be5cfc99ecc393aeef45a5075fa74512f7a6ed4cd5aac903b",
+      "bytes": 2972
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-36ab08d1cd02192bff556a1659bbf85ccf1d69db4592463ef3ad4b1a2d9e5b5a.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-36ab08d1cd02192bff556a1659bbf85ccf1d69db4592463ef3ad4b1a2d9e5b5a.json.gz",
+      "encoding": "identity",
+      "sha256": "36ab08d1cd02192bff556a1659bbf85ccf1d69db4592463ef3ad4b1a2d9e5b5a",
+      "bytes": 5098
+    },
+    "assets/data/builtin-world/generated/v1/countries/BTN-sha256-5733145fad178b6b1e2c33fa4d6eaa01adf942acfa971fc3595986f78040a684.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/BTN-sha256-5733145fad178b6b1e2c33fa4d6eaa01adf942acfa971fc3595986f78040a684.json.gz",
+      "encoding": "identity",
+      "sha256": "5733145fad178b6b1e2c33fa4d6eaa01adf942acfa971fc3595986f78040a684",
+      "bytes": 1353
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-951f0fb2be159988900e602d5f49ce20aeaef251f0f781f8f50931e24746a77a.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-951f0fb2be159988900e602d5f49ce20aeaef251f0f781f8f50931e24746a77a.json.gz",
+      "encoding": "identity",
+      "sha256": "951f0fb2be159988900e602d5f49ce20aeaef251f0f781f8f50931e24746a77a",
+      "bytes": 395208
+    },
+    "assets/data/builtin-world/generated/v1/countries/CHL-sha256-a9d5d067c022df1f741765bbd08c4ab5c7b80e35809437751edbe98d53becbdf.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/CHL-sha256-a9d5d067c022df1f741765bbd08c4ab5c7b80e35809437751edbe98d53becbdf.json.gz",
+      "encoding": "identity",
+      "sha256": "a9d5d067c022df1f741765bbd08c4ab5c7b80e35809437751edbe98d53becbdf",
+      "bytes": 1356
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-e58ecd36e3c98e8250dc1afdb3cbb7bb0eb1ec768ea7c8753905c1dac31456f8.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-e58ecd36e3c98e8250dc1afdb3cbb7bb0eb1ec768ea7c8753905c1dac31456f8.json.gz",
+      "encoding": "identity",
+      "sha256": "e58ecd36e3c98e8250dc1afdb3cbb7bb0eb1ec768ea7c8753905c1dac31456f8",
+      "bytes": 214915
+    },
+    "assets/data/builtin-world/generated/v1/countries/CHN-sha256-14c05361e575ea58e9fa9213af36d386f171474a030e5b845e68c896f8751299.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/CHN-sha256-14c05361e575ea58e9fa9213af36d386f171474a030e5b845e68c896f8751299.json.gz",
+      "encoding": "identity",
+      "sha256": "14c05361e575ea58e9fa9213af36d386f171474a030e5b845e68c896f8751299",
+      "bytes": 1838
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-55064cdcef62d61ea4485a80ef0b933ea8ce270309da82333daf6f7be35a5a3f.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-55064cdcef62d61ea4485a80ef0b933ea8ce270309da82333daf6f7be35a5a3f.json.gz",
+      "encoding": "identity",
+      "sha256": "55064cdcef62d61ea4485a80ef0b933ea8ce270309da82333daf6f7be35a5a3f",
+      "bytes": 47380
+    },
+    "assets/data/builtin-world/generated/v1/countries/COD-sha256-6b07a28bc43b561e6cde977e37cf2d2e56b435952deb78bfe57d93b8f5a0d6c3.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/COD-sha256-6b07a28bc43b561e6cde977e37cf2d2e56b435952deb78bfe57d93b8f5a0d6c3.json.gz",
+      "encoding": "identity",
+      "sha256": "6b07a28bc43b561e6cde977e37cf2d2e56b435952deb78bfe57d93b8f5a0d6c3",
+      "bytes": 2225
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-45b393a6f56829efdcd443458c1d5100b003fe6041b67cb0a228f31d07c7a559.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-45b393a6f56829efdcd443458c1d5100b003fe6041b67cb0a228f31d07c7a559.json.gz",
+      "encoding": "identity",
+      "sha256": "45b393a6f56829efdcd443458c1d5100b003fe6041b67cb0a228f31d07c7a559",
+      "bytes": 30477
+    },
+    "assets/data/builtin-world/generated/v1/countries/COG-sha256-cd3d58b0b33f4394cd043f26ec982980580e0f80208d77446b285d06f31d7923.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/COG-sha256-cd3d58b0b33f4394cd043f26ec982980580e0f80208d77446b285d06f31d7923.json.gz",
+      "encoding": "identity",
+      "sha256": "cd3d58b0b33f4394cd043f26ec982980580e0f80208d77446b285d06f31d7923",
+      "bytes": 1361
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-762658b82ffb11416fea5898c2ab5a98b77188b5017720d093d19ad4c9ec209f.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-762658b82ffb11416fea5898c2ab5a98b77188b5017720d093d19ad4c9ec209f.json.gz",
+      "encoding": "identity",
+      "sha256": "762658b82ffb11416fea5898c2ab5a98b77188b5017720d093d19ad4c9ec209f",
+      "bytes": 42197
+    },
+    "assets/data/builtin-world/generated/v1/countries/DEU-sha256-b532da3f25ff1683b252308e58da98889154e8d5b0c6e25b6a407f3da53ac0f0.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/DEU-sha256-b532da3f25ff1683b252308e58da98889154e8d5b0c6e25b6a407f3da53ac0f0.json.gz",
+      "encoding": "identity",
+      "sha256": "b532da3f25ff1683b252308e58da98889154e8d5b0c6e25b6a407f3da53ac0f0",
+      "bytes": 4921
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-b3fdcb0676c44d6ac1b170194a4d000396528283da8c951b333d65ac28fd1f14.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-b3fdcb0676c44d6ac1b170194a4d000396528283da8c951b333d65ac28fd1f14.json.gz",
+      "encoding": "identity",
+      "sha256": "b3fdcb0676c44d6ac1b170194a4d000396528283da8c951b333d65ac28fd1f14",
+      "bytes": 94918
+    },
+    "assets/data/builtin-world/generated/v1/countries/FIN-sha256-fb02a07a340c2253ee7220634abb1bc455871c541ef3bd131ef86b68ab3826dc.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/FIN-sha256-fb02a07a340c2253ee7220634abb1bc455871c541ef3bd131ef86b68ab3826dc.json.gz",
+      "encoding": "identity",
+      "sha256": "fb02a07a340c2253ee7220634abb1bc455871c541ef3bd131ef86b68ab3826dc",
+      "bytes": 1482
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-e025177cf305d479bc9e67cfa4d7b6e456601e5d2b5e5695b953ca694d99adae.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-e025177cf305d479bc9e67cfa4d7b6e456601e5d2b5e5695b953ca694d99adae.json.gz",
+      "encoding": "identity",
+      "sha256": "e025177cf305d479bc9e67cfa4d7b6e456601e5d2b5e5695b953ca694d99adae",
+      "bytes": 148480
+    },
+    "assets/data/builtin-world/generated/v1/countries/IND-sha256-02ca2871be9326eedffec5b9a9792f9264d1f2b53cbf6bfe71fd2163a5c7bd68.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/IND-sha256-02ca2871be9326eedffec5b9a9792f9264d1f2b53cbf6bfe71fd2163a5c7bd68.json.gz",
+      "encoding": "identity",
+      "sha256": "02ca2871be9326eedffec5b9a9792f9264d1f2b53cbf6bfe71fd2163a5c7bd68",
+      "bytes": 1358
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-597ba68b08dded0cc02858a8e0e86385454a4cc69f106a77e055a64996ed1863.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-597ba68b08dded0cc02858a8e0e86385454a4cc69f106a77e055a64996ed1863.json.gz",
+      "encoding": "identity",
+      "sha256": "597ba68b08dded0cc02858a8e0e86385454a4cc69f106a77e055a64996ed1863",
+      "bytes": 40647
+    },
+    "assets/data/builtin-world/generated/v1/countries/IRN-sha256-5a66e8961d9d2e867f3857d8e1935b2f5c26f93c648705ac3da9c1cde98ccdf6.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/IRN-sha256-5a66e8961d9d2e867f3857d8e1935b2f5c26f93c648705ac3da9c1cde98ccdf6.json.gz",
+      "encoding": "identity",
+      "sha256": "5a66e8961d9d2e867f3857d8e1935b2f5c26f93c648705ac3da9c1cde98ccdf6",
+      "bytes": 5636
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-ac0e72aa400620687fdde8b7f0eab231ab2cf3e3ebd5113cb26c74d78a49c729.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-ac0e72aa400620687fdde8b7f0eab231ab2cf3e3ebd5113cb26c74d78a49c729.json.gz",
+      "encoding": "identity",
+      "sha256": "ac0e72aa400620687fdde8b7f0eab231ab2cf3e3ebd5113cb26c74d78a49c729",
+      "bytes": 10746
+    },
+    "assets/data/builtin-world/generated/v1/countries/IRQ-sha256-409b839aab9fdcffa27d8da426a4cb5a8d272011fb218d4bcd7374ced45c4e2f.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/IRQ-sha256-409b839aab9fdcffa27d8da426a4cb5a8d272011fb218d4bcd7374ced45c4e2f.json.gz",
+      "encoding": "identity",
+      "sha256": "409b839aab9fdcffa27d8da426a4cb5a8d272011fb218d4bcd7374ced45c4e2f",
+      "bytes": 9561
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-8afe7ec1758c8ba2fb3b30d75d5fdb166f1ffc9c5ce49baa9a91cffeba933935.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-8afe7ec1758c8ba2fb3b30d75d5fdb166f1ffc9c5ce49baa9a91cffeba933935.json.gz",
+      "encoding": "identity",
+      "sha256": "8afe7ec1758c8ba2fb3b30d75d5fdb166f1ffc9c5ce49baa9a91cffeba933935",
+      "bytes": 5898
+    },
+    "assets/data/builtin-world/generated/v1/countries/ISR-sha256-2a9c9b4e088cc1de9b1c0f4edae7356c469c34c8f76a079e5a18d3b5b322354b.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/ISR-sha256-2a9c9b4e088cc1de9b1c0f4edae7356c469c34c8f76a079e5a18d3b5b322354b.json.gz",
+      "encoding": "identity",
+      "sha256": "2a9c9b4e088cc1de9b1c0f4edae7356c469c34c8f76a079e5a18d3b5b322354b",
+      "bytes": 1354
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-dafa1a230924b29510b2a6a78abdad9b3e6b6ce8bf6ee0cc9d13287af371c77e.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-dafa1a230924b29510b2a6a78abdad9b3e6b6ce8bf6ee0cc9d13287af371c77e.json.gz",
+      "encoding": "identity",
+      "sha256": "dafa1a230924b29510b2a6a78abdad9b3e6b6ce8bf6ee0cc9d13287af371c77e",
+      "bytes": 45611
+    },
+    "assets/data/builtin-world/generated/v1/countries/ITA-sha256-34e26249a68c83b12c6c2f75ccc9b6e6c37efa0f167afb2ea2a7a36ad02547df.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/ITA-sha256-34e26249a68c83b12c6c2f75ccc9b6e6c37efa0f167afb2ea2a7a36ad02547df.json.gz",
+      "encoding": "identity",
+      "sha256": "34e26249a68c83b12c6c2f75ccc9b6e6c37efa0f167afb2ea2a7a36ad02547df",
+      "bytes": 2974
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-b9bde82da8a7de2be634cc48788503c7f762b8be44d6fbb1cce57953673b16e7.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-b9bde82da8a7de2be634cc48788503c7f762b8be44d6fbb1cce57953673b16e7.json.gz",
+      "encoding": "identity",
+      "sha256": "b9bde82da8a7de2be634cc48788503c7f762b8be44d6fbb1cce57953673b16e7",
+      "bytes": 49654
+    },
+    "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-7dc71a310ad45572956336cecc444f5a805a9349de8b5dcf04ee4a907b3147a9.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/KAZ-sha256-7dc71a310ad45572956336cecc444f5a805a9349de8b5dcf04ee4a907b3147a9.json.gz",
+      "encoding": "identity",
+      "sha256": "7dc71a310ad45572956336cecc444f5a805a9349de8b5dcf04ee4a907b3147a9",
+      "bytes": 1787
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-390a68f9b45e748983ae97dec5c02e083a7644c289dfa35238b59910e5b5dbf2.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-390a68f9b45e748983ae97dec5c02e083a7644c289dfa35238b59910e5b5dbf2.json.gz",
+      "encoding": "identity",
+      "sha256": "390a68f9b45e748983ae97dec5c02e083a7644c289dfa35238b59910e5b5dbf2",
+      "bytes": 11214
+    },
+    "assets/data/builtin-world/generated/v1/countries/KEN-sha256-88428d43697cde4459a67d98b9c6221f9f3616396834322eb892eb4d3b2aa6ba.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/KEN-sha256-88428d43697cde4459a67d98b9c6221f9f3616396834322eb892eb4d3b2aa6ba.json.gz",
+      "encoding": "identity",
+      "sha256": "88428d43697cde4459a67d98b9c6221f9f3616396834322eb892eb4d3b2aa6ba",
+      "bytes": 1362
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-6cfafd03bd414ef0f326c8c2ba9d67b2dc781499669aa88f118fca5e5674a27e.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-6cfafd03bd414ef0f326c8c2ba9d67b2dc781499669aa88f118fca5e5674a27e.json.gz",
+      "encoding": "identity",
+      "sha256": "6cfafd03bd414ef0f326c8c2ba9d67b2dc781499669aa88f118fca5e5674a27e",
+      "bytes": 21803
+    },
+    "assets/data/builtin-world/generated/v1/countries/KGZ-sha256-cd6373e5720c7be66e813df8f6392a6651a003d648bcbeaa9e3154d10cb33d83.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/KGZ-sha256-cd6373e5720c7be66e813df8f6392a6651a003d648bcbeaa9e3154d10cb33d83.json.gz",
+      "encoding": "identity",
+      "sha256": "cd6373e5720c7be66e813df8f6392a6651a003d648bcbeaa9e3154d10cb33d83",
+      "bytes": 8987
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-d0160f94a176c6d6d6e87ce16c62bba1a11d98b0975aad861e4a54f279665d7d.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-d0160f94a176c6d6d6e87ce16c62bba1a11d98b0975aad861e4a54f279665d7d.json.gz",
+      "encoding": "identity",
+      "sha256": "d0160f94a176c6d6d6e87ce16c62bba1a11d98b0975aad861e4a54f279665d7d",
+      "bytes": 46472
+    },
+    "assets/data/builtin-world/generated/v1/countries/KOR-sha256-eaec6b0837ccbacd60c327292b58bb7fb644a7e010ee78adbd119cfa0ef48874.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/KOR-sha256-eaec6b0837ccbacd60c327292b58bb7fb644a7e010ee78adbd119cfa0ef48874.json.gz",
+      "encoding": "identity",
+      "sha256": "eaec6b0837ccbacd60c327292b58bb7fb644a7e010ee78adbd119cfa0ef48874",
+      "bytes": 2023
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-717a10501a9733e2288490dd0bafbf2c7b43735940f4edd65391f6ba5e7f00ec.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-717a10501a9733e2288490dd0bafbf2c7b43735940f4edd65391f6ba5e7f00ec.json.gz",
+      "encoding": "identity",
+      "sha256": "717a10501a9733e2288490dd0bafbf2c7b43735940f4edd65391f6ba5e7f00ec",
+      "bytes": 3111
+    },
+    "assets/data/builtin-world/generated/v1/countries/LBN-sha256-7147a1f09eaed75ff9927c73fac12cd68e32edbd5b95ddf6936bc9b7afe9298e.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/LBN-sha256-7147a1f09eaed75ff9927c73fac12cd68e32edbd5b95ddf6936bc9b7afe9298e.json.gz",
+      "encoding": "identity",
+      "sha256": "7147a1f09eaed75ff9927c73fac12cd68e32edbd5b95ddf6936bc9b7afe9298e",
+      "bytes": 1361
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-f5e29a1f40ae01d2af9db3bc9292b753e3aa627f7773649afdc46d650e837d21.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-f5e29a1f40ae01d2af9db3bc9292b753e3aa627f7773649afdc46d650e837d21.json.gz",
+      "encoding": "identity",
+      "sha256": "f5e29a1f40ae01d2af9db3bc9292b753e3aa627f7773649afdc46d650e837d21",
+      "bytes": 5874
+    },
+    "assets/data/builtin-world/generated/v1/countries/LUX-sha256-b204a97370e6866a7ed59f14f50104ba1f66af65e6de6f7793703e941525c8bd.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/LUX-sha256-b204a97370e6866a7ed59f14f50104ba1f66af65e6de6f7793703e941525c8bd.json.gz",
+      "encoding": "identity",
+      "sha256": "b204a97370e6866a7ed59f14f50104ba1f66af65e6de6f7793703e941525c8bd",
+      "bytes": 2977
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-f6c855fee9d5477879972a0adf0fbab3ca88399ff53a356803ebbe3949df9dde.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-f6c855fee9d5477879972a0adf0fbab3ca88399ff53a356803ebbe3949df9dde.json.gz",
+      "encoding": "identity",
+      "sha256": "f6c855fee9d5477879972a0adf0fbab3ca88399ff53a356803ebbe3949df9dde",
+      "bytes": 17826
+    },
+    "assets/data/builtin-world/generated/v1/countries/MAR-sha256-c2c3bf04066f275ca983414faa717f1992859ce052c5fe90b9d3af9a3f527fb7.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/MAR-sha256-c2c3bf04066f275ca983414faa717f1992859ce052c5fe90b9d3af9a3f527fb7.json.gz",
+      "encoding": "identity",
+      "sha256": "c2c3bf04066f275ca983414faa717f1992859ce052c5fe90b9d3af9a3f527fb7",
+      "bytes": 1483
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-0a3f3305fce364c09c9bdcf689082fb779c26a223f592353de58b15df8f9f827.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-0a3f3305fce364c09c9bdcf689082fb779c26a223f592353de58b15df8f9f827.json.gz",
+      "encoding": "identity",
+      "sha256": "0a3f3305fce364c09c9bdcf689082fb779c26a223f592353de58b15df8f9f827",
+      "bytes": 63389
+    },
+    "assets/data/builtin-world/generated/v1/countries/MYS-sha256-c337bc4aede5f85ed6683e03bdc9f98bbd026af87655939570bd21d7a0ca48e4.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/MYS-sha256-c337bc4aede5f85ed6683e03bdc9f98bbd026af87655939570bd21d7a0ca48e4.json.gz",
+      "encoding": "identity",
+      "sha256": "c337bc4aede5f85ed6683e03bdc9f98bbd026af87655939570bd21d7a0ca48e4",
+      "bytes": 1360
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-afb8963f5ee56588566cfac42e6bb532cc430010aea2ef04deb4421f02f8cfdc.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-afb8963f5ee56588566cfac42e6bb532cc430010aea2ef04deb4421f02f8cfdc.json.gz",
+      "encoding": "identity",
+      "sha256": "afb8963f5ee56588566cfac42e6bb532cc430010aea2ef04deb4421f02f8cfdc",
+      "bytes": 2722
+    },
+    "assets/data/builtin-world/generated/v1/countries/PSX-sha256-b5991abc9e6d3b0bb4fabd9a4d57c38314d3884fcdddb6d30daf9526a613cd0b.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/PSX-sha256-b5991abc9e6d3b0bb4fabd9a4d57c38314d3884fcdddb6d30daf9526a613cd0b.json.gz",
+      "encoding": "identity",
+      "sha256": "b5991abc9e6d3b0bb4fabd9a4d57c38314d3884fcdddb6d30daf9526a613cd0b",
+      "bytes": 1359
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-be3b92c56865aee72a0e3361ee4d11fbc4c79104dcd003bba383f523ba06ffe0.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-be3b92c56865aee72a0e3361ee4d11fbc4c79104dcd003bba383f523ba06ffe0.json.gz",
+      "encoding": "identity",
+      "sha256": "be3b92c56865aee72a0e3361ee4d11fbc4c79104dcd003bba383f523ba06ffe0",
+      "bytes": 21099
+    },
+    "assets/data/builtin-world/generated/v1/countries/ROU-sha256-0aafe65689f1b656662b4b778f968610178cafe92a3fff4d18b89c7316247272.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/ROU-sha256-0aafe65689f1b656662b4b778f968610178cafe92a3fff4d18b89c7316247272.json.gz",
+      "encoding": "identity",
+      "sha256": "0aafe65689f1b656662b4b778f968610178cafe92a3fff4d18b89c7316247272",
+      "bytes": 2950
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-d3a8bd07865cecbf0c40c164e66104ac0500fa7aff014a40acd3fe872769f351.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-d3a8bd07865cecbf0c40c164e66104ac0500fa7aff014a40acd3fe872769f351.json.gz",
+      "encoding": "identity",
+      "sha256": "d3a8bd07865cecbf0c40c164e66104ac0500fa7aff014a40acd3fe872769f351",
+      "bytes": 902520
+    },
+    "assets/data/builtin-world/generated/v1/countries/RUS-sha256-7f99fc3132e89753d3511f1142b1ba5b9a1148ea6ada9857d8bcfd22b16331aa.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/RUS-sha256-7f99fc3132e89753d3511f1142b1ba5b9a1148ea6ada9857d8bcfd22b16331aa.json.gz",
+      "encoding": "identity",
+      "sha256": "7f99fc3132e89753d3511f1142b1ba5b9a1148ea6ada9857d8bcfd22b16331aa",
+      "bytes": 1772
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-32a04e7a8ae3853ab83bbf2a04ad39ea1fd122b9d06014c98559457008be0175.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-32a04e7a8ae3853ab83bbf2a04ad39ea1fd122b9d06014c98559457008be0175.json.gz",
+      "encoding": "identity",
+      "sha256": "32a04e7a8ae3853ab83bbf2a04ad39ea1fd122b9d06014c98559457008be0175",
+      "bytes": 15563
+    },
+    "assets/data/builtin-world/generated/v1/countries/SDS-sha256-014538a68572509345470fb2e479778f3846416d42946b34784de2641574a79e.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/SDS-sha256-014538a68572509345470fb2e479778f3846416d42946b34784de2641574a79e.json.gz",
+      "encoding": "identity",
+      "sha256": "014538a68572509345470fb2e479778f3846416d42946b34784de2641574a79e",
+      "bytes": 1779
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-bd0feb6df19c5d8e824069e35be568e0513985be5ccad1d76311698027351e53.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-bd0feb6df19c5d8e824069e35be568e0513985be5ccad1d76311698027351e53.json.gz",
+      "encoding": "identity",
+      "sha256": "bd0feb6df19c5d8e824069e35be568e0513985be5ccad1d76311698027351e53",
+      "bytes": 8074
+    },
+    "assets/data/builtin-world/generated/v1/countries/SYR-sha256-087cb73a79d7e974c4297e23d99c0f63b9a438b90ea7fb272f03f1c54a824dd4.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/SYR-sha256-087cb73a79d7e974c4297e23d99c0f63b9a438b90ea7fb272f03f1c54a824dd4.json.gz",
+      "encoding": "identity",
+      "sha256": "087cb73a79d7e974c4297e23d99c0f63b9a438b90ea7fb272f03f1c54a824dd4",
+      "bytes": 2380
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-303a10b44a068dfd0e06eb3b6bd869a770bde6dc0ace0869e4fa55bf7f2be59a.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-303a10b44a068dfd0e06eb3b6bd869a770bde6dc0ace0869e4fa55bf7f2be59a.json.gz",
+      "encoding": "identity",
+      "sha256": "303a10b44a068dfd0e06eb3b6bd869a770bde6dc0ace0869e4fa55bf7f2be59a",
+      "bytes": 18822
+    },
+    "assets/data/builtin-world/generated/v1/countries/TJK-sha256-04732b94ad531ae5333fc90fb1030f19b3f4acc0f03330bdc589818ca93ac33c.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/TJK-sha256-04732b94ad531ae5333fc90fb1030f19b3f4acc0f03330bdc589818ca93ac33c.json.gz",
+      "encoding": "identity",
+      "sha256": "04732b94ad531ae5333fc90fb1030f19b3f4acc0f03330bdc589818ca93ac33c",
+      "bytes": 1537
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-d628e8ea8edabd5b08ed3c698e8f04a67289dd4556eb2c28a62f2ed2574fc6a3.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-d628e8ea8edabd5b08ed3c698e8f04a67289dd4556eb2c28a62f2ed2574fc6a3.json.gz",
+      "encoding": "identity",
+      "sha256": "d628e8ea8edabd5b08ed3c698e8f04a67289dd4556eb2c28a62f2ed2574fc6a3",
+      "bytes": 19961
+    },
+    "assets/data/builtin-world/generated/v1/countries/TKM-sha256-9967e2dcdd52ee65a7ba61640c57d89622c04fd834b6c9cbe1fbc0ead33cb723.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/TKM-sha256-9967e2dcdd52ee65a7ba61640c57d89622c04fd834b6c9cbe1fbc0ead33cb723.json.gz",
+      "encoding": "identity",
+      "sha256": "9967e2dcdd52ee65a7ba61640c57d89622c04fd834b6c9cbe1fbc0ead33cb723",
+      "bytes": 1530
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-b2f13d39b4dc0a92648d00d1347707b36fe72043426866a95ed0841aaf5d8a0d.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-b2f13d39b4dc0a92648d00d1347707b36fe72043426866a95ed0841aaf5d8a0d.json.gz",
+      "encoding": "identity",
+      "sha256": "b2f13d39b4dc0a92648d00d1347707b36fe72043426866a95ed0841aaf5d8a0d",
+      "bytes": 637557
+    },
+    "assets/data/builtin-world/generated/v1/countries/USA-sha256-a7dd114fa73f9a6f029dcb1f2dc69373f045b9e78b029f2a9c3be6d09685c660.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/USA-sha256-a7dd114fa73f9a6f029dcb1f2dc69373f045b9e78b029f2a9c3be6d09685c660.json.gz",
+      "encoding": "identity",
+      "sha256": "a7dd114fa73f9a6f029dcb1f2dc69373f045b9e78b029f2a9c3be6d09685c660",
+      "bytes": 1353
+    },
+    "assets/data/builtin-world/generated/v1/geometries/sha256-e44c14ebf015abfb25de7a0d4667e2e8a78b39b72fb6993f85d8d8cf93784c30.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/geometries/sha256-e44c14ebf015abfb25de7a0d4667e2e8a78b39b72fb6993f85d8d8cf93784c30.json.gz",
+      "encoding": "identity",
+      "sha256": "e44c14ebf015abfb25de7a0d4667e2e8a78b39b72fb6993f85d8d8cf93784c30",
+      "bytes": 70833
+    },
+    "assets/data/builtin-world/generated/v1/countries/VNM-sha256-9b58cef492b1ea00990ad6a29adae3403d2f126399c265f86a38349c719bb1dd.json.gz": {
+      "stored": "assets/data/builtin-world/generated/v1/countries/VNM-sha256-9b58cef492b1ea00990ad6a29adae3403d2f126399c265f86a38349c719bb1dd.json.gz",
+      "encoding": "identity",
+      "sha256": "9b58cef492b1ea00990ad6a29adae3403d2f126399c265f86a38349c719bb1dd",
+      "bytes": 1384
+    },
+    "assets/data/builtin-world/source/lsib-11.4-display/422bf03ddb27bdbefa2a89b731071b86a440eaf0a393b4a54cce4ba30acf2905.json.gz": {
+      "stored": "assets/data/builtin-world/.originals/422bf03ddb27bdbefa2a89b731071b86a440eaf0a393b4a54cce4ba30acf2905.bin",
+      "encoding": "identity",
+      "sha256": "422bf03ddb27bdbefa2a89b731071b86a440eaf0a393b4a54cce4ba30acf2905",
+      "bytes": 3183501
     }
   },
   "reportLayout": "subjects-v1"
