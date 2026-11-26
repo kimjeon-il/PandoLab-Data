@@ -1,0 +1,72 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+  "type": "event",
+  "title": "베스트팔렌 왕국 설치",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1807,
+    "value": "1807-08-18",
+    "precision": "day",
+    "note": "LAGIS의 왕국 설치 포고일. 국가 성립의 유력 후보이며 07-12 조약 효력과 12-07 정부 제도 시행을 별도 구분."
+  },
+  "entityKeys": [
+    "research:state:kingdom-of-westphalia"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:kingdom-of-westphalia",
+      "field": "lifetime.validFrom",
+      "summary": "나폴레옹의 1807-08-18 설치 포고; 최종 시작일 승인 보류.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:kingdom-of-westphalia",
+      "field": "name.formal",
+      "summary": "정식 명칭 Königreich Westphalen (당시 표기).",
+      "assessment": "source-reviewed",
+      "proposedValue": "Königreich Westphalen"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1807-07-09",
+      "role": "tilsit-signature"
+    },
+    {
+      "date": "1807-07-12",
+      "role": "tilsit-ratification-exchange"
+    },
+    {
+      "date": "1807-08-18",
+      "role": "establishment-decree-secondary"
+    },
+    {
+      "date": "1807-11-15",
+      "role": "constitution-announcement"
+    },
+    {
+      "date": "1807-12-07",
+      "role": "constitution-effective"
+    }
+  ],
+  "sourceIds": [
+    "SRC-429",
+    "SRC-430",
+    "SRC-431",
+    "SRC-432"
+  ],
+  "unresolved": [
+    "설치 포고 원문·라인동맹 가입 효력일·프랑스에 대한 종속 관계의 종류 및 구체 형상 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  }
+}

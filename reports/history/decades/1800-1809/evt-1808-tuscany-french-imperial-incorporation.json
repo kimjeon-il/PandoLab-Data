@@ -1,0 +1,52 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION",
+  "type": "event",
+  "title": "토스카나의 프랑스 제국 법제상 편입",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1808,
+    "value": "1808-05",
+    "precision": "month",
+    "note": "05-24 원로원 의결, 05-30 법 공포 기록. 실제 편입 효력일 원법령 확인 필요; 1807 선행 주권 양도와 별개의 국내법상 정식 편입 단계이며 신규 국가 소멸을 중복 계수하지 않음."
+  },
+  "entityKeys": [
+    "research:state:kingdom-of-etruria",
+    "state:FRA"
+  ],
+  "changes": [
+    {
+      "entityKey": "state:FRA",
+      "field": "territory.assignment",
+      "summary": "구 에트루리아의 토스카나 지역을 프랑스 제국에 정식 편입. 정확한 당시 형상과 기존 프랑스 객체 시계열 반영 여부 미확정.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1808-05-24",
+      "role": "senatus-consulte-approval"
+    },
+    {
+      "date": "1808-05-30",
+      "role": "promulgation-secondary"
+    }
+  ],
+  "sourceIds": [
+    "SRC-424",
+    "SRC-427"
+  ],
+  "unresolved": [
+    "Bulletin des lois No. 193 pp. 321-323 원본과 시행조항, 선행 주권 양도와 실제 형상 효력일, 당시 도서·비연속 영토 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  }
+}

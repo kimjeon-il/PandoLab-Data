@@ -1,0 +1,61 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1807-ETRURIA-KINGDOM-END",
+  "type": "event",
+  "title": "에트루리아 왕국 주권 양도 및 정부 종료",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1807,
+    "value": "1807",
+    "precision": "year",
+    "note": "조약상 양도와 정부 종료 사이 시차로 최종 lifetime 종료일 유보."
+  },
+  "entityKeys": [
+    "research:state:kingdom-of-etruria"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:kingdom-of-etruria",
+      "field": "lifetime.validTo",
+      "summary": "프랑스 황제에게 주권 양도, 왕국 정부가 12-10 통치권 포기.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1807-10-27",
+      "role": "fontainebleau-signature"
+    },
+    {
+      "date": "1807-11-08",
+      "role": "ratification-exchange-secondary"
+    },
+    {
+      "date": "1807-12-10",
+      "role": "government-relinquishment"
+    },
+    {
+      "date": "1807-12-12",
+      "role": "french-government-assumption"
+    }
+  ],
+  "sourceIds": [
+    "SRC-424",
+    "SRC-426",
+    "SRC-427",
+    "SRC-428"
+  ],
+  "unresolved": [
+    "비준교환 원본·섭정 선포문·정부 인수 기록 원본, 11-08과 12-10 사이 법적 주권 종료일 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  }
+}

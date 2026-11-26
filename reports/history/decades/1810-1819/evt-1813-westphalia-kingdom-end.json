@@ -1,0 +1,58 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1813-WESTPHALIA-KINGDOM-END",
+  "type": "event",
+  "title": "베스트팔렌 왕국 소멸",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1813,
+    "value": "1813",
+    "precision": "year",
+    "note": "10-01 종료 통지가 있었으나 정부가 일시 복귀; 10-26 최종 통치권 상실은 유력한 실효 종료 근거이지 법적 종료 확정일 아님."
+  },
+  "entityKeys": [
+    "research:state:kingdom-of-westphalia"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:kingdom-of-westphalia",
+      "field": "lifetime.validTo",
+      "summary": "1813년 왕국 소멸과 선행 독일 정치체 복구. 정확한 법적 종료일 유보.",
+      "assessment": "provisional"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1813-10-01",
+      "role": "end-notice-archive-cited"
+    },
+    {
+      "date": "1813-10-16",
+      "role": "temporary-government-return"
+    },
+    {
+      "date": "1813-10-26",
+      "role": "final-departure"
+    },
+    {
+      "date": "1813-11-21",
+      "role": "hessian-elector-return"
+    }
+  ],
+  "sourceIds": [
+    "SRC-433"
+  ],
+  "unresolved": [
+    "종료 통지 StadtA KS Bestand S 10 Nr. 306 원문, 각 후계 정치체 복구의 실제 효력일·영토 귀속 및 국기 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  }
+}

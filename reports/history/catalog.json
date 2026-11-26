@@ -471,7 +471,9 @@
       "entityKeys": [
         "state:FRA"
       ],
-      "eventIds": [],
+      "eventIds": [
+        "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+      ],
       "year": null,
       "research": "provisional",
       "application": "not-applied"
@@ -1177,6 +1179,39 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-KINGDOM-OF-ETRURIA",
+      "type": "entity",
+      "path": "reports/history/countries/kingdom-of-etruria.json",
+      "title": "에트루리아 왕국",
+      "entityKeys": [
+        "research:state:kingdom-of-etruria"
+      ],
+      "eventIds": [
+        "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+        "EVT-1807-ETRURIA-KINGDOM-END",
+        "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-KINGDOM-OF-WESTPHALIA",
+      "type": "entity",
+      "path": "reports/history/countries/kingdom-of-westphalia.json",
+      "title": "베스트팔렌 왕국",
+      "entityKeys": [
+        "research:state:kingdom-of-westphalia"
+      ],
+      "eventIds": [
+        "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+        "EVT-1813-WESTPHALIA-KINGDOM-END"
+      ],
+      "year": null,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-KOREAN-EMPIRE",
       "type": "entity",
       "path": "reports/history/countries/korean-empire.json",
@@ -1833,6 +1868,19 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1801-etruria-kingdom-establishment.json",
+      "title": "에트루리아 왕국 성립",
+      "entityKeys": [
+        "research:state:kingdom-of-etruria"
+      ],
+      "eventIds": [],
+      "year": 1801,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
       "type": "event",
       "path": "reports/history/decades/1800-1809/evt-1806-nassau-duchy-proclamation.json",
@@ -1869,6 +1917,59 @@
       ],
       "eventIds": [],
       "year": 1806,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1807-ETRURIA-KINGDOM-END",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1807-etruria-kingdom-end.json",
+      "title": "에트루리아 왕국 주권 양도 및 정부 종료",
+      "entityKeys": [
+        "research:state:kingdom-of-etruria"
+      ],
+      "eventIds": [],
+      "year": 1807,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1807-westphalia-kingdom-establishment.json",
+      "title": "베스트팔렌 왕국 설치",
+      "entityKeys": [
+        "research:state:kingdom-of-westphalia"
+      ],
+      "eventIds": [],
+      "year": 1807,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION",
+      "type": "event",
+      "path": "reports/history/decades/1800-1809/evt-1808-tuscany-french-imperial-incorporation.json",
+      "title": "토스카나의 프랑스 제국 법제상 편입",
+      "entityKeys": [
+        "research:state:kingdom-of-etruria",
+        "state:FRA"
+      ],
+      "eventIds": [],
+      "year": 1808,
+      "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1813-WESTPHALIA-KINGDOM-END",
+      "type": "event",
+      "path": "reports/history/decades/1810-1819/evt-1813-westphalia-kingdom-end.json",
+      "title": "베스트팔렌 왕국 소멸",
+      "entityKeys": [
+        "research:state:kingdom-of-westphalia"
+      ],
+      "eventIds": [],
+      "year": 1813,
       "research": "provisional",
       "application": "not-applied"
     },
@@ -3675,6 +3776,8 @@
       "ENT-JULIANA",
       "ENT-KENYA",
       "ENT-KGZ",
+      "ENT-KINGDOM-OF-ETRURIA",
+      "ENT-KINGDOM-OF-WESTPHALIA",
       "ENT-KOREAN-EMPIRE",
       "ENT-LAOS",
       "ENT-LESOTHO",
@@ -3716,9 +3819,14 @@
       "ENT-ZANZIBAR"
     ],
     "event": [
+      "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
       "EVT-1806-RHINE-CONFEDERATION",
       "EVT-1806-SAXONY-ROYAL-STATUS",
+      "EVT-1807-ETRURIA-KINGDOM-END",
+      "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+      "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION",
+      "EVT-1813-WESTPHALIA-KINGDOM-END",
       "EVT-1815-SAXONY-PRUSSIAN-CESSION",
       "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
       "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC",
@@ -3974,7 +4082,8 @@
       "ENT-FLAG-FIN"
     ],
     "state:FRA": [
-      "ENT-FLAG-FRA"
+      "ENT-FLAG-FRA",
+      "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
     ],
     "state:FRO": [
       "ENT-FLAG-FRO"
@@ -4150,6 +4259,17 @@
       "EVT-2025-KGZ-TJK-BORDER-SETTLEMENT",
       "EVT-2025-KGZ-TJK-UZB-TRIPOINT",
       "GEO-2025-KGZ-TJK-BORDER"
+    ],
+    "research:state:kingdom-of-etruria": [
+      "ENT-KINGDOM-OF-ETRURIA",
+      "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+      "EVT-1807-ETRURIA-KINGDOM-END",
+      "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+    ],
+    "research:state:kingdom-of-westphalia": [
+      "ENT-KINGDOM-OF-WESTPHALIA",
+      "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+      "EVT-1813-WESTPHALIA-KINGDOM-END"
     ],
     "research:state:korean-empire": [
       "ENT-KOREAN-EMPIRE",
@@ -4397,10 +4517,23 @@
     ]
   },
   "byYear": {
+    "1801": [
+      "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT"
+    ],
     "1806": [
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
       "EVT-1806-RHINE-CONFEDERATION",
       "EVT-1806-SAXONY-ROYAL-STATUS"
+    ],
+    "1807": [
+      "EVT-1807-ETRURIA-KINGDOM-END",
+      "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT"
+    ],
+    "1808": [
+      "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+    ],
+    "1813": [
+      "EVT-1813-WESTPHALIA-KINGDOM-END"
     ],
     "1815": [
       "EVT-1815-SAXONY-PRUSSIAN-CESSION"
@@ -4661,11 +4794,16 @@
   },
   "byDecade": {
     "1800-1809": [
+      "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
       "EVT-1806-RHINE-CONFEDERATION",
-      "EVT-1806-SAXONY-ROYAL-STATUS"
+      "EVT-1806-SAXONY-ROYAL-STATUS",
+      "EVT-1807-ETRURIA-KINGDOM-END",
+      "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+      "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
     ],
     "1810-1819": [
+      "EVT-1813-WESTPHALIA-KINGDOM-END",
       "EVT-1815-SAXONY-PRUSSIAN-CESSION"
     ],
     "1820-1829": [
@@ -4927,6 +5065,36 @@
         "1830-1839": [
           "EVT-1839-JULIANA-END",
           "EVT-1839-JULIANA-PROCLAMATION"
+        ]
+      }
+    },
+    "research:state:kingdom-of-etruria": {
+      "recordIds": [
+        "ENT-KINGDOM-OF-ETRURIA",
+        "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+        "EVT-1807-ETRURIA-KINGDOM-END",
+        "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+      ],
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+          "EVT-1807-ETRURIA-KINGDOM-END",
+          "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+        ]
+      }
+    },
+    "research:state:kingdom-of-westphalia": {
+      "recordIds": [
+        "ENT-KINGDOM-OF-WESTPHALIA",
+        "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+        "EVT-1813-WESTPHALIA-KINGDOM-END"
+      ],
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT"
+        ],
+        "1810-1819": [
+          "EVT-1813-WESTPHALIA-KINGDOM-END"
         ]
       }
     },
@@ -5323,9 +5491,14 @@
     },
     "state:FRA": {
       "recordIds": [
-        "ENT-FLAG-FRA"
+        "ENT-FLAG-FRA",
+        "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
       ],
-      "byDecade": {}
+      "byDecade": {
+        "1800-1809": [
+          "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+        ]
+      }
     },
     "state:FRO": {
       "recordIds": [

@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+  "type": "event",
+  "title": "에트루리아 왕국 성립",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "date": {
+    "year": 1801,
+    "value": "1801",
+    "precision": "year",
+    "note": "토스카나 양도, 설치 칙령, 왕국 정부 인수는 서로 다른 단계. 정확한 법적 시작일 유보."
+  },
+  "entityKeys": [
+    "research:state:kingdom-of-etruria"
+  ],
+  "changes": [
+    {
+      "entityKey": "research:state:kingdom-of-etruria",
+      "field": "lifetime.validFrom",
+      "summary": "1801년 토스카나를 기반으로 부르봉-파르마 왕국 설치.",
+      "assessment": "provisional"
+    },
+    {
+      "entityKey": "research:state:kingdom-of-etruria",
+      "field": "name.formal",
+      "summary": "이탈리아어 정식명 Regno di Etruria.",
+      "assessment": "source-reviewed",
+      "proposedValue": "Regno di Etruria"
+    }
+  ],
+  "evidenceDates": [
+    {
+      "date": "1801-02-09",
+      "role": "luneville-signature"
+    },
+    {
+      "date": "1801-03-16",
+      "role": "luneville-ratification-exchange"
+    },
+    {
+      "date": "1801-06-26",
+      "role": "edict-date-archive-guide"
+    },
+    {
+      "date": "1801-08-02",
+      "role": "government-assumption"
+    }
+  ],
+  "sourceIds": [
+    "SRC-424",
+    "SRC-425",
+    "SRC-427"
+  ],
+  "unresolved": [
+    "1801-03-21 아랑후에스 조약의 원문·비준, 06-26 칙령 원문, 실제 왕국 법인격 성립일 및 선행 토스카나 동일성 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  }
+}

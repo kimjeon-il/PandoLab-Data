@@ -3113,6 +3113,76 @@
       "fromReport": "GEO-LIFE-045",
       "section": "Flags of the World 통가 항목: 1875-11-04 헌법상 국기, 1866 선행 사용 가능성; 보호기간에도 같은 국기.",
       "reviewStatus": "specialist-secondary-reviewed"
+    },
+    {
+      "id": "SRC-424",
+      "url": "https://archontology.org/nations/italy/kingdom_of_etruria/01_polity.php",
+      "fromReport": "GEO-LIFE-046",
+      "section": "1801-03-16 뤼네빌 비준교환, 08-02 정부 인수, 1807-11-08 비준교환, 12-10 정부 포기/12-12 인수, 1808-05-24 의결/05-30 공포. 인용된 당시 관보·조약 원본 이미지 미열람.",
+      "reviewStatus": "specialist-secondary-reviewed"
+    },
+    {
+      "id": "SRC-425",
+      "url": "https://fr.wikisource.org/wiki/Trait%C3%A9_de_Lun%C3%A9ville",
+      "fromReport": "GEO-LIFE-046",
+      "section": "뤼네빌 조약 1801-02-09, 03-16 비준교환, 제5조 토스카나 양도. 1864 Clercq 판 전사본; 조약 원본 이미지 미열람.",
+      "reviewStatus": "legal-transcription-reviewed"
+    },
+    {
+      "id": "SRC-426",
+      "url": "https://napoleon-histoire.com/traite-et-convention-de-fontainebleau-entre-la-france-et-lespagne-prevoyant-le-partage-du-portugal-27-octobre-1807/",
+      "fromReport": "GEO-LIFE-046",
+      "section": "퐁텐블로 조약 1807-10-27 제9조 에트루리아 주권 양도, 제14조 비준교환 조건. 전사본; 비준교환 원본 미열람.",
+      "reviewStatus": "legal-transcription-reviewed"
+    },
+    {
+      "id": "SRC-427",
+      "url": "https://dgagaeta.cultura.gov.it/public/uploads/documents/PAS/5a38cef86f30b.pdf",
+      "fromReport": "GEO-LIFE-046",
+      "section": "이탈리아 국립기록원 시에나 기록원 안내서 제2권 인쇄면 250~251 부근 Governo francese: 1801-06-26 칙령, 1807-12-10 재점령, 1808-05-24 제국 편입 의결. PDF 추출문 확인; 페이지 이미지 요청은 크기 제한으로 실패, 칙령·원법령 자체 미열람.",
+      "reviewStatus": "archive-guide-text-reviewed"
+    },
+    {
+      "id": "SRC-428",
+      "url": "https://sias-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=81&RicProgetto=as-firenze&TipoPag=contesto",
+      "fromReport": "GEO-LIFE-046",
+      "section": "피렌체 국립기록원 SIAS 구 색인: 1807-10-27 조약과 12-10 왕실 퇴거. 검색 색인 본문만 확인; 직접 열기는 새 포털로 리디렉션.",
+      "reviewStatus": "archive-index-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-429",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/articles/treaty-between-prussia-and-france-tilsit-9-july-1807/",
+      "fromReport": "GEO-LIFE-046",
+      "section": "틸지트 프랑스-프로이센 조약 1807-07-09 제6~9조 왕국 설치 기반·영토 양도 및 07-12 비준교환. Fondation Napoléon 영문 전사, 원본 이미지 미열람.",
+      "reviewStatus": "legal-transcription-reviewed"
+    },
+    {
+      "id": "SRC-430",
+      "url": "https://www.lagis-hessen.de/de/subjects/browse/current/64/section/0/pageSize/40/sn/edb",
+      "fromReport": "GEO-LIFE-046",
+      "section": "헤센 역사정보시스템 LAGIS: 1807-08-18 왕국 설치 포고, 구성 영토·12-10 왕의 카셀 입성. 포고 원본 미열람.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-431",
+      "url": "https://www.lagis-hessen.de/en/subjects/browse/current/67/section/0/sn/edb",
+      "fromReport": "GEO-LIFE-046",
+      "section": "LAGIS: 1807-11-15 헌법 공표, 12-07 시행 및 정규 정부 개시. 주권 종속 성격의 보조 근거.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-432",
+      "url": "https://www.verfassungen.de/nrw/westfalen/verf07.htm",
+      "fromReport": "GEO-LIFE-046",
+      "section": "1807-12-07 헌법 공포 칙령 전사, 제1조 구성 영토, 제5조 라인동맹 및 왕국 명칭. 원 관보 이미지 미열람.",
+      "reviewStatus": "legal-transcription-reviewed"
+    },
+    {
+      "id": "SRC-433",
+      "url": "https://www.lagis-hessen.de/de/subjects/browse/current/114/section/0/sn/edb",
+      "fromReport": "GEO-LIFE-046",
+      "section": "LAGIS: 1813-10-01 종료 통지 기록, 10-16 정부 일시 복귀, 10-26 최종 퇴거, 11-21 헤센 선제후 귀환. 법적 왕국 종료일 자체는 미확정.",
+      "reviewStatus": "institutional-secondary-reviewed"
     }
   ]
 }

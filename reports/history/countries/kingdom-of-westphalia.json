@@ -1,0 +1,75 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-KINGDOM-OF-WESTPHALIA",
+  "type": "entity",
+  "title": "베스트팔렌 왕국",
+  "subject": {
+    "key": "research:state:kingdom-of-westphalia",
+    "kind": "state",
+    "displayName": "베스트팔렌 왕국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "유럽",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-27",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "provisional",
+    "validFrom": "1807",
+    "validTo": "1813",
+    "note": "1807-08-18 설치 포고, 1813-10-26 최종 실효 통치 상실 후보. 법적 정확한 시작·종료일 유보."
+  },
+  "eventIds": [
+    "EVT-1807-WESTPHALIA-KINGDOM-ESTABLISHMENT",
+    "EVT-1813-WESTPHALIA-KINGDOM-END"
+  ],
+  "sourceIds": [
+    "SRC-429",
+    "SRC-430",
+    "SRC-431",
+    "SRC-432",
+    "SRC-433"
+  ],
+  "unresolved": [
+    "라인동맹의 회원 관계와 프랑스 정치적 종속을 제품의 parent로 자동 변환하지 않음.",
+    "1807 구성 영토 및 1810 영토 재편, 1813~1815 후계 귀속·원형상, 국기 원법령/이미지 ID 미확정.",
+    "왕국 설치 포고와 종료 문서 원본, 런타임 객체 매핑 확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "76212030aff173733b959b9dd119d9bf0020b692",
+    "objectIndex": "library.json",
+    "note": "main 색인에 대응 ID 없음. 연구용 키; 실제 국가 객체·배포 핀 미승인. PandoLab work/gis 404."
+  },
+  "historicalFacts": [
+    {
+      "date": "1807-08-18",
+      "field": "lifetime.validFrom",
+      "summary": "설치 포고일 후보.",
+      "sourceIds": [
+        "SRC-430"
+      ]
+    },
+    {
+      "date": "1813-10-26",
+      "field": "lifetime.validTo",
+      "summary": "최종 실효 통치권 상실 후보; 법적 소멸일 미확정.",
+      "sourceIds": [
+        "SRC-433"
+      ]
+    }
+  ]
+}

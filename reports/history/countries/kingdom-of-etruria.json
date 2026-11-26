@@ -1,0 +1,78 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-KINGDOM-OF-ETRURIA",
+  "type": "entity",
+  "title": "에트루리아 왕국",
+  "subject": {
+    "key": "research:state:kingdom-of-etruria",
+    "kind": "state",
+    "displayName": "에트루리아 왕국",
+    "runtimeEntityId": null
+  },
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "유럽",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-27",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "provisional",
+    "validFrom": "1801",
+    "validTo": "1807",
+    "note": "실제 성립·소멸 연도. 1801-01-01로 보정하지 않음. 1801/1807 정확한 효력일, 선행 토스카나와의 동일성 보류."
+  },
+  "eventIds": [
+    "EVT-1801-ETRURIA-KINGDOM-ESTABLISHMENT",
+    "EVT-1807-ETRURIA-KINGDOM-END",
+    "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+  ],
+  "sourceIds": [
+    "SRC-424",
+    "SRC-425",
+    "SRC-426",
+    "SRC-427",
+    "SRC-428"
+  ],
+  "unresolved": [
+    "토스카나 대공국과 동일성/왕국 별도 객체 판단, 스페인·프랑스의 위성국 성격과 법적 상위관계 분리.",
+    "엘바·프레시디·피옴비노 등 정확한 영토 귀속일, 국기 종류와 실제 효력일, 역사 GIS 원본 미검증.",
+    "1801-06-26 칙령 및 1807-12-10 선포 원본, 1808-05-24/30 편입 법령 원본 확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-046",
+    "createdOn": "2026-11-27"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "76212030aff173733b959b9dd119d9bf0020b692",
+    "objectIndex": "library.json",
+    "note": "main 색인에 대응 ID 없음. 연구용 키; 실제 국가 객체·배포 핀 미승인. PandoLab work/gis 404."
+  },
+  "historicalFacts": [
+    {
+      "date": "1801-08-02",
+      "field": "name.formal",
+      "summary": "Regno di Etruria 명칭 사용 및 정부 인수 근거.",
+      "sourceIds": [
+        "SRC-424"
+      ]
+    },
+    {
+      "date": "1807-12-10",
+      "field": "lifetime.validTo",
+      "summary": "정부 포기일; 법적 종료일 후보.",
+      "sourceIds": [
+        "SRC-424",
+        "SRC-427",
+        "SRC-428"
+      ]
+    }
+  ]
+}
