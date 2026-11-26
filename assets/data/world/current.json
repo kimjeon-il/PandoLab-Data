@@ -3,15 +3,34 @@
   "schemaVersion": 1,
   "source": {
     "url": "territorial-entities/generated/current-world.geojson",
-    "sha256": "69385d6b0d7adbc6cadf8cbeee130ad3771f30f7b3c6343e3aaf3b3a3d9c4c75",
-    "countryCount": 257
+    "sha256": "b9904c42ab4f60ffc6b12674b7acdb04b5ac64a585c620b80de6a22e76f57c32",
+    "countryCount": 260
   },
   "derivation": {
-    "preview": "canonical-topology-simplified",
+    "preview": "scoped-retirement-patch",
     "previewSourceScale": "derived",
     "simplificationQuantile": 0.16,
-    "coordinateCount": 109114,
-    "meshAlgorithmRevision": 6
+    "coordinateCount": 108992,
+    "meshAlgorithmRevision": 6,
+    "scopedRetirement": {
+      "schemaVersion": 1,
+      "baselinePreview": "scoped-retirement-patch",
+      "baselineWorldSha256": "c8f2628e9f300f9c133fed976d1fa0fc401c389fd314ddc11350d0748559187f",
+      "patchReceiptSha256": "d8c5a6c03af7e9754ec5e4b6e227f479b16bda2351ff63e3d211297d4243ff88",
+      "retiredIds": [
+        "SPI"
+      ],
+      "recipientIds": [],
+      "detachedCaches": [
+        "preparedCountryScene",
+        "sharedBoundaries"
+      ],
+      "layerPreimages": {
+        "currentworld": "7a401864a908af8e3f4b3cb88985eb5f84fd614a668f9ef4a63b1a93f41685db",
+        "pcg": "a003301ba444c13132daa0f54c0c268037bbd138ddcc04969e5d73da668b031d",
+        "preview": "2c3407db4396e3f8c38b725ef9d7c06bf4fe7e13fb16e6a3279baf67a1c41ce4"
+      }
+    }
   },
   "defaultClassification": {
     "countries": {
@@ -177,9 +196,7 @@
       "GMB": "75z:5i2z6p",
       "VAT": "5a:6gzup6",
       "CYN": "3f4:dw510w",
-      "CNM": "3rq:13k46f2",
       "KAS": "o3:1cuv6ct",
-      "SPI": "rh:8t2itn",
       "BRT": "8x:1gbasa5",
       "ATA": "c0up:13y1s5o",
       "AUS": "6ysk:1ehugv7",
@@ -246,7 +263,6 @@
       "PCN",
       "PYF",
       "ATF",
-      "UMI",
       "MSR",
       "VIR",
       "BLM",
@@ -272,13 +288,19 @@
       "GUM",
       "MNP",
       "CSI",
-      "PGA",
       "CLP",
       "MAC",
       "ATC",
-      "SER",
-      "BJN",
-      "SCR"
+      "SCR",
+      "XBK",
+      "XHO",
+      "XJA",
+      "XJV",
+      "XKR",
+      "XMW",
+      "XNV",
+      "XPL",
+      "XWK"
     ],
     "units": {
       "d34b00a1-9b13-8000-8000-000000455342": {
@@ -359,11 +381,6 @@
       "d34b00a1-9b13-8000-8000-000000415446": {
         "parentId": "FRA",
         "geometry": "9g5:ja9o6q",
-        "revision": "builtin-subunits-2"
-      },
-      "d34b00a1-9b13-8000-8000-000000554d49": {
-        "parentId": "USA",
-        "geometry": "28o:g9lpvg",
         "revision": "builtin-subunits-2"
       },
       "d34b00a1-9b13-8000-8000-0000004d5352": {
@@ -491,11 +508,6 @@
         "geometry": "3n:liguu4",
         "revision": "builtin-subunits-2"
       },
-      "d34b00a1-9b13-8000-8000-000000504741": {
-        "parentId": "USA",
-        "geometry": "1un:wo6dad",
-        "revision": "builtin-subunits-2"
-      },
       "d34b00a1-9b13-8000-8000-000000434c50": {
         "parentId": "FRA",
         "geometry": "5m:1m2ents",
@@ -510,94 +522,139 @@
         "parentId": "AUS",
         "geometry": "4c:1k66bxt",
         "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-00000058424b": {
+        "parentId": "USA",
+        "geometry": "5t:1mesvls",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-00000058484f": {
+        "parentId": "USA",
+        "geometry": "6w:mzmdu2",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-000000584a41": {
+        "parentId": "USA",
+        "geometry": "81:14vsiht",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-000000584a56": {
+        "parentId": "USA",
+        "geometry": "5x:1jux8tp",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-000000584b52": {
+        "parentId": "USA",
+        "geometry": "90:2pgj4n",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-000000584d57": {
+        "parentId": "USA",
+        "geometry": "6w:1nm3tdk",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-000000584e56": {
+        "parentId": "USA",
+        "geometry": "5k:7vun7",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-00000058504c": {
+        "parentId": "USA",
+        "geometry": "7v:8n3s42",
+        "revision": "builtin-subunits-2"
+      },
+      "d34b00a1-9b13-8000-8000-00000058574b": {
+        "parentId": "USA",
+        "geometry": "6q:53pdc1",
+        "revision": "builtin-subunits-2"
       }
     }
   },
   "assets": {
-    "previewCountries": {
-      "url": "world/objects/countries-preview-sha256-d216753913ca0206c54e9c356d39aa60629ceff4109f0f386e12a70abf9266ba.geojson.gz",
-      "encoding": "gzip",
-      "sha256": "d216753913ca0206c54e9c356d39aa60629ceff4109f0f386e12a70abf9266ba",
-      "compressedBytes": 944383,
-      "decodedBytes": 2509448
-    },
-    "previewMesh": {
-      "url": "world/objects/world-mesh-preview-sha256-f62bc08d6a28e4342c8842dbc8da7f8e9e0100014dd804cb9ee99ca626aa1df1.bin.gz",
-      "encoding": "gzip",
-      "sha256": "f62bc08d6a28e4342c8842dbc8da7f8e9e0100014dd804cb9ee99ca626aa1df1",
-      "compressedBytes": 1777616,
-      "decodedBytes": 3860064,
-      "header": [
-        1129137969,
-        2,
-        257,
-        128624,
-        431205,
-        209926,
-        109114,
-        6,
-        514,
-        514,
-        1028,
-        257
-      ]
-    },
     "canonicalCountryPacket": {
-      "url": "world/objects/countries-canonical-sha256-9b135e9fc29d4b1ef908179d2f4b5284c644fa1627833212bcb98b0bae4fb975.pcg.gz",
+      "url": "world/objects/countries-canonical-sha256-e5c6791fb75793e1a6571c8740ffd2fb5f9af3d06a76a94a34d0ddbd9b8d0d9d.pcg.gz",
       "encoding": "gzip",
-      "sha256": "9b135e9fc29d4b1ef908179d2f4b5284c644fa1627833212bcb98b0bae4fb975",
-      "compressedBytes": 5119649,
-      "decodedBytes": 8824208,
+      "sha256": "e5c6791fb75793e1a6571c8740ffd2fb5f9af3d06a76a94a34d0ddbd9b8d0d9d",
+      "compressedBytes": 5115988,
+      "decodedBytes": 8817152,
       "header": [
         826753872,
         1,
-        257,
-        4273,
-        4289,
-        548334,
-        13177,
-        257,
-        258,
-        4274,
-        4290,
-        514,
+        260,
+        4253,
+        4269,
+        547894,
+        13281,
+        260,
+        261,
+        4254,
+        4270,
+        520,
         80,
-        13257,
-        13516,
-        14548,
-        31644,
-        48804,
-        50864,
-        8824208
+        13361,
+        13624,
+        14668,
+        31684,
+        48764,
+        50848,
+        8817152
       ]
     },
     "canonicalMesh": {
-      "url": "world/objects/world-mesh-sha256-a2022f05f56b1aa5a66ad28e08ec81833b0e3f1205d82c91cc356df742bc234d.bin.gz",
+      "url": "world/objects/world-mesh-sha256-5a1edfbb835cdbf61554e9f961b924c0258870578d99ed00aaf4653f9b596c93.bin.gz",
       "encoding": "gzip",
-      "sha256": "a2022f05f56b1aa5a66ad28e08ec81833b0e3f1205d82c91cc356df742bc234d",
-      "compressedBytes": 14582151,
-      "decodedBytes": 32563128,
+      "sha256": "5a1edfbb835cdbf61554e9f961b924c0258870578d99ed00aaf4653f9b596c93",
+      "compressedBytes": 14577571,
+      "decodedBytes": 32551116,
       "header": [
         1129137969,
         2,
-        257,
-        1024615,
-        4490547,
-        1086372,
-        548334,
+        260,
+        1024195,
+        4489407,
+        1085532,
+        547894,
         6,
-        514,
-        514,
-        1028,
-        257
+        520,
+        520,
+        1040,
+        260
       ]
     },
+    "previewMesh": {
+      "url": "world/objects/world-mesh-preview-sha256-b8b217bb033c98960ce55ef6052b0428cb5f33560c447ef5b7745771fd3ae3f7.bin.gz",
+      "encoding": "gzip",
+      "sha256": "b8b217bb033c98960ce55ef6052b0428cb5f33560c447ef5b7745771fd3ae3f7",
+      "compressedBytes": 1776484,
+      "decodedBytes": 3857592,
+      "header": [
+        1129137969,
+        2,
+        260,
+        128522,
+        431019,
+        209722,
+        108992,
+        6,
+        520,
+        520,
+        1040,
+        260
+      ]
+    },
+    "previewCountries": {
+      "url": "world/objects/countries-preview-sha256-a2938e6f1bec26fb254168f15768826c0d6083456aac150d84baf3d056070131.geojson.gz",
+      "encoding": "gzip",
+      "sha256": "a2938e6f1bec26fb254168f15768826c0d6083456aac150d84baf3d056070131",
+      "compressedBytes": 943866,
+      "decodedBytes": 2508709
+    },
     "labelAnchors": {
-      "url": "world/objects/country-label-anchors-sha256-177d311d00bf405691b91bf7da509235162a55292593734e93b876c2190239e7.json",
+      "url": "world/objects/country-label-anchors-sha256-ff63a8939584e674206f8979ce9d79aea807bf019e9a1099cb04f6f0d2b9c662.json",
       "encoding": "identity",
-      "sha256": "177d311d00bf405691b91bf7da509235162a55292593734e93b876c2190239e7",
-      "compressedBytes": 3396,
-      "decodedBytes": 3396
+      "sha256": "ff63a8939584e674206f8979ce9d79aea807bf019e9a1099cb04f6f0d2b9c662",
+      "compressedBytes": 3226,
+      "decodedBytes": 3226
     }
   },
   "compatibility": {

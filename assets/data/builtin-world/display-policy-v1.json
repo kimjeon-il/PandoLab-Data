@@ -63,10 +63,6 @@
       "parentId": "FRA"
     },
     {
-      "sourceCountryId": "UMI",
-      "parentId": "USA"
-    },
-    {
       "sourceCountryId": "MSR",
       "parentId": "GBR"
     },
@@ -209,7 +205,39 @@
       "lesseeCountryId": "USA"
     },
     {
-      "sourceCountryId": "PGA",
+      "sourceCountryId": "XBK",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XHO",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XJA",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XJV",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XKR",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XMW",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XNV",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XPL",
+      "parentId": "USA"
+    },
+    {
+      "sourceCountryId": "XWK",
       "parentId": "USA"
     }
   ],
@@ -222,32 +250,6 @@
         "URY"
       ],
       "disputed": true
-    },
-    {
-      "sourceId": "BJN",
-      "controller": "COL",
-      "historicalClaimants": [
-        "COL",
-        "USA",
-        "JAM",
-        "NIC"
-      ],
-      "disputed": true,
-      "adjudicatedAgainst": "NIC",
-      "judgmentYear": 2012
-    },
-    {
-      "sourceId": "SER",
-      "controller": "COL",
-      "historicalClaimants": [
-        "COL",
-        "USA",
-        "HND",
-        "NIC"
-      ],
-      "disputed": true,
-      "adjudicatedAgainst": "NIC",
-      "judgmentYear": 2012
     },
     {
       "sourceId": "SCR",
