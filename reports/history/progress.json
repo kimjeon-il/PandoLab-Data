@@ -167,8 +167,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "아프리카",
-    "nextRegion": "북아메리카",
+    "lastRegion": "북아메리카",
+    "nextRegion": "남아메리카",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -178,11 +178,11 @@
       },
       {
         "scope": "마지막 처리 지역",
-        "detail": "2025년 아프리카(2026-11-27): 소말릴란드·북동부 연방구성주, DRC–르완다, 잠비아–DRC, 아비에이 범위의 새 입력 가능 변동 미발견; 전수 미완료."
+        "detail": "2025년 북아메리카(2026-11-28): 생마르탱–신트마르턴, 한스섬, 푸에르토리코, 영국령 버진아일랜드, 자메이카에서 신규 입력 가능 변동 미발견; 전수 미완료."
       },
       {
         "scope": "다음 지역",
-        "detail": "2025년 북아메리카 재순환: 미조사 국가·속령의 국명·국기·상위관계·국제 육상경계의 법적 변동 검토; 기존 그린란드·사르스툰·사포디야 후보 중복 계수 금지. 2024년 이동 금지."
+        "detail": "2025년 남아메리카 재순환: 미조사 국가·속령의 국명·국기·상위관계·국제 육상경계 검토. 기존 산타로사·수아레스·에세키보 후보 중복 계수 금지. 2024년 이동 금지."
       },
       {
         "scope": "연도 잠금",
@@ -210,7 +210,7 @@
       },
       {
         "scope": "북아메리카 2025",
-        "detail": "2025 그린란드 편입/독립 실현 미발견, 사르스툰강·섬은 상충 주장 및 국지 군사활동, 사포디야 제도는 ICJ 소송 참가 관련 절차로서 법적 귀속 변경 확인 불가. 공식 TIGER/Line 2025 SHP ZIP은 2025-01-01 기준 기존 국제경계 지도이며 새 영토변동 증거 아님. GIS 원본 다운/CRS/해시/변환/위상/화면검사 모두 미실행. 북아메리카 전수 미완료."
+        "detail": "2025 그린란드 편입/독립 실현 미발견, 사르스툰강·섬은 상충 주장 및 국지 군사활동, 사포디야 제도는 ICJ 소송 참가 관련 절차로서 법적 귀속 변경 확인 불가. 공식 TIGER/Line 2025 SHP ZIP은 2025-01-01 기준 기존 국제경계 지도이며 새 영토변동 증거 아님. GIS 원본 다운/CRS/해시/변환/위상/화면검사 모두 미실행. 북아메리카 전수 미완료. 2차 순환: 생마르탱 2023 조약 제17조 및 한스섬 2022 조약은 2025 미발효. 푸에르토리코 투표 인증, VGB 예비명령 폐지 결정, 자메이카 공화국 법안은 실제 지위 변경 아님. IGN 2025 COG v4, CanVec 메타데이터 확인. 전수 미완료."
       },
       {
         "scope": "오세아니아 2025",
@@ -226,133 +226,150 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-27",
+    "lastReviewedOn": "2026-11-28",
     "lastReview": {
       "year": 2025,
-      "region": "아프리카",
-      "scope": "2025-01-01~2025-12-31 아프리카 2차 순환 부분 조사: 소말리아–소말릴란드 및 북동부 연방구성주, 콩고민주공화국–르완다, 잠비아–콩고민주공화국, 수단–남수단 아비에이의 실제 국가·속령 관계와 법적 육상 경계 변동 여부. 대륙 전수 아님.",
-      "finding": "변동 미발견(검토 범위 한정). 국가/속령의 새 성립·소멸·상하위관계 또는 영토 귀속 변경으로 확인된 사항 없음. 국제승인·국내 연방 행정구역·기존 경계 재확인·평화협정·군사 통제 및 미결 분쟁을 독립 사건으로 만들지 않음.",
+      "region": "북아메리카",
+      "scope": "2025-01-01~2025-12-31 북아메리카 2차 순환 부분 조사: 프랑스령 생마르탱–네덜란드령 신트마르턴, 캐나다–그린란드 한스섬, 푸에르토리코, 영국령 버진아일랜드, 자메이카의 실제 법적 육상 경계/국가·속령 지위/국명·국기 변동 여부. 기존 그린란드 독립·사르스툰·사포디야 후보는 신규 계수하지 않음. 대륙 전수 아님.",
+      "finding": "변동 미발견(검토 범위 한정). 생마르탱 및 한스섬 조약은 2025년에 발효하지 않았으며, 푸에르토리코의 투표 결과 인증, 버진아일랜드의 유보 명령 폐지 결정, 자메이카의 공화국 전환 법안은 실제 국가/속령의 새 성립·소멸·상위관계 또는 국경·국명·국기 변경이 아님.",
       "checkedCandidates": [
         {
-          "topic": "소말릴란드–소말리아",
-          "date": "2025-12-26",
-          "finding": "이스라엘 정부는 상호 승인 선언 서명을 공표했고 AU는 소말리아의 영토 보전을 재확인했다. 실제 Pando 객체 state:SOL은 1991-05-18부터 독립 방식으로 이미 존재하며 state:SOM은 1960-07-01부터 존속, 2012-08-01 이후 정식 국명 이력이 존재한다. 승인만으로 2025년 건국·새 영토양도·부모관계 변경을 기록하지 않는다.",
-          "inputAssessment": "recognition-only-existing-object",
-          "runtimeObjects": [
-            "objects/866536b4ffbd498fd9b98c73f1e53577922669a2864c5aa18ffc329d8fc14eda.json",
-            "objects/3d5c2b85473dbe2d620c0567f83f2d4e8b7944bce48a8b28841975039bf65190.json"
-          ],
-          "sourceUrls": [
-            "https://www.gov.il/en/pages/israel-recognizes-the-republic-of-somaliland-as-an-independent-and-sovereign-state-26-dec-2025",
-            "https://au.int/en/pressreleases/20251226/auc-chairperson-rejects-any-recognition-somaliland",
-            "https://www.reuters.com/world/middle-east/israel-recognises-somaliland-somalias-breakway-region-independent-state-2025-12-26/"
-          ],
-          "sourceReview": "이스라엘 정부 발표와 Reuters 검색 본문, AU 공식 HTML 직접 열람; 상호선언 서명 원본 미확보."
-        },
-        {
-          "topic": "SSC-Khaatumo/소말리아 북동부 연방구성주",
+          "topic": "생마르탱–신트마르턴 육상국경",
           "dates": [
-            "2025-07-30",
-            "2025-08-30",
-            "2025-08-31"
+            "2023-05-26",
+            "2023-06-13",
+            "2026-04-08"
           ],
-          "finding": "소말리아 내무부는 8월 31일 북동부 연방구성주 형성 완료 발표; 7월 30일 지역 헌법 채택과 8월 30일 지도부 선출 구분. 소말릴란드·푼틀란드와 귀속 주장 상충. library.json에 별도 SSC/Khaatumo 또는 북동부 국가 객체 식별되지 않음. 국내 연방구성주 형성만으로 국가·속령의 성립이나 기존 국제 경계의 법적 이전을 추정하지 않는다. 국가 객체로의 분류나 실제 귀속 변경을 확인할 독립 증거가 나올 경우만 재검토.",
-          "inputAssessment": "domestic-federal-unit-no-verified-international-transfer",
+          "finding": "2023-05-26 조약 서명, 2023-06-13 네덜란드 조약보 게재. 조약 제17조는 양측 국내 절차 완료 통지 중 마지막 통지를 받은 날의 다음 두 번째 달 1일 발효 규정. 네덜란드 조약 DB 발효일 공란, 프랑스 상원 2026-04-08 승인 법안 보고서 대조로 2025 발효 아님. 부속서 A의 Oyster Pond 15점 및 육상 392점, IGS2005 epoch 2009.0 확인; 법적 효력 시점 이전의 변경으로 기입 금지. 실제 state:MAF/SXM은 각각 FRA/NLD 상위관계, Natural Earth 5.1.1 단일 기본 형상. 효력일 확정 후 정밀 형상 대응 가능.",
+          "inputAssessment": "signed-not-in-force-in-2025",
+          "runtimeObjects": [
+            "objects/65c5b6a074f7ae05a85891cf724f552889e8441ce4bc21ce800a85daaa4bca05.json",
+            "objects/6c1641b30cab3b36aba163f129e43bbeb4fdc3ec9c5492301f6191c092a034a6.json"
+          ],
           "sourceUrls": [
-            "https://sonna.so/en/article/interior-ministry-releases-statement-on-the-finalisation-of-the-state-formation-of-the-north-eastern-state-of-somalia",
-            "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-s-6th-federal-state-sparks-hope-and-tensions-5147892"
+            "https://verdragenbank.overheid.nl/en/Treaty/Details/013951",
+            "https://zoek.officielebekendmakingen.nl/trb-2023-66.html",
+            "https://www.senat.fr/rap/l25-514/l25-5144.html"
           ],
-          "sourceReview": "SONNA 내무부 성명 HTML 직접 열람, The EastAfrican 독립 보도 검색 본문 대조. 지역 헌법 원본 및 경계도면 미확보."
+          "sourceReview": "네덜란드 조약 DB, 조약 원문 HTML 제17조와 부속서 A 일부 및 프랑스 상원 보고서 직접 열람. 좌표 전체 추출·변환, 부속 지도·2026년 후속 개정 검증 미실행."
         },
         {
-          "topic": "콩고민주공화국–르완다",
+          "topic": "캐나다–덴마크/그린란드 Tartupaluk(Hans Island)",
           "dates": [
-            "2025-06-27",
-            "2025-08-25",
-            "2025-08-29"
+            "2022-06-14",
+            "2023-12-19",
+            "2025-10-30",
+            "2026-06-16"
           ],
-          "finding": "6월 27일 평화협정, 르완다 8월 25일 비준 법률·대통령령과 8월 29일 관보 게재를 구분. 협정 제1절은 양국의 기존 영토 보전을 재확인하고 무력에 의한 침해를 금지한다. 협정의 영토 할양·새 국제경계는 확인되지 않음. 12월 4일 후속 정상 서명도 PA-X 기록상 평화 합의이며, 군사 통제를 법적 귀속 변경으로 취급하지 않음.",
-          "inputAssessment": "peace-agreement-no-territorial-transfer",
+          "finding": "2022-06-14 조약 서명과 2023-12-19 덴마크 의회 동의를 실제 효력일과 구별. 캐나다 외교부 2025-10-30 의회 브리핑 및 2026-06-16 브리핑에서도 비준 전 이동·접근 문제 협의 중이라고 명시. 2025 발효·법적 섬 분할 사건으로 계수하지 않음. state:GRL은 DNK 상위관계와 기본 NE 형상 보유; state:CAN 색인 존재, 객체 본문 응답 공란으로 확인 불가.",
+          "inputAssessment": "no-effective-2025-island-transfer",
           "runtimeObjects": [
-            "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json",
-            "objects/002094a7371434f794e6717670661f13a3995f52abdae535004c3525adb89354.json"
+            "objects/129e15d66d1a8fbee343938b11399b83bf64c74573d568f608bb2f92557227a4.json"
+          ],
+          "runtimeIndexOnly": [
+            "state:CAN",
+            "state:DNK"
           ],
           "sourceUrls": [
-            "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Official_gazettes_2/_____2025_Igazeti_ya_Leta/____KANAMA-_August-_Aout/OG_n___Special_of_29.08.2025__DRC-RWANDA__Amasezerano_y_Amahoro.pdf",
-            "https://www.peaceagreements.org/agreements/2795/",
-            "https://www.un.org/sg/en/content/sg/statements/2025-06-27/secretary-generals-statement-the-signing-of-peace-agreement-between-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda-scroll-down-for-french"
+            "https://www.treaty-accord.gc.ca/details.aspx?id=105726&lang=eng&t=637917594798729110&wbdisable=true",
+            "https://www.retsinformation.dk/eli/ft/20231CB00014",
+            "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2025-10-30-faae",
+            "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2026-06-16-faae"
           ],
-          "sourceReview": "르완다 관보 원문 텍스트 및 인쇄면 9 스크린샷 직접 확인; PA-X 학술 데이터 HTML 열람, UN 발표 검색 본문 대조."
+          "sourceReview": "캐나다 조약 DB 및 2025 의회 브리핑 직접 열람. 덴마크 의회 결정 및 2026 브리핑 검색 본문 대조(덴마크 사이트 직접 열람 JS 제한). 원조약 전체 및 양국 통지일 미확보."
         },
         {
-          "topic": "잠비아–콩고민주공화국 육상 경계",
-          "date": "2025-07-01",
-          "finding": "잠비아 의회 답변은 2023년 공동위원회 계획의 Kasumbalesa 구간 기존 경계 재확인 작업이 2026년 2분기로 연기되었다고 밝힘. 2024년 의회 위원회 보고서 인쇄면 110은 Tanganyika–Mweru 및 Luapula 강 경계 작업이 1989년 조약에 기초한다고 설명. 2025년 신규 영토 이전·국제경계 효력일 미발견. 1989 조약 원문·도서별 배정 및 나머지 구획은 해당 역사 연도에서 별도로 검증할 대상.",
-          "inputAssessment": "reaffirmation-no-verified-2025-change",
+          "topic": "푸에르토리코",
+          "dates": [
+            "2024-11-05",
+            "2025-01-17"
+          ],
+          "finding": "2024년 주민투표의 2025-01-17 최종 인증에서 미국 주 편입 58.61%, 주권적 자유연합 29.57%, 독립 11.82%. 인증 원문은 의회·대통령에 대한 청원 성격임을 명시; 미국 주 편입 또는 독립의 법적 효력 없음. AP 보도도 비구속적 투표임을 확인. 실제 state:PRI의 상위 state:USA 유지.",
+          "inputAssessment": "nonbinding-referendum-no-status-change",
           "runtimeObjects": [
-            "objects/e02a9b50eced8269cf955a839e73c8a10e2200b08ce2303e7fbc93235fbddfaf.json",
-            "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json"
+            "objects/63402632a211fe83f57a4b88477a6ee1e3619b481eae77dc1a20f83796bef297.json"
           ],
           "sourceUrls": [
-            "https://pbo.parliament.gov.zm/node/12457",
-            "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THE%20COMMITTEE%20ON%20GOVERNMENT%20ASSURANCES%20FOR%20THE%20THIRD%20SESSION%20OF%20THE%20THIRTEENTH%20NATIONAL%20ASSEMBLY.pdf"
+            "https://ww2.ceepur.org/sites/ComisionEE/es-pr/Certificaciones/Certification%20of%20final%20results%20-%20Plebiscite%202024.pdf",
+            "https://apnews.com/article/84afbbfa537b23f35494df0127b20c2d"
           ],
-          "sourceReview": "2025 의회 답변 검색 본문, 2024 보고서 PDF 추출 본문 직접 열람. HTML 직접 열람 및 PDF 화면은 타임아웃; DRC 독립 정부 사료·1989 조약 원문 미확보."
+          "sourceReview": "선거위원회 인증 PDF 본문 및 1쪽 화면 직접 열람, AP 검색 본문 대조."
         },
         {
-          "topic": "수단–남수단 아비에이",
-          "date": "2025-11-14",
-          "finding": "안보리 결의 2802는 아비에이 최종 지위를 양국 협상으로 해결하도록 재확인하며 일방 변경을 부정한다. 양국 국가 객체는 기존 2011-07-09 분리 형상을 보유하며 2025 효력의 새 지위·경계 변경 없음. 현지 군사 통제와 법적 귀속 구분.",
-          "inputAssessment": "unresolved-existing-dispute",
+          "topic": "영국령 버진아일랜드",
+          "dates": [
+            "2025-09-22",
+            "2026-03-13"
+          ],
+          "finding": "2025-09-22 영국 외무장관의 헌법 정지 예비 명령 폐지 결정. 실제 정지·직접통치가 실시된 것이 아니며 2026-03-13 폐지 효력. 따라서 2025년 상위국/속령 종류 변경 없음. state:VGB 상위 state:GBR 유지.",
+          "inputAssessment": "reserve-order-not-invoked-no-dependency-change",
           "runtimeObjects": [
-            "objects/aa135232134550a98496c024a56b58a61117c7b41a6d9f6f45cff4516e0aece8.json",
-            "objects/6e5e008804b55f23883b0d202ce4f69f468376c508a385c6f960d2e946824638.json"
+            "objects/d4eb02ebdaf6aa852fd0e4e6c17426a4a58713dbe3aa20f0098c088fb18edcdb.json"
           ],
           "sourceUrls": [
-            "https://digitallibrary.un.org/record/4093196/files/S_RES_2802_%282025%29-EN.pdf",
-            "https://mandates.un.org/mandate/S/RES/2802%20%282025%29",
-            "https://peacekeeping.un.org/en/news/conflict-update-security-council-extends-peacekeeping-mission-in-abyei-in-face-of"
+            "https://bvi.org.uk/premiers-statement-on-the-lifting-of-the-order-in-council/",
+            "https://bvi.org.uk/statement-by-premier-and-minister-of-finance-honourable-natalio-d-wheatley-on-the-revocation-of-the-2022-order-in-council/",
+            "https://www.legislation.gov.uk/uksi/2026/100/contents/made",
+            "https://www.284media.com/local/2025/09/22/uk-revokes-order-in-council-after-significant-progress-on-coi-reforms/"
           ],
-          "sourceReview": "안보리 결의 PDF 추출 본문 직접 열람, 화면 403. UN 임무 레지스트리와 평화유지국 검색 본문 대조(평화유지국 직접 열람 403); 양국 독립 정부 합의문 미확보."
+          "sourceReview": "2025-09-22 영국령 버진아일랜드 총리 공식 발표 직접 열람; 2026 총리 발표, 영국 법령 목록 및 독립 지역 보도 검색 본문 대조. 영국 법령 HTML 직접 열람 실패."
+        },
+        {
+          "topic": "자메이카",
+          "dates": [
+            "2024-12-10",
+            "2026-06-10"
+          ],
+          "finding": "2024-12-10 공화국 전환 법안 제출, 2026-06-10에도 재검토 요청. 2025년 공화국 전환 발효 및 정식 국명·국기 변경 없음. 기존 국기 1962-08-06 이래 사용이라는 총리실 안내와 state:JAM 독립 국가 객체 확인. 왕정/공화정 변경 자체는 새 건국이 아님.",
+          "inputAssessment": "draft-no-effective-name-or-flag-change",
+          "runtimeObjects": [
+            "objects/148986e0e0f5f5cf78d53584b8e8b26218548062d0631c40c271b04faa00501d.json"
+          ],
+          "sourceUrls": [
+            "https://jis.gov.jm/legislation-facilitating-jamaicas-transition-to-a-republic-tabled-in-the-lower-house/",
+            "https://jis.gov.jm/justice-minister-urges-mps-to-revisit-bill-to-make-jamaica-a-republic",
+            "https://opm.gov.jm/symbols/national-flag/"
+          ],
+          "sourceReview": "자메이카 정부 발표 2024/2026 및 총리실 국기 소개 검색 본문; 2026 페이지 직접 열람 403. 법안 전문 미확보."
         }
       ],
       "historicalVectorPriority": {
         "candidates": [
           {
-            "provider": "OCHA Somalia / SODMA Open Data Portal",
-            "dataset": "Somalia COD-AB som_adm_ocha_20250108_AB_SHP.zip",
-            "format": "SHP ZIP",
-            "version": "2025-01-08 파일명, 2025-01-15 리소스 갱신",
-            "editionPublished": "2025-01-15 리소스 메타데이터; 2025-05-23 포털 메타데이터",
-            "boundaryEffectiveDate": "행정 경계 1984년 설정; 2025 법적 국제경계 효력일 아님",
-            "originalUrl": "https://data.humdata.org/dataset/ec140a63-5330-4376-a3df-c7ebf73cfc3c/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037/download/som_adm_ocha_20250108_ab_shp.zip",
-            "metadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som",
-            "resourceMetadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037",
-            "crs": "원본 CRS 미확인; Africa Albers Equal Area Conic은 권장 지도 투영으로 실제 .prj 아님",
-            "featureId": "P-code 필드 메타데이터만 확인; 개별 피처 미열람",
+            "provider": "프랑스 IGN",
+            "dataset": "ADMIN EXPRESS COG 2025 v4 (Saint-Martin 978 포함)",
+            "version": "4.0 / COG 2025",
+            "editionPublished": "제품 메타데이터 2025-05-15; 2025-05-01 공지",
+            "boundaryEffectiveDate": null,
+            "format": "GPKG",
+            "originalUrl": "https://data.geopf.fr/telechargement/resource/ADMIN-EXPRESS-COG-CARTO",
+            "metadataUrls": [
+              "https://cartes.gouv.fr/aide/fr/partenaires/ign/generalites-ign/actualites/2025-05-admin-express-v4/",
+              "https://geobretagne.fr/geonetwork/srv/api/records/IGNF_ADMIN-EXPRESS",
+              "https://inseefrlab.github.io/cartiflette/doc/01-architecture.html"
+            ],
+            "crs": "France entière WGS84G 배포 후보(문서); 실제 MAF GPKG CRS 미열람",
+            "featureId": "Saint-Martin 978은 행정 코드; 실제 cleabs/fid 미확인",
             "sharedBorderVerified": false,
-            "rights": "리소스 메타데이터 cc-by-igo; 실제 원본 및 재배포 조건 미확인",
+            "rights": "제품 메타데이터 Licence Ouverte/Open Licence 2.0 계열; 개별 원본 권리 및 재배포 미검증",
             "redistribution": "미승인",
-            "suitability": "연방구성주 경계는 행정 구조에 통합되지 않으며 2025년 7~8월 북동부 변경 이전 판본. 소말릴란드 법적 귀속·실효 지배의 증거로 사용 불가."
+            "suitability": "2025년 편집 자료 및 경계조약 발효 전 비교 후보. 2025 신규 법적 귀속의 증거가 아님. MAF 개별 고정판 다운로드 URL 미확보."
           },
           {
-            "provider": "미 국무부 Office of the Geographer and Global Issues",
-            "dataset": "Large Scale International Boundaries",
-            "version": "11.4",
-            "editionPublished": "2025-02-24",
-            "format": "SHP ZIP/GPKG",
-            "originalUrls": [
-              "https://data.geodata.state.gov/LSIB.zip",
-              "https://data.geodata.state.gov/LSIB.gpkg"
-            ],
-            "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+            "provider": "Natural Resources Canada",
+            "dataset": "CanVec Administrative Features",
+            "version": "2019 자료; 포털 기록 2025-12-22 갱신",
+            "editionPublished": "2019-03-01; 시간범위 1944-01-01~2019-01-01",
             "boundaryEffectiveDate": null,
-            "crs": "원본 미열람",
-            "featureId": "미확인",
+            "format": "SHP/FGDB",
+            "originalUrl": "https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/canvec/shp/Admin/",
+            "metadataUrl": "https://open.canada.ca/data/dataset/306e5004-534b-4110-9feb-58e3a5c3fd97",
+            "crs": "미확인",
+            "featureId": "한스섬 개별 피처 미확인",
             "sharedBorderVerified": false,
-            "rights": "개별 원본 및 제3자 저작권/재배포 조건 미확인",
+            "rights": "Open Government Licence - Canada (포털 메타데이터)",
             "redistribution": "미승인",
-            "suitability": "2025년 2월판은 검토한 후속 사건 이전 자료. 미국 정부의 법적 경계·승인 정책 반영, 실효 지배와 다를 수 있음."
+            "suitability": "메타데이터 갱신일이 자료의 효력/형상 갱신일은 아님. 2022 조약 이전 자료로 2025 신규 분할 증거 부적합. 개별 압축 파일 미확보."
           }
         ],
         "originalFileDownloaded": false,
@@ -364,13 +381,13 @@
         "visualComparisonRun": false,
         "pixel0_5CssPxRun": false,
         "redistributionCleared": false,
-        "missing": "2025년 법적으로 변경된 육상 경계의 효력시점 일치 공식 원벡터 미발견. 원본 파일·피처·공유 경계 미검사. 형상 변동 확정 전 지도 복원 미실행."
+        "missing": "두 국경 조약의 2025 발효 사실 미발견. 유효시기 일치 양측 공유 국경 벡터 및 개별 피처 미확보; IGN/CanVec 메타데이터만 확인. 발효 확정 후 해당 시기 원벡터를 우선 확보하고 부족한 부분에만 조약 부속 좌표/도면 복원 검토."
       },
       "unresolved": [
-        "아프리카 전체 국가·속령의 2025년 국명·국기·관계·경계 전수 미완료.",
-        "소말릴란드–북동부 연방구성주 법적 객체 범위 및 귀속 주장과 실제 통제 구분; 새 국가·속령 사건 미확정.",
-        "잠비아–DRC 1989년 조약 원문 및 귀속 형상, 아비에이 최종 지위 합의 미확보.",
-        "Pando 및 PandoLab work/gis 404. PandoLab main AGENTS, PandoLab-Data main library.json 및 7개 관련 국가 객체 원본 읽기 전용 확인."
+        "북아메리카 전체 국가·속령의 2025년 국명·국기·관계·영토 변동 전수조사 미완료.",
+        "생마르탱 조약 제17조에 따른 실제 효력일 및 2026 후속 개정·양국 공유경계, 한스섬 조약의 캐나다 비준과 실제 통지일은 해당 연도에 재검토.",
+        "Pando work/gis 접근 불가(404). PandoLab main AGENTS, PandoLab-Data main library 및 관련 국가 객체 6개 원본 읽기 전용 확인. 캐나다 객체 본문 공란.",
+        "역사 벡터 실제 원본 미다운로드·피처/CRS/공유국경/재배포 미검증; 정본 승인 아님."
       ],
       "savedRecords": {
         "event": 0,
@@ -382,9 +399,166 @@
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "북아메리카"
+      "nextRegion": "남아메리카"
     },
     "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "아프리카",
+        "scope": "2025-01-01~2025-12-31 아프리카 2차 순환 부분 조사: 소말리아–소말릴란드 및 북동부 연방구성주, 콩고민주공화국–르완다, 잠비아–콩고민주공화국, 수단–남수단 아비에이의 실제 국가·속령 관계와 법적 육상 경계 변동 여부. 대륙 전수 아님.",
+        "finding": "변동 미발견(검토 범위 한정). 국가/속령의 새 성립·소멸·상하위관계 또는 영토 귀속 변경으로 확인된 사항 없음. 국제승인·국내 연방 행정구역·기존 경계 재확인·평화협정·군사 통제 및 미결 분쟁을 독립 사건으로 만들지 않음.",
+        "checkedCandidates": [
+          {
+            "topic": "소말릴란드–소말리아",
+            "date": "2025-12-26",
+            "finding": "이스라엘 정부는 상호 승인 선언 서명을 공표했고 AU는 소말리아의 영토 보전을 재확인했다. 실제 Pando 객체 state:SOL은 1991-05-18부터 독립 방식으로 이미 존재하며 state:SOM은 1960-07-01부터 존속, 2012-08-01 이후 정식 국명 이력이 존재한다. 승인만으로 2025년 건국·새 영토양도·부모관계 변경을 기록하지 않는다.",
+            "inputAssessment": "recognition-only-existing-object",
+            "runtimeObjects": [
+              "objects/866536b4ffbd498fd9b98c73f1e53577922669a2864c5aa18ffc329d8fc14eda.json",
+              "objects/3d5c2b85473dbe2d620c0567f83f2d4e8b7944bce48a8b28841975039bf65190.json"
+            ],
+            "sourceUrls": [
+              "https://www.gov.il/en/pages/israel-recognizes-the-republic-of-somaliland-as-an-independent-and-sovereign-state-26-dec-2025",
+              "https://au.int/en/pressreleases/20251226/auc-chairperson-rejects-any-recognition-somaliland",
+              "https://www.reuters.com/world/middle-east/israel-recognises-somaliland-somalias-breakway-region-independent-state-2025-12-26/"
+            ],
+            "sourceReview": "이스라엘 정부 발표와 Reuters 검색 본문, AU 공식 HTML 직접 열람; 상호선언 서명 원본 미확보."
+          },
+          {
+            "topic": "SSC-Khaatumo/소말리아 북동부 연방구성주",
+            "dates": [
+              "2025-07-30",
+              "2025-08-30",
+              "2025-08-31"
+            ],
+            "finding": "소말리아 내무부는 8월 31일 북동부 연방구성주 형성 완료 발표; 7월 30일 지역 헌법 채택과 8월 30일 지도부 선출 구분. 소말릴란드·푼틀란드와 귀속 주장 상충. library.json에 별도 SSC/Khaatumo 또는 북동부 국가 객체 식별되지 않음. 국내 연방구성주 형성만으로 국가·속령의 성립이나 기존 국제 경계의 법적 이전을 추정하지 않는다. 국가 객체로의 분류나 실제 귀속 변경을 확인할 독립 증거가 나올 경우만 재검토.",
+            "inputAssessment": "domestic-federal-unit-no-verified-international-transfer",
+            "sourceUrls": [
+              "https://sonna.so/en/article/interior-ministry-releases-statement-on-the-finalisation-of-the-state-formation-of-the-north-eastern-state-of-somalia",
+              "https://www.theeastafrican.co.ke/tea/news/east-africa/somalia-s-6th-federal-state-sparks-hope-and-tensions-5147892"
+            ],
+            "sourceReview": "SONNA 내무부 성명 HTML 직접 열람, The EastAfrican 독립 보도 검색 본문 대조. 지역 헌법 원본 및 경계도면 미확보."
+          },
+          {
+            "topic": "콩고민주공화국–르완다",
+            "dates": [
+              "2025-06-27",
+              "2025-08-25",
+              "2025-08-29"
+            ],
+            "finding": "6월 27일 평화협정, 르완다 8월 25일 비준 법률·대통령령과 8월 29일 관보 게재를 구분. 협정 제1절은 양국의 기존 영토 보전을 재확인하고 무력에 의한 침해를 금지한다. 협정의 영토 할양·새 국제경계는 확인되지 않음. 12월 4일 후속 정상 서명도 PA-X 기록상 평화 합의이며, 군사 통제를 법적 귀속 변경으로 취급하지 않음.",
+            "inputAssessment": "peace-agreement-no-territorial-transfer",
+            "runtimeObjects": [
+              "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json",
+              "objects/002094a7371434f794e6717670661f13a3995f52abdae535004c3525adb89354.json"
+            ],
+            "sourceUrls": [
+              "https://www.minijust.gov.rw/fileadmin/user_upload/Minijust/Official_gazettes_2/_____2025_Igazeti_ya_Leta/____KANAMA-_August-_Aout/OG_n___Special_of_29.08.2025__DRC-RWANDA__Amasezerano_y_Amahoro.pdf",
+              "https://www.peaceagreements.org/agreements/2795/",
+              "https://www.un.org/sg/en/content/sg/statements/2025-06-27/secretary-generals-statement-the-signing-of-peace-agreement-between-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda-scroll-down-for-french"
+            ],
+            "sourceReview": "르완다 관보 원문 텍스트 및 인쇄면 9 스크린샷 직접 확인; PA-X 학술 데이터 HTML 열람, UN 발표 검색 본문 대조."
+          },
+          {
+            "topic": "잠비아–콩고민주공화국 육상 경계",
+            "date": "2025-07-01",
+            "finding": "잠비아 의회 답변은 2023년 공동위원회 계획의 Kasumbalesa 구간 기존 경계 재확인 작업이 2026년 2분기로 연기되었다고 밝힘. 2024년 의회 위원회 보고서 인쇄면 110은 Tanganyika–Mweru 및 Luapula 강 경계 작업이 1989년 조약에 기초한다고 설명. 2025년 신규 영토 이전·국제경계 효력일 미발견. 1989 조약 원문·도서별 배정 및 나머지 구획은 해당 역사 연도에서 별도로 검증할 대상.",
+            "inputAssessment": "reaffirmation-no-verified-2025-change",
+            "runtimeObjects": [
+              "objects/e02a9b50eced8269cf955a839e73c8a10e2200b08ce2303e7fbc93235fbddfaf.json",
+              "objects/127077d68530f2dd35805c715944ed03b073e923792bede3442f089b1c8c32c0.json"
+            ],
+            "sourceUrls": [
+              "https://pbo.parliament.gov.zm/node/12457",
+              "https://www.parliament.gov.zm/sites/default/files/documents/committee_reports/REPORT%20OF%20THE%20COMMITTEE%20ON%20GOVERNMENT%20ASSURANCES%20FOR%20THE%20THIRD%20SESSION%20OF%20THE%20THIRTEENTH%20NATIONAL%20ASSEMBLY.pdf"
+            ],
+            "sourceReview": "2025 의회 답변 검색 본문, 2024 보고서 PDF 추출 본문 직접 열람. HTML 직접 열람 및 PDF 화면은 타임아웃; DRC 독립 정부 사료·1989 조약 원문 미확보."
+          },
+          {
+            "topic": "수단–남수단 아비에이",
+            "date": "2025-11-14",
+            "finding": "안보리 결의 2802는 아비에이 최종 지위를 양국 협상으로 해결하도록 재확인하며 일방 변경을 부정한다. 양국 국가 객체는 기존 2011-07-09 분리 형상을 보유하며 2025 효력의 새 지위·경계 변경 없음. 현지 군사 통제와 법적 귀속 구분.",
+            "inputAssessment": "unresolved-existing-dispute",
+            "runtimeObjects": [
+              "objects/aa135232134550a98496c024a56b58a61117c7b41a6d9f6f45cff4516e0aece8.json",
+              "objects/6e5e008804b55f23883b0d202ce4f69f468376c508a385c6f960d2e946824638.json"
+            ],
+            "sourceUrls": [
+              "https://digitallibrary.un.org/record/4093196/files/S_RES_2802_%282025%29-EN.pdf",
+              "https://mandates.un.org/mandate/S/RES/2802%20%282025%29",
+              "https://peacekeeping.un.org/en/news/conflict-update-security-council-extends-peacekeeping-mission-in-abyei-in-face-of"
+            ],
+            "sourceReview": "안보리 결의 PDF 추출 본문 직접 열람, 화면 403. UN 임무 레지스트리와 평화유지국 검색 본문 대조(평화유지국 직접 열람 403); 양국 독립 정부 합의문 미확보."
+          }
+        ],
+        "historicalVectorPriority": {
+          "candidates": [
+            {
+              "provider": "OCHA Somalia / SODMA Open Data Portal",
+              "dataset": "Somalia COD-AB som_adm_ocha_20250108_AB_SHP.zip",
+              "format": "SHP ZIP",
+              "version": "2025-01-08 파일명, 2025-01-15 리소스 갱신",
+              "editionPublished": "2025-01-15 리소스 메타데이터; 2025-05-23 포털 메타데이터",
+              "boundaryEffectiveDate": "행정 경계 1984년 설정; 2025 법적 국제경계 효력일 아님",
+              "originalUrl": "https://data.humdata.org/dataset/ec140a63-5330-4376-a3df-c7ebf73cfc3c/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037/download/som_adm_ocha_20250108_ab_shp.zip",
+              "metadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som",
+              "resourceMetadataUrl": "https://sodma-dev.okfn.org/dataset/cod-ab-som/resource/cc9ada4b-aee2-4745-ab59-98e7ef4ce037",
+              "crs": "원본 CRS 미확인; Africa Albers Equal Area Conic은 권장 지도 투영으로 실제 .prj 아님",
+              "featureId": "P-code 필드 메타데이터만 확인; 개별 피처 미열람",
+              "sharedBorderVerified": false,
+              "rights": "리소스 메타데이터 cc-by-igo; 실제 원본 및 재배포 조건 미확인",
+              "redistribution": "미승인",
+              "suitability": "연방구성주 경계는 행정 구조에 통합되지 않으며 2025년 7~8월 북동부 변경 이전 판본. 소말릴란드 법적 귀속·실효 지배의 증거로 사용 불가."
+            },
+            {
+              "provider": "미 국무부 Office of the Geographer and Global Issues",
+              "dataset": "Large Scale International Boundaries",
+              "version": "11.4",
+              "editionPublished": "2025-02-24",
+              "format": "SHP ZIP/GPKG",
+              "originalUrls": [
+                "https://data.geodata.state.gov/LSIB.zip",
+                "https://data.geodata.state.gov/LSIB.gpkg"
+              ],
+              "metadataUrl": "https://geodata.state.gov/geonetwork/srv/api/records/3bdb81a0-c1b9-439a-a0b1-85dac30c59b2",
+              "boundaryEffectiveDate": null,
+              "crs": "원본 미열람",
+              "featureId": "미확인",
+              "sharedBorderVerified": false,
+              "rights": "개별 원본 및 제3자 저작권/재배포 조건 미확인",
+              "redistribution": "미승인",
+              "suitability": "2025년 2월판은 검토한 후속 사건 이전 자료. 미국 정부의 법적 경계·승인 정책 반영, 실효 지배와 다를 수 있음."
+            }
+          ],
+          "originalFileDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "pixel0_5CssPxRun": false,
+          "redistributionCleared": false,
+          "missing": "2025년 법적으로 변경된 육상 경계의 효력시점 일치 공식 원벡터 미발견. 원본 파일·피처·공유 경계 미검사. 형상 변동 확정 전 지도 복원 미실행."
+        },
+        "unresolved": [
+          "아프리카 전체 국가·속령의 2025년 국명·국기·관계·경계 전수 미완료.",
+          "소말릴란드–북동부 연방구성주 법적 객체 범위 및 귀속 주장과 실제 통제 구분; 새 국가·속령 사건 미확정.",
+          "잠비아–DRC 1989년 조약 원문 및 귀속 형상, 아비에이 최종 지위 합의 미확보.",
+          "Pando 및 PandoLab work/gis 404. PandoLab main AGENTS, PandoLab-Data main library.json 및 7개 관련 국가 객체 원본 읽기 전용 확인."
+        ],
+        "savedRecords": {
+          "event": 0,
+          "entity": 0,
+          "geography": 0,
+          "sourceRegistry": 0,
+          "progress": 1,
+          "catalog": 0
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "북아메리카"
+      },
       {
         "year": 2025,
         "region": "아시아",
