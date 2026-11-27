@@ -1,0 +1,128 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-NEPAL",
+  "type": "entity",
+  "title": "네팔",
+  "subject": {
+    "key": "state:NPL",
+    "kind": "state",
+    "displayName": "네팔",
+    "runtimeEntityId": "state:NPL"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아시아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-28",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-date-not-final-approval",
+    "validFrom": "1768",
+    "validTo": null,
+    "note": "1768 통일을 기존 값으로 유지. 1801년 이전부터 존속, 1816 국경 조약·1923 독립 재확인·2008 공화정 모두 새 건국일로 처리하지 않음."
+  },
+  "eventIds": [
+    "EVT-1816-NEPAL-SUGAULI-CESSION",
+    "EVT-1860-NEPAL-TERAI-RESTORATION"
+  ],
+  "sourceIds": [
+    "SRC-434",
+    "SRC-435",
+    "SRC-436",
+    "SRC-437"
+  ],
+  "unresolved": [
+    "1816-12-08 반환 제안 및 12-11 수락 이후 실제 증서·효력일, 1817 시킴 귀속, 1860 인도일과 비준교환, 역사 형상 및 국기 변천 미확정.",
+    "현재 nameVersions의 2000-01-01 왕국 정식명 시작은 실제 법령일인지 추가 확인; 2008-05-28 연방민주공화국은 이미 반영."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "50ce20ff3318b25322384973c0ff736d42970214",
+    "objectPath": "objects/a90b34550abe98ba81f7d5dfc2abdee909eb870510704fb55a5c72612bb987ae.json",
+    "lifetime": {
+      "validFrom": "1768",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "nameVersions": [
+      {
+        "names": {
+          "en": {
+            "common": "Nepal"
+          },
+          "ko": {
+            "common": "네팔"
+          }
+        },
+        "validFrom": null,
+        "validTo": "1999-12-31"
+      },
+      {
+        "names": {
+          "en": {
+            "common": "Nepal",
+            "formal": "Kingdom of Nepal"
+          },
+          "ko": {
+            "common": "네팔",
+            "formal": "네팔 왕국"
+          }
+        },
+        "validFrom": "2000-01-01",
+        "validTo": "2008-05-27"
+      },
+      {
+        "names": {
+          "en": {
+            "common": "Nepal",
+            "formal": "Federal Democratic Republic of Nepal"
+          },
+          "ko": {
+            "common": "네팔",
+            "formal": "네팔 연방민주공화국"
+          }
+        },
+        "validFrom": "2008-05-28",
+        "validTo": null
+      }
+    ],
+    "geometryVersions": [
+      {
+        "validFrom": null,
+        "validTo": null,
+        "sourceId": "natural-earth-5.1.1"
+      }
+    ],
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/np.svg",
+    "note": "main 원본 열람. work/gis 404. 정본 변경 없음."
+  },
+  "historicalFacts": [
+    {
+      "date": "1816-12-11",
+      "field": "territory.assignment",
+      "summary": "부분 반환 제안 수락 확인. 원 증서와 실제 인도·경계 효력일 미확정으로 사건 파일 미생성.",
+      "sourceIds": [
+        "SRC-437"
+      ]
+    },
+    {
+      "date": "1923",
+      "field": "lifetime.validFrom",
+      "summary": "기존 독립의 재확인이지 건국일이 아님.",
+      "sourceIds": [
+        "SRC-435"
+      ]
+    }
+  ]
+}

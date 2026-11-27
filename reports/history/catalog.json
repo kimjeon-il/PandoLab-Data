@@ -503,7 +503,11 @@
         "EVT-1874-FIJI-CESSION",
         "EVT-1970-FIJI-COLONIAL-RELATION-END",
         "EVT-1900-TONGA-BRITISH-PROTECTION",
-        "EVT-1970-TONGA-PROTECTION-END"
+        "EVT-1970-TONGA-PROTECTION-END",
+        "EVT-1816-NEPAL-SUGAULI-CESSION",
+        "EVT-1860-NEPAL-TERAI-RESTORATION",
+        "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+        "EVT-1965-MALDIVES-PROTECTION-END"
       ],
       "year": null,
       "research": "source-reviewed",
@@ -1309,6 +1313,22 @@
       "application": "not-applied"
     },
     {
+      "id": "ENT-MALDIVES",
+      "type": "entity",
+      "path": "reports/history/countries/maldives.json",
+      "title": "몰디브",
+      "entityKeys": [
+        "state:MDV"
+      ],
+      "eventIds": [
+        "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+        "EVT-1965-MALDIVES-PROTECTION-END"
+      ],
+      "year": null,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "ENT-NASSAU",
       "type": "entity",
       "path": "reports/history/countries/nassau.json",
@@ -1323,6 +1343,22 @@
       ],
       "year": null,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "ENT-NEPAL",
+      "type": "entity",
+      "path": "reports/history/countries/nepal.json",
+      "title": "네팔",
+      "entityKeys": [
+        "state:NPL"
+      ],
+      "eventIds": [
+        "EVT-1816-NEPAL-SUGAULI-CESSION",
+        "EVT-1860-NEPAL-TERAI-RESTORATION"
+      ],
+      "year": null,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -1987,6 +2023,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1816-NEPAL-SUGAULI-CESSION",
+      "type": "event",
+      "path": "reports/history/decades/1810-1819/evt-1816-nepal-sugauli-cession.json",
+      "title": "수갈리 조약에 따른 네팔 영토 양도",
+      "entityKeys": [
+        "state:NPL",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1816,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
       "type": "event",
       "path": "reports/history/decades/1820-1829/evt-1823-central-america-united-provinces.json",
@@ -2145,6 +2195,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1860-NEPAL-TERAI-RESTORATION",
+      "type": "event",
+      "path": "reports/history/decades/1860-1869/evt-1860-nepal-terai-restoration.json",
+      "title": "네팔 서부 테라이 영토 반환",
+      "entityKeys": [
+        "state:NPL",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1860,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
       "type": "event",
       "path": "reports/history/decades/1860-1869/evt-1866-nassau-prussian-annexation.json",
@@ -2222,6 +2286,20 @@
       "eventIds": [],
       "year": 1879,
       "research": "provisional",
+      "application": "not-applied"
+    },
+    {
+      "id": "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+      "type": "event",
+      "path": "reports/history/decades/1880-1889/evt-1887-maldives-british-protection.json",
+      "title": "몰디브 영국 보호국화",
+      "entityKeys": [
+        "state:MDV",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1887,
+      "research": "source-reviewed",
       "application": "not-applied"
     },
     {
@@ -3260,6 +3338,20 @@
       "application": "not-applied"
     },
     {
+      "id": "EVT-1965-MALDIVES-PROTECTION-END",
+      "type": "event",
+      "path": "reports/history/decades/1960-1969/evt-1965-maldives-protection-end.json",
+      "title": "몰디브 영국 보호관계 종료 및 완전 독립",
+      "entityKeys": [
+        "state:MDV",
+        "state:GBR"
+      ],
+      "eventIds": [],
+      "year": 1965,
+      "research": "source-reviewed",
+      "application": "not-applied"
+    },
+    {
       "id": "EVT-1965-SINGAPORE-SEPARATION",
       "type": "event",
       "path": "reports/history/decades/1960-1969/evt-1965-singapore-separation.json",
@@ -3784,7 +3876,9 @@
       "ENT-LIE",
       "ENT-MALAWI",
       "ENT-MALAYSIA",
+      "ENT-MALDIVES",
       "ENT-NASSAU",
+      "ENT-NEPAL",
       "ENT-NIUE",
       "ENT-REPUBLIC-OF-TEXAS",
       "ENT-REPUBLIC-OF-YUCATAN",
@@ -3828,6 +3922,7 @@
       "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION",
       "EVT-1813-WESTPHALIA-KINGDOM-END",
       "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "EVT-1816-NEPAL-SUGAULI-CESSION",
       "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
       "EVT-1824-CENTRAL-AMERICA-FEDERAL-REPUBLIC",
       "EVT-1836-RIOGRANDENSE-PROCLAMATION",
@@ -3840,12 +3935,14 @@
       "EVT-1845-RIOGRANDENSE-PEACE",
       "EVT-1845-TEXAS-US-ADMISSION",
       "EVT-1848-YUCATAN-MEXICO-REINCORPORATION",
+      "EVT-1860-NEPAL-TERAI-RESTORATION",
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
       "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION",
       "EVT-1871-GERMAN-EMPIRE-MEMBERSHIP",
       "EVT-1872-RYUKYU-DOMAIN",
       "EVT-1874-FIJI-CESSION",
       "EVT-1879-RYUKYU-ANNEXATION",
+      "EVT-1887-MALDIVES-BRITISH-PROTECTION",
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE",
       "EVT-1890-ZANZIBAR-BRITISH-PROTECTORATE",
       "EVT-1897-KOREAN-EMPIRE-NAME",
@@ -3925,6 +4022,7 @@
       "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
       "EVT-1964-TANZANIA-FORMAL-NAME",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-MALDIVES-PROTECTION-END",
       "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
@@ -4090,8 +4188,12 @@
     ],
     "state:GBR": [
       "ENT-FLAG-GBR",
+      "EVT-1816-NEPAL-SUGAULI-CESSION",
+      "EVT-1860-NEPAL-TERAI-RESTORATION",
       "EVT-1874-FIJI-CESSION",
+      "EVT-1887-MALDIVES-BRITISH-PROTECTION",
       "EVT-1900-TONGA-BRITISH-PROTECTION",
+      "EVT-1965-MALDIVES-PROTECTION-END",
       "EVT-1970-FIJI-COLONIAL-RELATION-END",
       "EVT-1970-TONGA-PROTECTION-END"
     ],
@@ -4303,11 +4405,21 @@
       "EVT-1963-MALAYSIA-FEDERATION-ENLARGEMENT",
       "EVT-1965-SINGAPORE-SEPARATION"
     ],
+    "state:MDV": [
+      "ENT-MALDIVES",
+      "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+      "EVT-1965-MALDIVES-PROTECTION-END"
+    ],
     "research:state:nassau-duchy": [
       "ENT-NASSAU",
       "EVT-1806-NASSAU-DUCHY-PROCLAMATION",
       "EVT-1806-RHINE-CONFEDERATION",
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
+    ],
+    "state:NPL": [
+      "ENT-NEPAL",
+      "EVT-1816-NEPAL-SUGAULI-CESSION",
+      "EVT-1860-NEPAL-TERAI-RESTORATION"
     ],
     "state:NIU": [
       "ENT-NIUE",
@@ -4538,6 +4650,9 @@
     "1815": [
       "EVT-1815-SAXONY-PRUSSIAN-CESSION"
     ],
+    "1816": [
+      "EVT-1816-NEPAL-SUGAULI-CESSION"
+    ],
     "1823": [
       "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES"
     ],
@@ -4564,6 +4679,9 @@
     "1848": [
       "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
     ],
+    "1860": [
+      "EVT-1860-NEPAL-TERAI-RESTORATION"
+    ],
     "1866": [
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION"
     ],
@@ -4581,6 +4699,9 @@
     ],
     "1879": [
       "EVT-1879-RYUKYU-ANNEXATION"
+    ],
+    "1887": [
+      "EVT-1887-MALDIVES-BRITISH-PROTECTION"
     ],
     "1888": [
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
@@ -4734,6 +4855,7 @@
     ],
     "1965": [
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-MALDIVES-PROTECTION-END",
       "EVT-1965-SINGAPORE-SEPARATION"
     ],
     "1966": [
@@ -4804,7 +4926,8 @@
     ],
     "1810-1819": [
       "EVT-1813-WESTPHALIA-KINGDOM-END",
-      "EVT-1815-SAXONY-PRUSSIAN-CESSION"
+      "EVT-1815-SAXONY-PRUSSIAN-CESSION",
+      "EVT-1816-NEPAL-SUGAULI-CESSION"
     ],
     "1820-1829": [
       "EVT-1823-CENTRAL-AMERICA-UNITED-PROVINCES",
@@ -4825,6 +4948,7 @@
       "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
     ],
     "1860-1869": [
+      "EVT-1860-NEPAL-TERAI-RESTORATION",
       "EVT-1866-NASSAU-PRUSSIAN-ANNEXATION",
       "EVT-1867-SAXONY-NORTH-GERMAN-CONFEDERATION"
     ],
@@ -4835,6 +4959,7 @@
       "EVT-1879-RYUKYU-ANNEXATION"
     ],
     "1880-1889": [
+      "EVT-1887-MALDIVES-BRITISH-PROTECTION",
       "EVT-1888-BRUNEI-BRITISH-PROTECTORATE"
     ],
     "1890-1899": [
@@ -4930,6 +5055,7 @@
       "EVT-1964-TANGANYIKA-ZANZIBAR-UNION",
       "EVT-1964-TANZANIA-FORMAL-NAME",
       "EVT-1965-COOK-ISLANDS-SELF-GOVERNMENT",
+      "EVT-1965-MALDIVES-PROTECTION-END",
       "EVT-1965-SINGAPORE-SEPARATION",
       "EVT-1966-BARBADOS-INDEPENDENCE",
       "EVT-1966-LESOTHO-INDEPENDENCE",
@@ -5509,17 +5635,33 @@
     "state:GBR": {
       "recordIds": [
         "ENT-FLAG-GBR",
+        "EVT-1816-NEPAL-SUGAULI-CESSION",
+        "EVT-1860-NEPAL-TERAI-RESTORATION",
         "EVT-1874-FIJI-CESSION",
+        "EVT-1887-MALDIVES-BRITISH-PROTECTION",
         "EVT-1900-TONGA-BRITISH-PROTECTION",
+        "EVT-1965-MALDIVES-PROTECTION-END",
         "EVT-1970-FIJI-COLONIAL-RELATION-END",
         "EVT-1970-TONGA-PROTECTION-END"
       ],
       "byDecade": {
+        "1810-1819": [
+          "EVT-1816-NEPAL-SUGAULI-CESSION"
+        ],
+        "1860-1869": [
+          "EVT-1860-NEPAL-TERAI-RESTORATION"
+        ],
         "1870-1879": [
           "EVT-1874-FIJI-CESSION"
         ],
+        "1880-1889": [
+          "EVT-1887-MALDIVES-BRITISH-PROTECTION"
+        ],
         "1900-1909": [
           "EVT-1900-TONGA-BRITISH-PROTECTION"
+        ],
+        "1960-1969": [
+          "EVT-1965-MALDIVES-PROTECTION-END"
         ],
         "1970-1979": [
           "EVT-1970-FIJI-COLONIAL-RELATION-END",
@@ -5723,6 +5865,21 @@
       ],
       "byDecade": {}
     },
+    "state:MDV": {
+      "recordIds": [
+        "ENT-MALDIVES",
+        "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+        "EVT-1965-MALDIVES-PROTECTION-END"
+      ],
+      "byDecade": {
+        "1880-1889": [
+          "EVT-1887-MALDIVES-BRITISH-PROTECTION"
+        ],
+        "1960-1969": [
+          "EVT-1965-MALDIVES-PROTECTION-END"
+        ]
+      }
+    },
     "state:MEX": {
       "recordIds": [
         "EVT-1848-YUCATAN-MEXICO-REINCORPORATION"
@@ -5822,6 +5979,21 @@
         "ENT-FLAG-NORTH-SCHLESWIG"
       ],
       "byDecade": {}
+    },
+    "state:NPL": {
+      "recordIds": [
+        "ENT-NEPAL",
+        "EVT-1816-NEPAL-SUGAULI-CESSION",
+        "EVT-1860-NEPAL-TERAI-RESTORATION"
+      ],
+      "byDecade": {
+        "1810-1819": [
+          "EVT-1816-NEPAL-SUGAULI-CESSION"
+        ],
+        "1860-1869": [
+          "EVT-1860-NEPAL-TERAI-RESTORATION"
+        ]
+      }
     },
     "state:POL": {
       "recordIds": [

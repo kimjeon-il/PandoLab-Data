@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1965-MALDIVES-PROTECTION-END",
+  "type": "event",
+  "title": "몰디브 영국 보호관계 종료 및 완전 독립",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:MDV",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1965,
+    "value": "1965-07-26",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:MDV",
+      "field": "relationship.parent",
+      "summary": "이전 협정 종료 및 완전한 대외 주권 회복",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "기존 국가의 보호관계 종료이며 새 국가 성립 여부는 런타임·동일성 확인 후 결정."
+    },
+    {
+      "entityKey": "state:MDV",
+      "field": "relationship.childType",
+      "summary": "영국 보호국 지위 종료",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "기지 사용권은 제3조상 몰디브 주권을 훼손하지 않음."
+    }
+  ],
+  "sourceIds": [
+    "SRC-438",
+    "SRC-439",
+    "SRC-440",
+    "SRC-441"
+  ],
+  "unresolved": [
+    "보호국과 독립국 객체 분리 여부, 1965 국기 원법령 및 현재 runtime lifetime 원본 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "evidenceDates": [
+    {
+      "kind": "signature",
+      "value": "1965-07-26"
+    },
+    {
+      "kind": "entry-into-force",
+      "value": "1965-07-26"
+    },
+    {
+      "kind": "UN-registration",
+      "value": "1965-11-24"
+    }
+  ]
+}

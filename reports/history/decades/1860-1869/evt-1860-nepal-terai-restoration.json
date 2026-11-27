@@ -1,0 +1,54 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1860-NEPAL-TERAI-RESTORATION",
+  "type": "event",
+  "title": "네팔 서부 테라이 영토 반환",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:NPL",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1860,
+    "value": "1860",
+    "precision": "year",
+    "note": "조약 서명·영국 측 비준일과 영토 선행 인도 및 비준서 교환일 구별."
+  },
+  "changes": [
+    {
+      "entityKey": "state:NPL",
+      "field": "territory.assignment",
+      "summary": "칼리강~라프티강 및 라프티강~고라크푸르 사이 1815년 양도 저지대의 주권 반환",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:NPL",
+      "uncertainty": "조약 전문에 이미 인도되었다고 명시. 실제 인도일·비준서 교환일·형상은 미확정."
+    }
+  ],
+  "sourceIds": [
+    "SRC-435",
+    "SRC-436"
+  ],
+  "unresolved": [
+    "현대 인도에 소급 귀속하지 않음. 영국령 인도 객체 및 당시 경계 표지·원도면 확인 필요."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "evidenceDates": [
+    {
+      "kind": "signature",
+      "value": "1860-11-01"
+    },
+    {
+      "kind": "british-ratification",
+      "value": "1860-11-15"
+    }
+  ]
+}

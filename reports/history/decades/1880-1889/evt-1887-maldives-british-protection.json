@@ -1,0 +1,59 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+  "type": "event",
+  "title": "몰디브 영국 보호국화",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:MDV",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1887,
+    "value": "1887",
+    "precision": "year",
+    "note": "12월 16일 서명 후보, 실제 효력일 원협정 미확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:MDV",
+      "field": "relationship.parent",
+      "summary": "영국의 보호관계 성립",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR",
+      "uncertainty": "1887년 공식 보호국화 이전 1796년 이후 관계 및 역사 객체 매핑 미확정."
+    },
+    {
+      "entityKey": "state:MDV",
+      "field": "relationship.childType",
+      "summary": "내정 자치가 유지된 보호국",
+      "assessment": "provisional",
+      "proposedValue": "protected state",
+      "uncertainty": "정본 관계 종류의 어휘와 선행 술탄국 동일성 확인 필요."
+    }
+  ],
+  "sourceIds": [
+    "SRC-438",
+    "SRC-440",
+    "SRC-442"
+  ],
+  "unresolved": [
+    "1887년 원협정·효력일·1796~1887 보호관계 단계 및 기존 runtime 원본 확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "evidenceDates": [
+    {
+      "kind": "reported-signature",
+      "value": "1887-12-16"
+    }
+  ]
+}

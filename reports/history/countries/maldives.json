@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-MALDIVES",
+  "type": "entity",
+  "title": "몰디브",
+  "subject": {
+    "key": "state:MDV",
+    "kind": "state",
+    "displayName": "몰디브",
+    "runtimeEntityId": "state:MDV"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아시아",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-28",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "provisional",
+    "validFrom": null,
+    "validTo": null,
+    "note": "1801 이전 술탄국의 계속성 후보. 1965-07-26은 보호관계 종료일이며 자동 건국일이 아님. 기존 정본 lifetime 원본 접근 실패로 값 미제안."
+  },
+  "eventIds": [
+    "EVT-1887-MALDIVES-BRITISH-PROTECTION",
+    "EVT-1965-MALDIVES-PROTECTION-END"
+  ],
+  "sourceIds": [
+    "SRC-438",
+    "SRC-439",
+    "SRC-440",
+    "SRC-441",
+    "SRC-442"
+  ],
+  "unresolved": [
+    "1796~1887 관계, 1887-12-16 효력, 1953·1954·1968 정식 국명과 국기 원법령, 1959~1963 수바디브 정치체 별도 조사.",
+    "현 main 색인 ID 확인, 해당 객체 파일 404로 lifetime 및 반영 여부 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "50ce20ff3318b25322384973c0ff736d42970214",
+    "objectIndex": "library.json",
+    "objectPath": "objects/89c1fb0a77d20f8b03ba9bc27ae5b5733c39443ec7de4d8dbe708586a0c39959.json",
+    "note": "색인에 등록 확인, 객체 원본 404. 기존 독립일 신규 발견으로 계산하지 않음."
+  },
+  "historicalFacts": [
+    {
+      "date": "1968-11-11",
+      "field": "name.formal",
+      "summary": "제2공화국 개시; 정식 국명 원문 및 효력은 후속 확인. 별도 건국/소멸 사건 미생성.",
+      "sourceIds": [
+        "SRC-441"
+      ]
+    }
+  ]
+}

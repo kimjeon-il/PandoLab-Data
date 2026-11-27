@@ -1,0 +1,53 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1816-NEPAL-SUGAULI-CESSION",
+  "type": "event",
+  "title": "수갈리 조약에 따른 네팔 영토 양도",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:NPL",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1816,
+    "value": "1816-03-04",
+    "precision": "day"
+  },
+  "changes": [
+    {
+      "entityKey": "state:NPL",
+      "field": "territory.assignment",
+      "summary": "수갈리 조약 제2·3·5조의 저지대 양도 및 칼리강 서쪽 권원 포기",
+      "assessment": "source-reviewed",
+      "proposedValue": "British East India Company",
+      "uncertainty": "회사 통치령의 별도 객체 매핑과 실제 형상, 철수일은 미확정. 영국은 관련국이지 현대 영국 본토로의 양도가 아님."
+    }
+  ],
+  "sourceIds": [
+    "SRC-434",
+    "SRC-435"
+  ],
+  "unresolved": [
+    "원 조약본 및 1816년 전후 국경 원형상 미확보; 1816년 12월 부분 반환은 별도 후속 사건 후보."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-047",
+    "createdOn": "2026-11-28"
+  },
+  "evidenceDates": [
+    {
+      "kind": "signature",
+      "value": "1815-12-02"
+    },
+    {
+      "kind": "exchange-of-ratifications",
+      "value": "1816-03-04"
+    }
+  ]
+}
