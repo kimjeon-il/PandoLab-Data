@@ -173,8 +173,8 @@
   },
   "timeline": {
     "currentYear": 2025,
-    "lastRegion": "북아메리카",
-    "nextRegion": "남아메리카",
+    "lastRegion": "남아메리카",
+    "nextRegion": "오세아니아",
     "yearStatus": "partial-not-complete",
     "yearLock": "6개 지역 모두 조사 완료 또는 입력 가능한 변화 없음이 확인되기 전 2024년으로 이동 금지",
     "pendingCandidates": [
@@ -184,11 +184,11 @@
       },
       {
         "scope": "마지막 처리 지역",
-        "detail": "2025년 북아메리카(2026-11-28): 생마르탱–신트마르턴, 한스섬, 푸에르토리코, 영국령 버진아일랜드, 자메이카에서 신규 입력 가능 변동 미발견; 전수 미완료."
+        "detail": "2025년 남아메리카(2026-11-29): 볼리비아–파라과이 리오 네그로, 브라질–우루과이 린콘 데 아르티가스, 포클랜드·사우스조지아사우스샌드위치제도 신규 변동 미발견; 전수 미완료."
       },
       {
         "scope": "다음 지역",
-        "detail": "2025년 남아메리카 재순환: 미조사 국가·속령의 국명·국기·상위관계·국제 육상경계 검토. 기존 산타로사·수아레스·에세키보 후보 중복 계수 금지. 2024년 이동 금지."
+        "detail": "2025년 오세아니아 재순환: 미조사 국가·속령의 국명·국기·상위관계·육상 영토·도서 귀속 검토. 기존 후보 중복 계수 금지. 2024년 이동 금지."
       },
       {
         "scope": "연도 잠금",
@@ -200,7 +200,7 @@
       },
       {
         "scope": "남아메리카 2025",
-        "detail": "기존 GEO-ISLA-SUAREZ의 수아레스섬 1958 미해결 상태를 볼리비아 외교부 2025-10-23 원보도로 보강(사건 0). 새 GEO-PER-COL-SANTA-ROSA-2025는 산타로사·치네리아섬 양국 법적 주장 차이 및 IGAC 공식 REST/GeoJSON 후보(메타데이터만, 피처 미조회)를 유보 기록. 남아메리카 전수 미완료."
+        "detail": "기존 GEO-ISLA-SUAREZ의 수아레스섬 1958 미해결 상태를 볼리비아 외교부 2025-10-23 원보도로 보강(사건 0). 새 GEO-PER-COL-SANTA-ROSA-2025는 산타로사·치네리아섬 양국 법적 주장 차이 및 IGAC 공식 REST/GeoJSON 후보(메타데이터만, 피처 미조회)를 유보 기록. 남아메리카 전수 미완료. 2차 순환: 리오 네그로 기존 경계 측량, 린콘 데 아르티가스 기존 분쟁 및 포클랜드·SGSSI 기존 귀속 주장 재확인, 새 법적 변경 미발견. IBGE 2025 SHP 메타데이터 확인; 원본 검사·승인 없음."
       },
       {
         "scope": "다른 지역",
@@ -232,150 +232,114 @@
       "appliedChanges": 0
     },
     "sourceProgressSnapshot": "https://github.com/kimjeon-il/PandoLab-library/blob/3193bdd1c6de0d26f9128d1acddf254f5a7be15d/reports/borders/history/timeline/historical-timeline-yearly-progress.md",
-    "lastReviewedOn": "2026-11-28",
+    "lastReviewedOn": "2026-11-29",
     "lastReview": {
       "year": 2025,
-      "region": "북아메리카",
-      "scope": "2025-01-01~2025-12-31 북아메리카 2차 순환 부분 조사: 프랑스령 생마르탱–네덜란드령 신트마르턴, 캐나다–그린란드 한스섬, 푸에르토리코, 영국령 버진아일랜드, 자메이카의 실제 법적 육상 경계/국가·속령 지위/국명·국기 변동 여부. 기존 그린란드 독립·사르스툰·사포디야 후보는 신규 계수하지 않음. 대륙 전수 아님.",
-      "finding": "변동 미발견(검토 범위 한정). 생마르탱 및 한스섬 조약은 2025년에 발효하지 않았으며, 푸에르토리코의 투표 결과 인증, 버진아일랜드의 유보 명령 폐지 결정, 자메이카의 공화국 전환 법안은 실제 국가/속령의 새 성립·소멸·상위관계 또는 국경·국명·국기 변경이 아님.",
+      "region": "남아메리카",
+      "scope": "2025-01-01~2025-12-31 남아메리카 2차 순환 부분 조사: 볼리비아–파라과이 리오 네그로/오투키스, 브라질–우루과이 린콘 데 아르티가스, 포클랜드·사우스조지아사우스샌드위치제도 및 관련 상위국의 법적 귀속·경계 변경. 기존 산타로사·수아레스·에세키보 후보 중복 계수하지 않음. 전체 국가·속령 국명·국기 전수 아님.",
+      "finding": "변동 미발견(조사 범위 한정). 1938년 확정 경계의 측량 진척, 기존 분쟁에 관한 외교 항의, 포클랜드 등 기존 주권 주장 재확인은 2025년 새로운 법적 영토 양도·경계 변경·상위관계 변경이 아님. 신규 사건 0건.",
       "checkedCandidates": [
         {
-          "topic": "생마르탱–신트마르턴 육상국경",
+          "topic": "볼리비아–파라과이 Río Negro/Otuquis 국제경계",
           "dates": [
-            "2023-05-26",
-            "2023-06-13",
-            "2026-04-08"
+            "1938-07-21",
+            "1938-10-10",
+            "2025-10-15",
+            "2026-09-16"
           ],
-          "finding": "2023-05-26 조약 서명, 2023-06-13 네덜란드 조약보 게재. 조약 제17조는 양측 국내 절차 완료 통지 중 마지막 통지를 받은 날의 다음 두 번째 달 1일 발효 규정. 네덜란드 조약 DB 발효일 공란, 프랑스 상원 2026-04-08 승인 법안 보고서 대조로 2025 발효 아님. 부속서 A의 Oyster Pond 15점 및 육상 392점, IGS2005 epoch 2009.0 확인; 법적 효력 시점 이전의 변경으로 기입 금지. 실제 state:MAF/SXM은 각각 FRA/NLD 상위관계, Natural Earth 5.1.1 단일 기본 형상. 효력일 확정 후 정밀 형상 대응 가능.",
-          "inputAssessment": "signed-not-in-force-in-2025",
+          "finding": "파라과이 외교부 2025-10-15 발표는 기존 국경 수심측량 승인 및 3.5km 미확정 작업을 명시. 파라과이 국경위원회는 2025년 12월 완료로 서술하나 볼리비아 외교부 2026-09-16 발표는 2025년 46.5km 작업 후 2026년 잔여 3.5km 획정 완료로 설명. 양측 길이 집계도 다름. 기존 1938 조약·중재 경계를 지상/수로에서 특정하는 기술 과정이며 2025년 새로운 주권 양도·기존 법적 경계 이동을 입증하지 않음. 2026년 최종 측량 결과와 원좌표는 해당 연도에 법적 효력 검토.",
+          "inputAssessment": "existing-boundary-demarcation-no-verified-2025-transfer",
           "runtimeObjects": [
-            "objects/65c5b6a074f7ae05a85891cf724f552889e8441ce4bc21ce800a85daaa4bca05.json",
-            "objects/6c1641b30cab3b36aba163f129e43bbeb4fdc3ec9c5492301f6191c092a034a6.json"
+            "objects/98ae43c6de673a3d6b18de89dcab92a8b36424e0ebf6c7d858d61caccb88b25b.json",
+            "objects/ed7ca2dad8b319eeeb8de8c0e6fae199f490f9ded414ca112ce289e4d5265ce4.json"
           ],
           "sourceUrls": [
-            "https://verdragenbank.overheid.nl/en/Treaty/Details/013951",
-            "https://zoek.officielebekendmakingen.nl/trb-2023-66.html",
-            "https://www.senat.fr/rap/l25-514/l25-5144.html"
+            "https://www.mre.gov.py/paraguay-y-bolivia-a-punto-de-finalizar-la-demarcacion-total-de-los-limites/",
+            "https://cancilleria.gob.bo/mre/2026/09/16/26279/",
+            "https://www2.mre.gov.py/cndl/index.php/noticias/finalizacion-del-litigio-de-soberania-sobre-el-chaco-boreal-tras-173-anos-de-negociaciones-diplomaticas-y-una-guerra-internacion?ccm_order_by=cv.cvDatePublic&ccm_order_by_direction=desc&ccm_paging_p=1",
+            "https://www2.mre.gov.py/cndl/index.php/limites/bolivia"
           ],
-          "sourceReview": "네덜란드 조약 DB, 조약 원문 HTML 제17조와 부속서 A 일부 및 프랑스 상원 보고서 직접 열람. 좌표 전체 추출·변환, 부속 지도·2026년 후속 개정 검증 미실행."
+          "sourceReview": "양국 외교부 HTML 본문 열람, 파라과이 위원회 검색 본문 대조. 1938 조약/중재 원문, 2025·2026 위원회 의정서/수심 자료 미확보."
         },
         {
-          "topic": "캐나다–덴마크/그린란드 Tartupaluk(Hans Island)",
+          "topic": "브라질–우루과이 Rincón de Artigas/Coxilha Negra",
           "dates": [
-            "2022-06-14",
-            "2023-12-19",
-            "2025-10-30",
-            "2026-06-16"
+            "2025-06-11",
+            "2025-08-04"
           ],
-          "finding": "2022-06-14 조약 서명과 2023-12-19 덴마크 의회 동의를 실제 효력일과 구별. 캐나다 외교부 2025-10-30 의회 브리핑 및 2026-06-16 브리핑에서도 비준 전 이동·접근 문제 협의 중이라고 명시. 2025 발효·법적 섬 분할 사건으로 계수하지 않음. state:GRL은 DNK 상위관계와 기본 NE 형상 보유; state:CAN 색인 존재, 객체 본문 응답 공란으로 확인 불가.",
-          "inputAssessment": "no-effective-2025-island-transfer",
+          "finding": "우루과이 외교부는 2025-06-11 구상서로 기존 분쟁지역 풍력발전 개발이 브라질 주권 승인에 해당하지 않는다고 명시. 2025-08-04 의회 제출 답변은 1851 조약 해석·1856 측량 오류 주장 및 브라질의 반대 입장을 설명하며 분쟁 현상 유지 및 합의 미도달을 확인. 신규 영토 이전 또는 경계 변경 없음. 실제 BRA/URY 기본 형상은 Natural Earth 5.1.1로 시기별 변경 미등록.",
+          "inputAssessment": "preexisting-dispute-no-verified-transfer",
           "runtimeObjects": [
-            "objects/129e15d66d1a8fbee343938b11399b83bf64c74573d568f608bb2f92557227a4.json"
-          ],
-          "runtimeIndexOnly": [
-            "state:CAN",
-            "state:DNK"
+            "objects/be06cd86e094d8b90710f03a1476d88bdf7c55a35841b29af0851425aa1f3e5e.json",
+            "objects/b5623f6d5934b51fc5771e06e08d8eaf6f200355406dc5b6c53dc5be10cdc73f.json"
           ],
           "sourceUrls": [
-            "https://www.treaty-accord.gc.ca/details.aspx?id=105726&lang=eng&t=637917594798729110&wbdisable=true",
-            "https://www.retsinformation.dk/eli/ft/20231CB00014",
-            "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2025-10-30-faae",
-            "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2026-06-16-faae"
+            "https://www.gub.uy/ministerio-relaciones-exteriores/comunicacion/noticias/uruguay-solicita-brasil-retomar-cuestion-del-territorio-disputado-denominado",
+            "https://documentos.diputados.gub.uy/docs/L50/Original/01948.pdf"
           ],
-          "sourceReview": "캐나다 조약 DB 및 2025 의회 브리핑 직접 열람. 덴마크 의회 결정 및 2026 브리핑 검색 본문 대조(덴마크 사이트 직접 열람 JS 제한). 원조약 전체 및 양국 통지일 미확보."
+          "sourceReview": "우루과이 외교부 HTML 및 서명된 의회 답변 PDF 1~2쪽 추출·화면 열람. 두 자료는 같은 정부 입장이며 브라질측 독립 공식 외교문서 및 원조약 미확보."
         },
         {
-          "topic": "푸에르토리코",
+          "topic": "포클랜드·사우스조지아사우스샌드위치제도",
           "dates": [
-            "2024-11-05",
-            "2025-01-17"
+            "2025-07-03",
+            "2025-10-14",
+            "2025-10-16",
+            "2025-12-20"
           ],
-          "finding": "2024년 주민투표의 2025-01-17 최종 인증에서 미국 주 편입 58.61%, 주권적 자유연합 29.57%, 독립 11.82%. 인증 원문은 의회·대통령에 대한 청원 성격임을 명시; 미국 주 편입 또는 독립의 법적 효력 없음. AP 보도도 비구속적 투표임을 확인. 실제 state:PRI의 상위 state:USA 유지.",
-          "inputAssessment": "nonbinding-referendum-no-status-change",
+          "finding": "MERCOSUR 7월/12월 선언은 아르헨티나의 기존 포클랜드 주권 주장을 재확인. 영국 10월 14일 유엔 제4위원회 발언(16일 게시)은 양 속령의 기존 영국 귀속 입장을 재확인. UN 포클랜드 비자치지역 행정국은 영국이며 주권 분쟁을 명시. FLK 및 SGS는 Pando 원본에서 모두 GBR 상위관계를 보유; 2025년 변경 미발견. 양측 법적 주장을 최종 판정하지 않으며 자원·해역 문제 별도 사건 제외.",
+          "inputAssessment": "existing-sovereignty-dispute-no-status-change",
           "runtimeObjects": [
-            "objects/63402632a211fe83f57a4b88477a6ee1e3619b481eae77dc1a20f83796bef297.json"
+            "objects/214d8704a28be9a0d23e8f4847c75d7dd01cee57e1fd913286a4f7d25e31d1f5.json",
+            "objects/e784747bb8510218f2abc58ccb59e995569f34bd675ff9c21a67229b62bd2bef.json",
+            "objects/d4e7e39baebddc5720c82f3a08ddd2e8d9084e0bf98443df8a129fed1ff0f87b.json",
+            "objects/9937ea19cb94016bcc94b13a286cc187e32a9d73aa83766e3ca912a5ca819e2d.json"
           ],
           "sourceUrls": [
-            "https://ww2.ceepur.org/sites/ComisionEE/es-pr/Certificaciones/Certification%20of%20final%20results%20-%20Plebiscite%202024.pdf",
-            "https://apnews.com/article/84afbbfa537b23f35494df0127b20c2d"
+            "https://www.mercosur.int/declaracion-especial-de-los-presidentes-de-los-estados-partes-del-mercosur-y-estados-asociados-sobre-la-cuestion-de-las-islas-malvinas",
+            "https://www.mercosur.int/pt-br/declaracao-especial-dos-presidentes-dos-estados-partes-do-mercosur-e-associados-sobre-a-questao-das-ilhas-malvinas",
+            "https://www.gov.uk/government/speeches/the-uk-is-committed-to-supporting-its-overseas-territories-to-deliver-their-priorities-uk-statement-at-the-un-fourth-committee",
+            "https://www.un.org/dppa/decolonization/en/content/falkland-islands-malvinas",
+            "https://gov.gs/about-sgssi/"
           ],
-          "sourceReview": "선거위원회 인증 PDF 본문 및 1쪽 화면 직접 열람, AP 검색 본문 대조."
-        },
-        {
-          "topic": "영국령 버진아일랜드",
-          "dates": [
-            "2025-09-22",
-            "2026-03-13"
-          ],
-          "finding": "2025-09-22 영국 외무장관의 헌법 정지 예비 명령 폐지 결정. 실제 정지·직접통치가 실시된 것이 아니며 2026-03-13 폐지 효력. 따라서 2025년 상위국/속령 종류 변경 없음. state:VGB 상위 state:GBR 유지.",
-          "inputAssessment": "reserve-order-not-invoked-no-dependency-change",
-          "runtimeObjects": [
-            "objects/d4eb02ebdaf6aa852fd0e4e6c17426a4a58713dbe3aa20f0098c088fb18edcdb.json"
-          ],
-          "sourceUrls": [
-            "https://bvi.org.uk/premiers-statement-on-the-lifting-of-the-order-in-council/",
-            "https://bvi.org.uk/statement-by-premier-and-minister-of-finance-honourable-natalio-d-wheatley-on-the-revocation-of-the-2022-order-in-council/",
-            "https://www.legislation.gov.uk/uksi/2026/100/contents/made",
-            "https://www.284media.com/local/2025/09/22/uk-revokes-order-in-council-after-significant-progress-on-coi-reforms/"
-          ],
-          "sourceReview": "2025-09-22 영국령 버진아일랜드 총리 공식 발표 직접 열람; 2026 총리 발표, 영국 법령 목록 및 독립 지역 보도 검색 본문 대조. 영국 법령 HTML 직접 열람 실패."
-        },
-        {
-          "topic": "자메이카",
-          "dates": [
-            "2024-12-10",
-            "2026-06-10"
-          ],
-          "finding": "2024-12-10 공화국 전환 법안 제출, 2026-06-10에도 재검토 요청. 2025년 공화국 전환 발효 및 정식 국명·국기 변경 없음. 기존 국기 1962-08-06 이래 사용이라는 총리실 안내와 state:JAM 독립 국가 객체 확인. 왕정/공화정 변경 자체는 새 건국이 아님.",
-          "inputAssessment": "draft-no-effective-name-or-flag-change",
-          "runtimeObjects": [
-            "objects/148986e0e0f5f5cf78d53584b8e8b26218548062d0631c40c271b04faa00501d.json"
-          ],
-          "sourceUrls": [
-            "https://jis.gov.jm/legislation-facilitating-jamaicas-transition-to-a-republic-tabled-in-the-lower-house/",
-            "https://jis.gov.jm/justice-minister-urges-mps-to-revisit-bill-to-make-jamaica-a-republic",
-            "https://opm.gov.jm/symbols/national-flag/"
-          ],
-          "sourceReview": "자메이카 정부 발표 2024/2026 및 총리실 국기 소개 검색 본문; 2026 페이지 직접 열람 403. 법안 전문 미확보."
+          "sourceReview": "MERCOSUR 및 영국 공식 HTML 직접 열람, UN 및 속령 정부 자료 검색 본문 대조."
         }
       ],
       "historicalVectorPriority": {
         "candidates": [
           {
-            "provider": "프랑스 IGN",
-            "dataset": "ADMIN EXPRESS COG 2025 v4 (Saint-Martin 978 포함)",
-            "version": "4.0 / COG 2025",
-            "editionPublished": "제품 메타데이터 2025-05-15; 2025-05-01 공지",
+            "provider": "브라질 IBGE",
+            "dataset": "Malha Municipal Digital 2025, BR_Pais_2025",
+            "version": "2025",
+            "editionPublished": "2026-03-30 발표; 파일 서버 수정시각 2026-02-26",
             "boundaryEffectiveDate": null,
-            "format": "GPKG",
-            "originalUrl": "https://data.geopf.fr/telechargement/resource/ADMIN-EXPRESS-COG-CARTO",
+            "format": "SHP ZIP",
+            "originalUrl": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Pais_2025.zip",
             "metadataUrls": [
-              "https://cartes.gouv.fr/aide/fr/partenaires/ign/generalites-ign/actualites/2025-05-admin-express-v4/",
-              "https://geobretagne.fr/geonetwork/srv/api/records/IGNF_ADMIN-EXPRESS",
-              "https://inseefrlab.github.io/cartiflette/doc/01-architecture.html"
+              "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html",
+              "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/"
             ],
-            "crs": "France entière WGS84G 배포 후보(문서); 실제 MAF GPKG CRS 미열람",
-            "featureId": "Saint-Martin 978은 행정 코드; 실제 cleabs/fid 미확인",
+            "crs": "SIRGAS 2000 지리좌표(메타데이터); 원본 .prj 미검사",
+            "featureId": "미확인",
             "sharedBorderVerified": false,
-            "rights": "제품 메타데이터 Licence Ouverte/Open Licence 2.0 계열; 개별 원본 권리 및 재배포 미검증",
+            "rights": "공개 다운로드; 구체적 재배포 조건 미검증",
             "redistribution": "미승인",
-            "suitability": "2025년 편집 자료 및 경계조약 발효 전 비교 후보. 2025 신규 법적 귀속의 증거가 아님. MAF 개별 고정판 다운로드 URL 미확보."
+            "suitability": "브라질 공식 2025 판본 비교 후보. 분쟁 해결 또는 법적 변경의 증거 아님."
           },
           {
-            "provider": "Natural Resources Canada",
-            "dataset": "CanVec Administrative Features",
-            "version": "2019 자료; 포털 기록 2025-12-22 갱신",
-            "editionPublished": "2019-03-01; 시간범위 1944-01-01~2019-01-01",
+            "provider": "파라과이 국경위원회",
+            "dataset": "볼리비아 국경 표지 Google Earth ZIP 안내",
+            "originalUrl": "https://www2.mre.gov.py/cndl/index.php/limites/bolivia",
+            "format": "Google Earth ZIP 안내; 실제 파일/형상 미확보",
+            "version": null,
+            "editionPublished": null,
             "boundaryEffectiveDate": null,
-            "format": "SHP/FGDB",
-            "originalUrl": "https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/canvec/shp/Admin/",
-            "metadataUrl": "https://open.canada.ca/data/dataset/306e5004-534b-4110-9feb-58e3a5c3fd97",
-            "crs": "미확인",
-            "featureId": "한스섬 개별 피처 미확인",
+            "crs": null,
+            "featureId": null,
             "sharedBorderVerified": false,
-            "rights": "Open Government Licence - Canada (포털 메타데이터)",
+            "rights": "미확인",
             "redistribution": "미승인",
-            "suitability": "메타데이터 갱신일이 자료의 효력/형상 갱신일은 아님. 2022 조약 이전 자료로 2025 신규 분할 증거 부적합. 개별 압축 파일 미확보."
+            "suitability": "2025 고정판 SHP/GPKG/GeoJSON/WFS 미확보, 2026 최종 공유 경계 자료 아님."
           }
         ],
         "originalFileDownloaded": false,
@@ -387,13 +351,14 @@
         "visualComparisonRun": false,
         "pixel0_5CssPxRun": false,
         "redistributionCleared": false,
-        "missing": "두 국경 조약의 2025 발효 사실 미발견. 유효시기 일치 양측 공유 국경 벡터 및 개별 피처 미확보; IGN/CanVec 메타데이터만 확인. 발효 확정 후 해당 시기 원벡터를 우선 확보하고 부족한 부분에만 조약 부속 좌표/도면 복원 검토."
+        "missing": "리오 네그로 2025·2026 원좌표 및 양측 공식 공유경계, 린콘 데 아르티가스 양측 유효판 원형상·재배포 권리 미확보. 실제 법적 변동 미발견으로 원본 도입 또는 역사 복원 보류."
       },
       "unresolved": [
-        "북아메리카 전체 국가·속령의 2025년 국명·국기·관계·영토 변동 전수조사 미완료.",
-        "생마르탱 조약 제17조에 따른 실제 효력일 및 2026 후속 개정·양국 공유경계, 한스섬 조약의 캐나다 비준과 실제 통지일은 해당 연도에 재검토.",
-        "Pando work/gis 접근 불가(404). PandoLab main AGENTS, PandoLab-Data main library 및 관련 국가 객체 6개 원본 읽기 전용 확인. 캐나다 객체 본문 공란.",
-        "역사 벡터 실제 원본 미다운로드·피처/CRS/공유국경/재배포 미검증; 정본 승인 아님."
+        "남아메리카 전체 국가·속령 2025 국명·국기·상위관계·영토 변동 전수 미완료. 프랑스령 기아나는 state:GUF 별도 키 미확인; FRA에 포함 여부/자치 논의 후속 검토.",
+        "리오 네그로 측량 완료 시점에 관한 양국 설명 차이와 2026년 최종 의정서·원좌표의 법적 효력 확인 필요.",
+        "린콘 데 아르티가스 기존 법적 권원 및 브라질 측 독립 사료 미확보.",
+        "Pando work/gis 접근 불가(404); 현행 PandoLab main AGENTS, Data main 정책 및 실제 9개 객체 읽기 전용 확인(이번 판단 직접 관련 8개).",
+        "역사 벡터 다운로드·CRS·피처·공유 경계·권리 검사 미실행."
       ],
       "savedRecords": {
         "event": 0,
@@ -405,9 +370,183 @@
       },
       "canonicalDataApplied": 0,
       "regionFullyReviewed": false,
-      "nextRegion": "남아메리카"
+      "nextRegion": "오세아니아"
     },
     "reviewHistory": [
+      {
+        "year": 2025,
+        "region": "북아메리카",
+        "scope": "2025-01-01~2025-12-31 북아메리카 2차 순환 부분 조사: 프랑스령 생마르탱–네덜란드령 신트마르턴, 캐나다–그린란드 한스섬, 푸에르토리코, 영국령 버진아일랜드, 자메이카의 실제 법적 육상 경계/국가·속령 지위/국명·국기 변동 여부. 기존 그린란드 독립·사르스툰·사포디야 후보는 신규 계수하지 않음. 대륙 전수 아님.",
+        "finding": "변동 미발견(검토 범위 한정). 생마르탱 및 한스섬 조약은 2025년에 발효하지 않았으며, 푸에르토리코의 투표 결과 인증, 버진아일랜드의 유보 명령 폐지 결정, 자메이카의 공화국 전환 법안은 실제 국가/속령의 새 성립·소멸·상위관계 또는 국경·국명·국기 변경이 아님.",
+        "checkedCandidates": [
+          {
+            "topic": "생마르탱–신트마르턴 육상국경",
+            "dates": [
+              "2023-05-26",
+              "2023-06-13",
+              "2026-04-08"
+            ],
+            "finding": "2023-05-26 조약 서명, 2023-06-13 네덜란드 조약보 게재. 조약 제17조는 양측 국내 절차 완료 통지 중 마지막 통지를 받은 날의 다음 두 번째 달 1일 발효 규정. 네덜란드 조약 DB 발효일 공란, 프랑스 상원 2026-04-08 승인 법안 보고서 대조로 2025 발효 아님. 부속서 A의 Oyster Pond 15점 및 육상 392점, IGS2005 epoch 2009.0 확인; 법적 효력 시점 이전의 변경으로 기입 금지. 실제 state:MAF/SXM은 각각 FRA/NLD 상위관계, Natural Earth 5.1.1 단일 기본 형상. 효력일 확정 후 정밀 형상 대응 가능.",
+            "inputAssessment": "signed-not-in-force-in-2025",
+            "runtimeObjects": [
+              "objects/65c5b6a074f7ae05a85891cf724f552889e8441ce4bc21ce800a85daaa4bca05.json",
+              "objects/6c1641b30cab3b36aba163f129e43bbeb4fdc3ec9c5492301f6191c092a034a6.json"
+            ],
+            "sourceUrls": [
+              "https://verdragenbank.overheid.nl/en/Treaty/Details/013951",
+              "https://zoek.officielebekendmakingen.nl/trb-2023-66.html",
+              "https://www.senat.fr/rap/l25-514/l25-5144.html"
+            ],
+            "sourceReview": "네덜란드 조약 DB, 조약 원문 HTML 제17조와 부속서 A 일부 및 프랑스 상원 보고서 직접 열람. 좌표 전체 추출·변환, 부속 지도·2026년 후속 개정 검증 미실행."
+          },
+          {
+            "topic": "캐나다–덴마크/그린란드 Tartupaluk(Hans Island)",
+            "dates": [
+              "2022-06-14",
+              "2023-12-19",
+              "2025-10-30",
+              "2026-06-16"
+            ],
+            "finding": "2022-06-14 조약 서명과 2023-12-19 덴마크 의회 동의를 실제 효력일과 구별. 캐나다 외교부 2025-10-30 의회 브리핑 및 2026-06-16 브리핑에서도 비준 전 이동·접근 문제 협의 중이라고 명시. 2025 발효·법적 섬 분할 사건으로 계수하지 않음. state:GRL은 DNK 상위관계와 기본 NE 형상 보유; state:CAN 색인 존재, 객체 본문 응답 공란으로 확인 불가.",
+            "inputAssessment": "no-effective-2025-island-transfer",
+            "runtimeObjects": [
+              "objects/129e15d66d1a8fbee343938b11399b83bf64c74573d568f608bb2f92557227a4.json"
+            ],
+            "runtimeIndexOnly": [
+              "state:CAN",
+              "state:DNK"
+            ],
+            "sourceUrls": [
+              "https://www.treaty-accord.gc.ca/details.aspx?id=105726&lang=eng&t=637917594798729110&wbdisable=true",
+              "https://www.retsinformation.dk/eli/ft/20231CB00014",
+              "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2025-10-30-faae",
+              "https://international.canada.ca/en/global-affairs/corporate/transparency/briefing-documents/parliamentary-committee/2026-06-16-faae"
+            ],
+            "sourceReview": "캐나다 조약 DB 및 2025 의회 브리핑 직접 열람. 덴마크 의회 결정 및 2026 브리핑 검색 본문 대조(덴마크 사이트 직접 열람 JS 제한). 원조약 전체 및 양국 통지일 미확보."
+          },
+          {
+            "topic": "푸에르토리코",
+            "dates": [
+              "2024-11-05",
+              "2025-01-17"
+            ],
+            "finding": "2024년 주민투표의 2025-01-17 최종 인증에서 미국 주 편입 58.61%, 주권적 자유연합 29.57%, 독립 11.82%. 인증 원문은 의회·대통령에 대한 청원 성격임을 명시; 미국 주 편입 또는 독립의 법적 효력 없음. AP 보도도 비구속적 투표임을 확인. 실제 state:PRI의 상위 state:USA 유지.",
+            "inputAssessment": "nonbinding-referendum-no-status-change",
+            "runtimeObjects": [
+              "objects/63402632a211fe83f57a4b88477a6ee1e3619b481eae77dc1a20f83796bef297.json"
+            ],
+            "sourceUrls": [
+              "https://ww2.ceepur.org/sites/ComisionEE/es-pr/Certificaciones/Certification%20of%20final%20results%20-%20Plebiscite%202024.pdf",
+              "https://apnews.com/article/84afbbfa537b23f35494df0127b20c2d"
+            ],
+            "sourceReview": "선거위원회 인증 PDF 본문 및 1쪽 화면 직접 열람, AP 검색 본문 대조."
+          },
+          {
+            "topic": "영국령 버진아일랜드",
+            "dates": [
+              "2025-09-22",
+              "2026-03-13"
+            ],
+            "finding": "2025-09-22 영국 외무장관의 헌법 정지 예비 명령 폐지 결정. 실제 정지·직접통치가 실시된 것이 아니며 2026-03-13 폐지 효력. 따라서 2025년 상위국/속령 종류 변경 없음. state:VGB 상위 state:GBR 유지.",
+            "inputAssessment": "reserve-order-not-invoked-no-dependency-change",
+            "runtimeObjects": [
+              "objects/d4eb02ebdaf6aa852fd0e4e6c17426a4a58713dbe3aa20f0098c088fb18edcdb.json"
+            ],
+            "sourceUrls": [
+              "https://bvi.org.uk/premiers-statement-on-the-lifting-of-the-order-in-council/",
+              "https://bvi.org.uk/statement-by-premier-and-minister-of-finance-honourable-natalio-d-wheatley-on-the-revocation-of-the-2022-order-in-council/",
+              "https://www.legislation.gov.uk/uksi/2026/100/contents/made",
+              "https://www.284media.com/local/2025/09/22/uk-revokes-order-in-council-after-significant-progress-on-coi-reforms/"
+            ],
+            "sourceReview": "2025-09-22 영국령 버진아일랜드 총리 공식 발표 직접 열람; 2026 총리 발표, 영국 법령 목록 및 독립 지역 보도 검색 본문 대조. 영국 법령 HTML 직접 열람 실패."
+          },
+          {
+            "topic": "자메이카",
+            "dates": [
+              "2024-12-10",
+              "2026-06-10"
+            ],
+            "finding": "2024-12-10 공화국 전환 법안 제출, 2026-06-10에도 재검토 요청. 2025년 공화국 전환 발효 및 정식 국명·국기 변경 없음. 기존 국기 1962-08-06 이래 사용이라는 총리실 안내와 state:JAM 독립 국가 객체 확인. 왕정/공화정 변경 자체는 새 건국이 아님.",
+            "inputAssessment": "draft-no-effective-name-or-flag-change",
+            "runtimeObjects": [
+              "objects/148986e0e0f5f5cf78d53584b8e8b26218548062d0631c40c271b04faa00501d.json"
+            ],
+            "sourceUrls": [
+              "https://jis.gov.jm/legislation-facilitating-jamaicas-transition-to-a-republic-tabled-in-the-lower-house/",
+              "https://jis.gov.jm/justice-minister-urges-mps-to-revisit-bill-to-make-jamaica-a-republic",
+              "https://opm.gov.jm/symbols/national-flag/"
+            ],
+            "sourceReview": "자메이카 정부 발표 2024/2026 및 총리실 국기 소개 검색 본문; 2026 페이지 직접 열람 403. 법안 전문 미확보."
+          }
+        ],
+        "historicalVectorPriority": {
+          "candidates": [
+            {
+              "provider": "프랑스 IGN",
+              "dataset": "ADMIN EXPRESS COG 2025 v4 (Saint-Martin 978 포함)",
+              "version": "4.0 / COG 2025",
+              "editionPublished": "제품 메타데이터 2025-05-15; 2025-05-01 공지",
+              "boundaryEffectiveDate": null,
+              "format": "GPKG",
+              "originalUrl": "https://data.geopf.fr/telechargement/resource/ADMIN-EXPRESS-COG-CARTO",
+              "metadataUrls": [
+                "https://cartes.gouv.fr/aide/fr/partenaires/ign/generalites-ign/actualites/2025-05-admin-express-v4/",
+                "https://geobretagne.fr/geonetwork/srv/api/records/IGNF_ADMIN-EXPRESS",
+                "https://inseefrlab.github.io/cartiflette/doc/01-architecture.html"
+              ],
+              "crs": "France entière WGS84G 배포 후보(문서); 실제 MAF GPKG CRS 미열람",
+              "featureId": "Saint-Martin 978은 행정 코드; 실제 cleabs/fid 미확인",
+              "sharedBorderVerified": false,
+              "rights": "제품 메타데이터 Licence Ouverte/Open Licence 2.0 계열; 개별 원본 권리 및 재배포 미검증",
+              "redistribution": "미승인",
+              "suitability": "2025년 편집 자료 및 경계조약 발효 전 비교 후보. 2025 신규 법적 귀속의 증거가 아님. MAF 개별 고정판 다운로드 URL 미확보."
+            },
+            {
+              "provider": "Natural Resources Canada",
+              "dataset": "CanVec Administrative Features",
+              "version": "2019 자료; 포털 기록 2025-12-22 갱신",
+              "editionPublished": "2019-03-01; 시간범위 1944-01-01~2019-01-01",
+              "boundaryEffectiveDate": null,
+              "format": "SHP/FGDB",
+              "originalUrl": "https://ftp.maps.canada.ca/pub/nrcan_rncan/vector/canvec/shp/Admin/",
+              "metadataUrl": "https://open.canada.ca/data/dataset/306e5004-534b-4110-9feb-58e3a5c3fd97",
+              "crs": "미확인",
+              "featureId": "한스섬 개별 피처 미확인",
+              "sharedBorderVerified": false,
+              "rights": "Open Government Licence - Canada (포털 메타데이터)",
+              "redistribution": "미승인",
+              "suitability": "메타데이터 갱신일이 자료의 효력/형상 갱신일은 아님. 2022 조약 이전 자료로 2025 신규 분할 증거 부적합. 개별 압축 파일 미확보."
+            }
+          ],
+          "originalFileDownloaded": false,
+          "originalCrsInspected": false,
+          "featureIdsChecked": false,
+          "hashComputed": false,
+          "conversionRun": false,
+          "topologyRun": false,
+          "visualComparisonRun": false,
+          "pixel0_5CssPxRun": false,
+          "redistributionCleared": false,
+          "missing": "두 국경 조약의 2025 발효 사실 미발견. 유효시기 일치 양측 공유 국경 벡터 및 개별 피처 미확보; IGN/CanVec 메타데이터만 확인. 발효 확정 후 해당 시기 원벡터를 우선 확보하고 부족한 부분에만 조약 부속 좌표/도면 복원 검토."
+        },
+        "unresolved": [
+          "북아메리카 전체 국가·속령의 2025년 국명·국기·관계·영토 변동 전수조사 미완료.",
+          "생마르탱 조약 제17조에 따른 실제 효력일 및 2026 후속 개정·양국 공유경계, 한스섬 조약의 캐나다 비준과 실제 통지일은 해당 연도에 재검토.",
+          "Pando work/gis 접근 불가(404). PandoLab main AGENTS, PandoLab-Data main library 및 관련 국가 객체 6개 원본 읽기 전용 확인. 캐나다 객체 본문 공란.",
+          "역사 벡터 실제 원본 미다운로드·피처/CRS/공유국경/재배포 미검증; 정본 승인 아님."
+        ],
+        "savedRecords": {
+          "event": 0,
+          "entity": 0,
+          "geography": 0,
+          "sourceRegistry": 0,
+          "progress": 1,
+          "catalog": 0
+        },
+        "canonicalDataApplied": 0,
+        "regionFullyReviewed": false,
+        "nextRegion": "남아메리카"
+      },
       {
         "year": 2025,
         "region": "아프리카",
