@@ -16,7 +16,23 @@
   },
   "sourceIds": [
     "SRC-224",
-    "SRC-227"
+    "SRC-227",
+    "SRC-443",
+    "SRC-444",
+    "SRC-445",
+    "SRC-446",
+    "SRC-447",
+    "SRC-448",
+    "SRC-454",
+    "SRC-449",
+    "SRC-450",
+    "SRC-452",
+    "SRC-453",
+    "SRC-455",
+    "SRC-456",
+    "SRC-457",
+    "SRC-458",
+    "SRC-459"
   ],
   "unresolved": [
     "현지 원법령의 효력일 및 등록 SVG의 법정 도안 정밀 일치 검증 전 자동 적용하지 않음."
@@ -35,7 +51,13 @@
     "EVT-1816-NEPAL-SUGAULI-CESSION",
     "EVT-1860-NEPAL-TERAI-RESTORATION",
     "EVT-1887-MALDIVES-BRITISH-PROTECTION",
-    "EVT-1965-MALDIVES-PROTECTION-END"
+    "EVT-1965-MALDIVES-PROTECTION-END",
+    "EVT-1885-BECHUANALAND-PROTECTION",
+    "EVT-1966-BOTSWANA-PROTECTION-END",
+    "EVT-1814-MAURITIUS-BRITISH-CESSION",
+    "EVT-1968-MAURITIUS-INDEPENDENCE-RELATION-FLAG",
+    "EVT-1965-BIOT-COLONIAL-DETACHMENT",
+    "EVT-1976-SEYCHELLES-INDEPENDENCE-ISLAND-RETURN"
   ],
   "lifetimeAssessment": {
     "status": "existing-period-not-modified",

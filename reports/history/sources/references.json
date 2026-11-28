@@ -3246,6 +3246,146 @@
       "fromReport": "GEO-LIFE-047",
       "section": "1887-12-16 서명 후보. 원협정 미열람이며 정확한 효력일은 유보.",
       "reviewStatus": "secondary-reviewed"
+    },
+    {
+      "id": "SRC-443",
+      "url": "https://www.botswanaembassy.org/node/1723",
+      "fromReport": "GEO-LIFE-048",
+      "section": "보츠와나 대사관: 1885 보호국, 1965 자치, 1966-09-30 독립.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-444",
+      "url": "https://www.mmegi.bw/ampArticle/183828",
+      "fromReport": "GEO-LIFE-048",
+      "section": "1885-03-23 보호선언과 09-30 포고 제1호 등 단계 차이. 원포고 자체 미열람.",
+      "reviewStatus": "secondary-reviewed"
+    },
+    {
+      "id": "SRC-445",
+      "url": "https://www.legislation.gov.uk/ukpga/1966/23/body/enacted",
+      "fromReport": "GEO-LIFE-048",
+      "section": "Botswana Independence Act 1966 제1·2조, 09-30 보호국 종료 및 독립 공화국.",
+      "reviewStatus": "primary-text-reviewed"
+    },
+    {
+      "id": "SRC-446",
+      "url": "https://dailynews.gov.bw/news-detail/31255",
+      "fromReport": "GEO-LIFE-048",
+      "section": "정부 매체의 독립 당시 기록 재인용: 1966-09-30 첫 국기 게양.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-447",
+      "url": "https://www.napoleon-empire.org/en/official-texts/treaty-of-paris-1814.php",
+      "fromReport": "GEO-LIFE-048",
+      "section": "1814-05-30 파리조약 제8·33조 전사본: 일드프랑스·속도 주권 양도, 비준교환 필요.",
+      "reviewStatus": "primary-transcription-reviewed"
+    },
+    {
+      "id": "SRC-448",
+      "url": "https://nationalarchives.govmu.org/nationalarchives/%3Fpage_id%3D1390",
+      "fromReport": "GEO-LIFE-048",
+      "section": "모리셔스 국립기록원: 1810 실효 통치 변경, 1814 법적 양도 및 명칭 Mauritius.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-449",
+      "url": "https://www.legislation.gov.uk/ukpga/1968/8/enacted",
+      "fromReport": "GEO-LIFE-048",
+      "section": "Mauritius Independence Act 1968 제1조, 02-29 재가, 03-12 영국 정부 책임 종료.",
+      "reviewStatus": "primary-text-reviewed"
+    },
+    {
+      "id": "SRC-450",
+      "url": "https://mauritianstandards.com/import-std-226/",
+      "fromReport": "GEO-LIFE-048",
+      "section": "표준국 MS 1-2:2011 개요: 1968-03-12 첫 국기 게양.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-451",
+      "url": "https://www.wipo.int/wipolex/en/legislation/details/7253",
+      "fromReport": "GEO-LIFE-048",
+      "section": "통합헌법 제1조 Republic of Mauritius, Act 48 of 1991 개정 주석.",
+      "reviewStatus": "primary-consolidated-text-reviewed"
+    },
+    {
+      "id": "SRC-452",
+      "url": "https://mauritius-london.govmu.org/Pages/Mauritius-London/General-Information-about-the-Republic-of-Mauritius.aspx",
+      "fromReport": "GEO-LIFE-048",
+      "section": "모리셔스 고등판무관실: 1968-03-12 독립·1992-03-12 공화국, 국기 4색.",
+      "reviewStatus": "institutional-secondary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-453",
+      "url": "https://www.legislation.gov.uk/uksi/1965/1920/pdfs/uksi_19651920_en.pdf",
+      "fromReport": "GEO-LIFE-048",
+      "section": "S.I. 1965/1920 제3조·부속서 2,3, 1965-11-08 식민지 분리. PDF 원문 추출 및 첫·마지막 페이지 화면 확인.",
+      "reviewStatus": "primary-pdf-text-and-page-reviewed"
+    },
+    {
+      "id": "SRC-454",
+      "url": "https://www.worldcourts.com/icj/eng/decisions/2019.02.25_Mauritius.htm",
+      "fromReport": "GEO-LIFE-048",
+      "section": "ICJ 2019-02-25 권고적 의견 전사본, 1814 통치·1965 차고스 분리의 국제법적 위법성. 공식 ICJ 페이지 직접 조회 시간초과, 검색 발췌 대조.",
+      "reviewStatus": "primary-transcription-reviewed"
+    },
+    {
+      "id": "SRC-455",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10512/",
+      "fromReport": "GEO-LIFE-048",
+      "section": "영국 하원 도서관 2026-10-08: 2025-05-22 조약 미발효·이행법안 폐기·협상 계속.",
+      "reviewStatus": "institutional-secondary-reviewed"
+    },
+    {
+      "id": "SRC-456",
+      "url": "https://www.legislation.gov.uk/ukpga/1976/19/body/enacted",
+      "fromReport": "GEO-LIFE-048",
+      "section": "Seychelles Act 1976 제1·2조 검색 발췌: 1976-06-29 독립. 직접 열람은 로봇 차단.",
+      "reviewStatus": "primary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-457",
+      "url": "https://statehouse.gov.sc/news/7082/seychelles-marks-golden-jubilee-with-grand-military-parade-at-unity-stadium",
+      "fromReport": "GEO-LIFE-048",
+      "section": "세이셸 대통령실 2026 독립 50주년: 1976-06-29 독립.",
+      "reviewStatus": "institutional-secondary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-458",
+      "url": "https://www.nation.sc/articles/18393/seychelles-47th-independence-day-anniversary",
+      "fromReport": "GEO-LIFE-048",
+      "section": "1976-06-23 재산권 이전 문서와 06-29 독립시 주권 반환·국기 게양을 구별한 2023 역사 기사.",
+      "reviewStatus": "secondary-reviewed"
+    },
+    {
+      "id": "SRC-459",
+      "url": "https://www.seychellesnewsagency.com/public/articles/5459/news-alert",
+      "fromReport": "GEO-LIFE-048",
+      "section": "세이셸 국기 3종, 1976-06-29 최초 게양, 1977 변경, 1996-06-18 신규 국기 공개.",
+      "reviewStatus": "secondary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-460",
+      "url": "https://www.crwflags.net/FOTW/Flags/sc-1976.html",
+      "fromReport": "GEO-LIFE-048",
+      "section": "1977-06-29 교체일 후보. 원법령 미확인.",
+      "reviewStatus": "secondary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-461",
+      "url": "https://www.nation.sc/archive/259293/seychelles-constitution-is-25-years-old",
+      "fromReport": "GEO-LIFE-048",
+      "section": "1996-06-18 신규 국가 상징 공식 공개.",
+      "reviewStatus": "secondary-search-excerpt-reviewed"
+    },
+    {
+      "id": "SRC-462",
+      "url": "https://mfa.gov.sc/sale-of-seychelles-national-flags/",
+      "fromReport": "GEO-LIFE-048",
+      "section": "외교부: 현 국기는 독립 이후 세 번째로 1996년 제정.",
+      "reviewStatus": "institutional-secondary-search-excerpt-reviewed"
     }
   ]
 }

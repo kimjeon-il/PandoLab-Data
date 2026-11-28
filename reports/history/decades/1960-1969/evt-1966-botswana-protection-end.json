@@ -1,0 +1,67 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1966-BOTSWANA-PROTECTION-END",
+  "type": "event",
+  "title": "보츠와나 보호국 종료·독립 국호·국기",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:BWA",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1966,
+    "value": "1966-09-30",
+    "precision": "day",
+    "note": "독립법 제1조 appointed day."
+  },
+  "changes": [
+    {
+      "entityKey": "state:BWA",
+      "field": "relationship.parent",
+      "summary": "영국의 보호 및 관할권 종료",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "선행 보호국 객체 분리 여부 미확정."
+    },
+    {
+      "entityKey": "state:BWA",
+      "field": "name.formal",
+      "summary": "독립 공화국 국명",
+      "assessment": "source-reviewed",
+      "proposedValue": "Republic of Botswana",
+      "uncertainty": ""
+    },
+    {
+      "entityKey": "state:BWA",
+      "field": "flag",
+      "summary": "독립 당시 국기 최초 게양",
+      "assessment": "source-reviewed",
+      "proposedValue": "현 하늘색·흰 테두리 검정 가로띠 국기",
+      "uncertainty": "도안 원법령·flag asset ID 확인 필요."
+    }
+  ],
+  "sourceIds": [
+    "SRC-445",
+    "SRC-443",
+    "SRC-446"
+  ],
+  "unresolved": [
+    "선행 보호국 객체 및 관계 종류 확정 필요; 기존 독립일 신규 발견 0."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "royal-assent",
+      "value": "1966-08-03"
+    }
+  ]
+}

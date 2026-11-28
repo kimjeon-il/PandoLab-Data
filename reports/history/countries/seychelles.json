@@ -1,0 +1,83 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-SEYCHELLES",
+  "type": "entity",
+  "title": "세이셸",
+  "subject": {
+    "key": "state:SYC",
+    "kind": "state",
+    "displayName": "세이셸",
+    "runtimeEntityId": "state:SYC"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-29",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-date-not-final-approval",
+    "validFrom": "1976-06-29",
+    "validTo": null,
+    "note": "현재 주권국 시작일 재확인. 독립 이전 정치체는 동일성 확정 전 소급하지 않음."
+  },
+  "eventIds": [
+    "EVT-1814-MAURITIUS-BRITISH-CESSION",
+    "EVT-1965-BIOT-COLONIAL-DETACHMENT",
+    "EVT-1976-SEYCHELLES-INDEPENDENCE-ISLAND-RETURN",
+    "EVT-1977-SEYCHELLES-FLAG-CHANGE",
+    "EVT-1996-SEYCHELLES-FLAG-CHANGE"
+  ],
+  "sourceIds": [
+    "SRC-447",
+    "SRC-448",
+    "SRC-454",
+    "SRC-453",
+    "SRC-455",
+    "SRC-456",
+    "SRC-457",
+    "SRC-458",
+    "SRC-459",
+    "SRC-460",
+    "SRC-462",
+    "SRC-461"
+  ],
+  "unresolved": [
+    "1814 모리셔스 종속 지위 및 1903 별도 식민지화 정확일과 국기 원법령, 1965~1976 도서별 형상.",
+    "1977 국기 교체·1996 공개/법정 시행일 및 1976 반환 국내법상 정확일."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "82ab5b52deb7cc5fd71cdbcd4e40c094a811056e",
+    "objectPath": "objects/288a97d55aedeb7e567ef1058b82161173b60ba24af9ad1e10ccfb84e5cb184c.json",
+    "lifetime": {
+      "validFrom": "1976-06-29",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "세이셸"
+    },
+    "nameVersions": [],
+    "geometryVersions": [
+      {
+        "validFrom": null,
+        "validTo": null,
+        "sourceId": "natural-earth-5.1.1"
+      }
+    ],
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/sc.svg",
+    "note": "Data main 실제 객체 원본. Pando/PandoLab work/gis 404; PandoLab main AGENTS 읽기 전용 확인."
+  }
+}

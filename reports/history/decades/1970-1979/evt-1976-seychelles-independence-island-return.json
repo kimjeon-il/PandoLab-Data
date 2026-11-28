@@ -1,0 +1,86 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1976-SEYCHELLES-INDEPENDENCE-ISLAND-RETURN",
+  "type": "event",
+  "title": "세이셸 독립·국기와 인도양 지역 3개 도서군 반환",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:SYC",
+    "state:IOT",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1976,
+    "value": "1976-06-29",
+    "precision": "day",
+    "note": "독립 및 국제법상 반환 날짜. 06-23 재산권 문서와 구별, 영국 국내법상 경계 명령 정확한 효력일 추가 확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:SYC",
+      "field": "relationship.parent",
+      "summary": "영국 정부 책임 종료",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "독립일은 기존 값."
+    },
+    {
+      "entityKey": "state:SYC",
+      "field": "name.formal",
+      "summary": "독립 공화국",
+      "assessment": "source-reviewed",
+      "proposedValue": "Republic of Seychelles",
+      "uncertainty": ""
+    },
+    {
+      "entityKey": "state:SYC",
+      "field": "flag",
+      "summary": "첫 국기 게양",
+      "assessment": "source-reviewed",
+      "proposedValue": "청·적색 삼각 구획 및 흰 사선 십자",
+      "uncertainty": "원 도안 및 asset ID 미확정."
+    },
+    {
+      "entityKey": "state:SYC",
+      "field": "territory.assignment",
+      "summary": "알다브라·파콰르·데로슈 반환",
+      "assessment": "source-reviewed",
+      "proposedValue": "Aldabra, Farquhar, Desroches",
+      "uncertainty": "1976-06-23 재산권 이전과 주권 이전 구별."
+    },
+    {
+      "entityKey": "state:IOT",
+      "field": "territory.assignment",
+      "summary": "세이셸에 반환된 3개 도서군 제외",
+      "assessment": "source-reviewed",
+      "proposedValue": "Aldabra, Farquhar, Desroches",
+      "uncertainty": "영국 국내법상 정확한 분리 효력일 및 역사 형상 미확정."
+    }
+  ],
+  "sourceIds": [
+    "SRC-456",
+    "SRC-457",
+    "SRC-458",
+    "SRC-459",
+    "SRC-453"
+  ],
+  "unresolved": [
+    "1976 반환 명령 원문·효력일, 원본 형상 및 최초 국기 법령. 독립일 신규 발견 0."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "property-transfer-document",
+      "value": "1976-06-23"
+    }
+  ]
+}

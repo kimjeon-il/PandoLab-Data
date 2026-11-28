@@ -1,0 +1,44 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1992-MAURITIUS-FORMAL-NAME",
+  "type": "event",
+  "title": "모리셔스 정식 국명 Republic of Mauritius",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:MUS"
+  ],
+  "date": {
+    "year": 1992,
+    "value": "1992-03-12",
+    "precision": "day",
+    "note": "공화국 전환일 및 통합헌법 제1조 대조. 원 개정법 시행 고시 미확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:MUS",
+      "field": "name.formal",
+      "summary": "정식명 Republic of Mauritius",
+      "assessment": "source-reviewed",
+      "proposedValue": "Republic of Mauritius",
+      "uncertainty": "Act 48 of 1991 원문 및 시행고시 확인 필요; 기존 국가 동일성 유지."
+    }
+  ],
+  "sourceIds": [
+    "SRC-451",
+    "SRC-452"
+  ],
+  "unresolved": [
+    "정식 국명 개정법 원문·시행고시 추가 확인. 새 건국으로 처리하지 않음."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": []
+}

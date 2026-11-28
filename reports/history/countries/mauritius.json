@@ -1,0 +1,79 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-MAURITIUS",
+  "type": "entity",
+  "title": "모리셔스",
+  "subject": {
+    "key": "state:MUS",
+    "kind": "state",
+    "displayName": "모리셔스",
+    "runtimeEntityId": "state:MUS"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-29",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-date-not-final-approval",
+    "validFrom": "1968-03-12",
+    "validTo": null,
+    "note": "현재 주권국 시작일 재확인. 독립 이전 정치체는 동일성 확정 전 소급하지 않음."
+  },
+  "eventIds": [
+    "EVT-1814-MAURITIUS-BRITISH-CESSION",
+    "EVT-1968-MAURITIUS-INDEPENDENCE-RELATION-FLAG",
+    "EVT-1992-MAURITIUS-FORMAL-NAME",
+    "EVT-1965-BIOT-COLONIAL-DETACHMENT"
+  ],
+  "sourceIds": [
+    "SRC-447",
+    "SRC-448",
+    "SRC-454",
+    "SRC-449",
+    "SRC-450",
+    "SRC-452",
+    "SRC-451",
+    "SRC-453",
+    "SRC-455"
+  ],
+  "unresolved": [
+    "1810 항복과 1814 조약 비준·속령 명칭/영토 구분, 1814~1968 식민지 객체 분류·국기.",
+    "1992 국호 시행 고시 및 1965 차고스 분리의 국제법상 지위·2025 조약 발효·도서 형상."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "82ab5b52deb7cc5fd71cdbcd4e40c094a811056e",
+    "objectPath": "objects/ad6c0915206846b547f9f1d43d95ae2789384997ea734ad7e2a32288ad744aef.json",
+    "lifetime": {
+      "validFrom": "1968-03-12",
+      "validTo": null
+    },
+    "parentEntityId": "",
+    "names": {
+      "ko": "모리셔스"
+    },
+    "nameVersions": [],
+    "geometryVersions": [
+      {
+        "validFrom": null,
+        "validTo": null,
+        "sourceId": "natural-earth-5.1.1"
+      }
+    ],
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/mu.svg",
+    "note": "Data main 실제 객체 원본. Pando/PandoLab work/gis 404; PandoLab main AGENTS 읽기 전용 확인."
+  }
+}

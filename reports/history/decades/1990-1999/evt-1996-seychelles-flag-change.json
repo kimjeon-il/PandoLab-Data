@@ -1,0 +1,45 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1996-SEYCHELLES-FLAG-CHANGE",
+  "type": "event",
+  "title": "세이셸 현 국기 공식 공개",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:SYC"
+  ],
+  "date": {
+    "year": 1996,
+    "value": "1996-06-18",
+    "precision": "day",
+    "note": "두 현지 보도에서 공식 공개 날짜 일치. 법정 채택일 원법령 추가 확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:SYC",
+      "field": "flag",
+      "summary": "청·황·적·백·녹 5색 사선형 국기 공개",
+      "assessment": "source-reviewed",
+      "proposedValue": "현재 국기",
+      "uncertainty": "정확한 법적 채택일·원법령 및 asset ID 별도 확인."
+    }
+  ],
+  "sourceIds": [
+    "SRC-459",
+    "SRC-461",
+    "SRC-462"
+  ],
+  "unresolved": [
+    "1996-06-18 공개와 법적 효력일 대조. 1월 8일 등 타 자료 차이 해결."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": []
+}

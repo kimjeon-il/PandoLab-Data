@@ -1,0 +1,69 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1814-MAURITIUS-BRITISH-CESSION",
+  "type": "event",
+  "title": "파리조약의 모리셔스 및 종속도서 영국 양도",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:MUS",
+    "state:SYC",
+    "state:GBR",
+    "state:FRA"
+  ],
+  "date": {
+    "year": 1814,
+    "value": "1814",
+    "precision": "year",
+    "note": "1814-05-30 서명, 제33조 비준서 교환일 미확정."
+  },
+  "changes": [
+    {
+      "entityKey": "state:MUS",
+      "field": "territory.assignment",
+      "summary": "일드프랑스와 종속 도서(로드리게스·세이셸 등)의 프랑스→영국 주권 양도",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR",
+      "uncertainty": "1810 실효통치와 구별. 현대 국가 키는 선행 속령 연결용, 역사 객체와 형상 확정 필요."
+    },
+    {
+      "entityKey": "state:SYC",
+      "field": "territory.assignment",
+      "summary": "당시 모리셔스 종속 세이셸도 조약 제8조 양도 대상",
+      "assessment": "source-reviewed",
+      "proposedValue": "state:GBR",
+      "uncertainty": "현대 독립국 객체를 1814년에 소급 생성하지 않음."
+    },
+    {
+      "entityKey": "state:MUS",
+      "field": "name.short",
+      "summary": "식민지 명칭 Mauritius 복귀",
+      "assessment": "provisional",
+      "proposedValue": "Mauritius",
+      "uncertainty": "정확한 국명 시행일은 국립기록원 요약으로는 미확정."
+    }
+  ],
+  "sourceIds": [
+    "SRC-447",
+    "SRC-448",
+    "SRC-454"
+  ],
+  "unresolved": [
+    "조약 비준교환일·식민지 분류, 각 종속도서 범위 및 별도 역사 형상 미확정."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "treaty-signature",
+      "value": "1814-05-30"
+    }
+  ]
+}

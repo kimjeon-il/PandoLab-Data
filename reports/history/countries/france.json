@@ -22,7 +22,10 @@
     "SRC-373",
     "SRC-374",
     "SRC-424",
-    "SRC-427"
+    "SRC-427",
+    "SRC-447",
+    "SRC-448",
+    "SRC-454"
   ],
   "unresolved": [
     "대통령실: 1830년 7월 복원. 2020년 엘리제궁의 감청색 복귀는 전 국가를 대상으로 한 법정 강제 변경일과 동일하지 않음; 일자 미확인. 등록 SVG의 감청색 계열 확인.",
@@ -35,7 +38,8 @@
     "createdOn": "2026-11-25"
   },
   "eventIds": [
-    "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION"
+    "EVT-1808-TUSCANY-FRENCH-IMPERIAL-INCORPORATION",
+    "EVT-1814-MAURITIUS-BRITISH-CESSION"
   ],
   "lifetimeAssessment": {
     "status": "existing-period-not-modified",

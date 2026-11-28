@@ -1,0 +1,75 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "ENT-BRITISH-INDIAN-OCEAN-TERRITORY",
+  "type": "entity",
+  "title": "영국령 인도양 지역",
+  "subject": {
+    "key": "state:IOT",
+    "kind": "dependency",
+    "displayName": "영국령 인도양 지역",
+    "runtimeEntityId": "state:IOT"
+  },
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "region": "아프리카",
+  "historyScope": {
+    "from": "1801-01-01",
+    "through": "2026-11-29",
+    "fromIsCreationDate": false
+  },
+  "lifetimeAssessment": {
+    "status": "source-reviewed-existing-date-not-final-approval",
+    "validFrom": "1965-11-08",
+    "validTo": null,
+    "note": "영국 국내법상 별도 속령의 시작일. 국제법상 적법한 차고스 주권 취득을 뜻하지 않음. 종료일 미확정."
+  },
+  "eventIds": [
+    "EVT-1965-BIOT-COLONIAL-DETACHMENT",
+    "EVT-1976-SEYCHELLES-INDEPENDENCE-ISLAND-RETURN"
+  ],
+  "sourceIds": [
+    "SRC-453",
+    "SRC-454",
+    "SRC-455",
+    "SRC-456",
+    "SRC-457",
+    "SRC-458",
+    "SRC-459"
+  ],
+  "unresolved": [
+    "1965~1976 도서별 형상, 1976 영국 국내법 반환 명령 효력일, 국기 시작일.",
+    "1965 차고스 분리의 국제법상 위법성·현 실효 행정과 주권 구별. 2025-05-22 조약 서명은 종료일이 아님; 2026-10-08 미발효 확인. 이후 실제 발효 여부 추적."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "runtimeSnapshot": {
+    "repository": "kimjeon-il/PandoLab-Data",
+    "ref": "82ab5b52deb7cc5fd71cdbcd4e40c094a811056e",
+    "objectPath": "objects/f9512bf115e0fc695ace62e75cf8a522411b00f073fd8084ebb0662bae7a159a.json",
+    "lifetime": {
+      "validFrom": "1965-11-08",
+      "validTo": null
+    },
+    "parentEntityId": "state:GBR",
+    "names": {
+      "ko": "영국령 인도양 지역"
+    },
+    "nameVersions": [],
+    "geometryVersions": [
+      {
+        "validFrom": null,
+        "validTo": null,
+        "sourceId": "natural-earth-5.1.1"
+      }
+    ],
+    "defaultFlagDataUrl": "assets/vendor/country-flags/c09927e63705529bbf59ca6684cd9b23225dddad/svg/io.svg",
+    "note": "Data main 실제 객체 원본. Pando/PandoLab work/gis 404; PandoLab main AGENTS 읽기 전용 확인."
+  }
+}

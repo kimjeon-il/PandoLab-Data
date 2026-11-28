@@ -1,0 +1,73 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1965-BIOT-COLONIAL-DETACHMENT",
+  "type": "event",
+  "title": "영국령 인도양 지역 설치와 모리셔스·세이셸 도서 분리",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:IOT",
+    "state:MUS",
+    "state:SYC",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1965,
+    "value": "1965-11-08",
+    "precision": "day",
+    "note": "영국 국내법상 명령일=제3조 시행일. 국제법상 적법한 주권 이전으로 판정하지 않음."
+  },
+  "changes": [
+    {
+      "entityKey": "state:IOT",
+      "field": "territory.assignment",
+      "summary": "영국 국내법상 신설 별도 식민지에 차고스·파콰르·알다브라·데로슈 편입",
+      "assessment": "provisional",
+      "proposedValue": "Chagos Archipelago; Farquhar Islands; Aldabra Group; Desroches",
+      "uncertainty": "현 IOT 시작일·영국 parent는 이미 반영. 당시 추가 도서 형상 미반영 후보. 차고스 분리는 ICJ 2019 위법 판단."
+    },
+    {
+      "entityKey": "state:MUS",
+      "field": "territory.assignment",
+      "summary": "차고스 제도의 식민지 행정관할 분리",
+      "assessment": "provisional",
+      "proposedValue": "state:IOT",
+      "uncertainty": "국제법상 주권 이전을 의미하지 않음. 현대 MUS는 선행 식민지 연결용."
+    },
+    {
+      "entityKey": "state:SYC",
+      "field": "territory.assignment",
+      "summary": "알다브라·파콰르·데로슈 식민지 관할 분리",
+      "assessment": "provisional",
+      "proposedValue": "state:IOT",
+      "uncertainty": "현대 SYC는 선행 식민지 연결용. 역사 도서 폴리곤 미확보."
+    }
+  ],
+  "sourceIds": [
+    "SRC-453",
+    "SRC-454",
+    "SRC-455"
+  ],
+  "unresolved": [
+    "1965 원법령과 ICJ 국제법 판단을 구별해 모델 표현 결정. 1965~1976 도서별 형상·재배포 검증 미실행. 2025 조약 실제 발효 미확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "order-made-and-domestic-effect",
+      "value": "1965-11-08"
+    },
+    {
+      "kind": "icj-advisory-opinion",
+      "value": "2019-02-25"
+    }
+  ]
+}

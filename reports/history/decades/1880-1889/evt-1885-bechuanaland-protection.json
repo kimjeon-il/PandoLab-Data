@@ -1,0 +1,62 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1885-BECHUANALAND-PROTECTION",
+  "type": "event",
+  "title": "베추아날란드 영국 보호국화",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:BWA",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1885,
+    "value": "1885",
+    "precision": "year",
+    "note": "3월 선언과 9월 북부 보호국 포고 구별; 날짜 확정 유보."
+  },
+  "changes": [
+    {
+      "entityKey": "state:BWA",
+      "field": "relationship.parent",
+      "summary": "현 보츠와나의 선행 정치체 베추아날란드 보호국의 영국 보호관계",
+      "assessment": "provisional",
+      "proposedValue": "state:GBR",
+      "uncertainty": "현 state:BWA의 1966 이전 소급 사용 아님. 선행 속령 객체 분리 검토."
+    },
+    {
+      "entityKey": "state:BWA",
+      "field": "relationship.childType",
+      "summary": "보호국",
+      "assessment": "provisional",
+      "proposedValue": "protectorate",
+      "uncertainty": "남부 British Bechuanaland 왕령식민지와 구별, 형상 미확정."
+    }
+  ],
+  "sourceIds": [
+    "SRC-443",
+    "SRC-444"
+  ],
+  "unresolved": [
+    "원 포고 및 실제 효력일, 1885 남북 분리·1890 및 1911 확장과 역사 형상, 객체 동일성."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "reported-proclamation",
+      "value": "1885-03-23"
+    },
+    {
+      "kind": "reported-northern-proclamation",
+      "value": "1885-09-30"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1977-SEYCHELLES-FLAG-CHANGE",
+  "type": "event",
+  "title": "세이셸 두 번째 국기",
+  "status": {
+    "research": "provisional",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:SYC"
+  ],
+  "date": {
+    "year": 1977,
+    "value": "1977-06",
+    "precision": "month",
+    "note": "6월 29일 후보, 원 채택법 미확인."
+  },
+  "changes": [
+    {
+      "entityKey": "state:SYC",
+      "field": "flag",
+      "summary": "적·백·녹 가로 물결형 국기",
+      "assessment": "source-reviewed",
+      "proposedValue": "red-white-green wavy flag",
+      "uncertainty": "정확한 법정 채택일과 SVG ID 보류."
+    }
+  ],
+  "sourceIds": [
+    "SRC-459",
+    "SRC-460",
+    "SRC-462"
+  ],
+  "unresolved": [
+    "1977-06-29 후보와 06-05 정치사건을 구분. 원법령 확인."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "reported-flag-replacement",
+      "value": "1977-06-29"
+    }
+  ]
+}

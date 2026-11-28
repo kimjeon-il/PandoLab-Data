@@ -1,0 +1,59 @@
+{
+  "schema": "pando-history-report-v1",
+  "id": "EVT-1968-MAURITIUS-INDEPENDENCE-RELATION-FLAG",
+  "type": "event",
+  "title": "모리셔스 영국 식민통치 종료·독립 국기",
+  "status": {
+    "research": "source-reviewed",
+    "application": "not-applied",
+    "phase": "phase-1"
+  },
+  "entityKeys": [
+    "state:MUS",
+    "state:GBR"
+  ],
+  "date": {
+    "year": 1968,
+    "value": "1968-03-12",
+    "precision": "day",
+    "note": "독립법 제1조 및 독립 당시 국기 기록."
+  },
+  "changes": [
+    {
+      "entityKey": "state:MUS",
+      "field": "relationship.parent",
+      "summary": "영국 정부 통치 책임 종료",
+      "assessment": "source-reviewed",
+      "proposedValue": null,
+      "uncertainty": "공유 군주는 영국의 상위관계가 아님; 차고스 분리는 별도 사건."
+    },
+    {
+      "entityKey": "state:MUS",
+      "field": "flag",
+      "summary": "독립국의 네 색 가로띠 첫 게양",
+      "assessment": "source-reviewed",
+      "proposedValue": "빨강·파랑·노랑·초록",
+      "uncertainty": "원 왕실 영장 및 asset ID 미확인."
+    }
+  ],
+  "sourceIds": [
+    "SRC-449",
+    "SRC-450",
+    "SRC-452"
+  ],
+  "unresolved": [
+    "식민지 선행 객체와의 동일성, 1968년 국명 원문 및 독립 이전 국기 확인. 기존 독립일 신규 발견 0."
+  ],
+  "provenance": {
+    "legacyReportId": "none-new-structured-record",
+    "snapshotUrl": "",
+    "createdInRun": "GEO-LIFE-048",
+    "createdOn": "2026-11-29"
+  },
+  "evidenceDates": [
+    {
+      "kind": "royal-assent",
+      "value": "1968-02-29"
+    }
+  ]
+}
